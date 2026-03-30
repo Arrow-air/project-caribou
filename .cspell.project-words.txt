@@ -1,2 +1,13 @@
 hexacopter
 hexacopter
+MTOW
+Ardu
+ArduPilot
+Ardupilot
+repairability
+Licence
+arrowair
+Caribou
+Hobbywing
+Pixhawk
+GNSS
