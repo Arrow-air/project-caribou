@@ -1,5 +1,7 @@
 # Project Caribou 🦌
 
+![Project Caribou](docs/images/caribou_render.png)
+
 **An open-source heavy-lift hexacopter for cargo logistics and precision agriculture.**
 
 Project Caribou is a ~200 kg MTOW hexacopter with ~100 kg payload capacity, 18–24S power architecture, and ArduPilot firmware. Designed for ruggedness, field repairability, and cost-effective manufacturing. Built on lessons from Project Feather and Project Quiver.
