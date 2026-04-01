@@ -1,4 +1,4 @@
-# Frame Assembly Guide — PT1
+# Structural Assembly Guide — PT1
 
 **Status:** In progress  
 **Applies to:** PT1 test frame
