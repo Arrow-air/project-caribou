@@ -26,7 +26,9 @@ project-caribou/
 │   └── electronics/        # Self-contained KiCad PCB projects
 │       └── pcbs/
 │           ├── CBC_PCB/    # Caribou battery connector PCB, issue #6
+│           │   └── kicad/libs/
 │           └── CMAIN_PCB/  # Caribou main PCB, issue #8
+│               └── kicad/libs/
 ├── docs/
 │   ├── ADRs/               # Architecture Decision Records
 │   └── meetings/           # Meeting notes and summaries

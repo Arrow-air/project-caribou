@@ -1,15 +1,27 @@
 # PCB Projects
 
-Each folder in this directory is one KiCad PCB project.
+Each folder in this directory is one self-contained PCB project.
 
 ## Required PCB folder contents
 
-- `<board>.kicad_pro` — KiCad project file.
-- `<board>.kicad_sch` — schematic.
-- `<board>.kicad_pcb` — layout.
-- `symbols/` — project-local KiCad symbol libraries.
-- `footprints/` — project-local KiCad footprint libraries.
-- `3dmodels/` — project-local 3D models used by footprints.
-- `production/` — generated manufacturing outputs such as Gerbers, BOM, and pick-and-place files.
+```text
+PCBNAME/
+├── README.md
+├── docs/
+├── firmware/
+├── images/
+├── kicad/
+│   └── libs/
+│       ├── 3dmodels/
+│       ├── PCBNAME.pretty/
+│       └── PCBNAME.kicad_sym
+└── manufacturing/
+```
 
-Avoid relying on contributor-specific global KiCad libraries for project components. If a component is not from KiCad's standard libraries, include it locally in the PCB folder.
+## KiCad conventions
+
+- Put KiCad project files directly under `kicad/`.
+- Put project-local symbols, footprints, and 3D models under `kicad/libs/`.
+- Use `kicad/libs/PCBNAME.pretty/` for the board's local footprint library.
+- Use `kicad/libs/PCBNAME.kicad_sym` for the board's local symbol library.
+- Avoid relying on contributor-specific global KiCad libraries for project components. If a component is not from KiCad's standard libraries, include it locally in the PCB folder.

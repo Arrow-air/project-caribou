@@ -4,7 +4,7 @@ Caribou electronics design files live here.
 
 ## PCB projects
 
-Each PCB has its own self-contained folder under `pcbs/`. KiCad projects should include local symbol, footprint, and 3D model libraries so a contributor can clone/download the PCB folder and open it without missing project-specific components.
+Each PCB has its own self-contained folder under `pcbs/`. KiCad projects should keep project files under `kicad/` and local libraries under `kicad/libs/` so a contributor can clone/download the PCB folder and open it without missing project-specific components.
 
 Current PCB folders:
 

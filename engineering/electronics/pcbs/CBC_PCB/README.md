@@ -1,6 +1,6 @@
 # CBC_PCB — Caribou Battery Connector PCB
 
-Caribou battery connector PCB project.
+Caribou PCB project.
 
 - GitHub issue: [#6 — Design BC-PCB for Caribou: 18S, 100A nominal, 200A spike](https://github.com/Arrow-air/project-caribou/issues/6)
 - Starting point: Project Quiver BC-PCB KiCad design.
@@ -8,11 +8,14 @@ Caribou battery connector PCB project.
 
 ## Folder layout
 
-- `symbols/` — project-local symbols.
-- `footprints/` — project-local footprints.
-- `3dmodels/` — project-local 3D models.
-- `production/gerbers/` — generated Gerber outputs.
-- `production/bom/` — generated BOM outputs.
-- `production/pick-place/` — generated pick-and-place outputs.
+- `docs/` — board-specific notes, requirements, and design documentation.
+- `firmware/` — board-specific firmware, configuration, or embedded code if needed.
+- `images/` — board renders, screenshots, diagrams, and photos.
+- `kicad/` — KiCad project files.
+- `kicad/libs/` — project-local KiCad libraries.
+- `kicad/libs/3dmodels/` — project-local 3D models.
+- `kicad/libs/CBC_PCB.pretty/` — project-local footprint library.
+- `kicad/libs/CBC_PCB.kicad_sym` — project-local symbol library.
+- `manufacturing/` — generated manufacturing outputs such as Gerbers, BOM, assembly drawings, and pick-and-place files.
 
-Add the KiCad project files directly in this folder when design work starts.
+Add the KiCad project files directly under `kicad/` when design work starts. Keep project-specific components in `kicad/libs/` so the PCB can be opened without missing custom symbols, footprints, or 3D models.

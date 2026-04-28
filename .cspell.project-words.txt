@@ -11,6 +11,7 @@ hexacopter
 KiCad
 Licence
 MTOW
+PCBNAME
 pcbs
 repairability
 Tattu
