@@ -25,6 +25,14 @@ The CBC board sits between the battery and the propulsion unit. It provides:
 
 The regulated 12V output (GNDE) feeds into the Caribou Main PCB ([CMAIN_PCB](../CMAIN_PCB/)) via the AT signal connector harness.
 
+## Concept Renderings
+
+These early renderings show the intended CBC_PCB packaging concept and approximate component placement. They are illustrative only and may change during schematic/layout development.
+
+![CBC_PCB concept rendering with Tattu battery](images/cbc-pcb-battery-render.png)
+
+![CBC_PCB front concept rendering](images/cbc-pcb-front-render.png)
+
 ## Board Overview
 
 ```
