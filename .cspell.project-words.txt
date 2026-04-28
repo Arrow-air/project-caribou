@@ -4,6 +4,7 @@ Ardu
 ArduPilot
 arrowair
 build123d
+buildable
 CBC
 CMAIN
 dmodels
@@ -11,6 +12,8 @@ Gerber
 Gerbers
 GNDE
 GNDI
+GPIO
+GPIOs
 heatsinking
 hexacopter
 Hobbywing
