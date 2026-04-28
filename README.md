@@ -21,10 +21,18 @@ Developed by [Arrow Air](https://arrowair.com) and released under the CERN Open 
 
 ```
 project-caribou/
-├── src/                    # CAD models, schematics, design files
+├── engineering/            # Active design work
+│   ├── cad/                # build123d CAD, reference geometry, exports
+│   └── electronics/        # Self-contained KiCad PCB projects
+│       └── pcbs/
+│           ├── CBC_PCB/    # Caribou battery connector PCB, issue #6
+│           │   └── kicad/libs/
+│           └── CMAIN_PCB/  # Caribou main PCB, issue #8
+│               └── kicad/libs/
 ├── docs/
 │   ├── ADRs/               # Architecture Decision Records
 │   └── meetings/           # Meeting notes and summaries
+├── src/                    # Legacy/general source area
 └── CONTRIBUTING.md
 ```
 
