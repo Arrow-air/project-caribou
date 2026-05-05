@@ -24,4 +24,5 @@ ignorePaths:
   - "out"
   - "coverage"
   - "src/*.plan"
+  - "engineering/electronics/pcbs/*/kicad/**"
 noConfigSearch: true
