@@ -6,6 +6,15 @@ Caribou PCB project.
 - Starting point: Project Feather PDB and Project Quiver main PCB.
 - Scope: low-voltage/signal-level avionics integration, 6-motor outputs, ArduPilot/CAN architecture, ESC signal outputs, sensor connections, and central-frame form factor. High-voltage/current handling is out of scope.
 
+
+## Connector Requirements
+
+Initial connector requirements are tracked in [`docs/connector-requirements.md`](docs/connector-requirements.md). Current assumptions include:
+
+- 6× CBC_PCB interfaces using `AT13-12PB-BM03` 12-pin connectors.
+- 6× ESC interfaces using `AT13-6P-BM01GRY` 6-pin connectors with `CAN H`, `CAN L`, `PWM`, `GND`, `GND`, and `NC`.
+- Additional external sensor / attachment connectors are still TBD pending board-space and component-placement checks.
+
 ## Folder layout
 
 - `docs/` — board-specific notes, requirements, and design documentation.
