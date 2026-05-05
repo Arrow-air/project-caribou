@@ -19,7 +19,7 @@ The Caribou 90° adapter PCB (`C90D_PCB`) sits between the main battery connecto
 
 - Main battery connector: `ACES 59626`
 - CAN connector: `BM02B-GHS-TBT(LF)(SN)`
-- Right-angle screw terminal / power interface to the `CBC_PCB`
+- Right-angle screw terminal / power interface to the `CBC_PCB`: `OT-201-M8`
 
 ## Initial Requirements
 
@@ -30,6 +30,13 @@ The Caribou 90° adapter PCB (`C90D_PCB`) sits between the main battery connecto
 | Current design target | 150 A, pending detailed validation |
 | Mounting | Include mounting holes for the PCB / connector assembly |
 | Board constraints | Copper weight, current path geometry, connector ratings, thermal rise, and mechanical assembly must be checked against the 150 A target |
+
+## Reference Renderings
+
+The initial GitHub issue includes basic renderings showing the main component arrangement and intended 90° adapter concept. Treat these as layout/mechanical references for early design work; detailed placement and mounting geometry still need validation in CAD/KiCad.
+
+- [Rendering 1](https://github.com/user-attachments/assets/765d904a-0705-4a9c-978a-a3602e707b37)
+- [Rendering 2](https://github.com/user-attachments/assets/26fbdbea-c981-408a-b00c-e627d38056d7)
 
 ## Folder Layout
 
