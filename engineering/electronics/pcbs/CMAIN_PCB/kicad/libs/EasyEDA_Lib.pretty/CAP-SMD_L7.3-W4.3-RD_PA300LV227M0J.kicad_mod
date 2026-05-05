@@ -1,0 +1,457 @@
+	(footprint "CAP-SMD_L7.3-W4.3-RD_PA300LV227M0J"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "10.0")
+		(layer "F.Cu")
+		(property "Reference" "C19"
+			(at -6.3 0 90)
+			(layer "F.SilkS")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "22uF"
+			(at 0 2.986 90)
+			(layer "F.Fab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/EEFCX1E220R/3531718.html"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Capacitance:22uF Tolerance:±20% Tolerance:±20% Voltage Rating:25V Ripple Current:3.2A@100kHz Equivalent Series Resistance(ESR):40mΩ Type:Polymer Height - Seated (Max):1.9mm Lifetime:2000hrs@105°C Operating Temperature:-55°C~+105°C Operating Temperature:-55°C~"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC_3DModel_Q" "ddea1da4dcd64123a630ee34e73543ab"
+			(at 0 0 90)
+			(layer "Cmts.User")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC_3D_Size" "7.3 4.3"
+			(at 0 0 90)
+			(layer "Cmts.User")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part" "EEFCX1E220R"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "PANASONIC(松下)"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part" "C3018707"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Name" "22uF ±20% 25V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/f1c37a40-014c-466d-afc2-f384ebfd408f/d5b44997-591d-4f03-af65-7aa551335bf7")
+		(sheetname "/Power_control/")
+		(sheetfile "Power_control.kicad_sch")
+		(fp_line
+			(start 3.683 -2.159)
+			(end 3.683 -1.731)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 2.899 -2.159)
+			(end 2.899 -1.731)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 2.706 -2.159)
+			(end 2.706 -1.731)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 2.551 -2.159)
+			(end 2.551 -1.731)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 2.4335 -2.159)
+			(end 2.4335 -1.731)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -3.683 -2.159)
+			(end 3.683 -2.159)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 2.4335 -1.731)
+			(end 2.899 -1.731)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -3.683 -1.731)
+			(end -3.683 -2.159)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 1.524 -0.762)
+			(end 1.524 0.889)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 1.016 0)
+			(end 1.908 0)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -2.032 0)
+			(end -0.889 0)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 3.683 1.731)
+			(end 3.683 2.159)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 2.921 1.731)
+			(end 2.4555 1.731)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 3.683 2.159)
+			(end -3.683 2.159)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 2.921 2.159)
+			(end 2.921 1.731)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 2.8035 2.159)
+			(end 2.8035 1.731)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 2.648 2.159)
+			(end 2.648 1.731)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 2.4555 2.159)
+			(end 2.4555 1.731)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -3.683 2.159)
+			(end -3.683 1.731)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_poly
+			(pts
+				(xy 2.286 -2.159) (xy 2.286 -1.524) (xy 2.921 -1.524) (xy 2.921 -2.159)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "Dwgs.User")
+		)
+		(fp_poly
+			(pts
+				(xy 1.397 -0.889) (xy 1.397 1.016) (xy 1.651 1.016) (xy 1.651 -0.889)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "Dwgs.User")
+		)
+		(fp_poly
+			(pts
+				(xy 0.889 -0.127) (xy 0.889 0.127) (xy 2.032 0.127) (xy 2.032 -0.127)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "Dwgs.User")
+		)
+		(fp_poly
+			(pts
+				(xy -2 -0.127) (xy -2 0.127) (xy -0.857 0.127) (xy -0.857 -0.127)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "Dwgs.User")
+		)
+		(fp_poly
+			(pts
+				(xy 2.286 1.524) (xy 2.286 2.159) (xy 2.921 2.159) (xy 2.921 1.524)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "Dwgs.User")
+		)
+		(fp_poly
+			(pts
+				(xy 2.35 -1.2) (xy 3.65 -1.2) (xy 3.65 1.2) (xy 2.35 1.2)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+		)
+		(fp_poly
+			(pts
+				(xy -3.65 -1.2) (xy -2.35 -1.2) (xy -2.35 1.2) (xy -3.65 1.2)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+		)
+		(fp_line
+			(start 3.65 -2.15)
+			(end 3.65 2.15)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "User.2")
+		)
+		(fp_line
+			(start -3.65 -2.15)
+			(end 3.65 -2.15)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "User.2")
+		)
+		(fp_line
+			(start 3.65 2.15)
+			(end -3.65 2.15)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "User.2")
+		)
+		(fp_line
+			(start -3.65 2.15)
+			(end -3.65 -2.15)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "User.2")
+		)
+		(fp_poly
+			(pts
+				(xy -3.594567 2.127039) (xy -3.627039 2.094567) (xy -3.672961 2.094567) (xy -3.705433 2.127039)
+				(xy -3.705433 2.172961) (xy -3.672961 2.205433) (xy -3.627039 2.205433) (xy -3.594567 2.172961)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.3")
+		)
+		(pad "1" smd rect
+			(at -3.27 0 90)
+			(size 2 3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 34 "HV-")
+			(pinfunction "1")
+			(pintype "input")
+		)
+		(pad "2" smd rect
+			(at 3.27 0 90)
+			(size 2 3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 407 "Net-(K3-LOAD_2)")
+			(pinfunction "2")
+			(pintype "input")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/EASYEDA_MODELS/CAP-SMD_L7.3-W4.3-RD_PA300LV227M0J.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+	)

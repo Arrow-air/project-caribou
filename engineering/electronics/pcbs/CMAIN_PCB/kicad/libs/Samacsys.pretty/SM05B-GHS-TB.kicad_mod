@@ -1,0 +1,294 @@
+	(footprint "SM05B-GHS-TB"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "10.0")
+		(layer "B.Cu")
+		(descr "SM05B-GHS-TB")
+		(tags "Connector")
+		(property "Reference" "J36"
+			(at -7.10513 -2.858579 45)
+			(layer "B.SilkS")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "SM05B-GHS-TB_LF__SN_"
+			(at -0.273 -3.019 45)
+			(layer "B.SilkS")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/e4ef010dc292ea31091454f6c0afb63a.pdf"
+			(at 0 0 45)
+			(layer "B.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "JST GH Series, 1.25mm Pitch 5 Way Right Angle PCB Header, Solder Termination, 1A"
+			(at 0 0 45)
+			(layer "B.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Height" ""
+			(at 0 0 225)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 0 0 225)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/SM05B-GHS-TBLFSN?qs=QpmGXVUTftEjojOT4U3d6Q%3D%3D"
+			(at 0 0 225)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+			(at 0 0 225)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM05B-GHS-TB(LF)(SN)"
+			(at 0 0 225)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(path "/8f2f7fa3-5377-48db-a3bd-3b0355a09502")
+		(sheetname "/")
+		(sheetfile "Quiver_PT3_Main_PCB.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -3.5 -4.05)
+			(end 3.5 -4.05)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.SilkS")
+		)
+		(fp_line
+			(start -4.75 0.2)
+			(end -4.75 -1.429)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.SilkS")
+		)
+		(fp_line
+			(start -4.75 0.2)
+			(end -3.153 0.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.SilkS")
+		)
+		(fp_line
+			(start 4.75 0.2)
+			(end 4.75 -1.429)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.SilkS")
+		)
+		(fp_line
+			(start 4.75 0.2)
+			(end 3.153 0.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.SilkS")
+		)
+		(fp_circle
+			(center -3.263 1.288)
+			(end -3.263 1.252)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.SilkS")
+		)
+		(fp_line
+			(start -4.75 -4.05)
+			(end -4.75 0.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.Fab")
+		)
+		(fp_line
+			(start -4.75 0.2)
+			(end 4.75 0.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.Fab")
+		)
+		(fp_line
+			(start 4.75 -4.05)
+			(end -4.75 -4.05)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.Fab")
+		)
+		(fp_line
+			(start 4.75 0.2)
+			(end 4.75 -4.05)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.Fab")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.273 -3.019 45)
+			(layer "B.Fab")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd rect
+			(at -2.5 0.199999 45)
+			(size 0.6 1.7)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net 249 "ETH1_0B+")
+			(pinfunction "1")
+			(pintype "passive")
+		)
+		(pad "2" smd rect
+			(at -1.25 0.2 45)
+			(size 0.6 1.7)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net 248 "ETH1_0B-")
+			(pinfunction "2")
+			(pintype "passive")
+		)
+		(pad "3" smd rect
+			(at 0 0.199999 45)
+			(size 0.6 1.7)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net 1 "GND")
+			(pinfunction "3")
+			(pintype "passive")
+		)
+		(pad "4" smd rect
+			(at 1.25 0.2 45)
+			(size 0.6 1.7)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net 247 "ETH1_0A+")
+			(pinfunction "4")
+			(pintype "passive")
+		)
+		(pad "5" smd rect
+			(at 2.5 0.199999 45)
+			(size 0.6 1.7)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net 246 "ETH1_0A-")
+			(pinfunction "5")
+			(pintype "passive")
+		)
+		(pad "MP" smd rect
+			(at -4.35 -3 45)
+			(size 1 2.7)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net 273 "unconnected-(J36-PadMP)")
+			(pinfunction "MP")
+			(pintype "no_connect")
+		)
+		(pad "MP" smd rect
+			(at 4.35 -3 45)
+			(size 1 2.7)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net 274 "unconnected-(J36-PadMP)_1")
+			(pinfunction "MP")
+			(pintype "no_connect")
+		)
+		(embedded_fonts no)
+		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/SM05B-GHS-TB_LF__SN_.stp"
+			(offset
+				(xyz 0 -2.200000015 0.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -180 -180)
+			)
+		)
+	)

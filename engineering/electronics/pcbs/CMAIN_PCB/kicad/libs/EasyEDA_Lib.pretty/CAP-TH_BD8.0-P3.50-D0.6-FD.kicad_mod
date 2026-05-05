@@ -1,0 +1,306 @@
+	(footprint "CAP-TH_BD8.0-P3.50-D0.6-FD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "10.0")
+		(layer "F.Cu")
+		(property "Reference" "C10"
+			(at 0.038 -4.8275 135)
+			(layer "F.SilkS")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "470uF"
+			(at 0.038 4.826933 135)
+			(layer "F.Fab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/SPT1EM471F12OR/577890.html"
+			(at 0 0 135)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Capacitance:470uF Tolerance:±20% Tolerance:±20% Voltage Rating:25V Ripple Current:- Equivalent Series Resistance(ESR):- Type:- Pin Spacing:3.5mm Diameter:8mm Height - Seated (Max):12mm Lifetime:2000hrs@105°C Operating Temperature:-55°C~+105°C Operating Tempe"
+			(at 0 0 135)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC_3DModel_Q" "26f37486632942dc87f6308ee91e8f40"
+			(at 0 0 135)
+			(layer "Cmts.User")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC_3D_Size" "8 7.9975"
+			(at 0 0 135)
+			(layer "Cmts.User")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part" "SPT1EM471F12OR"
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Yunxing(云星)"
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part" "C556238"
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Name" "470uF ±20% 25V"
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/c60b632a-df5e-4d62-a4c6-0d8226599a53/12d6ea21-49b4-41a2-8367-bf896c1e9dd9")
+		(sheetname "/Power_supply/")
+		(sheetfile "power_supply.kicad_sch")
+		(fp_line
+			(start -2.2 -1.2)
+			(end -3.4445 -1.2)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -2.8225 -0.527)
+			(end -2.8225 -1.873)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_arc
+			(start 0.0735 -4.0005)
+			(mid 0.038001 3.999658)
+			(end 0.0025 -4.0005)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_poly
+			(pts
+				(arc
+					(start 2.75 3)
+					(mid 3.95 0)
+					(end 2.75 -3)
+				)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+		)
+		(fp_poly
+			(pts
+				(xy 3.5 -0.2) (xy 2.1 -0.2) (xy 2.1 0.2) (xy 3.7 0.199999) (xy 3.9 0.2) (xy 3.9 -0.2)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "Dwgs.User")
+		)
+		(fp_poly
+			(pts
+				(xy -2.5 -0.199999) (xy -3.9 -0.2) (xy -3.9 0.2) (xy -2.3 0.2) (xy -2.1 0.2) (xy -2.1 -0.2)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "Dwgs.User")
+		)
+		(fp_poly
+			(pts
+				(xy -3.2 -0.5) (xy -3.2 0.9) (xy -2.8 0.9) (xy -2.8 -0.7) (xy -2.8 -0.9) (xy -3.2 -0.9)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "Dwgs.User")
+		)
+		(fp_poly
+			(pts
+				(xy 2.047433 -0.039158) (xy 2.027164 -0.114805) (xy 1.988006 -0.182628) (xy 1.932628 -0.238006)
+				(xy 1.864805 -0.277164) (xy 1.789158 -0.297433) (xy 1.710842 -0.297433) (xy 1.635195 -0.277164)
+				(xy 1.567372 -0.238006) (xy 1.511994 -0.182628) (xy 1.472836 -0.114805) (xy 1.452567 -0.039158)
+				(xy 1.452567 0.039158) (xy 1.472836 0.114805) (xy 1.511994 0.182628) (xy 1.567372 0.238006) (xy 1.635195 0.277164)
+				(xy 1.710842 0.297433) (xy 1.789158 0.297433) (xy 1.864805 0.277164) (xy 1.932628 0.238006) (xy 1.988006 0.182628)
+				(xy 2.027164 0.114805) (xy 2.047433 0.039158)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+		)
+		(fp_poly
+			(pts
+				(xy -1.452567 -0.039158) (xy -1.472836 -0.114805) (xy -1.511994 -0.182628) (xy -1.567372 -0.238006)
+				(xy -1.635195 -0.277164) (xy -1.710842 -0.297433) (xy -1.789158 -0.297433) (xy -1.864805 -0.277164)
+				(xy -1.932628 -0.238006) (xy -1.988006 -0.182628) (xy -2.027164 -0.114805) (xy -2.047433 -0.039158)
+				(xy -2.047433 0.039158) (xy -2.027164 0.114805) (xy -1.988006 0.182628) (xy -1.932628 0.238006)
+				(xy -1.864805 0.277164) (xy -1.789158 0.297433) (xy -1.710842 0.297433) (xy -1.635195 0.277164)
+				(xy -1.567372 0.238006) (xy -1.511994 0.182628) (xy -1.472836 0.114805) (xy -1.452567 0.039158)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+		)
+		(fp_line
+			(start -0.0025 4.0715)
+			(end 0 4.0715)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "User.2")
+		)
+		(fp_arc
+			(start -0.0025 4.0715)
+			(mid -0.001751 -3.9285)
+			(end 0 4.0715)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "User.2")
+		)
+		(fp_poly
+			(pts
+				(xy -3.946067 4.048539) (xy -3.978539 4.016067) (xy -4.024461 4.016067) (xy -4.056933 4.048539)
+				(xy -4.056933 4.094461) (xy -4.024461 4.126933) (xy -3.978539 4.126933) (xy -3.946067 4.094461)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.3")
+		)
+		(pad "1" thru_hole circle
+			(at -1.75 0 225)
+			(size 1.6 1.6)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 36 "Net-(PS2-+VOUT)")
+			(pinfunction "1")
+			(pintype "input")
+			(thermal_bridge_angle 90)
+		)
+		(pad "2" thru_hole circle
+			(at 1.75 0 225)
+			(size 1.6 1.6)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "2")
+			(pintype "input")
+			(thermal_bridge_angle 90)
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/EASYEDA_MODELS/CAP-TH_D8.0-H8.0-P3.50.step"
+			(offset
+				(xyz 0 0 -3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -180)
+			)
+		)
+	)

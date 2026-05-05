@@ -1,0 +1,9 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "CMAIN_PCB")(type "KiCad")(uri "${KIPRJMOD}/libs/CMAIN_PCB.pretty")(options "")(descr "Project-local CMAIN footprints"))
+  (lib (name "EasyEDA_Lib")(type "KiCad")(uri "${KIPRJMOD}/libs/EasyEDA_Lib.pretty")(options "")(descr "Project-local EasyEDA footprints"))
+  (lib (name "PCM_JLCPCB")(type "KiCad")(uri "${KIPRJMOD}/libs/PCM_JLCPCB.pretty")(options "")(descr "Project-local PCM JLCPCB footprints"))
+  (lib (name "Samacsys")(type "KiCad")(uri "${KIPRJMOD}/libs/Samacsys.pretty")(options "")(descr "Project-local Samacsys footprints"))
+  (lib (name "Samacsys_kicad_sym")(type "KiCad")(uri "${KIPRJMOD}/libs/Samacsys_kicad_sym.pretty")(options "")(descr "Project-local Samacsys KiCad footprints"))
+  (lib (name "Snapeda")(type "KiCad")(uri "${KIPRJMOD}/libs/Snapeda.pretty")(options "")(descr "Project-local SnapEDA footprints"))
+)

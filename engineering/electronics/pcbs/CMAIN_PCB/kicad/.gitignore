@@ -1,0 +1,5 @@
+# KiCad local auto-backups
+*-backups/
+*.bak
+*.bck
+*-bak
