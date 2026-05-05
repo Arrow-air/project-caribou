@@ -18,6 +18,10 @@ The aircraft has six Hobbywing XRotor X15 propulsion units / ESCs. `CMAIN_PCB` s
 |---:|---|---|---|
 | 6 | `AT13-6P-BM01GRY` | ESC connection | `CAN H`, `CAN L`, `PWM`, `GND`, `GND`, `NC` |
 
+The Hobbywing ESC drawing below is the current reference for the ESC-side cable/interface details. It shows the high-current 6 AWG power cable, shielded cable, PWM/GND JR 3-pin connector, and CAN H/L JR 3-pin connector.
+
+![Hobbywing X15 ESC cable drawing](../images/hobbywing-x15-esc-cable-drawing.png)
+
 ## External Sensor / Payload Interfaces
 
 Caribou may need additional external waterproof connectors. Available board space and final component placement still need to be checked before freezing this connector set.
