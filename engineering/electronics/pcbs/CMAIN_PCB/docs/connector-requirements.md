@@ -50,5 +50,5 @@ Recommendation for sensor ports: evaluate M8 first for compact waterproof signal
 - Confirm exact CBC-to-CMAIN 12-pin pinout for `AT13-12PB-BM03`.
 - Confirm ESC connector orientation and final pin order for `AT13-6P-BM01GRY`.
 - Decide which external sensors/attachments must be on `CMAIN_PCB` versus remote breakout/harness modules.
-- Check board area and connector keepouts before selecting additional AT13 or smaller sensor connectors.
-- Select and validate smaller waterproof connector candidates with datasheets, mating cable availability, STEP models, and KiCad footprints.
+- Check board area and connector keepout areas before selecting additional AT13 or smaller sensor connectors.
+- Select and validate smaller waterproof connector candidates with data sheets, mating cable availability, STEP models, and KiCad footprints.
