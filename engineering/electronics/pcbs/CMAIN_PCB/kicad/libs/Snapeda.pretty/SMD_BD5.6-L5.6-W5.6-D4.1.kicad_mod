@@ -1,0 +1,412 @@
+	(footprint "SMD_BD5.6-L5.6-W5.6-D4.1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "10.0")
+		(layer "F.Cu")
+		(property "Reference" "U9"
+			(at 0.01 -4.0115 0)
+			(layer "F.SilkS")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SMTSO25100CTJ"
+			(at 0.01 4.0165 0)
+			(layer "F.Fab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211122/17CF5E24EB4D4DC090A80DE3D7DE5E21.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "specifications:M2.5X10 surface treatment:镀锡 Product Description:- material quality:- model:SMTSO25100CTJ brand:Sinhoo(雄和远景)"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC_3DModel_Q" "b410be6b7db242c48103c73efd580559"
+			(at 0 0 0)
+			(layer "Cmts.User")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC_3D_Size" "5.6 5.6"
+			(at 0 0 0)
+			(layer "Cmts.User")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part" "SMTSO25100CTJ"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Sinhoo(雄和远景)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part" "C2916330"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Name" "雄和远景，电路板表贴圆螺母柱，M2.5X10，铜镀锡,1个"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/0d9c303d-00e4-4ee3-a9db-f47fd2b7fc3a")
+		(sheetname "/")
+		(sheetfile "Quiver_PT3_Main_PCB.kicad_sch")
+		(fp_circle
+			(center 0.01 0.0025)
+			(end 3.26 0.0025)
+			(stroke
+				(width 0.128)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+		)
+		(fp_poly
+			(pts
+				(xy -3.129 -0.108) (xy -3.119 -0.258) (xy -3.089 -0.488) (xy -3.059 -0.638) (xy -2.969 -0.958) (xy -2.809 -1.368)
+				(xy -2.589 -1.758) (xy -2.309 -2.098) (xy -1.949 -2.458) (xy -1.529 -2.728) (xy -1.309 -2.838) (xy -1.029 -2.958)
+				(xy -0.479 -3.108) (xy -0.089 -3.148) (xy -0.089 -2.348) (xy -0.419 -2.298) (xy -0.899 -2.168) (xy -1.119 -2.028)
+				(xy -1.459 -1.808) (xy -1.799 -1.488) (xy -2.059 -1.068) (xy -2.179 -0.808) (xy -2.299 -0.408) (xy -2.329 -0.108)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+		)
+		(fp_poly
+			(pts
+				(xy -0.103 3.139) (xy -0.253 3.129) (xy -0.483 3.099) (xy -0.633 3.069) (xy -0.953 2.979) (xy -1.363 2.819)
+				(xy -1.753 2.599) (xy -2.093 2.319) (xy -2.453 1.959) (xy -2.723 1.539) (xy -2.833 1.319) (xy -2.953 1.039)
+				(xy -3.103 0.4895) (xy -3.15 0.1) (xy -2.343 0.099) (xy -2.293 0.429) (xy -2.163 0.909) (xy -2.023 1.129)
+				(xy -1.803 1.469) (xy -1.483 1.809) (xy -1.063 2.069) (xy -0.803 2.1895) (xy -0.403 2.309) (xy -0.103 2.339)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+		)
+		(fp_poly
+			(pts
+				(xy 0.103 -3.114) (xy 0.253 -3.104) (xy 0.483 -3.074) (xy 0.633 -3.044) (xy 0.953 -2.954) (xy 1.363 -2.794)
+				(xy 1.753 -2.574) (xy 2.093 -2.294) (xy 2.453 -1.934) (xy 2.723 -1.514) (xy 2.833 -1.294) (xy 2.953 -1.014)
+				(xy 3.103 -0.464) (xy 3.143 -0.074) (xy 2.343 -0.074) (xy 2.293 -0.404) (xy 2.163 -0.884) (xy 2.023 -1.104)
+				(xy 1.803 -1.444) (xy 1.483 -1.784) (xy 1.063 -2.044) (xy 0.803 -2.164) (xy 0.403 -2.284) (xy 0.103 -2.314)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+		)
+		(fp_poly
+			(pts
+				(xy 3.1365 0.108) (xy 3.1265 0.258) (xy 3.0965 0.488) (xy 3.0665 0.638) (xy 2.9765 0.958) (xy 2.8165 1.368)
+				(xy 2.5965 1.758) (xy 2.3165 2.098) (xy 1.9565 2.458) (xy 1.5365 2.728) (xy 1.3165 2.838) (xy 1.0365 2.958)
+				(xy 0.4865 3.108) (xy 0.0965 3.148) (xy 0.0965 2.348) (xy 0.4265 2.298) (xy 0.9065 2.168) (xy 1.1265 2.028)
+				(xy 1.4665 1.808) (xy 1.8065 1.488) (xy 2.0665 1.068) (xy 2.1865 0.808) (xy 2.3065 0.408) (xy 2.3365 0.108)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+		)
+		(fp_line
+			(start -2.768 0.0045)
+			(end -2.768 -0.015)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "User.2")
+		)
+		(fp_line
+			(start -0.007 -2.776)
+			(end 0.011 -2.776)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "User.2")
+		)
+		(fp_line
+			(start 0.011 2.783)
+			(end 0.01 2.783)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "User.2")
+		)
+		(fp_line
+			(start 2.7895 0.003)
+			(end 2.7895 0.004)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "User.2")
+		)
+		(fp_arc
+			(start -2.768 -0.015)
+			(mid -1.959322 -1.967322)
+			(end -0.007 -2.776)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "User.2")
+		)
+		(fp_arc
+			(start 0.01 2.783)
+			(mid -1.954696 1.969196)
+			(end -2.768 0.0045)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "User.2")
+		)
+		(fp_arc
+			(start 0.011 -2.776)
+			(mid 1.97605 -1.96205)
+			(end 2.7895 0.003)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "User.2")
+		)
+		(fp_arc
+			(start 2.7895 0.004)
+			(mid 1.975696 1.968696)
+			(end 0.011 2.783)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "User.2")
+		)
+		(fp_poly
+			(pts
+				(xy 2.844933 -2.798961) (xy 2.812461 -2.831433) (xy 2.766539 -2.831433) (xy 2.734067 -2.798961)
+				(xy 2.734067 -2.753039) (xy 2.766539 -2.720567) (xy 2.812461 -2.720567) (xy 2.844933 -2.753039)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.3")
+		)
+		(pad "1" smd custom
+			(at -1.623 2.1665)
+			(size 0.000001 0.000001)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 393 "unconnected-(U9-Pad1)_2")
+			(pinfunction "1")
+			(pintype "no_connect")
+			(thermal_bridge_angle 90)
+			(options
+				(clearance outline)
+				(anchor circle)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 1.52 0.9725) (xy 1.37 0.9625) (xy 1.14 0.9325) (xy 0.99 0.9025) (xy 0.67 0.8125) (xy 0.26 0.6525)
+						(xy -0.13 0.4325) (xy -0.47 0.1525) (xy -0.83 -0.2075) (xy -1.1 -0.6275) (xy -1.21 -0.8475) (xy -1.33 -1.1275)
+						(xy -1.48 -1.677) (xy -1.52 -2.0675) (xy -0.72 -2.0675) (xy -0.67 -1.7375) (xy -0.54 -1.2575)
+						(xy -0.4 -1.0375) (xy -0.18 -0.6975) (xy 0.14 -0.3575) (xy 0.56 -0.0975) (xy 0.82 0.023) (xy 1.22 0.1425)
+						(xy 1.52 0.1725)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+		)
+		(pad "1" smd custom
+			(at -1.609 -2.1715)
+			(size 0.000001 0.000001)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 392 "unconnected-(U9-Pad1)_1")
+			(pinfunction "1")
+			(pintype "no_connect")
+			(thermal_bridge_angle 90)
+			(options
+				(clearance outline)
+				(anchor circle)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -1.52 2.0635) (xy -1.51 1.9135) (xy -1.48 1.6835) (xy -1.45 1.5335) (xy -1.36 1.2135) (xy -1.2 0.8035)
+						(xy -0.98 0.4135) (xy -0.7 0.0735) (xy -0.34 -0.2865) (xy 0.08 -0.5565) (xy 0.3 -0.6665) (xy 0.58 -0.7865)
+						(xy 1.13 -0.9365) (xy 1.52 -0.9765) (xy 1.52 -0.1765) (xy 1.19 -0.1265) (xy 0.71 0.0035) (xy 0.49 0.1435)
+						(xy 0.15 0.3635) (xy -0.19 0.6835) (xy -0.45 1.1035) (xy -0.57 1.3635) (xy -0.69 1.7635) (xy -0.72 2.0635)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 4.7 4.7)
+			(drill 4.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers yes)
+			(keep_end_layers yes)
+			(zone_layer_connections)
+			(net 446 "unconnected-(U9-Pad1)_4")
+			(pinfunction "1")
+			(pintype "no_connect")
+		)
+		(pad "1" smd custom
+			(at 1.6165 2.1715)
+			(size 0.000001 0.000001)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 372 "unconnected-(U9-Pad1)")
+			(pinfunction "1")
+			(pintype "no_connect")
+			(thermal_bridge_angle 90)
+			(options
+				(clearance outline)
+				(anchor circle)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 1.52 -2.0635) (xy 1.51 -1.9135) (xy 1.48 -1.6835) (xy 1.45 -1.5335) (xy 1.36 -1.2135) (xy 1.2 -0.8035)
+						(xy 0.98 -0.4135) (xy 0.7 -0.0735) (xy 0.34 0.2865) (xy -0.08 0.5565) (xy -0.3 0.6665) (xy -0.58 0.7865)
+						(xy -1.13 0.9365) (xy -1.52 0.9765) (xy -1.52 0.1765) (xy -1.19 0.1265) (xy -0.71 -0.0035) (xy -0.49 -0.1435)
+						(xy -0.15 -0.3635) (xy 0.19 -0.6835) (xy 0.45 -1.1035) (xy 0.57 -1.3635) (xy 0.69 -1.7635) (xy 0.72 -2.0635)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+		)
+		(pad "1" smd custom
+			(at 1.623 -2.141)
+			(size 0.000001 0.000001)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 394 "unconnected-(U9-Pad1)_3")
+			(pinfunction "1")
+			(pintype "no_connect")
+			(thermal_bridge_angle 90)
+			(options
+				(clearance outline)
+				(anchor circle)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -1.52 -0.973) (xy -1.37 -0.963) (xy -1.14 -0.933) (xy -0.99 -0.903) (xy -0.67 -0.813) (xy -0.26 -0.653)
+						(xy 0.13 -0.433) (xy 0.47 -0.153) (xy 0.83 0.207) (xy 1.1 0.627) (xy 1.21 0.847) (xy 1.33 1.127)
+						(xy 1.48 1.677) (xy 1.52 2.067) (xy 0.72 2.067) (xy 0.67 1.737) (xy 0.54 1.257) (xy 0.4 1.037)
+						(xy 0.18 0.697) (xy -0.14 0.357) (xy -0.56 0.097) (xy -0.82 -0.023) (xy -1.22 -0.143) (xy -1.52 -0.173)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD_3RD_PARTY}/Snapeda.3dshapes/M2.5x10.step"
+			(offset
+				(xyz 0.0105 -0.0025 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -90)
+			)
+		)
+	)

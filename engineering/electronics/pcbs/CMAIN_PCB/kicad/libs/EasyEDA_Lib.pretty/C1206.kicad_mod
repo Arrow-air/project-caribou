@@ -1,0 +1,360 @@
+	(footprint "C1206"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "10.0")
+		(layer "B.Cu")
+		(property "Reference" "C14"
+			(at 0 1.86875 45)
+			(layer "B.SilkS")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "1uF"
+			(at 0 -1.86875 45)
+			(layer "B.Fab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL31B105KCHNNNE/14487.html"
+			(at 0 0 45)
+			(layer "B.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Capacitance:1uF Tolerance:±10% Tolerance:±10% Voltage Rating:100V Temperature Coefficient:X7R"
+			(at 0 0 45)
+			(layer "B.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLC_3DModel_Q" "c6790e9475e1483991d2c64340b24e96"
+			(at 0 0 45)
+			(layer "Cmts.User")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC_3D_Size" "3.2 1.6"
+			(at 0 0 45)
+			(layer "Cmts.User")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CL31B105KCHNNNE"
+			(at 0 0 225)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 0 0 225)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Supplier Part" "C13832"
+			(at 0 0 225)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 225)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Part Name" "1uF ±10% 100V"
+			(at 0 0 225)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(path "/c60b632a-df5e-4d62-a4c6-0d8226599a53/ab7c0aa5-a260-44b1-bfe8-268ee12f21ee")
+		(sheetname "/Power_supply/")
+		(sheetfile "power_supply.kicad_sch")
+		(fp_line
+			(start -2.5635 -0.94)
+			(end -2.5635 0.94)
+			(stroke
+				(width 0.1525)
+				(type default)
+			)
+			(layer "B.SilkS")
+		)
+		(fp_line
+			(start -0.926 -1.0925)
+			(end -2.411 -1.0925)
+			(stroke
+				(width 0.1525)
+				(type default)
+			)
+			(layer "B.SilkS")
+		)
+		(fp_line
+			(start -2.411 1.0925)
+			(end -0.926 1.0925)
+			(stroke
+				(width 0.1525)
+				(type default)
+			)
+			(layer "B.SilkS")
+		)
+		(fp_line
+			(start 0.926 -1.0925)
+			(end 2.411 -1.0925)
+			(stroke
+				(width 0.1525)
+				(type default)
+			)
+			(layer "B.SilkS")
+		)
+		(fp_line
+			(start 2.5635 -0.94)
+			(end 2.5635 0.94)
+			(stroke
+				(width 0.1525)
+				(type default)
+			)
+			(layer "B.SilkS")
+		)
+		(fp_line
+			(start 2.411 1.0925)
+			(end 0.926 1.0925)
+			(stroke
+				(width 0.1525)
+				(type default)
+			)
+			(layer "B.SilkS")
+		)
+		(fp_arc
+			(start -2.5635 -0.94)
+			(mid -2.518834 -1.047834)
+			(end -2.411 -1.0925)
+			(stroke
+				(width 0.1525)
+				(type default)
+			)
+			(layer "B.SilkS")
+		)
+		(fp_arc
+			(start -2.411 1.0925)
+			(mid -2.518834 1.047834)
+			(end -2.5635 0.94)
+			(stroke
+				(width 0.1525)
+				(type default)
+			)
+			(layer "B.SilkS")
+		)
+		(fp_arc
+			(start 2.411 -1.0925)
+			(mid 2.518834 -1.047834)
+			(end 2.5635 -0.94)
+			(stroke
+				(width 0.1525)
+				(type default)
+			)
+			(layer "B.SilkS")
+		)
+		(fp_arc
+			(start 2.5635 0.94)
+			(mid 2.518834 1.047834)
+			(end 2.411 1.0925)
+			(stroke
+				(width 0.1525)
+				(type default)
+			)
+			(layer "B.SilkS")
+		)
+		(fp_poly
+			(pts
+				(xy -0.85 -0.764) (xy -0.85 -0.394) (xy -0.95 -0.294) (xy -1.255 -0.293999) (xy -1.355 -0.194) (xy -1.355 0.194)
+				(xy -1.255 0.293999) (xy -0.95 0.294) (xy -0.85 0.394) (xy -0.85 0.764) (xy -0.95 0.864) (xy -2.235 0.864)
+				(xy -2.335 0.764) (xy -2.335 -0.764) (xy -2.235 -0.864) (xy -0.95 -0.864)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "B.Paste")
+		)
+		(fp_poly
+			(pts
+				(xy 0.85 -0.764) (xy 0.85 -0.394) (xy 0.95 -0.294) (xy 1.255 -0.293999) (xy 1.355 -0.194) (xy 1.355 0.194)
+				(xy 1.255 0.293999) (xy 0.95 0.294) (xy 0.85 0.394) (xy 0.85 0.764) (xy 0.95 0.864) (xy 2.235 0.864)
+				(xy 2.335 0.764) (xy 2.335 -0.764) (xy 2.235 -0.864) (xy 0.95 -0.864)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "B.Paste")
+		)
+		(fp_poly
+			(pts
+				(xy -1.6 -0.8) (xy -1.6 0.8) (xy -1.1 0.8) (xy -1.1 -0.8)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+		)
+		(fp_poly
+			(pts
+				(xy 1.6 -0.8) (xy 1.6 0.8) (xy 1.1 0.8) (xy 1.1 -0.8)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+		)
+		(fp_line
+			(start -1.6 -0.8)
+			(end -1.6 0.8)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "User.2")
+		)
+		(fp_line
+			(start -1.6 0.8)
+			(end 1.6 0.8)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "User.2")
+		)
+		(fp_line
+			(start 1.6 -0.8)
+			(end -1.6 -0.8)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "User.2")
+		)
+		(fp_line
+			(start 1.6 0.8)
+			(end 1.6 -0.8)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "User.2")
+		)
+		(fp_poly
+			(pts
+				(xy -1.544567 -0.777039) (xy -1.577039 -0.744566) (xy -1.622961 -0.744567) (xy -1.655432 -0.777039)
+				(xy -1.655433 -0.822961) (xy -1.622961 -0.855433) (xy -1.577038 -0.855433) (xy -1.544567 -0.822961)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.3")
+		)
+		(pad "1" smd rect
+			(at -1.592501 0 45)
+			(size 1.485 1.728)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net 116 "HV+")
+			(pinfunction "1")
+			(pintype "passive")
+		)
+		(pad "2" smd rect
+			(at 1.592501 0 45)
+			(size 1.485 1.728)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net 34 "HV-")
+			(pinfunction "2")
+			(pintype "passive")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/EASYEDA_MODELS/C1206_L3.2-W1.6-H1.3.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+	)

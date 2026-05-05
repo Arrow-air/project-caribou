@@ -1,0 +1,430 @@
+	(footprint "SLW9135352ASMT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "10.0")
+		(layer "F.Cu")
+		(descr "SLW-913535-2A-SMT-3")
+		(tags "Switch")
+		(property "Reference" "S1"
+			(at 6.3 0 0)
+			(layer "F.SilkS")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "SLW-913535-2A-SMT"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/supplyframepdf/slw-913535-2a-smt.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "9.1 x 3.5 x 3.5 mm, 2 mm Raised Slide Actuator, Vertical, Surface Mount, Slide Switch"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALTIUM_VALUE" "SLW-913535-2A-SMT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SUPPLIER PART NUMBER" "179-SLW-913535-2ASMT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "CUI Devices"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "SLW-913535-2A-SMT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SUPPLIER" "Mouser"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "5.9"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "179-SLW-913535-2ASMT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Same-Sky/SLW-913535-2A-SMT?qs=1Kr7Jg1SGW948I6fIY1VRA%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Same Sky"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SLW-913535-2A-SMT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/760980ce-7a2e-492d-aa8b-14f8df9f3f67/737bc8ac-3ace-4624-ad5f-3675685adf86")
+		(sheetname "/CAN_circuit/")
+		(sheetfile "CAN circuit.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -4.55 -1.75)
+			(end -4.55 1.75)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -4.55 1.75)
+			(end -3.413 1.75)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -4.095 -1.75)
+			(end -3.413 -1.75)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -3.64 -1.75)
+			(end -4.55 -1.75)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -2.5 -4.3)
+			(end -2.5 -4.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -2.5 -4.2)
+			(end -2.5 -4.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 3.64 1.75)
+			(end 4.55 1.75)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 4.55 -1.75)
+			(end 3.412 -1.75)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 4.55 1.75)
+			(end 4.55 -1.75)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_arc
+			(start -2.5 -4.3)
+			(mid -2.45 -4.25)
+			(end -2.5 -4.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_arc
+			(start -2.5 -4.2)
+			(mid -2.55 -4.25)
+			(end -2.5 -4.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -5.55 -4.8)
+			(end 5.55 -4.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+		)
+		(fp_line
+			(start -5.55 4.8)
+			(end -5.55 -4.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+		)
+		(fp_line
+			(start 5.55 -4.8)
+			(end 5.55 4.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+		)
+		(fp_line
+			(start 5.55 4.8)
+			(end -5.55 4.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+		)
+		(fp_line
+			(start -4.55 -1.75)
+			(end 4.55 -1.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+		)
+		(fp_line
+			(start -4.55 1.75)
+			(end -4.55 -1.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+		)
+		(fp_line
+			(start 4.55 -1.75)
+			(end 4.55 1.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+		)
+		(fp_line
+			(start 4.55 1.75)
+			(end -4.55 1.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -2.5 -2.825)
+			(size 1.2 1.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 94 "Net-(S1-NC_1)")
+			(pinfunction "NC_1")
+			(pintype "passive")
+		)
+		(pad "2" smd rect
+			(at 0 -2.825)
+			(size 1.2 1.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 304 "CAN1_H")
+			(pinfunction "COM_1")
+			(pintype "passive")
+		)
+		(pad "3" smd rect
+			(at 2.5 -2.825)
+			(size 1.2 1.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 99 "unconnected-(S1-NC_2-Pad3)")
+			(pinfunction "NC_2")
+			(pintype "passive+no_connect")
+		)
+		(pad "4" smd rect
+			(at -2.5 2.825)
+			(size 1.2 1.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 97 "unconnected-(S1-NC_3-Pad4)")
+			(pinfunction "NC_3")
+			(pintype "passive+no_connect")
+		)
+		(pad "5" smd rect
+			(at 0 2.825)
+			(size 1.2 1.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 98 "unconnected-(S1-COM_2-Pad5)")
+			(pinfunction "COM_2")
+			(pintype "passive+no_connect")
+		)
+		(pad "6" smd rect
+			(at 2.5 2.825)
+			(size 1.2 1.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 96 "unconnected-(S1-NC_4-Pad6)")
+			(pinfunction "NC_4")
+			(pintype "passive+no_connect")
+		)
+		(embedded_fonts no)
+		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/SLW-913535-2A-SMT.stp"
+			(offset
+				(xyz 0 0 3.509999938)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)

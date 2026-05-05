@@ -1,0 +1,370 @@
+	(footprint "1814951"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "10.0")
+		(layer "F.Cu")
+		(descr "1814951-7")
+		(tags "Connector")
+		(property "Reference" "J31"
+			(at -10.677312 -4.596194 135)
+			(layer "F.SilkS")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "1814951"
+			(at 0 0 135)
+			(layer "F.SilkS")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.phoenixcontact.com/en-in/products/pcb-header-ptsm-05-6-hh0-25-smd-wh-r44-1814951"
+			(at 0 0 135)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "PCB header, nominal cross section: 0.5 mm?, color: white, nominal current: 6 A, rated voltage (III/2): 160 V, contact surface: Tin, type of contact: Male connector, Number of potentials: 6, Number of rows: 1, Number of positions per row: 6, number of connections: 6, product range: PTSM 0,5/..-HH-SMD WH, pitch: 2.5 mm, mounting: SMD soldering, pin layout: Linear pad geometry, Stecksystem: COMBICON COMPACT PTSM, Locking: without, type of packaging: 44 mm wide tape"
+			(at 0 0 135)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "5.1"
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "651-1814951"
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1814951?qs=eTPcRhULBzz98OWW2TOMKg%3D%3D"
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Phoenix Contact"
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1814951"
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/b056d5f8-9f51-460c-aa2b-dc8139dec92c")
+		(sheetname "/")
+		(sheetfile "Quiver_PT3_Main_PCB.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 10.3 -2.75)
+			(end 7.2 -2.75)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 10.3 -2)
+			(end 10.3 -2.75)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -6.25 -5.4)
+			(end -6.25 -5.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -6.249999 -5.3)
+			(end -6.249999 -5.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -7.2 -2.75)
+			(end -10.3 -2.75)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -10.3 -2.75)
+			(end -10.3 -2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_arc
+			(start -6.25 -5.4)
+			(mid -6.2 -5.35)
+			(end -6.249999 -5.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_arc
+			(start -6.249999 -5.3)
+			(mid -6.3 -5.35)
+			(end -6.25 -5.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 10.3 4.75)
+			(end 10.3 4.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+		)
+		(fp_line
+			(start -10.3 4.2)
+			(end -10.3 4.75)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+		)
+		(fp_line
+			(start -10.3 4.75)
+			(end 10.3 4.75)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+		)
+		(fp_line
+			(start 11.7 -5.75)
+			(end 11.7 5.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+		)
+		(fp_line
+			(start 11.7 5.75)
+			(end -11.7 5.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+		)
+		(fp_line
+			(start -11.7 -5.75)
+			(end 11.7 -5.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+		)
+		(fp_line
+			(start -11.7 5.75)
+			(end -11.7 -5.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+		)
+		(fp_line
+			(start 10.3 -2.75)
+			(end -10.3 -2.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+		)
+		(fp_line
+			(start 10.3 4.75)
+			(end 10.3 -2.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+		)
+		(fp_line
+			(start -10.3 -2.75)
+			(end -10.3 4.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+		)
+		(fp_line
+			(start -10.3 4.75)
+			(end 10.3 4.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 135)
+			(layer "F.Fab")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "" smd rect
+			(at -9.600001 1.1 135)
+			(size 2.2 5.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(zone_connect 0)
+		)
+		(pad "" smd rect
+			(at 9.600001 1.1 135)
+			(size 2.2 5.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(zone_connect 0)
+		)
+		(pad "1" smd rect
+			(at -6.25 -3.15 135)
+			(size 1.2 3.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 1 "GND")
+			(pinfunction "1")
+			(pintype "passive")
+		)
+		(pad "2" smd rect
+			(at -3.75 -3.15 135)
+			(size 1.2 3.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 121 "+12V_PL")
+			(pinfunction "2")
+			(pintype "passive")
+		)
+		(pad "3" smd rect
+			(at -1.25 -3.15 135)
+			(size 1.2 3.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 77 "/CAN2_L")
+			(pinfunction "3")
+			(pintype "passive")
+		)
+		(pad "4" smd rect
+			(at 1.25 -3.15 135)
+			(size 1.2 3.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 72 "/CAN2_H")
+			(pinfunction "4")
+			(pintype "passive")
+		)
+		(pad "5" smd rect
+			(at 3.75 -3.15 135)
+			(size 1.2 3.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 100 "/FMU_CH1")
+			(pinfunction "5")
+			(pintype "passive")
+		)
+		(pad "6" smd rect
+			(at 6.25 -3.15 135)
+			(size 1.2 3.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 454 "12VSW")
+			(pinfunction "6")
+			(pintype "passive")
+		)
+		(embedded_fonts no)
+		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/1814951.stp"
+			(offset
+				(xyz 8.35 -5.18 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -90)
+			)
+		)
+	)

@@ -1,0 +1,431 @@
+	(footprint "CONN-TH_SM03B-GHS-TB-LF-SN"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "10.0")
+		(layer "F.Cu")
+		(property "Reference" "J17"
+			(at 0.070711 -5.020458 45)
+			(layer "F.SilkS")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SM03B-GHS-TB(LF)(SN)"
+			(at 0 3.654 45)
+			(layer "F.Fab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/SM03B-GHS-TB(LF)(SN)/529631.html"
+			(at 0 0 45)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Pins Structure:1x3P Pitch:1.25mm Mounting Type:Surface Mount, Right Angle Reference Series:GH Number of Pins:3P Number of Rows:1 Number of PINs Per Row:3 Row Spacing:- Current Rating:1A Contact Material:Phosphor Bronze Contact Plating:Tin Operating Temper"
+			(at 0 0 45)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC_3DModel_Q" "cbca130f74334c7980150e5e1b521496"
+			(at 0 0 45)
+			(layer "Cmts.User")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC_3D_Size" "7 4.85"
+			(at 0 0 45)
+			(layer "Cmts.User")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "5.1"
+			(at 0 0 45)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "651-1814922"
+			(at 0 0 45)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1814922?qs=eTPcRhULBzxqa49Ua%252B87wQ%3D%3D"
+			(at 0 0 45)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Phoenix Contact"
+			(at 0 0 45)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1814922"
+			(at 0 0 45)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part" "SM03B-GHS-TB(LF)(SN)"
+			(at 0 0 45)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 0 0 45)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part" "C514175"
+			(at 0 0 45)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 45)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Name" "1x3P 间距:1.25mm 卧贴 系列:GH"
+			(at 0 0 45)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/bd0f352c-2794-4755-9c74-176624f43434")
+		(sheetname "/")
+		(sheetfile "Quiver_PT3_Main_PCB.kicad_sch")
+		(fp_line
+			(start -3.5 -1.283)
+			(end -3.5 0.523)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -1.7815 -1.283)
+			(end -3.5 -1.283)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -0.5315 -1.283)
+			(end -0.719 -1.283)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 0.719 -1.283)
+			(end 0.531 -1.283)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -2.369 2.766999)
+			(end 2.369 2.766999)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 3.5 -1.283)
+			(end 1.781 -1.283)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 3.5 -1.283)
+			(end 3.5 0.523)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_circle
+			(center -2.164 -1.913)
+			(end -2.014 -1.913)
+			(stroke
+				(width 0.3)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+		)
+		(fp_circle
+			(center -1.247 -2.327)
+			(end -1.097001 -2.327)
+			(stroke
+				(width 0.3)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+		)
+		(fp_poly
+			(pts
+				(xy -1.35 -1.083) (xy -1.35 -2.083) (xy -1.15 -2.083) (xy -1.15 -1.083)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+		)
+		(fp_poly
+			(pts
+				(xy -3.100001 0.941) (xy -2.9 0.941) (xy -2.9 2.767) (xy -3.1 2.766999)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+		)
+		(fp_poly
+			(pts
+				(xy -0.1 -1.083) (xy -0.1 -2.083) (xy 0.1 -2.083) (xy 0.1 -1.083)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+		)
+		(fp_poly
+			(pts
+				(xy 1.15 -1.083) (xy 1.15 -2.083) (xy 1.35 -2.083) (xy 1.35 -1.083)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+		)
+		(fp_poly
+			(pts
+				(xy 2.9 0.941) (xy 3.100001 0.941) (xy 3.1 2.766999) (xy 2.9 2.767)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+		)
+		(fp_line
+			(start -3.5 -1.283)
+			(end 3.5 -1.283)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "User.2")
+		)
+		(fp_line
+			(start -3.5 2.767)
+			(end -3.5 -1.283)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "User.2")
+		)
+		(fp_line
+			(start 3.5 -1.283)
+			(end 3.5 2.767)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "User.2")
+		)
+		(fp_line
+			(start 3.5 2.767)
+			(end -3.5 2.767)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "User.2")
+		)
+		(fp_poly
+			(pts
+				(xy -3.444567 -2.105961) (xy -3.477038 -2.138433) (xy -3.522961 -2.138433) (xy -3.555433 -2.105961)
+				(xy -3.555433 -2.060039) (xy -3.522961 -2.027567) (xy -3.477038 -2.027567) (xy -3.444567 -2.060039)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.3")
+		)
+		(pad "1" smd rect
+			(at -1.25 -1.853999 315)
+			(size 1.7 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 111 "/IO_PPM_INPUT_AND_SBUS_INPUT")
+			(pinfunction "1")
+			(pintype "passive")
+		)
+		(pad "2" smd rect
+			(at 0 -1.854 315)
+			(size 1.7 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 1 "GND")
+			(pinfunction "2")
+			(pintype "passive")
+		)
+		(pad "3" smd rect
+			(at 1.25 -1.853999 315)
+			(size 1.7 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 237 "unconnected-(J17-Pad3)")
+			(pinfunction "3")
+			(pintype "passive+no_connect")
+		)
+		(pad "4" smd rect
+			(at 3.1 1.854 45)
+			(size 1 2.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 418 "unconnected-(J17-Pad4)")
+			(pinfunction "4")
+			(pintype "passive+no_connect")
+		)
+		(pad "5" smd rect
+			(at -3.1 1.854 45)
+			(size 1 2.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 419 "unconnected-(J17-Pad5)")
+			(pinfunction "5")
+			(pintype "passive+no_connect")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/EASYEDA_MODELS/CONN-TH_SM03B-GHS-TB-LF-SN.step"
+			(offset
+				(xyz 0 -0.342 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+	)

@@ -1,0 +1,403 @@
+	(footprint "PWRM-TH_YLPTEC_URBXXXXS-6WR3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "10.0")
+		(layer "F.Cu")
+		(property "Reference" "U4"
+			(at -12.637666 6.29325 135)
+			(layer "F.SilkS")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "URB4805S-6WR3"
+			(at 0 7.827 135)
+			(layer "F.Fab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/URB4805S-6WR3/21043474.html"
+			(at 0 0 135)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Type:Buck Number of Channels:1 Output Power:6W Voltage - Supply:18V~75V Voltage - Supply:18V~75V Conversion Efficiency:82% Conversion Efficiency:82% Output Voltage:5V Output Voltage:5V Output Current(Max):1.2A Output Current(Max):1.2A Capacitive Load(Max)"
+			(at 0 0 135)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC_3DModel_Q" "6422fdbfcd9340f9ac558e0efaef4182"
+			(at 0 0 135)
+			(layer "Cmts.User")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC_3D_Size" "22.001 9.5"
+			(at 0 0 135)
+			(layer "Cmts.User")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part" "URB4805S-6WR3"
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YLPTEC(易川)"
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part" "C19724400"
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Name" "DC/DC电源模块 6W宽压输入，隔离稳压单路/正负双路输出"
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/c60b632a-df5e-4d62-a4c6-0d8226599a53/2d56dcd2-e52d-4cb3-b8da-09dcd64f25c8")
+		(sheetname "/Power_supply/")
+		(sheetfile "power_supply.kicad_sch")
+		(fp_line
+			(start 11.000001 -2.5)
+			(end 11 7)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 11 7)
+			(end -11 7)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -11.000001 -2.5)
+			(end 11.000001 -2.5)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -11 7)
+			(end -11.000001 -2.5)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_circle
+			(center -9.779 -1.651)
+			(end -9.529 -1.651)
+			(stroke
+				(width 0.5)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+		)
+		(fp_circle
+			(center -9.398 -0.762)
+			(end -9.148 -0.762)
+			(stroke
+				(width 0.5)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+		)
+		(fp_poly
+			(pts
+				(xy 8.54 -0.15) (xy 9.24 -0.15) (xy 9.24 0.15) (xy 8.54 0.15)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+		)
+		(fp_poly
+			(pts
+				(xy 6 -0.15) (xy 6.699999 -0.15) (xy 6.699999 0.15) (xy 6 0.15)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+		)
+		(fp_poly
+			(pts
+				(xy 3.459999 -0.15) (xy 4.16 -0.15) (xy 4.16 0.15) (xy 3.459999 0.15)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+		)
+		(fp_poly
+			(pts
+				(xy 0.92 -0.15) (xy 1.62 -0.15) (xy 1.62 0.15) (xy 0.92 0.15)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+		)
+		(fp_poly
+			(pts
+				(xy -4.16 -0.15) (xy -3.459999 -0.15) (xy -3.459999 0.15) (xy -4.16 0.15)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+		)
+		(fp_poly
+			(pts
+				(xy -6.699999 -0.15) (xy -6 -0.15) (xy -6 0.15) (xy -6.699999 0.15)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+		)
+		(fp_poly
+			(pts
+				(xy -9.24 -0.15) (xy -8.54 -0.15) (xy -8.54 0.15) (xy -9.24 0.15)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+		)
+		(fp_line
+			(start 11.000001 -2.5)
+			(end 11 7)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "User.2")
+		)
+		(fp_line
+			(start 11 7)
+			(end -11 7)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "User.2")
+		)
+		(fp_line
+			(start -11.000001 -2.5)
+			(end 11.000001 -2.5)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "User.2")
+		)
+		(fp_line
+			(start -11 7)
+			(end -11.000001 -2.5)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "User.2")
+		)
+		(fp_poly
+			(pts
+				(xy -10.944567 6.777039) (xy -10.977039 6.744567) (xy -11.022961 6.744568) (xy -11.055433 6.777039)
+				(xy -11.055434 6.822961) (xy -11.022961 6.855433) (xy -10.977039 6.855433) (xy -10.944568 6.822961)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.3")
+		)
+		(pad "1" thru_hole circle
+			(at -8.89 0 135)
+			(size 1.8 1.8)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 34 "HV-")
+			(pinfunction "GND")
+			(pintype "passive")
+			(thermal_bridge_angle 90)
+		)
+		(pad "2" thru_hole circle
+			(at -6.35 0 135)
+			(size 1.8 1.8)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 116 "HV+")
+			(pinfunction "VIN")
+			(pintype "passive")
+			(thermal_bridge_angle 90)
+		)
+		(pad "3" thru_hole circle
+			(at -3.81 0 135)
+			(size 1.8 1.8)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 434 "unconnected-(U4-CTRL-Pad3)")
+			(pinfunction "CTRL")
+			(pintype "passive+no_connect")
+			(thermal_bridge_angle 90)
+		)
+		(pad "5" thru_hole circle
+			(at 1.270001 0 135)
+			(size 1.8 1.8)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 432 "unconnected-(U4-NC-Pad5)")
+			(pinfunction "NC")
+			(pintype "passive+no_connect")
+			(thermal_bridge_angle 90)
+		)
+		(pad "6" thru_hole circle
+			(at 3.81 0 135)
+			(size 1.8 1.8)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 347 "Net-(U4-+VO)")
+			(pinfunction "+VO")
+			(pintype "passive")
+			(thermal_bridge_angle 90)
+		)
+		(pad "7" thru_hole circle
+			(at 6.35 0 135)
+			(size 1.8 1.8)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "-VO")
+			(pintype "passive")
+			(thermal_bridge_angle 90)
+		)
+		(pad "8" thru_hole circle
+			(at 8.89 0 135)
+			(size 1.8 1.8)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 433 "unconnected-(U4-NC-Pad8)")
+			(pinfunction "NC")
+			(pintype "passive+no_connect")
+			(thermal_bridge_angle 90)
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/EASYEDA_MODELS/PWRM-TH_YLPTEC_URBXXXXS-6WR3.step"
+			(offset
+				(xyz 0 -2.25 -4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+	)

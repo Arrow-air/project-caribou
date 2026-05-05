@@ -1,0 +1,364 @@
+	(footprint "QFN65P400X400X90-17N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "10.0")
+		(layer "F.Cu")
+		(descr "QFN16")
+		(tags "Integrated Circuit")
+		(property "Reference" "IC1"
+			(at 0 3.8 0)
+			(layer "F.SilkS")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "TSYS01"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FTSYS01%7FA%7Fpdf%7FEnglish%7FENG_DS_TSYS01_A.pdf%7FG-NICO-018"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Temp Sensor Digital Serial (4-Wire, SPI, I2C) 16-Pin QFN EP - Bulk"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "0.9"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "824-TSYS01"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Measurement-Specialties/TSYS01?qs=X3dlXJsz9DAvF3tElFUMhA%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TSYS01"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/a5eb0fa0-c9d3-462d-be6b-ce47e60b8c38")
+		(sheetname "/")
+		(sheetfile "Quiver_PT3_Main_PCB.kicad_sch")
+		(attr smd)
+		(fp_circle
+			(center -2.3745 -1.95)
+			(end -2.3745 -1.7875)
+			(stroke
+				(width 0.325)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -2.625 -2.625)
+			(end 2.625 -2.625)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+		)
+		(fp_line
+			(start -2.625 2.625)
+			(end -2.625 -2.625)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+		)
+		(fp_line
+			(start 2.625 -2.625)
+			(end 2.625 2.625)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+		)
+		(fp_line
+			(start 2.625 2.625)
+			(end -2.625 2.625)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+		)
+		(fp_line
+			(start -2 -2)
+			(end 2 -2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+		)
+		(fp_line
+			(start -2 -1.35)
+			(end -1.35 -2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+		)
+		(fp_line
+			(start -2 2)
+			(end -2 -2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+		)
+		(fp_line
+			(start 2 -2)
+			(end 2 2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+		)
+		(fp_line
+			(start 2 2)
+			(end -2 2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.95 -0.975 90)
+			(size 0.35 0.85)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 1 "GND")
+			(pinfunction "VSS_1")
+			(pintype "passive")
+		)
+		(pad "2" smd rect
+			(at -1.95 -0.325 90)
+			(size 0.35 0.85)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 40 "Net-(IC1-CSB)")
+			(pinfunction "CSB")
+			(pintype "passive")
+		)
+		(pad "3" smd rect
+			(at -1.95 0.325 90)
+			(size 0.35 0.85)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 41 "/I2C1_SCL_GPS1_MAG_LED")
+			(pinfunction "SCLK/SCL")
+			(pintype "passive")
+		)
+		(pad "4" smd rect
+			(at -1.95 0.975 90)
+			(size 0.35 0.85)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 44 "/I2C1_SDA_GPS1_MAG_LED")
+			(pinfunction "SDI/SDA")
+			(pintype "passive")
+		)
+		(pad "5" smd rect
+			(at -0.975 1.95)
+			(size 0.35 0.85)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 48 "Net-(IC1-SDO)")
+			(pinfunction "SDO")
+			(pintype "passive")
+		)
+		(pad "6" smd rect
+			(at -0.325 1.95)
+			(size 0.35 0.85)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 47 "unconnected-(IC1-NC_1-Pad6)")
+			(pinfunction "NC_1")
+			(pintype "passive+no_connect")
+		)
+		(pad "7" smd rect
+			(at 0.325 1.95)
+			(size 0.35 0.85)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 46 "unconnected-(IC1-NC_2-Pad7)")
+			(pinfunction "NC_2")
+			(pintype "passive+no_connect")
+		)
+		(pad "8" smd rect
+			(at 0.975 1.95)
+			(size 0.35 0.85)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 43 "unconnected-(IC1-NC_3-Pad8)")
+			(pinfunction "NC_3")
+			(pintype "passive+no_connect")
+		)
+		(pad "9" smd rect
+			(at 1.95 0.975 90)
+			(size 0.35 0.85)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 39 "unconnected-(IC1-NC_4-Pad9)")
+			(pinfunction "NC_4")
+			(pintype "passive+no_connect")
+		)
+		(pad "10" smd rect
+			(at 1.95 0.325 90)
+			(size 0.35 0.85)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 49 "unconnected-(IC1-NC_5-Pad10)")
+			(pinfunction "NC_5")
+			(pintype "passive+no_connect")
+		)
+		(pad "11" smd rect
+			(at 1.95 -0.325 90)
+			(size 0.35 0.85)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 50 "unconnected-(IC1-NC_6-Pad11)")
+			(pinfunction "NC_6")
+			(pintype "passive+no_connect")
+		)
+		(pad "12" smd rect
+			(at 1.95 -0.975 90)
+			(size 0.35 0.85)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 38 "unconnected-(IC1-NC_7-Pad12)")
+			(pinfunction "NC_7")
+			(pintype "passive+no_connect")
+		)
+		(pad "13" smd rect
+			(at 0.975 -1.95)
+			(size 0.35 0.85)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 37 "unconnected-(IC1-NC_8-Pad13)")
+			(pinfunction "NC_8")
+			(pintype "passive+no_connect")
+		)
+		(pad "14" smd rect
+			(at 0.325 -1.95)
+			(size 0.35 0.85)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 42 "unconnected-(IC1-NC_9-Pad14)")
+			(pinfunction "NC_9")
+			(pintype "passive+no_connect")
+		)
+		(pad "15" smd rect
+			(at -0.325 -1.95)
+			(size 0.35 0.85)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 4 "/IO_VDD_3V3")
+			(pinfunction "VDD")
+			(pintype "passive")
+		)
+		(pad "16" smd rect
+			(at -0.975 -1.95)
+			(size 0.35 0.85)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 45 "Net-(IC1-PS)")
+			(pinfunction "PS")
+			(pintype "passive")
+		)
+		(pad "17" smd rect
+			(at 0 0)
+			(size 2.4 2.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 1 "GND")
+			(pinfunction "VSS_2")
+			(pintype "passive")
+		)
+		(embedded_fonts no)
+		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/TSYS01.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)

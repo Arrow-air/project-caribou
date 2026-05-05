@@ -1,0 +1,302 @@
+	(footprint "SM06B-GHS-TB"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "10.0")
+		(layer "B.Cu")
+		(descr "SM06B-GHS-TB")
+		(tags "Connector")
+		(property "Reference" "J41"
+			(at 12.632947 2.16066 45)
+			(layer "B.SilkS")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "SM06B-GHS-TB_LF__SN_"
+			(at 4.91667 1.78567 45)
+			(layer "B.SilkS")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/e4ef010dc292ea31091454f6c0afb63a.pdf"
+			(at 0 0 45)
+			(layer "B.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "GH 1.25mm header side entry 6 way JST GH Series, 1.25mm Pitch 6 Way Right Angle PCB Header, Solder Termination, 1A"
+			(at 0 0 45)
+			(layer "B.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Height" ""
+			(at 0 0 225)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 0 0 225)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/SM06B-GHS-TBLFSN?qs=QpmGXVUTftFzTQe43vH9Ig%3D%3D"
+			(at 0 0 225)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+			(at 0 0 225)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM06B-GHS-TB(LF)(SN)"
+			(at 0 0 225)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(path "/abfb4354-d8d9-4136-b67d-99272325a73a")
+		(sheetname "/")
+		(sheetfile "Quiver_PT3_Main_PCB.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 1.26333 0)
+			(end 9.518999 0)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+		)
+		(fp_line
+			(start 0 4.049999)
+			(end 0 2.677671)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+		)
+		(fp_line
+			(start 0 4.049999)
+			(end 1.73067 4.05)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+		)
+		(fp_line
+			(start 10.749999 4.05)
+			(end 8.995 4.05)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+		)
+		(fp_line
+			(start 10.749999 4.05)
+			(end 10.75 2.706)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+		)
+		(fp_circle
+			(center 1.249 5.41067)
+			(end 1.249 5.35057)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.SilkS")
+		)
+		(fp_line
+			(start 0 0)
+			(end 0 4.049999)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.Fab")
+		)
+		(fp_line
+			(start 0 4.049999)
+			(end 10.749999 4.05)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.Fab")
+		)
+		(fp_line
+			(start 10.75 0)
+			(end 0 0)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.Fab")
+		)
+		(fp_line
+			(start 10.749999 4.05)
+			(end 10.75 0)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.Fab")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 4.91667 1.78567 45)
+			(layer "B.Fab")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd rect
+			(at 2.25 4.3 45)
+			(size 0.6 1.7)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net 2 "+5V")
+			(pinfunction "1")
+			(pintype "passive")
+		)
+		(pad "2" smd rect
+			(at 3.5 4.3 45)
+			(size 0.6 1.7)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net 63 "/UART5_TX_TEL2")
+			(pinfunction "2")
+			(pintype "passive")
+		)
+		(pad "3" smd rect
+			(at 4.75 4.3 45)
+			(size 0.6 1.7)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net 61 "/UART5_RX_TEL2")
+			(pinfunction "3")
+			(pintype "passive")
+		)
+		(pad "4" smd rect
+			(at 6 4.3 45)
+			(size 0.6 1.7)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net 83 "/UART5_CTS_TEL2")
+			(pinfunction "4")
+			(pintype "passive")
+		)
+		(pad "5" smd rect
+			(at 7.25 4.3 45)
+			(size 0.6 1.7)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net 85 "/UART5_RTS_TEL2")
+			(pinfunction "5")
+			(pintype "passive")
+		)
+		(pad "6" smd rect
+			(at 8.5 4.3 45)
+			(size 0.6 1.7)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net 1 "GND")
+			(pinfunction "6")
+			(pintype "passive")
+		)
+		(pad "MP" smd rect
+			(at 0.4 1.1 45)
+			(size 1 2.7)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net 285 "unconnected-(J41-PadMP)_1")
+			(pinfunction "MP")
+			(pintype "no_connect")
+		)
+		(pad "MP" smd rect
+			(at 10.35 1.1 45)
+			(size 1 2.7)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net 286 "unconnected-(J41-PadMP)")
+			(pinfunction "MP")
+			(pintype "no_connect")
+		)
+		(embedded_fonts no)
+		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/SM06B-GHS-TB_LF__SN_.stp"
+			(offset
+				(xyz 14.66999986 -9.89999947 -23.12999881)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+	)

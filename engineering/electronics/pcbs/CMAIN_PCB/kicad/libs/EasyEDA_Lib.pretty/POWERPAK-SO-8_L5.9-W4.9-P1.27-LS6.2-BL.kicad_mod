@@ -1,0 +1,628 @@
+	(footprint "POWERPAK-SO-8_L5.9-W4.9-P1.27-LS6.2-BL"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "10.0")
+		(layer "F.Cu")
+		(property "Reference" "Q3"
+			(at -0.212 -4.2 90)
+			(layer "F.SilkS")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SIR570DP-T1-RE3"
+			(at -0.212 4.55 90)
+			(layer "F.Fab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/SIR570DP-T1-RE3/3842461.html"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Number:1 N-Channel Drain to Source Voltage:150V Current - Continuous Drain(Id):77.4A RDS(on):8.5mΩ@7.5V Pd - Power Dissipation:45W Gate Threshold Voltage (Vgs(th)):4V@250uA Gate Charge(Qg):71nC@10V Input Capacitance(Ciss):3.74nF Reverse Transfer Capacitan"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC_3DModel_Q" "9da20787373d4f01b62a6b3d0b8cd715"
+			(at 0 0 90)
+			(layer "Cmts.User")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC_3D_Size" "5.15 6.15"
+			(at 0 0 90)
+			(layer "Cmts.User")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "1.12"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "781-SIR804DP-T1-GE3"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SIR804DP-T1-GE3?qs=WX95TUc1y56JU9XixiRXWg%3D%3D"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SIR804DP-T1-GE3"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part" "SIR570DP-T1-RE3"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "VISHAY(威世)"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part" "C3279563"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Name" "1个N沟道 耐压:150V 电流:77.4A"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/f1c37a40-014c-466d-afc2-f384ebfd408f/d45ee636-d53d-43ad-b9a4-02f6b123b305")
+		(sheetname "/Power_control/")
+		(sheetfile "Power_control.kicad_sch")
+		(fp_line
+			(start 2.55 -3.1)
+			(end 2.46 -3.1)
+			(stroke
+				(width 0.152)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 1.35 -3.1)
+			(end 1.19 -3.1)
+			(stroke
+				(width 0.152)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 0.08 -3.1)
+			(end -0.08 -3.1)
+			(stroke
+				(width 0.152)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -1.19 -3.1)
+			(end -1.35 -3.1)
+			(stroke
+				(width 0.152)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -2.46 -3.1)
+			(end -2.55 -3.1)
+			(stroke
+				(width 0.152)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -2.55 -3.1)
+			(end -2.55 0.076)
+			(stroke
+				(width 0.152)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 2.55 0.076)
+			(end 2.55 -3.1)
+			(stroke
+				(width 0.152)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -2.55 1.236)
+			(end -2.55 3)
+			(stroke
+				(width 0.152)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 2.55 3)
+			(end 2.55 1.236)
+			(stroke
+				(width 0.152)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 2.46 3)
+			(end 2.55 3)
+			(stroke
+				(width 0.152)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 1.19 3)
+			(end 1.35 3)
+			(stroke
+				(width 0.152)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -0.08 3)
+			(end 0.08 3)
+			(stroke
+				(width 0.152)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -1.35 3)
+			(end -1.19 3)
+			(stroke
+				(width 0.152)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -2.55 3)
+			(end -2.46 3)
+			(stroke
+				(width 0.152)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_circle
+			(center -2.75 3.55)
+			(end -2.6 3.55)
+			(stroke
+				(width 0.3)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+		)
+		(fp_poly
+			(pts
+				(xy 1.53 2.3) (xy 2.28 2.3) (xy 2.28 3.5) (xy 1.53 3.5)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Paste")
+		)
+		(fp_poly
+			(pts
+				(xy 0.26 2.3) (xy 1.01 2.3) (xy 1.01 3.5) (xy 0.26 3.5)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Paste")
+		)
+		(fp_poly
+			(pts
+				(xy -1.01 2.3) (xy -0.26 2.3) (xy -0.26 3.5) (xy -1.01 3.5)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Paste")
+		)
+		(fp_poly
+			(pts
+				(xy -2.28 2.3) (xy -1.53 2.3) (xy -1.53 3.5) (xy -2.28 3.5)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Paste")
+		)
+		(fp_poly
+			(pts
+				(xy 1.53 -3.5) (xy 1.53 -2.659) (xy 1.01 -2.659) (xy 1.01 -3.5) (xy 0.26 -3.5) (xy 0.26 -2.659)
+				(xy -0.26 -2.659) (xy -0.26 -3.5) (xy -1.01 -3.5) (xy -1.01 -2.659) (xy -1.53 -2.659) (xy -1.53 -3.5)
+				(xy -2.28 -3.5) (xy -2.28 -2.3) (xy -2.25 -2.3) (xy -2.25 1.441) (xy 2.25 1.441) (xy 2.25 -2.3)
+				(xy 2.28 -2.3) (xy 2.28 -3.5)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Paste")
+		)
+		(fp_circle
+			(center -1.95 3.2)
+			(end -1.75 3.2)
+			(stroke
+				(width 0.4)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+		)
+		(fp_poly
+			(pts
+				(xy 1.7 -3.08) (xy 2.11 -3.08) (xy 2.11 -2.47) (xy 1.7 -2.47)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+		)
+		(fp_poly
+			(pts
+				(xy 0.43 -3.08) (xy 0.84 -3.08) (xy 0.84 -2.47) (xy 0.43 -2.47)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+		)
+		(fp_poly
+			(pts
+				(xy -0.84 -3.08) (xy -0.43 -3.08) (xy -0.43 -2.47) (xy -0.84 -2.47)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+		)
+		(fp_poly
+			(pts
+				(xy -2.11 -3.08) (xy -1.7 -3.08) (xy -1.7 -2.47) (xy -2.11 -2.47)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+		)
+		(fp_poly
+			(pts
+				(xy -2 -2.4715) (xy 2 -2.4715) (xy 2 1.2285) (xy -2 1.2285)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+		)
+		(fp_poly
+			(pts
+				(xy 1.7 2.47) (xy 2.11 2.47) (xy 2.11 3.08) (xy 1.7 3.08)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+		)
+		(fp_poly
+			(pts
+				(xy 0.43 2.47) (xy 0.84 2.47) (xy 0.84 3.08) (xy 0.43 3.08)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+		)
+		(fp_poly
+			(pts
+				(xy -0.84 2.47) (xy -0.43 2.47) (xy -0.43 3.08) (xy -0.84 3.08)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+		)
+		(fp_poly
+			(pts
+				(xy -2.11 2.47) (xy -1.7 2.47) (xy -1.7 3.08) (xy -2.11 3.08)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+		)
+		(fp_line
+			(start 2.45 -2.95)
+			(end 2.45 2.95)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "User.2")
+		)
+		(fp_line
+			(start -2.45 -2.95)
+			(end 2.45 -2.95)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "User.2")
+		)
+		(fp_line
+			(start 2.45 2.95)
+			(end -2.45 2.95)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "User.2")
+		)
+		(fp_line
+			(start -2.45 2.95)
+			(end -2.45 -2.95)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "User.2")
+		)
+		(fp_poly
+			(pts
+				(xy -2.394567 3.057039) (xy -2.427039 3.024567) (xy -2.472961 3.024567) (xy -2.505433 3.057039)
+				(xy -2.505433 3.102961) (xy -2.472961 3.135433) (xy -2.427039 3.135433) (xy -2.394567 3.102961)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.3")
+		)
+		(pad "1" smd rect
+			(at -1.905 2.9 90)
+			(size 0.75 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 34 "HV-")
+			(pinfunction "S")
+			(pintype "passive")
+		)
+		(pad "2" smd rect
+			(at -0.635 2.9 90)
+			(size 0.75 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 34 "HV-")
+			(pinfunction "S")
+			(pintype "passive")
+		)
+		(pad "3" smd rect
+			(at 0.635 2.9 90)
+			(size 0.75 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 34 "HV-")
+			(pinfunction "S")
+			(pintype "passive")
+		)
+		(pad "4" smd rect
+			(at 1.905 2.9 90)
+			(size 0.75 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 406 "Net-(Q3-G)")
+			(pinfunction "G")
+			(pintype "passive")
+		)
+		(pad "5" smd rect
+			(at 1.905 -2.9 90)
+			(size 0.75 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 455 "AC_HV-")
+			(pinfunction "D")
+			(pintype "passive")
+		)
+		(pad "6" smd rect
+			(at 0.635 -2.9 90)
+			(size 0.75 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 455 "AC_HV-")
+			(pinfunction "D")
+			(pintype "passive")
+		)
+		(pad "7" smd rect
+			(at -0.635 -2.9 90)
+			(size 0.75 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 455 "AC_HV-")
+			(pinfunction "D")
+			(pintype "passive")
+		)
+		(pad "8" smd rect
+			(at -1.905 -2.9 90)
+			(size 0.75 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 455 "AC_HV-")
+			(pinfunction "D")
+			(pintype "passive")
+		)
+		(pad "8" smd rect
+			(at 0 -0.609 90)
+			(size 4.5 4.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 455 "AC_HV-")
+			(pinfunction "D")
+			(pintype "passive")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/EASYEDA_MODELS/POWERPAK-SO-8_L5.9-W4.9-P1.27-LS6.2-BL.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+	)

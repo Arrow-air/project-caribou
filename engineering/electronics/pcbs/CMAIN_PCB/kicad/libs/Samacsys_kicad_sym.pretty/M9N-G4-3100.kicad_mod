@@ -1,0 +1,205 @@
+	(footprint "M9N-G4-3100"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "10.0")
+		(layer "F.Cu")
+		(descr "SSQ-104-XX-YYY-D")
+		(tags "Connector")
+		(property "Reference" "J11"
+			(at 4.8 -0.399593 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "M9N-G4-3100"
+			(at 0 -14 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Datasheet" "http://suddendocs.samtec.com/prints/ssq-1xx-xx-xxx-x-xx-xxx-xx-x-mkt.pdf"
+			(at 0 0.100407 0)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting hole (this is not a component)"
+			(at 0 0.100407 0)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "SAMTEC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SSQ-104-01-L-D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/9d80c242-f5b7-4b7f-b337-532a8d9cb040")
+		(sheetname "/")
+		(sheetfile "Quiver_PT3_Main_PCB.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -20 -20)
+			(end -20 20)
+			(stroke
+				(width 0.3)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -20 -20)
+			(end 20 -20)
+			(stroke
+				(width 0.3)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -20 20)
+			(end 20 20)
+			(stroke
+				(width 0.3)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -3 -20)
+			(end 3 -20)
+			(stroke
+				(width 0.3)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -3 20)
+			(end 3 20)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 20 -20)
+			(end 20 20)
+			(stroke
+				(width 0.3)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_text user "M9N-G4"
+			(at -6.2 -5.6 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(effects
+				(font
+					(size 2 2)
+					(thickness 0.25)
+				)
+				(justify left bottom)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 -17)
+			(size 4 4)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 234 "unconnected-(J11-Mounting-Pad1)_1")
+			(pinfunction "Mounting")
+			(pintype "passive+no_connect")
+			(zone_connect 0)
+		)
+		(pad "1" thru_hole circle
+			(at 0 17)
+			(size 4 4)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 415 "unconnected-(J11-Mounting-Pad1)")
+			(pinfunction "Mounting")
+			(pintype "passive+no_connect")
+			(zone_connect 0)
+		)
+		(embedded_fonts no)
+	)

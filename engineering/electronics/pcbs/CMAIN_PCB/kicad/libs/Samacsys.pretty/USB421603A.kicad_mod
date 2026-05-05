@@ -1,0 +1,440 @@
+	(footprint "USB421603A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "10.0")
+		(layer "F.Cu")
+		(descr "USB4216-03-A-3")
+		(tags "Connector")
+		(property "Reference" "J33"
+			(at 0 -0.288 90)
+			(layer "F.SilkS")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "USB4216-03-A"
+			(at 0 -0.288 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Datasheet" "https://gct.co/connector/usb4216"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "USB Connectors USB C Receptacle, Short Body, USB2.0, 16Pin, Horizontal, SMT"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "3.51"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "640-USB4216-03-A"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/GCT/USB4216-03-A?qs=Tc%252BHE9vUsnv1G2UWLFIexA%3D%3D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "GCT (GLOBAL CONNECTOR TECHNOLOGY)"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "USB4216-03-A"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/69c18e82-643d-4ead-b904-c77dbe948ecb")
+		(sheetname "/")
+		(sheetfile "Quiver_PT3_Main_PCB.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -4.47 3.337)
+			(end 4.47 3.337)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 4.47 3.337)
+			(end 4.47 2.7)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -4.47 2.7)
+			(end -4.47 3.337)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -4.47 -1.6)
+			(end -4.47 -0.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 4.47 -1.6)
+			(end 4.47 -0.3)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -3.2 -4.4)
+			(end -3.2 -4.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -3.2 -4.5)
+			(end -3.2 -4.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_arc
+			(start -3.2 -4.4)
+			(mid -3.25 -4.45)
+			(end -3.2 -4.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_arc
+			(start -3.2 -4.5)
+			(mid -3.15 -4.45)
+			(end -3.2 -4.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -6.5 4.338)
+			(end -6.5 -4.913)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+		)
+		(fp_line
+			(start 6.5 4.3255)
+			(end -6.5 4.338)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+		)
+		(fp_line
+			(start -6.5 -4.913)
+			(end 6.5 -4.9255)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+		)
+		(fp_line
+			(start 6.5 -4.9255)
+			(end 6.5 4.3255)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+		)
+		(fp_line
+			(start -4.47 3.337)
+			(end -4.47 -3.163)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+		)
+		(fp_line
+			(start 4.47 3.337)
+			(end -4.47 3.337)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+		)
+		(fp_line
+			(start -4.47 -3.163)
+			(end 4.47 -3.163)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+		)
+		(fp_line
+			(start 4.47 -3.163)
+			(end 4.47 3.337)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -0.288 90)
+			(layer "F.Fab")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -3 -2.063 270)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "*.Cu" "*.Mask")
+		)
+		(pad "" np_thru_hole circle
+			(at 3 -2.063 270)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "*.Cu" "*.Mask")
+		)
+		(pad "A1" smd rect
+			(at -3.2 -3.338 270)
+			(size 0.6 1.15)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 1 "GND")
+			(pinfunction "GND_1")
+			(pintype "passive")
+		)
+		(pad "A4" smd rect
+			(at -2.4 -3.338 270)
+			(size 0.6 1.15)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 58 "/VBUS")
+			(pinfunction "VBUS_1")
+			(pintype "passive")
+		)
+		(pad "A5" smd rect
+			(at -1.25 -3.338 270)
+			(size 0.3 1.15)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 240 "Net-(J33-CC1)")
+			(pinfunction "CC1")
+			(pintype "passive")
+		)
+		(pad "A6" smd rect
+			(at -0.25 -3.338 270)
+			(size 0.3 1.15)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 59 "/USB_D+")
+			(pinfunction "DP1")
+			(pintype "passive")
+		)
+		(pad "A7" smd rect
+			(at 0.25 -3.338 270)
+			(size 0.3 1.15)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 60 "/USB_D-")
+			(pinfunction "DN1")
+			(pintype "passive")
+		)
+		(pad "A8" smd rect
+			(at 1.25 -3.338 270)
+			(size 0.3 1.15)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 241 "unconnected-(J33-SBU1-PadA8)")
+			(pinfunction "SBU1")
+			(pintype "passive+no_connect")
+		)
+		(pad "B1" smd rect
+			(at 3.2 -3.338 270)
+			(size 0.6 1.15)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 1 "GND")
+			(pinfunction "GND_2")
+			(pintype "passive")
+		)
+		(pad "B4" smd rect
+			(at 2.4 -3.338 270)
+			(size 0.6 1.15)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 58 "/VBUS")
+			(pinfunction "VBUS_2")
+			(pintype "passive")
+		)
+		(pad "B5" smd rect
+			(at 1.75 -3.338 270)
+			(size 0.3 1.15)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 245 "Net-(J33-CC2)")
+			(pinfunction "CC2")
+			(pintype "passive")
+		)
+		(pad "B6" smd rect
+			(at 0.75 -3.338 270)
+			(size 0.3 1.15)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 244 "unconnected-(J33-DP2-PadB6)")
+			(pinfunction "DP2")
+			(pintype "passive+no_connect")
+		)
+		(pad "B7" smd rect
+			(at -0.75 -3.338 270)
+			(size 0.3 1.15)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 242 "unconnected-(J33-DN2-PadB7)")
+			(pinfunction "DN2")
+			(pintype "passive+no_connect")
+		)
+		(pad "B8" smd rect
+			(at -1.75 -3.338 270)
+			(size 0.3 1.15)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 243 "unconnected-(J33-SBU2-PadB8)")
+			(pinfunction "SBU2")
+			(pintype "passive+no_connect")
+		)
+		(pad "G1" thru_hole oval
+			(at -4.32 -2.75)
+			(size 1.8 1)
+			(drill oval 1.4 0.6)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "GND_3")
+			(pintype "passive")
+		)
+		(pad "G2" thru_hole oval
+			(at 4.32 -2.75)
+			(size 1.8 1)
+			(drill oval 1.4 0.6)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "GND_4")
+			(pintype "passive")
+		)
+		(pad "G3" thru_hole oval
+			(at 4.32 1.25)
+			(size 2.2 1)
+			(drill oval 1.8 0.6)
+			(layers "*.Cu" "F.Mask" "F.Paste")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "GND_5")
+			(pintype "passive")
+		)
+		(pad "G4" thru_hole oval
+			(at -4.32 1.25)
+			(size 2.2 1)
+			(drill oval 1.8 0.6)
+			(layers "*.Cu" "F.Mask" "F.Paste")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "GND_6")
+			(pintype "passive")
+		)
+		(embedded_fonts no)
+		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/USB4215-03-A.stp"
+			(offset
+				(xyz 0 -3.5 1.7)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
+	)

@@ -1,0 +1,305 @@
+	(footprint "REC30K"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "10.0")
+		(layer "F.Cu")
+		(descr "REC30K")
+		(tags "Power Supply")
+		(property "Reference" "PS2"
+			(at 24.7264 -5.934112 225)
+			(layer "F.SilkS")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "REC30K-4812SZ"
+			(at 10.16 -2.54 135)
+			(layer "F.SilkS")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Datasheet" "https://recom-power.com/pdf/Econoline/REC30K(-Z).pdf"
+			(at 0 0 135)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "30W DC/DC-Converter \\'ECONOLINE\\' 1\"x1\" 2kV reg 4:1"
+			(at 0 0 135)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "RECOM Power"
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "REC30K-4812SZ"
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/c60b632a-df5e-4d62-a4c6-0d8226599a53/9a1d87fa-dd36-4929-92c5-1217c3e18db9")
+		(sheetname "/Power_supply/")
+		(sheetfile "power_supply.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 22.86 -15.24)
+			(end 22.86 10.16)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 22.86 10.16)
+			(end -2.54 10.16)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -2.54 10.16)
+			(end -2.54 -15.24)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -2.54 -15.24)
+			(end 22.86 -15.24)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+		)
+		(fp_line
+			(start 23.86 -16.24)
+			(end 23.86 11.16)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+		)
+		(fp_line
+			(start 23.86 11.16)
+			(end -3.54 11.16)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+		)
+		(fp_line
+			(start -3.54 -16.24)
+			(end 23.86 -16.24)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+		)
+		(fp_line
+			(start -3.54 11.16)
+			(end -3.54 -16.24)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+		)
+		(fp_line
+			(start 22.86 -15.24)
+			(end 22.86 10.16)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+		)
+		(fp_line
+			(start 22.86 10.16)
+			(end -2.54 10.16)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+		)
+		(fp_line
+			(start -2.54 -15.24)
+			(end 22.86 -15.24)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+		)
+		(fp_line
+			(start -2.54 10.16)
+			(end -2.54 -15.24)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 10.16 -2.54 135)
+			(layer "F.Fab")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0 135)
+			(size 2.1 2.1)
+			(drill 1.4)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 116 "HV+")
+			(pinfunction "+VIN")
+			(pintype "passive")
+		)
+		(pad "2" thru_hole circle
+			(at 0 -5.079999 135)
+			(size 2.1 2.1)
+			(drill 1.4)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 34 "HV-")
+			(pinfunction "-VIN")
+			(pintype "passive")
+		)
+		(pad "3" thru_hole circle
+			(at 0 -12.7 135)
+			(size 2.1 2.1)
+			(drill 1.4)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 230 "unconnected-(PS2-CTRL-Pad3)")
+			(pinfunction "CTRL")
+			(pintype "passive+no_connect")
+		)
+		(pad "4" thru_hole circle
+			(at 20.32 -12.7 135)
+			(size 2.1 2.1)
+			(drill 1.4)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "-VOUT")
+			(pintype "passive")
+		)
+		(pad "5" thru_hole circle
+			(at 20.32 -2.54 135)
+			(size 2.1 2.1)
+			(drill 1.4)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 128 "unconnected-(PS2-TRIM-Pad5)")
+			(pinfunction "TRIM")
+			(pintype "passive+no_connect")
+		)
+		(pad "6" thru_hole circle
+			(at 20.32 7.62 135)
+			(size 2.1 2.1)
+			(drill 1.4)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 36 "Net-(PS2-+VOUT)")
+			(pinfunction "+VOUT")
+			(pintype "passive")
+		)
+		(embedded_fonts no)
+		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/REC30K-4812SZ.stp"
+			(offset
+				(xyz 10.15999969 2.539999924 1.470000007)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+	)

@@ -1,0 +1,551 @@
+	(footprint "CONN-TH_5P-P2.50_ZX-XH2.54-5PZZ"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "10.0")
+		(layer "F.Cu")
+		(property "Reference" "U5"
+			(at -8.7 2.1 0)
+			(layer "F.SilkS")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "C7429635"
+			(at -11.7 -2.8 0)
+			(layer "F.Fab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/ZX-XH2.54-5PZZ/8427552.html"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Pins Structure:1x5P Pitch:2.5mm Mounting Type:Through Hole Reference Series:XH Number of Pins:5P Number of Rows:1 Number of PINs Per Row:5 Row Spacing:- Current Rating:3A Contact Material:Brass Contact Plating:Tin Operating Temperature:-25°C~+85°C Operating"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC_3DModel_Q" "9f7cbb6a95224b9c8d31ae071dd0e74a"
+			(at 0 0 0)
+			(layer "Cmts.User")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC_3D_Size" "15 5.91"
+			(at 0 0 0)
+			(layer "Cmts.User")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "5.1"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "651-1814935"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1814935?qs=eTPcRhULBzz6VcWT1ftydw%3D%3D"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Phoenix Contact"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1814935"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part" "ZX-XH2.54-5PZZ"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Megastar(兆星)"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part" "C7429635"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Name" "1x5P 间距:2.5mm 直插 系列:XH"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/4625ecbc-10dd-4da6-98b7-72c1375549bf")
+		(sheetname "/")
+		(sheetfile "Quiver_PT3_Main_PCB.kicad_sch")
+		(fp_line
+			(start 7.62 2.679)
+			(end -7.62 2.679)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 7.62 -3.417)
+			(end 7.62 2.679)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 7.5 1.7935)
+			(end 5.468 1.7935)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 6.732 0.647)
+			(end 7.621 0.647)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 6.732 -2.528)
+			(end 6.732 0.647)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 5.468 1.7935)
+			(end 5.468 2.679)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 3.81 1.79)
+			(end 3.81 2.679)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -3.6855 2.679)
+			(end -3.6855 1.79)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -3.6855 1.79)
+			(end 3.81 1.79)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -5.588 1.7935)
+			(end -5.588 2.679)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -6.73 0.604)
+			(end -6.73 -2.528)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -6.73 -2.528)
+			(end 6.732 -2.528)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -7.619 0.604)
+			(end -6.73 0.604)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -7.62 2.679)
+			(end -7.62 -3.417)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -7.62 1.7935)
+			(end -5.588 1.7935)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -7.62 -3.417)
+			(end 7.62 -3.417)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_poly
+			(pts
+				(xy -7.62 1.7935) (xy -5.588 1.7935) (xy -5.588 2.679) (xy -7.62 2.679)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "Dwgs.User")
+		)
+		(fp_poly
+			(pts
+				(xy -3.6855 1.79) (xy -3.6855 2.6765) (xy -3.683 2.679) (xy 3.81 2.679) (xy 3.81 1.79)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "Dwgs.User")
+		)
+		(fp_poly
+			(pts
+				(xy 5.468 1.7935) (xy 5.468 2.679) (xy 7.62 2.679) (xy 7.62 1.9135) (xy 7.62 1.79) (xy 7.5 1.7935)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "Dwgs.User")
+		)
+		(fp_poly
+			(pts
+				(xy -7.619 0.604) (xy -6.73 0.604) (xy -6.73 -2.528) (xy 6.732 -2.528) (xy 6.732 0.647) (xy 7.621 0.647)
+				(xy 7.621 -3.416) (xy 7.62 -3.417) (xy -7.62 -3.417)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "Dwgs.User")
+		)
+		(fp_poly
+			(pts
+				(xy 4.68 -0.32) (xy 5.32 -0.32) (xy 5.32 0.32) (xy 4.68 0.32)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+		)
+		(fp_poly
+			(pts
+				(xy 2.18 -0.32) (xy 2.82 -0.32) (xy 2.82 0.32) (xy 2.18 0.32)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+		)
+		(fp_poly
+			(pts
+				(xy -0.32 -0.32) (xy 0.32 -0.32) (xy 0.32 0.32) (xy -0.32 0.32)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+		)
+		(fp_poly
+			(pts
+				(xy -2.82 -0.32) (xy -2.18 -0.32) (xy -2.18 0.32) (xy -2.82 0.32)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+		)
+		(fp_poly
+			(pts
+				(xy -5.32 -0.32) (xy -4.68 -0.32) (xy -4.68 0.32) (xy -5.32 0.32)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+		)
+		(fp_line
+			(start 7.5 2.55)
+			(end -7.5 2.55)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "User.2")
+		)
+		(fp_line
+			(start 7.5 -3.35)
+			(end 7.5 2.55)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "User.2")
+		)
+		(fp_line
+			(start -7.5 2.55)
+			(end -7.5 -3.35)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "User.2")
+		)
+		(fp_line
+			(start -7.5 -3.35)
+			(end 7.5 -3.35)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "User.2")
+		)
+		(fp_poly
+			(pts
+				(xy -7.444567 2.527039) (xy -7.477039 2.494567) (xy -7.522961 2.494567) (xy -7.555433 2.527039)
+				(xy -7.555433 2.572961) (xy -7.522961 2.605433) (xy -7.477039 2.605433) (xy -7.444567 2.572961)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.3")
+		)
+		(pad "1" thru_hole rect
+			(at -5 0 180)
+			(size 1.524 1.6)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "+5V")
+			(pinfunction "1")
+			(pintype "passive")
+		)
+		(pad "2" thru_hole circle
+			(at -2.5 0 180)
+			(size 1.6 1.6)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 53 "/USART2_RX_TEL3")
+			(pinfunction "2")
+			(pintype "passive")
+			(thermal_bridge_angle 90)
+		)
+		(pad "3" thru_hole circle
+			(at 0 0 180)
+			(size 1.6 1.6)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 54 "/USART2_TX_TEL3")
+			(pinfunction "3")
+			(pintype "passive")
+			(thermal_bridge_angle 90)
+		)
+		(pad "4" thru_hole circle
+			(at 2.5 0 180)
+			(size 1.6 1.6)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "4")
+			(pintype "passive")
+			(thermal_bridge_angle 90)
+		)
+		(pad "5" thru_hole circle
+			(at 5 0 180)
+			(size 1.6 1.6)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 435 "unconnected-(U5-Pad5)")
+			(pinfunction "5")
+			(pintype "passive+no_connect")
+			(thermal_bridge_angle 90)
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/EASYEDA_MODELS/CONN-TH_5P-P2.50_ZX-XH2.54-5PZZ.step"
+			(offset
+				(xyz 0 0.369 -3.4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+	)

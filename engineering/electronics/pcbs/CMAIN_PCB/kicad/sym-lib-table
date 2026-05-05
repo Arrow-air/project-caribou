@@ -1,0 +1,11 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "CMAIN_PCB")(type "KiCad")(uri "${KIPRJMOD}/libs/CMAIN_PCB.kicad_sym")(options "")(descr "Project-local CMAIN symbols"))
+  (lib (name "EasyEDA_Lib")(type "KiCad")(uri "${KIPRJMOD}/libs/EasyEDA_Lib.kicad_sym")(options "")(descr "Project-local EasyEDA symbols"))
+  (lib (name "PCM_JLCPCB-Diodes")(type "KiCad")(uri "${KIPRJMOD}/libs/PCM_JLCPCB-Diodes.kicad_sym")(options "")(descr "Project-local PCM JLCPCB diode symbols"))
+  (lib (name "Samacsys")(type "KiCad")(uri "${KIPRJMOD}/libs/Samacsys.kicad_sym")(options "")(descr "Project-local Samacsys symbols"))
+  (lib (name "Samacsys_kicad_sym")(type "KiCad")(uri "${KIPRJMOD}/libs/Samacsys_kicad_sym.kicad_sym")(options "")(descr "Project-local Samacsys KiCad symbols"))
+  (lib (name "Snapeda")(type "KiCad")(uri "${KIPRJMOD}/libs/Snapeda.kicad_sym")(options "")(descr "Project-local SnapEDA symbols"))
+  (lib (name "Snapeda_kicad_sym")(type "KiCad")(uri "${KIPRJMOD}/libs/Snapeda_kicad_sym.kicad_sym")(options "")(descr "Project-local SnapEDA KiCad symbols"))
+  (lib (name "Jumper")(type "KiCad")(uri "${KIPRJMOD}/libs/Jumper.kicad_sym")(options "")(descr "Project-local jumper symbols copied with fork"))
+)

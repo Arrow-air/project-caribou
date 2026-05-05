@@ -1,0 +1,292 @@
+	(footprint "CAP-TH_BD10.0-P5.00-D0.6-FD_2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "10.0")
+		(layer "F.Cu")
+		(property "Reference" "C11"
+			(at 0 -5.827 135)
+			(layer "F.SilkS")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "100uF"
+			(at 0 5.827 135)
+			(layer "F.Fab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/1011001013R00/3103325.html"
+			(at 0 0 135)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Capacitance:100uF Tolerance:±20% Tolerance:±20% Voltage Rating:100V Pin Spacing:5mm Diameter:10mm Height - Seated (Max):13mm Operating Temperature:-55°C~+105°C Operating Temperature:-55°C~+105°C"
+			(at 0 0 135)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC_3DModel_Q" "e7df088f27344844aa048df99fbc51f0"
+			(at 0 0 135)
+			(layer "Cmts.User")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC_3D_Size" "10 10.001"
+			(at 0 0 135)
+			(layer "Cmts.User")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part" "1011001013R00"
+			(at 0 0 315)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "NJCON(永立)"
+			(at 0 0 315)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part" "C2887236"
+			(at 0 0 315)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 315)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Name" "100uF ±20% 100V"
+			(at 0 0 315)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/c60b632a-df5e-4d62-a4c6-0d8226599a53/1051cc37-2f57-4a2e-8d99-de1a196f5b3d")
+		(sheetname "/Power_supply/")
+		(sheetfile "power_supply.kicad_sch")
+		(fp_line
+			(start -4.572 0)
+			(end -3.556 0)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -4.064 -0.761999)
+			(end -4.064 0.761999)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 5 0)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+		)
+		(fp_poly
+			(pts
+				(xy 3.556 -3.556) (xy 3.556 3.556) (xy 4.318 2.54) (xy 4.826 1.016) (xy 5.08 -0.508) (xy 4.826 -1.524)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+		)
+		(fp_poly
+			(pts
+				(xy -2.54 1.016) (xy -0.762 1.016) (xy -0.762 1.27) (xy -2.54 1.27)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "Dwgs.User")
+		)
+		(fp_poly
+			(pts
+				(xy -1.777999 0.762) (xy -1.778 2.032) (xy -1.524 2.032) (xy -1.524 0.254) (xy -1.778 0.254)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "Dwgs.User")
+		)
+		(fp_poly
+			(pts
+				(xy -2.202567 -0.039158) (xy -2.222836 -0.114805) (xy -2.261994 -0.182628) (xy -2.317372 -0.238006)
+				(xy -2.385195 -0.277164) (xy -2.460842 -0.297433) (xy -2.539158 -0.297433) (xy -2.614805 -0.277164)
+				(xy -2.682628 -0.238006) (xy -2.738006 -0.182628) (xy -2.777164 -0.114805) (xy -2.797433 -0.039158)
+				(xy -2.797433 0.039158) (xy -2.777164 0.114805) (xy -2.738006 0.182628) (xy -2.682628 0.238006)
+				(xy -2.614805 0.277164) (xy -2.539158 0.297433) (xy -2.460842 0.297433) (xy -2.385195 0.277164)
+				(xy -2.317372 0.238006) (xy -2.261994 0.182628) (xy -2.222836 0.114805) (xy -2.202567 0.039158)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+		)
+		(fp_poly
+			(pts
+				(xy 2.797433 -0.039158) (xy 2.777164 -0.114805) (xy 2.738006 -0.182628) (xy 2.682628 -0.238006)
+				(xy 2.614805 -0.277164) (xy 2.539158 -0.297433) (xy 2.460842 -0.297433) (xy 2.385195 -0.277164)
+				(xy 2.317372 -0.238006) (xy 2.261994 -0.182628) (xy 2.222836 -0.114805) (xy 2.202567 -0.039158)
+				(xy 2.202567 0.039158) (xy 2.222836 0.114805) (xy 2.261994 0.182628) (xy 2.317372 0.238006) (xy 2.385195 0.277164)
+				(xy 2.460842 0.297433) (xy 2.539158 0.297433) (xy 2.614805 0.277164) (xy 2.682628 0.238006) (xy 2.738006 0.182628)
+				(xy 2.777164 0.114805) (xy 2.797433 0.039158)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+		)
+		(fp_arc
+			(start -5 0)
+			(mid 0 -5)
+			(end 5 0)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "User.2")
+		)
+		(fp_arc
+			(start 5 0)
+			(mid 0 5)
+			(end -5 0)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "User.2")
+		)
+		(fp_poly
+			(pts
+				(xy -4.944567 4.977039) (xy -4.977039 4.944567) (xy -5.022961 4.944567) (xy -5.055433 4.977039)
+				(xy -5.055433 5.022961) (xy -5.022961 5.055433) (xy -4.977039 5.055433) (xy -4.944567 5.022961)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.3")
+		)
+		(pad "1" thru_hole circle
+			(at -2.5 0 315)
+			(size 1.6 1.6)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 116 "HV+")
+			(pinfunction "1")
+			(pintype "input")
+			(thermal_bridge_angle 90)
+		)
+		(pad "2" thru_hole circle
+			(at 2.5 0 315)
+			(size 1.6 1.6)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 34 "HV-")
+			(pinfunction "2")
+			(pintype "input")
+			(thermal_bridge_angle 90)
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/EASYEDA_MODELS/CAP-TH_BD10.0-P5.00-D0.6-FD_2.step"
+			(offset
+				(xyz 0 0 -5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+	)

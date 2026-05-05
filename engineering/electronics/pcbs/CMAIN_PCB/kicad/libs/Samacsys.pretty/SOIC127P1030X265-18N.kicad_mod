@@ -1,0 +1,479 @@
+	(footprint "SOIC127P1030X265-18N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "10.0")
+		(layer "F.Cu")
+		(descr "(SO) - Wide, 7.50 mm (.300 In.) Body [SOIC")
+		(tags "Integrated Circuit")
+		(property "Reference" "U2"
+			(at -4.8 -6.89 0)
+			(layer "F.SilkS")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "MCP2515-I/SO"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-34/DSA-675138.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "CAN Controller SPI data filtering SO18"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SUPPLIER" "Mouser"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Microchip"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALTIUM_VALUE" "MCP2515-I/SO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "MCP2515-I/SO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SUPPLIER PART NUMBER" "579-MCP2515-I/SO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "2.65"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "579-MCP2515-I/SO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP2515-I-SO?qs=KwArPi4cUogGDbGnphOvtQ%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Microchip"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MCP2515-I/SO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/760980ce-7a2e-492d-aa8b-14f8df9f3f67/efa93c28-2686-4304-b0d8-99e80d6a6546")
+		(sheetname "/CAN_circuit/")
+		(sheetfile "CAN circuit.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -5.6 -5.755)
+			(end -3.75 -5.755)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -3.4 -5.775)
+			(end 3.4 -5.775)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -3.4 5.775)
+			(end -3.4 -5.775)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 3.4 -5.775)
+			(end 3.4 5.775)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 3.4 5.775)
+			(end -3.4 5.775)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -5.85 -6.025)
+			(end 5.85 -6.025)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+		)
+		(fp_line
+			(start -5.85 6.025)
+			(end -5.85 -6.025)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+		)
+		(fp_line
+			(start 5.85 -6.025)
+			(end 5.85 6.025)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+		)
+		(fp_line
+			(start 5.85 6.025)
+			(end -5.85 6.025)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+		)
+		(fp_line
+			(start -3.75 -5.775)
+			(end 3.75 -5.775)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+		)
+		(fp_line
+			(start -3.75 -4.505)
+			(end -2.48 -5.775)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+		)
+		(fp_line
+			(start -3.75 5.775)
+			(end -3.75 -5.775)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+		)
+		(fp_line
+			(start 3.75 -5.775)
+			(end 3.75 5.775)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+		)
+		(fp_line
+			(start 3.75 5.775)
+			(end -3.75 5.775)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -4.675 -5.08 90)
+			(size 0.65 1.85)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 296 "Net-(U1-TX)")
+			(pinfunction "TXCAN")
+			(pintype "output")
+		)
+		(pad "2" smd rect
+			(at -4.675 -3.81 90)
+			(size 0.65 1.85)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 295 "Net-(U1-RX)")
+			(pinfunction "RXCAN")
+			(pintype "input")
+		)
+		(pad "3" smd rect
+			(at -4.675 -2.54 90)
+			(size 0.65 1.85)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 294 "unconnected-(U2-CLKOUT{slash}SOF-Pad3)")
+			(pinfunction "CLKOUT/SOF")
+			(pintype "output+no_connect")
+		)
+		(pad "4" smd rect
+			(at -4.675 -1.27 90)
+			(size 0.65 1.85)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 293 "unconnected-(U2-~{TX0RTS~{}}-Pad4)")
+			(pinfunction "~{TX0RTS~{}}")
+			(pintype "input+no_connect")
+		)
+		(pad "5" smd rect
+			(at -4.675 0 90)
+			(size 0.65 1.85)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 292 "unconnected-(U2-~{TX1RTS~{}}-Pad5)")
+			(pinfunction "~{TX1RTS~{}}")
+			(pintype "input+no_connect")
+		)
+		(pad "6" smd rect
+			(at -4.675 1.27 90)
+			(size 0.65 1.85)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 291 "unconnected-(U2-~{TX2RTS~{}}-Pad6)")
+			(pinfunction "~{TX2RTS~{}}")
+			(pintype "input+no_connect")
+		)
+		(pad "7" smd rect
+			(at -4.675 2.54 90)
+			(size 0.65 1.85)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 300 "Net-(U2-OSC2)")
+			(pinfunction "OSC2")
+			(pintype "output")
+		)
+		(pad "8" smd rect
+			(at -4.675 3.81 90)
+			(size 0.65 1.85)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 299 "Net-(U2-OSC1)")
+			(pinfunction "OSC1")
+			(pintype "input")
+		)
+		(pad "9" smd rect
+			(at -4.675 5.08 90)
+			(size 0.65 1.85)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 1 "GND")
+			(pinfunction "VSS")
+			(pintype "power_in")
+		)
+		(pad "10" smd rect
+			(at 4.675 5.08 90)
+			(size 0.65 1.85)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 290 "unconnected-(U2-~{RX1BF~{}}-Pad10)")
+			(pinfunction "~{RX1BF~{}}")
+			(pintype "output+no_connect")
+		)
+		(pad "11" smd rect
+			(at 4.675 3.81 90)
+			(size 0.65 1.85)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 289 "unconnected-(U2-~{RX0BF~{}}-Pad11)")
+			(pinfunction "~{RX0BF~{}}")
+			(pintype "output+no_connect")
+		)
+		(pad "12" smd rect
+			(at 4.675 2.54 90)
+			(size 0.65 1.85)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 15 "GPIO_26_CS")
+			(pinfunction "~{INT~{}}")
+			(pintype "output")
+		)
+		(pad "13" smd rect
+			(at 4.675 1.27 90)
+			(size 0.65 1.85)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 14 "SPI_SCLK")
+			(pinfunction "SCK")
+			(pintype "input")
+		)
+		(pad "14" smd rect
+			(at 4.675 0 90)
+			(size 0.65 1.85)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 23 "SPI_MOSI")
+			(pinfunction "SI")
+			(pintype "input")
+		)
+		(pad "15" smd rect
+			(at 4.675 -1.27 90)
+			(size 0.65 1.85)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 12 "SPI_MISO")
+			(pinfunction "SO")
+			(pintype "output")
+		)
+		(pad "16" smd rect
+			(at 4.675 -2.54 90)
+			(size 0.65 1.85)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 29 "SPI_CE0")
+			(pinfunction "~{CS~{}}")
+			(pintype "input")
+		)
+		(pad "17" smd rect
+			(at 4.675 -3.81 90)
+			(size 0.65 1.85)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 297 "Net-(U2-~{RESET~{}})")
+			(pinfunction "~{RESET~{}}")
+			(pintype "input")
+		)
+		(pad "18" smd rect
+			(at 4.675 -5.08 90)
+			(size 0.65 1.85)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 3 "+3.3V")
+			(pinfunction "VDD")
+			(pintype "power_in")
+		)
+		(embedded_fonts no)
+		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/MCP2515-I_SO.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
