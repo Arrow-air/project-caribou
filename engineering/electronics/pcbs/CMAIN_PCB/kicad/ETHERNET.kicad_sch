@@ -1598,7 +1598,7 @@
 	)
 	(text "PORT 2"
 		(exclude_from_sim no)
-		(at 136.398 70.358 0)
+		(at 135.89 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1609,7 +1609,7 @@
 	)
 	(text "PORT 4"
 		(exclude_from_sim no)
-		(at 233.172 91.694 0)
+		(at 233.68 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1620,7 +1620,7 @@
 	)
 	(text "PORT 5"
 		(exclude_from_sim no)
-		(at 233.934 70.358 0)
+		(at 233.68 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1631,7 +1631,7 @@
 	)
 	(text "PORT 1"
 		(exclude_from_sim no)
-		(at 70.866 91.186 0)
+		(at 71.12 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1642,7 +1642,7 @@
 	)
 	(text "PORT 6"
 		(exclude_from_sim no)
-		(at 168.402 70.612 0)
+		(at 168.91 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1653,7 +1653,7 @@
 	)
 	(text "PORT 3"
 		(exclude_from_sim no)
-		(at 70.866 70.612 0)
+		(at 71.12 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1664,7 +1664,7 @@
 	)
 	(text "For 1000Base-T operation, differential data from the media\nis transmitted and received on all four pairs.\nFor 100Base-TX and 10Base-T operation, only MDIAP/N and MDIBP/N are used.\nAuto MDIX can reverse the pairs MDIAP/N and MDIBP/N. Each of the differential pairs has an internal 100-ohm termination resistor"
 		(exclude_from_sim no)
-		(at 79.502 146.304 0)
+		(at 80.01 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1674,75 +1674,75 @@
 		(uuid "867daabc-5442-40c5-8803-f0d2159355dd")
 	)
 	(junction
-		(at 86.36 51.054)
+		(at 86.36 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "095f6ca4-653a-4f3f-aae1-0feba2da5e4f")
 	)
 	(junction
-		(at 183.896 51.054)
+		(at 184.15 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "344f3887-3980-4a21-b9ab-55ee6014f1ee")
 	)
 	(junction
-		(at 125.73 51.054)
+		(at 125.73 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5745d55f-991d-445d-9f11-e5fe1b6b7b4c")
 	)
 	(junction
-		(at 223.266 51.054)
+		(at 223.52 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f35a477a-533d-4d79-85c3-5db62fb032a3")
 	)
 	(no_connect
-		(at 188.976 104.394)
+		(at 189.23 104.14)
 		(uuid "0c51d40e-0cb8-4cb5-916f-f5cb6d4fba8a")
 	)
 	(no_connect
-		(at 219.456 78.994)
+		(at 219.71 78.74)
 		(uuid "1d6c02a0-2b85-4693-aff4-bc28b16366b9")
 	)
 	(no_connect
-		(at 188.976 56.134)
+		(at 189.23 55.88)
 		(uuid "1f4e709e-7300-4022-ac0c-778202065ad7")
 	)
 	(no_connect
-		(at 219.456 84.074)
+		(at 219.71 83.82)
 		(uuid "20f29bda-a980-452b-91f4-c1078f1d2286")
 	)
 	(no_connect
-		(at 121.92 104.394)
+		(at 121.92 104.14)
 		(uuid "2203b12b-7e68-47c5-9346-8e3dbe535542")
 	)
 	(no_connect
-		(at 91.44 61.214)
+		(at 91.44 60.96)
 		(uuid "27575c69-b8b4-4148-8542-c64c6ac3f5b0")
 	)
 	(no_connect
-		(at 91.44 58.674)
+		(at 91.44 58.42)
 		(uuid "4b00481b-5576-421f-9ad9-6141f5b371a3")
 	)
 	(no_connect
-		(at 101.854 120.65)
+		(at 101.6 120.65)
 		(uuid "4c2570cf-1ab9-4229-827b-342d346e470b")
 	)
 	(no_connect
-		(at 91.44 78.994)
+		(at 91.44 78.74)
 		(uuid "4f5525ee-27cd-4f4b-b31d-9a569118fbc5")
 	)
 	(no_connect
-		(at 91.44 76.454)
+		(at 91.44 76.2)
 		(uuid "58223cd1-b5f9-4319-a19c-1608d8b9ce60")
 	)
 	(no_connect
-		(at 91.44 81.534)
+		(at 91.44 81.28)
 		(uuid "592ce37e-8755-4e74-8885-126d32ebaa9a")
 	)
 	(no_connect
-		(at 91.44 104.394)
+		(at 91.44 104.14)
 		(uuid "63a0561d-a656-4eaf-b82b-aaf28ca55314")
 	)
 	(no_connect
@@ -1750,76 +1750,76 @@
 		(uuid "77445452-05d5-479b-b58a-e6518fd8ad81")
 	)
 	(no_connect
-		(at 219.456 58.674)
+		(at 219.71 58.42)
 		(uuid "77fa4220-7adc-447b-b15f-58d39e9f9af2")
 	)
 	(no_connect
-		(at 188.976 58.674)
+		(at 189.23 58.42)
 		(uuid "7861ff5f-419c-4f2d-a67c-ad4afdf2a832")
 	)
 	(no_connect
-		(at 219.456 104.394)
+		(at 219.71 104.14)
 		(uuid "7ae78902-e381-4705-9ea2-25b5edcc9161")
 	)
 	(no_connect
-		(at 188.976 63.754)
+		(at 189.23 63.5)
 		(uuid "a124010b-2af8-4f5e-9777-d0e5f9c70965")
 	)
 	(no_connect
-		(at 121.92 58.674)
+		(at 121.92 58.42)
 		(uuid "a3bcc7dd-ac36-4ba3-bd18-31e9afac87ba")
 	)
 	(no_connect
-		(at 91.44 56.134)
+		(at 91.44 55.88)
 		(uuid "ab97e943-4b8a-4265-b6c8-f284dfbd30cb")
 	)
 	(no_connect
-		(at 91.44 63.754)
+		(at 91.44 63.5)
 		(uuid "af8810af-3cf6-4719-8764-863716b16e1c")
 	)
 	(no_connect
-		(at 219.456 61.214)
+		(at 219.71 60.96)
 		(uuid "c330b9a9-8ec7-497b-ad40-869a7055ab16")
 	)
 	(no_connect
-		(at 121.92 56.134)
+		(at 121.92 55.88)
 		(uuid "c4447d10-7ff1-45cb-b1b2-c97c0a9f0c52")
 	)
 	(no_connect
-		(at 219.456 81.534)
+		(at 219.71 81.28)
 		(uuid "cc910e78-5190-43ee-abab-e0038702c319")
 	)
 	(no_connect
-		(at 121.92 63.754)
+		(at 121.92 63.5)
 		(uuid "d06ba052-9dc6-4c31-854e-bf6e4c999ac2")
 	)
 	(no_connect
-		(at 91.44 84.074)
+		(at 91.44 83.82)
 		(uuid "d1cdb648-845a-4694-9854-70a2cd5ac649")
 	)
 	(no_connect
-		(at 121.92 61.214)
+		(at 121.92 60.96)
 		(uuid "e5c2dc6f-03eb-4ed4-a37e-0262e20c1cf2")
 	)
 	(no_connect
-		(at 219.456 76.454)
+		(at 219.71 76.2)
 		(uuid "e6652ccf-6c0c-4f3c-9ada-57f391613874")
 	)
 	(no_connect
-		(at 219.456 63.754)
+		(at 219.71 63.5)
 		(uuid "e6fe1150-4750-4f0f-a923-b2ac0b2e5307")
 	)
 	(no_connect
-		(at 188.976 61.214)
+		(at 189.23 60.96)
 		(uuid "e849a165-4a36-49c3-90a9-3624606cfc91")
 	)
 	(no_connect
-		(at 219.456 56.134)
+		(at 219.71 55.88)
 		(uuid "fd6c788c-9317-4aad-918c-0bacb98d34bb")
 	)
 	(wire
 		(pts
-			(xy 188.976 51.054) (xy 183.896 51.054)
+			(xy 189.23 50.8) (xy 184.15 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1829,7 +1829,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 114.808) (xy 177.292 114.808)
+			(xy 204.47 114.3) (xy 177.8 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1839,7 +1839,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.394 113.792) (xy 104.394 120.65)
+			(xy 104.14 114.3) (xy 104.14 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1849,7 +1849,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.456 53.594) (xy 223.266 53.594)
+			(xy 219.71 53.34) (xy 223.52 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1859,7 +1859,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 51.054) (xy 130.81 51.054)
+			(xy 125.73 50.8) (xy 130.81 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1869,7 +1869,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 53.594) (xy 125.73 51.054)
+			(xy 125.73 53.34) (xy 125.73 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1879,7 +1879,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.042 99.314) (xy 91.44 99.314)
+			(xy 82.55 99.06) (xy 91.44 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1889,7 +1889,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 112.776) (xy 209.55 120.65)
+			(xy 209.55 113.03) (xy 209.55 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1899,7 +1899,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.266 51.054) (xy 228.346 51.054)
+			(xy 223.52 50.8) (xy 228.6 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1909,7 +1909,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.578 112.776) (xy 179.578 99.314)
+			(xy 179.07 113.03) (xy 179.07 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1919,7 +1919,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 94.234) (xy 188.976 94.234)
+			(xy 121.92 93.98) (xy 189.23 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1929,7 +1929,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 51.054) (xy 125.73 51.054)
+			(xy 121.92 50.8) (xy 125.73 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1939,7 +1939,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 89.154) (xy 188.976 89.154)
+			(xy 121.92 88.9) (xy 189.23 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1949,7 +1949,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.292 96.774) (xy 188.976 96.774)
+			(xy 177.8 96.52) (xy 189.23 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1959,7 +1959,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.578 99.314) (xy 188.976 99.314)
+			(xy 179.07 99.06) (xy 189.23 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1969,7 +1969,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 86.614) (xy 188.976 86.614)
+			(xy 121.92 86.36) (xy 189.23 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1979,7 +1979,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 96.774) (xy 219.456 96.774)
+			(xy 227.33 96.52) (xy 219.71 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1989,7 +1989,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 91.694) (xy 188.976 91.694)
+			(xy 121.92 91.44) (xy 189.23 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1999,7 +1999,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 113.792) (xy 201.93 120.65)
+			(xy 201.93 114.3) (xy 201.93 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2009,7 +2009,7 @@
 	)
 	(wire
 		(pts
-			(xy 188.976 53.594) (xy 183.896 53.594)
+			(xy 189.23 53.34) (xy 184.15 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2019,7 +2019,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 53.594) (xy 86.36 53.594)
+			(xy 91.44 53.34) (xy 86.36 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2029,7 +2029,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.934 120.65) (xy 106.934 114.808)
+			(xy 106.68 120.65) (xy 106.68 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2039,7 +2039,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.794 113.792) (xy 129.794 96.774)
+			(xy 129.54 114.3) (xy 129.54 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2049,7 +2049,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 84.074) (xy 188.976 84.074)
+			(xy 121.92 83.82) (xy 189.23 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2059,7 +2059,7 @@
 	)
 	(wire
 		(pts
-			(xy 183.896 51.054) (xy 177.546 51.054)
+			(xy 184.15 50.8) (xy 177.8 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2069,7 +2069,7 @@
 	)
 	(wire
 		(pts
-			(xy 112.014 112.776) (xy 112.014 120.65)
+			(xy 111.76 113.03) (xy 111.76 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2079,7 +2079,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 120.65) (xy 204.47 114.808)
+			(xy 204.47 120.65) (xy 204.47 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2089,7 +2089,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 112.776) (xy 179.578 112.776)
+			(xy 209.55 113.03) (xy 179.07 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2099,7 +2099,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.456 51.054) (xy 223.266 51.054)
+			(xy 219.71 50.8) (xy 223.52 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2109,7 +2109,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 51.054) (xy 86.36 51.054)
+			(xy 91.44 50.8) (xy 86.36 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2119,7 +2119,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 51.054) (xy 80.01 51.054)
+			(xy 86.36 50.8) (xy 80.01 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2129,7 +2129,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 81.534) (xy 188.976 81.534)
+			(xy 121.92 81.28) (xy 189.23 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2139,7 +2139,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 76.454) (xy 188.976 76.454)
+			(xy 121.92 76.2) (xy 189.23 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2149,7 +2149,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.042 112.776) (xy 82.042 99.314)
+			(xy 82.55 113.03) (xy 82.55 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2159,7 +2159,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 78.994) (xy 188.976 78.994)
+			(xy 121.92 78.74) (xy 189.23 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2169,7 +2169,7 @@
 	)
 	(wire
 		(pts
-			(xy 112.014 112.776) (xy 82.042 112.776)
+			(xy 111.76 113.03) (xy 82.55 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2179,7 +2179,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 113.792) (xy 227.33 96.774)
+			(xy 227.33 114.3) (xy 227.33 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2189,7 +2189,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.934 114.808) (xy 79.756 114.808)
+			(xy 106.68 114.3) (xy 80.01 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2199,7 +2199,7 @@
 	)
 	(wire
 		(pts
-			(xy 79.756 96.774) (xy 91.44 96.774)
+			(xy 80.01 96.52) (xy 91.44 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2209,7 +2209,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 53.594) (xy 86.36 51.054)
+			(xy 86.36 53.34) (xy 86.36 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2219,7 +2219,7 @@
 	)
 	(wire
 		(pts
-			(xy 79.756 114.808) (xy 79.756 96.774)
+			(xy 80.01 114.3) (xy 80.01 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2229,7 +2229,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 53.594) (xy 125.73 53.594)
+			(xy 121.92 53.34) (xy 125.73 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2239,7 +2239,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.292 114.808) (xy 177.292 96.774)
+			(xy 177.8 114.3) (xy 177.8 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2249,7 +2249,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.394 113.792) (xy 129.794 113.792)
+			(xy 104.14 114.3) (xy 129.54 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2259,7 +2259,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.794 96.774) (xy 121.92 96.774)
+			(xy 129.54 96.52) (xy 121.92 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2269,7 +2269,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 113.792) (xy 227.33 113.792)
+			(xy 201.93 114.3) (xy 227.33 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2279,7 +2279,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.266 53.594) (xy 223.266 51.054)
+			(xy 223.52 53.34) (xy 223.52 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2289,7 +2289,7 @@
 	)
 	(wire
 		(pts
-			(xy 183.896 53.594) (xy 183.896 51.054)
+			(xy 184.15 53.34) (xy 184.15 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2299,7 +2299,7 @@
 	)
 	(global_label "ETH2_2A-"
 		(shape input)
-		(at 219.456 71.374 0)
+		(at 219.71 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2309,7 +2309,7 @@
 		)
 		(uuid "050a4b86-df2f-4300-9261-cbf346fe6607")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.9359 71.374 0)
+			(at 232.41 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2323,7 +2323,7 @@
 	)
 	(global_label "ETH1_0B-"
 		(shape input)
-		(at 91.44 86.614 180)
+		(at 91.44 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2333,7 +2333,7 @@
 		)
 		(uuid "24cd18eb-e69e-4998-a1c8-5f9be6c2e349")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.7787 86.614 0)
+			(at 78.74 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2347,7 +2347,7 @@
 	)
 	(global_label "ETH2_3B+"
 		(shape input)
-		(at 188.976 68.834 180)
+		(at 189.23 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2357,7 +2357,7 @@
 		)
 		(uuid "331f7e76-6894-4e10-9759-6260d564b6ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.3147 68.834 0)
+			(at 176.53 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2371,7 +2371,7 @@
 	)
 	(global_label "ETH2_2B+"
 		(shape input)
-		(at 219.456 68.834 0)
+		(at 219.71 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2381,7 +2381,7 @@
 		)
 		(uuid "3898a6c5-a074-4bb4-811c-6001126d9c6c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.1173 68.834 0)
+			(at 232.41 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2395,7 +2395,7 @@
 	)
 	(global_label "ETH1_0A+"
 		(shape input)
-		(at 91.44 94.234 180)
+		(at 91.44 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2405,7 +2405,7 @@
 		)
 		(uuid "442bf53c-7204-4655-9bd6-a0257a9f041f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.9601 94.234 0)
+			(at 78.74 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2419,7 +2419,7 @@
 	)
 	(global_label "ETH2_1B-"
 		(shape input)
-		(at 219.456 86.614 0)
+		(at 219.71 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2429,7 +2429,7 @@
 		)
 		(uuid "5b6fa5e3-c010-4fcb-93b5-0951ccb98f23")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.1173 86.614 0)
+			(at 232.41 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2443,7 +2443,7 @@
 	)
 	(global_label "ETH1_3A-"
 		(shape input)
-		(at 91.44 71.374 180)
+		(at 91.44 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2453,7 +2453,7 @@
 		)
 		(uuid "7846bbbe-4dc0-47ab-84e8-aae1de3df8da")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.9601 71.374 0)
+			(at 78.74 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2467,7 +2467,7 @@
 	)
 	(global_label "ETH2_3A-"
 		(shape input)
-		(at 188.976 71.374 180)
+		(at 189.23 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2477,7 +2477,7 @@
 		)
 		(uuid "78c09a36-9de9-43d9-9848-b5571d0feec5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.4961 71.374 0)
+			(at 176.53 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2491,7 +2491,7 @@
 	)
 	(global_label "ETH1_3B-"
 		(shape input)
-		(at 91.44 66.294 180)
+		(at 91.44 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2501,7 +2501,7 @@
 		)
 		(uuid "7ccd459e-0c6b-4ae5-92cb-95c47da3b79d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.7787 66.294 0)
+			(at 78.74 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2515,7 +2515,7 @@
 	)
 	(global_label "ETH1_3A+"
 		(shape input)
-		(at 91.44 73.914 180)
+		(at 91.44 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2525,7 +2525,7 @@
 		)
 		(uuid "8cb1b861-fecd-4b05-8ed5-5126ccdf3a36")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.9601 73.914 0)
+			(at 78.74 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2539,7 +2539,7 @@
 	)
 	(global_label "ETH2_2B-"
 		(shape input)
-		(at 219.456 66.294 0)
+		(at 219.71 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2549,7 +2549,7 @@
 		)
 		(uuid "8f6b57e5-7807-4d35-aa41-86a73f6e860a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.1173 66.294 0)
+			(at 232.41 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2563,7 +2563,7 @@
 	)
 	(global_label "ETH1_0B+"
 		(shape input)
-		(at 91.44 89.154 180)
+		(at 91.44 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2573,7 +2573,7 @@
 		)
 		(uuid "98d277b3-7f41-48ae-88d0-e94aa44c2dd2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.7787 89.154 0)
+			(at 78.74 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2587,7 +2587,7 @@
 	)
 	(global_label "ETH2_1A-"
 		(shape input)
-		(at 219.456 91.694 0)
+		(at 219.71 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2597,7 +2597,7 @@
 		)
 		(uuid "b8c29138-c585-4fba-afd2-0751fb5c01a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.9359 91.694 0)
+			(at 232.41 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2611,7 +2611,7 @@
 	)
 	(global_label "ETH2_3A+"
 		(shape input)
-		(at 188.976 73.914 180)
+		(at 189.23 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2621,7 +2621,7 @@
 		)
 		(uuid "bfba4f44-363a-40bf-8ec6-c94767aeb363")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.4961 73.914 0)
+			(at 176.53 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2635,7 +2635,7 @@
 	)
 	(global_label "ETH2_3B-"
 		(shape input)
-		(at 188.976 66.294 180)
+		(at 189.23 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2645,7 +2645,7 @@
 		)
 		(uuid "cacb8c98-f661-401b-90ff-133a9d0c6f52")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.3147 66.294 0)
+			(at 176.53 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2659,7 +2659,7 @@
 	)
 	(global_label "ETH1_2A-"
 		(shape input)
-		(at 121.92 71.374 0)
+		(at 121.92 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2669,7 +2669,7 @@
 		)
 		(uuid "d4adfc19-1e93-4abe-8af4-5ec9d14917a5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.3999 71.374 0)
+			(at 134.62 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2683,7 +2683,7 @@
 	)
 	(global_label "ETH2_1B+"
 		(shape input)
-		(at 219.456 89.154 0)
+		(at 219.71 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2693,7 +2693,7 @@
 		)
 		(uuid "da2e21d4-8a4d-4192-9a91-91794b80201a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.1173 89.154 0)
+			(at 232.41 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2707,7 +2707,7 @@
 	)
 	(global_label "ETH1_2B-"
 		(shape input)
-		(at 121.92 66.294 0)
+		(at 121.92 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2717,7 +2717,7 @@
 		)
 		(uuid "e19115e1-820b-4468-b91f-94cf9d79128e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.5813 66.294 0)
+			(at 134.62 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2731,7 +2731,7 @@
 	)
 	(global_label "ETH1_3B+"
 		(shape input)
-		(at 91.44 68.834 180)
+		(at 91.44 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2741,7 +2741,7 @@
 		)
 		(uuid "e1cb1aa3-d2d8-4f74-ab38-78075677db4a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.7787 68.834 0)
+			(at 78.74 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2755,7 +2755,7 @@
 	)
 	(global_label "ETH2_1A+"
 		(shape input)
-		(at 219.456 94.234 0)
+		(at 219.71 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2765,7 +2765,7 @@
 		)
 		(uuid "e93fbd2b-ca79-4d32-af08-c2999897ab85")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.9359 94.234 0)
+			(at 232.41 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2779,7 +2779,7 @@
 	)
 	(global_label "ETH1_0A-"
 		(shape input)
-		(at 91.44 91.694 180)
+		(at 91.44 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2789,7 +2789,7 @@
 		)
 		(uuid "e960cc4b-8ebd-4f58-9584-7b0024f30af4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.9601 91.694 0)
+			(at 78.74 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2803,7 +2803,7 @@
 	)
 	(global_label "ETH1_2A+"
 		(shape input)
-		(at 121.92 73.914 0)
+		(at 121.92 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2813,7 +2813,7 @@
 		)
 		(uuid "ebe187d8-ca89-4316-8c3d-65b468a89e6d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.3999 73.914 0)
+			(at 134.62 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2827,7 +2827,7 @@
 	)
 	(global_label "ETH1_2B+"
 		(shape input)
-		(at 121.92 68.834 0)
+		(at 121.92 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2837,7 +2837,7 @@
 		)
 		(uuid "f2faadcc-a80a-4703-aa07-ec0036b9fdbb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.5813 68.834 0)
+			(at 134.62 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2851,7 +2851,7 @@
 	)
 	(global_label "ETH2_2A+"
 		(shape input)
-		(at 219.456 73.914 0)
+		(at 219.71 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2861,7 +2861,7 @@
 		)
 		(uuid "f4bff13f-da2a-4f9a-ac4f-41c46542dcc7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.9359 73.914 0)
+			(at 232.41 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2875,7 +2875,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 219.456 99.314 90)
+		(at 219.71 99.06 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2885,7 +2885,7 @@
 		(dnp no)
 		(uuid "00c95f51-4204-402a-84c0-ab21efe905b1")
 		(property "Reference" "#PWR043"
-			(at 225.806 99.314 0)
+			(at 226.06 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2896,7 +2896,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 221.996 99.314 90)
+			(at 222.25 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2907,7 +2907,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.456 99.314 0)
+			(at 219.71 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2918,7 +2918,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.456 99.314 0)
+			(at 219.71 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2929,7 +2929,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 219.456 99.314 0)
+			(at 219.71 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2953,7 +2953,7 @@
 	)
 	(symbol
 		(lib_id "Snapeda:SMTWEM245STR")
-		(at 105.918 35.56 0)
+		(at 105.41 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2964,7 +2964,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f29b1f6-f797-4b3a-bb9b-8cb6881f681d")
 		(property "Reference" "U14"
-			(at 105.918 35.56 0)
+			(at 105.41 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2975,7 +2975,7 @@
 			)
 		)
 		(property "Value" "SMTWEM245STR"
-			(at 107.188 35.5599 0)
+			(at 106.68 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2986,7 +2986,7 @@
 			)
 		)
 		(property "Footprint" "Snapeda:SCREW-SMD_BD4.4-D2.8-H4.5"
-			(at 105.918 41.148 0)
+			(at 105.41 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2997,7 +2997,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/SMTWEM245STR/6053346.html"
-			(at 105.918 45.212 0)
+			(at 105.41 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3008,7 +3008,7 @@
 			)
 		)
 		(property "Description" "specifications:M2 surface treatment:Tin Plated Product Description:- material quality:Iron Rated current:- length:4.5mm"
-			(at 105.664 39.116 0)
+			(at 105.41 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3019,7 +3019,7 @@
 			)
 		)
 		(property "Manufacturer Part" "SMTWEM245STR"
-			(at 105.664 32.512 0)
+			(at 105.41 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3030,7 +3030,7 @@
 			)
 		)
 		(property "Manufacturer" "YIYUAN(怡远)"
-			(at 105.918 28.194 0)
+			(at 105.41 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3041,7 +3041,7 @@
 			)
 		)
 		(property "Supplier Part" "C5301792"
-			(at 105.918 30.226 0)
+			(at 105.41 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3052,7 +3052,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 105.918 26.162 0)
+			(at 105.41 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3063,7 +3063,7 @@
 			)
 		)
 		(property "LCSC Part Name" "YIYUAN(怡远) 电路板表贴圆螺母柱 PCB贴片连接器 M2x4.35xL4.5+1.4mm 铁镀锡 SMTWEM245STR"
-			(at 105.918 43.18 0)
+			(at 105.41 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3087,7 +3087,7 @@
 	)
 	(symbol
 		(lib_id "Snapeda_kicad_sym:GIGABLOX_NANO_SWITCH_REVA_MODULE")
-		(at 214.376 112.014 0)
+		(at 214.63 111.76 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3098,7 +3098,7 @@
 		(dnp no)
 		(uuid "1ea44718-9f55-40df-b80c-98a7ba5de7a3")
 		(property "Reference" "J51"
-			(at 206.502 46.228 0)
+			(at 207.01 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3109,7 +3109,7 @@
 			)
 		)
 		(property "Value" "GIGABLOX_NANO_SWITCH_REVA_MODULE"
-			(at 223.774 44.704 0)
+			(at 223.52 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3120,7 +3120,7 @@
 			)
 		)
 		(property "Footprint" "Snapeda:GIGABLOX_NANO_SWITCH_REVA_MODULE_LSHM-120-02.5-L-DV-A-S-K-TR"
-			(at 214.376 112.014 0)
+			(at 214.63 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3132,7 +3132,7 @@
 			)
 		)
 		(property "Datasheet" "http://suddendocs.samtec.com/prints/lshm-1xx-xx.x-xxx-dv-a-x-x-xx-mkt.pdf"
-			(at 214.376 112.014 0)
+			(at 214.63 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3143,7 +3143,7 @@
 			)
 		)
 		(property "Description" "40 Position, 0.50 mm Razor Beam&trade; High-Speed Hermaphroditic Terminal/Socket Strip"
-			(at 214.376 112.014 0)
+			(at 214.63 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3154,7 +3154,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 154.686 501.854 0)
+			(at 154.94 501.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3166,7 +3166,7 @@
 			)
 		)
 		(property "Mouser Part Number" "200-LSHM1202.5LDVASK"
-			(at 154.686 601.854 0)
+			(at 154.94 601.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3178,7 +3178,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/LSHM-120-02.5-L-DV-A-S-K-TR?qs=PB6%2FjmICvI06Gdv948IynQ%3D%3D"
-			(at 154.686 701.854 0)
+			(at 154.94 702.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3190,7 +3190,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "SAMTEC"
-			(at 154.686 801.854 0)
+			(at 154.94 801.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3202,7 +3202,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LSHM-120-02.5-L-DV-A-S-K-TR"
-			(at 154.686 901.854 0)
+			(at 154.94 901.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3214,7 +3214,7 @@
 			)
 		)
 		(property "MF" "BotBlox"
-			(at 214.376 112.014 0)
+			(at 214.63 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3226,7 +3226,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            4 PORT 1G ETHERNET SWITCH MODULE\n                        \n"
-			(at 214.376 112.014 0)
+			(at 214.63 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3238,7 +3238,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 214.376 112.014 0)
+			(at 214.63 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3250,7 +3250,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 214.376 112.014 0)
+			(at 214.63 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3262,7 +3262,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BB-GGN-A-1/Botblox/view-part/?ref=snap"
-			(at 214.376 112.014 0)
+			(at 214.63 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3274,7 +3274,7 @@
 			)
 		)
 		(property "MP" "BB-GGN-A-1"
-			(at 214.376 112.014 0)
+			(at 214.63 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3286,7 +3286,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 214.376 112.014 0)
+			(at 214.63 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3298,7 +3298,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/BB-GGN-A-1/Botblox/view-part/?ref=eda"
-			(at 214.376 112.014 0)
+			(at 214.63 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3446,7 +3446,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 228.346 51.054 90)
+		(at 228.6 50.8 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3456,7 +3456,7 @@
 		(dnp no)
 		(uuid "21d52f7a-5107-4ae8-9609-bd5c9fb34dc3")
 		(property "Reference" "#PWR037"
-			(at 234.696 51.054 0)
+			(at 234.95 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3467,7 +3467,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 230.886 51.054 90)
+			(at 231.14 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3478,7 +3478,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.346 51.054 0)
+			(at 228.6 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3489,7 +3489,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.346 51.054 0)
+			(at 228.6 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3500,7 +3500,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 228.346 51.054 0)
+			(at 228.6 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3524,7 +3524,7 @@
 	)
 	(symbol
 		(lib_id "Snapeda:SMTWEM245STR")
-		(at 204.978 35.56 0)
+		(at 204.47 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3535,7 +3535,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c767df4-a334-41ce-bf19-aedad0bdbc4b")
 		(property "Reference" "U16"
-			(at 204.978 35.56 0)
+			(at 204.47 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3546,7 +3546,7 @@
 			)
 		)
 		(property "Value" "SMTWEM245STR"
-			(at 206.248 35.5599 0)
+			(at 205.74 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3557,7 +3557,7 @@
 			)
 		)
 		(property "Footprint" "Snapeda:SCREW-SMD_BD4.4-D2.8-H4.5"
-			(at 204.978 41.148 0)
+			(at 204.47 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3568,7 +3568,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/SMTWEM245STR/6053346.html"
-			(at 204.978 45.212 0)
+			(at 204.47 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3579,7 +3579,7 @@
 			)
 		)
 		(property "Description" "specifications:M2 surface treatment:Tin Plated Product Description:- material quality:Iron Rated current:- length:4.5mm"
-			(at 204.724 39.116 0)
+			(at 204.47 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3590,7 +3590,7 @@
 			)
 		)
 		(property "Manufacturer Part" "SMTWEM245STR"
-			(at 204.724 32.512 0)
+			(at 204.47 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3601,7 +3601,7 @@
 			)
 		)
 		(property "Manufacturer" "YIYUAN(怡远)"
-			(at 204.978 28.194 0)
+			(at 204.47 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3612,7 +3612,7 @@
 			)
 		)
 		(property "Supplier Part" "C5301792"
-			(at 204.978 30.226 0)
+			(at 204.47 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3623,7 +3623,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 204.978 26.162 0)
+			(at 204.47 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3634,7 +3634,7 @@
 			)
 		)
 		(property "LCSC Part Name" "YIYUAN(怡远) 电路板表贴圆螺母柱 PCB贴片连接器 M2x4.35xL4.5+1.4mm 铁镀锡 SMTWEM245STR"
-			(at 204.978 43.18 0)
+			(at 204.47 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3736,7 +3736,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 177.546 51.054 90)
+		(at 177.8 50.8 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3747,7 +3747,7 @@
 		(fields_autoplaced yes)
 		(uuid "705ff9f4-1fa5-4ec2-89a4-3b8c0e2df189")
 		(property "Reference" "#PWR025"
-			(at 181.356 51.054 0)
+			(at 181.61 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3758,7 +3758,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 173.482 51.0539 90)
+			(at 173.99 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3769,7 +3769,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.546 51.054 0)
+			(at 177.8 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3780,7 +3780,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.546 51.054 0)
+			(at 177.8 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3791,7 +3791,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 177.546 51.054 0)
+			(at 177.8 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3815,7 +3815,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.474 120.65 180)
+		(at 109.22 120.65 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3825,7 +3825,7 @@
 		(dnp no)
 		(uuid "73b898a4-2eac-449d-a034-71db3fe24d18")
 		(property "Reference" "#PWR0126"
-			(at 109.474 114.3 0)
+			(at 109.22 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3836,7 +3836,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.474 118.11 90)
+			(at 109.22 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3847,7 +3847,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.474 120.65 0)
+			(at 109.22 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3858,7 +3858,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.474 120.65 0)
+			(at 109.22 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3869,7 +3869,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.474 120.65 0)
+			(at 109.22 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3893,7 +3893,7 @@
 	)
 	(symbol
 		(lib_id "Snapeda:SMTWEM245STR")
-		(at 197.358 35.56 0)
+		(at 196.85 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3903,7 +3903,7 @@
 		(dnp no)
 		(uuid "79b0aeee-4efe-43bc-9af6-0e868a78c718")
 		(property "Reference" "U15"
-			(at 197.358 35.56 0)
+			(at 196.85 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3914,7 +3914,7 @@
 			)
 		)
 		(property "Value" "SMTWEM245STR"
-			(at 196.342 37.592 0)
+			(at 196.85 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3925,7 +3925,7 @@
 			)
 		)
 		(property "Footprint" "Snapeda:SCREW-SMD_BD4.4-D2.8-H4.5"
-			(at 197.358 41.148 0)
+			(at 196.85 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3936,7 +3936,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/SMTWEM245STR/6053346.html"
-			(at 197.358 45.212 0)
+			(at 196.85 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3947,7 +3947,7 @@
 			)
 		)
 		(property "Description" "specifications:M2 surface treatment:Tin Plated Product Description:- material quality:Iron Rated current:- length:4.5mm"
-			(at 197.104 39.116 0)
+			(at 196.85 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3958,7 +3958,7 @@
 			)
 		)
 		(property "Manufacturer Part" "SMTWEM245STR"
-			(at 197.104 32.512 0)
+			(at 196.85 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3969,7 +3969,7 @@
 			)
 		)
 		(property "Manufacturer" "YIYUAN(怡远)"
-			(at 197.358 28.194 0)
+			(at 196.85 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3980,7 +3980,7 @@
 			)
 		)
 		(property "Supplier Part" "C5301792"
-			(at 197.358 30.226 0)
+			(at 196.85 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3991,7 +3991,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 197.358 26.162 0)
+			(at 196.85 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4002,7 +4002,7 @@
 			)
 		)
 		(property "LCSC Part Name" "YIYUAN(怡远) 电路板表贴圆螺母柱 PCB贴片连接器 M2x4.35xL4.5+1.4mm 铁镀锡 SMTWEM245STR"
-			(at 197.358 43.18 0)
+			(at 196.85 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4026,7 +4026,7 @@
 	)
 	(symbol
 		(lib_id "Snapeda_kicad_sym:GIGABLOX_NANO_SWITCH_REVA_MODULE")
-		(at 116.84 112.014 0)
+		(at 116.84 111.76 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4037,7 +4037,7 @@
 		(dnp no)
 		(uuid "8329568f-b466-47ad-8dfa-e41548b1f48d")
 		(property "Reference" "J47"
-			(at 108.966 46.228 0)
+			(at 109.22 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4048,7 +4048,7 @@
 			)
 		)
 		(property "Value" "GIGABLOX_NANO_SWITCH_REVA_MODULE"
-			(at 126.238 44.704 0)
+			(at 125.73 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4059,7 +4059,7 @@
 			)
 		)
 		(property "Footprint" "Snapeda:GIGABLOX_NANO_SWITCH_REVA_MODULE_LSHM-120-02.5-L-DV-A-S-K-TR"
-			(at 116.84 112.014 0)
+			(at 116.84 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4071,7 +4071,7 @@
 			)
 		)
 		(property "Datasheet" "http://suddendocs.samtec.com/prints/lshm-1xx-xx.x-xxx-dv-a-x-x-xx-mkt.pdf"
-			(at 116.84 112.014 0)
+			(at 116.84 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4082,7 +4082,7 @@
 			)
 		)
 		(property "Description" "40 Position, 0.50 mm Razor Beam&trade; High-Speed Hermaphroditic Terminal/Socket Strip"
-			(at 116.84 112.014 0)
+			(at 116.84 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4093,7 +4093,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 57.15 501.854 0)
+			(at 57.15 501.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4105,7 +4105,7 @@
 			)
 		)
 		(property "Mouser Part Number" "200-LSHM1202.5LDVASK"
-			(at 57.15 601.854 0)
+			(at 57.15 601.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4117,7 +4117,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/LSHM-120-02.5-L-DV-A-S-K-TR?qs=PB6%2FjmICvI06Gdv948IynQ%3D%3D"
-			(at 57.15 701.854 0)
+			(at 57.15 702.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4129,7 +4129,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "SAMTEC"
-			(at 57.15 801.854 0)
+			(at 57.15 801.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4141,7 +4141,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LSHM-120-02.5-L-DV-A-S-K-TR"
-			(at 57.15 901.854 0)
+			(at 57.15 901.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4153,7 +4153,7 @@
 			)
 		)
 		(property "MF" "BotBlox"
-			(at 116.84 112.014 0)
+			(at 116.84 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4165,7 +4165,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            4 PORT 1G ETHERNET SWITCH MODULE\n                        \n"
-			(at 116.84 112.014 0)
+			(at 116.84 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4177,7 +4177,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 116.84 112.014 0)
+			(at 116.84 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4189,7 +4189,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 116.84 112.014 0)
+			(at 116.84 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4201,7 +4201,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BB-GGN-A-1/Botblox/view-part/?ref=snap"
-			(at 116.84 112.014 0)
+			(at 116.84 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4213,7 +4213,7 @@
 			)
 		)
 		(property "MP" "BB-GGN-A-1"
-			(at 116.84 112.014 0)
+			(at 116.84 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4225,7 +4225,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 116.84 112.014 0)
+			(at 116.84 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4237,7 +4237,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/BB-GGN-A-1/Botblox/view-part/?ref=eda"
-			(at 116.84 112.014 0)
+			(at 116.84 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4385,7 +4385,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 80.01 51.054 90)
+		(at 80.01 50.8 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4396,7 +4396,7 @@
 		(fields_autoplaced yes)
 		(uuid "86c03749-307e-4271-a88b-3ec4276131fc")
 		(property "Reference" "#PWR022"
-			(at 83.82 51.054 0)
+			(at 83.82 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4407,7 +4407,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 75.946 51.0539 90)
+			(at 76.2 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4418,7 +4418,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 51.054 0)
+			(at 80.01 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4429,7 +4429,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 51.054 0)
+			(at 80.01 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4440,7 +4440,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 80.01 51.054 0)
+			(at 80.01 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4464,7 +4464,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 121.92 99.314 90)
+		(at 121.92 99.06 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4474,7 +4474,7 @@
 		(dnp no)
 		(uuid "93ef810a-9583-4b87-92f7-5bc4f58adde8")
 		(property "Reference" "#PWR021"
-			(at 128.27 99.314 0)
+			(at 128.27 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4485,7 +4485,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 99.314 90)
+			(at 124.46 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4496,7 +4496,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 99.314 0)
+			(at 121.92 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4507,7 +4507,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 99.314 0)
+			(at 121.92 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4518,7 +4518,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 99.314 0)
+			(at 121.92 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4542,7 +4542,7 @@
 	)
 	(symbol
 		(lib_id "Snapeda:SMTWEM245STR")
-		(at 98.298 35.56 0)
+		(at 97.79 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4552,7 +4552,7 @@
 		(dnp no)
 		(uuid "9d195693-847b-4d72-89e5-8a6464fd2345")
 		(property "Reference" "U13"
-			(at 98.298 35.56 0)
+			(at 97.79 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4563,7 +4563,7 @@
 			)
 		)
 		(property "Value" "SMTWEM245STR"
-			(at 97.536 37.592 0)
+			(at 97.79 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4574,7 +4574,7 @@
 			)
 		)
 		(property "Footprint" "Snapeda:SCREW-SMD_BD4.4-D2.8-H4.5"
-			(at 98.298 41.148 0)
+			(at 97.79 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4585,7 +4585,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/SMTWEM245STR/6053346.html"
-			(at 98.298 45.212 0)
+			(at 97.79 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4596,7 +4596,7 @@
 			)
 		)
 		(property "Description" "specifications:M2 surface treatment:Tin Plated Product Description:- material quality:Iron Rated current:- length:4.5mm"
-			(at 98.044 39.116 0)
+			(at 97.79 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4607,7 +4607,7 @@
 			)
 		)
 		(property "Manufacturer Part" "SMTWEM245STR"
-			(at 98.044 32.512 0)
+			(at 97.79 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4618,7 +4618,7 @@
 			)
 		)
 		(property "Manufacturer" "YIYUAN(怡远)"
-			(at 98.298 28.194 0)
+			(at 97.79 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4629,7 +4629,7 @@
 			)
 		)
 		(property "Supplier Part" "C5301792"
-			(at 98.298 30.226 0)
+			(at 97.79 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4640,7 +4640,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 98.298 26.162 0)
+			(at 97.79 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4651,7 +4651,7 @@
 			)
 		)
 		(property "LCSC Part Name" "YIYUAN(怡远) 电路板表贴圆螺母柱 PCB贴片连接器 M2x4.35xL4.5+1.4mm 铁镀锡 SMTWEM245STR"
-			(at 98.298 43.18 0)
+			(at 97.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4685,7 +4685,7 @@
 		(dnp no)
 		(uuid "a2682359-93df-4fe6-9a24-b3a705a12c37")
 		(property "Reference" "J52"
-			(at 211.0739 126.746 90)
+			(at 210.82 127 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4696,7 +4696,7 @@
 			)
 		)
 		(property "Value" "SM04B-GHS-TB_LF__SN_"
-			(at 211.074 128.778 90)
+			(at 210.82 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4707,7 +4707,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:SM04B-GHS-TB"
-			(at 114.63 137.16 0)
+			(at 114.3 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4719,7 +4719,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 14.63 137.16 0)
+			(at 15.24 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4742,7 +4742,7 @@
 			)
 		)
 		(property "Height" ""
-			(at -185.37 137.16 0)
+			(at -185.42 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4754,7 +4754,7 @@
 			)
 		)
 		(property "Mouser Part Number" "N/A"
-			(at -285.37 137.16 0)
+			(at -285.75 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4766,7 +4766,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/SM04B-GHS-TBLFSN?qs=QpmGXVUTftEJzKB1YHGCXw%3D%3D"
-			(at -385.37 137.16 0)
+			(at -384.81 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4778,7 +4778,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-			(at -485.37 137.16 0)
+			(at -485.14 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4790,7 +4790,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SM04B-GHS-TB(LF)(SN)"
-			(at -585.37 137.16 0)
+			(at -585.47 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4827,7 +4827,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 51.054 90)
+		(at 130.81 50.8 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4837,7 +4837,7 @@
 		(dnp no)
 		(uuid "c181df90-99ca-4d8a-bef7-cbaf3fdfca0b")
 		(property "Reference" "#PWR023"
-			(at 137.16 51.054 0)
+			(at 137.16 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4848,7 +4848,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 51.054 90)
+			(at 133.35 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4859,7 +4859,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 51.054 0)
+			(at 130.81 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4870,7 +4870,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 51.054 0)
+			(at 130.81 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4881,7 +4881,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 51.054 0)
+			(at 130.81 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4905,7 +4905,7 @@
 	)
 	(symbol
 		(lib_id "Samacsys_kicad_sym:SM04B-GHS-TB_LF__SN_")
-		(at 112.014 120.65 270)
+		(at 111.76 120.65 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4915,7 +4915,7 @@
 		(dnp no)
 		(uuid "cee20439-93bb-4224-85b3-a1b67cf9f0be")
 		(property "Reference" "J48"
-			(at 113.5379 126.746 90)
+			(at 113.03 127 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4926,7 +4926,7 @@
 			)
 		)
 		(property "Value" "SM04B-GHS-TB_LF__SN_"
-			(at 113.538 128.778 90)
+			(at 113.03 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4937,7 +4937,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:SM04B-GHS-TB"
-			(at 17.094 137.16 0)
+			(at 16.51 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4949,7 +4949,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -82.906 137.16 0)
+			(at -82.55 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4961,7 +4961,7 @@
 			)
 		)
 		(property "Description" "JST GH Series, 1.25mm Pitch 4 Way Right Angle PCB Header, Solder Termination, 1A"
-			(at 112.014 120.65 0)
+			(at 111.76 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4972,7 +4972,7 @@
 			)
 		)
 		(property "Height" ""
-			(at -282.906 137.16 0)
+			(at -283.21 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4984,7 +4984,7 @@
 			)
 		)
 		(property "Mouser Part Number" "N/A"
-			(at -382.906 137.16 0)
+			(at -383.54 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4996,7 +4996,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/SM04B-GHS-TBLFSN?qs=QpmGXVUTftEJzKB1YHGCXw%3D%3D"
-			(at -482.906 137.16 0)
+			(at -482.6 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5008,7 +5008,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-			(at -582.906 137.16 0)
+			(at -582.93 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5020,7 +5020,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SM04B-GHS-TB(LF)(SN)"
-			(at -682.906 137.16 0)
+			(at -683.26 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
