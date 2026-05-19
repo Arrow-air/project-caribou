@@ -7,7 +7,9 @@
   "SpacesAfterTabs": false,
   "NoColor": false,
   "Exclude": [
-    "^engineering/electronics/pcbs/.*/kicad/.*$"
+    "^engineering/electronics/pcbs/.*/kicad/.*$",
+    ".*\\.[sS][tT][eE][pP]$",
+    ".*\\.[sS][tT][pP]$"
   ],
   "AllowedContentTypes": [],
   "PassedFiles": [],

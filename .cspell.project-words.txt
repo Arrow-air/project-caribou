@@ -10,6 +10,8 @@ CBC
 CMAIN
 datasheet
 dmodels
+EASYEDA
+elibz
 FETON
 Gerber
 Gerbers
@@ -30,6 +32,7 @@ MOSFET
 MOSFETs
 MOSI
 MTOW
+netlist
 PCBNAME
 pcbs
 Pinout

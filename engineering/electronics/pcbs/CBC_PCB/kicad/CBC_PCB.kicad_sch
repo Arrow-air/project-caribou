@@ -1,0 +1,385 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "d195d1ee-585b-4211-912f-f5dd5687bc63")
+	(paper "A4")
+	(lib_symbols)
+	(text "- Internal 5V supply (DCDC step down\nconverter MP9486GN-Z, GND is not\nisolated from battery output)\n\n- Internal 3.3V supply with AMS1117-3.3\nfrom 5V\n\n- External isolated 12V supply. Only used\nin external main PCB. Directly connected\nto 12 pin connector listed under peripherals "
+		(exclude_from_sim no)
+		(at 86.36 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "17ab325f-bb5c-4472-83e6-9cfaa3b55527")
+	)
+	(text ""
+		(exclude_from_sim no)
+		(at 191.77 56.134 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "2dbca353-2bb3-480c-a096-07d2f1f765ee")
+	)
+	(text "CPC_PCB (Caribou battery connector PCB)"
+		(exclude_from_sim no)
+		(at 25.4 17.78 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "2fe38463-b66a-4fb9-bb9b-7f2413a3319e")
+	)
+	(text "- Power input from the battery (H_PWR-IN,\nH_PWR-IN--PREFUSE, CANH_BAT, CANL_BAT)\n\n- Fuse layout with\n2x AMT0650009DB0000G screw terminal\n\n- Power output with\n2x AMT0650009DB0000G screw terminal\n\n- 12V DCDC converter for creating\nthe mosfet gate voltage. 10 ohm resistor\nin series with input for inrush current\nlimitation.\n\n- Precharge circuit (active after\nbattery startup). Enables onboard\npower supply for switching logic.\nNot used anymore after main mosfets\nare activated (few seconds after battery\nis turned on). Can be switched off by\nthe ESP32.\n\n- Main mosfet switch. 7x TOLL-8 mosfet.\nControlled by \"SWITCHED_GATE_V\".\nSwitching H_PWR-IN- to GND.\n\n- Normally Open SSR. Switched by\nmofet control signal logic.\nApplies 12V to the main mosfet gates.\nActivation signal is latched in\n\"KILL SWITCH and mosfet control signal\" section.\n\n-\"KILL SWITCH and mosfet control signal\" section:\n	-ESP_ENABLE_SIGNAL can activate the main mosfets.\n	 The signal is latched and can not be deactivated\n	 by the ESP32. A reboot of the ESP32 does not\n	 effect the activation of the main mosfets.\n	-The mosfet signal goes though a normally closed\n	 SSR. The only way to deactivate the main mosfets\n	 is over the external applied 12V_TRIGGER_SIG.\n	 Its protected with a SCHMITT trigger circuit\n	 (only activates if the 12V signal is applied for\n	 ~1.5 seconds). The signal from the SCHMITT trigger\n	 can then open the normally closed SSR.\n	-A MAX810R is used to define the startup condition\n	 of the latching circuit.\n\n"
+		(exclude_from_sim no)
+		(at 25.4 50.038 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "60cf3666-8457-4775-89f4-9de5116f1cf1")
+	)
+	(text "- ESP32 with pin assignment\n- USB connector"
+		(exclude_from_sim no)
+		(at 134.62 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "68377965-756b-4496-bd3d-27a04acad9d1")
+	)
+	(text "- AT13-12PB-BM03 (12 Pin connector) used for\nconnecting the CBC_PCB to the drone main PCB.\n\n- 2x on board temperature sensor"
+		(exclude_from_sim no)
+		(at 231.14 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c641143d-d46e-4f51-b422-cfca6370b37a")
+	)
+	(text "2x isolated CANBUS\n\n- 1 used for battery protocol input\n- 1 used for drone communication\n- sperated CAN GND"
+		(exclude_from_sim no)
+		(at 182.88 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f2f5d878-35dc-4699-83e6-5340d8af1350")
+	)
+	(text_box "General function:\n1. Battery is activated\n2. Input is supplied with battery power (~75V ; H_PWR-IN, H_PWR-IN--PREFUSE)\n3. 12V DCDC converter starts working and precharge circuit is activated\n4. All other voltage converters start working over the supplied power from the precharge circuit\n5. ESP32 boots and closes the main mosfets. The signal latch is engaged.\n6. Precharge can be deactivated by the ESP32.\n7. -> System is running and battery power can be used externally\n\nIn case of emergency:\n- 12V trigger singal can kill the mosfet gate voltage, but only after ~1.5s delay\n\n\n\nNote: Battery power layout should be sufficient to carry 100A continous (Max 200A for 5 seconds).\n      Design for copper thickness 2oz on all layers. Via stiching is necessary."
+		(exclude_from_sim no)
+		(at 22.86 149.86 0)
+		(size 147.32 40.64)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "eb7acfa1-2341-4587-93e0-f2de5cfb983b")
+	)
+	(polyline
+		(pts
+			(xy 83.82 25.4) (xy 83.82 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07775fc8-35de-4ccf-be1f-a2003b26f6bb")
+	)
+	(polyline
+		(pts
+			(xy 180.34 25.4) (xy 180.34 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bfc8adc-c262-4c43-bf76-39a1c44bcd88")
+	)
+	(polyline
+		(pts
+			(xy 132.08 25.4) (xy 132.08 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3324eda6-dd12-41aa-8c42-06eafbec7ce0")
+	)
+	(polyline
+		(pts
+			(xy 228.6 25.4) (xy 228.6 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f271f0bd-a8fc-4738-91f7-693cf9b80379")
+	)
+	(sheet
+		(at 25.4 29.718)
+		(size 43.18 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "16623c3f-27fc-4db0-8b22-f4a31ec72271")
+		(property "Sheetname" "POWER SECTION"
+			(at 25.4 29.0064 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER SECTION.kicad_sch"
+			(at 25.4 45.5426 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CBC_PCB"
+				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 182.88 30.48)
+		(size 43.18 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "313c40c6-0a26-497a-98c9-c78a7bba0e9e")
+		(property "Sheetname" "CAN SECTION"
+			(at 182.88 29.7684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN SECTION.kicad_sch"
+			(at 182.88 46.3046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CBC_PCB"
+				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 30.48)
+		(size 43.18 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "85d35496-b202-4947-9b5c-82b5f7bb520b")
+		(property "Sheetname" "ESP32 SECTION"
+			(at 134.62 29.7684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32 SECTION.kicad_sch"
+			(at 134.62 46.3046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CBC_PCB"
+				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 231.14 30.48)
+		(size 44.45 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b4c95d27-7981-477f-a8ef-d2ce83f3675e")
+		(property "Sheetname" "PERIPHERALS"
+			(at 231.14 29.7684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PERIPHERALS.kicad_sch"
+			(at 231.14 46.3046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CBC_PCB"
+				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 30.48)
+		(size 43.18 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cc7537cf-40ae-42d0-a857-c01ca15aab74")
+		(property "Sheetname" "POWER REGULATOR"
+			(at 86.36 29.7684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER REGULATOR.kicad_sch"
+			(at 86.36 46.3046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CBC_PCB"
+				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
