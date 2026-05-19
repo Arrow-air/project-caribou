@@ -6789,7 +6789,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:GRM1555C1H221JA01D")
+		(lib_id "EasyEDA_Lib:GRM1555C1H221JA01D")
 		(at 323.85 196.85 90)
 		(unit 1)
 		(body_style 1)
@@ -6924,7 +6924,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:ADM3053BRWZ-REEL7")
+		(lib_id "EasyEDA_Lib:ADM3053BRWZ-REEL7")
 		(at 220.98 55.88 0)
 		(unit 1)
 		(body_style 1)
@@ -7424,7 +7424,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:CL21A475KBQNNNE")
+		(lib_id "EasyEDA_Lib:CL21A475KBQNNNE")
 		(at 196.85 201.93 90)
 		(unit 1)
 		(body_style 1)
@@ -7558,7 +7558,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:GRM1555C1H221JA01D")
+		(lib_id "EasyEDA_Lib:GRM1555C1H221JA01D")
 		(at 314.96 59.69 90)
 		(unit 1)
 		(body_style 1)
@@ -7693,7 +7693,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:H1OEL89CSC-SUGYLC-8M")
+		(lib_id "EasyEDA_Lib:H1OEL89CSC-SUGYLC-8M")
 		(at 41.91 215.9 0)
 		(unit 1)
 		(body_style 1)
@@ -7904,7 +7904,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:0603WAF1200T5E")
+		(lib_id "EasyEDA_Lib:0603WAF1200T5E")
 		(at 302.26 49.53 90)
 		(unit 1)
 		(body_style 1)
@@ -8038,7 +8038,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:RC0402FR-070RL")
+		(lib_id "EasyEDA_Lib:RC0402FR-070RL")
 		(at 248.92 36.83 0)
 		(unit 1)
 		(body_style 1)
@@ -8407,7 +8407,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:GRM21BR61H106KE43L")
+		(lib_id "EasyEDA_Lib:GRM21BR61H106KE43L")
 		(at 207.01 203.2 90)
 		(unit 1)
 		(body_style 1)
@@ -8619,7 +8619,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:H1OEL89CSC-SUGYLC-8M")
+		(lib_id "EasyEDA_Lib:H1OEL89CSC-SUGYLC-8M")
 		(at 44.45 74.93 0)
 		(unit 1)
 		(body_style 1)
@@ -8831,7 +8831,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:RC0402FR-070RL")
+		(lib_id "EasyEDA_Lib:RC0402FR-070RL")
 		(at 265.43 172.72 0)
 		(unit 1)
 		(body_style 1)
@@ -9200,7 +9200,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:NUP2105LT1G")
+		(lib_id "EasyEDA_Lib:NUP2105LT1G")
 		(at 335.28 214.63 180)
 		(unit 1)
 		(body_style 1)
@@ -9416,7 +9416,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:CL21A475KBQNNNE")
+		(lib_id "EasyEDA_Lib:CL21A475KBQNNNE")
 		(at 175.26 49.53 90)
 		(unit 1)
 		(body_style 1)
@@ -9627,7 +9627,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:ACT45B-510-2P-TF")
+		(lib_id "EasyEDA_Lib:ACT45B-510-2P-TF")
 		(at 289.56 54.61 0)
 		(unit 1)
 		(body_style 1)
@@ -9768,7 +9768,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:CL21A475KBQNNNE")
+		(lib_id "EasyEDA_Lib:CL21A475KBQNNNE")
 		(at 180.34 66.04 90)
 		(unit 1)
 		(body_style 1)
@@ -9979,7 +9979,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:CL21A475KBQNNNE")
+		(lib_id "EasyEDA_Lib:CL21A475KBQNNNE")
 		(at 191.77 185.42 90)
 		(unit 1)
 		(body_style 1)
@@ -10347,7 +10347,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:GRM21BR61H106KE43L")
+		(lib_id "EasyEDA_Lib:GRM21BR61H106KE43L")
 		(at 278.13 207.01 90)
 		(unit 1)
 		(body_style 1)
@@ -10715,7 +10715,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:NUP2105LT1G")
+		(lib_id "EasyEDA_Lib:NUP2105LT1G")
 		(at 326.39 77.47 180)
 		(unit 1)
 		(body_style 1)
@@ -10854,7 +10854,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:0603WAF1200T5E")
+		(lib_id "EasyEDA_Lib:0603WAF1200T5E")
 		(at 311.15 186.69 90)
 		(unit 1)
 		(body_style 1)
@@ -11065,7 +11065,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:PZ254V-11-02P")
+		(lib_id "EasyEDA_Lib:PZ254V-11-02P")
 		(at 316.23 194.31 0)
 		(unit 1)
 		(body_style 1)
@@ -11279,7 +11279,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:PZ254V-11-02P")
+		(lib_id "EasyEDA_Lib:PZ254V-11-02P")
 		(at 307.34 57.15 0)
 		(unit 1)
 		(body_style 1)
@@ -11571,7 +11571,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:GRM21BR61H106KE43L")
+		(lib_id "EasyEDA_Lib:GRM21BR61H106KE43L")
 		(at 185.42 50.8 90)
 		(unit 1)
 		(body_style 1)
@@ -12330,7 +12330,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:GRM1555C1H221JA01D")
+		(lib_id "EasyEDA_Lib:GRM1555C1H221JA01D")
 		(at 323.85 185.42 90)
 		(unit 1)
 		(body_style 1)
@@ -12620,7 +12620,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:GRM21BR61H106KE43L")
+		(lib_id "EasyEDA_Lib:GRM21BR61H106KE43L")
 		(at 190.5 67.31 90)
 		(unit 1)
 		(body_style 1)
@@ -12831,7 +12831,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:GRM21BR61H106KE43L")
+		(lib_id "EasyEDA_Lib:GRM21BR61H106KE43L")
 		(at 100.33 92.71 90)
 		(unit 1)
 		(body_style 1)
@@ -13275,7 +13275,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:CC0402KRX7R7BB104")
+		(lib_id "EasyEDA_Lib:CC0402KRX7R7BB104")
 		(at 107.95 92.71 90)
 		(unit 1)
 		(body_style 1)
@@ -13647,7 +13647,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:CC0402JRNPO9BN220")
+		(lib_id "EasyEDA_Lib:CC0402JRNPO9BN220")
 		(at 54.61 219.71 90)
 		(unit 1)
 		(body_style 1)
@@ -13860,7 +13860,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:CC0402JRNPO9BN220")
+		(lib_id "EasyEDA_Lib:CC0402JRNPO9BN220")
 		(at 57.15 78.74 90)
 		(unit 1)
 		(body_style 1)
@@ -13994,7 +13994,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:CL21A475KBQNNNE")
+		(lib_id "EasyEDA_Lib:CL21A475KBQNNNE")
 		(at 87.63 232.41 90)
 		(unit 1)
 		(body_style 1)
@@ -14205,7 +14205,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:CL21A475KBQNNNE")
+		(lib_id "EasyEDA_Lib:CL21A475KBQNNNE")
 		(at 90.17 91.44 90)
 		(unit 1)
 		(body_style 1)
@@ -14339,7 +14339,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:GRM1555C1H221JA01D")
+		(lib_id "EasyEDA_Lib:GRM1555C1H221JA01D")
 		(at 314.96 48.26 90)
 		(unit 1)
 		(body_style 1)
@@ -14474,7 +14474,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:MCP2515T-I/ST")
+		(lib_id "EasyEDA_Lib:MCP2515T-I/ST")
 		(at 100.33 54.61 0)
 		(unit 1)
 		(body_style 1)
@@ -14663,7 +14663,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:MCP2515T-I/ST")
+		(lib_id "EasyEDA_Lib:MCP2515T-I/ST")
 		(at 97.79 195.58 0)
 		(unit 1)
 		(body_style 1)
@@ -14929,7 +14929,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:GRM21BR61H106KE43L")
+		(lib_id "EasyEDA_Lib:GRM21BR61H106KE43L")
 		(at 261.62 71.12 90)
 		(unit 1)
 		(body_style 1)
@@ -15063,7 +15063,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:RT0402BRD0710KL")
+		(lib_id "EasyEDA_Lib:RT0402BRD0710KL")
 		(at 69.85 27.94 90)
 		(unit 1)
 		(body_style 1)
@@ -15429,7 +15429,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:CC0402KRX7R7BB104")
+		(lib_id "EasyEDA_Lib:CC0402KRX7R7BB104")
 		(at 105.41 233.68 90)
 		(unit 1)
 		(body_style 1)
@@ -15721,7 +15721,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:CC0402KRX7R7BB104")
+		(lib_id "EasyEDA_Lib:CC0402KRX7R7BB104")
 		(at 284.48 207.01 90)
 		(unit 1)
 		(body_style 1)
@@ -15935,7 +15935,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:RT0402BRD0710KL")
+		(lib_id "EasyEDA_Lib:RT0402BRD0710KL")
 		(at 67.31 168.91 90)
 		(unit 1)
 		(body_style 1)
@@ -16069,7 +16069,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:CC0402JRNPO9BN220")
+		(lib_id "EasyEDA_Lib:CC0402JRNPO9BN220")
 		(at 30.48 78.74 90)
 		(unit 1)
 		(body_style 1)
@@ -16280,7 +16280,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:GRM21BR61H106KE43L")
+		(lib_id "EasyEDA_Lib:GRM21BR61H106KE43L")
 		(at 201.93 186.69 90)
 		(unit 1)
 		(body_style 1)
@@ -16568,7 +16568,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:GRM21BR61H106KE43L")
+		(lib_id "EasyEDA_Lib:GRM21BR61H106KE43L")
 		(at 97.79 233.68 90)
 		(unit 1)
 		(body_style 1)
@@ -16781,7 +16781,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:ADM3053BRWZ-REEL7")
+		(lib_id "EasyEDA_Lib:ADM3053BRWZ-REEL7")
 		(at 237.49 191.77 0)
 		(unit 1)
 		(body_style 1)
@@ -17047,7 +17047,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:CC0402KRX7R7BB104")
+		(lib_id "EasyEDA_Lib:CC0402KRX7R7BB104")
 		(at 267.97 71.12 90)
 		(unit 1)
 		(body_style 1)
@@ -17340,7 +17340,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:CC0402JRNPO9BN220")
+		(lib_id "EasyEDA_Lib:CC0402JRNPO9BN220")
 		(at 27.94 219.71 90)
 		(unit 1)
 		(body_style 1)
@@ -17551,7 +17551,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:ACT45B-510-2P-TF")
+		(lib_id "EasyEDA_Lib:ACT45B-510-2P-TF")
 		(at 298.45 191.77 0)
 		(unit 1)
 		(body_style 1)
