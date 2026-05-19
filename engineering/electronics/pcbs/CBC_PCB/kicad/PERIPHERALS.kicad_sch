@@ -3299,7 +3299,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:CC0402KRX7R7BB104")
+		(lib_id "EasyEDA_Lib:CC0402KRX7R7BB104")
 		(at 68.58 171.45 90)
 		(unit 1)
 		(body_style 1)
@@ -3514,7 +3514,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:DS18B20Z+T&amp;R")
+		(lib_id "EasyEDA_Lib:DS18B20Z+T&amp;R")
 		(at 38.1 165.1 0)
 		(mirror y)
 		(unit 1)
@@ -4134,7 +4134,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:RC0402FR-074K7L")
+		(lib_id "EasyEDA_Lib:RC0402FR-074K7L")
 		(at 55.88 133.35 90)
 		(unit 1)
 		(body_style 1)
@@ -4425,7 +4425,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:DS18B20Z+T&amp;R")
+		(lib_id "EasyEDA_Lib:DS18B20Z+T&amp;R")
 		(at 36.83 134.62 0)
 		(mirror y)
 		(unit 1)
@@ -4655,7 +4655,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:RC0402FR-074K7L")
+		(lib_id "EasyEDA_Lib:RC0402FR-074K7L")
 		(at 57.15 163.83 90)
 		(unit 1)
 		(body_style 1)
@@ -4790,7 +4790,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:CC0402KRX7R7BB104")
+		(lib_id "EasyEDA_Lib:CC0402KRX7R7BB104")
 		(at 67.31 140.97 90)
 		(unit 1)
 		(body_style 1)
@@ -5316,7 +5316,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:AT13-12PB-BM03")
+		(lib_id "2026-04-30_07-21-07:AT13-12PB-BM03")
 		(at 31.75 38.1 0)
 		(unit 1)
 		(body_style 1)
