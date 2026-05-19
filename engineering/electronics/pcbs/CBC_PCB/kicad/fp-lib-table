@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "CBC_PCB") (type "KiCad") (uri "${KIPRJMOD}/libs/CBC_PCB.pretty") (options "") (descr "CBC project footprints"))
+)

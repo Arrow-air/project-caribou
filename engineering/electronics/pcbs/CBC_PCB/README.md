@@ -5,6 +5,7 @@ The Caribou Battery Connector PCB (CBC) interfaces 18S smart battery packs with 
 - **GitHub issue:** [#6 — Design BC-PCB for Caribou: 18S, 100A nominal, 200A spike](https://github.com/Arrow-air/project-caribou/issues/6)
 - **Starting point:** Project Quiver BC-PCB KiCad design.
 - **EDA Tool:** KiCad 10
+- **Initial layout import:** KiCad source is in [`kicad/`](kicad/); import notes are in [`docs/import-2026-05-19-cbc-layout.md`](docs/import-2026-05-19-cbc-layout.md).
 
 ## Context within Project Caribou
 

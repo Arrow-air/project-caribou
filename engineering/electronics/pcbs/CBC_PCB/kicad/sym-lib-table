@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "CBC_PCB") (type "KiCad") (uri "${KIPRJMOD}/libs/CBC_PCB.kicad_sym") (options "") (descr "CBC project symbols"))
+)
