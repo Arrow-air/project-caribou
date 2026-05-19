@@ -9062,7 +9062,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SOIC-8EP_MP9486_MNP"
+			(property "Footprint" "CBC_PCB:SOIC-8EP_MP9486_MNP"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -24019,7 +24019,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC-8EP_MP9486_MNP"
+		(property "Footprint" "CBC_PCB:SOIC-8EP_MP9486_MNP"
 			(at 48.26 30.48 0)
 			(hide yes)
 			(show_name no)
