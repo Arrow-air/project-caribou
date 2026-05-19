@@ -3,6 +3,7 @@
 	(lib (name "CBC_PCB") (type "KiCad") (uri "${KIPRJMOD}/libs/CBC_PCB.kicad_sym") (options "") (descr "CBC project symbols"))
 	(lib (name "EasyEDA_Lib") (type "KiCad") (uri "${KIPRJMOD}/libs/CBC_PCB.kicad_sym") (options "") (descr "Imported EasyEDA/JLCEDA symbols"))
 	(lib (name "AMT0650009DB0000G") (type "KiCad") (uri "${KIPRJMOD}/libs/CBC_PCB.kicad_sym") (options "") (descr "Imported connector symbols"))
+	(lib (name "C90D_PAD") (type "KiCad") (uri "${KIPRJMOD}/libs/CBC_PCB.kicad_sym") (options "") (descr "Imported C90D pad symbols"))
 	(lib (name "2026-04-30_07-21-07") (type "KiCad") (uri "${KIPRJMOD}/libs/CBC_PCB.kicad_sym") (options "") (descr "Imported AT13 connector symbols"))
 	(lib (name "2026-05-07_02-52-27") (type "KiCad") (uri "${KIPRJMOD}/libs/CBC_PCB.kicad_sym") (options "") (descr "Imported MP9486 symbols"))
 )
