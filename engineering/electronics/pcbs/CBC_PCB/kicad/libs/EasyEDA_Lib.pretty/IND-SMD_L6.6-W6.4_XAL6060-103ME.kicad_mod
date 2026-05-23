@@ -1,0 +1,319 @@
+(footprint "IND-SMD_L6.6-W6.4_XAL6060-103ME"
+		(layer "F.Cu")
+		(uuid "017a06dc-ede3-4aed-ab5c-21e50d492026")
+		(at 167.2 194.4 -90)
+		(property "Reference" "REF**"
+			(at 3.895033 -2.175034 0)
+			(layer "F.SilkS")
+			(uuid "945bb1e0-115b-4ad9-bd68-7da86c502c18")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "IND-SMD_L6.6-W6.4_XAL6060-103ME"
+			(at -0.014967 4.330433 90)
+			(layer "F.Fab")
+			(uuid "6f780819-bb4b-4184-9741-05c8babdd1b7")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.coilcraft.com/getmedia/ea51f14b-7f32-4dc6-8dfe-d4b70549040f/xal60xx.pdf"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ba0ba7a-34e4-457e-95c8-3a661d6218dd")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Inductance:1uH Tolerance:±20% Tolerance:±20% Current - Saturation(Isat):23A DC Resistance(DCR):5.62mΩ Ratings:AEC-Q200"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d7a328d-0246-458b-ae02-ceff913bd070")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC_3DModel_Q" "ed600a21e1a0428cb59d17ffcb4d2664"
+			(at 0 0 90)
+			(layer "Cmts.User")
+			(hide yes)
+			(uuid "98ab2daa-b21a-4993-8784-ee54a76c5b7c")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC_3D_Size" "6.56 6.36"
+			(at 0 0 90)
+			(layer "Cmts.User")
+			(hide yes)
+			(uuid "d0176c3f-c3c6-4a9d-b587-7aa1f3e386ff")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part" "XAL6030-102MEC"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eec71c8f-30d4-409e-aa3c-fe3b72e7358c")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Coilcraft(线艺)"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "518073b1-b7da-4812-aebc-b5066c061291")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part" "C2938919"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d510b02-656f-4f6a-8806-1ac85081267f")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d826a92-336a-4cfb-92b6-35c7973506d7")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Name" "1uH ±20% 23A"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96c69fa7-3df5-498b-8237-54dbc3090a0e")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/cc7537cf-40ae-42d0-a857-c01ca15aab74/a9f4f34d-ba8f-432b-a87e-120e211d1f1a")
+		(sheetname "/POWER REGULATOR/")
+		(sheetfile "POWER REGULATOR.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -3.302 3.302)
+			(end -3.302 -3.302)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "cadb82f5-c726-4a32-ae6a-28d3b0ba2625")
+		)
+		(fp_line
+			(start 3.302 3.302)
+			(end -3.302 3.302)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "f42daf67-fdc7-4c90-b2ba-0b00f1b29ddb")
+		)
+		(fp_line
+			(start -3.302 -3.302)
+			(end 3.302 -3.302)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "a1db95d4-f51d-485f-b1d6-d37003019799")
+		)
+		(fp_line
+			(start 3.302 -3.302)
+			(end 3.302 3.302)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "cce38987-ff38-4d25-9617-a14d8233f150")
+		)
+		(fp_rect
+			(start -3.505433 -3.5755)
+			(end 3.4755 3.605433)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "d8ae5349-d829-4273-87ff-c674bfc91adb")
+		)
+		(fp_line
+			(start -3.2 3.3)
+			(end -3.2 -3.3)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "3bdcc0b3-a369-4287-b8de-8c5b7967285a")
+		)
+		(fp_line
+			(start 3.2 3.3)
+			(end -3.2 3.3)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "396416af-e22d-4530-8595-3265348bb499")
+		)
+		(fp_line
+			(start -3.2 -3.3)
+			(end 3.2 -3.3)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "d4c7644a-f4ee-4039-9fd3-ae82cd804bdc")
+		)
+		(fp_line
+			(start 3.2 -3.3)
+			(end 3.2 3.3)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "1cde1816-68c4-4a04-ac64-8a179de4d350")
+		)
+		(fp_poly
+			(pts
+				(xy -3.144567 3.277039) (xy -3.177039 3.244567) (xy -3.222961 3.244567) (xy -3.255433 3.277039)
+				(xy -3.255433 3.322961) (xy -3.222961 3.355433) (xy -3.177039 3.355433) (xy -3.144567 3.322961)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "a95c15ea-e98f-467a-8490-5d2ef05d43e5")
+		)
+		(fp_poly
+			(pts
+				(xy -2.645 -2.5) (xy -1.395 -2.5) (xy -1.395 2.5) (xy -2.645 2.5)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+			(uuid "b23c9866-5720-4d6d-a5d0-b2a1b97e44a2")
+		)
+		(fp_poly
+			(pts
+				(xy 1.395 -2.5) (xy 2.645 -2.5) (xy 2.645 2.5) (xy 1.395 2.5)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+			(uuid "60d24048-bc49-465d-afa1-cb9f994125c9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(uuid "662d8a8e-f306-4158-b20b-b460cb234d65")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -2.02 0 270)
+			(size 1.4 5.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(C66-Pad2)")
+			(pinfunction "1_1")
+			(pintype "unspecified")
+			(uuid "5304f249-f5a6-40cf-af99-3e9a17bc2a35")
+		)
+		(pad "2" smd rect
+			(at 2.02 0 270)
+			(size 1.4 5.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "12V_ISOLATED")
+			(pinfunction "2_2")
+			(pintype "unspecified")
+			(uuid "85dbcfb9-7ca0-4c3a-80b2-b82a2874bfba")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/IND-SMD_L6.6-W6.4_XAL6060-103ME.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 -90)
+			)
+		)
+	)

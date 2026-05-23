@@ -1,0 +1,356 @@
+(footprint "TO-277A_L5.9-W4.4-LS6.5-TR"
+		(layer "F.Cu")
+		(uuid "2dc33916-6356-4077-a7e6-62e0eba61d75")
+		(at 274.975251 217.8835 90)
+		(property "Reference" "REF**"
+			(at 3.84 0.264966 90)
+			(layer "F.SilkS")
+			(uuid "65945edb-67e2-4358-912a-fc717af6d471")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TO-277A_L5.9-W4.4-LS6.5-TR"
+			(at -0.85 3.230433 90)
+			(layer "F.Fab")
+			(uuid "1f15d2ca-9e86-44ab-ae50-42fb92772cdf")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/FSV10150V/762673.html"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ec80f0c-b901-4b34-94ca-db897c55b15e")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Diode Configuration:Independent Voltage - Forward(Vf@If):840mV@10A Voltage - DC Reverse(Vr):150V Current - Rectified:10A Reverse Leakage Current (Ir):20uA@150V Operating Junction Temperature Range:-55°C~+150°C Operating Junction Temperature Range:-55°C~+150°C"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "183696ac-8b9c-4e9a-8d38-a7c03fad6fff")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC_3DModel_Q" "4d28e43db8554f18bedf6de0d9771cfc"
+			(at 0 0 90)
+			(layer "Cmts.User")
+			(hide yes)
+			(uuid "f2c07299-2def-4f05-9ac1-d9cc07764e90")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC_3D_Size" "6.5 4.44"
+			(at 0 0 90)
+			(layer "Cmts.User")
+			(hide yes)
+			(uuid "8836b26d-e8de-46cd-b364-7022dce558ec")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part" "FSV10150V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1cc991f1-69b0-4fea-8939-191602cbecbf")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "onsemi(安森美)"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db6a5e04-f267-42d4-be96-b1558517190d")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part" "C719814"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0aaa9212-9537-4767-893e-dc17be034323")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4fd35372-2ffa-446b-9a5c-ba782f343489")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Name" "电压:150V 电流:10A"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "501ecc65-e4b6-4773-9ed4-2e61c0698b40")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/16623c3f-27fc-4db0-8b22-f4a31ec72271/c72f86f4-262f-4b52-98de-363c13e1ad5e")
+		(sheetname "/POWER SECTION/")
+		(sheetfile "POWER SECTION.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "2")
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 2.193 -2.2285)
+			(end -3.8695 -2.2285)
+			(stroke
+				(width 0.1525)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "894ab8bb-3c12-424d-b2c4-80a06a5eee2d")
+		)
+		(fp_line
+			(start 2.193 2.2285)
+			(end -3.8695 2.2285)
+			(stroke
+				(width 0.1525)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "fdedeced-1e2b-4d3c-8622-142c6cf3e330")
+		)
+		(fp_poly
+			(pts
+				(xy 0.6205 -0.05) (xy 1.1205 -0.55) (xy 1.1205 0.45)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "014c41c0-3514-4bdc-99b7-d6034302925d")
+		)
+		(fp_circle
+			(center 2.66 1.12)
+			(end 2.86 1.12)
+			(stroke
+				(width 0.4)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "e21ca255-cd99-47e2-ad22-cdac56254e00")
+		)
+		(fp_poly
+			(pts
+				(xy 0.6105 -0.04) (xy 1.1105 -0.54) (xy 1.1105 0.46)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "Dwgs.User")
+			(uuid "dcd1b753-1063-4c87-8633-6209ef898554")
+		)
+		(fp_rect
+			(start -4.6925 -2.4755)
+			(end 2.9925 2.505433)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "2152ba04-0317-4005-bc31-394ee39bf1f1")
+		)
+		(fp_line
+			(start 2.1425 -2.2)
+			(end 2.1425 2.2)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "ced1757c-46d6-4049-9c51-4b2a0209c028")
+		)
+		(fp_line
+			(start -3.7575 -2.2)
+			(end 2.1425 -2.2)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "22bb8ec8-f532-4c27-b01e-e79ded47843a")
+		)
+		(fp_line
+			(start 2.1425 2.2)
+			(end -3.7575 2.2)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "f81f7e36-0a1f-4a50-adde-b9da18dd2370")
+		)
+		(fp_line
+			(start -3.7575 2.2)
+			(end -3.7575 -2.2)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "607f71ea-20aa-48c3-91cb-1835c666bae7")
+		)
+		(fp_poly
+			(pts
+				(xy 2.497933 2.177039) (xy 2.465461 2.144567) (xy 2.419539 2.144567) (xy 2.387067 2.177039) (xy 2.387067 2.222961)
+				(xy 2.419539 2.255433) (xy 2.465461 2.255433) (xy 2.497933 2.222961)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "1840aa16-887c-418e-bed7-011fc329434e")
+		)
+		(fp_poly
+			(pts
+				(xy 1.3675 -0.425) (xy 1.3675 -1.675) (xy 2.4425 -1.675) (xy 2.4425 -0.425)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+			(uuid "c0b883c5-2fc1-4f1c-99b4-61c8fb10bd1e")
+		)
+		(fp_poly
+			(pts
+				(xy 1.3675 1.675) (xy 1.3675 0.425) (xy 2.4425 0.425) (xy 2.4425 1.675)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+			(uuid "3f54e7e7-cffa-4ba1-9bcd-22c0d20f88d3")
+		)
+		(fp_poly
+			(pts
+				(xy -4.0575 -1.05) (xy -3.8075 -1.05) (xy -3.8075 -1.84) (xy 0.4825 -1.84) (xy 0.4825 1.84) (xy -3.8075 1.84)
+				(xy -3.8075 1.05) (xy -4.0575 1.05)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+			(uuid "3d06f94a-d879-4dbe-8d2d-80784870809e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(uuid "e513adc9-b8cd-4037-ad57-c8b19564104b")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at 1.9425 1.05 90)
+			(size 1.6 1.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "H_PWR-IN-")
+			(pinfunction "A_1")
+			(pintype "input")
+			(uuid "981d3eaa-f38d-4e3c-8e65-1d1fb636ec58")
+		)
+		(pad "2" smd rect
+			(at 1.9425 -1.05 90)
+			(size 1.6 1.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "H_PWR-IN-")
+			(pinfunction "A_2")
+			(pintype "input")
+			(uuid "40c4087c-b02c-4fdc-96fb-5cef7d08082a")
+		)
+		(pad "3" smd rect
+			(at -1.9425 0 90)
+			(size 5 4.15)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(D5-K)")
+			(pinfunction "K_3")
+			(pintype "input")
+			(uuid "cc1503ff-2ea4-4729-87f7-4a21471aff4e")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/TO-277A_L5.9-W4.4-LS6.5-TR.step"
+			(offset
+				(xyz -0.791 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)

@@ -1,0 +1,389 @@
+(footprint "SMB_L4.6-W3.6-LS5.3-RD"
+		(layer "F.Cu")
+		(uuid "1fe88663-56b0-4f5c-bc55-3976c6a31fd8")
+		(at 266.507925 126.855648)
+		(property "Reference" "REF**"
+			(at -2.66 -2.645034 0)
+			(layer "F.SilkS")
+			(uuid "25d418f6-637e-42f1-8315-32f3d09fc736")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SMB_L4.6-W3.6-LS5.3-RD"
+			(at 0 2.830433 0)
+			(layer "F.Fab")
+			(uuid "4c75a978-55e1-48e1-b29f-6439eb552c81")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20171023/C135113_15087479551001053218.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4fd71186-a17d-42e0-9813-4f95a540b64a")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Reverse Stand-Off Voltage (Vrwm):85V Maximum Clamping Voltage:137V Peak Pulse Current (Ipp):4.4A Peak Pulse Power Dissipation (Ppp):600W Breakdown Voltage:94.4V Reverse Leakage Current (Ir):5uA Type:TVS"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c9fd987-f017-4513-8747-636c4008bf1c")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC_3DModel_Q" "6383b9be09eb4825906cf4ce91b85cee"
+			(at 0 0 0)
+			(layer "Cmts.User")
+			(hide yes)
+			(uuid "c62782f9-bd85-4191-b6c8-c6dd95412cb0")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC_3D_Size" "5.4 3.6"
+			(at 0 0 0)
+			(layer "Cmts.User")
+			(hide yes)
+			(uuid "0e0409f6-ec4a-4916-b349-993858b7c830")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part" "SMBJ85A-13-F"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "640ec39a-039d-4ad6-8324-57f0f3803f05")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "DIODES(美台)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd22902f-6ae5-492d-ab45-b3c96099057e")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part" "C135108"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "005d497a-63ba-40e7-95e1-8e4db5ff1edf")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aed6625e-ad46-494f-a553-42aea95d7ed7")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Name" "SMBJ85A-13-F"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "008833b1-d956-45e8-a852-b451ff4ad768")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/cc7537cf-40ae-42d0-a857-c01ca15aab74/87c173dc-3824-4137-bbdd-0ad90ce48230")
+		(sheetname "/POWER REGULATOR/")
+		(sheetfile "POWER REGULATOR.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -2.7435 -1.886)
+			(end 2.7435 -1.886)
+			(stroke
+				(width 0.1525)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "e81a8f5e-e958-456b-9d18-6f9f459dd53e")
+		)
+		(fp_line
+			(start -2.7435 1.886)
+			(end 2.7435 1.886)
+			(stroke
+				(width 0.1525)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "5f0eb363-47e1-41db-ad06-3fc243d454ab")
+		)
+		(fp_line
+			(start -1.016 -1.886)
+			(end -1.016 1.886)
+			(stroke
+				(width 0.152)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "dc7d2f6b-662d-4844-ae02-67b01900f29d")
+		)
+		(fp_line
+			(start 2.7435 -1.886)
+			(end 2.7435 -1.2995)
+			(stroke
+				(width 0.1525)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "5bc8ee3d-b800-4bac-98fb-130601f707ca")
+		)
+		(fp_line
+			(start 2.7435 1.886)
+			(end 2.7435 1.2995)
+			(stroke
+				(width 0.1525)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "05b139a4-d56e-40f6-bef1-29ed2034aa6b")
+		)
+		(fp_poly
+			(pts
+				(xy -2.6675 -1.9625) (xy -2.6675 -1.2485) (xy -3.1245 -1.2485) (xy -3.1245 -1.9625)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "01a91ea0-92a0-4486-98ce-6ad3e0eadd8f")
+		)
+		(fp_poly
+			(pts
+				(xy -2.6675 1.9625) (xy -2.6675 1.2485) (xy -3.1245 1.2485) (xy -3.1245 1.9625)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "d0bdba35-11dd-4139-acf3-417a81db6b2a")
+		)
+		(fp_poly
+			(pts
+				(xy -2.396 0.1355) (xy -2.396 -0.1355) (xy -1.31 -0.1355) (xy -1.31 0.1355)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "Dwgs.User")
+			(uuid "088a91bc-4051-40de-95b3-20351ddb2f23")
+		)
+		(fp_poly
+			(pts
+				(xy 1.9885 0.905) (xy 1.9885 -0.905) (xy 1.717 -0.905) (xy 1.717 0.905)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "Dwgs.User")
+			(uuid "5c947eae-114a-4676-b41d-a9d990833fc9")
+		)
+		(fp_poly
+			(pts
+				(xy 2.396 0.1355) (xy 2.396 -0.1355) (xy 1.31 -0.1355) (xy 1.31 0.1355)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "Dwgs.User")
+			(uuid "fc862360-53dd-41b0-8555-30ed79b50372")
+		)
+		(fp_rect
+			(start -3.63425 -2.0755)
+			(end 3.63425 2.105433)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "fec6b5a8-29c5-4881-82dd-355bcf18e9cd")
+		)
+		(fp_line
+			(start -2.3 -1.8)
+			(end 2.3 -1.8)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "39d039e6-7cb5-4016-9881-98677ae6a10f")
+		)
+		(fp_line
+			(start -2.3 1.8)
+			(end -2.3 -1.8)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "1df7e473-a4d2-4b17-9c70-bbb13762d2ff")
+		)
+		(fp_line
+			(start 2.3 -1.8)
+			(end 2.3 1.8)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "6b4fd787-fddc-4f25-bb35-a2843dbf9532")
+		)
+		(fp_line
+			(start 2.3 1.8)
+			(end -2.3 1.8)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "477c3e46-0909-4a4a-a5d1-2f46cb9315db")
+		)
+		(fp_poly
+			(pts
+				(xy -2.594067 1.777039) (xy -2.626539 1.744567) (xy -2.672461 1.744567) (xy -2.704933 1.777039)
+				(xy -2.704933 1.822961) (xy -2.672461 1.855433) (xy -2.626539 1.855433) (xy -2.594067 1.822961)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "6ed9858f-879b-4948-b676-ff68ed249851")
+		)
+		(fp_poly
+			(pts
+				(xy -2.6495 1.015) (xy -2.6495 -1.015) (xy -1.5095 -1.015) (xy -1.5095 1.015)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+			(uuid "01bab4c1-7662-436d-b2c3-5de306ffd4b5")
+		)
+		(fp_poly
+			(pts
+				(xy 2.6495 1.015) (xy 2.6495 -1.015) (xy 1.5095 -1.015) (xy 1.5095 1.015)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+			(uuid "94a21a84-7886-4286-a15f-a1ac1d7d416d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "b9e20acf-a847-47fb-816c-ea64dd164abf")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -2.3605 0)
+			(size 2.0475 2.1925)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(D17-K)")
+			(pinfunction "K_1")
+			(pintype "unspecified")
+			(uuid "1ffbc114-cd74-45f9-9fed-f481d660a82c")
+		)
+		(pad "2" smd rect
+			(at 2.3605 0)
+			(size 2.0475 2.1925)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(D17-A)")
+			(pinfunction "A_2")
+			(pintype "unspecified")
+			(uuid "6ca6035e-f1ba-44c9-8c62-72c469b3885a")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/SMB_L4.6-W3.6-LS5.3-RD.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)

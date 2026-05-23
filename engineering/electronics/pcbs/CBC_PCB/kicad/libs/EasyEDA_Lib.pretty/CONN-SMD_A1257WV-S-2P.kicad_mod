@@ -1,0 +1,403 @@
+(footprint "CONN-SMD_A1257WV-S-2P"
+		(layer "F.Cu")
+		(uuid "e18c2763-e098-48a3-bb5c-4e0503804620")
+		(at 150 45 180)
+		(property "Reference" "REF**"
+			(at 0 -3.5 0)
+			(layer "F.SilkS")
+			(uuid "c44a520c-bbf2-4592-a729-dfa70277c049")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "CONN-SMD_A1257WV-S-2P"
+			(at 0 4.152 0)
+			(layer "F.Fab")
+			(uuid "4f1defc1-20ce-4ad0-a108-fc5fa9283b21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/A1257WV-S-2P-LCP/225401.html"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87e0b30c-3c96-444f-ac41-cd5499449ea2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Pins Structure:1x2P Pitch:1.25mm Mounting Type:Surface Mount,Vertical Reference Series:GH Number of Pins:2P Number of Rows:1 Number of PINs Per Row:2 Row Spacing:- Current Rating:1A Contact Material:Phosphor Bronze Contact Plating:Tin Operating Temperatur"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72a94751-cb85-4226-9723-aa3756447e9c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC_3DModel_Q" "f24a5a7158fd43d2ad2b0dca1e17a273"
+			(at 0 0 0)
+			(layer "Cmts.User")
+			(hide yes)
+			(uuid "f9e695e8-3b09-448c-9615-27585a1b4ed0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC_3D_Size" "5.75 4.96"
+			(at 0 0 0)
+			(layer "Cmts.User")
+			(hide yes)
+			(uuid "8066837e-1dc5-4d54-aa73-f5cffe237bc4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part" "A1257WV-S-2P-LCP"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2895d31a-6274-4a4a-a033-59d7f4951442")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "CJT(长江连接器)"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f4d6b64-c003-46b2-81c2-48c361a06df6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part" "C225118"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5268e08-edf9-41cb-a33c-39fe9bc68b8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b06cd70c-cec3-4a41-8a3c-2d6a8628eb2a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Name" "1x2P 间距:1.25mm 立贴 系列:GH"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c71f2a84-fb4b-441a-9868-c516dcfd1553")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/16623c3f-27fc-4db0-8b22-f4a31ec72271/635404c0-6795-4129-838b-e89fcb34f67a")
+		(sheetname "/POWER SECTION/")
+		(sheetfile "POWER SECTION.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "4" "3")
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 2.875 3.325)
+			(end -2.875 3.325)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "582c6b00-fab5-463e-aeb2-fe7ae364559f")
+		)
+		(fp_line
+			(start 2.875 3.306)
+			(end 2.875 3.325)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "67538579-4423-48dd-9087-6e94748be19c")
+		)
+		(fp_line
+			(start 2.875 -1.675)
+			(end 2.875 0.044)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "ece35300-2ca0-4b6e-a12c-727e9a48c988")
+		)
+		(fp_line
+			(start 1.156 -1.675)
+			(end 2.875 -1.675)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "35bffa7c-e870-4068-9a9f-202a53595912")
+		)
+		(fp_line
+			(start -0.094 -1.675)
+			(end 0.094 -1.675)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "8623fcb0-8dc4-4d90-8102-cec6a2764ae8")
+		)
+		(fp_line
+			(start -2.875 3.306)
+			(end -2.875 3.325)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "c3e9f3ca-9e46-41a4-baa9-2cce0516f020")
+		)
+		(fp_line
+			(start -2.875 -1.675)
+			(end -1.156 -1.675)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "f3fbc7df-76e7-4f6a-ae04-4097c58b56d9")
+		)
+		(fp_line
+			(start -2.875 -1.675)
+			(end -2.875 0.044)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "25cf996d-0896-4c39-a736-2a557c0d8ef5")
+		)
+		(fp_rect
+			(start -3.325 -2.775)
+			(end 3.325 3.325)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "4587f40d-198c-4c2a-8828-7d912f6219e3")
+		)
+		(fp_line
+			(start 2.875 2.875)
+			(end -2.875 2.875)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "218bd5c8-b066-487a-8581-bb624131a5f4")
+		)
+		(fp_line
+			(start 2.875 -1.375)
+			(end 2.875 2.875)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "0240157c-aed1-49f5-8b82-1a350865dcc1")
+		)
+		(fp_line
+			(start -2.875 2.875)
+			(end -2.875 -1.375)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "d61fa090-cb5d-4e34-a3e5-3b6ee3de4c2c")
+		)
+		(fp_line
+			(start -2.875 -1.375)
+			(end 2.875 -1.375)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "66da440a-fb99-49e7-9222-398f3b6d71b1")
+		)
+		(fp_poly
+			(pts
+				(xy -2.678843 -2.117018) (xy -2.708706 -2.189114) (xy -2.763886 -2.244294) (xy -2.835982 -2.274157)
+				(xy -2.914018 -2.274157) (xy -2.986114 -2.244294) (xy -3.041294 -2.189114) (xy -3.071157 -2.117018)
+				(xy -3.071157 -2.038982) (xy -3.041294 -1.966886) (xy -2.986114 -1.911706) (xy -2.914018 -1.881843)
+				(xy -2.835982 -1.881843) (xy -2.763886 -1.911706) (xy -2.708706 -1.966886) (xy -2.678843 -2.038982)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "a83aabbc-5040-4558-aa3e-93ec1e395948")
+		)
+		(fp_poly
+			(pts
+				(xy 2.25 0.525) (xy 2.9 0.525) (xy 2.9 2.825) (xy 2.25 2.825)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+			(uuid "fab3783c-22a9-4257-ac0b-def41c3f87d0")
+		)
+		(fp_poly
+			(pts
+				(xy 0.525 -2.078) (xy 0.725 -2.078) (xy 0.725 -0.878) (xy 0.525 -0.878)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+			(uuid "76c6440b-01ee-4fbd-8d40-6f13f03b1568")
+		)
+		(fp_poly
+			(pts
+				(xy -0.725 -2.078) (xy -0.525 -2.078) (xy -0.525 -0.878) (xy -0.725 -0.878)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+			(uuid "0fd1906f-a42c-4b36-b21e-d726b4b25c1c")
+		)
+		(fp_poly
+			(pts
+				(xy -2.9 0.525) (xy -2.25 0.525) (xy -2.25 2.825) (xy -2.9 2.825)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+			(uuid "742c38ab-28e0-4a05-ac3f-076f82a3e336")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "0685e5c3-6416-4508-8f5e-cfa06c1e5e41")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at 0.625 -1.675 180)
+			(size 0.6 1.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "CANH_BAT")
+			(pinfunction "1_1")
+			(pintype "unspecified")
+			(uuid "789d3a24-b738-4b71-9bb2-9e1b31879759")
+		)
+		(pad "2" smd rect
+			(at -0.625 -1.675 180)
+			(size 0.6 1.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "CANL_BAT")
+			(pinfunction "2_2")
+			(pintype "unspecified")
+			(uuid "3daf408a-04b0-4dce-adcc-68585aca91ac")
+		)
+		(pad "3" smd rect
+			(at 2.575 1.675 180)
+			(size 1 2.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "unconnected-(CN2-Pad3)")
+			(pinfunction "3_3")
+			(pintype "unspecified+no_connect")
+			(uuid "2d6dceb7-0602-483c-954b-8df129924a31")
+		)
+		(pad "4" smd rect
+			(at -2.575 1.675 180)
+			(size 1 2.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "unconnected-(CN2-Pad4)")
+			(pinfunction "4_4")
+			(pintype "unspecified+no_connect")
+			(uuid "c47171d7-7435-4b24-8b5e-1ca2cf35a2b2")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/CONN-SMD_GH1.25-LS-2P.step"
+			(offset
+				(xyz 0 -0.403 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+	)

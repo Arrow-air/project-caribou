@@ -1,5 +1,9 @@
 (fp_lib_table
 	(version 7)
 	(lib (name "CBC_PCB") (type "KiCad") (uri "${KIPRJMOD}/libs/CBC_PCB.pretty") (options "") (descr "CBC project footprints"))
+	(lib (name "EasyEDA_Lib") (type "KiCad") (uri "${KIPRJMOD}/libs/EasyEDA_Lib.pretty") (options "") (descr "Imported EasyEDA/JLCEDA footprints extracted from jlc-kicad-lib-loader board import"))
 	(lib (name "C90D_PAD") (type "KiCad") (uri "${KIPRJMOD}/libs/CBC_PCB.pretty") (options "") (descr "Imported C90D pad footprint"))
+	(lib (name "AMT0650009DB0000G") (type "KiCad") (uri "${KIPRJMOD}/libs/CBC_PCB.pretty") (options "") (descr "Imported AMT connector footprint"))
+	(lib (name "AT13_12PB_BM03_2") (type "KiCad") (uri "${KIPRJMOD}/libs/CBC_PCB.pretty") (options "") (descr "Imported AT13 connector footprint"))
+	(lib (name "MP9486GN_Z_2") (type "KiCad") (uri "${KIPRJMOD}/libs/CBC_PCB.pretty") (options "") (descr "Imported MP9486 footprints"))
 )
