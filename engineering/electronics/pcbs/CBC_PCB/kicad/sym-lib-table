@@ -1,6 +1,7 @@
 (sym_lib_table
 	(version 7)
 	(lib (name "power") (type "KiCad") (uri "${KICAD10_SYMBOL_DIR}/power.kicad_sym") (options "") (descr "KiCad power symbols"))
+	(lib (name "Device") (type "KiCad") (uri "${KICAD10_SYMBOL_DIR}/Device.kicad_sym") (options "") (descr "KiCad device symbols"))
 	(lib (name "CBC_PCB") (type "KiCad") (uri "${KIPRJMOD}/libs/CBC_PCB.kicad_sym") (options "") (descr "CBC project symbols"))
 	(lib (name "EasyEDA_Lib") (type "KiCad") (uri "${KIPRJMOD}/libs/CBC_PCB.kicad_sym") (options "") (descr "Imported EasyEDA/JLCEDA symbols consolidated from jlc-kicad-lib-loader import"))
 	(lib (name "AMT0650009DB0000G") (type "KiCad") (uri "${KIPRJMOD}/libs/CBC_PCB.kicad_sym") (options "") (descr "Imported connector symbols"))
