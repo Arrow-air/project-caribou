@@ -212,6 +212,26 @@ Each MCP2515 requires an 8 MHz crystal + 2× 22 pF load capacitors. 120 Ω termi
 
 The board converts between the battery protocol (CAN 1) and DroneCAN (CAN 2) using `libcanard`. The DroneCAN bus connects via the AT signal connector through the wiring harness to the [CMAIN_PCB](../CMAIN_PCB/), which serves as the central avionics hub for all 6 motor arms.
 
+### Schematic Sheet Interfaces
+
+| Signal / rail | Source sheet | Destination sheet(s) | Direction / notes |
+|---|---|---|---|
+| `H_PWR-IN`, `H_PWR-IN-`, `H_PWR-IN--PREFUSE` | POWER SECTION | POWER SECTION / board power path | 18S battery high-current domain; main fuse is mounted on J4/J5. |
+| `+5V` | POWER REGULATOR | ESP32 SECTION, CAN SECTION, PERIPHERALS | Internal non-isolated logic rail. |
+| `+3V3` | POWER REGULATOR | ESP32 SECTION, CAN SECTION, PERIPHERALS | ESP32, MCP2515, CAN transceivers, sensors. |
+| `12V_ISOLATED` | POWER REGULATOR | PERIPHERALS / AT13 connector | Isolated output to aircraft harness; add an output fuse before harness output. |
+| `ESP_ENABLE_SIGNAL` | ESP32 SECTION | POWER SECTION | ESP-controlled main MOSFET latch enable; default-low via `R16` 10k pulldown. |
+| `PRECHARGE_ESP_SIGNAL` | ESP32 SECTION | POWER SECTION | ESP-controlled precharge command. |
+| `SCHMITT_OUT` | POWER SECTION | ESP32 SECTION | Hardware kill/trigger state feedback to ESP32. |
+| `SCK`, `MOSI`, `MISO` | ESP32 SECTION / CAN SECTION | ESP32 ↔ dual MCP2515 | Shared SPI bus; `SCK`/`MOSI` from ESP32, `MISO` from MCP2515s. |
+| `CS#1`, `CS#2` | ESP32 SECTION | CAN SECTION | MCP2515 chip-selects; add pull-ups so controllers remain deselected during ESP32 reset/boot. |
+| `INT#1`, `INT#2` | CAN SECTION | ESP32 SECTION | MCP2515 interrupt outputs; ESP32 pull-up usage is documented in firmware/hardware notes. |
+| `RESET1`, `RESET2` | ESP32 SECTION | CAN SECTION | MCP2515 resets from ESP32. |
+| `TEMP1_DQ`, `TEMP2_DQ` | ESP32 SECTION / PERIPHERALS | ESP32 ↔ temperature sensors | 1-Wire data nets; formerly `DATA1` / `DATA2`. |
+| `CANH_BAT`, `CANL_BAT` | CAN SECTION / POWER SECTION | Battery connector ↔ CAN 1 | Battery CAN pair only; no battery CAN ground is normally carried. |
+| `CANH_DRONE`, `CANL_DRONE` | CAN SECTION / PERIPHERALS | CAN 2 ↔ AT13 harness | DroneCAN pair to CMAIN_PCB; termination is jumper-selectable and normally open. |
+| `GND_CA`, `GND_CB`, `GNDI`, `GNDE` | Multiple | Domain-specific returns | `GND_CA` is effectively unused unless battery CAN reference is later required. `GND_CB` may be tied with other CBC `GND_CB` references on CMAIN_PCB. |
+
 ### GPIO Allocation
 
 | Function | GPIOs | Notes |
@@ -262,6 +282,9 @@ The isolation barrier between GNDI and GNDE ensures that a fault on the aircraft
 CBC_PCB/
 ├── README.md               ← this file
 ├── docs/                   ← board-specific notes, requirements, design docs
+│   ├── connector-pinout.md ← connector/harness pinout and wiring notes
+│   ├── power-architecture.md ← power tree and protection notes
+│   └── schematic-review-followup.md ← schematic review action register
 ├── firmware/               ← board-specific firmware (ESP32-C3)
 ├── images/                 ← board renders, screenshots, diagrams, photos
 ├── kicad/                  ← KiCad 10 project files

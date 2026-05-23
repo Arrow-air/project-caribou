@@ -6544,7 +6544,7 @@
 		(uuid "f5ae625f-a5e6-41c1-8510-e13a2945e08d")
 	)
 	(global_label "ESP_ENABLE_SIGNAL"
-		(shape input)
+		(shape output)
 		(at 85.09 53.34 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6568,7 +6568,7 @@
 		)
 	)
 	(global_label "RESET1"
-		(shape input)
+		(shape output)
 		(at 121.92 87.63 270)
 		(fields_autoplaced yes)
 		(effects
@@ -6615,8 +6615,8 @@
 			)
 		)
 	)
-	(global_label "DATA1"
-		(shape input)
+	(global_label "TEMP1_DQ"
+		(shape bidirectional)
 		(at 85.09 58.42 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6664,7 +6664,7 @@
 		)
 	)
 	(global_label "RESET2"
-		(shape input)
+		(shape output)
 		(at 101.6 87.63 270)
 		(fields_autoplaced yes)
 		(effects
@@ -6688,7 +6688,7 @@
 		)
 	)
 	(global_label "CS#1"
-		(shape input)
+		(shape output)
 		(at 104.14 87.63 270)
 		(fields_autoplaced yes)
 		(effects
@@ -6736,7 +6736,7 @@
 		)
 	)
 	(global_label "PRECHARGE_ESP_SIGNAL"
-		(shape input)
+		(shape output)
 		(at 85.09 48.26 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6760,7 +6760,7 @@
 		)
 	)
 	(global_label "CS#2"
-		(shape input)
+		(shape output)
 		(at 114.3 87.63 270)
 		(fields_autoplaced yes)
 		(effects
@@ -6808,7 +6808,7 @@
 		)
 	)
 	(global_label "MOSI"
-		(shape input)
+		(shape output)
 		(at 106.68 87.63 270)
 		(fields_autoplaced yes)
 		(effects
@@ -6831,8 +6831,8 @@
 			)
 		)
 	)
-	(global_label "DATA2"
-		(shape input)
+	(global_label "TEMP2_DQ"
+		(shape bidirectional)
 		(at 85.09 55.88 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6856,7 +6856,7 @@
 		)
 	)
 	(global_label "SCK"
-		(shape input)
+		(shape output)
 		(at 109.22 87.63 270)
 		(fields_autoplaced yes)
 		(effects

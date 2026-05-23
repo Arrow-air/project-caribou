@@ -3133,7 +3133,7 @@
 		(uuid "ffd3a2d0-8ecd-4ef6-bafd-577c9b9bff22")
 	)
 	(global_label "CANL_DRONE"
-		(shape input)
+		(shape bidirectional)
 		(at 53.34 55.88 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3156,8 +3156,8 @@
 			)
 		)
 	)
-	(global_label "DATA1"
-		(shape input)
+	(global_label "TEMP1_DQ"
+		(shape bidirectional)
 		(at 55.88 138.43 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3180,8 +3180,8 @@
 			)
 		)
 	)
-	(global_label "DATA2"
-		(shape input)
+	(global_label "TEMP2_DQ"
+		(shape bidirectional)
 		(at 57.15 168.91 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3205,7 +3205,7 @@
 		)
 	)
 	(global_label "CANH_DRONE"
-		(shape input)
+		(shape bidirectional)
 		(at 53.34 58.42 0)
 		(fields_autoplaced yes)
 		(effects

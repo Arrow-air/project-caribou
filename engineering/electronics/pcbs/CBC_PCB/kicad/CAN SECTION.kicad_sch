@@ -6328,7 +6328,7 @@
 		(uuid "fd958f75-7cb5-4cb4-b0d9-fcc5fcbf879d")
 	)
 	(global_label "INT#2"
-		(shape input)
+		(shape output)
 		(at 120.65 173.99 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6352,7 +6352,7 @@
 		)
 	)
 	(global_label "CANL_BAT"
-		(shape input)
+		(shape bidirectional)
 		(at 340.36 62.23 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6424,7 +6424,7 @@
 		)
 	)
 	(global_label "MISO"
-		(shape input)
+		(shape output)
 		(at 64.77 191.77 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6520,7 +6520,7 @@
 		)
 	)
 	(global_label "CANH_DRONE"
-		(shape input)
+		(shape bidirectional)
 		(at 346.71 180.34 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6592,7 +6592,7 @@
 		)
 	)
 	(global_label "MISO"
-		(shape input)
+		(shape output)
 		(at 67.31 50.8 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6616,7 +6616,7 @@
 		)
 	)
 	(global_label "CANH_BAT"
-		(shape input)
+		(shape bidirectional)
 		(at 340.36 43.18 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6640,7 +6640,7 @@
 		)
 	)
 	(global_label "INT#1"
-		(shape input)
+		(shape output)
 		(at 123.19 33.02 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6664,7 +6664,7 @@
 		)
 	)
 	(global_label "CANL_DRONE"
-		(shape input)
+		(shape bidirectional)
 		(at 346.71 199.39 0)
 		(fields_autoplaced yes)
 		(effects
