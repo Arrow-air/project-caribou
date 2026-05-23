@@ -382,7 +382,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -10.16 5.08 0)
 					(length 5.08)
 					(name "1"
@@ -400,7 +400,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 5.08 180)
 					(length 5.08)
 					(name "2"
@@ -418,7 +418,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 -2.54 180)
 					(length 5.08)
 					(name "3"
@@ -436,7 +436,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -10.16 -2.54 0)
 					(length 5.08)
 					(name "4"
@@ -594,7 +594,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -17.78 11.43 0)
 					(length 2.54)
 					(name "GND1"
@@ -612,7 +612,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at -17.78 8.89 0)
 					(length 2.54)
 					(name "NC"
@@ -630,7 +630,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -17.78 6.35 0)
 					(length 2.54)
 					(name "GND1"
@@ -648,7 +648,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at -17.78 3.81 0)
 					(length 2.54)
 					(name "RXD"
@@ -666,7 +666,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -17.78 1.27 0)
 					(length 2.54)
 					(name "TXD"
@@ -684,7 +684,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -17.78 -1.27 0)
 					(length 2.54)
 					(name "VIO"
@@ -702,7 +702,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -17.78 -3.81 0)
 					(length 2.54)
 					(name "GND1"
@@ -720,7 +720,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -17.78 -6.35 0)
 					(length 2.54)
 					(name "VCC"
@@ -738,7 +738,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -17.78 -8.89 0)
 					(length 2.54)
 					(name "GND1"
@@ -756,7 +756,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -17.78 -11.43 0)
 					(length 2.54)
 					(name "GND1"
@@ -774,7 +774,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 17.78 -11.43 180)
 					(length 2.54)
 					(name "GND2"
@@ -792,7 +792,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 17.78 -8.89 180)
 					(length 2.54)
 					(name "VISOOUT"
@@ -810,7 +810,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 17.78 -6.35 180)
 					(length 2.54)
 					(name "GND2"
@@ -828,7 +828,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 17.78 -3.81 180)
 					(length 2.54)
 					(name "VREF"
@@ -846,7 +846,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 17.78 -1.27 180)
 					(length 2.54)
 					(name "CANL"
@@ -864,7 +864,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 17.78 1.27 180)
 					(length 2.54)
 					(name "GND2"
@@ -882,7 +882,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 17.78 3.81 180)
 					(length 2.54)
 					(name "CANH"
@@ -900,7 +900,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 17.78 6.35 180)
 					(length 2.54)
 					(name "RS"
@@ -918,7 +918,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 17.78 8.89 180)
 					(length 2.54)
 					(name "VISOIN"
@@ -936,7 +936,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 17.78 11.43 180)
 					(length 2.54)
 					(name "GND2"
@@ -1324,7 +1324,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -1342,7 +1342,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -1527,7 +1527,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
 					(name "1"
@@ -1545,7 +1545,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "2"
@@ -1730,7 +1730,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -1748,7 +1748,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -1933,7 +1933,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -1951,7 +1951,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -2380,7 +2380,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -19.05 16.51 0)
 					(length 5.08)
 					(name "RXCAN"
@@ -2416,7 +2416,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -19.05 -1.27 0)
 					(length 5.08)
 					(name "TX0RTS#"
@@ -2434,7 +2434,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -19.05 -3.81 0)
 					(length 5.08)
 					(name "TX1RTS#"
@@ -2452,7 +2452,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at 19.05 -19.05 180)
 					(length 5.08)
 					(name "NC"
@@ -2470,7 +2470,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -19.05 -6.35 0)
 					(length 5.08)
 					(name "TX2RTS#"
@@ -2506,7 +2506,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -19.05 -11.43 0)
 					(length 5.08)
 					(name "OSC1"
@@ -2524,7 +2524,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -19.05 -21.59 0)
 					(length 5.08)
 					(name "VSS"
@@ -2596,7 +2596,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -19.05 8.89 0)
 					(length 5.08)
 					(name "SCK"
@@ -2614,7 +2614,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at 19.05 -21.59 180)
 					(length 5.08)
 					(name "NC"
@@ -2632,7 +2632,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -19.05 6.35 0)
 					(length 5.08)
 					(name "SI"
@@ -2650,7 +2650,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin tri_state line
 					(at -19.05 3.81 0)
 					(length 5.08)
 					(name "SO"
@@ -2668,7 +2668,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -19.05 11.43 0)
 					(length 5.08)
 					(name "CS#"
@@ -2686,7 +2686,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -19.05 21.59 0)
 					(length 5.08)
 					(name "RESET#"
@@ -2704,7 +2704,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -19.05 -19.05 0)
 					(length 5.08)
 					(name "VDD"
@@ -3250,7 +3250,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 1.27 0)
 					(length 2.54)
 					(name "1"
@@ -3268,7 +3268,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 -1.27 0)
 					(length 2.54)
 					(name "2"
@@ -3582,7 +3582,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -3600,7 +3600,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -11491,85 +11491,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 266.7 64.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "836d4013-d18b-4ff0-9de4-ca14c781bc4b")
-		(property "Reference" "#FLG063"
-			(at 266.7 62.865 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 266.7 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 266.7 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "067c6930-88d1-47ee-bdf2-9473246187fe")
-		)
-		(instances
-			(project "CBC_PCB"
-				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/313c40c6-0a26-497a-98c9-c78a7bba0e9e"
-					(reference "#FLG063")
-					(unit 1)
-				)
-			)
-		)
-	)
+
 	(symbol
 		(lib_id "EasyEDA_Lib:GRM21BR61H106KE43L")
 		(at 185.42 50.8 90)
@@ -11860,85 +11782,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 281.94 200.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d038bd9-9ee1-4704-af69-fc49f42e9c4b")
-		(property "Reference" "#FLG055"
-			(at 281.94 198.755 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 281.94 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 281.94 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 281.94 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 281.94 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "04abb3a6-5fd3-4b4c-92ad-fb00f4996cc6")
-		)
-		(instances
-			(project "CBC_PCB"
-				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/313c40c6-0a26-497a-98c9-c78a7bba0e9e"
-					(reference "#FLG055")
-					(unit 1)
-				)
-			)
-		)
-	)
+
 	(symbol
 		(lib_id "power:+3V3")
 		(at 67.31 160.02 0)
