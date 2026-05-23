@@ -1,475 +1,464 @@
 (footprint "LED0603-RD"
-		(layer "F.Cu")
-		(uuid "e08a458b-7257-4cb0-bb20-d076437b9b3e")
-		(at 70.75 205.54)
-		(property "Reference" "REF**"
-			(at -2.051 -0.01 90)
-			(layer "F.SilkS")
-			(uuid "e8e24922-6a7e-4c23-a1d6-5ec59608f2af")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "LED0603-RD"
-			(at -0.0495 1.521 0)
-			(layer "F.Fab")
-			(uuid "796de57f-bfff-4e3f-b562-aaab06c77d81")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/KT-0603G/13258.html"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "32dab680-a03d-4a41-b3fc-1d3449e5b011")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Lamp Holder Type:- Illumination Color:Emerald Green Voltage - Forward(Vf):3.1V Voltage - Forward(Vf):3.1V Power(Watts):100mW Forward Current:5mA Wavelength - Dominant:513nm~528nm Wavelength - Dominant:513nm~528nm Peak Wavelength:525nm Diode Configuration:"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d2888a6e-1e15-4f52-be1a-39c8a33d90d3")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "JLC_3DModel_Q" "5e3b568068dd46cf8019c1d1baa0031b"
-			(at 0 0 0)
-			(layer "Cmts.User")
-			(hide yes)
-			(uuid "e27b426a-3419-4ad6-a2f3-b3c47cfadd94")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "JLC_3D_Size" "1.62 0.82"
-			(at 0 0 0)
-			(layer "Cmts.User")
-			(hide yes)
-			(uuid "388025f1-2d84-41af-a6a2-8e20a3097aaf")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer Part" "KT-0603G"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6f606024-99f1-4d38-98f4-7107da32c83d")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "KENTO"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "29a9e186-d740-4970-94ab-1c2890b09a52")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier Part" "C12624"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "05c45feb-4f7f-4472-9847-a0fdba4b294c")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "39949a21-2ef6-4004-bd84-ecf1aaa07b04")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part Name" "0603 翠绿 高亮"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b06307e3-8893-43d0-8507-db4da720f4c7")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/85d35496-b202-4947-9b5c-82b5f7bb520b/8373b0f4-2a81-464c-a4bc-11aec0082fd6")
-		(sheetname "/ESP32 SECTION/")
-		(sheetfile "ESP32 SECTION.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -1.4895 -0.4545)
-			(end -1.1895 -0.7545)
-			(stroke
-				(width 0.15)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "80bff4ce-9917-4377-b22c-7e4fc19a2f00")
-		)
-		(fp_line
-			(start -1.4895 -0.354)
-			(end -1.4895 -0.4545)
-			(stroke
-				(width 0.15)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "8b9d4efb-495e-4de4-96b0-7f14deb952ce")
-		)
-		(fp_line
-			(start -1.4895 -0.354)
-			(end -1.4895 0.346)
-			(stroke
-				(width 0.15)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "992a5b28-8ac2-47ae-a1dc-f733da2d451e")
-		)
-		(fp_line
-			(start -1.4895 0.346)
-			(end -1.4895 0.446)
-			(stroke
-				(width 0.15)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "ce600cec-b267-46a2-b4cd-6ee0077c189e")
-		)
-		(fp_line
-			(start -1.4895 0.446)
-			(end -1.1895 0.746)
-			(stroke
-				(width 0.15)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "a7c7c11c-45ff-4a3d-a2ec-1af3b7196f48")
-		)
-		(fp_line
-			(start -0.1395 -0.7545)
-			(end -1.1895 -0.7545)
-			(stroke
-				(width 0.15)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "b8c64d00-b4cf-4b6d-8b52-716cee7ec5f9")
-		)
-		(fp_line
-			(start -0.1395 0.746)
-			(end -1.1895 0.746)
-			(stroke
-				(width 0.15)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "686b37cf-4703-4c89-b2f1-a172ef046150")
-		)
-		(fp_line
-			(start 0.2105 0.3235)
-			(end -0.1195 -0.0065)
-			(stroke
-				(width 0.15)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "0f350d67-d461-4bed-864d-ceb239b55fb8")
-		)
-		(fp_line
-			(start 0.2205 -0.3565)
-			(end 0.2205 -0.3465)
-			(stroke
-				(width 0.15)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "d3fcc72d-9719-44fd-8b75-fc765aced46d")
-		)
-		(fp_line
-			(start 0.2205 -0.3565)
-			(end 0.2205 0.3235)
-			(stroke
-				(width 0.15)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "4075ad3d-4eb0-4ea9-a6a7-207b4eddff50")
-		)
-		(fp_line
-			(start 0.2205 -0.3465)
-			(end -0.1195 -0.0065)
-			(stroke
-				(width 0.15)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "5aec271f-3b99-4a3e-8716-b3a0d24e2aec")
-		)
-		(fp_line
-			(start 0.2205 -0.0065)
-			(end -0.1195 -0.0065)
-			(stroke
-				(width 0.15)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "e53b0569-cdc0-44f7-8cf8-11c47c15bfb4")
-		)
-		(fp_line
-			(start 0.2205 0.3235)
-			(end 0.2105 0.3235)
-			(stroke
-				(width 0.15)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "95d8f9b6-208c-4b0c-bbae-9ed16399d08a")
-		)
-		(fp_line
-			(start 0.2405 -0.7565)
-			(end 1.3905 -0.7565)
-			(stroke
-				(width 0.15)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "ad6dd419-5601-42cd-a9a3-cdca8394eafa")
-		)
-		(fp_line
-			(start 0.2405 0.7435)
-			(end 1.3905 0.7435)
-			(stroke
-				(width 0.15)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "a67e540d-5b5e-4ef7-98eb-0d9b0162638a")
-		)
-		(fp_line
-			(start 1.3905 -0.7565)
-			(end 1.3905 0.7235)
-			(stroke
-				(width 0.15)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "b668adea-e37e-49bf-a189-42efc32fb67e")
-		)
-		(fp_poly
-			(pts
-				(xy -1.07 -0.0615) (xy -0.53 -0.0615) (xy -0.53 0.0685) (xy -1.07 0.0685)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "Dwgs.User")
-			(uuid "fc5e2468-385b-4258-a366-9e9260e54d69")
-		)
-		(fp_poly
-			(pts
-				(xy 0.529 -0.0685) (xy 1.069 -0.0685) (xy 1.069 0.0615) (xy 0.529 0.0615)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "Dwgs.User")
-			(uuid "be5c80c2-e3cc-42fc-ba2d-66d5091764a6")
-		)
-		(fp_poly
-			(pts
-				(xy 0.7345 0.267) (xy 0.7345 -0.273) (xy 0.8645 -0.273) (xy 0.8645 0.267)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "Dwgs.User")
-			(uuid "03ed7676-86ca-4be8-90b2-4dc849836802")
-		)
-		(fp_rect
-			(start -1.399 -0.6755)
-			(end 1.399 0.708933)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "ea5eaae5-609e-46a7-a18b-c018c6bd3de4")
-		)
-		(fp_line
-			(start -0.7995 -0.4)
-			(end 0.8005 -0.4)
-			(stroke
-				(width 0.051)
-				(type default)
-			)
-			(layer "F.Fab")
-			(uuid "d4388c2d-ca7e-4f2c-8686-49cd68c31b9e")
-		)
-		(fp_line
-			(start -0.7995 0.4)
-			(end -0.7995 -0.4)
-			(stroke
-				(width 0.051)
-				(type default)
-			)
-			(layer "F.Fab")
-			(uuid "71308298-1e28-4955-aade-f0a2b762a84f")
-		)
-		(fp_line
-			(start 0.8005 -0.4)
-			(end 0.8005 0.4)
-			(stroke
-				(width 0.051)
-				(type default)
-			)
-			(layer "F.Fab")
-			(uuid "b4cd7357-52b6-4df5-90c2-ff46cebfab5e")
-		)
-		(fp_line
-			(start 0.8005 0.4)
-			(end -0.7995 0.4)
-			(stroke
-				(width 0.051)
-				(type default)
-			)
-			(layer "F.Fab")
-			(uuid "85d5f06f-da58-43f0-87af-d2e1b0b8bbae")
-		)
-		(fp_poly
-			(pts
-				(xy -0.744067 0.380539) (xy -0.776539 0.348067) (xy -0.822461 0.348067) (xy -0.854933 0.380539)
-				(xy -0.854933 0.426461) (xy -0.822461 0.458933) (xy -0.776539 0.458933) (xy -0.744067 0.426461)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Fab")
-			(uuid "a80e8c03-54dc-4ff3-a394-f5c6ed44b435")
-		)
-		(fp_poly
-			(pts
-				(xy -0.7995 0.4035) (xy -0.7995 -0.3965) (xy -0.4995 -0.3965) (xy -0.4995 0.4035)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "User.1")
-			(uuid "ce936b64-f399-4150-bebf-e9d77439f11a")
-		)
-		(fp_poly
-			(pts
-				(xy 0.5005 0.3965) (xy 0.5005 -0.4035) (xy 0.8005 -0.4035) (xy 0.8005 0.3965)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "User.1")
-			(uuid "5a5accc6-4371-40a0-83ef-6575e224044e")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "df69dba5-60a8-4aac-a1eb-67a0be6c3556")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd rect
-			(at -0.749 0 90)
-			(size 0.8 0.8)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "GND")
-			(pinfunction "K_1")
-			(pintype "unspecified")
-			(uuid "d31bc016-41a9-4399-b86a-db5d9122a8b8")
-		)
-		(pad "2" smd rect
-			(at 0.749 0 90)
-			(size 0.8 0.8)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(LED1-A)")
-			(pinfunction "A_2")
-			(pintype "unspecified")
-			(uuid "0f969258-9edb-42dc-9b94-e748520c4415")
-		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/LED0603-RD.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.051 -0.01 90)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e8e24922-6a7e-4c23-a1d6-5ec59608f2af")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
 			)
 		)
 	)
+	(property "Value" "LED0603-RD"
+		(at -0.0495 1.521 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "796de57f-bfff-4e3f-b562-aaab06c77d81")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://item.szlcsc.com/datasheet/KT-0603G/13258.html"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "32dab680-a03d-4a41-b3fc-1d3449e5b011")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Lamp Holder Type:- Illumination Color:Emerald Green Voltage - Forward(Vf):3.1V Voltage - Forward(Vf):3.1V Power(Watts):100mW Forward Current:5mA Wavelength - Dominant:513nm~{528nm} Wavelength - Dominant:513nm~{528nm} Peak Wavelength:525nm Diode Configuration:"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2888a6e-1e15-4f52-be1a-39c8a33d90d3")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC_3DModel_Q" "5e3b568068dd46cf8019c1d1baa0031b"
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "e27b426a-3419-4ad6-a2f3-b3c47cfadd94")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC_3D_Size" "1.62 0.82"
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "388025f1-2d84-41af-a6a2-8e20a3097aaf")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part" "KT-0603G"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f606024-99f1-4d38-98f4-7107da32c83d")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "KENTO"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29a9e186-d740-4970-94ab-1c2890b09a52")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier Part" "C12624"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05c45feb-4f7f-4472-9847-a0fdba4b294c")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "LCSC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39949a21-2ef6-4004-bd84-ecf1aaa07b04")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part Name" "0603 翠绿 高亮"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b06307e3-8893-43d0-8507-db4da720f4c7")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.4895 -0.4545)
+		(end -1.1895 -0.7545)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "80bff4ce-9917-4377-b22c-7e4fc19a2f00")
+	)
+	(fp_line
+		(start -1.4895 -0.354)
+		(end -1.4895 -0.4545)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8b9d4efb-495e-4de4-96b0-7f14deb952ce")
+	)
+	(fp_line
+		(start -1.4895 -0.354)
+		(end -1.4895 0.346)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "992a5b28-8ac2-47ae-a1dc-f733da2d451e")
+	)
+	(fp_line
+		(start -1.4895 0.346)
+		(end -1.4895 0.446)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ce600cec-b267-46a2-b4cd-6ee0077c189e")
+	)
+	(fp_line
+		(start -1.4895 0.446)
+		(end -1.1895 0.746)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a7c7c11c-45ff-4a3d-a2ec-1af3b7196f48")
+	)
+	(fp_line
+		(start -0.1395 -0.7545)
+		(end -1.1895 -0.7545)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b8c64d00-b4cf-4b6d-8b52-716cee7ec5f9")
+	)
+	(fp_line
+		(start -0.1395 0.746)
+		(end -1.1895 0.746)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "686b37cf-4703-4c89-b2f1-a172ef046150")
+	)
+	(fp_line
+		(start 0.2105 0.3235)
+		(end -0.1195 -0.0065)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0f350d67-d461-4bed-864d-ceb239b55fb8")
+	)
+	(fp_line
+		(start 0.2205 -0.3565)
+		(end 0.2205 -0.3465)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d3fcc72d-9719-44fd-8b75-fc765aced46d")
+	)
+	(fp_line
+		(start 0.2205 -0.3565)
+		(end 0.2205 0.3235)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4075ad3d-4eb0-4ea9-a6a7-207b4eddff50")
+	)
+	(fp_line
+		(start 0.2205 -0.3465)
+		(end -0.1195 -0.0065)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5aec271f-3b99-4a3e-8716-b3a0d24e2aec")
+	)
+	(fp_line
+		(start 0.2205 -0.0065)
+		(end -0.1195 -0.0065)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e53b0569-cdc0-44f7-8cf8-11c47c15bfb4")
+	)
+	(fp_line
+		(start 0.2205 0.3235)
+		(end 0.2105 0.3235)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "95d8f9b6-208c-4b0c-bbae-9ed16399d08a")
+	)
+	(fp_line
+		(start 0.2405 -0.7565)
+		(end 1.3905 -0.7565)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ad6dd419-5601-42cd-a9a3-cdca8394eafa")
+	)
+	(fp_line
+		(start 0.2405 0.7435)
+		(end 1.3905 0.7435)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a67e540d-5b5e-4ef7-98eb-0d9b0162638a")
+	)
+	(fp_line
+		(start 1.3905 -0.7565)
+		(end 1.3905 0.7235)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b668adea-e37e-49bf-a189-42efc32fb67e")
+	)
+	(fp_poly
+		(pts
+			(xy -1.07 -0.0615) (xy -0.53 -0.0615) (xy -0.53 0.0685) (xy -1.07 0.0685)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "fc5e2468-385b-4258-a366-9e9260e54d69")
+	)
+	(fp_poly
+		(pts
+			(xy 0.529 -0.0685) (xy 1.069 -0.0685) (xy 1.069 0.0615) (xy 0.529 0.0615)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "be5c80c2-e3cc-42fc-ba2d-66d5091764a6")
+	)
+	(fp_poly
+		(pts
+			(xy 0.7345 0.267) (xy 0.7345 -0.273) (xy 0.8645 -0.273) (xy 0.8645 0.267)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "03ed7676-86ca-4be8-90b2-4dc849836802")
+	)
+	(fp_rect
+		(start -1.399 -0.6755)
+		(end 1.399 0.708933)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ea5eaae5-609e-46a7-a18b-c018c6bd3de4")
+	)
+	(fp_line
+		(start -0.7995 -0.4)
+		(end 0.8005 -0.4)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d4388c2d-ca7e-4f2c-8686-49cd68c31b9e")
+	)
+	(fp_line
+		(start -0.7995 0.4)
+		(end -0.7995 -0.4)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "71308298-1e28-4955-aade-f0a2b762a84f")
+	)
+	(fp_line
+		(start 0.8005 -0.4)
+		(end 0.8005 0.4)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b4cd7357-52b6-4df5-90c2-ff46cebfab5e")
+	)
+	(fp_line
+		(start 0.8005 0.4)
+		(end -0.7995 0.4)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "85d5f06f-da58-43f0-87af-d2e1b0b8bbae")
+	)
+	(fp_poly
+		(pts
+			(xy -0.744067 0.380539) (xy -0.776539 0.348067) (xy -0.822461 0.348067) (xy -0.854933 0.380539) (xy -0.854933 0.426461)
+			(xy -0.822461 0.458933) (xy -0.776539 0.458933) (xy -0.744067 0.426461)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "a80e8c03-54dc-4ff3-a394-f5c6ed44b435")
+	)
+	(fp_poly
+		(pts
+			(xy -0.7995 0.4035) (xy -0.7995 -0.3965) (xy -0.4995 -0.3965) (xy -0.4995 0.4035)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.1")
+		(uuid "ce936b64-f399-4150-bebf-e9d77439f11a")
+	)
+	(fp_poly
+		(pts
+			(xy 0.5005 0.3965) (xy 0.5005 -0.4035) (xy 0.8005 -0.4035) (xy 0.8005 0.3965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.1")
+		(uuid "5a5accc6-4371-40a0-83ef-6575e224044e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "df69dba5-60a8-4aac-a1eb-67a0be6c3556")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.749 0 90)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d31bc016-41a9-4399-b86a-db5d9122a8b8")
+	)
+	(pad "2" smd rect
+		(at 0.749 0 90)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0f969258-9edb-42dc-9b94-e748520c4415")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/LED0603-RD.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

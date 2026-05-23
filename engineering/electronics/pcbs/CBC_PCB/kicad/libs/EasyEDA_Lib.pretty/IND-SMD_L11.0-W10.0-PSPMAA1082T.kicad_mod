@@ -1,227 +1,216 @@
 (footprint "IND-SMD_L11.0-W10.0-PSPMAA1082T"
-		(layer "F.Cu")
-		(uuid "d00f787b-cc88-48f9-9132-ca31ee6c9f07")
-		(at 265.423925 134.510648)
-		(property "Reference" "REF**"
-			(at 0 -5.827 0)
-			(layer "F.SilkS")
-			(uuid "82e32a75-792b-4625-b8fb-9198497e64e8")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.827 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "82e32a75-792b-4625-b8fb-9198497e64e8")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
 			)
 		)
-		(property "Value" "IND-SMD_L11.0-W10.0-PSPMAA1082T"
-			(at 0 5.827 0)
-			(layer "F.Fab")
-			(uuid "bd6a7814-2441-49b4-83b7-5fc4693ebf9b")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/PSPMAA1082T-220M-CGP/49353242.html"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d1cd01d3-df29-4847-ba9a-4b87246c925c")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Inductance:22uH Tolerance:±20% Tolerance:±20% Current Rating:8A Current - Saturation(Isat):10A DC Resistance(DCR):35mΩ Type:Molded Inductor Ratings:-"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2f5fd016-b859-49ae-adb2-e79cbc64aeb3")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer Part" "PSPMAA1082T-220M-CGP"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dd17c657-32dd-4ce1-8b55-2a51800c495a")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "PROD(谱罗德)"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7d91d946-b80b-418c-aa94-0ccc244c7978")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier Part" "C47149121"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "115336f0-d4a1-4731-8f5e-196883e99c9c")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "63027106-65f2-48ba-aabe-cd24f2511aa6")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part Name" "22μH ±20% 13A"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "60dc1d73-e3f8-4442-9505-9b06e7152c78")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/cc7537cf-40ae-42d0-a857-c01ca15aab74/d5f09327-11d3-4c7f-83be-6bbd38eb9eb3")
-		(sheetname "/POWER REGULATOR/")
-		(sheetfile "POWER REGULATOR.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -5.5 -2.231)
-			(end -5.5 -5)
-			(stroke
-				(width 0.254)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "172a729e-9e2a-4633-820f-330ba7789876")
-		)
-		(fp_line
-			(start -5.5 5)
-			(end -5.5 2.231)
-			(stroke
-				(width 0.254)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "ee17346d-458a-4877-ad1b-0d955eb9ec5b")
-		)
-		(fp_line
-			(start -5.5 5)
-			(end 5.5 5)
-			(stroke
-				(width 0.254)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "d02f406e-7461-4c3a-a9d1-aca4ae45ba09")
-		)
-		(fp_line
-			(start 5.5 -5)
-			(end -5.5 -5)
-			(stroke
-				(width 0.254)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "68aea36c-4460-4a61-9e58-8ecc23347d39")
-		)
-		(fp_line
-			(start 5.5 -5)
-			(end 5.5 -2.231)
-			(stroke
-				(width 0.254)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "e6f1596a-8fb0-4317-adda-1d2826b6ac37")
-		)
-		(fp_line
-			(start 5.5 2.231)
-			(end 5.5 5)
-			(stroke
-				(width 0.254)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "03e2871c-385f-4d24-bf94-94290daa17dc")
-		)
-		(fp_rect
-			(start -7.177 -2.25)
-			(end 7.177 2.25)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "7b99e35f-5022-4667-81d6-5d8d113d07f1")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "2c4fe846-1701-46c4-b9d9-09a092d59891")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd rect
-			(at -5.177 0)
-			(size 3.5 4)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "H_PWR-IN")
-			(pinfunction "1_1")
-			(pintype "unspecified")
-			(uuid "167550a9-1e1e-4fbc-bf49-f7eb124d8b8e")
-		)
-		(pad "2" smd rect
-			(at 5.177 0)
-			(size 3.5 4)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(D17-A)")
-			(pinfunction "2_2")
-			(pintype "unspecified")
-			(uuid "9558b182-9b16-4e25-b649-3055d694dd3d")
-		)
-		(embedded_fonts no)
 	)
+	(property "Value" "IND-SMD_L11.0-W10.0-PSPMAA1082T"
+		(at 0 5.827 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd6a7814-2441-49b4-83b7-5fc4693ebf9b")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://item.szlcsc.com/datasheet/PSPMAA1082T-220M-CGP/49353242.html"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1cd01d3-df29-4847-ba9a-4b87246c925c")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Inductance:22uH Tolerance:±20% Tolerance:±20% Current Rating:8A Current - Saturation(Isat):10A DC Resistance(DCR):35mΩ Type:Molded Inductor Ratings:-"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f5fd016-b859-49ae-adb2-e79cbc64aeb3")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part" "PSPMAA1082T-220M-CGP"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd17c657-32dd-4ce1-8b55-2a51800c495a")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "PROD(谱罗德)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d91d946-b80b-418c-aa94-0ccc244c7978")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier Part" "C47149121"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "115336f0-d4a1-4731-8f5e-196883e99c9c")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "LCSC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63027106-65f2-48ba-aabe-cd24f2511aa6")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part Name" "22μH ±20% 13A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60dc1d73-e3f8-4442-9505-9b06e7152c78")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -5.5 -2.231)
+		(end -5.5 -5)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "172a729e-9e2a-4633-820f-330ba7789876")
+	)
+	(fp_line
+		(start -5.5 5)
+		(end -5.5 2.231)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ee17346d-458a-4877-ad1b-0d955eb9ec5b")
+	)
+	(fp_line
+		(start -5.5 5)
+		(end 5.5 5)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d02f406e-7461-4c3a-a9d1-aca4ae45ba09")
+	)
+	(fp_line
+		(start 5.5 -5)
+		(end -5.5 -5)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "68aea36c-4460-4a61-9e58-8ecc23347d39")
+	)
+	(fp_line
+		(start 5.5 -5)
+		(end 5.5 -2.231)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e6f1596a-8fb0-4317-adda-1d2826b6ac37")
+	)
+	(fp_line
+		(start 5.5 2.231)
+		(end 5.5 5)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "03e2871c-385f-4d24-bf94-94290daa17dc")
+	)
+	(fp_rect
+		(start -7.177 -2.25)
+		(end 7.177 2.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "7b99e35f-5022-4667-81d6-5d8d113d07f1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2c4fe846-1701-46c4-b9d9-09a092d59891")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -5.177 0)
+		(size 3.5 4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "167550a9-1e1e-4fbc-bf49-f7eb124d8b8e")
+	)
+	(pad "2" smd rect
+		(at 5.177 0)
+		(size 3.5 4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9558b182-9b16-4e25-b649-3055d694dd3d")
+	)
+	(embedded_fonts no)
+)

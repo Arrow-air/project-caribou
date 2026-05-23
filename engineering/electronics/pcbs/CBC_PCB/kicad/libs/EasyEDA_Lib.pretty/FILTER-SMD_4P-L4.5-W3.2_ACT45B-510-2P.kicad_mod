@@ -1,337 +1,320 @@
 (footprint "FILTER-SMD_4P-L4.5-W3.2_ACT45B-510-2P"
-		(layer "F.Cu")
-		(uuid "143b2ec0-3225-4dc3-8949-268b94646201")
-		(at 129.635 215.435)
-		(property "Reference" "REF**"
-			(at -3.54 -0.36 90)
-			(layer "F.SilkS")
-			(uuid "48834b1a-c802-4a01-a8ca-a77d1fcfd695")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -3.54 -0.36 90)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "48834b1a-c802-4a01-a8ca-a77d1fcfd695")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
 			)
 		)
-		(property "Value" "FILTER-SMD_4P-L4.5-W3.2_ACT45B-510-2P"
-			(at -0.00525 2.859 0)
-			(layer "F.Fab")
-			(uuid "93b53e6b-e815-4017-96d1-e293e4a75712")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/ACT45B-510-2P-TF/51238050.html"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "698ee8b1-1243-4f78-bca8-153f98659df5")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Number of Lines:2 Inductance @ Frequency:51uH@100kHz Current Rating:230mA Impedance @ Frequency:1kΩ@10MHz；2.8kΩ@10MHz Voltage Rating - DC:50V Voltage Rating (AC):50V Voltage Withstand:125V DC Resistance(DCR):1Ω Operating Temperature:-55°C~+150°C Operating T"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1b40b8d1-0871-4c8c-875f-c31d832236b9")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer Part" "ACT45B-510-2P-TF"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "517c7ae5-09f1-4163-99d5-edcfcce32430")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "MetalLions(美铼)"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6719b27a-05d9-4507-b926-b4966fd69ee0")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier Part" "C48928226"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "99a4c2ad-402d-4937-8e74-3c6bce67cefc")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6dc01edc-d069-40fd-9f18-0f36c1217cbf")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part Name" "51uH"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0eba26fe-d066-47ab-8e6d-3c7d74cc139b")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/313c40c6-0a26-497a-98c9-c78a7bba0e9e/fe6d6943-55cc-434d-b8a5-50ecf0398ecc")
-		(sheetname "/CAN SECTION/")
-		(sheetfile "CAN SECTION.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "4" "2" "3")
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -2.25 -0.5065)
-			(end -2.25 0.6)
-			(stroke
-				(width 0.254)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "ba2c6f72-2ba4-4cc6-b384-0c3f40953f0f")
-		)
-		(fp_line
-			(start -1.2565 1.6)
-			(end 1.2565 1.6)
-			(stroke
-				(width 0.254)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "19ba5357-b850-4ca1-a163-f0afedc5dc05")
-		)
-		(fp_line
-			(start 1.3 -1.6)
-			(end -1.35 -1.6)
-			(stroke
-				(width 0.254)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "f5930753-d730-4f96-93d0-0eacea96d235")
-		)
-		(fp_line
-			(start 2.25 0.5065)
-			(end 2.25 -0.5065)
-			(stroke
-				(width 0.254)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "647168ad-0a4c-4b9d-8be6-69cf65d11b49")
-		)
-		(fp_circle
-			(center -2.794 1.905)
-			(end -2.667 1.905)
-			(stroke
-				(width 0.254)
-				(type default)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "35dce843-11e6-414d-8226-b092f52f6cad")
-		)
-		(fp_rect
-			(start -3.0125 -1.8755)
-			(end 3.0125 1.905433)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "f498bd00-77fb-4e3f-86ef-85730f94b1f5")
-		)
-		(fp_line
-			(start -2.25 -1.6)
-			(end -2.25 1.6)
-			(stroke
-				(width 0.051)
-				(type default)
-			)
-			(layer "F.Fab")
-			(uuid "5b07cffc-b3a4-4e13-9a70-1ad45272d354")
-		)
-		(fp_line
-			(start -2.25 1.6)
-			(end 2.25 1.6)
-			(stroke
-				(width 0.051)
-				(type default)
-			)
-			(layer "F.Fab")
-			(uuid "f499208e-f8d2-4cb2-9103-9d3b5b735412")
-		)
-		(fp_line
-			(start 2.25 -1.6)
-			(end -2.25 -1.6)
-			(stroke
-				(width 0.051)
-				(type default)
-			)
-			(layer "F.Fab")
-			(uuid "8d58b458-016d-4e24-8880-6210c7f80a8c")
-		)
-		(fp_line
-			(start 2.25 1.6)
-			(end 2.25 -1.6)
-			(stroke
-				(width 0.051)
-				(type default)
-			)
-			(layer "F.Fab")
-			(uuid "4ba959df-e073-4baf-9cb9-fd2fde959e9c")
-		)
-		(fp_poly
-			(pts
-				(xy -2.194567 1.577039) (xy -2.227039 1.544567) (xy -2.272961 1.544567) (xy -2.305433 1.577039)
-				(xy -2.305433 1.622961) (xy -2.272961 1.655433) (xy -2.227039 1.655433) (xy -2.194567 1.622961)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Fab")
-			(uuid "d78bd438-90dc-4ddf-92c0-da2d15407819")
-		)
-		(fp_poly
-			(pts
-				(xy -1.05 -0.6) (xy -1.05 -1.6) (xy -2.25 -1.6) (xy -2.25 -0.6)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "User.1")
-			(uuid "d556031f-fc52-4952-a2d5-5e792954fea1")
-		)
-		(fp_poly
-			(pts
-				(xy -1.05 1.6) (xy -1.05 0.6) (xy -2.25 0.6) (xy -2.25 1.6)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "User.1")
-			(uuid "b5b73d69-e3d9-4b15-be15-da789c36cf28")
-		)
-		(fp_poly
-			(pts
-				(xy 2.25 -0.6) (xy 2.25 -1.6) (xy 1.05 -1.6) (xy 1.05 -0.6)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "User.1")
-			(uuid "d0385a04-7831-4766-aa01-081ed1e0ecfd")
-		)
-		(fp_poly
-			(pts
-				(xy 2.25 1.6) (xy 2.25 0.6) (xy 1.05 0.6) (xy 1.05 1.6)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "User.1")
-			(uuid "8f4bd6eb-94bb-4424-9d9b-1f453cfa6a42")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "514dddd9-19b1-4198-b905-c0a26ddb1e40")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd rect
-			(at -2.125 1.1625 90)
-			(size 0.85 1.275)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(U26-CANH)")
-			(pinfunction "1_1")
-			(pintype "unspecified")
-			(uuid "6f611bac-4349-4801-ad67-7b8c8a533777")
-		)
-		(pad "2" smd rect
-			(at 2.125 1.1625 90)
-			(size 0.85 1.275)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "CANH_DRONE")
-			(pinfunction "2_2")
-			(pintype "unspecified")
-			(uuid "8257695a-366e-4432-bce1-5072c10ad866")
-		)
-		(pad "3" smd rect
-			(at 2.125 -1.1625 90)
-			(size 0.85 1.275)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "CANL_DRONE")
-			(pinfunction "3_3")
-			(pintype "unspecified")
-			(uuid "00b044d0-c740-480a-9870-7196c70ec50e")
-		)
-		(pad "4" smd rect
-			(at -2.125 -1.1625 90)
-			(size 0.85 1.275)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(U26-CANL)")
-			(pinfunction "4_4")
-			(pintype "unspecified")
-			(uuid "b3efe3e3-609c-4443-ae4b-3dc53e315d1f")
-		)
-		(embedded_fonts no)
 	)
+	(property "Value" "FILTER-SMD_4P-L4.5-W3.2_ACT45B-510-2P"
+		(at -0.00525 2.859 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "93b53e6b-e815-4017-96d1-e293e4a75712")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://item.szlcsc.com/datasheet/ACT45B-510-2P-TF/51238050.html"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "698ee8b1-1243-4f78-bca8-153f98659df5")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Number of Lines:2 Inductance @ Frequency:51uH@100kHz Current Rating:230mA Impedance @ Frequency:1kΩ@10MHz；2.8kΩ@10MHz Voltage Rating - DC:50V Voltage Rating (AC):50V Voltage Withstand:125V DC Resistance(DCR):1Ω Operating Temperature:-55°C~{+150°C} Operating T"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b40b8d1-0871-4c8c-875f-c31d832236b9")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part" "ACT45B-510-2P-TF"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "517c7ae5-09f1-4163-99d5-edcfcce32430")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "MetalLions(美铼)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6719b27a-05d9-4507-b926-b4966fd69ee0")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier Part" "C48928226"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "99a4c2ad-402d-4937-8e74-3c6bce67cefc")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "LCSC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6dc01edc-d069-40fd-9f18-0f36c1217cbf")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part Name" "51uH"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0eba26fe-d066-47ab-8e6d-3c7d74cc139b")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.25 -0.5065)
+		(end -2.25 0.6)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ba2c6f72-2ba4-4cc6-b384-0c3f40953f0f")
+	)
+	(fp_line
+		(start -1.2565 1.6)
+		(end 1.2565 1.6)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "19ba5357-b850-4ca1-a163-f0afedc5dc05")
+	)
+	(fp_line
+		(start 1.3 -1.6)
+		(end -1.35 -1.6)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f5930753-d730-4f96-93d0-0eacea96d235")
+	)
+	(fp_line
+		(start 2.25 0.5065)
+		(end 2.25 -0.5065)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "647168ad-0a4c-4b9d-8be6-69cf65d11b49")
+	)
+	(fp_circle
+		(center -2.794 1.905)
+		(end -2.667 1.905)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "35dce843-11e6-414d-8226-b092f52f6cad")
+	)
+	(fp_rect
+		(start -3.0125 -1.8755)
+		(end 3.0125 1.905433)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f498bd00-77fb-4e3f-86ef-85730f94b1f5")
+	)
+	(fp_line
+		(start -2.25 -1.6)
+		(end -2.25 1.6)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "5b07cffc-b3a4-4e13-9a70-1ad45272d354")
+	)
+	(fp_line
+		(start -2.25 1.6)
+		(end 2.25 1.6)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "f499208e-f8d2-4cb2-9103-9d3b5b735412")
+	)
+	(fp_line
+		(start 2.25 -1.6)
+		(end -2.25 -1.6)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "8d58b458-016d-4e24-8880-6210c7f80a8c")
+	)
+	(fp_line
+		(start 2.25 1.6)
+		(end 2.25 -1.6)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "4ba959df-e073-4baf-9cb9-fd2fde959e9c")
+	)
+	(fp_poly
+		(pts
+			(xy -2.194567 1.577039) (xy -2.227039 1.544567) (xy -2.272961 1.544567) (xy -2.305433 1.577039) (xy -2.305433 1.622961)
+			(xy -2.272961 1.655433) (xy -2.227039 1.655433) (xy -2.194567 1.622961)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "d78bd438-90dc-4ddf-92c0-da2d15407819")
+	)
+	(fp_poly
+		(pts
+			(xy -1.05 -0.6) (xy -1.05 -1.6) (xy -2.25 -1.6) (xy -2.25 -0.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.1")
+		(uuid "d556031f-fc52-4952-a2d5-5e792954fea1")
+	)
+	(fp_poly
+		(pts
+			(xy -1.05 1.6) (xy -1.05 0.6) (xy -2.25 0.6) (xy -2.25 1.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.1")
+		(uuid "b5b73d69-e3d9-4b15-be15-da789c36cf28")
+	)
+	(fp_poly
+		(pts
+			(xy 2.25 -0.6) (xy 2.25 -1.6) (xy 1.05 -1.6) (xy 1.05 -0.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.1")
+		(uuid "d0385a04-7831-4766-aa01-081ed1e0ecfd")
+	)
+	(fp_poly
+		(pts
+			(xy 2.25 1.6) (xy 2.25 0.6) (xy 1.05 0.6) (xy 1.05 1.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.1")
+		(uuid "8f4bd6eb-94bb-4424-9d9b-1f453cfa6a42")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "514dddd9-19b1-4198-b905-c0a26ddb1e40")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.125 1.1625 90)
+		(size 0.85 1.275)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6f611bac-4349-4801-ad67-7b8c8a533777")
+	)
+	(pad "2" smd rect
+		(at 2.125 1.1625 90)
+		(size 0.85 1.275)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8257695a-366e-4432-bce1-5072c10ad866")
+	)
+	(pad "3" smd rect
+		(at 2.125 -1.1625 90)
+		(size 0.85 1.275)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "00b044d0-c740-480a-9870-7196c70ec50e")
+	)
+	(pad "4" smd rect
+		(at -2.125 -1.1625 90)
+		(size 0.85 1.275)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b3efe3e3-609c-4443-ae4b-3dc53e315d1f")
+	)
+	(embedded_fonts no)
+)
