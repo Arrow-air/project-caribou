@@ -4132,7 +4132,7 @@
 	)
 	(text "CAN SECTION"
 		(exclude_from_sim no)
-		(at 32.004 21.59 0)
+		(at 31.75 21.59 0)
 		(effects
 			(font
 				(face "Arial Black")
@@ -6339,7 +6339,7 @@
 		)
 		(uuid "0147b750-c453-4e98-8325-16e998c4a6ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.0176 173.99 0)
+			(at 129.54 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6363,7 +6363,7 @@
 		)
 		(uuid "0a7ee457-cfb3-4bcc-9fc1-51756571363d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 352.3562 62.23 0)
+			(at 351.79 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6387,7 +6387,7 @@
 		)
 		(uuid "126a9727-a80a-47f6-9f3a-04f062864d77")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.7286 48.26 0)
+			(at 59.69 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6411,7 +6411,7 @@
 		)
 		(uuid "22886ad7-cb4a-4e33-881c-da1ba08305d4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.1886 189.23 0)
+			(at 57.15 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6435,7 +6435,7 @@
 		)
 		(uuid "3f148a22-5d19-4266-813d-f30524f4e9db")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.1886 191.77 0)
+			(at 57.15 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6459,7 +6459,7 @@
 		)
 		(uuid "799f1630-5b67-454d-8ba8-ecba5ac683d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.8258 184.15 0)
+			(at 57.15 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6483,7 +6483,7 @@
 		)
 		(uuid "7de48c24-8926-4724-bb12-74e9bcddfc88")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.3702 33.02 0)
+			(at 57.15 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6507,7 +6507,7 @@
 		)
 		(uuid "864f7167-eda6-4ec3-a8b5-cae5169029a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.3658 43.18 0)
+			(at 59.69 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6531,7 +6531,7 @@
 		)
 		(uuid "8e246ce4-f218-4ed0-b914-82d1850cc5f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 362.0324 180.34 0)
+			(at 361.95 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6555,7 +6555,7 @@
 		)
 		(uuid "9401c824-a78f-4393-b79a-8cfffc1cd413")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.8302 173.99 0)
+			(at 54.61 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6579,7 +6579,7 @@
 		)
 		(uuid "adb8e693-1b98-453a-a551-27ae3e27e512")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.5753 45.72 0)
+			(at 60.96 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6603,7 +6603,7 @@
 		)
 		(uuid "b128fa76-480d-41be-ae21-a627ce45368e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.7286 50.8 0)
+			(at 59.69 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6627,7 +6627,7 @@
 		)
 		(uuid "b5e545e8-41be-418e-abf5-9fc2b8d307ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 352.6586 43.18 0)
+			(at 353.06 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6651,7 +6651,7 @@
 		)
 		(uuid "c8087973-cddb-44a8-9184-cede09c652e0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.5576 33.02 0)
+			(at 132.08 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6675,7 +6675,7 @@
 		)
 		(uuid "d91d3e15-e3ec-4d8b-a7d6-0180bd31f279")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 361.73 199.39 0)
+			(at 361.95 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6699,7 +6699,7 @@
 		)
 		(uuid "dbe6da69-7992-4eef-87f6-a0459231bfee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.0353 186.69 0)
+			(at 58.42 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6734,7 +6734,7 @@
 			)
 		)
 		(property "Value" "GND_CA"
-			(at 246.38 70.866 0)
+			(at 246.38 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6800,7 +6800,7 @@
 		(dnp no)
 		(uuid "04a71f2a-8b7d-4050-8118-f0557d2c132a")
 		(property "Reference" "C17"
-			(at 327.66 196.8499 90)
+			(at 327.66 196.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6811,7 +6811,7 @@
 			)
 		)
 		(property "Value" "220pF"
-			(at 328.422 198.882 90)
+			(at 328.93 199.39 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6945,7 +6945,7 @@
 			)
 		)
 		(property "Value" "ADM3053BRWZ-REEL7"
-			(at 220.726 72.39 0)
+			(at 220.98 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7134,7 +7134,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 74.93 70.104 0)
+			(at 74.93 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7201,7 +7201,7 @@
 		(fields_autoplaced yes)
 		(uuid "172074e9-ffd5-4648-a6eb-f2a2888c5a71")
 		(property "Reference" "#FLG067"
-			(at 302.26 53.975 0)
+			(at 302.26 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7290,7 +7290,7 @@
 			)
 		)
 		(property "Value" "GND_CA"
-			(at 325.12 58.166 0)
+			(at 325.12 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7357,7 +7357,7 @@
 		(fields_autoplaced yes)
 		(uuid "1897c20b-eed0-488f-8d38-8df5f23cb649")
 		(property "Reference" "#FLG056"
-			(at 284.48 210.185 0)
+			(at 284.48 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7445,7 +7445,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 200.406 201.93 0)
+			(at 200.66 201.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7569,7 +7569,7 @@
 		(dnp no)
 		(uuid "1913504c-c4ec-416d-95f8-18f7b826f9c9")
 		(property "Reference" "C9"
-			(at 318.77 59.6899 90)
+			(at 318.77 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7580,7 +7580,7 @@
 			)
 		)
 		(property "Value" "220pF"
-			(at 319.532 61.722 90)
+			(at 320.04 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7714,7 +7714,7 @@
 			)
 		)
 		(property "Value" "8MHz"
-			(at 41.91 219.202 0)
+			(at 41.91 219.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7849,7 +7849,7 @@
 			)
 		)
 		(property "Value" "GND_CB"
-			(at 286.258 215.646 0)
+			(at 285.75 215.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7915,7 +7915,7 @@
 		(dnp no)
 		(uuid "1c3cd6d6-e68a-457d-9b65-181882953ca6")
 		(property "Reference" "R1"
-			(at 299.974 49.53 0)
+			(at 299.72 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8196,7 +8196,7 @@
 			)
 		)
 		(property "Value" "GND_CA"
-			(at 254 40.386 0)
+			(at 254 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8263,7 +8263,7 @@
 		(fields_autoplaced yes)
 		(uuid "20ee425e-5024-420c-8a67-3fcaaa3709c0")
 		(property "Reference" "#FLG065"
-			(at 321.31 62.865 0)
+			(at 321.31 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8352,7 +8352,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 174.498 42.164 0)
+			(at 173.99 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8428,7 +8428,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 210.058 203.2 0)
+			(at 209.55 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8640,7 +8640,7 @@
 			)
 		)
 		(property "Value" "8MHz"
-			(at 44.45 78.232 0)
+			(at 44.45 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8989,7 +8989,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 191.008 178.054 0)
+			(at 190.5 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9066,7 +9066,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5 75.946 0)
+			(at 190.5 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9133,7 +9133,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b764dfa-e327-4838-adf2-4ec8e208e71d")
 		(property "Reference" "#FLG057"
-			(at 344.17 197.485 0)
+			(at 344.17 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9212,7 +9212,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d7c76fa-a1f0-4fc7-a32a-4bdcbc9465ba")
 		(property "Reference" "D2"
-			(at 346.71 214.6299 0)
+			(at 346.71 214.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9361,7 +9361,7 @@
 			)
 		)
 		(property "Value" "GND_CB"
-			(at 277.114 215.646 0)
+			(at 276.86 215.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9437,7 +9437,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 178.816 49.53 0)
+			(at 179.07 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9572,7 +9572,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 69.85 15.494 0)
+			(at 69.85 15.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9789,7 +9789,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 183.896 66.04 0)
+			(at 184.15 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9924,7 +9924,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 207.01 194.564 0)
+			(at 207.01 194.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10000,7 +10000,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 195.326 185.42 0)
+			(at 195.58 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10368,7 +10368,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 281.178 207.01 0)
+			(at 280.67 207.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10503,7 +10503,7 @@
 			)
 		)
 		(property "Value" "GND_CB"
-			(at 332.486 195.834 0)
+			(at 332.74 195.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10727,7 +10727,7 @@
 		(fields_autoplaced yes)
 		(uuid "70de4175-6069-40d2-b72c-d151ab270199")
 		(property "Reference" "D1"
-			(at 337.82 77.4699 0)
+			(at 337.82 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10865,7 +10865,7 @@
 		(dnp no)
 		(uuid "710b47e6-be21-4354-b709-3add001c6aff")
 		(property "Reference" "R4"
-			(at 308.864 186.69 0)
+			(at 308.61 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11076,7 +11076,7 @@
 		(dnp no)
 		(uuid "72fde620-e31b-4201-898a-354068bc1109")
 		(property "Reference" "H2"
-			(at 316.23 189.484 0)
+			(at 316.23 189.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11212,7 +11212,7 @@
 		(fields_autoplaced yes)
 		(uuid "7332ccf0-36ff-452e-8887-83005f891e6f")
 		(property "Reference" "#FLG064"
-			(at 267.97 74.295 0)
+			(at 267.97 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11290,7 +11290,7 @@
 		(dnp no)
 		(uuid "74b32d0c-77a3-463e-9294-d39982e87354")
 		(property "Reference" "H1"
-			(at 307.34 52.324 0)
+			(at 307.34 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11514,7 +11514,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 188.468 50.8 0)
+			(at 187.96 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11649,7 +11649,7 @@
 			)
 		)
 		(property "Value" "GND_CA"
-			(at 326.39 93.726 0)
+			(at 326.39 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11716,7 +11716,7 @@
 		(fields_autoplaced yes)
 		(uuid "89efd792-c573-4e92-afc3-ca62d927a508")
 		(property "Reference" "#FLG054"
-			(at 31.75 213.995 0)
+			(at 31.75 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11806,7 +11806,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 67.31 156.464 0)
+			(at 67.31 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11873,7 +11873,7 @@
 		(fields_autoplaced yes)
 		(uuid "95465522-7d16-40fb-bd5d-b793c4b854c5")
 		(property "Reference" "#FLG066"
-			(at 331.47 41.275 0)
+			(at 331.47 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12118,7 +12118,7 @@
 			)
 		)
 		(property "Value" "GND_CB"
-			(at 331.724 231.394 0)
+			(at 331.47 231.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12185,7 +12185,7 @@
 		(dnp no)
 		(uuid "a386e735-b945-42cf-bab7-c645ac46a8cc")
 		(property "Reference" "C16"
-			(at 327.66 185.4199 90)
+			(at 327.66 185.42 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12196,7 +12196,7 @@
 			)
 		)
 		(property "Value" "220pF"
-			(at 328.422 187.452 90)
+			(at 328.93 187.96 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12331,7 +12331,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 180.34 58.674 0)
+			(at 180.34 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12485,7 +12485,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 193.548 67.31 0)
+			(at 193.04 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12620,7 +12620,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 201.93 195.326 0)
+			(at 201.93 195.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12696,7 +12696,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 103.378 92.71 0)
+			(at 102.87 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12831,7 +12831,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 207.01 211.836 0)
+			(at 207.01 212.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12908,7 +12908,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 190.5 58.674 0)
+			(at 190.5 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12975,7 +12975,7 @@
 		(fields_autoplaced yes)
 		(uuid "b29e3982-7d4e-446f-b984-d97240e5bf24")
 		(property "Reference" "#FLG058"
-			(at 311.15 189.865 0)
+			(at 311.15 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13131,7 +13131,7 @@
 		(fields_autoplaced yes)
 		(uuid "b59df062-499a-45d4-8f32-097d65e69bd3")
 		(property "Reference" "C2"
-			(at 111.76 91.4399 90)
+			(at 111.76 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13142,7 +13142,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 111.76 93.9799 90)
+			(at 111.76 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13346,7 +13346,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd9a7962-391a-4938-b051-30f956581c90")
 		(property "Reference" "#FLG062"
-			(at 34.29 73.025 0)
+			(at 34.29 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13512,7 +13512,7 @@
 			)
 		)
 		(property "Value" "22pF"
-			(at 57.912 219.71 0)
+			(at 58.42 219.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13637,7 +13637,7 @@
 		(fields_autoplaced yes)
 		(uuid "c656de42-7c62-4f38-bc5a-41f5881b79fb")
 		(property "Reference" "#FLG060"
-			(at 260.35 170.815 0)
+			(at 260.35 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13725,7 +13725,7 @@
 			)
 		)
 		(property "Value" "22pF"
-			(at 60.452 78.74 0)
+			(at 60.96 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13859,7 +13859,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 91.186 232.41 0)
+			(at 91.44 232.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13994,7 +13994,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 196.85 194.564 0)
+			(at 196.85 194.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14070,7 +14070,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 93.726 91.44 0)
+			(at 93.98 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14194,7 +14194,7 @@
 		(dnp no)
 		(uuid "d01335ee-cf84-42db-be37-4d01c8970039")
 		(property "Reference" "C8"
-			(at 318.77 48.2599 90)
+			(at 318.77 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14205,7 +14205,7 @@
 			)
 		)
 		(property "Value" "220pF"
-			(at 319.532 50.292 90)
+			(at 320.04 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14718,7 +14718,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 185.42 59.436 0)
+			(at 185.42 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14794,7 +14794,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 264.668 71.12 0)
+			(at 264.16 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14918,7 +14918,7 @@
 		(dnp no)
 		(uuid "db723748-4d01-4575-9c61-fd0ddf1fb9d7")
 		(property "Reference" "R2"
-			(at 67.818 27.94 0)
+			(at 67.31 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14928,7 +14928,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 72.136 27.94 0)
+			(at 72.39 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15063,7 +15063,7 @@
 			)
 		)
 		(property "Value" "GND_CA"
-			(at 260.604 79.756 0)
+			(at 260.35 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15140,7 +15140,7 @@
 			)
 		)
 		(property "Value" "GND_CB"
-			(at 262.89 206.756 0)
+			(at 262.89 207.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15285,7 +15285,7 @@
 		(fields_autoplaced yes)
 		(uuid "de03984d-9787-4087-867d-21f9fb400456")
 		(property "Reference" "C14"
-			(at 109.22 232.4099 90)
+			(at 109.22 232.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15296,7 +15296,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 109.22 234.9499 90)
+			(at 109.22 234.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15577,7 +15577,7 @@
 		(fields_autoplaced yes)
 		(uuid "e170f2ff-d41b-4a3f-a402-2b39f560e1fa")
 		(property "Reference" "C58"
-			(at 288.29 205.7399 90)
+			(at 288.29 205.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15588,7 +15588,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 288.29 208.2799 90)
+			(at 288.29 208.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15724,7 +15724,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 79.756 0)
+			(at 74.93 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15790,7 +15790,7 @@
 		(dnp no)
 		(uuid "e7cd3cec-5677-4782-91f2-ef3b49ed5fec")
 		(property "Reference" "R3"
-			(at 65.278 168.91 0)
+			(at 64.77 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15800,7 +15800,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 69.596 168.91 0)
+			(at 69.85 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15934,7 +15934,7 @@
 			)
 		)
 		(property "Value" "22pF"
-			(at 33.782 78.74 0)
+			(at 34.29 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16145,7 +16145,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 204.978 186.69 0)
+			(at 204.47 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16280,7 +16280,7 @@
 			)
 		)
 		(property "Value" "GND_CB"
-			(at 270.51 176.276 0)
+			(at 270.51 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16357,7 +16357,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 72.39 211.074 0)
+			(at 72.39 210.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16433,7 +16433,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 100.838 233.68 0)
+			(at 100.33 233.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16558,7 +16558,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4219104-8c3a-465b-a35a-5e558bbb123c")
 		(property "Reference" "#FLG068"
-			(at 243.84 34.925 0)
+			(at 243.84 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16646,7 +16646,7 @@
 			)
 		)
 		(property "Value" "ADM3053BRWZ-REEL7"
-			(at 237.236 208.28 0)
+			(at 237.49 208.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16903,7 +16903,7 @@
 		(fields_autoplaced yes)
 		(uuid "f765fc5b-9124-486c-989e-d8bcf608ec6f")
 		(property "Reference" "C52"
-			(at 271.78 69.8499 90)
+			(at 271.78 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16914,7 +16914,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 271.78 72.3899 90)
+			(at 271.78 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17040,7 +17040,7 @@
 		(fields_autoplaced yes)
 		(uuid "f853fd9e-caae-47e8-9544-1b3a6f4f3639")
 		(property "Reference" "#FLG059"
-			(at 340.36 178.435 0)
+			(at 340.36 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17129,7 +17129,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 220.726 0)
+			(at 72.39 220.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17205,7 +17205,7 @@
 			)
 		)
 		(property "Value" "22pF"
-			(at 31.242 219.71 0)
+			(at 31.75 219.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17340,7 +17340,7 @@
 			)
 		)
 		(property "Value" "GND_CA"
-			(at 269.748 79.756 0)
+			(at 269.24 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

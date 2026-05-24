@@ -3144,7 +3144,7 @@
 		)
 		(uuid "22c99a7f-fcd4-47bc-9e54-7a5a02db07ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.36 55.88 0)
+			(at 68.58 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3168,7 +3168,7 @@
 		)
 		(uuid "5a6567a8-a921-421b-bfcc-557fe6876b6a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.4895 138.43 0)
+			(at 64.77 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3192,7 +3192,7 @@
 		)
 		(uuid "90dc42c9-c9bf-4b6d-8118-33ecc677c312")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.7595 168.91 0)
+			(at 66.04 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3216,7 +3216,7 @@
 		)
 		(uuid "f806d893-0122-4c96-bd6a-e81d223d800b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.6624 58.42 0)
+			(at 68.58 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3251,7 +3251,7 @@
 			)
 		)
 		(property "Value" "12V_TRIGGER_SIG"
-			(at 78.74 59.944 0)
+			(at 78.74 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3318,7 +3318,7 @@
 		(fields_autoplaced yes)
 		(uuid "14029131-2cb8-46a4-b32f-d72a1d7522f2")
 		(property "Reference" "C26"
-			(at 72.39 170.1799 90)
+			(at 72.39 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3329,7 +3329,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 72.39 172.7199 90)
+			(at 72.39 172.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3774,7 +3774,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 55.88 124.714 0)
+			(at 55.88 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3851,7 +3851,7 @@
 			)
 		)
 		(property "Value" "GNDE"
-			(at 69.85 34.544 0)
+			(at 69.85 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3918,7 +3918,7 @@
 		(fields_autoplaced yes)
 		(uuid "56cbbc48-b762-40c6-b607-a5ebd427784a")
 		(property "Reference" "#FLG051"
-			(at 64.77 43.815 0)
+			(at 64.77 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3998,7 +3998,7 @@
 		(fields_autoplaced yes)
 		(uuid "874ec618-d909-4bde-b3e0-1e4c146518a4")
 		(property "Reference" "#FLG069"
-			(at 55.88 133.985 0)
+			(at 55.88 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4087,7 +4087,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 75.184 0)
+			(at 53.34 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4154,7 +4154,7 @@
 		(dnp no)
 		(uuid "85240edf-13a9-41ff-bff1-68f37a040f84")
 		(property "Reference" "R10"
-			(at 58.42 133.3499 90)
+			(at 58.42 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4165,7 +4165,7 @@
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 52.832 133.35 0)
+			(at 53.34 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4300,7 +4300,7 @@
 			)
 		)
 		(property "Value" "GND_CB"
-			(at 61.214 75.184 0)
+			(at 60.96 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4609,7 +4609,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 57.15 155.194 0)
+			(at 57.15 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4675,7 +4675,7 @@
 		(dnp no)
 		(uuid "b2cf2c5a-1604-46b4-bb4d-c1d7c0a3ef33")
 		(property "Reference" "R11"
-			(at 59.69 163.8299 90)
+			(at 59.69 163.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4811,7 +4811,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4386318-d48f-407b-a3ee-2b4d6117d242")
 		(property "Reference" "C25"
-			(at 71.12 139.6999 90)
+			(at 71.12 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4822,7 +4822,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 71.12 142.2399 90)
+			(at 71.12 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4958,7 +4958,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.056 150.368 0)
+			(at 67.31 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5192,7 +5192,7 @@
 			)
 		)
 		(property "Value" "12V_ISOLATED"
-			(at 71.12 42.164 0)
+			(at 71.12 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5268,7 +5268,7 @@
 			)
 		)
 		(property "Value" "AT13-12PB-BM03"
-			(at 31.75 70.104 0)
+			(at 31.75 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
