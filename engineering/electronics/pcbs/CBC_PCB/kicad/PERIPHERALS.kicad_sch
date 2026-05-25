@@ -2717,13 +2717,6 @@
 		)
 		(uuid "a5bf8811-d4d6-4213-a589-7f1924294890")
 	)
-
-	(junction
-		(at 55.88 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ee603c17-42fa-4e93-a863-d29b77067afa")
-	)
 	(junction
 		(at 60.96 40.64)
 		(diameter 0)
@@ -2737,12 +2730,6 @@
 		(uuid "5474bfd0-320a-48ab-a694-340ef2de879b")
 	)
 	(junction
-		(at 49.53 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "58c2d897-5cd2-425e-af08-3900b6cf204f")
-	)
-	(junction
 		(at 62.23 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2753,12 +2740,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a11e94e7-fee0-495e-9781-d2ce7e8c1cec")
-	)
-	(junction
-		(at 52.07 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb5a9603-b34c-4625-8a58-b2cc0b71656e")
 	)
 	(junction
 		(at 67.31 135.89)
@@ -2777,6 +2758,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea8b3fab-dbb0-4c93-a998-f4b3c64f56d3")
+	)
+	(junction
+		(at 55.88 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee603c17-42fa-4e93-a863-d29b77067afa")
 	)
 	(no_connect
 		(at 26.67 133.35)
@@ -2854,7 +2841,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 138.43) (xy 46.99 138.43)
+			(xy 46.99 138.43) (xy 55.88 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2871,16 +2858,6 @@
 			(type default)
 		)
 		(uuid "2caa4680-4246-474b-b93e-17628b768949")
-	)
-	(wire
-		(pts
-			(xy 55.88 138.43) (xy 49.53 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "318cda11-7cb5-4fe8-98d1-32a827a915c6")
 	)
 	(wire
 		(pts
@@ -3074,16 +3051,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 168.91) (xy 52.07 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5f263b5-0033-4619-956b-0bd5b89dd18f")
-	)
-	(wire
-		(pts
 			(xy 31.75 66.04) (xy 53.34 66.04)
 		)
 		(stroke
@@ -3124,7 +3091,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 168.91) (xy 48.26 168.91)
+			(xy 48.26 168.91) (xy 57.15 168.91)
 		)
 		(stroke
 			(width 0)
@@ -3306,7 +3273,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:CC0402KRX7R7BB104")
+		(lib_id "CBC_PCB:CC0402KRX7R7BB104")
 		(at 68.58 171.45 90)
 		(unit 1)
 		(body_style 1)
@@ -3521,7 +3488,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:DS18B20Z+T&amp;R")
+		(lib_id "CBC_PCB:DS18B20Z+T&amp;R")
 		(at 38.1 165.1 0)
 		(mirror y)
 		(unit 1)
@@ -3984,86 +3951,6 @@
 			)
 		)
 	)
-
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 55.88 135.89 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "874ec618-d909-4bde-b3e0-1e4c146518a4")
-		(property "Reference" "#FLG069"
-			(at 55.88 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 55.88 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 55.88 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6a1f1ee3-3eef-4b99-be1f-7150cc4612a3")
-		)
-		(instances
-			(project "CBC_PCB"
-				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/b4c95d27-7981-477f-a8ef-d2ce83f3675e"
-					(reference "#FLG069")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(symbol
 		(lib_id "power:GND")
 		(at 53.34 71.12 0)
@@ -4141,9 +4028,8 @@
 			)
 		)
 	)
-
 	(symbol
-		(lib_id "EasyEDA_Lib:RC0402FR-074K7L")
+		(lib_id "CBC_PCB:RC0402FR-074K7L")
 		(at 55.88 133.35 90)
 		(unit 1)
 		(body_style 1)
@@ -4356,6 +4242,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 55.88 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "874ec618-d909-4bde-b3e0-1e4c146518a4")
+		(property "Reference" "#FLG069"
+			(at 55.88 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 55.88 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 55.88 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6a1f1ee3-3eef-4b99-be1f-7150cc4612a3")
+		)
+		(instances
+			(project "CBC_PCB"
+				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/b4c95d27-7981-477f-a8ef-d2ce83f3675e"
+					(reference "#FLG069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 67.31 134.62 0)
 		(unit 1)
@@ -4434,7 +4399,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:DS18B20Z+T&amp;R")
+		(lib_id "CBC_PCB:DS18B20Z+T&amp;R")
 		(at 36.83 134.62 0)
 		(mirror y)
 		(unit 1)
@@ -4664,7 +4629,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:RC0402FR-074K7L")
+		(lib_id "CBC_PCB:RC0402FR-074K7L")
 		(at 57.15 163.83 90)
 		(unit 1)
 		(body_style 1)
@@ -4799,7 +4764,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:CC0402KRX7R7BB104")
+		(lib_id "CBC_PCB:CC0402KRX7R7BB104")
 		(at 67.31 140.97 90)
 		(unit 1)
 		(body_style 1)
@@ -5090,7 +5055,6 @@
 			)
 		)
 	)
-
 	(symbol
 		(lib_id "power:+3V3")
 		(at 68.58 165.1 0)
@@ -5247,7 +5211,7 @@
 		)
 	)
 	(symbol
-		(lib_id "2026-04-30_07-21-07:AT13-12PB-BM03")
+		(lib_id "CBC_PCB:AT13-12PB-BM03")
 		(at 31.75 38.1 0)
 		(unit 1)
 		(body_style 1)
