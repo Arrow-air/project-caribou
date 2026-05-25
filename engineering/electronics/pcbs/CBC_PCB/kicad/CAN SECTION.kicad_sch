@@ -7681,7 +7681,7 @@
 				)
 			)
 		)
-		(property "Value" "8MHz"
+		(property "Value" "16MHz"
 			(at 41.91 219.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7691,7 +7691,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:HC-49S_L11.5-W4.7-P4.88"
+		(property "Footprint" "EasyEDA_Lib:CRYSTAL-SMD_L3.2-W2.5_3225-8MHZ"
 			(at 41.91 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -7702,7 +7702,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/H1OEL89CSC-SUGYLC-8M/8526929.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/NX3225GB-16MHZ-STD-CRA-2/489116.html"
 			(at 41.91 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -7713,7 +7713,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Through Hole Crystal Oscillator Frequency:8MHz Normal temperature Frequency Tolerance:±20ppm Normal temperature Frequency Tolerance:±20ppm Load Capacitance:20pF Frequency Stability:±30ppm Frequency Stability:±30ppm Operating Temperature:-20°C~+70°C Ope"
+		(property "Description" "Frequency:16MHz Normal temperature Frequency Tolerance:±50ppm Load Capacitance:8pF Frequency Stability:±150ppm Equivalent Series Resistance(ESR):120Ω Operating Temperature:-40℃~+150℃"
 			(at 41.91 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -7724,7 +7724,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "H1OEL89CSC-SUGYLC-8M"
+		(property "Manufacturer Part" "NX3225GB-16MHZ-STD-CRA-2"
 			(at 41.91 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -7735,7 +7735,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YXC(扬兴晶振)"
+		(property "Manufacturer" "NDK"
 			(at 41.91 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -7746,7 +7746,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C7471633"
+		(property "Supplier Part" "C481399"
 			(at 41.91 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -7768,7 +7768,7 @@
 				)
 			)
 		)
-		(property "LCSC Part Name" "HC-49US 8MHZ 20PF ±20PPM -20~70°C (±30PPM)"
+		(property "LCSC Part Name" "16MHz ±50ppm 8pF"
 			(at 41.91 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -8607,7 +8607,7 @@
 				)
 			)
 		)
-		(property "Value" "8MHz"
+		(property "Value" "16MHz"
 			(at 44.45 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8617,7 +8617,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:HC-49S_L11.5-W4.7-P4.88"
+		(property "Footprint" "EasyEDA_Lib:CRYSTAL-SMD_L3.2-W2.5_3225-8MHZ"
 			(at 44.45 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8628,7 +8628,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/H1OEL89CSC-SUGYLC-8M/8526929.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/NX3225GB-16MHZ-STD-CRA-2/489116.html"
 			(at 44.45 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8639,7 +8639,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Through Hole Crystal Oscillator Frequency:8MHz Normal temperature Frequency Tolerance:±20ppm Normal temperature Frequency Tolerance:±20ppm Load Capacitance:20pF Frequency Stability:±30ppm Frequency Stability:±30ppm Operating Temperature:-20°C~+70°C Ope"
+		(property "Description" "Frequency:16MHz Normal temperature Frequency Tolerance:±50ppm Load Capacitance:8pF Frequency Stability:±150ppm Equivalent Series Resistance(ESR):120Ω Operating Temperature:-40℃~+150℃"
 			(at 44.45 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8650,7 +8650,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "H1OEL89CSC-SUGYLC-8M"
+		(property "Manufacturer Part" "NX3225GB-16MHZ-STD-CRA-2"
 			(at 44.45 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8661,7 +8661,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YXC(扬兴晶振)"
+		(property "Manufacturer" "NDK"
 			(at 44.45 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8672,7 +8672,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C7471633"
+		(property "Supplier Part" "C481399"
 			(at 44.45 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8694,7 +8694,7 @@
 				)
 			)
 		)
-		(property "LCSC Part Name" "HC-49US 8MHZ 20PF ±20PPM -20~70°C (±30PPM)"
+		(property "LCSC Part Name" "16MHz ±50ppm 8pF"
 			(at 44.45 74.93 0)
 			(hide yes)
 			(show_name no)
