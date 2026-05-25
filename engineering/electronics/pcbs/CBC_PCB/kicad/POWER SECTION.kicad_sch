@@ -5,7 +5,7 @@
 	(uuid "c76484a1-85bb-4c60-8834-a006b6944ef4")
 	(paper "A3")
 	(lib_symbols
-		(symbol "AMT0650009DB0000G:AMT0650009DB0000G"
+		(symbol "CBC_PCB:AMT0650009DB0000G"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -275,7 +275,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "C90D_PAD:C90D_PAD"
+		(symbol "CBC_PCB:C90D_PAD"
 			(pin_numbers
 				(hide yes)
 			)
@@ -716,7 +716,184 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:0154005.DR"
+		(symbol "CBC_PCB:0154001.DR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA_Lib:FUSE-SMD_L9.8-W5.1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/0154001.DR/208027.html"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Type:Surface Mount Fuse (with Holder) Current Rating:1A Voltage Rating (AC):125V Voltage Rating (DC):125V Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C Interrupt Rating:50A Length:9.73mm Width:5.03mm Height:3.81mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "0154001.DR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Littelfuse(美国力特)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part" "C206908"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part Name" "125V贴片式保险丝（含保险丝座）"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0154001.DR_1_0"
+				(rectangle
+					(start -3.302 0.762)
+					(end 3.302 -0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "CBC_PCB:0154005.DR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -893,7 +1070,399 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:25121WF100JT4E"
+		(symbol "CBC_PCB:0603 Green 509-620mcd"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "LED"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA_Lib:LED0603-RD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/KT-0603G/13258.html"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Lamp Holder Type:- Illumination Color:Emerald Green Voltage - Forward(Vf):3.1V Voltage - Forward(Vf):3.1V Power(Watts):100mW Forward Current:5mA Wavelength - Dominant:513nm~528nm Wavelength - Dominant:513nm~528nm Peak Wavelength:525nm Diode Configuration:"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "KT-0603G"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "KENTO"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part" "C12624"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part Name" "0603 翠绿 高亮"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0603 Green 509-620mcd_1_0"
+				(polyline
+					(pts
+						(xy -3.81 3.302) (xy -2.794 2.794) (xy -2.794 2.794) (xy -3.302 2.286) (xy -3.302 2.286) (xy -3.81 3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.794 4.318) (xy -1.778 3.81) (xy -1.778 3.81) (xy -2.286 3.302) (xy -2.286 3.302) (xy -2.794 4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 1.524) (xy -3.81 3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.032) (xy -1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 2.54) (xy -2.794 4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.524) (xy -1.27 0) (xy -1.27 0) (xy 1.27 1.778) (xy 1.27 1.778) (xy 1.27 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "K"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "CBC_PCB:0603WAF1801T5E"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1.8kΩ"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA_Lib:R0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF1801T5E/4584.html"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Type:Thick Film Resistor Resistance:1.8kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "0603WAF1801T5E"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(厚声)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part" "C4177"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part Name" "1.8kΩ ±1% 100mW 厚膜电阻"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0603WAF1801T5E_1_0"
+				(rectangle
+					(start -2.54 -1.016)
+					(end 2.54 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "CBC_PCB:25121WF100JT4E"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1059,7 +1628,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:74LVC1G17W5-7"
+		(symbol "CBC_PCB:74LVC1G17W5-7"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1289,7 +1858,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:74LVC2G02HK3-7"
+		(symbol "CBC_PCB:74LVC2G02HK3-7"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1584,7 +2153,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:A1257WV-S-2P"
+		(symbol "CBC_PCB:A1257WV-S-2P"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1796,7 +2365,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:AC05000003309JAC00"
+		(symbol "CBC_PCB:AC05000003309JAC00"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2035,7 +2604,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:CL10B104KC8NNNC"
+		(symbol "CBC_PCB:CL10B104KC8NNNC"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2238,7 +2807,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:CL21A475KBQNNNE"
+		(symbol "CBC_PCB:CL21A475KBQNNNE"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2441,7 +3010,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:CPC1019NTR"
+		(symbol "CBC_PCB:CPC1019NTR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3101,7 +3670,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:CPC1106NTR"
+		(symbol "CBC_PCB:CPC1106NTR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3651,7 +4220,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:ERJ1KM2R2D11OT"
+		(symbol "CBC_PCB:ERJ1KM2R2D11OT"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3878,7 +4447,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:ES3D_C241735"
+		(symbol "CBC_PCB:ES3D_C241735"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4056,7 +4625,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:FSV10150V"
+		(symbol "CBC_PCB:FSV10150V"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4277,7 +4846,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:GRM21BR61H106KE43L"
+		(symbol "CBC_PCB:GRM21BR61H106KE43L"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4480,7 +5049,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:MAX810R"
+		(symbol "CBC_PCB:MAX810R"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4674,7 +5243,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:MCS0402MC1001FE000"
+		(symbol "CBC_PCB:MCS0402MC1001FE000"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4840,7 +5409,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:PTFR0603B140KP9"
+		(symbol "CBC_PCB:PTFR0603B140KP9"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5006,7 +5575,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:RC0402FR-07330RL"
+		(symbol "CBC_PCB:RC0402FR-07330RL"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5172,7 +5741,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:RT0402BRD0710KL"
+		(symbol "CBC_PCB:RT0402BRD0710KL"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5338,7 +5907,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:RT0402BRD073K3L"
+		(symbol "CBC_PCB:RT0402BRD073K3L"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5504,7 +6073,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:RT0603BRD07100KL"
+		(symbol "CBC_PCB:RT0603BRD07100KL"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5670,7 +6239,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:RT0603BRD0710KL"
+		(symbol "CBC_PCB:RT0603BRD0710KL"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5836,7 +6405,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:SMBJ13CA_C19077568"
+		(symbol "CBC_PCB:SMBJ13CA_C19077568"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6027,7 +6596,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:SMBJ5.0CA_C83323"
+		(symbol "CBC_PCB:SMBJ5.0CA_C83323"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6253,7 +6822,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:SMBJ78CA_C2903953"
+		(symbol "CBC_PCB:SMBJ78CA_C2903953"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6444,7 +7013,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:SP015N03BGHTO"
+		(symbol "CBC_PCB:SP015N03BGHTO"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6858,7 +7427,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:ZEMS0850-330M"
+		(symbol "CBC_PCB:ZEMS0850-330M"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -7061,7 +7630,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MP9486GN-Z:MP9486GN-Z"
+		(symbol "CBC_PCB:MP9486GN-Z"
 			(pin_names
 				(offset 0.254)
 			)
@@ -8146,6 +8715,12 @@
 		(uuid "2b222545-5aa9-4d3e-9924-d5f74c3aa66e")
 	)
 	(junction
+		(at 346.71 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b40d9ed-6d0f-451f-a100-d30828a5f279")
+	)
+	(junction
 		(at 340.36 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8162,12 +8737,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30782134-7fd3-41ed-a977-ebd1d174e18a")
-	)
-	(junction
-		(at 355.6 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "30b7a777-bc54-419d-8feb-521bf8b8791c")
 	)
 	(junction
 		(at 53.34 207.01)
@@ -8416,6 +8985,12 @@
 		(uuid "843ad91a-4c51-4725-8ffa-c04aa52665cb")
 	)
 	(junction
+		(at 388.62 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8844d3bd-b4d5-40b3-b033-5fc2e900d4fc")
+	)
+	(junction
 		(at 82.55 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8428,10 +9003,10 @@
 		(uuid "8a930e19-bd9b-4617-84d3-a1a7705edc99")
 	)
 	(junction
-		(at 209.55 60.96)
+		(at 355.6 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8ad538e8-4031-43c1-bd1c-7b2e27b58f6b")
+		(uuid "8ced4131-1fac-4cbc-bf55-b9e62c1fb987")
 	)
 	(junction
 		(at 172.72 120.65)
@@ -8572,10 +9147,22 @@
 		(uuid "c24df9ac-a154-4153-8a82-46977557e429")
 	)
 	(junction
+		(at 359.41 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8a53f8c-f537-4097-af32-25eb3870b288")
+	)
+	(junction
 		(at 251.46 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc345190-d74b-48ec-bd3b-61ca7ca43f09")
+	)
+	(junction
+		(at 388.62 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cee39783-78b2-40f0-9970-5255a4df6667")
 	)
 	(junction
 		(at 359.41 127)
@@ -8674,16 +9261,16 @@
 		(uuid "f4113b80-e6d7-42a3-851e-b65d148da86d")
 	)
 	(junction
-		(at 388.62 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f9cb0bfb-e759-435a-888c-dfcccc687e77")
-	)
-	(junction
 		(at 43.18 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fcc9e5b0-23bc-4a65-81d3-d9700337fd95")
+	)
+	(junction
+		(at 367.03 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffd9b5fa-dd2b-4ef5-b5fe-fe46aab3ae73")
 	)
 	(no_connect
 		(at 62.23 19.05)
@@ -8779,6 +9366,16 @@
 	)
 	(wire
 		(pts
+			(xy 337.82 50.8) (xy 347.98 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08722336-f285-4d6e-9c4e-611c2cb7a552")
+	)
+	(wire
+		(pts
 			(xy 303.53 49.53) (xy 303.53 45.72)
 		)
 		(stroke
@@ -8846,6 +9443,16 @@
 			(type default)
 		)
 		(uuid "10e07261-138b-4596-95ab-78413cde3783")
+	)
+	(wire
+		(pts
+			(xy 359.41 50.8) (xy 359.41 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "111b288c-c4ff-4887-b09d-0503058a1b9a")
 	)
 	(wire
 		(pts
@@ -9039,7 +9646,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 76.2) (xy 345.44 76.2)
+			(xy 334.01 76.2) (xy 336.55 76.2)
 		)
 		(stroke
 			(width 0)
@@ -9269,16 +9876,6 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 50.8) (xy 345.44 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "377a1106-a2c1-4c63-867b-c36da4e71aac")
-	)
-	(wire
-		(pts
 			(xy 314.96 165.1) (xy 314.96 168.91)
 		)
 		(stroke
@@ -9336,6 +9933,16 @@
 			(type default)
 		)
 		(uuid "3bbb5f46-ec31-4400-af13-8a5fc1ef3ede")
+	)
+	(wire
+		(pts
+			(xy 346.71 76.2) (xy 346.71 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bee664e-996a-438e-a608-d56be94d6502")
 	)
 	(wire
 		(pts
@@ -9446,6 +10053,16 @@
 			(type default)
 		)
 		(uuid "445fc6f9-a70d-4de5-b0c4-59f80177fc75")
+	)
+	(wire
+		(pts
+			(xy 346.71 68.58) (xy 346.71 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4532b155-8854-4f71-97dc-9efc1ddb5c46")
 	)
 	(wire
 		(pts
@@ -10129,6 +10746,16 @@
 	)
 	(wire
 		(pts
+			(xy 367.03 190.5) (xy 367.03 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7afbf255-4c4c-4f7d-9a3c-917e0d8bd953")
+	)
+	(wire
+		(pts
 			(xy 171.45 120.65) (xy 172.72 120.65)
 		)
 		(stroke
@@ -10346,6 +10973,16 @@
 			(type default)
 		)
 		(uuid "91586766-7845-4a71-ae76-acbb7f4c1bb0")
+	)
+	(wire
+		(pts
+			(xy 346.71 76.2) (xy 347.98 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "919ffeab-6a24-4b46-be53-63ffa1fea1d4")
 	)
 	(wire
 		(pts
@@ -10599,7 +11236,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 50.8) (xy 388.62 50.8)
+			(xy 370.84 50.8) (xy 388.62 50.8)
 		)
 		(stroke
 			(width 0)
@@ -10716,6 +11353,16 @@
 			(type default)
 		)
 		(uuid "b3238733-416f-44b3-a0de-0beea4b9f412")
+	)
+	(wire
+		(pts
+			(xy 359.41 50.8) (xy 363.22 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4acffed-bb56-4aa4-a1e4-06e887f56ef6")
 	)
 	(wire
 		(pts
@@ -10959,7 +11606,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 76.2) (xy 355.6 76.2)
+			(xy 355.6 76.2) (xy 355.6 76.2)
 		)
 		(stroke
 			(width 0)
@@ -11069,6 +11716,16 @@
 	)
 	(wire
 		(pts
+			(xy 359.41 68.58) (xy 346.71 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0500d19-0fa8-4455-937b-61e9613ce3a3")
+	)
+	(wire
+		(pts
 			(xy 297.18 71.12) (xy 213.36 71.12)
 		)
 		(stroke
@@ -11086,6 +11743,16 @@
 			(type default)
 		)
 		(uuid "d0e4ff23-854c-4621-a631-0e2274c2a576")
+	)
+	(wire
+		(pts
+			(xy 358.14 50.8) (xy 359.41 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d11e486e-34df-41c9-8465-7ddc24a22f86")
 	)
 	(wire
 		(pts
@@ -11356,6 +12023,16 @@
 			(type default)
 		)
 		(uuid "e73813dc-b368-408f-939d-8fa6366ac1de")
+	)
+	(wire
+		(pts
+			(xy 367.03 193.04) (xy 375.92 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e967a50c-4c34-4f87-9c04-f93822ec4c12")
 	)
 	(wire
 		(pts
@@ -12592,7 +13269,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:74LVC1G17W5-7")
+		(lib_id "CBC_PCB:74LVC1G17W5-7")
 		(at 90.17 113.03 0)
 		(unit 1)
 		(body_style 1)
@@ -12735,7 +13412,85 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:0154005.DR")
+		(lib_id "power:GND")
+		(at 396.24 193.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "03bf2aac-1925-4808-996a-1333644e79b7")
+		(property "Reference" "#PWR0270"
+			(at 396.24 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "H_PWR-IN-"
+			(at 392.43 191.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 396.24 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 396.24 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 396.24 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "749a23f5-e62b-4041-8f4d-79f79c7bf364")
+		)
+		(instances
+			(project "CBC_PCB"
+				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/16623c3f-27fc-4db0-8b22-f4a31ec72271"
+					(reference "#PWR0270")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CBC_PCB:0154005.DR")
 		(at 227.33 120.65 0)
 		(unit 1)
 		(body_style 1)
@@ -12869,7 +13624,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:SMBJ13CA_C19077568")
+		(lib_id "CBC_PCB:SMBJ13CA_C19077568")
 		(at 152.4 172.72 90)
 		(unit 1)
 		(body_style 1)
@@ -13005,6 +13760,141 @@
 		)
 	)
 	(symbol
+		(lib_id "CBC_PCB:0603 Green 509-620mcd")
+		(at 391.16 193.04 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "057a533c-8eb5-4881-9b25-e29455cd1878")
+		(property "Reference" "LED4"
+			(at 392.43 187.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 391.16 193.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:LED0603-RD"
+			(at 391.16 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/KT-0603G/13258.html"
+			(at 391.16 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Lamp Holder Type:- Illumination Color:Emerald Green Voltage - Forward(Vf):3.1V Voltage - Forward(Vf):3.1V Power(Watts):100mW Forward Current:5mA Wavelength - Dominant:513nm~528nm Wavelength - Dominant:513nm~528nm Peak Wavelength:525nm Diode Configuration:"
+			(at 391.16 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "KT-0603G"
+			(at 391.16 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KENTO"
+			(at 391.16 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C12624"
+			(at 391.16 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 391.16 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "0603 翠绿 高亮"
+			(at 391.16 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b29085d-4922-4340-80d5-6bbd6e3f1ee5")
+		)
+		(pin "2"
+			(uuid "774bfd18-6a39-46d7-b5df-1a271a045b1e")
+		)
+		(instances
+			(project "CBC_PCB"
+				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/16623c3f-27fc-4db0-8b22-f4a31ec72271"
+					(reference "LED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 314.96 95.25 0)
 		(unit 1)
@@ -13083,7 +13973,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:SMBJ13CA_C19077568")
+		(lib_id "CBC_PCB:SMBJ13CA_C19077568")
 		(at 300.99 173.99 90)
 		(unit 1)
 		(body_style 1)
@@ -13376,7 +14266,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:CL21A475KBQNNNE")
+		(lib_id "CBC_PCB:CL21A475KBQNNNE")
 		(at 285.75 81.28 90)
 		(unit 1)
 		(body_style 1)
@@ -13513,7 +14403,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:CL21A475KBQNNNE")
+		(lib_id "CBC_PCB:CL21A475KBQNNNE")
 		(at 266.7 85.09 90)
 		(unit 1)
 		(body_style 1)
@@ -13807,7 +14697,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:MCS0402MC1001FE000")
+		(lib_id "CBC_PCB:MCS0402MC1001FE000")
 		(at 294.64 168.91 180)
 		(unit 1)
 		(body_style 1)
@@ -14254,7 +15144,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:RT0603BRD0710KL")
+		(lib_id "CBC_PCB:RT0603BRD0710KL")
 		(at 303.53 40.64 90)
 		(unit 1)
 		(body_style 1)
@@ -14620,7 +15510,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:RT0402BRD0710KL")
+		(lib_id "CBC_PCB:RT0402BRD0710KL")
 		(at 166.37 172.72 90)
 		(unit 1)
 		(body_style 1)
@@ -14755,7 +15645,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SS34")
-		(at 349.25 50.8 180)
+		(at 367.03 50.8 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14766,7 +15656,7 @@
 		(fields_autoplaced yes)
 		(uuid "18249cb2-b1da-4f17-8a27-0b73c3293802")
 		(property "Reference" "D5"
-			(at 349.25 44.45 0)
+			(at 367.03 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14776,7 +15666,7 @@
 			)
 		)
 		(property "Value" "SS34"
-			(at 349.25 46.99 0)
+			(at 367.03 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14786,7 +15676,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 349.25 46.99 0)
+			(at 367.03 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14797,7 +15687,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
-			(at 349.25 50.8 0)
+			(at 367.03 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14808,7 +15698,7 @@
 			)
 		)
 		(property "Description" "40V 3A Schottky Diode, SMA"
-			(at 349.25 50.8 0)
+			(at 367.03 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14834,7 +15724,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:MCS0402MC1001FE000")
+		(lib_id "CBC_PCB:MCS0402MC1001FE000")
 		(at 146.05 167.64 180)
 		(unit 1)
 		(body_style 1)
@@ -15045,7 +15935,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:CL21A475KBQNNNE")
+		(lib_id "CBC_PCB:CL21A475KBQNNNE")
 		(at 274.32 81.28 90)
 		(unit 1)
 		(body_style 1)
@@ -15340,7 +16230,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SS34")
-		(at 349.25 76.2 180)
+		(at 351.79 76.2 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15351,7 +16241,7 @@
 		(fields_autoplaced yes)
 		(uuid "1eadb0be-c820-46d7-bd37-7f7235f17c85")
 		(property "Reference" "D30"
-			(at 349.25 69.85 0)
+			(at 351.79 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15361,7 +16251,7 @@
 			)
 		)
 		(property "Value" "SS34"
-			(at 349.25 72.39 0)
+			(at 351.79 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15371,7 +16261,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 349.25 72.39 0)
+			(at 351.79 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15382,7 +16272,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
-			(at 349.25 76.2 0)
+			(at 351.79 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15393,7 +16283,7 @@
 			)
 		)
 		(property "Description" "40V 3A Schottky Diode, SMA"
-			(at 349.25 76.2 0)
+			(at 351.79 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15575,7 +16465,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:RT0402BRD0710KL")
+		(lib_id "CBC_PCB:RT0402BRD0710KL")
 		(at 207.01 173.99 90)
 		(unit 1)
 		(body_style 1)
@@ -15865,7 +16755,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MP9486GN-Z:MP9486GN-Z")
+		(lib_id "CBC_PCB:MP9486GN-Z")
 		(at 168.91 73.66 0)
 		(unit 1)
 		(body_style 1)
@@ -15965,7 +16855,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:CL10B104KC8NNNC")
+		(lib_id "CBC_PCB:CL10B104KC8NNNC")
 		(at 314.96 41.91 90)
 		(unit 1)
 		(body_style 1)
@@ -16178,7 +17068,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:RC0402FR-07330RL")
+		(lib_id "CBC_PCB:RC0402FR-07330RL")
 		(at 116.84 193.04 90)
 		(unit 1)
 		(body_style 1)
@@ -16390,7 +17280,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:CPC1106NTR")
+		(lib_id "CBC_PCB:CPC1106NTR")
 		(at 111.76 213.36 270)
 		(unit 1)
 		(body_style 1)
@@ -16531,7 +17421,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:MCS0402MC1001FE000")
+		(lib_id "CBC_PCB:MCS0402MC1001FE000")
 		(at 186.69 168.91 180)
 		(unit 1)
 		(body_style 1)
@@ -16821,6 +17711,142 @@
 		)
 	)
 	(symbol
+		(lib_id "CBC_PCB:0603WAF1801T5E")
+		(at 381 193.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34888b47-50df-47a9-ae11-22e3a0b0494e")
+		(property "Reference" "R65"
+			(at 381 189.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.8kΩ"
+			(at 381 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:R0603"
+			(at 381 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF1801T5E/4584.html"
+			(at 381 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Type:Thick Film Resistor Resistance:1.8kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
+			(at 381 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0603WAF1801T5E"
+			(at 381 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 381 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C4177"
+			(at 381 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 381 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "1.8kΩ ±1% 100mW 厚膜电阻"
+			(at 381 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "141f9e3b-fee8-49e8-9466-e60e30dd91d6")
+		)
+		(pin "2"
+			(uuid "b976b9a6-46cb-4391-a253-88185e2ea916")
+		)
+		(instances
+			(project "CBC_PCB"
+				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/16623c3f-27fc-4db0-8b22-f4a31ec72271"
+					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 153.67 88.9 0)
 		(unit 1)
@@ -16976,7 +18002,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:SP015N03BGHTO")
+		(lib_id "CBC_PCB:SP015N03BGHTO")
 		(at 354.33 161.29 270)
 		(mirror x)
 		(unit 1)
@@ -17132,7 +18158,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:SMBJ5.0CA_C83323")
+		(lib_id "CBC_PCB:SMBJ5.0CA_C83323")
 		(at 325.12 41.91 90)
 		(unit 1)
 		(body_style 1)
@@ -17424,7 +18450,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:CL21A475KBQNNNE")
+		(lib_id "CBC_PCB:CL21A475KBQNNNE")
 		(at 285.75 38.1 90)
 		(unit 1)
 		(body_style 1)
@@ -18108,6 +19134,83 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 379.73 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3f49f42c-a7c7-470f-8c1b-1851c9db8407")
+		(property "Reference" "#PWR0295"
+			(at 379.73 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "H_PWR-IN-"
+			(at 382.27 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 379.73 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 379.73 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 379.73 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1b3e41f3-3587-4134-85a6-dbc79af839d9")
+		)
+		(instances
+			(project "CBC_PCB"
+				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/16623c3f-27fc-4db0-8b22-f4a31ec72271"
+					(reference "#PWR0295")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 217.17 158.75 0)
 		(unit 1)
 		(body_style 1)
@@ -18418,7 +19521,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:CL21A475KBQNNNE")
+		(lib_id "CBC_PCB:CL21A475KBQNNNE")
 		(at 355.6 82.55 90)
 		(unit 1)
 		(body_style 1)
@@ -18555,7 +19658,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:CL21A475KBQNNNE")
+		(lib_id "CBC_PCB:CL21A475KBQNNNE")
 		(at 368.3 82.55 90)
 		(unit 1)
 		(body_style 1)
@@ -18847,7 +19950,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:SP015N03BGHTO")
+		(lib_id "CBC_PCB:SP015N03BGHTO")
 		(at 246.38 123.19 270)
 		(mirror x)
 		(unit 1)
@@ -19003,7 +20106,7 @@
 		)
 	)
 	(symbol
-		(lib_id "AMT0650009DB0000G:AMT0650009DB0000G")
+		(lib_id "CBC_PCB:AMT0650009DB0000G")
 		(at 24.13 60.96 0)
 		(unit 1)
 		(body_style 1)
@@ -19181,7 +20284,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:RT0603BRD0710KL")
+		(lib_id "CBC_PCB:RT0603BRD0710KL")
 		(at 238.76 97.79 90)
 		(unit 1)
 		(body_style 1)
@@ -19315,7 +20418,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:SP015N03BGHTO")
+		(lib_id "CBC_PCB:SP015N03BGHTO")
 		(at 314.96 161.29 270)
 		(mirror x)
 		(unit 1)
@@ -19471,7 +20574,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:CPC1019NTR")
+		(lib_id "CBC_PCB:CPC1019NTR")
 		(at 195.58 224.79 0)
 		(unit 1)
 		(body_style 1)
@@ -19611,7 +20714,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:ERJ1KM2R2D11OT")
+		(lib_id "CBC_PCB:ERJ1KM2R2D11OT")
 		(at 153.67 83.82 270)
 		(unit 1)
 		(body_style 1)
@@ -19902,7 +21005,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:CL21A475KBQNNNE")
+		(lib_id "CBC_PCB:CL21A475KBQNNNE")
 		(at 266.7 41.91 90)
 		(unit 1)
 		(body_style 1)
@@ -20118,7 +21221,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:SMBJ13CA_C19077568")
+		(lib_id "CBC_PCB:SMBJ13CA_C19077568")
 		(at 193.04 173.99 90)
 		(unit 1)
 		(body_style 1)
@@ -20332,7 +21435,86 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:FSV10150V")
+		(lib_id "power:PWR_FLAG")
+		(at 388.62 33.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54e635f9-37ca-421b-a0cc-f65056cc4d15")
+		(property "Reference" "#FLG082"
+			(at 387.35 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 383.54 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 388.62 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 388.62 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 388.62 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3cd98411-ad7d-47fa-888c-c7f788dfe77d")
+		)
+		(instances
+			(project "CBC_PCB"
+				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/16623c3f-27fc-4db0-8b22-f4a31ec72271"
+					(reference "#FLG082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CBC_PCB:FSV10150V")
 		(at 220.98 43.18 270)
 		(unit 1)
 		(body_style 1)
@@ -20627,7 +21809,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:MCS0402MC1001FE000")
+		(lib_id "CBC_PCB:MCS0402MC1001FE000")
 		(at 257.81 168.91 180)
 		(unit 1)
 		(body_style 1)
@@ -21072,7 +22254,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:SMBJ13CA_C19077568")
+		(lib_id "CBC_PCB:SMBJ13CA_C19077568")
 		(at 228.6 173.99 90)
 		(unit 1)
 		(body_style 1)
@@ -21286,7 +22468,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:CL21A475KBQNNNE")
+		(lib_id "CBC_PCB:CL21A475KBQNNNE")
 		(at 274.32 38.1 90)
 		(unit 1)
 		(body_style 1)
@@ -21423,7 +22605,7 @@
 		)
 	)
 	(symbol
-		(lib_id "C90D_PAD:C90D_PAD")
+		(lib_id "CBC_PCB:C90D_PAD")
 		(at 26.67 21.59 0)
 		(mirror y)
 		(unit 1)
@@ -21456,7 +22638,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "C90D_PAD:C90D_PAD"
+		(property "Footprint" "CBC_PCB:C90D_PAD"
 			(at 21.59 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -21502,7 +22684,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:RT0603BRD0710KL")
+		(lib_id "CBC_PCB:RT0603BRD0710KL")
 		(at 303.53 83.82 90)
 		(unit 1)
 		(body_style 1)
@@ -21636,7 +22818,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:A1257WV-S-2P")
+		(lib_id "CBC_PCB:A1257WV-S-2P")
 		(at 68.58 22.86 90)
 		(unit 1)
 		(body_style 1)
@@ -21777,7 +22959,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:PTFR0603B140KP9")
+		(lib_id "CBC_PCB:PTFR0603B140KP9")
 		(at 303.53 29.21 90)
 		(unit 1)
 		(body_style 1)
@@ -22143,7 +23325,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:GRM21BR61H106KE43L")
+		(lib_id "CBC_PCB:GRM21BR61H106KE43L")
 		(at 52.07 107.95 90)
 		(unit 1)
 		(body_style 1)
@@ -22277,7 +23459,7 @@
 		)
 	)
 	(symbol
-		(lib_id "AMT0650009DB0000G:AMT0650009DB0000G")
+		(lib_id "CBC_PCB:AMT0650009DB0000G")
 		(at 93.98 60.96 0)
 		(unit 1)
 		(body_style 1)
@@ -22532,7 +23714,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:MCS0402MC1001FE000")
+		(lib_id "CBC_PCB:MCS0402MC1001FE000")
 		(at 334.01 168.91 180)
 		(unit 1)
 		(body_style 1)
@@ -22744,7 +23926,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:RT0603BRD07100KL")
+		(lib_id "CBC_PCB:RT0603BRD07100KL")
 		(at 41.91 102.87 0)
 		(unit 1)
 		(body_style 1)
@@ -22878,7 +24060,143 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:RT0402BRD0710KL")
+		(lib_id "CBC_PCB:0603WAF1801T5E")
+		(at 364.49 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ce231bd-4bce-41dc-9d04-465ac0c4fcc4")
+		(property "Reference" "R64"
+			(at 364.49 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.8kΩ"
+			(at 364.49 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:R0603"
+			(at 364.49 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF1801T5E/4584.html"
+			(at 364.49 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Type:Thick Film Resistor Resistance:1.8kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
+			(at 364.49 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0603WAF1801T5E"
+			(at 364.49 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 364.49 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C4177"
+			(at 364.49 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 364.49 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "1.8kΩ ±1% 100mW 厚膜电阻"
+			(at 364.49 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ffccc166-47e6-42af-9a0a-04fd0baabc9b")
+		)
+		(pin "2"
+			(uuid "19373b90-05ea-4902-80eb-beacd81448aa")
+		)
+		(instances
+			(project "CBC_PCB"
+				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/16623c3f-27fc-4db0-8b22-f4a31ec72271"
+					(reference "R64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CBC_PCB:RT0402BRD0710KL")
 		(at 242.57 173.99 90)
 		(unit 1)
 		(body_style 1)
@@ -23012,7 +24330,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:SP015N03BGHTO")
+		(lib_id "CBC_PCB:SP015N03BGHTO")
 		(at 278.13 161.29 270)
 		(mirror x)
 		(unit 1)
@@ -23168,7 +24486,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:ZEMS0850-330M")
+		(lib_id "CBC_PCB:ZEMS0850-330M")
 		(at 231.14 77.47 0)
 		(unit 1)
 		(body_style 1)
@@ -23380,7 +24698,142 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:RT0402BRD0710KL")
+		(lib_id "CBC_PCB:0603 Green 509-620mcd")
+		(at 374.65 58.42 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75529147-dd93-46b4-a0b4-2c0233ecb59b")
+		(property "Reference" "LED2"
+			(at 375.92 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 374.65 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:LED0603-RD"
+			(at 374.65 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/KT-0603G/13258.html"
+			(at 374.65 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Lamp Holder Type:- Illumination Color:Emerald Green Voltage - Forward(Vf):3.1V Voltage - Forward(Vf):3.1V Power(Watts):100mW Forward Current:5mA Wavelength - Dominant:513nm~528nm Wavelength - Dominant:513nm~528nm Peak Wavelength:525nm Diode Configuration:"
+			(at 374.65 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "KT-0603G"
+			(at 374.65 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KENTO"
+			(at 374.65 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C12624"
+			(at 374.65 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 374.65 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "0603 翠绿 高亮"
+			(at 374.65 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "91582016-1fec-45ba-9832-4e656bcbca9c")
+		)
+		(pin "2"
+			(uuid "2c747557-9352-4b5e-91a6-d499a44eab80")
+		)
+		(instances
+			(project "CBC_PCB"
+				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/16623c3f-27fc-4db0-8b22-f4a31ec72271"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CBC_PCB:RT0402BRD0710KL")
 		(at 48.26 198.12 90)
 		(unit 1)
 		(body_style 1)
@@ -23592,6 +25045,141 @@
 		)
 	)
 	(symbol
+		(lib_id "CBC_PCB:0603 Green 509-620mcd")
+		(at 374.65 68.58 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7880c25e-e408-4012-947a-25cfb2081192")
+		(property "Reference" "LED3"
+			(at 375.92 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 374.65 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:LED0603-RD"
+			(at 374.65 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/KT-0603G/13258.html"
+			(at 374.65 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Lamp Holder Type:- Illumination Color:Emerald Green Voltage - Forward(Vf):3.1V Voltage - Forward(Vf):3.1V Power(Watts):100mW Forward Current:5mA Wavelength - Dominant:513nm~528nm Wavelength - Dominant:513nm~528nm Peak Wavelength:525nm Diode Configuration:"
+			(at 374.65 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "KT-0603G"
+			(at 374.65 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KENTO"
+			(at 374.65 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C12624"
+			(at 374.65 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 374.65 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "0603 翠绿 高亮"
+			(at 374.65 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "433546e7-477c-485b-b83c-8b1211c90b41")
+		)
+		(pin "2"
+			(uuid "8c349219-6543-4534-afc2-c603740c54f3")
+		)
+		(instances
+			(project "CBC_PCB"
+				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/16623c3f-27fc-4db0-8b22-f4a31ec72271"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 193.04 179.07 0)
 		(unit 1)
@@ -23670,7 +25258,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:RT0402BRD073K3L")
+		(lib_id "CBC_PCB:RT0402BRD073K3L")
 		(at 68.58 118.11 90)
 		(unit 1)
 		(body_style 1)
@@ -23883,6 +25471,140 @@
 		)
 	)
 	(symbol
+		(lib_id "CBC_PCB:0154001.DR")
+		(at 341.63 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7ceba9ec-344b-41c4-8a54-bc8160898673")
+		(property "Reference" "F3"
+			(at 341.63 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 341.63 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:FUSE-SMD_L9.8-W5.1"
+			(at 341.63 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0154001.DR/208027.html"
+			(at 341.63 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Type:Surface Mount Fuse (with Holder) Current Rating:1A Voltage Rating (AC):125V Voltage Rating (DC):125V Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C Interrupt Rating:50A Length:9.73mm Width:5.03mm Height:3.81mm"
+			(at 341.63 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0154001.DR"
+			(at 341.63 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Littelfuse(美国力特)"
+			(at 341.63 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C206908"
+			(at 341.63 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 341.63 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "125V贴片式保险丝（含保险丝座）"
+			(at 341.63 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd432cf7-0c37-442b-a57c-36683e97f52f")
+		)
+		(pin "2"
+			(uuid "2a5068be-9106-4082-9456-14da163c08c2")
+		)
+		(instances
+			(project "CBC_PCB"
+				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/16623c3f-27fc-4db0-8b22-f4a31ec72271"
+					(reference "F3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 77.47 119.38 0)
 		(unit 1)
@@ -23961,7 +25683,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:RT0402BRD0710KL")
+		(lib_id "CBC_PCB:RT0402BRD0710KL")
 		(at 68.58 107.95 90)
 		(unit 1)
 		(body_style 1)
@@ -24173,7 +25895,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:ZEMS0850-330M")
+		(lib_id "CBC_PCB:ZEMS0850-330M")
 		(at 231.14 34.29 0)
 		(unit 1)
 		(body_style 1)
@@ -24307,7 +26029,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:SP015N03BGHTO")
+		(lib_id "CBC_PCB:SP015N03BGHTO")
 		(at 242.57 161.29 270)
 		(mirror x)
 		(unit 1)
@@ -24541,7 +26263,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:GRM21BR61H106KE43L")
+		(lib_id "CBC_PCB:GRM21BR61H106KE43L")
 		(at 96.52 191.77 90)
 		(unit 1)
 		(body_style 1)
@@ -24753,7 +26475,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:RT0402BRD0710KL")
+		(lib_id "CBC_PCB:RT0402BRD0710KL")
 		(at 354.33 173.99 90)
 		(unit 1)
 		(body_style 1)
@@ -25122,7 +26844,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:SMBJ13CA_C19077568")
+		(lib_id "CBC_PCB:SMBJ13CA_C19077568")
 		(at 264.16 173.99 90)
 		(unit 1)
 		(body_style 1)
@@ -25288,7 +27010,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EasyEDA_Lib:R0603"
 			(at 240.03 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -25337,7 +27059,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:MAX810R")
+		(lib_id "CBC_PCB:MAX810R")
 		(at 22.86 237.49 180)
 		(unit 1)
 		(body_style 1)
@@ -25552,7 +27274,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 337.82 76.2 0)
+		(at 334.01 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25562,7 +27284,7 @@
 		(dnp no)
 		(uuid "905eb994-073e-4b16-97f9-baaf584b711c")
 		(property "Reference" "#PWR0279"
-			(at 337.82 80.01 0)
+			(at 334.01 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25573,7 +27295,7 @@
 			)
 		)
 		(property "Value" "12V_GATE_P2"
-			(at 337.82 72.39 0)
+			(at 334.01 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25583,7 +27305,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 337.82 76.2 0)
+			(at 334.01 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25594,7 +27316,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 337.82 76.2 0)
+			(at 334.01 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25605,7 +27327,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 337.82 76.2 0)
+			(at 334.01 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25862,7 +27584,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:PTFR0603B140KP9")
+		(lib_id "CBC_PCB:PTFR0603B140KP9")
 		(at 303.53 72.39 90)
 		(unit 1)
 		(body_style 1)
@@ -26231,7 +27953,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:AC05000003309JAC00")
+		(lib_id "CBC_PCB:AC05000003309JAC00")
 		(at 261.62 123.19 0)
 		(unit 1)
 		(body_style 1)
@@ -26366,7 +28088,7 @@
 		)
 	)
 	(symbol
-		(lib_id "C90D_PAD:C90D_PAD")
+		(lib_id "CBC_PCB:C90D_PAD")
 		(at 93.98 21.59 0)
 		(unit 1)
 		(body_style 1)
@@ -26399,7 +28121,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "C90D_PAD:C90D_PAD"
+		(property "Footprint" "CBC_PCB:C90D_PAD"
 			(at 99.06 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -26522,7 +28244,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:SP015N03BGHTO")
+		(lib_id "CBC_PCB:SP015N03BGHTO")
 		(at 392.43 161.29 270)
 		(mirror x)
 		(unit 1)
@@ -26756,7 +28478,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:RT0603BRD0710KL")
+		(lib_id "CBC_PCB:RT0603BRD0710KL")
 		(at 238.76 54.61 90)
 		(unit 1)
 		(body_style 1)
@@ -26890,7 +28612,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:CL10B104KC8NNNC")
+		(lib_id "CBC_PCB:CL10B104KC8NNNC")
 		(at 251.46 43.18 90)
 		(unit 1)
 		(body_style 1)
@@ -27024,7 +28746,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:RT0402BRD0710KL")
+		(lib_id "CBC_PCB:RT0402BRD0710KL")
 		(at 314.96 173.99 90)
 		(unit 1)
 		(body_style 1)
@@ -27236,7 +28958,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:RT0402BRD0710KL")
+		(lib_id "CBC_PCB:RT0402BRD0710KL")
 		(at 392.43 173.99 90)
 		(unit 1)
 		(body_style 1)
@@ -27370,7 +29092,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:ERJ1KM2R2D11OT")
+		(lib_id "CBC_PCB:ERJ1KM2R2D11OT")
 		(at 153.67 40.64 270)
 		(unit 1)
 		(body_style 1)
@@ -27504,7 +29226,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:MCS0402MC1001FE000")
+		(lib_id "CBC_PCB:MCS0402MC1001FE000")
 		(at 226.06 130.81 180)
 		(unit 1)
 		(body_style 1)
@@ -27793,7 +29515,84 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:RC0402FR-07330RL")
+		(lib_id "power:GND")
+		(at 379.73 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ab269213-e58f-4fee-9875-5572ead63540")
+		(property "Reference" "#PWR0296"
+			(at 379.73 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "H_PWR-IN-"
+			(at 382.27 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 379.73 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 379.73 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 379.73 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c26f623-35d8-4c5e-a04a-f8be90dd751b")
+		)
+		(instances
+			(project "CBC_PCB"
+				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/16623c3f-27fc-4db0-8b22-f4a31ec72271"
+					(reference "#PWR0296")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CBC_PCB:RC0402FR-07330RL")
 		(at 166.37 120.65 180)
 		(unit 1)
 		(body_style 1)
@@ -28241,7 +30040,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MP9486GN-Z:MP9486GN-Z")
+		(lib_id "CBC_PCB:MP9486GN-Z")
 		(at 168.91 30.48 0)
 		(unit 1)
 		(body_style 1)
@@ -28576,7 +30375,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:RT0402BRD0710KL")
+		(lib_id "CBC_PCB:RT0402BRD0710KL")
 		(at 278.13 173.99 90)
 		(unit 1)
 		(body_style 1)
@@ -28710,7 +30509,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:CL10B104KC8NNNC")
+		(lib_id "CBC_PCB:CL10B104KC8NNNC")
 		(at 190.5 15.24 180)
 		(unit 1)
 		(body_style 1)
@@ -28844,7 +30643,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:25121WF100JT4E")
+		(lib_id "CBC_PCB:25121WF100JT4E")
 		(at 143.51 30.48 90)
 		(unit 1)
 		(body_style 1)
@@ -29057,7 +30856,7 @@
 		)
 	)
 	(symbol
-		(lib_id "AMT0650009DB0000G:AMT0650009DB0000G")
+		(lib_id "CBC_PCB:AMT0650009DB0000G")
 		(at 302.26 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -29235,7 +31034,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:RC0402FR-07330RL")
+		(lib_id "CBC_PCB:RC0402FR-07330RL")
 		(at 171.45 219.71 180)
 		(unit 1)
 		(body_style 1)
@@ -29449,7 +31248,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:GRM21BR61H106KE43L")
+		(lib_id "CBC_PCB:GRM21BR61H106KE43L")
 		(at 115.57 115.57 90)
 		(unit 1)
 		(body_style 1)
@@ -29583,7 +31382,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:FSV10150V")
+		(lib_id "CBC_PCB:FSV10150V")
 		(at 220.98 86.36 270)
 		(unit 1)
 		(body_style 1)
@@ -29799,7 +31598,143 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:CL10B104KC8NNNC")
+		(lib_id "CBC_PCB:0603WAF1801T5E")
+		(at 364.49 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c90822a3-d84d-4a1a-a5b7-919ff375844d")
+		(property "Reference" "R63"
+			(at 364.49 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.8kΩ"
+			(at 364.49 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:R0603"
+			(at 364.49 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF1801T5E/4584.html"
+			(at 364.49 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Type:Thick Film Resistor Resistance:1.8kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
+			(at 364.49 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0603WAF1801T5E"
+			(at 364.49 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 364.49 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C4177"
+			(at 364.49 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 364.49 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "1.8kΩ ±1% 100mW 厚膜电阻"
+			(at 364.49 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a16a6603-2d71-4423-a8e6-a43ab838ba64")
+		)
+		(pin "2"
+			(uuid "db4e3b42-aa73-4226-99e2-7c1c365b5fd8")
+		)
+		(instances
+			(project "CBC_PCB"
+				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/16623c3f-27fc-4db0-8b22-f4a31ec72271"
+					(reference "R63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CBC_PCB:CL10B104KC8NNNC")
 		(at 383.54 83.82 90)
 		(unit 1)
 		(body_style 1)
@@ -30011,7 +31946,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:SMBJ13CA_C19077568")
+		(lib_id "CBC_PCB:SMBJ13CA_C19077568")
 		(at 232.41 135.89 90)
 		(unit 1)
 		(body_style 1)
@@ -30147,7 +32082,7 @@
 		)
 	)
 	(symbol
-		(lib_id "AMT0650009DB0000G:AMT0650009DB0000G")
+		(lib_id "CBC_PCB:AMT0650009DB0000G")
 		(at 359.41 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -30558,7 +32493,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:SP015N03BGHTO")
+		(lib_id "CBC_PCB:SP015N03BGHTO")
 		(at 207.01 161.29 270)
 		(mirror x)
 		(unit 1)
@@ -30792,7 +32727,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:SMBJ13CA_C19077568")
+		(lib_id "CBC_PCB:SMBJ13CA_C19077568")
 		(at 378.46 173.99 90)
 		(unit 1)
 		(body_style 1)
@@ -31006,7 +32941,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:SMBJ5.0CA_C83323")
+		(lib_id "CBC_PCB:SMBJ5.0CA_C83323")
 		(at 325.12 85.09 90)
 		(unit 1)
 		(body_style 1)
@@ -31298,7 +33233,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:CL10B104KC8NNNC")
+		(lib_id "CBC_PCB:CL10B104KC8NNNC")
 		(at 251.46 86.36 90)
 		(unit 1)
 		(body_style 1)
@@ -31432,7 +33367,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:ERJ1KM2R2D11OT")
+		(lib_id "CBC_PCB:ERJ1KM2R2D11OT")
 		(at 143.51 83.82 270)
 		(unit 1)
 		(body_style 1)
@@ -31566,7 +33501,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:ERJ1KM2R2D11OT")
+		(lib_id "CBC_PCB:ERJ1KM2R2D11OT")
 		(at 143.51 40.64 270)
 		(unit 1)
 		(body_style 1)
@@ -31856,7 +33791,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:RT0402BRD0710KL")
+		(lib_id "CBC_PCB:RT0402BRD0710KL")
 		(at 246.38 135.89 90)
 		(unit 1)
 		(body_style 1)
@@ -32145,7 +34080,142 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:CL10B104KC8NNNC")
+		(lib_id "CBC_PCB:0154001.DR")
+		(at 353.06 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0d88e9c-c572-4e5a-87af-72070966a364")
+		(property "Reference" "F2"
+			(at 353.06 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 353.06 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:FUSE-SMD_L9.8-W5.1"
+			(at 353.06 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0154001.DR/208027.html"
+			(at 353.06 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Type:Surface Mount Fuse (with Holder) Current Rating:1A Voltage Rating (AC):125V Voltage Rating (DC):125V Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C Interrupt Rating:50A Length:9.73mm Width:5.03mm Height:3.81mm"
+			(at 353.06 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0154001.DR"
+			(at 353.06 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Littelfuse(美国力特)"
+			(at 353.06 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C206908"
+			(at 353.06 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 353.06 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "125V贴片式保险丝（含保险丝座）"
+			(at 353.06 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc8cc945-ac28-4723-acd7-62f48c3b3e2f")
+		)
+		(pin "2"
+			(uuid "91215bb9-1fe6-4a5f-8f18-e33169fd4925")
+		)
+		(instances
+			(project "CBC_PCB"
+				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/16623c3f-27fc-4db0-8b22-f4a31ec72271"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CBC_PCB:CL10B104KC8NNNC")
 		(at 190.5 58.42 180)
 		(unit 1)
 		(body_style 1)
@@ -32386,7 +34456,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EasyEDA_Lib:R0603"
 			(at 240.03 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -32435,7 +34505,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:SMBJ13CA_C19077568")
+		(lib_id "CBC_PCB:SMBJ13CA_C19077568")
 		(at 340.36 173.99 90)
 		(unit 1)
 		(body_style 1)
@@ -32571,7 +34641,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:CPC1106NTR")
+		(lib_id "CBC_PCB:CPC1106NTR")
 		(at 185.42 125.73 0)
 		(unit 1)
 		(body_style 1)
@@ -32868,7 +34938,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:AC05000003309JAC00")
+		(lib_id "CBC_PCB:AC05000003309JAC00")
 		(at 261.62 119.38 0)
 		(unit 1)
 		(body_style 1)
@@ -33081,7 +35151,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:74LVC2G02HK3-7")
+		(lib_id "CBC_PCB:74LVC2G02HK3-7")
 		(at 64.77 190.5 0)
 		(unit 1)
 		(body_style 1)
@@ -33233,7 +35303,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:MCS0402MC1001FE000")
+		(lib_id "CBC_PCB:MCS0402MC1001FE000")
 		(at 372.11 168.91 180)
 		(unit 1)
 		(body_style 1)
@@ -33522,7 +35592,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:CL10B104KC8NNNC")
+		(lib_id "CBC_PCB:CL10B104KC8NNNC")
 		(at 314.96 85.09 90)
 		(unit 1)
 		(body_style 1)
@@ -33656,7 +35726,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:MCS0402MC1001FE000")
+		(lib_id "CBC_PCB:MCS0402MC1001FE000")
 		(at 222.25 168.91 180)
 		(unit 1)
 		(body_style 1)
@@ -33790,7 +35860,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:ES3D_C241735")
+		(lib_id "CBC_PCB:ES3D_C241735")
 		(at 254 132.08 90)
 		(unit 1)
 		(body_style 1)
@@ -33926,7 +35996,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:SP015N03BGHTO")
+		(lib_id "CBC_PCB:SP015N03BGHTO")
 		(at 166.37 160.02 270)
 		(mirror x)
 		(unit 1)
@@ -34082,7 +36152,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:25121WF100JT4E")
+		(lib_id "CBC_PCB:25121WF100JT4E")
 		(at 143.51 73.66 90)
 		(unit 1)
 		(body_style 1)
@@ -34296,7 +36366,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:SMBJ78CA_C2903953")
+		(lib_id "CBC_PCB:SMBJ78CA_C2903953")
 		(at 261.62 113.03 0)
 		(unit 1)
 		(body_style 1)
@@ -34501,65 +36571,6 @@
 			(project "CBC_PCB"
 				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/16623c3f-27fc-4db0-8b22-f4a31ec72271"
 					(reference "#PWR080")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 388.62 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1454c1c-89f2-4209-a25a-7556842d8386")
-		(property "Reference" "#FLG081"
-			(at 388.62 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Value" "PWR_FLAG"
-			(at 388.62 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Footprint" ""
-			(at 388.62 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Datasheet" ""
-			(at 388.62 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 388.62 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
-		(pin "1"
-			(uuid "ec9ce612-4919-41c5-adc3-ed649b7aa95d")
-		)
-		(instances
-			(project "CBC_PCB"
-				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/16623c3f-27fc-4db0-8b22-f4a31ec72271"
-					(reference "#FLG081")
 					(unit 1)
 				)
 			)

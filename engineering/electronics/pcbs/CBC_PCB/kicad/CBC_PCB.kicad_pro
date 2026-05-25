@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.8,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -487,7 +487,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "warning",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -758,7 +758,7 @@
         "uuid": "d195d1ee-585b-4211-912f-f5dd5687bc63"
       }
     ],
-    "used_designators": "R48",
+    "used_designators": "R69",
     "variants": []
   },
   "sheets": [
