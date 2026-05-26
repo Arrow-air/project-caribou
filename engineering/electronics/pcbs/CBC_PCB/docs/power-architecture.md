@@ -55,9 +55,10 @@ The power stage uses N-channel MOSFETs in a high-side configuration with charge 
 
 ### 3. Kill Switch
 - **Purpose:** Emergency power cutoff, independent of MCU state
-- **Method:** Hardware latch — external KILL_IN signal (from AT connector pin 7), only kills the circuit after a short delay
-- **Behavior:** Opens all power MOSFETs regardless of firmware state
+- **Method:** Hardware latch — external KILL_IN / `12V_TRIGGER_SIG` signal (from AT connector pin 7), only kills the circuit after a short delay
+- **Behavior:** Opens/removes the main MOSFET gate drive regardless of firmware state
 - **Recovery:** Requires power cycle or explicit re-arm command
+- **Default state:** `ESP_ENABLE_SIGNAL` is held low by `R16` (10k pulldown), so the ESP-controlled latch input is default-off during reset/boot.
 
 ## Voltage Regulation Details
 
@@ -99,10 +100,24 @@ The 5V rail is the main supply for all onboard logic. It must handle the full 18
 
 The 12V isolated output is the primary regulated power supply for the Caribou aircraft. It feeds through the AT signal connector into the wiring harness and on to the [CMAIN_PCB](../../CMAIN_PCB/), which distributes power to avionics, sensors, servos, and other subsystems.
 
+Add a dedicated output fuse on `12V_ISOLATED` before the harness-facing output. The selected follow-up part is another `0154005.DR`, matching the existing small fuse family used elsewhere in the design.
+
 At 12V / 10A = 120W output. With an assumed 90% converter efficiency:
 - Input power = 120 / 0.90 = 133.33W
 - Input current at 54V (worst case) = 133.33 / 54 = 2.4691A
 - Input current at 75.6V = 133.33 / 75.6 = 1.7636A
+
+## Pull-up / Strap Notes
+
+- `GPIO0` is an ESP32 boot strap pin. Keep it high during normal boot. Add or reserve an external pull-up option to `+3V3` so USB-UART/autoprogramming circuitry cannot leave the board in download mode accidentally.
+- `CS#1` and `CS#2` should have pull-ups to keep both MCP2515 controllers deselected while the ESP32 is reset, booting, or tri-stated.
+- `INT#1` and `INT#2` may rely on ESP32 internal pull-ups if the MCP2515 interrupt outputs are configured/verified as open-drain-style active-low outputs in firmware. If bring-up shows noisy interrupts, add external pull-ups.
+
+## Layout / Routing Notes
+
+- Route USB D+/D− as a short matched differential pair, avoid long stubs, and keep any ESD/protection parts close to the USB connector.
+- Keep CAN termination jumper-selectable and normally open by default.
+- Keep domain labels (`GND_CA`, `GND_CB`, `GNDI`, `GNDE`) visible in the schematic and layout so harness/debug wiring does not accidentally short isolated/reference domains.
 
 ## Thermal Considerations
 

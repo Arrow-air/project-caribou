@@ -5,7 +5,7 @@
 	(uuid "93e5be1a-5942-422d-a40d-b8f255fd1f4a")
 	(paper "A3")
 	(lib_symbols
-		(symbol "EasyEDA_Lib:0603WAF1200T5E"
+		(symbol "CBC_PCB:0603WAF1200T5E"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -171,7 +171,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:ACT45B-510-2P-TF"
+		(symbol "CBC_PCB:ACT45B-510-2P-TF"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -382,7 +382,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -10.16 5.08 0)
 					(length 5.08)
 					(name "1"
@@ -400,7 +400,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 5.08 180)
 					(length 5.08)
 					(name "2"
@@ -418,7 +418,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 -2.54 180)
 					(length 5.08)
 					(name "3"
@@ -436,7 +436,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -10.16 -2.54 0)
 					(length 5.08)
 					(name "4"
@@ -457,7 +457,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:ADM3053BRWZ-REEL7"
+		(symbol "CBC_PCB:ADM3053BRWZ-REEL7"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -594,7 +594,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -17.78 11.43 0)
 					(length 2.54)
 					(name "GND1"
@@ -612,7 +612,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at -17.78 8.89 0)
 					(length 2.54)
 					(name "NC"
@@ -630,7 +630,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -17.78 6.35 0)
 					(length 2.54)
 					(name "GND1"
@@ -648,7 +648,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at -17.78 3.81 0)
 					(length 2.54)
 					(name "RXD"
@@ -666,7 +666,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -17.78 1.27 0)
 					(length 2.54)
 					(name "TXD"
@@ -684,7 +684,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -17.78 -1.27 0)
 					(length 2.54)
 					(name "VIO"
@@ -702,7 +702,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -17.78 -3.81 0)
 					(length 2.54)
 					(name "GND1"
@@ -720,7 +720,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -17.78 -6.35 0)
 					(length 2.54)
 					(name "VCC"
@@ -738,7 +738,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -17.78 -8.89 0)
 					(length 2.54)
 					(name "GND1"
@@ -756,7 +756,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -17.78 -11.43 0)
 					(length 2.54)
 					(name "GND1"
@@ -774,7 +774,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 17.78 -11.43 180)
 					(length 2.54)
 					(name "GND2"
@@ -792,7 +792,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 17.78 -8.89 180)
 					(length 2.54)
 					(name "VISOOUT"
@@ -810,7 +810,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 17.78 -6.35 180)
 					(length 2.54)
 					(name "GND2"
@@ -828,7 +828,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 17.78 -3.81 180)
 					(length 2.54)
 					(name "VREF"
@@ -846,7 +846,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 17.78 -1.27 180)
 					(length 2.54)
 					(name "CANL"
@@ -864,7 +864,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 17.78 1.27 180)
 					(length 2.54)
 					(name "GND2"
@@ -882,7 +882,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 17.78 3.81 180)
 					(length 2.54)
 					(name "CANH"
@@ -900,7 +900,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 17.78 6.35 180)
 					(length 2.54)
 					(name "RS"
@@ -918,7 +918,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 17.78 8.89 180)
 					(length 2.54)
 					(name "VISOIN"
@@ -936,7 +936,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 17.78 11.43 180)
 					(length 2.54)
 					(name "GND2"
@@ -957,7 +957,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:CC0402JRNPO9BN220"
+		(symbol "CBC_PCB:CC0402JRNPO9BN220"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1160,7 +1160,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:CC0402KRX7R7BB104"
+		(symbol "CBC_PCB:CC0402KRX7R7BB104"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1324,7 +1324,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -1342,7 +1342,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -1363,7 +1363,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:CL21A475KBQNNNE"
+		(symbol "CBC_PCB:CL21A475KBQNNNE"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1527,7 +1527,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
 					(name "1"
@@ -1545,7 +1545,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "2"
@@ -1566,7 +1566,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:GRM1555C1H221JA01D"
+		(symbol "CBC_PCB:GRM1555C1H221JA01D"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1730,7 +1730,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -1748,7 +1748,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -1769,7 +1769,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:GRM21BR61H106KE43L"
+		(symbol "CBC_PCB:GRM21BR61H106KE43L"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1933,7 +1933,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -1951,7 +1951,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -1972,7 +1972,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:H1OEL89CSC-SUGYLC-8M"
+		(symbol "CBC_PCB:H1OEL89CSC-SUGYLC-8M"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2236,7 +2236,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:MCP2515T-I/ST"
+		(symbol "CBC_PCB:MCP2515T-I/ST"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2380,7 +2380,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -19.05 16.51 0)
 					(length 5.08)
 					(name "RXCAN"
@@ -2416,7 +2416,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -19.05 -1.27 0)
 					(length 5.08)
 					(name "TX0RTS#"
@@ -2434,7 +2434,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -19.05 -3.81 0)
 					(length 5.08)
 					(name "TX1RTS#"
@@ -2452,7 +2452,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at 19.05 -19.05 180)
 					(length 5.08)
 					(name "NC"
@@ -2470,7 +2470,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -19.05 -6.35 0)
 					(length 5.08)
 					(name "TX2RTS#"
@@ -2506,7 +2506,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -19.05 -11.43 0)
 					(length 5.08)
 					(name "OSC1"
@@ -2524,7 +2524,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -19.05 -21.59 0)
 					(length 5.08)
 					(name "VSS"
@@ -2596,7 +2596,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -19.05 8.89 0)
 					(length 5.08)
 					(name "SCK"
@@ -2614,7 +2614,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at 19.05 -21.59 180)
 					(length 5.08)
 					(name "NC"
@@ -2632,7 +2632,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -19.05 6.35 0)
 					(length 5.08)
 					(name "SI"
@@ -2650,7 +2650,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin tri_state line
 					(at -19.05 3.81 0)
 					(length 5.08)
 					(name "SO"
@@ -2668,7 +2668,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -19.05 11.43 0)
 					(length 5.08)
 					(name "CS#"
@@ -2686,7 +2686,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -19.05 21.59 0)
 					(length 5.08)
 					(name "RESET#"
@@ -2704,7 +2704,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -19.05 -19.05 0)
 					(length 5.08)
 					(name "VDD"
@@ -2725,7 +2725,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:NUP2105LT1G"
+		(symbol "CBC_PCB:NUP2105LT1G"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3124,7 +3124,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:PZ254V-11-02P"
+		(symbol "CBC_PCB:PZ254V-11-02P"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3250,7 +3250,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 1.27 0)
 					(length 2.54)
 					(name "1"
@@ -3268,7 +3268,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 -1.27 0)
 					(length 2.54)
 					(name "2"
@@ -3289,7 +3289,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:RC0402FR-070RL"
+		(symbol "CBC_PCB:RC0402FR-070RL"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3455,7 +3455,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:RT0402BRD0710KL"
+		(symbol "CBC_PCB:RT0402BRD0710KL"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3582,7 +3582,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -3600,7 +3600,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -4132,7 +4132,7 @@
 	)
 	(text "CAN SECTION"
 		(exclude_from_sim no)
-		(at 32.004 21.59 0)
+		(at 31.75 21.59 0)
 		(effects
 			(font
 				(face "Arial Black")
@@ -4142,12 +4142,6 @@
 			)
 		)
 		(uuid "7327c481-e549-4c22-a285-a52637333d5d")
-	)
-	(junction
-		(at 281.94 200.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0170e201-b9ac-499f-b333-79fc2a86518d")
 	)
 	(junction
 		(at 302.26 55.88)
@@ -4322,12 +4316,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78ba6dc3-c534-4567-8c2c-a186da0066bd")
-	)
-	(junction
-		(at 266.7 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7cee50fd-3d42-4a9f-9006-9cb656831f4f")
 	)
 	(junction
 		(at 57.15 74.93)
@@ -4789,7 +4777,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 64.77) (xy 261.62 64.77)
+			(xy 261.62 64.77) (xy 267.97 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4836,16 +4824,6 @@
 			(type default)
 		)
 		(uuid "1f837d69-5957-43db-8e9e-02eb07c4e9cd")
-	)
-	(wire
-		(pts
-			(xy 267.97 64.77) (xy 266.7 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20cff2f3-7161-4d28-ac1f-e643d90731b0")
 	)
 	(wire
 		(pts
@@ -5739,16 +5717,6 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 200.66) (xy 281.94 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b078f982-2baf-4807-88d1-fe245daeeae3")
-	)
-	(wire
-		(pts
 			(xy 283.21 194.31) (xy 288.29 194.31)
 		)
 		(stroke
@@ -5759,7 +5727,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 200.66) (xy 278.13 200.66)
+			(xy 278.13 200.66) (xy 284.48 200.66)
 		)
 		(stroke
 			(width 0)
@@ -6328,7 +6296,7 @@
 		(uuid "fd958f75-7cb5-4cb4-b0d9-fcc5fcbf879d")
 	)
 	(global_label "INT#2"
-		(shape input)
+		(shape output)
 		(at 120.65 173.99 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6339,7 +6307,7 @@
 		)
 		(uuid "0147b750-c453-4e98-8325-16e998c4a6ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.0176 173.99 0)
+			(at 129.54 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6352,7 +6320,7 @@
 		)
 	)
 	(global_label "CANL_BAT"
-		(shape input)
+		(shape bidirectional)
 		(at 340.36 62.23 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6363,7 +6331,7 @@
 		)
 		(uuid "0a7ee457-cfb3-4bcc-9fc1-51756571363d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 352.3562 62.23 0)
+			(at 351.79 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6387,7 +6355,7 @@
 		)
 		(uuid "126a9727-a80a-47f6-9f3a-04f062864d77")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.7286 48.26 0)
+			(at 59.69 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6411,7 +6379,7 @@
 		)
 		(uuid "22886ad7-cb4a-4e33-881c-da1ba08305d4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.1886 189.23 0)
+			(at 57.15 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6424,7 +6392,7 @@
 		)
 	)
 	(global_label "MISO"
-		(shape input)
+		(shape output)
 		(at 64.77 191.77 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6435,7 +6403,7 @@
 		)
 		(uuid "3f148a22-5d19-4266-813d-f30524f4e9db")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.1886 191.77 0)
+			(at 57.15 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6459,7 +6427,7 @@
 		)
 		(uuid "799f1630-5b67-454d-8ba8-ecba5ac683d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.8258 184.15 0)
+			(at 57.15 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6483,7 +6451,7 @@
 		)
 		(uuid "7de48c24-8926-4724-bb12-74e9bcddfc88")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.3702 33.02 0)
+			(at 57.15 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6507,7 +6475,7 @@
 		)
 		(uuid "864f7167-eda6-4ec3-a8b5-cae5169029a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.3658 43.18 0)
+			(at 59.69 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6520,7 +6488,7 @@
 		)
 	)
 	(global_label "CANH_DRONE"
-		(shape input)
+		(shape bidirectional)
 		(at 346.71 180.34 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6531,7 +6499,7 @@
 		)
 		(uuid "8e246ce4-f218-4ed0-b914-82d1850cc5f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 362.0324 180.34 0)
+			(at 361.95 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6555,7 +6523,7 @@
 		)
 		(uuid "9401c824-a78f-4393-b79a-8cfffc1cd413")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.8302 173.99 0)
+			(at 54.61 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6579,7 +6547,7 @@
 		)
 		(uuid "adb8e693-1b98-453a-a551-27ae3e27e512")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.5753 45.72 0)
+			(at 60.96 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6592,7 +6560,7 @@
 		)
 	)
 	(global_label "MISO"
-		(shape input)
+		(shape output)
 		(at 67.31 50.8 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6603,7 +6571,7 @@
 		)
 		(uuid "b128fa76-480d-41be-ae21-a627ce45368e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.7286 50.8 0)
+			(at 59.69 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6616,7 +6584,7 @@
 		)
 	)
 	(global_label "CANH_BAT"
-		(shape input)
+		(shape bidirectional)
 		(at 340.36 43.18 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6627,7 +6595,7 @@
 		)
 		(uuid "b5e545e8-41be-418e-abf5-9fc2b8d307ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 352.6586 43.18 0)
+			(at 353.06 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6640,7 +6608,7 @@
 		)
 	)
 	(global_label "INT#1"
-		(shape input)
+		(shape output)
 		(at 123.19 33.02 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6651,7 +6619,7 @@
 		)
 		(uuid "c8087973-cddb-44a8-9184-cede09c652e0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.5576 33.02 0)
+			(at 132.08 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6664,7 +6632,7 @@
 		)
 	)
 	(global_label "CANL_DRONE"
-		(shape input)
+		(shape bidirectional)
 		(at 346.71 199.39 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6675,7 +6643,7 @@
 		)
 		(uuid "d91d3e15-e3ec-4d8b-a7d6-0180bd31f279")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 361.73 199.39 0)
+			(at 361.95 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6699,7 +6667,7 @@
 		)
 		(uuid "dbe6da69-7992-4eef-87f6-a0459231bfee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.0353 186.69 0)
+			(at 58.42 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6734,7 +6702,7 @@
 			)
 		)
 		(property "Value" "GND_CA"
-			(at 246.38 70.866 0)
+			(at 246.38 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6789,7 +6757,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:GRM1555C1H221JA01D")
+		(lib_id "CBC_PCB:GRM1555C1H221JA01D")
 		(at 323.85 196.85 90)
 		(unit 1)
 		(body_style 1)
@@ -6800,7 +6768,7 @@
 		(dnp no)
 		(uuid "04a71f2a-8b7d-4050-8118-f0557d2c132a")
 		(property "Reference" "C17"
-			(at 327.66 196.8499 90)
+			(at 327.66 196.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6811,7 +6779,7 @@
 			)
 		)
 		(property "Value" "220pF"
-			(at 328.422 198.882 90)
+			(at 328.93 199.39 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6924,7 +6892,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:ADM3053BRWZ-REEL7")
+		(lib_id "CBC_PCB:ADM3053BRWZ-REEL7")
 		(at 220.98 55.88 0)
 		(unit 1)
 		(body_style 1)
@@ -6945,7 +6913,7 @@
 			)
 		)
 		(property "Value" "ADM3053BRWZ-REEL7"
-			(at 220.726 72.39 0)
+			(at 220.98 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7134,7 +7102,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 74.93 70.104 0)
+			(at 74.93 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7201,7 +7169,7 @@
 		(fields_autoplaced yes)
 		(uuid "172074e9-ffd5-4648-a6eb-f2a2888c5a71")
 		(property "Reference" "#FLG067"
-			(at 302.26 53.975 0)
+			(at 302.26 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7290,7 +7258,7 @@
 			)
 		)
 		(property "Value" "GND_CA"
-			(at 325.12 58.166 0)
+			(at 325.12 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7357,7 +7325,7 @@
 		(fields_autoplaced yes)
 		(uuid "1897c20b-eed0-488f-8d38-8df5f23cb649")
 		(property "Reference" "#FLG056"
-			(at 284.48 210.185 0)
+			(at 284.48 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7424,7 +7392,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:CL21A475KBQNNNE")
+		(lib_id "CBC_PCB:CL21A475KBQNNNE")
 		(at 196.85 201.93 90)
 		(unit 1)
 		(body_style 1)
@@ -7445,7 +7413,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 200.406 201.93 0)
+			(at 200.66 201.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7558,7 +7526,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:GRM1555C1H221JA01D")
+		(lib_id "CBC_PCB:GRM1555C1H221JA01D")
 		(at 314.96 59.69 90)
 		(unit 1)
 		(body_style 1)
@@ -7569,7 +7537,7 @@
 		(dnp no)
 		(uuid "1913504c-c4ec-416d-95f8-18f7b826f9c9")
 		(property "Reference" "C9"
-			(at 318.77 59.6899 90)
+			(at 318.77 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7580,7 +7548,7 @@
 			)
 		)
 		(property "Value" "220pF"
-			(at 319.532 61.722 90)
+			(at 320.04 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7693,7 +7661,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:H1OEL89CSC-SUGYLC-8M")
+		(lib_id "CBC_PCB:H1OEL89CSC-SUGYLC-8M")
 		(at 41.91 215.9 0)
 		(unit 1)
 		(body_style 1)
@@ -7713,8 +7681,8 @@
 				)
 			)
 		)
-		(property "Value" "8MHz"
-			(at 41.91 219.202 0)
+		(property "Value" "16MHz"
+			(at 41.91 219.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7723,7 +7691,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:HC-49S_L11.5-W4.7-P4.88"
+		(property "Footprint" "EasyEDA_Lib:CRYSTAL-SMD_L3.2-W2.5_3225-8MHZ"
 			(at 41.91 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -7734,7 +7702,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/H1OEL89CSC-SUGYLC-8M/8526929.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/NX3225GB-16MHZ-STD-CRA-2/489116.html"
 			(at 41.91 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -7745,7 +7713,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Through Hole Crystal Oscillator Frequency:8MHz Normal temperature Frequency Tolerance:±20ppm Normal temperature Frequency Tolerance:±20ppm Load Capacitance:20pF Frequency Stability:±30ppm Frequency Stability:±30ppm Operating Temperature:-20°C~+70°C Ope"
+		(property "Description" "Frequency:16MHz Normal temperature Frequency Tolerance:±50ppm Load Capacitance:8pF Frequency Stability:±150ppm Equivalent Series Resistance(ESR):120Ω Operating Temperature:-40℃~+150℃"
 			(at 41.91 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -7756,7 +7724,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "H1OEL89CSC-SUGYLC-8M"
+		(property "Manufacturer Part" "NX3225GB-16MHZ-STD-CRA-2"
 			(at 41.91 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -7767,7 +7735,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YXC(扬兴晶振)"
+		(property "Manufacturer" "NDK"
 			(at 41.91 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -7778,7 +7746,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C7471633"
+		(property "Supplier Part" "C481399"
 			(at 41.91 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -7800,7 +7768,7 @@
 				)
 			)
 		)
-		(property "LCSC Part Name" "HC-49US 8MHZ 20PF ±20PPM -20~70°C (±30PPM)"
+		(property "LCSC Part Name" "16MHz ±50ppm 8pF"
 			(at 41.91 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -7849,7 +7817,7 @@
 			)
 		)
 		(property "Value" "GND_CB"
-			(at 286.258 215.646 0)
+			(at 285.75 215.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7904,7 +7872,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:0603WAF1200T5E")
+		(lib_id "CBC_PCB:0603WAF1200T5E")
 		(at 302.26 49.53 90)
 		(unit 1)
 		(body_style 1)
@@ -7915,7 +7883,7 @@
 		(dnp no)
 		(uuid "1c3cd6d6-e68a-457d-9b65-181882953ca6")
 		(property "Reference" "R1"
-			(at 299.974 49.53 0)
+			(at 299.72 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8038,7 +8006,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:RC0402FR-070RL")
+		(lib_id "CBC_PCB:RC0402FR-070RL")
 		(at 248.92 36.83 0)
 		(unit 1)
 		(body_style 1)
@@ -8196,7 +8164,7 @@
 			)
 		)
 		(property "Value" "GND_CA"
-			(at 254 40.386 0)
+			(at 254 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8263,7 +8231,7 @@
 		(fields_autoplaced yes)
 		(uuid "20ee425e-5024-420c-8a67-3fcaaa3709c0")
 		(property "Reference" "#FLG065"
-			(at 321.31 62.865 0)
+			(at 321.31 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8352,7 +8320,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 174.498 42.164 0)
+			(at 173.99 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8407,7 +8375,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:GRM21BR61H106KE43L")
+		(lib_id "CBC_PCB:GRM21BR61H106KE43L")
 		(at 207.01 203.2 90)
 		(unit 1)
 		(body_style 1)
@@ -8428,7 +8396,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 210.058 203.2 0)
+			(at 209.55 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8619,7 +8587,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:H1OEL89CSC-SUGYLC-8M")
+		(lib_id "CBC_PCB:H1OEL89CSC-SUGYLC-8M")
 		(at 44.45 74.93 0)
 		(unit 1)
 		(body_style 1)
@@ -8639,8 +8607,8 @@
 				)
 			)
 		)
-		(property "Value" "8MHz"
-			(at 44.45 78.232 0)
+		(property "Value" "16MHz"
+			(at 44.45 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8649,7 +8617,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:HC-49S_L11.5-W4.7-P4.88"
+		(property "Footprint" "EasyEDA_Lib:CRYSTAL-SMD_L3.2-W2.5_3225-8MHZ"
 			(at 44.45 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8660,7 +8628,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/H1OEL89CSC-SUGYLC-8M/8526929.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/NX3225GB-16MHZ-STD-CRA-2/489116.html"
 			(at 44.45 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8671,7 +8639,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Through Hole Crystal Oscillator Frequency:8MHz Normal temperature Frequency Tolerance:±20ppm Normal temperature Frequency Tolerance:±20ppm Load Capacitance:20pF Frequency Stability:±30ppm Frequency Stability:±30ppm Operating Temperature:-20°C~+70°C Ope"
+		(property "Description" "Frequency:16MHz Normal temperature Frequency Tolerance:±50ppm Load Capacitance:8pF Frequency Stability:±150ppm Equivalent Series Resistance(ESR):120Ω Operating Temperature:-40℃~+150℃"
 			(at 44.45 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8682,7 +8650,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "H1OEL89CSC-SUGYLC-8M"
+		(property "Manufacturer Part" "NX3225GB-16MHZ-STD-CRA-2"
 			(at 44.45 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8693,7 +8661,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YXC(扬兴晶振)"
+		(property "Manufacturer" "NDK"
 			(at 44.45 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8704,7 +8672,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C7471633"
+		(property "Supplier Part" "C481399"
 			(at 44.45 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8726,7 +8694,7 @@
 				)
 			)
 		)
-		(property "LCSC Part Name" "HC-49US 8MHZ 20PF ±20PPM -20~70°C (±30PPM)"
+		(property "LCSC Part Name" "16MHz ±50ppm 8pF"
 			(at 44.45 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8831,7 +8799,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:RC0402FR-070RL")
+		(lib_id "CBC_PCB:RC0402FR-070RL")
 		(at 265.43 172.72 0)
 		(unit 1)
 		(body_style 1)
@@ -8989,7 +8957,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 191.008 178.054 0)
+			(at 190.5 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9066,7 +9034,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5 75.946 0)
+			(at 190.5 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9133,7 +9101,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b764dfa-e327-4838-adf2-4ec8e208e71d")
 		(property "Reference" "#FLG057"
-			(at 344.17 197.485 0)
+			(at 344.17 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9200,7 +9168,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:NUP2105LT1G")
+		(lib_id "CBC_PCB:NUP2105LT1G")
 		(at 335.28 214.63 180)
 		(unit 1)
 		(body_style 1)
@@ -9212,7 +9180,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d7c76fa-a1f0-4fc7-a32a-4bdcbc9465ba")
 		(property "Reference" "D2"
-			(at 346.71 214.6299 0)
+			(at 346.71 214.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9361,7 +9329,7 @@
 			)
 		)
 		(property "Value" "GND_CB"
-			(at 277.114 215.646 0)
+			(at 276.86 215.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9416,7 +9384,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:CL21A475KBQNNNE")
+		(lib_id "CBC_PCB:CL21A475KBQNNNE")
 		(at 175.26 49.53 90)
 		(unit 1)
 		(body_style 1)
@@ -9437,7 +9405,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 178.816 49.53 0)
+			(at 179.07 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9572,7 +9540,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 69.85 15.494 0)
+			(at 69.85 15.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9627,7 +9595,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:ACT45B-510-2P-TF")
+		(lib_id "CBC_PCB:ACT45B-510-2P-TF")
 		(at 289.56 54.61 0)
 		(unit 1)
 		(body_style 1)
@@ -9768,7 +9736,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:CL21A475KBQNNNE")
+		(lib_id "CBC_PCB:CL21A475KBQNNNE")
 		(at 180.34 66.04 90)
 		(unit 1)
 		(body_style 1)
@@ -9789,7 +9757,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 183.896 66.04 0)
+			(at 184.15 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9924,7 +9892,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 207.01 194.564 0)
+			(at 207.01 194.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9979,7 +9947,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:CL21A475KBQNNNE")
+		(lib_id "CBC_PCB:CL21A475KBQNNNE")
 		(at 191.77 185.42 90)
 		(unit 1)
 		(body_style 1)
@@ -10000,7 +9968,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 195.326 185.42 0)
+			(at 195.58 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10347,7 +10315,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:GRM21BR61H106KE43L")
+		(lib_id "CBC_PCB:GRM21BR61H106KE43L")
 		(at 278.13 207.01 90)
 		(unit 1)
 		(body_style 1)
@@ -10368,7 +10336,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 281.178 207.01 0)
+			(at 280.67 207.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10503,7 +10471,7 @@
 			)
 		)
 		(property "Value" "GND_CB"
-			(at 332.486 195.834 0)
+			(at 332.74 195.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10715,7 +10683,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:NUP2105LT1G")
+		(lib_id "CBC_PCB:NUP2105LT1G")
 		(at 326.39 77.47 180)
 		(unit 1)
 		(body_style 1)
@@ -10727,7 +10695,7 @@
 		(fields_autoplaced yes)
 		(uuid "70de4175-6069-40d2-b72c-d151ab270199")
 		(property "Reference" "D1"
-			(at 337.82 77.4699 0)
+			(at 337.82 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10854,7 +10822,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:0603WAF1200T5E")
+		(lib_id "CBC_PCB:0603WAF1200T5E")
 		(at 311.15 186.69 90)
 		(unit 1)
 		(body_style 1)
@@ -10865,7 +10833,7 @@
 		(dnp no)
 		(uuid "710b47e6-be21-4354-b709-3add001c6aff")
 		(property "Reference" "R4"
-			(at 308.864 186.69 0)
+			(at 308.61 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11065,7 +11033,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:PZ254V-11-02P")
+		(lib_id "CBC_PCB:PZ254V-11-02P")
 		(at 316.23 194.31 0)
 		(unit 1)
 		(body_style 1)
@@ -11076,7 +11044,7 @@
 		(dnp no)
 		(uuid "72fde620-e31b-4201-898a-354068bc1109")
 		(property "Reference" "H2"
-			(at 316.23 189.484 0)
+			(at 316.23 189.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11212,7 +11180,7 @@
 		(fields_autoplaced yes)
 		(uuid "7332ccf0-36ff-452e-8887-83005f891e6f")
 		(property "Reference" "#FLG064"
-			(at 267.97 74.295 0)
+			(at 267.97 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11279,7 +11247,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:PZ254V-11-02P")
+		(lib_id "CBC_PCB:PZ254V-11-02P")
 		(at 307.34 57.15 0)
 		(unit 1)
 		(body_style 1)
@@ -11290,7 +11258,7 @@
 		(dnp no)
 		(uuid "74b32d0c-77a3-463e-9294-d39982e87354")
 		(property "Reference" "H1"
-			(at 307.34 52.324 0)
+			(at 307.34 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11492,86 +11460,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 266.7 64.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "836d4013-d18b-4ff0-9de4-ca14c781bc4b")
-		(property "Reference" "#FLG063"
-			(at 266.7 62.865 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 266.7 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 266.7 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "067c6930-88d1-47ee-bdf2-9473246187fe")
-		)
-		(instances
-			(project "CBC_PCB"
-				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/313c40c6-0a26-497a-98c9-c78a7bba0e9e"
-					(reference "#FLG063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EasyEDA_Lib:GRM21BR61H106KE43L")
+		(lib_id "CBC_PCB:GRM21BR61H106KE43L")
 		(at 185.42 50.8 90)
 		(unit 1)
 		(body_style 1)
@@ -11592,7 +11481,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 188.468 50.8 0)
+			(at 187.96 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11727,7 +11616,7 @@
 			)
 		)
 		(property "Value" "GND_CA"
-			(at 326.39 93.726 0)
+			(at 326.39 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11794,7 +11683,7 @@
 		(fields_autoplaced yes)
 		(uuid "89efd792-c573-4e92-afc3-ca62d927a508")
 		(property "Reference" "#FLG054"
-			(at 31.75 213.995 0)
+			(at 31.75 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11861,85 +11750,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 281.94 200.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d038bd9-9ee1-4704-af69-fc49f42e9c4b")
-		(property "Reference" "#FLG055"
-			(at 281.94 198.755 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 281.94 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 281.94 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 281.94 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 281.94 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "04abb3a6-5fd3-4b4c-92ad-fb00f4996cc6")
-		)
-		(instances
-			(project "CBC_PCB"
-				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/313c40c6-0a26-497a-98c9-c78a7bba0e9e"
-					(reference "#FLG055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 67.31 160.02 0)
 		(unit 1)
@@ -11962,7 +11772,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 67.31 156.464 0)
+			(at 67.31 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12029,7 +11839,7 @@
 		(fields_autoplaced yes)
 		(uuid "95465522-7d16-40fb-bd5d-b793c4b854c5")
 		(property "Reference" "#FLG066"
-			(at 331.47 41.275 0)
+			(at 331.47 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12274,7 +12084,7 @@
 			)
 		)
 		(property "Value" "GND_CB"
-			(at 331.724 231.394 0)
+			(at 331.47 231.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12330,7 +12140,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:GRM1555C1H221JA01D")
+		(lib_id "CBC_PCB:GRM1555C1H221JA01D")
 		(at 323.85 185.42 90)
 		(unit 1)
 		(body_style 1)
@@ -12341,7 +12151,7 @@
 		(dnp no)
 		(uuid "a386e735-b945-42cf-bab7-c645ac46a8cc")
 		(property "Reference" "C16"
-			(at 327.66 185.4199 90)
+			(at 327.66 185.42 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12352,7 +12162,7 @@
 			)
 		)
 		(property "Value" "220pF"
-			(at 328.422 187.452 90)
+			(at 328.93 187.96 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12487,7 +12297,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 180.34 58.674 0)
+			(at 180.34 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12620,7 +12430,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:GRM21BR61H106KE43L")
+		(lib_id "CBC_PCB:GRM21BR61H106KE43L")
 		(at 190.5 67.31 90)
 		(unit 1)
 		(body_style 1)
@@ -12641,7 +12451,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 193.548 67.31 0)
+			(at 193.04 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12776,7 +12586,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 201.93 195.326 0)
+			(at 201.93 195.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12831,7 +12641,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:GRM21BR61H106KE43L")
+		(lib_id "CBC_PCB:GRM21BR61H106KE43L")
 		(at 100.33 92.71 90)
 		(unit 1)
 		(body_style 1)
@@ -12852,7 +12662,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 103.378 92.71 0)
+			(at 102.87 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12987,7 +12797,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 207.01 211.836 0)
+			(at 207.01 212.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13064,7 +12874,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 190.5 58.674 0)
+			(at 190.5 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13120,7 +12930,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 311.15 191.77 0)
+		(at 311.15 191.77 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13131,7 +12941,7 @@
 		(fields_autoplaced yes)
 		(uuid "b29e3982-7d4e-446f-b984-d97240e5bf24")
 		(property "Reference" "#FLG058"
-			(at 311.15 189.865 0)
+			(at 309.88 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13142,7 +12952,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 311.15 186.69 0)
+			(at 306.07 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13275,7 +13085,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:CC0402KRX7R7BB104")
+		(lib_id "CBC_PCB:CC0402KRX7R7BB104")
 		(at 107.95 92.71 90)
 		(unit 1)
 		(body_style 1)
@@ -13287,7 +13097,7 @@
 		(fields_autoplaced yes)
 		(uuid "b59df062-499a-45d4-8f32-097d65e69bd3")
 		(property "Reference" "C2"
-			(at 111.76 91.4399 90)
+			(at 111.76 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13298,7 +13108,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 111.76 93.9799 90)
+			(at 111.76 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13502,7 +13312,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd9a7962-391a-4938-b051-30f956581c90")
 		(property "Reference" "#FLG062"
-			(at 34.29 73.025 0)
+			(at 34.29 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13647,7 +13457,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:CC0402JRNPO9BN220")
+		(lib_id "CBC_PCB:CC0402JRNPO9BN220")
 		(at 54.61 219.71 90)
 		(unit 1)
 		(body_style 1)
@@ -13668,7 +13478,7 @@
 			)
 		)
 		(property "Value" "22pF"
-			(at 57.912 219.71 0)
+			(at 58.42 219.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13793,7 +13603,7 @@
 		(fields_autoplaced yes)
 		(uuid "c656de42-7c62-4f38-bc5a-41f5881b79fb")
 		(property "Reference" "#FLG060"
-			(at 260.35 170.815 0)
+			(at 260.35 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13860,7 +13670,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:CC0402JRNPO9BN220")
+		(lib_id "CBC_PCB:CC0402JRNPO9BN220")
 		(at 57.15 78.74 90)
 		(unit 1)
 		(body_style 1)
@@ -13881,7 +13691,7 @@
 			)
 		)
 		(property "Value" "22pF"
-			(at 60.452 78.74 0)
+			(at 60.96 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13994,7 +13804,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:CL21A475KBQNNNE")
+		(lib_id "CBC_PCB:CL21A475KBQNNNE")
 		(at 87.63 232.41 90)
 		(unit 1)
 		(body_style 1)
@@ -14015,7 +13825,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 91.186 232.41 0)
+			(at 91.44 232.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14150,7 +13960,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 196.85 194.564 0)
+			(at 196.85 194.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14205,7 +14015,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:CL21A475KBQNNNE")
+		(lib_id "CBC_PCB:CL21A475KBQNNNE")
 		(at 90.17 91.44 90)
 		(unit 1)
 		(body_style 1)
@@ -14226,7 +14036,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 93.726 91.44 0)
+			(at 93.98 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14339,7 +14149,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:GRM1555C1H221JA01D")
+		(lib_id "CBC_PCB:GRM1555C1H221JA01D")
 		(at 314.96 48.26 90)
 		(unit 1)
 		(body_style 1)
@@ -14350,7 +14160,7 @@
 		(dnp no)
 		(uuid "d01335ee-cf84-42db-be37-4d01c8970039")
 		(property "Reference" "C8"
-			(at 318.77 48.2599 90)
+			(at 318.77 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14361,7 +14171,7 @@
 			)
 		)
 		(property "Value" "220pF"
-			(at 319.532 50.292 90)
+			(at 320.04 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14474,7 +14284,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:MCP2515T-I/ST")
+		(lib_id "CBC_PCB:MCP2515T-I/ST")
 		(at 100.33 54.61 0)
 		(unit 1)
 		(body_style 1)
@@ -14663,7 +14473,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:MCP2515T-I/ST")
+		(lib_id "CBC_PCB:MCP2515T-I/ST")
 		(at 97.79 195.58 0)
 		(unit 1)
 		(body_style 1)
@@ -14874,7 +14684,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 185.42 59.436 0)
+			(at 185.42 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14929,7 +14739,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:GRM21BR61H106KE43L")
+		(lib_id "CBC_PCB:GRM21BR61H106KE43L")
 		(at 261.62 71.12 90)
 		(unit 1)
 		(body_style 1)
@@ -14950,7 +14760,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 264.668 71.12 0)
+			(at 264.16 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15063,7 +14873,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:RT0402BRD0710KL")
+		(lib_id "CBC_PCB:RT0402BRD0710KL")
 		(at 69.85 27.94 90)
 		(unit 1)
 		(body_style 1)
@@ -15074,7 +14884,7 @@
 		(dnp no)
 		(uuid "db723748-4d01-4575-9c61-fd0ddf1fb9d7")
 		(property "Reference" "R2"
-			(at 67.818 27.94 0)
+			(at 67.31 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15084,7 +14894,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 72.136 27.94 0)
+			(at 72.39 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15219,7 +15029,7 @@
 			)
 		)
 		(property "Value" "GND_CA"
-			(at 260.604 79.756 0)
+			(at 260.35 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15296,7 +15106,7 @@
 			)
 		)
 		(property "Value" "GND_CB"
-			(at 262.89 206.756 0)
+			(at 262.89 207.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15429,7 +15239,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:CC0402KRX7R7BB104")
+		(lib_id "CBC_PCB:CC0402KRX7R7BB104")
 		(at 105.41 233.68 90)
 		(unit 1)
 		(body_style 1)
@@ -15441,7 +15251,7 @@
 		(fields_autoplaced yes)
 		(uuid "de03984d-9787-4087-867d-21f9fb400456")
 		(property "Reference" "C14"
-			(at 109.22 232.4099 90)
+			(at 109.22 232.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15452,7 +15262,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 109.22 234.9499 90)
+			(at 109.22 234.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15721,7 +15531,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:CC0402KRX7R7BB104")
+		(lib_id "CBC_PCB:CC0402KRX7R7BB104")
 		(at 284.48 207.01 90)
 		(unit 1)
 		(body_style 1)
@@ -15733,7 +15543,7 @@
 		(fields_autoplaced yes)
 		(uuid "e170f2ff-d41b-4a3f-a402-2b39f560e1fa")
 		(property "Reference" "C58"
-			(at 288.29 205.7399 90)
+			(at 288.29 205.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15744,7 +15554,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 288.29 208.2799 90)
+			(at 288.29 208.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15880,7 +15690,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 79.756 0)
+			(at 74.93 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15935,7 +15745,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:RT0402BRD0710KL")
+		(lib_id "CBC_PCB:RT0402BRD0710KL")
 		(at 67.31 168.91 90)
 		(unit 1)
 		(body_style 1)
@@ -15946,7 +15756,7 @@
 		(dnp no)
 		(uuid "e7cd3cec-5677-4782-91f2-ef3b49ed5fec")
 		(property "Reference" "R3"
-			(at 65.278 168.91 0)
+			(at 64.77 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15956,7 +15766,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 69.596 168.91 0)
+			(at 69.85 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16069,7 +15879,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:CC0402JRNPO9BN220")
+		(lib_id "CBC_PCB:CC0402JRNPO9BN220")
 		(at 30.48 78.74 90)
 		(unit 1)
 		(body_style 1)
@@ -16090,7 +15900,7 @@
 			)
 		)
 		(property "Value" "22pF"
-			(at 33.782 78.74 0)
+			(at 34.29 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16280,7 +16090,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:GRM21BR61H106KE43L")
+		(lib_id "CBC_PCB:GRM21BR61H106KE43L")
 		(at 201.93 186.69 90)
 		(unit 1)
 		(body_style 1)
@@ -16301,7 +16111,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 204.978 186.69 0)
+			(at 204.47 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16436,7 +16246,7 @@
 			)
 		)
 		(property "Value" "GND_CB"
-			(at 270.51 176.276 0)
+			(at 270.51 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16513,7 +16323,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 72.39 211.074 0)
+			(at 72.39 210.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16568,7 +16378,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:GRM21BR61H106KE43L")
+		(lib_id "CBC_PCB:GRM21BR61H106KE43L")
 		(at 97.79 233.68 90)
 		(unit 1)
 		(body_style 1)
@@ -16589,7 +16399,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 100.838 233.68 0)
+			(at 100.33 233.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16714,7 +16524,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4219104-8c3a-465b-a35a-5e558bbb123c")
 		(property "Reference" "#FLG068"
-			(at 243.84 34.925 0)
+			(at 243.84 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16781,7 +16591,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:ADM3053BRWZ-REEL7")
+		(lib_id "CBC_PCB:ADM3053BRWZ-REEL7")
 		(at 237.49 191.77 0)
 		(unit 1)
 		(body_style 1)
@@ -16802,7 +16612,7 @@
 			)
 		)
 		(property "Value" "ADM3053BRWZ-REEL7"
-			(at 237.236 208.28 0)
+			(at 237.49 208.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17047,7 +16857,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:CC0402KRX7R7BB104")
+		(lib_id "CBC_PCB:CC0402KRX7R7BB104")
 		(at 267.97 71.12 90)
 		(unit 1)
 		(body_style 1)
@@ -17059,7 +16869,7 @@
 		(fields_autoplaced yes)
 		(uuid "f765fc5b-9124-486c-989e-d8bcf608ec6f")
 		(property "Reference" "C52"
-			(at 271.78 69.8499 90)
+			(at 271.78 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17070,7 +16880,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 271.78 72.3899 90)
+			(at 271.78 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17196,7 +17006,7 @@
 		(fields_autoplaced yes)
 		(uuid "f853fd9e-caae-47e8-9544-1b3a6f4f3639")
 		(property "Reference" "#FLG059"
-			(at 340.36 178.435 0)
+			(at 340.36 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17285,7 +17095,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 220.726 0)
+			(at 72.39 220.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17340,7 +17150,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:CC0402JRNPO9BN220")
+		(lib_id "CBC_PCB:CC0402JRNPO9BN220")
 		(at 27.94 219.71 90)
 		(unit 1)
 		(body_style 1)
@@ -17361,7 +17171,7 @@
 			)
 		)
 		(property "Value" "22pF"
-			(at 31.242 219.71 0)
+			(at 31.75 219.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17496,7 +17306,7 @@
 			)
 		)
 		(property "Value" "GND_CA"
-			(at 269.748 79.756 0)
+			(at 269.24 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17551,7 +17361,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:ACT45B-510-2P-TF")
+		(lib_id "CBC_PCB:ACT45B-510-2P-TF")
 		(at 298.45 191.77 0)
 		(unit 1)
 		(body_style 1)

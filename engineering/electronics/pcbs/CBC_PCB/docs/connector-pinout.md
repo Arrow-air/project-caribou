@@ -31,13 +31,13 @@ The Prolanv EN60A (board side) mates with the ACES 59604-0169D-003 built into th
 
 | Pin | Signal | Domain | Notes |
 |---|---|---|---|
-| 1 | 12V OUT | GNDE | Isolated 12V supply to aircraft |
+| 1 | 12V OUT | GNDE | Isolated 12V supply to aircraft; protect with a dedicated output fuse before harness output |
 | 2 | 12V OUT | GNDE | Parallel pin for current sharing |
 | 3 | GND_E | GNDE | Isolated ground return |
 | 4 | GND_E | GNDE | Parallel pin for current sharing |
-| 5 | DroneCAN H | — | CAN 2 High → CMAIN_PCB |
-| 6 | DroneCAN L | — | CAN 2 Low → CMAIN_PCB |
-| 7 | KILL_IN | — | Hardware kill switch input |
+| 5 | DroneCAN H | CAN 2 / `GND_CB` reference | CAN 2 High → CMAIN_PCB |
+| 6 | DroneCAN L | CAN 2 / `GND_CB` reference | CAN 2 Low → CMAIN_PCB |
+| 7 | KILL_IN / `12V_TRIGGER_SIG` | Harness control | Hardware kill switch input |
 | 8 | Reserved | — | Future use |
 | 9 | Reserved | — | Future use |
 | 10 | Reserved | — | Future use |
@@ -45,6 +45,10 @@ The Prolanv EN60A (board side) mates with the ACES 59604-0169D-003 built into th
 | 12 | Reserved | — | Future use |
 
 > **Note:** Pin assignment is preliminary and subject to change during schematic design. Dual pins for 12V and GND_E are used to share the 10A load across two AT contacts (each AT contact is rated ~7.5A for 14 AWG).
+>
+> **Ground-domain note:** The battery CAN connector normally carries only `CANH_BAT` and `CANL_BAT`; `GND_CA` is not normally connected to the battery. DroneCAN may carry/use `GND_CB` on the CMAIN_PCB side, where it can be tied together with the other CBC_PCB `GND_CB` references.
+>
+> **Termination note:** CAN termination is jumper-selectable and normally deactivated/open by default. Enable termination only when this board is at the physical end of the CAN segment.
 
 ## 3. Propulsion Screw Terminals — Amphenol AMT0650009DB0000G
 
@@ -59,7 +63,7 @@ Cable gauge: sized for 200A spike — check hobbywing wire gauge.
 
 ## 4. Fuse Mount — Eaton AMXL-250
 
-The fuse is bolt-mounted between two additional AMT0650009DB0000G screw terminals on the board.
+The fuse is bolt-mounted between two additional AMT0650009DB0000G screw terminals on the board. In the schematic/layout these fuse terminals are J4/J5.
 
 ```
 Battery (-) ──→ [Screw Terminal A] ──→ [AMXL-250 Fuse] ──→ [Screw Terminal B] ──→ MOSFET stage

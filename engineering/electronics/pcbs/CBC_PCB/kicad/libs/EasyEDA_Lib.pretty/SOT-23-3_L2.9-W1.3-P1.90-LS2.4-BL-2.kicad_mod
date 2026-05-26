@@ -1,0 +1,383 @@
+(footprint "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BL-2"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.36 -0.69 90)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "876fc77d-c337-4e4d-9233-6a6085bc8938")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BL-2"
+		(at -0.014967 2.6 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "69d72e22-1cb2-48b8-911a-a0f9afd0ab8b")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://item.szlcsc.com/datasheet/NUP2105LT1G/15148.html"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "17a3c9f6-fbde-45d9-8ae5-c02575f42f62")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Polarity:Bidirectional Reverse Stand-Off Voltage (Vrwm):24V Clamping Voltage:44V Peak Pulse Current (Ipp):8A@8/20us Peak Pulse Power Dissipation (Ppp):350W@8/20us Voltage - Breakdown:32V Reverse Leakage Current (Ir):100nA Number of Channels:2 Operating Te"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae126877-3cb6-4de2-a5c7-5f0b827adb2b")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC_3DModel_Q" "2b5e0bb6381843289fcf9a198bd1677a"
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "0b79b595-ad97-493e-873b-1aa829a69e12")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC_3D_Size" "2.9 2.4"
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "9ac68b46-fb09-4c60-b57f-ef151194fa7d")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part" "NUP2105LT1G"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5578e0ab-233d-43d8-baab-0a1d953fac0d")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "onsemi(安森美)"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2399db9a-974f-4581-9e80-bd2beaad7ac3")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier Part" "C14486"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed753230-54d4-4a45-a1b1-3d5c3717ed94")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "LCSC"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ccc24252-31dc-4e8f-aeae-5fd0881b8454")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part Name" "双向TVS 24V截止 峰值浪涌电流：8A@8/20us"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "219da03e-3886-43ad-97b5-4bf9bb62b2c4")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.5265 -0.726)
+		(end -0.4945 -0.726)
+		(stroke
+			(width 0.1525)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "77ad96f0-dffe-4671-9912-cc705fa57ddc")
+	)
+	(fp_line
+		(start -1.5265 0.726)
+		(end -1.5265 -0.726)
+		(stroke
+			(width 0.1525)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "51cb1922-49d4-4f1e-a077-1932412a7dd0")
+	)
+	(fp_line
+		(start 0.4555 0.726)
+		(end -0.4555 0.726)
+		(stroke
+			(width 0.1525)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2da22764-43e1-4c06-9c33-50063bd3ef6b")
+	)
+	(fp_line
+		(start 1.5265 -0.726)
+		(end 0.4945 -0.726)
+		(stroke
+			(width 0.1525)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2e19cc5c-8c87-4b62-86c7-a63954daf18a")
+	)
+	(fp_line
+		(start 1.5265 0.726)
+		(end 1.5265 -0.726)
+		(stroke
+			(width 0.1525)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dffc2b03-cbf2-416c-8538-9001488f7e9a")
+	)
+	(fp_circle
+		(center -0.95 1.45)
+		(end -0.85 1.45)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "e7229ea6-0053-4243-95f3-e85e1d7b9d89")
+	)
+	(fp_rect
+		(start -1.755433 -1.875)
+		(end 1.7255 1.875)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "764fc704-f9a6-4ded-8ca7-be99dd97dbf0")
+	)
+	(fp_line
+		(start -1.45 -0.65)
+		(end 1.45 -0.65)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "3195ef06-d3da-4042-a966-7e3199288b6a")
+	)
+	(fp_line
+		(start -1.45 0.65)
+		(end -1.45 -0.65)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "caf5d7e7-be89-4942-bb2d-854cdf2d5091")
+	)
+	(fp_line
+		(start 1.45 -0.65)
+		(end 1.45 0.65)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "fef45ad8-9303-474a-9190-a99d2f081604")
+	)
+	(fp_line
+		(start 1.45 0.65)
+		(end -1.45 0.65)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "f4eddb0a-2198-40c6-bbfa-46cdff0a141a")
+	)
+	(fp_poly
+		(pts
+			(xy -1.394567 1.177039) (xy -1.427039 1.144567) (xy -1.472961 1.144567) (xy -1.505433 1.177039) (xy -1.505433 1.222961)
+			(xy -1.472961 1.255433) (xy -1.427039 1.255433) (xy -1.394567 1.222961)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "b833d7ab-4579-412c-bd27-70c34e9e3b4d")
+	)
+	(fp_poly
+		(pts
+			(xy -1.15 0.935) (xy -1.15 0.64) (xy -0.75 0.64) (xy -0.75 0.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.1")
+		(uuid "494397ce-e287-43bb-a7a6-ad8134cd88cb")
+	)
+	(fp_poly
+		(pts
+			(xy -1.15 1.2) (xy -1.15 0.925) (xy -0.75 0.925) (xy -0.75 1.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.1")
+		(uuid "88036259-0b5a-45eb-ab7d-2891e1f5e3e9")
+	)
+	(fp_poly
+		(pts
+			(xy -0.2 -0.925) (xy -0.2 -1.2) (xy 0.2 -1.2) (xy 0.2 -0.925)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.1")
+		(uuid "8bfdd4fa-34b3-44f9-a58d-6aea7342655e")
+	)
+	(fp_poly
+		(pts
+			(xy -0.2 -0.64) (xy -0.2 -0.935) (xy 0.2 -0.935) (xy 0.2 -0.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.1")
+		(uuid "382263ed-d7ba-417b-b2e0-ab5dfe0aceec")
+	)
+	(fp_poly
+		(pts
+			(xy 0.75 0.935) (xy 0.75 0.64) (xy 1.15 0.64) (xy 1.15 0.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.1")
+		(uuid "c7e558df-e7b2-450d-92bd-d06fd7ce72a2")
+	)
+	(fp_poly
+		(pts
+			(xy 0.75 1.2) (xy 0.75 0.925) (xy 1.15 0.925) (xy 1.15 1.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.1")
+		(uuid "c50be062-52ca-4f8b-8023-4238d2257a1a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "bcda1961-fabc-4b12-a3ea-284d244683c2")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.95 1 90)
+		(size 1.25 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e35df287-1e23-4cce-be17-806f09af0c3a")
+	)
+	(pad "2" smd rect
+		(at 0.95 1 90)
+		(size 1.25 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5b23c7bc-c4e1-4c1b-b651-0ebf8862c238")
+	)
+	(pad "3" smd rect
+		(at 0 -1 90)
+		(size 1.25 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b3406dd7-cf81-4240-bffd-899570edd2b5")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/SOT-23-3_L2.9-W1.3-P1.90-LS2.4.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

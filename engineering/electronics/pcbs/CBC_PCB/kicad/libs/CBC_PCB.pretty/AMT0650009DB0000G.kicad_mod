@@ -30,7 +30,7 @@
   (pad 4 thru_hole circle (at 12.000 -11) (size 5.200 5.200) (drill 4.1) (layers *.Cu *.Mask))
   (pad 5 thru_hole circle (at 6.000 -11) (size 5.200 5.200) (drill 4.1) (layers *.Cu *.Mask))
   (pad 6 thru_hole circle (at 0.000 -11) (size 5.200 5.200) (drill 4.1) (layers *.Cu *.Mask))
-  (model AMT0650009DB0000G.stp
+  (model "${KIPRJMOD}/libs/3dmodels/AMT0650009DB0000G.pretty/AMT0650009DB0000G.stp"
     (at (xyz 0.23622047244094 0.21653543307087 0.39173227595532))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 -180 -90))

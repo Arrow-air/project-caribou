@@ -18,7 +18,7 @@
 	)
 	(text ""
 		(exclude_from_sim no)
-		(at 191.77 56.134 0)
+		(at 191.77 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 	)
 	(text "- Power input from the battery (H_PWR-IN,\nH_PWR-IN--PREFUSE, CANH_BAT, CANL_BAT)\n\n- Fuse layout with\n2x AMT0650009DB0000G screw terminal\n\n- Power output with\n2x AMT0650009DB0000G screw terminal\n\n- 12V DCDC converter for creating\nthe mosfet gate voltage. 10 ohm resistor\nin series with input for inrush current\nlimitation.\n\n- Precharge circuit (active after\nbattery startup). Enables onboard\npower supply for switching logic.\nNot used anymore after main mosfets\nare activated (few seconds after battery\nis turned on). Can be switched off by\nthe ESP32.\n\n- Main mosfet switch. 7x TOLL-8 mosfet.\nControlled by \"SWITCHED_GATE_V\".\nSwitching H_PWR-IN- to GND.\n\n- Normally Open SSR. Switched by\nmofet control signal logic.\nApplies 12V to the main mosfet gates.\nActivation signal is latched in\n\"KILL SWITCH and mosfet control signal\" section.\n\n-\"KILL SWITCH and mosfet control signal\" section:\n	-ESP_ENABLE_SIGNAL can activate the main mosfets.\n	 The signal is latched and can not be deactivated\n	 by the ESP32. A reboot of the ESP32 does not\n	 effect the activation of the main mosfets.\n	-The mosfet signal goes though a normally closed\n	 SSR. The only way to deactivate the main mosfets\n	 is over the external applied 12V_TRIGGER_SIG.\n	 Its protected with a SCHMITT trigger circuit\n	 (only activates if the 12V signal is applied for\n	 ~1.5 seconds). The signal from the SCHMITT trigger\n	 can then open the normally closed SSR.\n	-A MAX810R is used to define the startup condition\n	 of the latching circuit.\n\n"
 		(exclude_from_sim no)
-		(at 25.4 50.038 0)
+		(at 25.4 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -147,7 +147,7 @@
 		(uuid "f271f0bd-a8fc-4738-91f7-693cf9b80379")
 	)
 	(sheet
-		(at 25.4 29.718)
+		(at 25.4 29.21)
 		(size 43.18 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -163,7 +163,7 @@
 		)
 		(uuid "16623c3f-27fc-4db0-8b22-f4a31ec72271")
 		(property "Sheetname" "POWER SECTION"
-			(at 25.4 29.0064 0)
+			(at 25.4 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -174,7 +174,7 @@
 			)
 		)
 		(property "Sheetfile" "POWER SECTION.kicad_sch"
-			(at 25.4 45.5426 0)
+			(at 25.4 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -209,7 +209,7 @@
 		)
 		(uuid "313c40c6-0a26-497a-98c9-c78a7bba0e9e")
 		(property "Sheetname" "CAN SECTION"
-			(at 182.88 29.7684 0)
+			(at 182.88 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -220,7 +220,7 @@
 			)
 		)
 		(property "Sheetfile" "CAN SECTION.kicad_sch"
-			(at 182.88 46.3046 0)
+			(at 182.88 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -255,7 +255,7 @@
 		)
 		(uuid "85d35496-b202-4947-9b5c-82b5f7bb520b")
 		(property "Sheetname" "ESP32 SECTION"
-			(at 134.62 29.7684 0)
+			(at 134.62 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -266,7 +266,7 @@
 			)
 		)
 		(property "Sheetfile" "ESP32 SECTION.kicad_sch"
-			(at 134.62 46.3046 0)
+			(at 134.62 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -301,7 +301,7 @@
 		)
 		(uuid "b4c95d27-7981-477f-a8ef-d2ce83f3675e")
 		(property "Sheetname" "PERIPHERALS"
-			(at 231.14 29.7684 0)
+			(at 231.14 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -312,7 +312,7 @@
 			)
 		)
 		(property "Sheetfile" "PERIPHERALS.kicad_sch"
-			(at 231.14 46.3046 0)
+			(at 231.14 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -347,7 +347,7 @@
 		)
 		(uuid "cc7537cf-40ae-42d0-a857-c01ca15aab74")
 		(property "Sheetname" "POWER REGULATOR"
-			(at 86.36 29.7684 0)
+			(at 86.36 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -358,7 +358,7 @@
 			)
 		)
 		(property "Sheetfile" "POWER REGULATOR.kicad_sch"
-			(at 86.36 46.3046 0)
+			(at 86.36 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

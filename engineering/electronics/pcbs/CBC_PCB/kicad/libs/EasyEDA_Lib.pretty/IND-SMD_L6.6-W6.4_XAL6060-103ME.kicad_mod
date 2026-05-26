@@ -1,0 +1,308 @@
+(footprint "IND-SMD_L6.6-W6.4_XAL6060-103ME"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 3.895033 -2.175034 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "20803d0f-050b-4b6b-8c05-14da4525822b")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IND-SMD_L6.6-W6.4_XAL6060-103ME"
+		(at -0.014967 4.330433 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e6e6e074-8865-4cda-bfa7-ca9f7c5fcd62")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.coilcraft.com/getmedia/ea51f14b-7f32-4dc6-8dfe-d4b70549040f/xal60xx.pdf"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "50f180f6-cf30-4a19-8556-f21733645395")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Inductance:1uH Tolerance:±20% Tolerance:±20% Current - Saturation(Isat):23A DC Resistance(DCR):5.62mΩ Ratings:AEC-Q200"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b0a6a05-ed5c-4288-89fe-6986b58316f5")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC_3DModel_Q" "ed600a21e1a0428cb59d17ffcb4d2664"
+		(at 0 0 90)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "c733e6f4-e8e2-48d3-a227-9c04b72d2320")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC_3D_Size" "6.56 6.36"
+		(at 0 0 90)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "210ba956-1d15-4b83-80a5-7270dec86a03")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part" "XAL6030-102MEC"
+		(at 0 0 270)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6beaf2b1-6740-44e6-ba21-852a1d99f6d7")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Coilcraft(线艺)"
+		(at 0 0 270)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c16f8d8-08dc-49af-b281-f359574e7406")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier Part" "C2938919"
+		(at 0 0 270)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18f9016d-9d80-4635-a63a-ca8b8056f907")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "LCSC"
+		(at 0 0 270)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a5a4fa6-2de0-46fa-a9c7-edfd6e536bcc")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part Name" "1uH ±20% 23A"
+		(at 0 0 270)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2bf2524-f743-4abd-8fc7-8064393af32f")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.302 -3.302)
+		(end 3.302 -3.302)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5838e05d-8194-40ae-be4f-863a0cea847c")
+	)
+	(fp_line
+		(start -3.302 3.302)
+		(end -3.302 -3.302)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ed17bfc2-ec32-47be-82c8-63a68008ce11")
+	)
+	(fp_line
+		(start 3.302 -3.302)
+		(end 3.302 3.302)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "543df967-f377-4ac3-8dab-82e68fdb6bed")
+	)
+	(fp_line
+		(start 3.302 3.302)
+		(end -3.302 3.302)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fba67fc4-23f7-472a-aad4-bb70c6e3b47e")
+	)
+	(fp_rect
+		(start -3.505433 -3.5755)
+		(end 3.4755 3.605433)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a8a2fcb6-e0d9-44e5-a092-4747bdaf4396")
+	)
+	(fp_line
+		(start -3.2 -3.3)
+		(end 3.2 -3.3)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "965d0538-ea75-4867-bbd2-3b0d401fd768")
+	)
+	(fp_line
+		(start -3.2 3.3)
+		(end -3.2 -3.3)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "bec28d0f-584b-4c19-b1d8-f69af3cf059a")
+	)
+	(fp_line
+		(start 3.2 -3.3)
+		(end 3.2 3.3)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "f11a1a98-bd70-4856-a679-07db7a0cd4c4")
+	)
+	(fp_line
+		(start 3.2 3.3)
+		(end -3.2 3.3)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a4312b78-4deb-4343-bbd1-2e7446d49cbe")
+	)
+	(fp_poly
+		(pts
+			(xy -3.144567 3.277039) (xy -3.177039 3.244567) (xy -3.222961 3.244567) (xy -3.255433 3.277039) (xy -3.255433 3.322961)
+			(xy -3.222961 3.355433) (xy -3.177039 3.355433) (xy -3.144567 3.322961)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "e2c49f64-fb03-49a2-96ae-a95aca1e3847")
+	)
+	(fp_poly
+		(pts
+			(xy -2.645 -2.5) (xy -1.395 -2.5) (xy -1.395 2.5) (xy -2.645 2.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.1")
+		(uuid "2754e2e5-da05-4d21-b19a-42e920b656d9")
+	)
+	(fp_poly
+		(pts
+			(xy 1.395 -2.5) (xy 2.645 -2.5) (xy 2.645 2.5) (xy 1.395 2.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.1")
+		(uuid "c9cb888b-fb79-4824-bbf0-94f222838b9c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "1fb43b30-ef4e-4087-a074-61d76ba498f9")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.02 0)
+		(size 1.4 5.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "13189a86-45e1-4700-be6d-5d696bce6dfc")
+	)
+	(pad "2" smd rect
+		(at 2.02 0)
+		(size 1.4 5.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "caaddca5-7ff3-4211-8d18-56669804381e")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/IND-SMD_L6.6-W6.4_XAL6060-103ME.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

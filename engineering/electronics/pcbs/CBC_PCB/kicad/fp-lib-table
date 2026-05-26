@@ -1,5 +1,7 @@
 (fp_lib_table
 	(version 7)
 	(lib (name "CBC_PCB") (type "KiCad") (uri "${KIPRJMOD}/libs/CBC_PCB.pretty") (options "") (descr "CBC project footprints"))
-	(lib (name "C90D_PAD") (type "KiCad") (uri "${KIPRJMOD}/libs/CBC_PCB.pretty") (options "") (descr "Imported C90D pad footprint"))
+	(lib (name "Diode_SMD") (type "KiCad") (uri "${KICAD10_FOOTPRINT_DIR}/Diode_SMD.pretty") (options "") (descr "KiCad diode SMD footprints"))
+	(lib (name "EasyEDA_Lib") (type "KiCad") (uri "${KIPRJMOD}/libs/EasyEDA_Lib.pretty") (options "") (descr "Imported EasyEDA/JLCEDA footprints"))
+  (lib (name "EasyEDA_Lib_2")(type "EasyEDA / JLCEDA Pro")(uri "${KIPRJMOD}/EasyEDA_Lib_2/EasyEDA_Lib_2.elibz")(options "")(descr ""))
 )

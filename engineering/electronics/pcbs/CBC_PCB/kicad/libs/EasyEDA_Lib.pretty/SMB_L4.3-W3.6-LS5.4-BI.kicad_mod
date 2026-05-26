@@ -1,0 +1,360 @@
+(footprint "SMB_L4.3-W3.6-LS5.4-BI"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -38.862967 3.552198 90)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6bcfb7d8-400a-42a6-b378-ee8c75113dc6")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SMB_L4.3-W3.6-LS5.4-BI"
+		(at 0 2.8005 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f306074-556e-4250-b474-b98c513910b7")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://item.szlcsc.com/datasheet/SMBJ78CA/3161008.html"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "731e5e16-e60f-4d99-985d-2a7612477cae")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Polarity:Bidirectional Reverse Stand-Off Voltage (Vrwm):78V Clamping Voltage:126V Peak Pulse Current (Ipp):4.7A Peak Pulse Power Dissipation (Ppp):600W Voltage - Breakdown:86.7V Reverse Leakage Current (Ir):5uA Operating Temperature:-55°C~{+150°C@(Tj}) Operat"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eea9f16f-5b49-4e51-8fae-aece4440f2b2")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC_3DModel_Q" "27e859dc18d34fe4b6cd01ac2f5bcf76"
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "fe69f266-5b9c-4201-aaea-0f1234d77612")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC_3D_Size" "5.4 3.62"
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "d203a82f-a654-4687-9793-97eee8e14eb2")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part" "SMBJ78CA"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "854e5fe0-6716-4150-b00a-b0e7930f223b")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "GOODWORK(固得沃克)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7b539af-5323-437b-9ca8-b39d4ce53c3d")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier Part" "C2903953"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f42f166-c8f9-4e78-a041-aa377d27e9b4")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "LCSC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a924f623-7c7b-439d-be99-47d99e05c943")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part Name" "双向TVS 78V截止 4.7A峰值脉冲"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5716fcc1-ac80-4b20-9c07-9ea540bcaf60")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 2.6625 -1.905)
+		(end -2.591 -1.887)
+		(stroke
+			(width 0.1525)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "befe67dd-60d3-48e4-8abf-379f4d781b68")
+	)
+	(fp_line
+		(start 2.667 1.905)
+		(end -2.5995 1.8905)
+		(stroke
+			(width 0.1525)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "06655384-9d2c-4048-af8b-41d2f4783be1")
+	)
+	(fp_poly
+		(pts
+			(xy -0.045 0.004) (xy 0.717 0.766) (xy 0.717 -0.758)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "64fdd233-a729-4ca9-b6e1-19ab8afcf294")
+	)
+	(fp_poly
+		(pts
+			(xy 0 0) (xy -0.762 -0.762) (xy -0.762 0.762)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "127c22e2-816e-4619-ace4-7d23e09b7f41")
+	)
+	(fp_poly
+		(pts
+			(xy -2.667 -1.905) (xy -2.667 -1.2155) (xy -2.21 -1.2155) (xy -2.21 -1.905)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "cdcbadf3-26b3-4e0e-ae81-1168c6e49039")
+	)
+	(fp_poly
+		(pts
+			(xy -2.667 1.905) (xy -2.667 1.2155) (xy -2.21 1.2155) (xy -2.21 1.905)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "ff47d66f-a57b-4a8e-a2d7-04bf4cd2def0")
+	)
+	(fp_poly
+		(pts
+			(xy 2.286 -1.905) (xy 2.286 -1.2155) (xy 2.743 -1.2155) (xy 2.743 -1.905)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "e56cd14b-3129-476e-a883-08b148a3beea")
+	)
+	(fp_poly
+		(pts
+			(xy 2.286 1.905) (xy 2.286 1.2155) (xy 2.743 1.2155) (xy 2.743 1.905)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "849730e5-e252-4960-80dc-266d382d72d5")
+	)
+	(fp_rect
+		(start -3.86525 -2.121433)
+		(end 3.86525 2.0755)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "697eac93-6c73-41c2-b606-293d9e5778df")
+	)
+	(fp_line
+		(start -2.15 -1.8)
+		(end 2.15 -1.8)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "8d848255-a47d-4c1f-801a-e9dcedd4b836")
+	)
+	(fp_line
+		(start -2.15 1.8)
+		(end -2.15 -1.8)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "aa42131b-f349-44a5-a354-f0a2908e15dc")
+	)
+	(fp_line
+		(start 2.15 -1.8)
+		(end 2.15 1.8)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "ae05d7a9-ac90-42b2-9578-26410d98543d")
+	)
+	(fp_line
+		(start 2.15 1.8)
+		(end -2.15 1.8)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b0bfe83b-eacc-46d3-be5c-4ae91de154b7")
+	)
+	(fp_poly
+		(pts
+			(xy -2.663567 -1.838961) (xy -2.696039 -1.871433) (xy -2.741961 -1.871433) (xy -2.774433 -1.838961)
+			(xy -2.774433 -1.793039) (xy -2.741961 -1.760567) (xy -2.696039 -1.760567) (xy -2.663567 -1.793039)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "8b4280d1-5a28-46bd-92b9-d4f1ab8a6914")
+	)
+	(fp_poly
+		(pts
+			(xy -2.7075 -1.0375) (xy -2.7075 1.0375) (xy -1.5675 1.0375) (xy -1.5675 -1.0375)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.1")
+		(uuid "39bbdad8-416d-457a-a116-ea895c9b10b9")
+	)
+	(fp_poly
+		(pts
+			(xy 2.7075 -1.0375) (xy 2.7075 1.0375) (xy 1.5675 1.0375) (xy 1.5675 -1.0375)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.1")
+		(uuid "58ecfa2d-ea8d-48e7-8239-5c95dc6420e1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "25d41ddb-e9cb-4f99-9c08-7a3b0cbb693d")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.5915 0)
+		(size 2.0475 2.241)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f0959fed-c418-44ed-b0cb-bc62d5169449")
+	)
+	(pad "2" smd rect
+		(at 2.5915 0)
+		(size 2.0475 2.241)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "654d9175-a8e1-4968-9b5e-699a8eb55812")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/SMB_L4.3-W3.6-LS5.4-BI.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
