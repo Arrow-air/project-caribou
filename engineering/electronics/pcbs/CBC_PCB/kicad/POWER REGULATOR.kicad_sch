@@ -37953,8 +37953,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V_P2"
-			(at 350.52 91.44 0)
+		(property "Value" "+3V3_P2"
+			(at 349.504 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

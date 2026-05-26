@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.8,
+          "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -210,7 +210,11 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.2,
+        0.3,
+        0.5,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -242,6 +246,22 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.4
+        },
+        {
+          "diameter": 0.9,
+          "drill": 0.5
         }
       ],
       "zones_allow_external_fillets": true
