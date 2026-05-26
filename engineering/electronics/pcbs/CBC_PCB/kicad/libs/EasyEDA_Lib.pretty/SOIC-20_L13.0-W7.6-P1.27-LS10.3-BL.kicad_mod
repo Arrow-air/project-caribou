@@ -891,7 +891,7 @@
 		(uuid "dee5b387-da59-4198-94d6-084e3a225882")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/SOIC-20_L12.8-W7.5-H2.7-LS10.3-P1.27.step"
+	(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/SOIC-20_L12.8-W7.5-P1.27.step"
 		(offset
 			(xyz 0 0 0)
 		)

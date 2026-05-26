@@ -411,7 +411,7 @@
 		(uuid "a9d0dc5d-5248-40c6-8c0a-d360eb4179dd")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/SOP-4_L4.1-W3.8-H2.2-LS6.1-P2.54.step"
+	(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/SOP-4_L4.1-W3.8-P2.54.step"
 		(offset
 			(xyz 0 0 0)
 		)

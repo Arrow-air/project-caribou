@@ -1775,7 +1775,7 @@
 			(uuid "c6c55c99-14e8-4298-98e2-f0627759c993")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/TOLL_L10.4-W9.9-P1.20-LS11.7-BL_HUAYI_HYG022N10NS1TA.step"
+		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/TOLL-8_L10.4-W9.9-P1.20.step"
 			(offset
 				(xyz 0 1.5 0)
 			)
@@ -3337,7 +3337,7 @@
 			(uuid "673963d9-ace3-4372-a045-9481a9e5029a")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/SOT-25-5_L3.0-W1.6-H1.3-LS2.8-P0.95.step"
+		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/SOT-25-5_L3.0-W1.6-P0.95.step"
 			(offset
 				(xyz 0.005 0.064 0)
 			)
@@ -7488,7 +7488,7 @@
 			(uuid "d5446301-90bb-474c-ae56-bb1a284e070f")
 		)
 		(embedded_fonts no)
-		(model "AMT0650009DB0000G.stp"
+		(model "${KIPRJMOD}/libs/3dmodels/AMT0650009DB0000G.pretty/AMT0650009DB0000G.stp"
 			(offset
 				(xyz 5.99999991 5.499999917 9.94999966)
 			)
@@ -15700,7 +15700,7 @@
 			(uuid "1672756d-b07d-4587-9dd6-9ef7b27f95dc")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/TOLL_L10.4-W9.9-P1.20-LS11.7-BL_HUAYI_HYG022N10NS1TA.step"
+		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/TOLL-8_L10.4-W9.9-P1.20.step"
 			(offset
 				(xyz 0 1.5 0)
 			)
@@ -19029,7 +19029,7 @@
 			(uuid "986a2ac8-0e46-4650-ba3d-ea84504714ca")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/SOIC-8_L4.9-W3.9-H1.7-LS6.0-P1.27.step"
+		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/SOIC-8_L4.9-W3.9-P1.27.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21784,7 +21784,7 @@
 			(uuid "eefc3364-5e06-4781-b834-1b07f1769bbc")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/TSSOP-20_L6.5-W4.4-H1.0-LS6.4-P0.65.step"
+		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/TSSOP-20_L6.5-W4.4-P0.65.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23408,7 +23408,7 @@
 			(uuid "73df7c02-ccda-4eda-9b50-4b5dd5e9641e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/SOIC-8_L4.9-W3.9-H1.7-LS6.0-P1.27.step"
+		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/SOIC-8_L4.9-W3.9-P1.27.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25060,7 +25060,7 @@
 			(uuid "6a8baafe-4be9-4580-bfad-d84007e22d42")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/TOLL_L10.4-W9.9-P1.20-LS11.7-BL_HUAYI_HYG022N10NS1TA.step"
+		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/TOLL-8_L10.4-W9.9-P1.20.step"
 			(offset
 				(xyz 0 1.5 0)
 			)
@@ -32374,7 +32374,7 @@
 			(uuid "71af37c3-cfb0-46bb-838e-b370e4cf7c6b")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/MSOP-16_12P-L4.0-W3.0-H1.1-LS4.9-P0.50.step"
+		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/MSOP-16_L4.0-W3.0-P0.50.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -32927,7 +32927,7 @@
 			(uuid "8f12a8b2-cac9-4e08-88f3-2e631651c0fb")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/TOLL_L10.4-W9.9-P1.20-LS11.7-BL_HUAYI_HYG022N10NS1TA.step"
+		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/TOLL-8_L10.4-W9.9-P1.20.step"
 			(offset
 				(xyz 0 1.5 0)
 			)
@@ -41373,7 +41373,7 @@
 			(uuid "5e8253ba-b948-4ca5-be8b-da0874b38ae3")
 		)
 		(embedded_fonts no)
-		(model "AMT0650009DB0000G.stp"
+		(model "${KIPRJMOD}/libs/3dmodels/AMT0650009DB0000G.pretty/AMT0650009DB0000G.stp"
 			(offset
 				(xyz 5.99999991 5.499999917 9.94999966)
 			)
@@ -44502,7 +44502,7 @@
 			(uuid "dee5b387-da59-4198-94d6-084e3a225882")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/SOIC-20_L12.8-W7.5-H2.7-LS10.3-P1.27.step"
+		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/SOIC-20_L12.8-W7.5-P1.27.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -53998,7 +53998,7 @@
 			(uuid "2a8f62a3-94cd-4a81-9af8-6c8741b84ac5")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/TSSOP-20_L6.5-W4.4-H1.0-LS6.4-P0.65.step"
+		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/TSSOP-20_L6.5-W4.4-P0.65.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -54919,7 +54919,7 @@
 			(uuid "12f46aa9-861a-428f-8449-36a803d5bc4a")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/TOLL_L10.4-W9.9-P1.20-LS11.7-BL_HUAYI_HYG022N10NS1TA.step"
+		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/TOLL-8_L10.4-W9.9-P1.20.step"
 			(offset
 				(xyz 0 1.5 0)
 			)
@@ -59608,7 +59608,7 @@
 			(uuid "5d0765df-c234-4f82-a7a0-4bd75766c304")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/TOLL_L10.4-W9.9-P1.20-LS11.7-BL_HUAYI_HYG022N10NS1TA.step"
+		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/TOLL-8_L10.4-W9.9-P1.20.step"
 			(offset
 				(xyz 0 1.5 0)
 			)
@@ -60363,7 +60363,7 @@
 			(uuid "2d10f966-75c0-48e0-a572-7b4466429261")
 		)
 		(embedded_fonts no)
-		(model "AMT0650009DB0000G.stp"
+		(model "${KIPRJMOD}/libs/3dmodels/AMT0650009DB0000G.pretty/AMT0650009DB0000G.stp"
 			(offset
 				(xyz 5.99999991 5.499999917 9.94999966)
 			)
@@ -62229,7 +62229,7 @@
 			(uuid "b6b3bf2b-cc8f-429a-8a0b-5584143421cb")
 		)
 		(embedded_fonts no)
-		(model "AMT0650009DB0000G.stp"
+		(model "${KIPRJMOD}/libs/3dmodels/AMT0650009DB0000G.pretty/AMT0650009DB0000G.stp"
 			(offset
 				(xyz 5.99999991 5.499999917 9.94999966)
 			)
@@ -63520,7 +63520,7 @@
 			(uuid "08954cfd-a64d-47de-9dce-d2c890ae139f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/TOLL_L10.4-W9.9-P1.20-LS11.7-BL_HUAYI_HYG022N10NS1TA.step"
+		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/TOLL-8_L10.4-W9.9-P1.20.step"
 			(offset
 				(xyz 0 1.5 0)
 			)
@@ -65083,7 +65083,7 @@
 			(uuid "d66ba297-3c8c-4627-b811-1d2fddc47d57")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/SOT-23-3_L3.0-W1.6-P1.90-LS2.8-BR.step"
+		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/SOT-23-3_L3.0-W1.6-P1.90.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -68254,7 +68254,7 @@
 			(uuid "ca85c021-fb8e-4827-88fb-5078d889f066")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/SOIC-20_L12.8-W7.5-H2.7-LS10.3-P1.27.step"
+		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/SOIC-20_L12.8-W7.5-P1.27.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -72347,7 +72347,7 @@
 			(uuid "ef8ded2a-9e92-46bb-834f-4037647d8ebb")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/TOLL_L10.4-W9.9-P1.20-LS11.7-BL_HUAYI_HYG022N10NS1TA.step"
+		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/TOLL-8_L10.4-W9.9-P1.20.step"
 			(offset
 				(xyz 0 1.5 0)
 			)
@@ -73502,7 +73502,7 @@
 			(uuid "a9d0dc5d-5248-40c6-8c0a-d360eb4179dd")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/SOP-4_L4.1-W3.8-H2.2-LS6.1-P2.54.step"
+		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/SOP-4_L4.1-W3.8-P2.54.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -78840,7 +78840,7 @@
 			(uuid "51e55cb4-8cdb-494c-9ba4-81ef0872765c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/SOP-4_L4.1-W3.8-H2.2-LS6.1-P2.54.step"
+		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/SOP-4_L4.1-W3.8-P2.54.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -81040,7 +81040,7 @@
 			(uuid "e6e651fa-0dec-4adc-a81a-365f607095f6")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/TSOT-23-5_L2.9-W1.6-H1.00-LS2.8-P0.95.step"
+		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/TSOT-23-5_L2.9-W1.6-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -81894,7 +81894,7 @@
 			(uuid "c6d6b52a-6318-4fce-b2c7-b4e6608b5948")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/SOT-25-5_L3.0-W1.6-H1.3-LS2.8-P0.95.step"
+		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/SOT-25-5_L3.0-W1.6-P0.95.step"
 			(offset
 				(xyz 0.005 0.064 0)
 			)
@@ -84975,7 +84975,7 @@
 			(uuid "d6fe52e1-a1d7-4fa5-9815-46ca79fa30ed")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/SOT-25-5_L3.0-W1.6-H1.3-LS2.8-P0.95.step"
+		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/SOT-25-5_L3.0-W1.6-P0.95.step"
 			(offset
 				(xyz 0.005 0.064 0)
 			)
@@ -89872,7 +89872,7 @@
 			(uuid "799a9686-a7b6-412b-a06c-8677e23f8848")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/SOT-25-5_L3.0-W1.6-H1.3-LS2.8-P0.95.step"
+		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/SOT-25-5_L3.0-W1.6-P0.95.step"
 			(offset
 				(xyz 0.005 0.064 0)
 			)
@@ -91001,7 +91001,7 @@
 			(uuid "72706a83-f5c4-4acd-b7aa-a582fa9369c6")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/SOP-4_L4.1-W3.8-H2.2-LS6.1-P2.54.step"
+		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/SOP-4_L4.1-W3.8-P2.54.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -94985,7 +94985,7 @@
 			(uuid "e784359c-ae5a-4c09-b7bd-88077e7b89c9")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.step"
+		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/SOT-23-6_L2.9-W1.6-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -97110,7 +97110,7 @@
 			(uuid "f14b61b6-870a-41ad-a161-7972f5a77794")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/SOT-223-4P_L6.5-W3.5-H1.6-LS7.0-P2.30.step"
+		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/SOT-223-4P_L6.5-W3.5-P2.30.step"
 			(offset
 				(xyz -0.1 0 0)
 			)
@@ -97566,7 +97566,7 @@
 			(uuid "9b3dc0df-486e-4adb-a8ae-0d64b2cb3296")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/SOT-25-5_L3.0-W1.6-H1.3-LS2.8-P0.95.step"
+		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/SOT-25-5_L3.0-W1.6-P0.95.step"
 			(offset
 				(xyz 0.005 0.064 0)
 			)
@@ -102472,7 +102472,7 @@
 			(uuid "fd802d23-a29f-4fba-8084-421cb7465db9")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/TOLL_L10.4-W9.9-P1.20-LS11.7-BL_HUAYI_HYG022N10NS1TA.step"
+		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/TOLL-8_L10.4-W9.9-P1.20.step"
 			(offset
 				(xyz 0 1.5 0)
 			)
@@ -111413,7 +111413,7 @@
 			(uuid "0c75c57f-0246-4d80-ab81-6ed827c38233")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/SOT-223-4P_L6.5-W3.5-H1.6-LS7.0-P2.30.step"
+		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/SOT-223-4P_L6.5-W3.5-P2.30.step"
 			(offset
 				(xyz -0.1 0 0)
 			)
@@ -113070,7 +113070,7 @@
 			(uuid "7ec4fae9-e50b-4c7e-af59-376fc6ca9e4c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/TOLL_L10.4-W9.9-P1.20-LS11.7-BL_HUAYI_HYG022N10NS1TA.step"
+		(model "${KIPRJMOD}/libs/3dmodels/EASYEDA_MODELS/TOLL-8_L10.4-W9.9-P1.20.step"
 			(offset
 				(xyz 0 1.5 0)
 			)
