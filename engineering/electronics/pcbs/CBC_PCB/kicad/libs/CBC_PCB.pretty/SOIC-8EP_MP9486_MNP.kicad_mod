@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "MP9486GN-Z ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at -5 -4 270)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "56138007-1d46-4f53-aeb0-838008f720fb")
@@ -59,7 +59,7 @@
 			(width 0.1524)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(uuid "a537a82e-70e1-45ca-8084-84cc5f5526b7")
 	)
 	(fp_line
@@ -69,7 +69,7 @@
 			(width 0.1524)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(uuid "329f3681-733a-44ea-aa2b-c05911a85cfb")
 	)
 	(fp_poly
@@ -625,7 +625,7 @@
 	)
 	(fp_text user "*"
 		(at -2.7178 -3.6068 0)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(uuid "db3706e6-db28-4d2f-b31a-a2d2efeb56df")
 		(effects
 			(font

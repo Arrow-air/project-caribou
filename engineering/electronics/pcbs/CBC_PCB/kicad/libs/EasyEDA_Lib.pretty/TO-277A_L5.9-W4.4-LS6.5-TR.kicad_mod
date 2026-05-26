@@ -149,7 +149,7 @@
 			(width 0.1525)
 			(type default)
 		)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(uuid "894ab8bb-3c12-424d-b2c4-80a06a5eee2d")
 	)
 	(fp_line
@@ -159,7 +159,7 @@
 			(width 0.1525)
 			(type default)
 		)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(uuid "fdedeced-1e2b-4d3c-8622-142c6cf3e330")
 	)
 	(fp_poly
@@ -171,7 +171,7 @@
 			(type default)
 		)
 		(fill yes)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(uuid "014c41c0-3514-4bdc-99b7-d6034302925d")
 	)
 	(fp_circle
