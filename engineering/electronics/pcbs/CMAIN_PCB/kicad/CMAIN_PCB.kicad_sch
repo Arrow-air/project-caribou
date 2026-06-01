@@ -5,122 +5,6 @@
 	(uuid "ca31b60c-f1cb-4b97-95b8-376c0a181311")
 	(paper "A3")
 	(lib_symbols
-			(symbol "power:PWR_FLAG"
-				(power global)
-				(pin_numbers
-					(hide yes)
-				)
-				(pin_names
-					(offset 0)
-					(hide yes)
-				)
-				(exclude_from_sim no)
-				(in_bom yes)
-				(on_board yes)
-				(in_pos_files yes)
-				(duplicate_pin_numbers_are_jumpers no)
-				(property "Reference" "#FLG"
-					(at 0 1.905 0)
-					(show_name no)
-					(do_not_autoplace no)
-					(hide yes)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(property "Value" "PWR_FLAG"
-					(at 0 3.81 0)
-					(show_name no)
-					(do_not_autoplace no)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(property "Footprint" ""
-					(at 0 0 0)
-					(show_name no)
-					(do_not_autoplace no)
-					(hide yes)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(property "Datasheet" ""
-					(at 0 0 0)
-					(show_name no)
-					(do_not_autoplace no)
-					(hide yes)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(property "Description" "Special symbol for telling ERC where power comes from"
-					(at 0 0 0)
-					(show_name no)
-					(do_not_autoplace no)
-					(hide yes)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(property "ki_keywords" "flag power"
-					(at 0 0 0)
-					(show_name no)
-					(do_not_autoplace no)
-					(hide yes)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(symbol "PWR_FLAG_0_0"
-					(pin power_out line
-						(at 0 0 90)
-						(length 0)
-						(name ""
-							(effects
-								(font
-									(size 1.27 1.27)
-								)
-							)
-						)
-						(number "1"
-							(effects
-								(font
-									(size 1.27 1.27)
-								)
-							)
-						)
-					)
-				)
-				(symbol "PWR_FLAG_0_1"
-					(polyline
-						(pts
-							(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-						)
-						(stroke
-							(width 0)
-							(type default)
-						)
-						(fill
-							(type none)
-						)
-					)
-				)
-				(embedded_fonts no)
-			)
-
 		(symbol "Connector:TestPoint_Small"
 			(pin_numbers
 				(hide yes)
@@ -9449,19 +9333,121 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(rectangle
-		(start 13.081 244.602)
-		(end 73.152 283.845)
-		(stroke
-			(width 0.5)
-			(type solid)
-			(color 32 30 101 1)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
 		)
-		(fill
-			(type none)
-		)
-		(uuid "05af3925-12c9-4be6-b8a3-ad73379bca88")
 	)
 	(rectangle
 		(start 265.176 120.142)
@@ -9556,7 +9542,7 @@
 	)
 	(rectangle
 		(start 12.954 166.878)
-		(end 133.858 243.332)
+		(end 133.858 279.4)
 		(stroke
 			(width 0.5)
 			(type solid)
@@ -9608,7 +9594,7 @@
 	)
 	(rectangle
 		(start 135.382 216.662)
-		(end 195.072 255.905)
+		(end 182.88 255.905)
 		(stroke
 			(width 0.5)
 			(type solid)
@@ -9620,8 +9606,8 @@
 		(uuid "93f4557d-1c27-40eb-8fd4-4c05b7702afa")
 	)
 	(rectangle
-		(start 74.168 244.602)
-		(end 133.858 283.845)
+		(start 184.658 216.662)
+		(end 233.68 255.905)
 		(stroke
 			(width 0.5)
 			(type solid)
@@ -9823,7 +9809,7 @@
 	)
 	(text "Yellow_GND\nGrey_CANH\nGreen_CANL\nBlack_GND_PWM\nWhite_PWM"
 		(exclude_from_sim no)
-		(at 116.84 237.49 0)
+		(at 67.31 237.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9834,7 +9820,7 @@
 	)
 	(text "Motor 1 (FR)"
 		(exclude_from_sim no)
-		(at 106.68 186.69 0)
+		(at 57.15 186.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9895,7 +9881,7 @@
 	)
 	(text "Power supply"
 		(exclude_from_sim no)
-		(at 86.36 247.65 0)
+		(at 196.85 219.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9905,7 +9891,7 @@
 	)
 	(text "Motor 3 (FL)"
 		(exclude_from_sim no)
-		(at 106.68 219.71 0)
+		(at 57.15 219.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9979,7 +9965,7 @@
 	)
 	(text "Motor 2 (BL)"
 		(exclude_from_sim no)
-		(at 106.68 203.2 0)
+		(at 57.15 203.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10052,7 +10038,7 @@
 	)
 	(text "Motor 4 (BR)"
 		(exclude_from_sim no)
-		(at 106.68 237.49 0)
+		(at 57.15 237.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10349,7 +10335,7 @@
 	)
 	(text "IO_CH1 (PWM 1)\nIO_CH2 (PWM 2)\nIO_CH3 (PWM 3)\nIO_CH4 (PWM 4)"
 		(exclude_from_sim no)
-		(at 116.84 172.72 0)
+		(at 67.31 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10434,13 +10420,24 @@
 	)
 	(text "Power control"
 		(exclude_from_sim no)
-		(at 148.59 218.44 0)
+		(at 146.304 219.456 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "a737df77-86e3-49a4-b097-d8e1df421a1e")
+	)
+	(text "Temporary power-source flags for new power_supply architecture; replace with explicit hierarchical power pins once final regulator/distribution nets are locked."
+		(exclude_from_sim no)
+		(at 50.8 143.51 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "a9ea72fa-0021-4f13-80df-ea246a0e12ad")
 	)
 	(text "Additional\nUART connector\n"
 		(exclude_from_sim no)
@@ -11866,16 +11863,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 62.23) (xy 96.52 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "171f3d48-d24d-4834-ad38-47c731015a52")
-	)
-	(wire
-		(pts
 			(xy 353.06 226.06) (xy 358.14 226.06)
 		)
 		(stroke
@@ -11926,7 +11913,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 182.88) (xy 83.82 182.88)
+			(xy 24.13 182.88) (xy 34.29 182.88)
 		)
 		(stroke
 			(width 0)
@@ -11996,7 +11983,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 200.66) (xy 83.82 200.66)
+			(xy 24.13 200.66) (xy 34.29 200.66)
 		)
 		(stroke
 			(width 0)
@@ -12053,16 +12040,6 @@
 			(type default)
 		)
 		(uuid "3ea6af58-0263-4345-bb4b-f8be55cfad94")
-	)
-	(wire
-		(pts
-			(xy 96.52 67.31) (xy 96.52 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44b5bf95-094a-4b49-9d05-f2302d44524a")
 	)
 	(wire
 		(pts
@@ -12316,16 +12293,6 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 31.75) (xy 298.45 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bc45d56-522d-4f70-97e3-44151ed2c0d0")
-	)
-	(wire
-		(pts
 			(xy 238.76 62.23) (xy 247.65 62.23)
 		)
 		(stroke
@@ -12386,17 +12353,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 34.29) (xy 96.52 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a09a884-42ea-4f21-b5af-78b4b8cb186f")
-	)
-	(wire
-		(pts
-			(xy 73.66 234.95) (xy 83.82 234.95)
+			(xy 24.13 234.95) (xy 34.29 234.95)
 		)
 		(stroke
 			(width 0)
@@ -12536,16 +12493,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 62.23) (xy 96.52 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97276fb0-0de0-4e5a-aa2c-d02e47e1bccc")
-	)
-	(wire
-		(pts
 			(xy 234.95 67.31) (xy 247.65 67.31)
 		)
 		(stroke
@@ -12626,7 +12573,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 217.17) (xy 83.82 217.17)
+			(xy 24.13 217.17) (xy 34.29 217.17)
 		)
 		(stroke
 			(width 0)
@@ -12636,7 +12583,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 41.91) (xy 298.45 34.29)
+			(xy 298.45 31.75) (xy 298.45 45.72)
 		)
 		(stroke
 			(width 0)
@@ -12946,16 +12893,6 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 31.75) (xy 298.45 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1fe8a65-1e38-451b-aa70-65abedb807eb")
-	)
-	(wire
-		(pts
 			(xy 364.49 146.05) (xy 372.11 146.05)
 		)
 		(stroke
@@ -13185,7 +13122,7 @@
 		(uuid "1b93361a-6255-4a82-b5cf-3d861d3bb235")
 	)
 	(label "IO_CH1"
-		(at 73.66 182.88 180)
+		(at 24.13 182.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13505,7 +13442,7 @@
 		(uuid "5e0ebc08-0087-4494-9720-c26f2ce5f562")
 	)
 	(label "IO_CH4"
-		(at 73.66 234.95 180)
+		(at 24.13 234.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13595,7 +13532,7 @@
 		(uuid "6d694adc-2c51-4b0b-9a5a-ead5fbaa1a1a")
 	)
 	(label "IO_CH3"
-		(at 73.66 217.17 180)
+		(at 24.13 217.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13785,7 +13722,7 @@
 		(uuid "a8bacf44-fcfe-4270-8a34-432fad7ff33b")
 	)
 	(label "IO_CH2"
-		(at 73.66 200.66 180)
+		(at 24.13 200.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14314,7 +14251,7 @@
 	)
 	(global_label "CAN1_L"
 		(shape input)
-		(at 83.82 175.26 180)
+		(at 34.29 175.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14324,7 +14261,7 @@
 		)
 		(uuid "08c973a1-b4f3-4acd-be2d-ab712ce15c18")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.66 175.26 0)
+			(at 24.13 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14410,7 +14347,7 @@
 	)
 	(global_label "CAN1_L"
 		(shape input)
-		(at 83.82 209.55 180)
+		(at 34.29 209.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14420,7 +14357,7 @@
 		)
 		(uuid "0ff874e7-1d79-4e12-8dbe-d5493c1c57a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.66 209.55 0)
+			(at 24.13 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14626,7 +14563,7 @@
 	)
 	(global_label "CAN1_L"
 		(shape input)
-		(at 83.82 193.04 180)
+		(at 34.29 193.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14636,7 +14573,7 @@
 		)
 		(uuid "3a464d83-e906-4b8c-838a-b331b460d507")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.66 193.04 0)
+			(at 24.13 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14890,7 +14827,7 @@
 	)
 	(global_label "CAN1_H"
 		(shape input)
-		(at 83.82 229.87 180)
+		(at 34.29 229.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14900,7 +14837,7 @@
 		)
 		(uuid "694c3967-beaf-4065-b872-1ee3d9c0f416")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.66 229.87 0)
+			(at 24.13 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15058,7 +14995,7 @@
 	)
 	(global_label "CAN1_H"
 		(shape input)
-		(at 83.82 195.58 180)
+		(at 34.29 195.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15068,7 +15005,7 @@
 		)
 		(uuid "73fd6f21-36df-4321-b117-59f8006575e0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.66 195.58 0)
+			(at 24.13 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15106,7 +15043,7 @@
 	)
 	(global_label "CAN1_H"
 		(shape input)
-		(at 83.82 212.09 180)
+		(at 34.29 212.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15116,7 +15053,7 @@
 		)
 		(uuid "7d682af8-d43b-4916-86b0-57171acfefee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.66 212.09 0)
+			(at 24.13 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15250,7 +15187,7 @@
 	)
 	(global_label "CAN1_L"
 		(shape input)
-		(at 83.82 227.33 180)
+		(at 34.29 227.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15260,7 +15197,7 @@
 		)
 		(uuid "aaedf99d-ec62-4078-9aea-56c72ed18001")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.66 227.33 0)
+			(at 24.13 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15346,7 +15283,7 @@
 	)
 	(global_label "CAN1_H"
 		(shape input)
-		(at 83.82 177.8 180)
+		(at 34.29 177.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15356,7 +15293,7 @@
 		)
 		(uuid "b18ff382-6cee-43cd-827c-0882dd804448")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.66 177.8 0)
+			(at 24.13 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16842,7 +16779,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 198.12 270)
+		(at 34.29 198.12 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16853,7 +16790,7 @@
 		(fields_autoplaced yes)
 		(uuid "1105bf93-6eac-4ffa-9f78-5809ab49b3b8")
 		(property "Reference" "#PWR080"
-			(at 77.47 198.12 0)
+			(at 27.94 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16864,7 +16801,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.01 198.12 90)
+			(at 30.48 198.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16875,7 +16812,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 198.12 0)
+			(at 34.29 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16886,7 +16823,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 198.12 0)
+			(at 34.29 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16897,7 +16834,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 198.12 0)
+			(at 34.29 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18991,7 +18928,7 @@
 	)
 	(symbol
 		(lib_id "Samacsys_kicad_sym:1814948")
-		(at 104.14 226.06 0)
+		(at 54.61 226.06 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -19002,7 +18939,7 @@
 		(dnp no)
 		(uuid "22c2c5e4-6e3b-48fa-82fa-9dcc69eed762")
 		(property "Reference" "J23"
-			(at 104.14 224.79 0)
+			(at 54.61 224.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19012,7 +18949,7 @@
 			)
 		)
 		(property "Value" "1814948"
-			(at 104.14 227.33 0)
+			(at 54.61 227.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19022,7 +18959,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:1814948"
-			(at 87.63 321.31 0)
+			(at 38.1 321.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19034,7 +18971,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.phoenixcontact.com/de/produkte/1814948/pdf"
-			(at 87.63 420.37 0)
+			(at 38.1 420.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19046,7 +18983,7 @@
 			)
 		)
 		(property "Description" "PCB header, nominal cross section: 0.5 mm?, color: white, nominal current: 6 A, rated voltage (III/2): 160 V, contact surface: Tin, type of contact: Male connector, Number of potentials: 5, Number of rows: 1, Number of positions per row: 5, number of connections: 5, product range: PTSM 0,5/..-HH-SMD WH, pitch: 2.5 mm, mounting: SMD soldering, pin layout: Linear pad geometry, Stecksystem: COMBICON COMPACT PTSM, Locking: without, type of packaging: 32 mm wide tape"
-			(at 102.87 214.63 0)
+			(at 53.34 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19057,7 +18994,7 @@
 			)
 		)
 		(property "Height" "5.1"
-			(at 87.63 621.03 0)
+			(at 38.1 621.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19069,7 +19006,7 @@
 			)
 		)
 		(property "Mouser Part Number" "651-1814948"
-			(at 87.63 721.36 0)
+			(at 38.1 721.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19081,7 +19018,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1814948?qs=eTPcRhULBzxggS8GURKAhQ%3D%3D"
-			(at 87.63 820.42 0)
+			(at 38.1 820.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19093,7 +19030,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 87.63 920.75 0)
+			(at 38.1 920.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19105,7 +19042,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1814948"
-			(at 87.63 1021.08 0)
+			(at 38.1 1021.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20274,7 +20211,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 224.79 270)
+		(at 34.29 224.79 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20285,7 +20222,7 @@
 		(fields_autoplaced yes)
 		(uuid "35a698a6-b80a-46d9-a2c5-6f1140d594cf")
 		(property "Reference" "#PWR063"
-			(at 77.47 224.79 0)
+			(at 27.94 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20296,7 +20233,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.01 224.79 90)
+			(at 30.48 224.79 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20307,7 +20244,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 224.79 0)
+			(at 34.29 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20318,7 +20255,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 224.79 0)
+			(at 34.29 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20329,7 +20266,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 224.79 0)
+			(at 34.29 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21541,6 +21478,81 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 63.5 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "43d58d5d-3b4f-415f-bb25-54025c1770a0")
+		(property "Reference" "#FLG901"
+			(at 63.5 155.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 63.5 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fbb2d34b-6b81-4510-b9e3-16ad7fc64c6c")
+		)
+		(instances
+			(project "CMAIN_PCB"
+				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311"
+					(reference "#FLG901")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 379.73 67.31 90)
 		(unit 1)
@@ -22449,7 +22461,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 180.34 270)
+		(at 34.29 180.34 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22460,7 +22472,7 @@
 		(fields_autoplaced yes)
 		(uuid "511187e5-8597-46be-80e5-45eac4203148")
 		(property "Reference" "#PWR071"
-			(at 77.47 180.34 0)
+			(at 27.94 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22471,7 +22483,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.01 180.34 90)
+			(at 30.48 180.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22482,7 +22494,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 180.34 0)
+			(at 34.29 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22493,7 +22505,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 180.34 0)
+			(at 34.29 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22504,7 +22516,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 180.34 0)
+			(at 34.29 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24186,7 +24198,7 @@
 	)
 	(symbol
 		(lib_id "Samacsys_kicad_sym:1814948")
-		(at 104.14 191.77 0)
+		(at 54.61 191.77 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -24197,7 +24209,7 @@
 		(dnp no)
 		(uuid "6f5473fc-8eae-44d1-a587-bbd86f17b879")
 		(property "Reference" "J32"
-			(at 104.14 190.5 0)
+			(at 54.61 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24207,7 +24219,7 @@
 			)
 		)
 		(property "Value" "1814948"
-			(at 104.14 193.04 0)
+			(at 54.61 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24217,7 +24229,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:1814948"
-			(at 87.63 287.02 0)
+			(at 38.1 287.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24229,7 +24241,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.phoenixcontact.com/de/produkte/1814948/pdf"
-			(at 87.63 386.08 0)
+			(at 38.1 386.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24241,7 +24253,7 @@
 			)
 		)
 		(property "Description" "PCB header, nominal cross section: 0.5 mm?, color: white, nominal current: 6 A, rated voltage (III/2): 160 V, contact surface: Tin, type of contact: Male connector, Number of potentials: 5, Number of rows: 1, Number of positions per row: 5, number of connections: 5, product range: PTSM 0,5/..-HH-SMD WH, pitch: 2.5 mm, mounting: SMD soldering, pin layout: Linear pad geometry, Stecksystem: COMBICON COMPACT PTSM, Locking: without, type of packaging: 32 mm wide tape"
-			(at 102.87 180.34 0)
+			(at 53.34 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24252,7 +24264,7 @@
 			)
 		)
 		(property "Height" "5.1"
-			(at 87.63 586.74 0)
+			(at 38.1 586.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24264,7 +24276,7 @@
 			)
 		)
 		(property "Mouser Part Number" "651-1814948"
-			(at 87.63 687.07 0)
+			(at 38.1 687.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24276,7 +24288,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1814948?qs=eTPcRhULBzxggS8GURKAhQ%3D%3D"
-			(at 87.63 786.13 0)
+			(at 38.1 786.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24288,7 +24300,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 87.63 886.46 0)
+			(at 38.1 886.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24300,7 +24312,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1814948"
-			(at 87.63 986.79 0)
+			(at 38.1 986.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25142,6 +25154,81 @@
 			(project "CMAIN_PCB"
 				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 154.94 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7b40bccd-837d-4f14-b05b-ed7926a335e6")
+		(property "Reference" "#FLG903"
+			(at 154.94 98.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 154.94 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb695a7f-aee1-41db-b440-1850411f6eec")
+		)
+		(instances
+			(project "CMAIN_PCB"
+				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311"
+					(reference "#FLG903")
 					(unit 1)
 				)
 			)
@@ -26382,7 +26469,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 190.5 270)
+		(at 34.29 190.5 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26393,7 +26480,7 @@
 		(fields_autoplaced yes)
 		(uuid "86384074-00f2-4320-82fe-9c53ce8eed72")
 		(property "Reference" "#PWR076"
-			(at 77.47 190.5 0)
+			(at 27.94 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26404,7 +26491,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.01 190.5 90)
+			(at 30.48 190.5 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26415,7 +26502,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 190.5 0)
+			(at 34.29 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26426,7 +26513,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 190.5 0)
+			(at 34.29 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26437,7 +26524,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 190.5 0)
+			(at 34.29 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26673,8 +26760,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 83.82 172.72 270)
+		(lib_id "power:PWR_FLAG")
+		(at 154.94 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26682,10 +26769,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d40b55d-4145-405f-b409-9da362ce9444")
-		(property "Reference" "#PWR070"
-			(at 77.47 172.72 0)
+		(uuid "8abf53cb-418c-41b0-adac-d017427f977c")
+		(property "Reference" "#FLG902"
+			(at 154.94 95.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26695,19 +26781,18 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 80.01 172.72 90)
+		(property "Value" "PWR_FLAG"
+			(at 154.94 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 172.72 0)
+			(at 154.94 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26718,7 +26803,84 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 172.72 0)
+			(at 154.94 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "adf0bb66-5db2-4b13-8324-2c1fb8e5b6f5")
+		)
+		(instances
+			(project "CMAIN_PCB"
+				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311"
+					(reference "#FLG902")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 34.29 172.72 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d40b55d-4145-405f-b409-9da362ce9444")
+		(property "Reference" "#PWR070"
+			(at 27.94 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.48 172.72 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26729,7 +26891,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 172.72 0)
+			(at 34.29 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27083,7 +27245,7 @@
 			)
 		)
 		(property "Value" "SMTSOM380BTR"
-			(at 287.02 67.31 0)
+			(at 287.02 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27217,7 +27379,7 @@
 			)
 		)
 		(property "Value" "SMTSOM380BTR"
-			(at 287.02 69.85 0)
+			(at 287.02 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29027,7 +29189,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 214.63 270)
+		(at 34.29 214.63 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29038,7 +29200,7 @@
 		(fields_autoplaced yes)
 		(uuid "b0cfacef-670c-42ff-afb4-4aa13294c43e")
 		(property "Reference" "#PWR089"
-			(at 77.47 214.63 0)
+			(at 27.94 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29049,7 +29211,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.01 214.63 90)
+			(at 30.48 214.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29060,7 +29222,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 214.63 0)
+			(at 34.29 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29071,7 +29233,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 214.63 0)
+			(at 34.29 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29082,7 +29244,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 214.63 0)
+			(at 34.29 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29419,7 +29581,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 207.01 270)
+		(at 34.29 207.01 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29430,7 +29592,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb9032fa-af79-41de-bb9c-a654e4071307")
 		(property "Reference" "#PWR086"
-			(at 77.47 207.01 0)
+			(at 27.94 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29441,7 +29603,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.01 207.01 90)
+			(at 30.48 207.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29452,7 +29614,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 207.01 0)
+			(at 34.29 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29463,7 +29625,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 207.01 0)
+			(at 34.29 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29474,7 +29636,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 207.01 0)
+			(at 34.29 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29884,7 +30046,7 @@
 	)
 	(symbol
 		(lib_id "Samacsys_kicad_sym:1814948")
-		(at 104.14 173.99 0)
+		(at 54.61 173.99 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -29895,7 +30057,7 @@
 		(dnp no)
 		(uuid "c3c77b3b-d926-4c9c-b3d3-ac7044006d4a")
 		(property "Reference" "J27"
-			(at 104.14 172.72 0)
+			(at 54.61 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29905,7 +30067,7 @@
 			)
 		)
 		(property "Value" "1814948"
-			(at 104.14 175.26 0)
+			(at 54.61 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29915,7 +30077,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:1814948"
-			(at 87.63 269.24 0)
+			(at 38.1 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29927,7 +30089,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.phoenixcontact.com/de/produkte/1814948/pdf"
-			(at 87.63 369.57 0)
+			(at 38.1 369.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29939,7 +30101,7 @@
 			)
 		)
 		(property "Description" "PCB header, nominal cross section: 0.5 mm?, color: white, nominal current: 6 A, rated voltage (III/2): 160 V, contact surface: Tin, type of contact: Male connector, Number of potentials: 5, Number of rows: 1, Number of positions per row: 5, number of connections: 5, product range: PTSM 0,5/..-HH-SMD WH, pitch: 2.5 mm, mounting: SMD soldering, pin layout: Linear pad geometry, Stecksystem: COMBICON COMPACT PTSM, Locking: without, type of packaging: 32 mm wide tape"
-			(at 102.87 163.83 0)
+			(at 53.34 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29950,7 +30112,7 @@
 			)
 		)
 		(property "Height" "5.1"
-			(at 87.63 568.96 0)
+			(at 38.1 568.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29962,7 +30124,7 @@
 			)
 		)
 		(property "Mouser Part Number" "651-1814948"
-			(at 87.63 669.29 0)
+			(at 38.1 669.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29974,7 +30136,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1814948?qs=eTPcRhULBzxggS8GURKAhQ%3D%3D"
-			(at 87.63 769.62 0)
+			(at 38.1 769.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29986,7 +30148,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 87.63 868.68 0)
+			(at 38.1 868.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29998,7 +30160,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1814948"
-			(at 87.63 969.01 0)
+			(at 38.1 969.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30183,7 +30345,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 232.41 270)
+		(at 34.29 232.41 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30194,7 +30356,7 @@
 		(fields_autoplaced yes)
 		(uuid "c9bfa5c5-d4f8-4c9a-8e34-495770a0e513")
 		(property "Reference" "#PWR066"
-			(at 77.47 232.41 0)
+			(at 27.94 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30205,7 +30367,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.01 232.41 90)
+			(at 30.48 232.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30216,7 +30378,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 232.41 0)
+			(at 34.29 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30227,7 +30389,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 232.41 0)
+			(at 34.29 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30238,7 +30400,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 232.41 0)
+			(at 34.29 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33427,7 +33589,7 @@
 	)
 	(symbol
 		(lib_id "Samacsys_kicad_sym:1814948")
-		(at 104.14 208.28 0)
+		(at 54.61 208.28 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -33438,7 +33600,7 @@
 		(dnp no)
 		(uuid "fdba09aa-d7f0-48ec-b018-760a71896686")
 		(property "Reference" "J40"
-			(at 104.14 207.01 0)
+			(at 54.61 207.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33448,7 +33610,7 @@
 			)
 		)
 		(property "Value" "1814948"
-			(at 104.14 209.55 0)
+			(at 54.61 209.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33458,7 +33620,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:1814948"
-			(at 87.63 303.53 0)
+			(at 38.1 303.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33470,7 +33632,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.phoenixcontact.com/de/produkte/1814948/pdf"
-			(at 87.63 403.86 0)
+			(at 38.1 403.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33482,7 +33644,7 @@
 			)
 		)
 		(property "Description" "PCB header, nominal cross section: 0.5 mm?, color: white, nominal current: 6 A, rated voltage (III/2): 160 V, contact surface: Tin, type of contact: Male connector, Number of potentials: 5, Number of rows: 1, Number of positions per row: 5, number of connections: 5, product range: PTSM 0,5/..-HH-SMD WH, pitch: 2.5 mm, mounting: SMD soldering, pin layout: Linear pad geometry, Stecksystem: COMBICON COMPACT PTSM, Locking: without, type of packaging: 32 mm wide tape"
-			(at 102.87 198.12 0)
+			(at 53.34 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33493,7 +33655,7 @@
 			)
 		)
 		(property "Height" "5.1"
-			(at 87.63 603.25 0)
+			(at 38.1 603.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33505,7 +33667,7 @@
 			)
 		)
 		(property "Mouser Part Number" "651-1814948"
-			(at 87.63 703.58 0)
+			(at 38.1 703.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33517,7 +33679,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1814948?qs=eTPcRhULBzxggS8GURKAhQ%3D%3D"
-			(at 87.63 803.91 0)
+			(at 38.1 803.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33529,7 +33691,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 87.63 902.97 0)
+			(at 38.1 902.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33541,7 +33703,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1814948"
-			(at 87.63 1003.3 0)
+			(at 38.1 1003.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33832,8 +33994,8 @@
 		)
 	)
 	(sheet
-		(at 80.01 259.08)
-		(size 31.75 11.43)
+		(at 190.5 223.52)
+		(size 38.1 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -33848,7 +34010,7 @@
 		)
 		(uuid "002c9034-3e37-4b7e-9bfc-c61c7c67d734")
 		(property "Sheetname" "Power_supply"
-			(at 80.01 257.81 0)
+			(at 190.5 222.8084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33859,7 +34021,7 @@
 			)
 		)
 		(property "Sheetfile" "power_supply.kicad_sch"
-			(at 80.01 270.51 0)
+			(at 190.5 249.5046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33924,8 +34086,8 @@
 		)
 	)
 	(sheet
-		(at 142.24 223.52)
-		(size 42.418 25.4)
+		(at 139.7 223.52)
+		(size 38.1 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -33940,7 +34102,7 @@
 		)
 		(uuid "6f7110fd-2fa0-40a7-819e-80dc3167296a")
 		(property "Sheetname" "Power_control"
-			(at 142.24 222.25 0)
+			(at 139.7 222.8084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33951,7 +34113,7 @@
 			)
 		)
 		(property "Sheetfile" "Power_control.kicad_sch"
-			(at 142.24 248.92 0)
+			(at 139.7 249.5046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34013,92 +34175,6 @@
 					(page "3")
 				)
 			)
-		)
-	)
-	(text "Temporary power-source flags for new power_supply architecture; replace with explicit hierarchical power pins once final regulator/distribution nets are locked."
-		(at 50.80 143.51 0)
-		(effects (font (size 1.0 1.0)) (justify left))
-		(uuid "a9ea72fa-0021-4f13-80df-ea246a0e12ad")
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 63.50 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "43d58d5d-3b4f-415f-bb25-54025c1770a0")
-		(property "Reference" "#FLG901"
-			(at 63.50 155.58 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Value" "PWR_FLAG"
-			(at 63.50 157.48 0)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Footprint" ""
-			(at 63.50 153.67 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(pin "1"
-			(uuid "fbb2d34b-6b81-4510-b9e3-16ad7fc64c6c")
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 154.94 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8abf53cb-418c-41b0-adac-d017427f977c")
-		(property "Reference" "#FLG902"
-			(at 154.94 95.89 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Value" "PWR_FLAG"
-			(at 154.94 97.79 0)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Footprint" ""
-			(at 154.94 93.98 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(pin "1"
-			(uuid "adf0bb66-5db2-4b13-8324-2c1fb8e5b6f5")
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 154.94 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7b40bccd-837d-4f14-b05b-ed7926a335e6")
-		(property "Reference" "#FLG903"
-			(at 154.94 98.43 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Value" "PWR_FLAG"
-			(at 154.94 100.33 0)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Footprint" ""
-			(at 154.94 96.52 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(pin "1"
-			(uuid "eb695a7f-aee1-41db-b440-1850411f6eec")
 		)
 	)
 	(sheet_instances
