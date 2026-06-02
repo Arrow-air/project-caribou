@@ -6,7 +6,7 @@
 	(property "Reference" "U6"
 		(at 0 -4.51 0)
 		(layer "F.SilkS")
-		(uuid "c0b3f5e2-bf75-476c-883f-d4f007f4db8b")
+		(uuid "62a823f1-53db-4c73-826e-3a672f87b63e")
 		(effects
 			(font
 				(size 1 1)
@@ -17,7 +17,7 @@
 	(property "Value" "SMTSOM380BTR"
 		(at 0 4.51 0)
 		(layer "F.Fab")
-		(uuid "b1614a83-063d-4ad4-b009-1de4ad9355c1")
+		(uuid "06ad4b24-7633-4c07-a835-0b5051b2a17c")
 		(effects
 			(font
 				(size 1 1)
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0a0b7629-d035-4d3b-9b45-0f7cd53ac0d1")
+		(uuid "87131ca6-e0be-4404-b956-aceb92a09cb2")
 		(effects
 			(font
 				(size 1 1)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "08446674-1c4b-4163-985b-220c39b1c135")
+		(uuid "b37a8851-321b-4229-9193-2e378256357c")
 		(effects
 			(font
 				(size 1 1)
@@ -54,7 +54,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3c19e92e-6f66-411b-9b2b-440e365c804a")
+		(uuid "f08bd65e-3bfe-45a9-8615-15bad04dbc97")
 		(effects
 			(font
 				(size 1 1)
@@ -67,7 +67,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e5b68f17-d7d8-4131-a91b-41810f9d3f84")
+		(uuid "0c29ca54-e21a-4c20-af45-f7e6b00e2824")
 		(effects
 			(font
 				(size 1 1)
@@ -80,7 +80,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b78a987f-f101-4b1e-b374-6799e001117a")
+		(uuid "f057ce7d-5286-49e9-82bc-39632496fc2b")
 		(effects
 			(font
 				(size 1 1)
@@ -93,7 +93,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4345b0eb-249d-4648-b8ff-ef66ef345a8c")
+		(uuid "84f3e88b-8250-4492-b6da-a21accd90041")
 		(effects
 			(font
 				(size 1 1)
@@ -106,7 +106,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "18b17629-3d65-4ce1-85f3-5a75071f588b")
+		(uuid "4761393f-ceb2-4fa7-8820-ba1cdf48a799")
 		(effects
 			(font
 				(size 1 1)
@@ -125,7 +125,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "1699c50e-565c-4c69-a435-4dca784e6357")
+		(uuid "6545519b-1f04-4299-b848-7043034e3cc8")
 	)
 	(fp_circle
 		(center 0 0)
@@ -136,7 +136,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "97f22483-759a-481b-a98e-c26f00bbc3ac")
+		(uuid "b6ebdc83-6e81-457b-9d40-f766269e8291")
 	)
 	(fp_poly
 		(pts
@@ -165,7 +165,7 @@
 		)
 		(fill yes)
 		(layer "User.1")
-		(uuid "9ad470be-881b-48d1-a2df-7cf554e35e4c")
+		(uuid "04da8384-e21b-4fe7-9ba9-2f3d43f41860")
 	)
 	(fp_poly
 		(pts
@@ -198,7 +198,7 @@
 		)
 		(fill yes)
 		(layer "User.1")
-		(uuid "07f3baa4-5c41-4b8d-9400-141e37735184")
+		(uuid "f4c85ae7-aabf-429a-af87-15697259e61b")
 	)
 	(fp_poly
 		(pts
@@ -227,7 +227,7 @@
 		)
 		(fill yes)
 		(layer "User.1")
-		(uuid "0de00851-5bb1-4144-963a-f58297cdf4f2")
+		(uuid "e6d8a4cf-7c28-49f7-bdff-ddb97984d339")
 	)
 	(fp_poly
 		(pts
@@ -256,7 +256,7 @@
 		)
 		(fill yes)
 		(layer "User.1")
-		(uuid "fe85ee57-b431-4649-afc9-b6fb938e44be")
+		(uuid "f356cd06-5fa3-42b2-ad03-c0c3c4bd477d")
 	)
 	(fp_poly
 		(pts
@@ -269,7 +269,7 @@
 		)
 		(fill yes)
 		(layer "User.3")
-		(uuid "fdf1863e-950c-405d-83ec-757d27aa3c2c")
+		(uuid "dcaa4a5f-d9de-430c-9834-895a0a3fb96e")
 	)
 	(pad "1" smd custom
 		(at -1.824 -2.2015)
@@ -308,7 +308,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "22b23e95-6c96-486c-8e45-9c9c019ca33a")
+		(uuid "1dc19b1e-b1d7-4552-b265-8bd9f613623c")
 	)
 	(pad "1" smd custom
 		(at -1.824 2.2015)
@@ -347,7 +347,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "8d7ed233-6906-44e3-b284-2ea4c3d0cb7a")
+		(uuid "cd5fc852-6195-4b1c-a094-de5bee508e50")
 	)
 	(pad "1" thru_hole circle
 		(at 0 0)
@@ -355,7 +355,7 @@
 		(drill 4.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "6c9bf305-a097-42f3-9b2e-94e3e400d6ed")
+		(uuid "6df15665-ef7a-44eb-8897-05b5d7e17426")
 	)
 	(pad "1" smd custom
 		(at 1.824 -2.2015)
@@ -393,7 +393,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "ec6a4325-45ef-4524-b16a-18f49d7ddb64")
+		(uuid "1e94fee8-9e72-4728-b21d-0f7a14e62a09")
 	)
 	(pad "1" smd custom
 		(at 1.824 2.202)
@@ -432,10 +432,10 @@
 				(fill yes)
 			)
 		)
-		(uuid "9c53f17f-3be4-4772-a2bb-353f1135ff49")
+		(uuid "cf170586-ee04-4c85-9762-c303e40f1c76")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_3RD_PARTY}/Snapeda.3dshapes/M3x8.step"
+	(model "C:/Users/Farino/Downloads/C20617225_SMD_BD5.6-D4.1.step"
 		(offset
 			(xyz 0 0 0)
 		)
