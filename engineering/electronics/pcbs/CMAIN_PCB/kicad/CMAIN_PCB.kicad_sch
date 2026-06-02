@@ -10724,7 +10724,7 @@
 	)
 	(text "IO_CH2 (PWM2)"
 		(exclude_from_sim no)
-		(at 86.868 46.482 0)
+		(at 86.36 46.99 0)
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -10765,7 +10765,7 @@
 	)
 	(text "Red_CANH\nGrey_CANL\nBlack_GND_PWM\nWhite_PWM"
 		(exclude_from_sim no)
-		(at 115.824 183.896 0)
+		(at 115.57 184.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10806,7 +10806,7 @@
 	)
 	(text "VDD5V_BRICK2"
 		(exclude_from_sim no)
-		(at 131.572 144.78 90)
+		(at 132.08 144.78 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10837,7 +10837,7 @@
 	)
 	(text "Power supply"
 		(exclude_from_sim no)
-		(at 196.596 243.078 0)
+		(at 196.85 242.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10877,7 +10877,7 @@
 	)
 	(text "Motor 6 (BL)"
 		(exclude_from_sim no)
-		(at 57.15 272.542 0)
+		(at 57.15 273.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10887,7 +10887,7 @@
 	)
 	(text "Power supply to\nSIYI HM30 air unit"
 		(exclude_from_sim no)
-		(at 142.24 95.758 0)
+		(at 142.24 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11057,7 +11057,7 @@
 	)
 	(text "HM30_UART"
 		(exclude_from_sim no)
-		(at 166.624 125.476 0)
+		(at 166.37 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11153,7 +11153,7 @@
 	)
 	(text "HM30_SBUS"
 		(exclude_from_sim no)
-		(at 158.75 145.542 0)
+		(at 158.75 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11175,7 +11175,7 @@
 	)
 	(text "Addidional CAN connectors JST\n\n"
 		(exclude_from_sim no)
-		(at 138.684 160.782 0)
+		(at 138.43 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11270,7 +11270,7 @@
 	)
 	(text "IO_CH1 (PWM1)"
 		(exclude_from_sim no)
-		(at 86.868 49.022 0)
+		(at 86.36 49.53 0)
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -11280,7 +11280,7 @@
 	)
 	(text "VDD5V_BRICK1"
 		(exclude_from_sim no)
-		(at 69.85 145.288 90)
+		(at 69.85 144.78 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11291,7 +11291,7 @@
 	)
 	(text "IO_CH1 (PWM 1)\nIO_CH2 (PWM 2)\nIO_CH3 (PWM 3)\nIO_CH4 (PWM 4)"
 		(exclude_from_sim no)
-		(at 116.078 172.974 0)
+		(at 115.57 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11344,7 +11344,7 @@
 	)
 	(text "IO_CH5 (PWM5)"
 		(exclude_from_sim no)
-		(at 86.868 38.608 0)
+		(at 86.36 38.1 0)
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -11376,7 +11376,7 @@
 	)
 	(text "Power control"
 		(exclude_from_sim no)
-		(at 146.05 242.824 0)
+		(at 146.05 242.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11396,7 +11396,7 @@
 	)
 	(text "IO_CH4 (PWM4)"
 		(exclude_from_sim no)
-		(at 86.868 41.148 0)
+		(at 86.36 40.64 0)
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -11406,7 +11406,7 @@
 	)
 	(text "Emergency Cutoff"
 		(exclude_from_sim no)
-		(at 80.264 34.036 0)
+		(at 80.01 34.29 0)
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -11501,7 +11501,7 @@
 	)
 	(text "Motor 5 (FR)"
 		(exclude_from_sim no)
-		(at 57.15 255.016 0)
+		(at 57.15 255.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11511,7 +11511,7 @@
 	)
 	(text "IO_CH3 (PWM3)"
 		(exclude_from_sim no)
-		(at 86.868 43.942 0)
+		(at 86.36 44.45 0)
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -11654,7 +11654,7 @@
 	)
 	(text "SIYI RX 1\n\n\nSIYI TX 1"
 		(exclude_from_sim no)
-		(at 145.034 121.666 0)
+		(at 144.78 121.92 0)
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -11698,7 +11698,7 @@
 	)
 	(text_box "IO_CH5 (PWM6)"
 		(exclude_from_sim no)
-		(at 82.8835 34.6285 0)
+		(at 82.55 34.29 0)
 		(size 8.5565 2.7095)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -11723,7 +11723,7 @@
 		(uuid "00d3ddb3-d5c6-466f-bfb1-89b60a3fb093")
 	)
 	(junction
-		(at 154.686 105.41)
+		(at 154.94 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "04f6661f-987d-499b-84a0-6442b0dfa0d6")
@@ -11771,7 +11771,7 @@
 		(uuid "2a41a59d-b6a4-4d34-86df-b8adde5a96e0")
 	)
 	(junction
-		(at 154.686 107.95)
+		(at 154.94 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2df2e58f-69d7-41b2-a63d-2ffe82f4a8a5")
@@ -11927,7 +11927,7 @@
 		(uuid "05fe633a-85d5-4649-ac87-7244036dfa9a")
 	)
 	(no_connect
-		(at 155.194 130.556)
+		(at 154.94 130.81)
 		(uuid "0987f3e4-6742-4ee4-8aeb-a14bb984676f")
 	)
 	(no_connect
@@ -11979,7 +11979,7 @@
 		(uuid "1e1b4fa9-b1b0-411a-8943-789505ba29c2")
 	)
 	(no_connect
-		(at 140.97 151.892)
+		(at 140.97 152.4)
 		(uuid "1eef7c89-283e-41ab-9c60-ea989d8ba347")
 	)
 	(no_connect
@@ -12091,7 +12091,7 @@
 		(uuid "4209a512-7609-4333-a70d-d00d20bbba72")
 	)
 	(no_connect
-		(at 140.97 136.652)
+		(at 140.97 137.16)
 		(uuid "4389404d-cb3f-48d3-ad26-8227a7f5d78a")
 	)
 	(no_connect
@@ -12139,7 +12139,7 @@
 		(uuid "4b91d122-3be4-4e9e-b807-30be89d10ab3")
 	)
 	(no_connect
-		(at 147.32 146.812)
+		(at 147.32 147.32)
 		(uuid "4d39f880-f592-4f6a-b738-1649905fbb25")
 	)
 	(no_connect
@@ -12147,7 +12147,7 @@
 		(uuid "4da4fdae-8ac7-4df1-9626-01f5c59e8b51")
 	)
 	(no_connect
-		(at 181.864 188.722)
+		(at 181.61 189.23)
 		(uuid "4e8720ae-0ebd-44b4-8413-d6e21d142abf")
 	)
 	(no_connect
@@ -12195,7 +12195,7 @@
 		(uuid "5c216ce4-a53b-44d4-a435-b6860e99ee3f")
 	)
 	(no_connect
-		(at 181.864 173.482)
+		(at 181.61 173.99)
 		(uuid "5c4db699-53fc-4c2c-88f9-72d5b4da99c6")
 	)
 	(no_connect
@@ -12367,7 +12367,7 @@
 		(uuid "99d51755-438a-42aa-bb61-46a7e636fe8d")
 	)
 	(no_connect
-		(at 155.194 173.482)
+		(at 154.94 173.99)
 		(uuid "9c57b4ef-49b3-4dd5-a3d4-120ca077efc4")
 	)
 	(no_connect
@@ -12403,7 +12403,7 @@
 		(uuid "af1afbe5-7dcc-4eee-8cb2-4945549ff2ce")
 	)
 	(no_connect
-		(at 155.194 188.722)
+		(at 154.94 189.23)
 		(uuid "b17c837a-cfaa-41a5-aef4-76160dcd0ea2")
 	)
 	(no_connect
@@ -12499,7 +12499,7 @@
 		(uuid "cb67404b-1a66-476b-8889-e324e0b23463")
 	)
 	(no_connect
-		(at 155.194 128.016)
+		(at 154.94 128.27)
 		(uuid "d189696a-2023-495b-a1fd-d9c9b15d2417")
 	)
 	(no_connect
@@ -12978,7 +12978,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 141.732) (xy 147.32 141.732)
+			(xy 156.21 142.24) (xy 147.32 142.24)
 		)
 		(stroke
 			(width 0)
@@ -13238,7 +13238,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.864 168.402) (xy 188.214 168.402)
+			(xy 181.61 168.91) (xy 187.96 168.91)
 		)
 		(stroke
 			(width 0)
@@ -13318,7 +13318,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 251.206) (xy 54.61 251.206)
+			(xy 64.77 251.46) (xy 54.61 251.46)
 		)
 		(stroke
 			(width 0)
@@ -13378,7 +13378,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.864 183.642) (xy 188.214 183.642)
+			(xy 181.61 184.15) (xy 187.96 184.15)
 		)
 		(stroke
 			(width 0)
@@ -13398,7 +13398,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 143.51) (xy 131.572 143.51)
+			(xy 121.92 143.51) (xy 132.08 143.51)
 		)
 		(stroke
 			(width 0)
@@ -13488,7 +13488,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 268.732) (xy 54.61 268.732)
+			(xy 64.77 269.24) (xy 54.61 269.24)
 		)
 		(stroke
 			(width 0)
@@ -13598,7 +13598,7 @@
 	)
 	(wire
 		(pts
-			(xy 188.214 181.102) (xy 181.864 181.102)
+			(xy 187.96 181.61) (xy 181.61 181.61)
 		)
 		(stroke
 			(width 0)
@@ -13858,7 +13858,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 143.51) (xy 70.104 143.51)
+			(xy 63.5 143.51) (xy 69.85 143.51)
 		)
 		(stroke
 			(width 0)
@@ -13868,7 +13868,7 @@
 	)
 	(polyline
 		(pts
-			(xy 207.01 106.68) (xy 207.01 235.204)
+			(xy 207.01 106.68) (xy 207.01 234.95)
 		)
 		(stroke
 			(width 0)
@@ -13918,7 +13918,7 @@
 	)
 	(wire
 		(pts
-			(xy 188.214 165.862) (xy 181.864 165.862)
+			(xy 187.96 166.37) (xy 181.61 166.37)
 		)
 		(stroke
 			(width 0)
@@ -14027,7 +14027,7 @@
 		(uuid "0b5a45c1-ae62-42ce-85ad-4ebf5834d6f1")
 	)
 	(label "IO_CH6"
-		(at 64.77 268.732 0)
+		(at 64.77 269.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14307,7 +14307,7 @@
 		(uuid "445ee69e-d51d-4305-ab93-b0136a67591d")
 	)
 	(label "UART7_RX_TEL1"
-		(at 155.194 122.936 0)
+		(at 154.94 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14507,7 +14507,7 @@
 		(uuid "7a5543c9-e444-4e43-bfe6-7a9ac851d8c0")
 	)
 	(label "CAN2_H"
-		(at 188.214 165.862 0)
+		(at 187.96 166.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14587,7 +14587,7 @@
 		(uuid "94ceffff-4c5f-474f-90ae-7010ea188425")
 	)
 	(label "IO_CH5"
-		(at 64.77 251.206 0)
+		(at 64.77 251.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14597,7 +14597,7 @@
 		(uuid "9e6d29fe-9d37-48e1-bba3-e4dca8b489c1")
 	)
 	(label "UART7_TX_TEL1"
-		(at 155.194 120.396 0)
+		(at 154.94 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14607,7 +14607,7 @@
 		(uuid "a34b015b-2e76-428c-a619-60233144a234")
 	)
 	(label "CAN2_H"
-		(at 188.214 181.102 0)
+		(at 187.96 181.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14717,7 +14717,7 @@
 		(uuid "b1090eb4-a61c-4278-b68e-702a3405380c")
 	)
 	(label "CAN2_L"
-		(at 188.214 183.642 0)
+		(at 187.96 184.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14787,7 +14787,7 @@
 		(uuid "bc48cd2c-2942-407f-95a7-b29e612999d3")
 	)
 	(label "IO_PPM_INPUT_AND_SBUS_INPUT"
-		(at 156.21 141.732 0)
+		(at 156.21 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15017,7 +15017,7 @@
 		(uuid "ebc6a407-25dc-404c-8b1e-38c5e2130ba4")
 	)
 	(label "CAN2_L"
-		(at 188.214 168.402 0)
+		(at 187.96 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15256,7 +15256,7 @@
 	)
 	(global_label "CAN1_H"
 		(shape input)
-		(at 54.61 263.652 0)
+		(at 54.61 264.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15266,7 +15266,7 @@
 		)
 		(uuid "127fae11-fb1e-4e06-a7f0-065d4b6bacd9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.77 263.652 0)
+			(at 64.77 264.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15280,7 +15280,7 @@
 	)
 	(global_label "CAN1_L"
 		(shape input)
-		(at 155.194 168.402 0)
+		(at 154.94 168.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15290,7 +15290,7 @@
 		)
 		(uuid "156c327c-2053-4025-978a-d86ab3f2c5ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.084 168.402 0)
+			(at 163.83 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15640,7 +15640,7 @@
 	)
 	(global_label "CAN1_L"
 		(shape input)
-		(at 155.194 183.642 0)
+		(at 154.94 184.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15650,7 +15650,7 @@
 		)
 		(uuid "622225ad-d27b-4437-aab4-0b8cfb7a09ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.084 183.642 0)
+			(at 163.83 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15904,7 +15904,7 @@
 	)
 	(global_label "CAN1_H"
 		(shape input)
-		(at 155.194 165.862 0)
+		(at 154.94 166.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15914,7 +15914,7 @@
 		)
 		(uuid "74d76764-4545-4810-b28a-970d3910c34b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.354 165.862 0)
+			(at 165.1 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16144,7 +16144,7 @@
 	)
 	(global_label "CAN1_H"
 		(shape input)
-		(at 155.194 181.102 0)
+		(at 154.94 181.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16154,7 +16154,7 @@
 		)
 		(uuid "b6881680-9606-47c3-a0ed-5347720fb3b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.354 181.102 0)
+			(at 165.1 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16168,7 +16168,7 @@
 	)
 	(global_label "CAN1_L"
 		(shape input)
-		(at 54.61 261.112 0)
+		(at 54.61 261.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16178,7 +16178,7 @@
 		)
 		(uuid "b989eff2-1bc6-4041-b073-8b3a2afbba55")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.77 261.112 0)
+			(at 64.77 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16202,7 +16202,7 @@
 		)
 		(uuid "c800ae83-cee1-4c22-b299-c2203067e8ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.8219 33.02 0)
+			(at 86.36 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16216,7 +16216,7 @@
 	)
 	(global_label "CAN1_L"
 		(shape input)
-		(at 54.61 243.586 0)
+		(at 54.61 243.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16226,7 +16226,7 @@
 		)
 		(uuid "d2468918-9d0a-4c2c-bcb8-3594ac92a25e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.77 243.586 0)
+			(at 64.77 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16312,7 +16312,7 @@
 	)
 	(global_label "CAN1_H"
 		(shape input)
-		(at 54.61 246.126 0)
+		(at 54.61 246.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16322,7 +16322,7 @@
 		)
 		(uuid "ec365c58-dfe4-4e4a-857e-e01b9fdfcacb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.77 246.126 0)
+			(at 64.77 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16679,7 +16679,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 54.61 248.666 90)
+		(at 54.61 248.92 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -16691,7 +16691,7 @@
 		(fields_autoplaced yes)
 		(uuid "01e6c7b2-1ddd-44ba-a997-fb8d51ac24a4")
 		(property "Reference" "#PWR070"
-			(at 60.96 248.666 0)
+			(at 60.96 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16702,7 +16702,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 248.666 90)
+			(at 58.42 248.92 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16713,7 +16713,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 248.666 0)
+			(at 54.61 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16724,7 +16724,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 248.666 0)
+			(at 54.61 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16735,7 +16735,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 248.666 0)
+			(at 54.61 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18611,7 +18611,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 155.194 125.476 90)
+		(at 154.94 125.73 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18622,7 +18622,7 @@
 		(fields_autoplaced yes)
 		(uuid "1672f79b-9099-4211-9b10-94221a8fc5f3")
 		(property "Reference" "#PWR036"
-			(at 161.544 125.476 0)
+			(at 161.29 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18633,7 +18633,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 159.004 125.476 90)
+			(at 158.75 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18644,7 +18644,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 155.194 125.476 0)
+			(at 154.94 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18655,7 +18655,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 155.194 125.476 0)
+			(at 154.94 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18666,7 +18666,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 155.194 125.476 0)
+			(at 154.94 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19619,7 +19619,7 @@
 		(dnp no)
 		(uuid "22c2c5e4-6e3b-48fa-82fa-9dcc69eed762")
 		(property "Reference" "J23"
-			(at 49.276 238.252 0)
+			(at 49.53 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19630,7 +19630,7 @@
 			)
 		)
 		(property "Value" "${ALTIUM_VALUE}"
-			(at 49.784 222.758 0)
+			(at 49.53 222.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19641,7 +19641,7 @@
 			)
 		)
 		(property "Footprint" "CMAIN_PCB:1814948"
-			(at 39.116 213.868 0)
+			(at 39.37 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19653,7 +19653,7 @@
 			)
 		)
 		(property "Datasheet" "AT13-4P"
-			(at 46.736 216.916 0)
+			(at 46.99 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19665,7 +19665,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 26.67 250.698 0)
+			(at 26.67 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19676,7 +19676,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER" ""
-			(at 60.198 254.254 0)
+			(at 59.69 254 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19688,7 +19688,7 @@
 			)
 		)
 		(property "SUPPLIER" ""
-			(at 53.848 219.71 0)
+			(at 53.34 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19700,7 +19700,7 @@
 			)
 		)
 		(property "MFR" "Amphenol SINE Systems"
-			(at 59.944 256.794 0)
+			(at 59.69 256.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19712,7 +19712,7 @@
 			)
 		)
 		(property "MPN" "AT13-4P"
-			(at 59.944 259.334 0)
+			(at 59.69 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19724,7 +19724,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 59.69 262.128 0)
+			(at 59.69 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20127,7 +20127,7 @@
 	)
 	(symbol
 		(lib_id "Samacsys:SM04B-GHS-TB_LF__SN_")
-		(at 155.194 120.396 0)
+		(at 154.94 120.65 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -20138,7 +20138,7 @@
 		(dnp no)
 		(uuid "2a8af429-7d23-4c50-aab3-f903184c2f89")
 		(property "Reference" "J15"
-			(at 145.034 124.206 0)
+			(at 144.78 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20148,7 +20148,7 @@
 			)
 		)
 		(property "Value" "SM04B-GHS-TB_LF__SN_"
-			(at 150.114 117.856 0)
+			(at 149.86 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20159,7 +20159,7 @@
 			)
 		)
 		(property "Footprint" "CMAIN_PCB:SM04B-GHS-TB"
-			(at 138.684 214.376 0)
+			(at 138.43 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20171,7 +20171,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.phoenixcontact.com/de/produkte/1814935/pdf"
-			(at 138.684 314.706 0)
+			(at 138.43 314.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20183,7 +20183,7 @@
 			)
 		)
 		(property "Description" "JST GH Series, 1.25mm Pitch 4 Way Right Angle PCB Header, Solder Termination, 1A"
-			(at 151.384 110.236 0)
+			(at 151.13 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20194,7 +20194,7 @@
 			)
 		)
 		(property "Height" "5.1"
-			(at 138.684 515.366 0)
+			(at 138.43 515.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20206,7 +20206,7 @@
 			)
 		)
 		(property "Mouser Part Number" "N/A"
-			(at 138.684 614.426 0)
+			(at 138.43 614.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20218,7 +20218,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/SM04B-GHS-TBLFSN?qs=QpmGXVUTftEJzKB1YHGCXw%3D%3D"
-			(at 138.684 714.756 0)
+			(at 138.43 715.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20230,7 +20230,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-			(at 138.684 815.086 0)
+			(at 138.43 815.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20242,7 +20242,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SM04B-GHS-TB(LF)(SN)"
-			(at 138.684 915.416 0)
+			(at 138.43 915.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20279,7 +20279,7 @@
 	)
 	(symbol
 		(lib_id "Samacsys:SM04B-GHS-TB_LF__SN_")
-		(at 181.864 163.322 0)
+		(at 181.61 163.83 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -20290,7 +20290,7 @@
 		(dnp no)
 		(uuid "2b8d9447-efba-4e85-9877-7e0997fca049")
 		(property "Reference" "J18"
-			(at 170.434 168.402 0)
+			(at 170.18 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20300,7 +20300,7 @@
 			)
 		)
 		(property "Value" "SM04B-GHS-TB_LF__SN_"
-			(at 175.514 162.052 0)
+			(at 175.26 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20311,7 +20311,7 @@
 			)
 		)
 		(property "Footprint" "CMAIN_PCB:SM04B-GHS-TB"
-			(at 165.354 258.572 0)
+			(at 165.1 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20323,7 +20323,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.phoenixcontact.com/de/produkte/1814935/pdf"
-			(at 165.354 358.902 0)
+			(at 165.1 359.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20335,7 +20335,7 @@
 			)
 		)
 		(property "Description" "JST GH Series, 1.25mm Pitch 4 Way Right Angle PCB Header, Solder Termination, 1A"
-			(at 176.784 154.432 0)
+			(at 176.53 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20346,7 +20346,7 @@
 			)
 		)
 		(property "Height" "5.1"
-			(at 165.354 558.292 0)
+			(at 165.1 558.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20358,7 +20358,7 @@
 			)
 		)
 		(property "Mouser Part Number" "N/A"
-			(at 165.354 658.622 0)
+			(at 165.1 659.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20370,7 +20370,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/SM04B-GHS-TBLFSN?qs=QpmGXVUTftEJzKB1YHGCXw%3D%3D"
-			(at 165.354 758.952 0)
+			(at 165.1 759.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20382,7 +20382,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-			(at 165.354 859.282 0)
+			(at 165.1 859.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20394,7 +20394,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SM04B-GHS-TB(LF)(SN)"
-			(at 165.354 958.342 0)
+			(at 165.1 958.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20510,7 +20510,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 131.572 143.51 0)
+		(at 132.08 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20520,7 +20520,7 @@
 		(dnp no)
 		(uuid "2ef2e515-e846-4916-b7b1-45148bcb0a0b")
 		(property "Reference" "#PWR0237"
-			(at 131.572 147.32 0)
+			(at 132.08 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20531,7 +20531,7 @@
 			)
 		)
 		(property "Value" "5V_2"
-			(at 131.572 139.7 0)
+			(at 132.08 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20541,7 +20541,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 131.572 143.51 0)
+			(at 132.08 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20552,7 +20552,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 131.572 143.51 0)
+			(at 132.08 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20563,7 +20563,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 131.572 143.51 0)
+			(at 132.08 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21047,7 +21047,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 181.864 163.322 270)
+		(at 181.61 163.83 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21058,7 +21058,7 @@
 		(fields_autoplaced yes)
 		(uuid "37f17e88-9a3b-4cdf-b697-70cf776befd9")
 		(property "Reference" "#PWR0105"
-			(at 178.054 163.322 0)
+			(at 177.8 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21069,7 +21069,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 184.404 163.322 90)
+			(at 184.15 163.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21080,7 +21080,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.864 163.322 0)
+			(at 181.61 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21091,7 +21091,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.864 163.322 0)
+			(at 181.61 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21102,7 +21102,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 181.864 163.322 0)
+			(at 181.61 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21686,7 +21686,7 @@
 	)
 	(symbol
 		(lib_id "Snapeda_kicad_sym:XT30PW-F")
-		(at 149.606 105.41 0)
+		(at 149.86 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21696,7 +21696,7 @@
 		(dnp no)
 		(uuid "42a8f760-0dc6-42a3-828d-b2799129f31e")
 		(property "Reference" "J14"
-			(at 143.764 98.806 0)
+			(at 143.51 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21706,7 +21706,7 @@
 			)
 		)
 		(property "Value" "XT30PW-F"
-			(at 147.32 101.092 0)
+			(at 147.32 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21716,7 +21716,7 @@
 			)
 		)
 		(property "Footprint" "CMAIN_PCB:XT30PW-F_AMASS_XT30PW-F"
-			(at 149.606 105.41 0)
+			(at 149.86 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21728,7 +21728,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.606 105.41 0)
+			(at 149.86 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21739,7 +21739,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.606 105.41 0)
+			(at 149.86 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21750,7 +21750,7 @@
 			)
 		)
 		(property "MF" "amass"
-			(at 149.606 105.41 0)
+			(at 149.86 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21762,7 +21762,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "5 mm"
-			(at 149.606 105.41 0)
+			(at 149.86 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21774,7 +21774,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 149.606 105.41 0)
+			(at 149.86 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21786,7 +21786,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 149.606 105.41 0)
+			(at 149.86 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21798,7 +21798,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/XT30PW-F/AMASS/view-part/?ref=eda"
-			(at 149.606 105.41 0)
+			(at 149.86 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21810,7 +21810,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 149.606 105.41 0)
+			(at 149.86 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21822,7 +21822,7 @@
 			)
 		)
 		(property "PARTREV" "1.2"
-			(at 149.606 105.41 0)
+			(at 149.86 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21834,7 +21834,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30PW-F/AMASS/view-part/?ref=snap"
-			(at 149.606 105.41 0)
+			(at 149.86 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21846,7 +21846,7 @@
 			)
 		)
 		(property "MP" "XT30PW-F"
-			(at 149.606 105.41 0)
+			(at 149.86 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21858,7 +21858,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            Socket; DC supply; XT30; female; PIN: 2; on PCBs; THT; yellow; 15A\n                        \n"
-			(at 149.606 105.41 0)
+			(at 149.86 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21870,7 +21870,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Amass"
-			(at 149.606 105.41 0)
+			(at 149.86 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21882,7 +21882,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 149.606 105.41 0)
+			(at 149.86 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21894,7 +21894,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "XT30PW-F"
-			(at 149.606 105.41 0)
+			(at 149.86 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22088,7 +22088,7 @@
 		(dnp no)
 		(uuid "43d58d5d-3b4f-415f-bb25-54025c1770a0")
 		(property "Reference" "#FLG901"
-			(at 63.5 154.3 0)
+			(at 63.5 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22099,7 +22099,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 65.532 154.178 90)
+			(at 66.04 153.67 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22311,7 +22311,7 @@
 	)
 	(symbol
 		(lib_id "Snapeda:SM03B-GHS-TB(LF)(SN)")
-		(at 143.51 144.272 0)
+		(at 143.51 144.78 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -22322,7 +22322,7 @@
 		(dnp no)
 		(uuid "49bc2018-f11f-4e5c-9bc6-4c6aad9a9f54")
 		(property "Reference" "J17"
-			(at 144.272 137.922 0)
+			(at 144.78 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22332,7 +22332,7 @@
 			)
 		)
 		(property "Value" "SM03B-GHS-TB(LF)(SN)"
-			(at 154.94 151.892 0)
+			(at 154.94 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22342,7 +22342,7 @@
 			)
 		)
 		(property "Footprint" "CMAIN_PCB:CONN-TH_SM03B-GHS-TB-LF-SN"
-			(at 143.51 144.272 0)
+			(at 143.51 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22353,7 +22353,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/SM03B-GHS-TB(LF)(SN)/529631.html"
-			(at 143.51 144.272 0)
+			(at 143.51 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22364,7 +22364,7 @@
 			)
 		)
 		(property "Description" "Pins Structure:1x3P Pitch:1.25mm Mounting Type:Surface Mount, Right Angle Reference Series:GH Number of Pins:3P Number of Rows:1 Number of PINs Per Row:3 Row Spacing:- Current Rating:1A Contact Material:Phosphor Bronze Contact Plating:Tin Operating Temper"
-			(at 143.51 144.272 0)
+			(at 143.51 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22375,7 +22375,7 @@
 			)
 		)
 		(property "Height" "5.1"
-			(at 127 539.242 0)
+			(at 127 539.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22387,7 +22387,7 @@
 			)
 		)
 		(property "Mouser Part Number" "651-1814922"
-			(at 127 639.572 0)
+			(at 127 640.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22399,7 +22399,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1814922?qs=eTPcRhULBzxqa49Ua%252B87wQ%3D%3D"
-			(at 127 739.902 0)
+			(at 127 740.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22411,7 +22411,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 127 838.962 0)
+			(at 127 839.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22423,7 +22423,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1814922"
-			(at 127 939.292 0)
+			(at 127 939.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22435,7 +22435,7 @@
 			)
 		)
 		(property "Manufacturer Part" "SM03B-GHS-TB(LF)(SN)"
-			(at 143.51 144.272 0)
+			(at 143.51 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22446,7 +22446,7 @@
 			)
 		)
 		(property "Manufacturer" "JST"
-			(at 143.51 144.272 0)
+			(at 143.51 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22457,7 +22457,7 @@
 			)
 		)
 		(property "Supplier Part" "C514175"
-			(at 143.51 144.272 0)
+			(at 143.51 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22468,7 +22468,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 143.51 144.272 0)
+			(at 143.51 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22479,7 +22479,7 @@
 			)
 		)
 		(property "LCSC Part Name" "1x3P 间距:1.25mm 卧贴 系列:GH"
-			(at 143.51 144.272 0)
+			(at 143.51 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22593,7 +22593,7 @@
 	)
 	(symbol
 		(lib_id "CMAIN_PCB:AT13-4P")
-		(at 54.61 243.586 0)
+		(at 54.61 243.84 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -22604,7 +22604,7 @@
 		(dnp no)
 		(uuid "4ddbc187-22c6-4cee-a5e0-b2dabbb9a662")
 		(property "Reference" "J45"
-			(at 49.276 255.778 0)
+			(at 49.53 255.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22615,7 +22615,7 @@
 			)
 		)
 		(property "Value" "${ALTIUM_VALUE}"
-			(at 49.784 240.284 0)
+			(at 49.53 240.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22626,7 +22626,7 @@
 			)
 		)
 		(property "Footprint" "CMAIN_PCB:AT13-4P"
-			(at 39.116 231.394 0)
+			(at 39.37 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22638,7 +22638,7 @@
 			)
 		)
 		(property "Datasheet" "AT13-4P"
-			(at 46.736 234.442 0)
+			(at 46.99 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22650,7 +22650,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 26.67 268.224 0)
+			(at 26.67 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22661,7 +22661,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER" ""
-			(at 60.198 271.78 0)
+			(at 59.69 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22673,7 +22673,7 @@
 			)
 		)
 		(property "SUPPLIER" ""
-			(at 53.848 237.236 0)
+			(at 53.34 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22685,7 +22685,7 @@
 			)
 		)
 		(property "MFR" "Amphenol SINE Systems"
-			(at 59.944 274.32 0)
+			(at 59.69 274.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22697,7 +22697,7 @@
 			)
 		)
 		(property "MPN" "AT13-4P"
-			(at 59.944 276.86 0)
+			(at 59.69 276.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22709,7 +22709,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 59.69 279.654 0)
+			(at 59.69 279.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23131,7 +23131,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.686 107.95 90)
+		(at 154.94 107.95 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23142,7 +23142,7 @@
 		(fields_autoplaced yes)
 		(uuid "50fd69bf-6dfa-4f71-bb68-1dd208303ba8")
 		(property "Reference" "#PWR033"
-			(at 161.036 107.95 0)
+			(at 161.29 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23153,7 +23153,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.496 107.95 90)
+			(at 158.75 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23164,7 +23164,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.686 107.95 0)
+			(at 154.94 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23175,7 +23175,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.686 107.95 0)
+			(at 154.94 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23186,7 +23186,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.686 107.95 0)
+			(at 154.94 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23440,7 +23440,7 @@
 	)
 	(symbol
 		(lib_id "Samacsys:SM04B-GHS-TB_LF__SN_")
-		(at 155.194 178.562 0)
+		(at 154.94 179.07 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -23451,7 +23451,7 @@
 		(dnp no)
 		(uuid "52d1cdee-9626-4d10-ad77-768df442b7ee")
 		(property "Reference" "J20"
-			(at 143.764 182.372 0)
+			(at 143.51 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23461,7 +23461,7 @@
 			)
 		)
 		(property "Value" "SM04B-GHS-TB_LF__SN_"
-			(at 148.844 176.022 0)
+			(at 148.59 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23472,7 +23472,7 @@
 			)
 		)
 		(property "Footprint" "CMAIN_PCB:SM04B-GHS-TB"
-			(at 138.684 272.542 0)
+			(at 138.43 273.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23484,7 +23484,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.phoenixcontact.com/de/produkte/1814935/pdf"
-			(at 138.684 372.872 0)
+			(at 138.43 373.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23496,7 +23496,7 @@
 			)
 		)
 		(property "Description" "JST GH Series, 1.25mm Pitch 4 Way Right Angle PCB Header, Solder Termination, 1A"
-			(at 150.114 168.402 0)
+			(at 149.86 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23507,7 +23507,7 @@
 			)
 		)
 		(property "Height" "5.1"
-			(at 138.684 573.532 0)
+			(at 138.43 574.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23519,7 +23519,7 @@
 			)
 		)
 		(property "Mouser Part Number" "N/A"
-			(at 138.684 672.592 0)
+			(at 138.43 673.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23531,7 +23531,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/SM04B-GHS-TBLFSN?qs=QpmGXVUTftEJzKB1YHGCXw%3D%3D"
-			(at 138.684 772.922 0)
+			(at 138.43 773.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23543,7 +23543,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-			(at 138.684 873.252 0)
+			(at 138.43 873.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23555,7 +23555,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SM04B-GHS-TB(LF)(SN)"
-			(at 138.684 973.582 0)
+			(at 138.43 974.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23726,7 +23726,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 155.194 163.322 270)
+		(at 154.94 163.83 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23737,7 +23737,7 @@
 		(fields_autoplaced yes)
 		(uuid "577d3a23-a325-4d08-82a6-661fd88df8b1")
 		(property "Reference" "#PWR058"
-			(at 151.384 163.322 0)
+			(at 151.13 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23748,7 +23748,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 157.734 163.322 90)
+			(at 157.48 163.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23759,7 +23759,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 155.194 163.322 0)
+			(at 154.94 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23770,7 +23770,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 155.194 163.322 0)
+			(at 154.94 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23781,7 +23781,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 155.194 163.322 0)
+			(at 154.94 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23805,7 +23805,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 181.864 186.182 90)
+		(at 181.61 186.69 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23816,7 +23816,7 @@
 		(fields_autoplaced yes)
 		(uuid "597a973f-dba0-4576-ad8c-c1a8bf299028")
 		(property "Reference" "#PWR0128"
-			(at 188.214 186.182 0)
+			(at 187.96 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23827,7 +23827,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 185.674 186.182 90)
+			(at 185.42 186.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23838,7 +23838,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.864 186.182 0)
+			(at 181.61 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23849,7 +23849,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.864 186.182 0)
+			(at 181.61 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23860,7 +23860,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.864 186.182 0)
+			(at 181.61 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23884,7 +23884,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 155.194 186.182 90)
+		(at 154.94 186.69 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23895,7 +23895,7 @@
 		(fields_autoplaced yes)
 		(uuid "5abead00-fec2-41dc-a10f-884bb1fe7931")
 		(property "Reference" "#PWR0127"
-			(at 161.544 186.182 0)
+			(at 161.29 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23906,7 +23906,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 159.004 186.182 90)
+			(at 158.75 186.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23917,7 +23917,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 155.194 186.182 0)
+			(at 154.94 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23928,7 +23928,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 155.194 186.182 0)
+			(at 154.94 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23939,7 +23939,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 155.194 186.182 0)
+			(at 154.94 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23963,7 +23963,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 154.686 105.41 270)
+		(at 154.94 105.41 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23974,7 +23974,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e7541fe-fcd0-4c55-943c-35053902560e")
 		(property "Reference" "#PWR031"
-			(at 150.876 105.41 0)
+			(at 151.13 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23985,7 +23985,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 158.496 105.41 90)
+			(at 158.75 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23996,7 +23996,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.686 105.41 0)
+			(at 154.94 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24007,7 +24007,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.686 105.41 0)
+			(at 154.94 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24018,7 +24018,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 154.686 105.41 0)
+			(at 154.94 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24042,7 +24042,7 @@
 	)
 	(symbol
 		(lib_id "CMAIN_PCB:AT13-4P")
-		(at 54.61 261.112 0)
+		(at 54.61 261.62 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -24053,7 +24053,7 @@
 		(dnp no)
 		(uuid "63d37173-c5dd-4862-ad15-ba0858f6420b")
 		(property "Reference" "J55"
-			(at 49.276 273.304 0)
+			(at 49.53 273.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24064,7 +24064,7 @@
 			)
 		)
 		(property "Value" "${ALTIUM_VALUE}"
-			(at 49.784 257.81 0)
+			(at 49.53 257.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24075,7 +24075,7 @@
 			)
 		)
 		(property "Footprint" "CMAIN_PCB:AT13-4P"
-			(at 39.116 248.92 0)
+			(at 39.37 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24087,7 +24087,7 @@
 			)
 		)
 		(property "Datasheet" "AT13-4P"
-			(at 46.736 251.968 0)
+			(at 46.99 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24110,7 +24110,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER" ""
-			(at 60.198 289.306 0)
+			(at 59.69 289.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24122,7 +24122,7 @@
 			)
 		)
 		(property "SUPPLIER" ""
-			(at 53.848 254.762 0)
+			(at 53.34 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24134,7 +24134,7 @@
 			)
 		)
 		(property "MFR" "Amphenol SINE Systems"
-			(at 59.944 291.846 0)
+			(at 59.69 292.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24146,7 +24146,7 @@
 			)
 		)
 		(property "MPN" "AT13-4P"
-			(at 59.944 294.386 0)
+			(at 59.69 294.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24942,7 +24942,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 181.864 170.942 90)
+		(at 181.61 171.45 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24953,7 +24953,7 @@
 		(fields_autoplaced yes)
 		(uuid "6cecd87d-b1e3-4414-b9bc-a0be128576ca")
 		(property "Reference" "#PWR0123"
-			(at 188.214 170.942 0)
+			(at 187.96 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24964,7 +24964,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 185.674 170.942 90)
+			(at 185.42 171.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24975,7 +24975,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.864 170.942 0)
+			(at 181.61 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24986,7 +24986,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.864 170.942 0)
+			(at 181.61 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24997,7 +24997,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.864 170.942 0)
+			(at 181.61 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25109,7 +25109,7 @@
 		(dnp no)
 		(uuid "6f5473fc-8eae-44d1-a587-bbd86f17b879")
 		(property "Reference" "J32"
-			(at 49.276 203.962 0)
+			(at 49.53 204.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25120,7 +25120,7 @@
 			)
 		)
 		(property "Value" "${ALTIUM_VALUE}"
-			(at 49.784 188.468 0)
+			(at 49.53 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25131,7 +25131,7 @@
 			)
 		)
 		(property "Footprint" "CMAIN_PCB:1814948"
-			(at 39.116 179.578 0)
+			(at 39.37 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25143,7 +25143,7 @@
 			)
 		)
 		(property "Datasheet" "AT13-4P"
-			(at 46.736 182.626 0)
+			(at 46.99 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25155,7 +25155,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 26.67 216.408 0)
+			(at 26.67 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25166,7 +25166,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER" ""
-			(at 60.198 219.964 0)
+			(at 59.69 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25178,7 +25178,7 @@
 			)
 		)
 		(property "SUPPLIER" ""
-			(at 53.848 185.42 0)
+			(at 53.34 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25190,7 +25190,7 @@
 			)
 		)
 		(property "MFR" "Amphenol SINE Systems"
-			(at 59.944 222.504 0)
+			(at 59.69 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25202,7 +25202,7 @@
 			)
 		)
 		(property "MPN" "AT13-4P"
-			(at 59.944 225.044 0)
+			(at 59.69 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25214,7 +25214,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 59.69 227.838 0)
+			(at 59.69 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25689,7 +25689,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 155.194 170.942 90)
+		(at 154.94 171.45 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25700,7 +25700,7 @@
 		(fields_autoplaced yes)
 		(uuid "76ac9256-fb0b-4805-a69b-d3ed1cd3c1f4")
 		(property "Reference" "#PWR062"
-			(at 161.544 170.942 0)
+			(at 161.29 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25711,7 +25711,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 159.004 170.942 90)
+			(at 158.75 171.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25722,7 +25722,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 155.194 170.942 0)
+			(at 154.94 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25733,7 +25733,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 155.194 170.942 0)
+			(at 154.94 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25744,7 +25744,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 155.194 170.942 0)
+			(at 154.94 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26060,7 +26060,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 154.686 107.95 0)
+		(at 154.94 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26070,7 +26070,7 @@
 		(dnp no)
 		(uuid "7b40bccd-837d-4f14-b05b-ed7926a335e6")
 		(property "Reference" "#FLG903"
-			(at 154.686 109.86 0)
+			(at 154.94 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26081,7 +26081,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 154.94 129.286 0)
+			(at 154.94 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26091,7 +26091,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.686 107.95 0)
+			(at 154.94 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26102,7 +26102,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.686 107.95 0)
+			(at 154.94 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26112,7 +26112,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.686 107.95 0)
+			(at 154.94 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27503,7 +27503,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 154.686 105.41 0)
+		(at 154.94 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27513,7 +27513,7 @@
 		(dnp no)
 		(uuid "8abf53cb-418c-41b0-adac-d017427f977c")
 		(property "Reference" "#FLG902"
-			(at 154.686 107.32 0)
+			(at 154.94 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27524,7 +27524,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 154.686 109.22 0)
+			(at 154.94 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27534,7 +27534,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.686 105.41 0)
+			(at 154.94 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27545,7 +27545,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.686 105.41 0)
+			(at 154.94 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27555,7 +27555,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.686 105.41 0)
+			(at 154.94 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27908,7 +27908,7 @@
 			)
 		)
 		(property "Value" "SMTSOM380BTR"
-			(at 287.02 67.3099 0)
+			(at 287.02 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28042,7 +28042,7 @@
 			)
 		)
 		(property "Value" "SMTSOM380BTR"
-			(at 287.02 69.8499 0)
+			(at 287.02 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29390,7 +29390,7 @@
 	)
 	(symbol
 		(lib_id "Samacsys:SM04B-GHS-TB_LF__SN_")
-		(at 181.864 178.562 0)
+		(at 181.61 179.07 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -29401,7 +29401,7 @@
 		(dnp no)
 		(uuid "a78a3dbe-40e2-455c-8c40-26f1be9c7bc8")
 		(property "Reference" "J54"
-			(at 170.434 183.642 0)
+			(at 170.18 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29411,7 +29411,7 @@
 			)
 		)
 		(property "Value" "SM04B-GHS-TB_LF__SN_"
-			(at 175.514 176.022 0)
+			(at 175.26 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29422,7 +29422,7 @@
 			)
 		)
 		(property "Footprint" "CMAIN_PCB:SM04B-GHS-TB"
-			(at 165.354 273.812 0)
+			(at 165.1 274.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29434,7 +29434,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.phoenixcontact.com/de/produkte/1814935/pdf"
-			(at 165.354 372.872 0)
+			(at 165.1 373.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29446,7 +29446,7 @@
 			)
 		)
 		(property "Description" "JST GH Series, 1.25mm Pitch 4 Way Right Angle PCB Header, Solder Termination, 1A"
-			(at 176.784 168.402 0)
+			(at 176.53 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29457,7 +29457,7 @@
 			)
 		)
 		(property "Height" "5.1"
-			(at 165.354 573.532 0)
+			(at 165.1 574.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29469,7 +29469,7 @@
 			)
 		)
 		(property "Mouser Part Number" "N/A"
-			(at 165.354 673.862 0)
+			(at 165.1 674.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29481,7 +29481,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/SM04B-GHS-TBLFSN?qs=QpmGXVUTftEJzKB1YHGCXw%3D%3D"
-			(at 165.354 772.922 0)
+			(at 165.1 773.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29493,7 +29493,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-			(at 165.354 873.252 0)
+			(at 165.1 873.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29505,7 +29505,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SM04B-GHS-TB(LF)(SN)"
-			(at 165.354 973.582 0)
+			(at 165.1 974.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29700,7 +29700,7 @@
 	)
 	(symbol
 		(lib_id "Samacsys:SM04B-GHS-TB_LF__SN_")
-		(at 155.194 163.322 0)
+		(at 154.94 163.83 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -29711,7 +29711,7 @@
 		(dnp no)
 		(uuid "aa231d76-1280-407b-98d8-c3259c2cc333")
 		(property "Reference" "J22"
-			(at 143.764 168.402 0)
+			(at 143.51 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29721,7 +29721,7 @@
 			)
 		)
 		(property "Value" "SM04B-GHS-TB_LF__SN_"
-			(at 148.844 160.782 0)
+			(at 148.59 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29732,7 +29732,7 @@
 			)
 		)
 		(property "Footprint" "CMAIN_PCB:SM04B-GHS-TB"
-			(at 138.684 258.572 0)
+			(at 138.43 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29744,7 +29744,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.phoenixcontact.com/de/produkte/1814935/pdf"
-			(at 138.684 358.902 0)
+			(at 138.43 359.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29756,7 +29756,7 @@
 			)
 		)
 		(property "Description" "JST GH Series, 1.25mm Pitch 4 Way Right Angle PCB Header, Solder Termination, 1A"
-			(at 150.114 154.432 0)
+			(at 149.86 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29767,7 +29767,7 @@
 			)
 		)
 		(property "Height" "5.1"
-			(at 138.684 558.292 0)
+			(at 138.43 558.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29779,7 +29779,7 @@
 			)
 		)
 		(property "Mouser Part Number" "N/A"
-			(at 138.684 658.622 0)
+			(at 138.43 659.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29791,7 +29791,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/SM04B-GHS-TBLFSN?qs=QpmGXVUTftEJzKB1YHGCXw%3D%3D"
-			(at 138.684 758.952 0)
+			(at 138.43 759.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29803,7 +29803,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-			(at 138.684 858.012 0)
+			(at 138.43 858.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29815,7 +29815,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SM04B-GHS-TB(LF)(SN)"
-			(at 138.684 958.342 0)
+			(at 138.43 958.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29932,7 +29932,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 70.104 143.51 0)
+		(at 69.85 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29942,7 +29942,7 @@
 		(dnp no)
 		(uuid "b21b5508-0b5e-4fe8-9ed5-a1c9eed4cebc")
 		(property "Reference" "#PWR0236"
-			(at 70.104 147.32 0)
+			(at 69.85 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29953,7 +29953,7 @@
 			)
 		)
 		(property "Value" "5V_1"
-			(at 70.104 139.7 0)
+			(at 69.85 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29963,7 +29963,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 70.104 143.51 0)
+			(at 69.85 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29974,7 +29974,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 70.104 143.51 0)
+			(at 69.85 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29985,7 +29985,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 70.104 143.51 0)
+			(at 69.85 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30719,7 +30719,7 @@
 		(dnp no)
 		(uuid "c3c77b3b-d926-4c9c-b3d3-ac7044006d4a")
 		(property "Reference" "J27"
-			(at 49.276 186.182 0)
+			(at 49.53 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30730,7 +30730,7 @@
 			)
 		)
 		(property "Value" "${ALTIUM_VALUE}"
-			(at 49.784 170.688 0)
+			(at 49.53 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30741,7 +30741,7 @@
 			)
 		)
 		(property "Footprint" "CMAIN_PCB:1814948"
-			(at 39.116 161.798 0)
+			(at 39.37 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30753,7 +30753,7 @@
 			)
 		)
 		(property "Datasheet" "AT13-4P"
-			(at 46.736 164.846 0)
+			(at 46.99 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30765,7 +30765,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 26.67 198.628 0)
+			(at 26.67 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30776,7 +30776,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER" ""
-			(at 60.198 202.184 0)
+			(at 59.69 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30788,7 +30788,7 @@
 			)
 		)
 		(property "SUPPLIER" ""
-			(at 53.848 167.64 0)
+			(at 53.34 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30800,7 +30800,7 @@
 			)
 		)
 		(property "MFR" "Amphenol SINE Systems"
-			(at 59.944 204.724 0)
+			(at 59.69 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30812,7 +30812,7 @@
 			)
 		)
 		(property "MPN" "AT13-4P"
-			(at 59.944 207.264 0)
+			(at 59.69 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30824,7 +30824,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 59.69 210.058 0)
+			(at 59.69 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31244,7 +31244,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 181.864 178.562 270)
+		(at 181.61 179.07 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31255,7 +31255,7 @@
 		(fields_autoplaced yes)
 		(uuid "d09e2d3f-78d1-44b4-a066-011f5dff3598")
 		(property "Reference" "#PWR0125"
-			(at 178.054 178.562 0)
+			(at 177.8 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31266,7 +31266,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 184.404 178.562 90)
+			(at 184.15 179.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31277,7 +31277,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.864 178.562 0)
+			(at 181.61 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31288,7 +31288,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.864 178.562 0)
+			(at 181.61 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31299,7 +31299,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 181.864 178.562 0)
+			(at 181.61 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32260,7 +32260,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 155.194 178.562 270)
+		(at 154.94 179.07 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32271,7 +32271,7 @@
 		(fields_autoplaced yes)
 		(uuid "e773594e-2272-4f51-9fbb-fb2d32469b1c")
 		(property "Reference" "#PWR0124"
-			(at 151.384 178.562 0)
+			(at 151.13 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32282,7 +32282,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 157.734 178.562 90)
+			(at 157.48 179.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32293,7 +32293,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 155.194 178.562 0)
+			(at 154.94 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32304,7 +32304,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 155.194 178.562 0)
+			(at 154.94 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32315,7 +32315,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 155.194 178.562 0)
+			(at 154.94 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32700,7 +32700,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 54.61 266.192 90)
+		(at 54.61 266.7 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -32712,7 +32712,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9921861-9e9e-445b-82c3-f85251c613ff")
 		(property "Reference" "#PWR076"
-			(at 60.96 266.192 0)
+			(at 60.96 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32723,7 +32723,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 266.192 90)
+			(at 58.42 266.7 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32734,7 +32734,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 266.192 0)
+			(at 54.61 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32745,7 +32745,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 266.192 0)
+			(at 54.61 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32756,7 +32756,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 266.192 0)
+			(at 54.61 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32859,7 +32859,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 144.272 90)
+		(at 147.32 144.78 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32870,7 +32870,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee3d347d-1b3a-4b7a-819e-305b6e6d089a")
 		(property "Reference" "#PWR039"
-			(at 153.67 144.272 0)
+			(at 153.67 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32881,7 +32881,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.13 144.272 90)
+			(at 151.13 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32892,7 +32892,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 144.272 0)
+			(at 147.32 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32903,7 +32903,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 144.272 0)
+			(at 147.32 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32914,7 +32914,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 144.272 0)
+			(at 147.32 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34111,7 +34111,7 @@
 		(dnp no)
 		(uuid "fdba09aa-d7f0-48ec-b018-760a71896686")
 		(property "Reference" "J40"
-			(at 49.276 220.472 0)
+			(at 49.53 220.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34122,7 +34122,7 @@
 			)
 		)
 		(property "Value" "${ALTIUM_VALUE}"
-			(at 49.784 204.978 0)
+			(at 49.53 204.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34133,7 +34133,7 @@
 			)
 		)
 		(property "Footprint" "CMAIN_PCB:1814948"
-			(at 39.116 196.088 0)
+			(at 39.37 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34145,7 +34145,7 @@
 			)
 		)
 		(property "Datasheet" "AT13-4P"
-			(at 46.736 199.136 0)
+			(at 46.99 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34157,7 +34157,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 26.67 232.918 0)
+			(at 26.67 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34168,7 +34168,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER" ""
-			(at 60.198 236.474 0)
+			(at 59.69 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34180,7 +34180,7 @@
 			)
 		)
 		(property "SUPPLIER" ""
-			(at 53.848 201.93 0)
+			(at 53.34 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34192,7 +34192,7 @@
 			)
 		)
 		(property "MFR" "Amphenol SINE Systems"
-			(at 59.944 239.014 0)
+			(at 59.69 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34204,7 +34204,7 @@
 			)
 		)
 		(property "MPN" "AT13-4P"
-			(at 59.944 241.554 0)
+			(at 59.69 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34216,7 +34216,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 59.69 244.348 0)
+			(at 59.69 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34504,7 +34504,7 @@
 		)
 	)
 	(sheet
-		(at 190.246 246.888)
+		(at 190.5 246.38)
 		(size 38.1 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34520,7 +34520,7 @@
 		)
 		(uuid "002c9034-3e37-4b7e-9bfc-c61c7c67d734")
 		(property "Sheetname" "Power_supply"
-			(at 190.246 246.1764 0)
+			(at 190.5 246.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34531,7 +34531,7 @@
 			)
 		)
 		(property "Sheetfile" "power_supply.kicad_sch"
-			(at 190.246 272.8726 0)
+			(at 190.5 273.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34596,7 +34596,7 @@
 		)
 	)
 	(sheet
-		(at 139.446 246.888)
+		(at 139.7 246.38)
 		(size 38.1 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34612,7 +34612,7 @@
 		)
 		(uuid "6f7110fd-2fa0-40a7-819e-80dc3167296a")
 		(property "Sheetname" "Power_control"
-			(at 139.446 246.1764 0)
+			(at 139.7 246.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34623,7 +34623,7 @@
 			)
 		)
 		(property "Sheetfile" "Power_control.kicad_sch"
-			(at 139.446 272.8726 0)
+			(at 139.7 273.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
