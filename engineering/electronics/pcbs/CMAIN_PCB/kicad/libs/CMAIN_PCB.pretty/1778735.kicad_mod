@@ -1,0 +1,303 @@
+(footprint "1778735"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "1778735")
+	(tags "Connector")
+	(property "Reference" "REF**"
+		(at 0.05 6.5 0)
+		(layer "F.SilkS")
+		(uuid "7175c00d-a038-4aca-9126-c0381fb821fc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "1778735"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "41fb471d-5e01-475e-a6b6-19fdc1045b44")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.phoenixcontact.com/de/produkte/1778735/pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dfb8c8ff-07e3-4d64-bfe4-66c0627670bf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "PCB header, nominal cross section: 0.5 mm?, color: white, nominal current: 6 A, rated voltage (III/2): 160 V, contact surface: Tin, type of contact: Male connector, Number of potentials: 6, Number of rows: 1, Number of positions per row: 6, number of connections: 6, product range: PTSM 0,5/..-HV-SMD WH, pitch: 2.5 mm, mounting: SMD soldering, pin layout: Linear pad geometry, solder pin [P]: 2 mm, Stecksystem: COMBICON COMPACT PTSM, Locking: without, type of packaging: 44 mm wide tape, Article with anti-rota"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9564abe5-708f-4a2d-953b-701feda5bb63")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "7.65"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea938382-fd6a-446c-b31d-65039cce0101")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "651-1778735"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fbbe01bb-e561-41cd-813b-5b794aba57ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1778735?qs=o1waKiAPAqcXgH7sF%252BQdVA%3D%3D"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a42e190-e4a1-44e2-9de1-c7c18fcd4ffa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Phoenix Contact"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1691e5db-9f0f-49de-b2ee-c50615d5f310")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "1778735"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad6040b2-484b-4206-8c69-190db0a338ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetfile "CMAIN_PCB.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center -8.1 1)
+		(end -8.1 1.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "de7e070d-94b6-4e12-a1f4-6ad957a245da")
+	)
+	(fp_line
+		(start -11.45 -6.3)
+		(end 11.45 -6.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7e42bd5a-2e34-4da5-bb11-90a85c9f7ebb")
+	)
+	(fp_line
+		(start -11.45 3)
+		(end -11.45 -6.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "36e6393f-ec82-4ec4-a74b-3af6919295c5")
+	)
+	(fp_line
+		(start 11.45 -6.3)
+		(end 11.45 3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "040c5172-1b8a-4bba-9731-8f4ed45e76a2")
+	)
+	(fp_line
+		(start 11.45 3)
+		(end -11.45 3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d500daaf-4514-4df8-8eae-e58a4744b41b")
+	)
+	(fp_line
+		(start -10.3 -5.2)
+		(end 10.3 -5.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ab282e3a-ec3a-4337-becd-8c6c9ac5cdc2")
+	)
+	(fp_line
+		(start -10.3 -0.2)
+		(end -10.3 -5.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "effe0b43-34c8-4e33-8828-7515e80d2071")
+	)
+	(fp_line
+		(start 10.3 -5.2)
+		(end 10.3 -0.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b1bfee90-b86d-4982-bb95-1572a138cfdf")
+	)
+	(fp_line
+		(start 10.3 -0.2)
+		(end -10.3 -0.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d0770c71-0c19-402c-923c-9e43f7babdfd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "31665e9a-ca13-44c9-b43d-97c0c6cc0f01")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "" smd rect
+		(at -9.55 -2.7)
+		(size 2.2 5.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(zone_connect 0)
+		(uuid "9b433a3e-fc2e-4617-9c92-ae4358c0d7d1")
+	)
+	(pad "" np_thru_hole circle
+		(at -7.65 -0.6)
+		(size 1 1)
+		(drill 1)
+		(layers "*.Mask" "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu")
+		(zone_connect 0)
+		(uuid "38ccd75d-2448-41bd-8266-53ec82446bdf")
+	)
+	(pad "" np_thru_hole circle
+		(at 7.65 -0.6)
+		(size 1 1)
+		(drill 1)
+		(layers "*.Mask" "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu")
+		(zone_connect 0)
+		(uuid "c1185be5-3025-49e7-969c-c44051dc5b5a")
+	)
+	(pad "" smd rect
+		(at 9.55 -2.7)
+		(size 2.2 5.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(zone_connect 0)
+		(uuid "356173cf-c1e4-4b17-9c3b-82d600173c5c")
+	)
+	(pad "1" smd rect
+		(at -6.25 0)
+		(size 1.2 4.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "52a065d9-54cd-430a-ba48-2b422c33bbce")
+	)
+	(pad "2" smd rect
+		(at -3.75 0)
+		(size 1.2 4.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e5b517b3-7bee-40a4-be0d-681f357e6812")
+	)
+	(pad "3" smd rect
+		(at -1.25 0)
+		(size 1.2 4.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e59a20a1-64ff-4a33-9984-8918c1a70653")
+	)
+	(pad "4" smd rect
+		(at 1.25 0)
+		(size 1.2 4.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6dbd8b31-36e1-4d4c-8c3d-f263df9717f2")
+	)
+	(pad "5" smd rect
+		(at 3.75 0)
+		(size 1.2 4.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "89b5d11b-a6bd-4813-8b72-78936806f595")
+	)
+	(pad "6" smd rect
+		(at 6.25 0)
+		(size 1.2 4.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5921cd5d-75e7-4962-9332-848b4fc19c5d")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/1778735.stp"
+		(offset
+			(xyz -8.350000256 0.2 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

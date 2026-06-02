@@ -286,233 +286,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib:EEFCX1E220R"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "22uF"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "EasyEDA_Lib:CAP-SMD_L7.3-W4.3-RD_PA300LV227M0J"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://item.szlcsc.com/datasheet/EEFCX1E220R/3531718.html"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Capacitance:22uF Tolerance:±20% Tolerance:±20% Voltage Rating:25V Ripple Current:3.2A@100kHz Equivalent Series Resistance(ESR):40mΩ Type:Polymer Height - Seated (Max):1.9mm Lifetime:2000hrs@105°C Operating Temperature:-55°C~+105°C Operating Temperature:-55°C~"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part" "EEFCX1E220R"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "PANASONIC(松下)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier Part" "C3018707"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part Name" "22uF ±20% 25V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "EEFCX1E220R_1_0"
-				(arc
-					(start -1.143 1.778)
-					(mid -0.4065 0.0179)
-					(end -1.1176 -1.7526)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.778) (xy 0.508 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 1.778) (xy 1.778 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_JLCPCB-Diodes:TVS-Bi,SMBJ13CA"
 			(pin_numbers
 				(hide yes)
@@ -951,232 +724,6 @@
 					(at 17.78 0 180)
 					(length 5.08)
 					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Samacsys:MMSZ5242B-E3-08"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Z"
-				(at 10.16 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "MMSZ5242B-E3-08"
-				(at 10.16 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "Samacsys:SOD3716X135N"
-				(at 10.16 -93.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/85774/mmsz5225.pdf"
-				(at 10.16 -193.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "Zener Diodes 12 Volt 0.5 Watt 5%"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "1.35"
-				(at 10.16 -393.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" "78-MMSZ5242B-E3-08"
-				(at 10.16 -493.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/MMSZ5242B-E3-08?qs=S660mHfF5o2owmqrKkpQng%3D%3D"
-				(at 10.16 -593.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "Vishay"
-				(at 10.16 -693.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "MMSZ5242B-E3-08"
-				(at 10.16 -793.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "MMSZ5242B-E3-08_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0.635) (xy 2.54 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0.635) (xy 3.175 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 4.445 0.635) (xy 4.445 -0.635) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -0.635) (xy 1.905 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 4.445 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2082,580 +1629,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Snapeda:ES3D_C241735"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ES3D"
-				(at 0 -2.286 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "EasyEDA_Lib:SMC_L7.1-W6.2-LS8.1-RD"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://item.szlcsc.com/datasheet/ES3D/240575.html"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Diode Configuration:- Voltage - Forward(Vf@If):950mV@3A Voltage - DC Reverse(Vr):200V Current - Rectified:3A Reverse Leakage Current (Ir):10uA@200V Non-Repetitive Peak Forward Surge Current:100A Operating Junction Temperature Range:-50°C~+150°C Operating Ju"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part" "ES3D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "onsemi(安森美)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier Part" "C241735"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part Name" "ES3D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "ES3D_C241735_1_0"
-				(polyline
-					(pts
-						(xy -1.27 -1.524) (xy -1.27 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.524) (xy -1.27 0) (xy -1.27 0) (xy 1.27 -1.524) (xy 1.27 -1.524) (xy 1.27 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Snapeda:SIR570DP-T1-RE3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SIR570DP-T1-RE3"
-				(at 7.62 -1.524 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 0.5 0.5)
-					)
-				)
-			)
-			(property "Footprint" "EasyEDA_Lib:POWERPAK-SO-8_L5.9-W4.9-P1.27-LS6.2-BL"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://item.szlcsc.com/datasheet/SIR570DP-T1-RE3/3842461.html"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Number:1 N-Channel Drain to Source Voltage:150V Current - Continuous Drain(Id):77.4A RDS(on):8.5mΩ@7.5V Pd - Power Dissipation:45W Gate Threshold Voltage (Vgs(th)):4V@250uA Gate Charge(Qg):71nC@10V Input Capacitance(Ciss):3.74nF Reverse Transfer Capacitan"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part" "SIR570DP-T1-RE3"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "VISHAY(威世)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier Part" "C3279563"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part Name" "1个N沟道 耐压:150V 电流:77.4A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SIR570DP-T1-RE3_1_0"
-				(polyline
-					(pts
-						(xy -5.588 0) (xy -3.048 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 2.286) (xy -3.048 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.286) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.778) (xy 0 1.778) (xy 0 1.778) (xy 0 2.54) (xy 0 2.54) (xy 7.62 2.54) (xy 7.62 2.54)
-						(xy 2.54 2.54) (xy 2.54 2.54) (xy 2.54 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.016 0.508) (xy -1.016 0.508) (xy -1.016 -0.508) (xy -1.016 -0.508) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0 0) (xy 0 0) (xy 0 -2.54) (xy 0 -2.54) (xy 5.08 -2.54) (xy 5.08 -2.54) (xy 2.54 -2.54)
-						(xy 2.54 -2.54) (xy 2.54 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -0.508) (xy -2.54 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.286) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.778) (xy -2.54 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0.508) (xy 1.778 -0.762) (xy 1.778 -0.762) (xy 3.302 -0.762) (xy 3.302 -0.762) (xy 2.54 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.556 0.508) (xy 3.048 0.508) (xy 3.048 0.508) (xy 2.032 0.508) (xy 2.032 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.032)
-					(name "G"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Snapeda:SIRA99DP-T1-GE3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3503,19 +2476,6 @@
 		(uuid "433d148a-0fa9-4106-a591-d21eba7bad51")
 	)
 	(rectangle
-		(start 64.262 121.158)
-		(end 224.79 160.401)
-		(stroke
-			(width 0.5)
-			(type solid)
-			(color 32 30 101 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "b87bc6af-c1c7-458b-81ad-1d13f9e55639")
-	)
-	(rectangle
 		(start 64.262 39.116)
 		(end 224.282 78.359)
 		(stroke
@@ -3528,16 +2488,6 @@
 		)
 		(uuid "c811404e-5dc1-4352-a624-c444d34b6c2a")
 	)
-	(text "N-Channel"
-		(exclude_from_sim no)
-		(at 198.12 139.7 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-		)
-		(uuid "0f74654c-e283-4a3d-a1e3-c21757196285")
-	)
 	(text "P-Channel"
 		(exclude_from_sim no)
 		(at 199.39 64.77 0)
@@ -3547,16 +2497,6 @@
 			)
 		)
 		(uuid "18998f95-7ed8-4a30-9197-f9905d383553")
-	)
-	(text "Additional HV connector"
-		(exclude_from_sim no)
-		(at 78.74 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "39eafbba-32f0-4a6d-90da-4f19b5c9c868")
 	)
 	(text "12V switch for payload DC motor"
 		(exclude_from_sim no)
@@ -3589,34 +2529,10 @@
 		(uuid "c9f058c2-0e00-4281-aeab-26c56907b819")
 	)
 	(junction
-		(at 121.92 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "047e9b3c-8d9b-4d9b-a75b-8523bf543097")
-	)
-	(junction
 		(at 213.36 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06af0eac-0e01-429f-a470-80cab93539a6")
-	)
-	(junction
-		(at 191.77 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "08c45de3-7705-49f9-b83d-233b355463b5")
-	)
-	(junction
-		(at 186.69 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ab77b86-4ac1-4402-9a43-4a2d1002a110")
-	)
-	(junction
-		(at 186.69 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "14ea2305-c010-46a2-82c7-354a423fb1ee")
 	)
 	(junction
 		(at 189.23 52.07)
@@ -3643,28 +2559,10 @@
 		(uuid "43eaba8e-5287-47d6-bea2-66908081fdc5")
 	)
 	(junction
-		(at 173.99 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6926e975-d49d-459a-abb2-620ad75c96df")
-	)
-	(junction
 		(at 213.36 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c6da8f8-5b2e-4af8-99ff-7b9ee760e97f")
-	)
-	(junction
-		(at 121.92 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "79ae69c4-6e8d-4c58-b7af-aaff6ff0be01")
-	)
-	(junction
-		(at 132.08 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "823ed168-361f-4d48-bb56-a5a2bbe1f552")
 	)
 	(junction
 		(at 210.82 101.6)
@@ -3697,18 +2595,6 @@
 		(uuid "94f5989d-3ca4-4cdf-b45b-011ee703c5ee")
 	)
 	(junction
-		(at 173.99 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9dd02e38-3a43-4622-aed4-3509002e57a5")
-	)
-	(junction
-		(at 171.45 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e9d30fb-dbc8-45a1-ac8d-393946a20300")
-	)
-	(junction
 		(at 208.28 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3719,12 +2605,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1c87150-10a2-4939-b756-e286b804eb27")
-	)
-	(junction
-		(at 196.85 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b2558d46-0a88-4723-b11b-d16c607dd327")
 	)
 	(junction
 		(at 162.56 66.04)
@@ -3757,28 +2637,10 @@
 		(uuid "e088fcca-56c8-4db9-83dd-4a3502d2b35e")
 	)
 	(junction
-		(at 196.85 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e32ee079-5150-46cf-8b40-13d075640ed1")
-	)
-	(junction
 		(at 198.12 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8451c61-8e05-4401-a2b2-7bdc770ff3ac")
-	)
-	(junction
-		(at 186.69 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eed0c8fe-77ce-4eea-a978-5ead9c174f63")
-	)
-	(junction
-		(at 187.96 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f32c4d0c-214e-4c3c-83ab-d8e882365a34")
 	)
 	(junction
 		(at 162.56 101.6)
@@ -3798,16 +2660,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 144.78) (xy 85.09 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a9366d1-97e8-4c8d-9fac-5070b1ac4f50")
-	)
-	(wire
-		(pts
 			(xy 177.8 83.82) (xy 185.42 83.82)
 		)
 		(stroke
@@ -3815,26 +2667,6 @@
 			(type default)
 		)
 		(uuid "0e8d205a-9950-4cfb-82ff-1f2520def85c")
-	)
-	(wire
-		(pts
-			(xy 173.99 137.16) (xy 173.99 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13912c31-3d91-4326-a158-a2c0c88fa656")
-	)
-	(wire
-		(pts
-			(xy 186.69 146.05) (xy 186.69 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19a049e3-8883-4e6c-8e5a-30eb4383800a")
 	)
 	(wire
 		(pts
@@ -3855,16 +2687,6 @@
 			(type default)
 		)
 		(uuid "244b3691-406b-476b-8cb9-3087f0325db9")
-	)
-	(wire
-		(pts
-			(xy 187.96 137.16) (xy 187.96 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29a73fa7-d4b4-4f9d-8c80-d2e84af5e3ae")
 	)
 	(wire
 		(pts
@@ -3918,16 +2740,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 138.43) (xy 121.92 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3564b170-9a7b-4eea-9be5-92521ea6c6b1")
-	)
-	(wire
-		(pts
 			(xy 201.93 83.82) (xy 208.28 83.82)
 		)
 		(stroke
@@ -3935,16 +2747,6 @@
 			(type default)
 		)
 		(uuid "3635218a-8ffd-46b9-8479-7fe800b7ccb1")
-	)
-	(wire
-		(pts
-			(xy 132.08 134.62) (xy 132.08 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36909130-e3a9-415f-81d6-40fd141c2363")
 	)
 	(wire
 		(pts
@@ -3978,16 +2780,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 59.69) (xy 77.47 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "456e6c36-2af8-4665-b3c2-2aca751c1f32")
-	)
-	(wire
-		(pts
 			(xy 163.83 52.07) (xy 172.72 52.07)
 		)
 		(stroke
@@ -4008,16 +2800,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 133.35) (xy 160.02 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "483a7dae-ee66-46d3-80d2-14c124566409")
-	)
-	(wire
-		(pts
 			(xy 195.58 69.85) (xy 198.12 69.85)
 		)
 		(stroke
@@ -4028,16 +2810,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 140.97) (xy 173.99 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bfb848a-1051-422c-9108-f8af362303f4")
-	)
-	(wire
-		(pts
 			(xy 198.12 87.63) (xy 201.93 87.63)
 		)
 		(stroke
@@ -4045,16 +2817,6 @@
 			(type default)
 		)
 		(uuid "4d7acded-4ebb-4511-9527-8f70880719e4")
-	)
-	(wire
-		(pts
-			(xy 132.08 138.43) (xy 135.89 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50e58257-c266-488a-8db1-9cdf39bfd338")
 	)
 	(wire
 		(pts
@@ -4075,16 +2837,6 @@
 			(type default)
 		)
 		(uuid "54eb33c0-ce5e-467c-a6bd-5941f3cc67a3")
-	)
-	(wire
-		(pts
-			(xy 176.53 133.35) (xy 173.99 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "569b705d-496a-4607-b7fa-b733a719e9d0")
 	)
 	(wire
 		(pts
@@ -4138,16 +2890,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 140.97) (xy 201.93 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7312df59-4d15-40de-b065-95bc28df807f")
-	)
-	(wire
-		(pts
 			(xy 213.36 101.6) (xy 215.9 101.6)
 		)
 		(stroke
@@ -4158,16 +2900,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 140.97) (xy 173.99 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "784bb1ad-7bfc-4911-8857-dfd1ac04075f")
-	)
-	(wire
-		(pts
 			(xy 195.58 52.07) (xy 195.58 54.61)
 		)
 		(stroke
@@ -4175,16 +2907,6 @@
 			(type default)
 		)
 		(uuid "7c77cb9c-2543-4dca-8e87-40486873f2c0")
-	)
-	(wire
-		(pts
-			(xy 121.92 134.62) (xy 121.92 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cceb4e9-451a-4c8f-8ef5-b195cf5eaa0b")
 	)
 	(wire
 		(pts
@@ -4208,26 +2930,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 140.97) (xy 171.45 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88b71ae1-a7fe-41a3-8a6e-2899413b1bed")
-	)
-	(wire
-		(pts
-			(xy 173.99 151.13) (xy 175.26 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cd234bf-d904-4896-8a4f-6d6735acf36e")
-	)
-	(wire
-		(pts
 			(xy 77.47 101.6) (xy 85.09 101.6)
 		)
 		(stroke
@@ -4238,46 +2940,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 137.16) (xy 173.99 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "927302c8-40c9-4a1b-9839-be318ee47c19")
-	)
-	(wire
-		(pts
-			(xy 186.69 140.97) (xy 186.69 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93897b5e-5d88-4d1f-bb0d-784e55196fc7")
-	)
-	(wire
-		(pts
-			(xy 196.85 143.51) (xy 196.85 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0aab01b-54b6-4585-8fab-1a619aff8170")
-	)
-	(wire
-		(pts
-			(xy 187.96 133.35) (xy 191.77 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4c2ecea-263f-46ac-97e0-5a49bc963d1a")
-	)
-	(wire
-		(pts
 			(xy 215.9 83.82) (xy 218.44 83.82)
 		)
 		(stroke
@@ -4285,16 +2947,6 @@
 			(type default)
 		)
 		(uuid "a5749809-1cc4-43b6-851d-65661b90b143")
-	)
-	(wire
-		(pts
-			(xy 184.15 137.16) (xy 187.96 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7c40a06-b465-4163-899e-a27d0fd17bd3")
 	)
 	(wire
 		(pts
@@ -4338,16 +2990,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 142.24) (xy 121.92 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c420b3ec-dd95-41a3-9397-997829a10fc0")
-	)
-	(wire
-		(pts
 			(xy 210.82 101.6) (xy 213.36 101.6)
 		)
 		(stroke
@@ -4388,16 +3030,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 140.97) (xy 186.69 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d526309b-09c0-44ca-a9ff-ada3276c2b11")
-	)
-	(wire
-		(pts
 			(xy 208.28 83.82) (xy 208.28 86.36)
 		)
 		(stroke
@@ -4405,16 +3037,6 @@
 			(type default)
 		)
 		(uuid "d8076e3a-f62c-433d-8e30-5d433d0c0b60")
-	)
-	(wire
-		(pts
-			(xy 186.69 143.51) (xy 186.69 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db6bcd5e-4c2d-4bf2-8a6d-bc2071170e4d")
 	)
 	(wire
 		(pts
@@ -4438,36 +3060,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 138.43) (xy 132.08 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "deacf0be-ed81-4dbd-932f-66534a0907ec")
-	)
-	(wire
-		(pts
-			(xy 184.15 133.35) (xy 187.96 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3c8e926-8dd3-43dc-8494-7e90ad649c53")
-	)
-	(wire
-		(pts
-			(xy 121.92 142.24) (xy 124.46 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4b94aa0-c8cf-46d0-8160-f4c9304121b1")
-	)
-	(wire
-		(pts
 			(xy 208.28 101.6) (xy 210.82 101.6)
 		)
 		(stroke
@@ -4475,16 +3067,6 @@
 			(type default)
 		)
 		(uuid "e60ceec0-3dc7-432f-8858-3193e78c49b8")
-	)
-	(wire
-		(pts
-			(xy 199.39 133.35) (xy 200.66 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e941af52-73ad-4124-96e9-66cc8fd41539")
 	)
 	(wire
 		(pts
@@ -4498,16 +3080,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 142.24) (xy 132.08 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec4a6fe9-5320-4f96-ba62-ee2e64a7f072")
-	)
-	(wire
-		(pts
 			(xy 189.23 52.07) (xy 195.58 52.07)
 		)
 		(stroke
@@ -4515,36 +3087,6 @@
 			(type default)
 		)
 		(uuid "f2ae8d44-9db6-42e0-9481-6b3d7ec7a94d")
-	)
-	(wire
-		(pts
-			(xy 196.85 140.97) (xy 196.85 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3c36d50-59ea-4ff6-9107-acac3fed0998")
-	)
-	(label "CS3"
-		(at 200.66 133.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3d2eb551-5aa8-4c64-b5c3-37b53e71fee0")
-	)
-	(label "CS3"
-		(at 120.65 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6de853a3-d9da-4d9c-afab-9272f20acf53")
 	)
 	(label "CS1"
 		(at 204.47 52.07 0)
@@ -4586,126 +3128,6 @@
 		)
 		(uuid "f5f32d82-0cb1-4c7f-9905-3d6ec4d3fde8")
 	)
-	(global_label "HV-"
-		(shape input)
-		(at 160.02 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0b1e979c-6010-482e-b73b-09e68c7e358e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.4 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "HV-"
-		(shape input)
-		(at 201.93 140.97 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2a9d5542-22dc-4ef7-993f-24f57c5d0b13")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.28 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "HV+"
-		(shape input)
-		(at 171.45 151.13 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "416fca89-532a-46d6-96d1-fba4aa540f16")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.45 157.48 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "IO_CH7"
-		(shape input)
-		(at 77.47 142.24 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6e56d467-ed6f-483c-8b8c-e07d0a0a0223")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.31 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "AC_HV-"
-		(shape input)
-		(at 168.91 140.97 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "836368f7-47d7-48ca-9441-30409f91c737")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.75 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "FMU_CH2"
 		(shape input)
 		(at 77.47 59.69 180)
@@ -4727,54 +3149,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "HV-"
-		(shape input)
-		(at 135.89 138.43 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "accdd34d-f9ab-40df-a1c9-e6c11ba278e9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.24 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "HV+"
-		(shape input)
-		(at 135.89 142.24 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dd66a745-91fc-486f-9bfb-f52fbf5cf3f1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.24 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -4823,30 +3197,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "HV+"
-		(shape input)
-		(at 200.66 151.13 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f5949366-bc07-4473-979e-4725b5d9b8c6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.28 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -4962,7 +3312,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 152.4 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -5122,7 +3472,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 194.31 81.28 90)
 			(hide yes)
 			(show_name no)
@@ -5201,7 +3551,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Samacsys:SOP254P610X218-4N"
+		(property "Footprint" "CMAIN_PCB:SOP254P610X218-4N"
 			(at 116.84 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -5349,7 +3699,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:POWERPAK-SO-8_L5.9-W4.9-P1.27-LS6.2-BL"
+		(property "Footprint" "CMAIN_PCB:POWERPAK-SO-8_L5.9-W4.9-P1.27-LS6.2-BL"
 			(at 198.12 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5561,7 +3911,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Samacsys:0154002DR"
+		(property "Footprint" "CMAIN_PCB:0154002DR"
 			(at 180.34 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -5782,7 +4132,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SMB"
+		(property "Footprint" "CMAIN_PCB:D_SMB"
 			(at 194.31 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -6021,168 +4371,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 189.23 151.13 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "57ae1be6-45cf-4247-b14e-e0cfe7b9ca1b")
-		(property "Reference" "R31"
-			(at 191.77 153.67 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "15K"
-			(at 191.77 151.13 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 189.23 152.4 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 189.23 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c94b555f-3fdc-497e-af68-c172df0b0ca4")
-		)
-		(pin "1"
-			(uuid "8a1bf450-3617-4133-ba0d-49a1796740bd")
-		)
-		(instances
-			(project "CMAIN_PCB"
-				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311/6f7110fd-2fa0-40a7-819e-80dc3167296a"
-					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 195.58 133.35 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5a7d6631-0906-47e1-85eb-fe8f99867638")
-		(property "Reference" "R22"
-			(at 196.85 130.81 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100R"
-			(at 198.12 133.35 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 195.58 134.62 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 195.58 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ba77785b-f641-4875-bb9c-720fd5feb0d2")
-		)
-		(pin "1"
-			(uuid "ce5108c6-c1ea-44b3-a9ad-229251a48e3a")
-		)
-		(instances
-			(project "CMAIN_PCB"
-				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311/6f7110fd-2fa0-40a7-819e-80dc3167296a"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 181.61 52.07 270)
 		(unit 1)
 		(body_style 1)
@@ -6214,7 +4402,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 181.61 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -6263,141 +4451,6 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:EEFCX1E220R")
-		(at 127 134.62 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6f0e57ad-84bd-4805-9365-5454420786d0")
-		(property "Reference" "C19"
-			(at 127 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22uF"
-			(at 127 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EasyEDA_Lib:CAP-SMD_L7.3-W4.3-RD_PA300LV227M0J"
-			(at 127 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/EEFCX1E220R/3531718.html"
-			(at 127 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Capacitance:22uF Tolerance:±20% Tolerance:±20% Voltage Rating:25V Ripple Current:3.2A@100kHz Equivalent Series Resistance(ESR):40mΩ Type:Polymer Height - Seated (Max):1.9mm Lifetime:2000hrs@105°C Operating Temperature:-55°C~+105°C Operating Temperature:-55°C~"
-			(at 127 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "EEFCX1E220R"
-			(at 127 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "PANASONIC(松下)"
-			(at 127 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part" "C3018707"
-			(at 127 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 127 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part Name" "22uF ±20% 25V"
-			(at 127 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "39ab11eb-97ee-47e1-9037-73cf3410ee33")
-		)
-		(pin "1"
-			(uuid "83aadbc1-9df8-482a-ba92-f9ff7de0dc0b")
-		)
-		(instances
-			(project "CMAIN_PCB"
-				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311/6f7110fd-2fa0-40a7-819e-80dc3167296a"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Snapeda:SIRA99DP-T1-GE3")
 		(at 210.82 93.98 270)
 		(unit 1)
@@ -6429,7 +4482,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:POWERPAK-SO-8_L5.9-W4.9-P1.27-LS6.2-BL"
+		(property "Footprint" "CMAIN_PCB:POWERPAK-SO-8_L5.9-W4.9-P1.27-LS6.2-BL"
 			(at 210.82 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -6611,153 +4664,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Samacsys_kicad_sym:CPC1019N")
-		(at 85.09 142.24 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "78833af9-80a8-441c-8b8c-35870b3f634c")
-		(property "Reference" "K3"
-			(at 91.44 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CPC1019N"
-			(at 102.87 149.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Samacsys:SOP254P610X218-4N"
-			(at 116.84 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 337.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "SPST-NO Solid State Relay Solder 1 A, 750 mA dc Surface Mount, AC/DC MOSFET"
-			(at 85.09 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "2.184"
-			(at 116.84 537.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "849-CPC1019N"
-			(at 116.84 637.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/IXYS-Integrated-Circuits/CPC1019N?qs=OpMkDkHXivODOFSk3K4MqQ%3D%3D"
-			(at 116.84 737.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "LITTELFUSE"
-			(at 116.84 836.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CPC1019N"
-			(at 116.84 937.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "0d38132f-7ddd-4447-aad4-dbf58ef4bbac")
-		)
-		(pin "3"
-			(uuid "8af83563-6d95-421c-b267-0d0de6fcb125")
-		)
-		(pin "2"
-			(uuid "e6ef022c-b270-4be0-b390-55b3c8e1592d")
-		)
-		(pin "4"
-			(uuid "0ad629f7-4e78-4063-bd96-998e572ee32c")
-		)
-		(instances
-			(project "CMAIN_PCB"
-				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311/6f7110fd-2fa0-40a7-819e-80dc3167296a"
-					(reference "K3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Samacsys_kicad_sym:APT2012LVBC_D")
 		(at 139.7 66.04 0)
 		(unit 1)
@@ -6790,7 +4696,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Samacsys_kicad_sym:LEDC2012X85N"
+		(property "Footprint" "CMAIN_PCB:LEDC2012X85N"
 			(at 152.4 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -6933,7 +4839,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 156.21 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -6976,299 +4882,6 @@
 			(project "CMAIN_PCB"
 				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311/6f7110fd-2fa0-40a7-819e-80dc3167296a"
 					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Snapeda:SIR570DP-T1-RE3")
-		(at 191.77 140.97 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8420440d-7992-470b-8c76-ccf8ffd290c6")
-		(property "Reference" "Q3"
-			(at 185.42 143.51 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SIR570DP-T1-RE3"
-			(at 198.12 147.32 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EasyEDA_Lib:POWERPAK-SO-8_L5.9-W4.9-P1.27-LS6.2-BL"
-			(at 191.77 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/SIR570DP-T1-RE3/3842461.html"
-			(at 191.77 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Number:1 N-Channel Drain to Source Voltage:150V Current - Continuous Drain(Id):77.4A RDS(on):8.5mΩ@7.5V Pd - Power Dissipation:45W Gate Threshold Voltage (Vgs(th)):4V@250uA Gate Charge(Qg):71nC@10V Input Capacitance(Ciss):3.74nF Reverse Transfer Capacitan"
-			(at 191.77 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1.12"
-			(at 586.74 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "781-SIR804DP-T1-GE3"
-			(at 685.8 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SIR804DP-T1-GE3?qs=WX95TUc1y56JU9XixiRXWg%3D%3D"
-			(at 786.13 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 886.46 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SIR804DP-T1-GE3"
-			(at 986.79 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer Part" "SIR570DP-T1-RE3"
-			(at 191.77 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "VISHAY(威世)"
-			(at 191.77 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part" "C3279563"
-			(at 191.77 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 191.77 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part Name" "1个N沟道 耐压:150V 电流:77.4A"
-			(at 191.77 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "aae52dc8-92e7-48b6-8aa0-83fea3fce31a")
-		)
-		(pin "1"
-			(uuid "66388d73-75d5-4bff-a784-d522765e71ef")
-		)
-		(pin "3"
-			(uuid "5ad8990d-3987-4c3f-83d8-d8f908ce3fa4")
-		)
-		(pin "4"
-			(uuid "f56d7a7f-7c4c-4e0c-9d99-05fce7cd19db")
-		)
-		(pin "6"
-			(uuid "e5bd566c-81c8-40f3-b2ff-e32656a40792")
-		)
-		(pin "7"
-			(uuid "3c4bf979-d7bc-4624-8acf-59ae7159472b")
-		)
-		(pin "8"
-			(uuid "cb7b061b-572f-4607-9cbe-8cf12dbe47be")
-		)
-		(pin "5"
-			(uuid "96fd1834-a6a7-4c1e-97ed-261012a92098")
-		)
-		(instances
-			(project "CMAIN_PCB"
-				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311/6f7110fd-2fa0-40a7-819e-80dc3167296a"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 128.27 142.24 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "86bcc4bb-5252-4c58-9d72-7a402e2cc271")
-		(property "Reference" "R15"
-			(at 129.54 144.78 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47K"
-			(at 128.27 142.24 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 128.27 144.78 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 128.27 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "117e3032-f725-4442-a04d-e394972a0579")
-		)
-		(pin "2"
-			(uuid "0a803d7a-ba17-40f1-84a6-68ff4c570c4c")
-		)
-		(instances
-			(project "CMAIN_PCB"
-				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311/6f7110fd-2fa0-40a7-819e-80dc3167296a"
-					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -7589,309 +5202,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 77.47 144.78 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "972c0fd9-da63-453a-b041-d72f3fe69618")
-		(property "Reference" "#PWR050"
-			(at 71.12 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 72.39 144.78 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "59f77617-7730-4605-b432-8c5cd57eb28c")
-		)
-		(instances
-			(project "CMAIN_PCB"
-				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311/6f7110fd-2fa0-40a7-819e-80dc3167296a"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Samacsys:MMSZ5242B-E3-08")
-		(at 121.92 138.43 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "976f7bf1-a8e9-4d41-a467-dff1b6c699de")
-		(property "Reference" "Z1"
-			(at 119.38 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMSZ5242B-E3-08"
-			(at 102.87 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Samacsys:SOD3716X135N"
-			(at 132.08 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85774/mmsz5225.pdf"
-			(at 132.08 332.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Zener Diodes 12 Volt 0.5 Watt 5%"
-			(at 121.92 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1.35"
-			(at 132.08 532.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "78-MMSZ5242B-E3-08"
-			(at 132.08 632.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/MMSZ5242B-E3-08?qs=S660mHfF5o2owmqrKkpQng%3D%3D"
-			(at 132.08 732.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 132.08 831.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MMSZ5242B-E3-08"
-			(at 132.08 932.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "2771d772-f532-4f75-93cd-94d778a122f2")
-		)
-		(pin "2"
-			(uuid "2eb28f7a-299d-49aa-8997-b5f633e8c5a2")
-		)
-		(instances
-			(project "CMAIN_PCB"
-				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311/6f7110fd-2fa0-40a7-819e-80dc3167296a"
-					(reference "Z1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 180.34 133.35 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "99853c2f-2957-4635-b096-06d1b5d147d5")
-		(property "Reference" "R26"
-			(at 179.07 130.81 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100K"
-			(at 177.8 133.35 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 180.34 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 180.34 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9adbd824-ead8-4382-af6c-bd5c8dfd241a")
-		)
-		(pin "1"
-			(uuid "866e4231-d39e-4d9d-a757-07e038a65a7b")
-		)
-		(instances
-			(project "CMAIN_PCB"
-				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311/6f7110fd-2fa0-40a7-819e-80dc3167296a"
-					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Samacsys_kicad_sym:APT2012LVBC_D")
 		(at 143.51 104.14 0)
 		(unit 1)
@@ -7924,7 +5234,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Samacsys_kicad_sym:LEDC2012X85N"
+		(property "Footprint" "CMAIN_PCB:LEDC2012X85N"
 			(at 156.21 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -8144,7 +5454,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 81.28 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -8225,7 +5535,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 199.39 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -8383,7 +5693,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Samacsys:SOP254P610X218-4N"
+		(property "Footprint" "CMAIN_PCB:SOP254P610X218-4N"
 			(at 116.84 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -8578,142 +5888,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Snapeda:ES3D_C241735")
-		(at 171.45 146.05 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ac4ede78-0c3b-4236-9428-a59096824fd0")
-		(property "Reference" "D8"
-			(at 163.83 143.51 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ES3D"
-			(at 163.83 146.05 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "EasyEDA_Lib:SMC_L7.1-W6.2-LS8.1-RD"
-			(at 171.45 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/ES3D/240575.html"
-			(at 171.45 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode Configuration:- Voltage - Forward(Vf@If):950mV@3A Voltage - DC Reverse(Vr):200V Current - Rectified:3A Reverse Leakage Current (Ir):10uA@200V Non-Repetitive Peak Forward Surge Current:100A Operating Junction Temperature Range:-50°C~+150°C Operating Ju"
-			(at 171.45 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "ES3D"
-			(at 171.45 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "onsemi(安森美)"
-			(at 171.45 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part" "C241735"
-			(at 171.45 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 171.45 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part Name" "ES3D"
-			(at 171.45 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b1ce3b25-b480-45a3-956f-6a7fe47cc192")
-		)
-		(pin "2"
-			(uuid "4c7ae8f1-5950-4728-bca7-ba06608cd44a")
-		)
-		(instances
-			(project "CMAIN_PCB"
-				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311/6f7110fd-2fa0-40a7-819e-80dc3167296a"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 215.9 86.36 270)
 		(unit 1)
@@ -8793,86 +5967,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 81.28 142.24 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c04ed161-df15-4c93-8567-45bd27d2a8dd")
-		(property "Reference" "R28"
-			(at 81.28 137.16 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K5"
-			(at 81.28 139.7 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 81.28 144.78 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 81.28 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b43b7b8e-5830-410c-b13f-a318e8a46b6a")
-		)
-		(pin "2"
-			(uuid "06b8d290-bf96-48c9-9d97-5aafd0f197a1")
-		)
-		(instances
-			(project "CMAIN_PCB"
-				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311/6f7110fd-2fa0-40a7-819e-80dc3167296a"
-					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 212.09 83.82 90)
 		(unit 1)
 		(body_style 1)
@@ -8904,7 +5998,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 212.09 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -8985,7 +6079,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SMB"
+		(property "Footprint" "CMAIN_PCB:D_SMB"
 			(at 181.61 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -9175,7 +6269,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 81.28 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -9224,87 +6318,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 196.85 151.13 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dd6e23b1-b82f-49f6-8066-0d1d56fa08c3")
-		(property "Reference" "R32"
-			(at 199.39 153.67 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "15K"
-			(at 199.39 151.13 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 196.85 152.4 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 196.85 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2fa7437d-81bc-4b93-a91a-75a2bb6a124b")
-		)
-		(pin "1"
-			(uuid "dc846e6e-2ba5-4f45-a987-039c81e52634")
-		)
-		(instances
-			(project "CMAIN_PCB"
-				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311/6f7110fd-2fa0-40a7-819e-80dc3167296a"
-					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Snapeda:SS34_C266556")
 		(at 167.64 101.6 0)
 		(unit 1)
@@ -9335,7 +6348,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SMB_L4.6-W3.6-LS5.3-RD"
+		(property "Footprint" "CMAIN_PCB:SMB_L4.6-W3.6-LS5.3-RD"
 			(at 167.64 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -9439,197 +6452,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Diodes:TVS-Bi,SMBJ13CA")
-		(at 180.34 137.16 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e3f6afb4-ee74-41bd-92e1-e089dd9cab15")
-		(property "Reference" "D5"
-			(at 184.15 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMBJ13CA"
-			(at 171.45 137.16 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:D_SMB"
-			(at 180.34 134.62 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312221742_hongjiacheng-SMBJ13CA_C19077568.pdf"
-			(at 180.34 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "27.91A 600W 21.5V 15.9V Bidirectional 13V SMB ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 180.34 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C19077568"
-			(at 180.34 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Stock" "53341"
-			(at 180.34 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" "0.051USD"
-			(at 180.34 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Process" "SMT"
-			(at 180.34 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Minimum Qty" "5"
-			(at 180.34 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Attrition Qty" "2"
-			(at 180.34 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 180.34 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Category" "TVS/Fuse/Board Level Protection,Electrostatic And Surge Protection (TVS/ESD)"
-			(at 180.34 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "hongjiacheng"
-			(at 180.34 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part" "SMBJ13CA"
-			(at 180.34 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "dac1f2c2-084b-4aae-9fe8-a1b49657b1bf")
-		)
-		(pin "1"
-			(uuid "044fd7b0-3aa0-41dc-9eba-31cf7cf1b801")
-		)
-		(instances
-			(project "CMAIN_PCB"
-				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311/6f7110fd-2fa0-40a7-819e-80dc3167296a"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Snapeda:SS34_C266556")
 		(at 167.64 66.04 0)
 		(unit 1)
@@ -9660,7 +6482,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SMB_L4.6-W3.6-LS5.3-RD"
+		(property "Footprint" "CMAIN_PCB:SMB_L4.6-W3.6-LS5.3-RD"
 			(at 167.64 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -9949,7 +6771,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Samacsys:1812L010DR"
+		(property "Footprint" "CMAIN_PCB:1812L010DR"
 			(at 198.12 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -10091,7 +6913,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Samacsys:0154002DR"
+		(property "Footprint" "CMAIN_PCB:0154002DR"
 			(at 185.42 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -10196,149 +7018,6 @@
 			(project "CMAIN_PCB"
 				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311/6f7110fd-2fa0-40a7-819e-80dc3167296a"
 					(reference "F1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Samacsys_kicad_sym:APT2012LVBC_D")
-		(at 175.26 151.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fe14b675-52f3-4cc3-b5e1-5fde112ad7bb")
-		(property "Reference" "LED6"
-			(at 180.34 153.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "APT2012LVBC_D"
-			(at 180.34 154.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.5 0.5)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Samacsys_kicad_sym:LEDC2012X85N"
-			(at 187.96 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/APT2012LVBC_D.pdf"
-			(at 187.96 344.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" "Standard LEDs - SMD 2.0X1.2MM LOW CRNT"
-			(at 175.26 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "0.85"
-			(at 187.96 544.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Mouser Part Number" "604-APT2012LVBCD"
-			(at 187.96 645.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kingbright/APT2012LVBC-D?qs=6oMev5NRZMGErJYT6KZLXg%3D%3D"
-			(at 187.96 744.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer_Name" "Kingbright"
-			(at 187.96 844.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer_Part_Number" "APT2012LVBC/D"
-			(at 187.96 944.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "60dce55c-b0bf-42a6-8aec-c02af17d699e")
-		)
-		(pin "2"
-			(uuid "62161be3-cc6d-4205-af9a-63c0e5fd74ee")
-		)
-		(instances
-			(project "CMAIN_PCB"
-				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311/6f7110fd-2fa0-40a7-819e-80dc3167296a"
-					(reference "LED6")
 					(unit 1)
 				)
 			)

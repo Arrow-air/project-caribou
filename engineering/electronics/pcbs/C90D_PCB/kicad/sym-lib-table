@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "C90D_PCB") (type "KiCad") (uri "${KIPRJMOD}/libs/C90D_PCB.kicad_sym") (options "") (descr ""))
+)

@@ -10972,7 +10972,7 @@
 	)
 	(rectangle
 		(start 12.7 129.54)
-		(end 284.48 223.52)
+		(end 401.32 223.52)
 		(stroke
 			(width 0)
 			(type default)
@@ -11084,7 +11084,7 @@
 		(uuid "cd26a030-fe70-4493-b435-da8aaf12a788")
 	)
 	(junction
-		(at 34.29 186.69)
+		(at 86.36 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "017671fd-b894-4ecd-801b-009c12e2386a")
@@ -11096,7 +11096,7 @@
 		(uuid "030002ac-0a0f-4b5a-9240-29f08569088e")
 	)
 	(junction
-		(at 201.93 166.37)
+		(at 254 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "03e640a5-c695-4eaa-87ce-d30e356c3d87")
@@ -11120,13 +11120,13 @@
 		(uuid "087bd8e2-f303-4468-a0bc-a0c81f4e18f5")
 	)
 	(junction
-		(at 236.22 166.37)
+		(at 288.29 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08a6ce4b-f5d3-4feb-9dbc-23f1ab4db7a0")
 	)
 	(junction
-		(at 156.21 166.37)
+		(at 208.28 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0aab2d8d-36b0-4774-8847-057d1206088f")
@@ -11144,7 +11144,7 @@
 		(uuid "0f9c2528-dc1c-4108-b269-02f621c108a4")
 	)
 	(junction
-		(at 80.01 165.1)
+		(at 132.08 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "120e6bc0-c71a-40c4-b79e-fffac60f9e3e")
@@ -11156,7 +11156,7 @@
 		(uuid "175c2f8e-ba77-4ea2-ad7e-e49b7ae06c9c")
 	)
 	(junction
-		(at 134.62 138.43)
+		(at 186.69 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "17a1dd93-dd49-4805-b4ed-a37363789eb7")
@@ -11168,7 +11168,7 @@
 		(uuid "1817f944-d266-47be-a57f-10511facf439")
 	)
 	(junction
-		(at 269.24 205.74)
+		(at 321.31 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d402b77-c1ee-4b20-9426-1134c0ecd265")
@@ -11180,7 +11180,7 @@
 		(uuid "1e46c216-c983-43d6-b898-18f9264a20b7")
 	)
 	(junction
-		(at 34.29 204.47)
+		(at 86.36 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f2fd99e-a209-44c5-9fa1-56b083faba7d")
@@ -11192,7 +11192,7 @@
 		(uuid "1f420651-387a-4b2f-a10f-7a638a9dd957")
 	)
 	(junction
-		(at 125.73 193.04)
+		(at 177.8 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20bfee7d-5557-456f-849e-40077cf78a94")
@@ -11210,19 +11210,19 @@
 		(uuid "28ba8edb-e055-4798-bfd3-e98287a2a9c1")
 	)
 	(junction
-		(at 104.14 138.43)
+		(at 156.21 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c0e457a-8ec5-41da-8d4a-fa812e776af1")
 	)
 	(junction
-		(at 226.06 166.37)
+		(at 278.13 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30ff317f-ec3b-4f74-9811-625f26ee95d8")
 	)
 	(junction
-		(at 278.13 151.13)
+		(at 330.2 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3350c9af-1610-4200-a9b5-986eec83af5e")
@@ -11234,7 +11234,7 @@
 		(uuid "3ba3756d-a745-4606-a53a-f8d5090cf33b")
 	)
 	(junction
-		(at 118.11 168.91)
+		(at 170.18 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3fecdaf4-570a-4caf-8d7d-652382659325")
@@ -11246,13 +11246,13 @@
 		(uuid "40c15bab-9039-4934-bcd8-5d464ba6e25b")
 	)
 	(junction
-		(at 199.39 203.2)
+		(at 251.46 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4158ba52-543f-4b18-a175-42df97195bfc")
 	)
 	(junction
-		(at 22.86 185.42)
+		(at 74.93 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44a66947-ac14-4f94-b264-d7669e7e7e6c")
@@ -11264,13 +11264,13 @@
 		(uuid "44b60dc9-ea01-47e8-93f3-91af5879707c")
 	)
 	(junction
-		(at 73.66 138.43)
+		(at 125.73 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47afb67a-af23-4243-afad-52a7459965f4")
 	)
 	(junction
-		(at 184.15 166.37)
+		(at 236.22 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48938170-547f-4252-9a1f-e615c21085de")
@@ -11294,7 +11294,7 @@
 		(uuid "4f6c0779-cff2-463c-ade0-022782f92891")
 	)
 	(junction
-		(at 152.4 173.99)
+		(at 204.47 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "51735808-e52c-420d-9387-f29379db5d54")
@@ -11324,7 +11324,7 @@
 		(uuid "5c2ad521-ca14-4979-b08a-226d39a15107")
 	)
 	(junction
-		(at 213.36 203.2)
+		(at 265.43 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e68a609-c990-4842-a55d-e4bc403cbbbf")
@@ -11336,7 +11336,7 @@
 		(uuid "5f356542-e21e-4c89-8d7c-40db3a10aade")
 	)
 	(junction
-		(at 118.11 186.69)
+		(at 170.18 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "608e21f5-6042-4001-9552-4f0fb560cb46")
@@ -11348,19 +11348,19 @@
 		(uuid "62f58070-2ec0-444e-9d7f-451cf77fcc0a")
 	)
 	(junction
-		(at 130.81 168.91)
+		(at 182.88 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64e37ef9-4412-4ccb-b7f1-e48b6ccbbad7")
 	)
 	(junction
-		(at 224.79 203.2)
+		(at 276.86 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7171012a-c8f6-4700-8280-49f96f4a5933")
 	)
 	(junction
-		(at 184.15 168.91)
+		(at 236.22 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71f86b01-856e-4006-8045-66821810b3f7")
@@ -11378,13 +11378,13 @@
 		(uuid "74d93eff-b7fd-4730-8585-8e1c107b3a1d")
 	)
 	(junction
-		(at 15.24 185.42)
+		(at 67.31 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c30c847-fc2b-4a86-bde2-18348a9069c9")
 	)
 	(junction
-		(at 144.78 166.37)
+		(at 196.85 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c9d2c7a-896c-4304-acd6-c43d2bd2bcfb")
@@ -11396,13 +11396,13 @@
 		(uuid "7d0bbef7-6f27-470e-89da-95ca6e2abbcf")
 	)
 	(junction
-		(at 256.54 166.37)
+		(at 308.61 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e5727de-c88a-4c56-844d-c9c34b516710")
 	)
 	(junction
-		(at 173.99 204.47)
+		(at 226.06 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ffb152f-ac2e-493a-9a5c-64880b321e2d")
@@ -11420,7 +11420,7 @@
 		(uuid "8389ef32-2fce-4f97-ad87-553b42f87b69")
 	)
 	(junction
-		(at 246.38 166.37)
+		(at 298.45 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84c79367-5f19-4c33-891b-3d7354670037")
@@ -11432,7 +11432,7 @@
 		(uuid "88e93e86-684e-4270-a9a9-b296d8265bae")
 	)
 	(junction
-		(at 19.05 138.43)
+		(at 71.12 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89487c65-96f5-4108-90b2-9cfadf2d2396")
@@ -11462,7 +11462,7 @@
 		(uuid "98a15d52-0a48-4ad8-b632-94b8351b1038")
 	)
 	(junction
-		(at 278.13 166.37)
+		(at 330.2 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a17eaa1-16bc-45dd-b5e8-65a08852cffb")
@@ -11480,7 +11480,7 @@
 		(uuid "9c032757-856f-4de3-982b-cc75d9be1389")
 	)
 	(junction
-		(at 140.97 193.04)
+		(at 193.04 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9dabc6f9-d3a0-4340-b5e1-c94e01e72522")
@@ -11492,7 +11492,7 @@
 		(uuid "9e1e932c-9fe1-404d-9ac5-35f9a77f7536")
 	)
 	(junction
-		(at 144.78 138.43)
+		(at 196.85 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0a6b77d-337a-46c6-bebf-5e8fd8fe5a23")
@@ -11504,7 +11504,7 @@
 		(uuid "a53fe120-ad68-4d4c-ad0c-24c8d04be8c2")
 	)
 	(junction
-		(at 184.15 181.61)
+		(at 236.22 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa5450c3-1308-410f-b876-3b838b465cf9")
@@ -11522,13 +11522,13 @@
 		(uuid "b348eab3-37c8-45ac-8c8c-cb5c2d7710a4")
 	)
 	(junction
-		(at 48.26 138.43)
+		(at 100.33 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5082d48-314e-4f52-91b8-aadd8c3d440f")
 	)
 	(junction
-		(at 43.18 186.69)
+		(at 95.25 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b75a0ce7-9ec3-4581-951f-b6eee8be13e2")
@@ -11540,13 +11540,13 @@
 		(uuid "b7daad8a-62ee-433a-8264-a280c29be619")
 	)
 	(junction
-		(at 144.78 193.04)
+		(at 196.85 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8d837f0-73dc-46f3-b960-89432b678c3c")
 	)
 	(junction
-		(at 43.18 196.85)
+		(at 95.25 196.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "baf70d15-4b54-4320-b6c8-2167e3f1f09e")
@@ -11558,19 +11558,19 @@
 		(uuid "bba4ecb1-8c3e-438a-a5fc-e57230403384")
 	)
 	(junction
-		(at 58.42 189.23)
+		(at 110.49 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3c9749b-cafb-41a4-8dc1-54c36d3f6761")
 	)
 	(junction
-		(at 59.69 138.43)
+		(at 111.76 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3e34402-3cf7-47d8-b52a-53da44734747")
 	)
 	(junction
-		(at 191.77 166.37)
+		(at 243.84 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb5da3bb-799a-43c1-ae13-b2f9379611a6")
@@ -11594,25 +11594,25 @@
 		(uuid "d95fab3d-5ec1-4459-b1e3-cc42b12db953")
 	)
 	(junction
-		(at 267.97 166.37)
+		(at 320.04 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9e8851d-3016-4917-87c4-a9214f159276")
 	)
 	(junction
-		(at 91.44 158.75)
+		(at 143.51 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dca73793-5a20-483b-a5ec-d27c6c71508d")
 	)
 	(junction
-		(at 212.09 166.37)
+		(at 264.16 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd566f90-d997-41e8-9388-ec6c74bd5ca4")
 	)
 	(junction
-		(at 224.79 213.36)
+		(at 276.86 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4d547f2-f075-48e5-b0be-f59c3e237d44")
@@ -11624,19 +11624,19 @@
 		(uuid "e9032f38-b475-4626-9514-33a01e2bcc4f")
 	)
 	(junction
-		(at 35.56 138.43)
+		(at 87.63 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e925d99f-77e5-4b20-98bc-9d3dac443214")
 	)
 	(junction
-		(at 73.66 148.59)
+		(at 125.73 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eba90cd7-ab29-4d06-b204-1bb22dd2f629")
 	)
 	(junction
-		(at 209.55 203.2)
+		(at 261.62 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed814b26-3b1e-4fdc-9ebe-47462c823eda")
@@ -11648,13 +11648,13 @@
 		(uuid "edda04c3-cddb-4cd6-bffc-ff7299f5dfa8")
 	)
 	(junction
-		(at 160.02 204.47)
+		(at 212.09 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "edeef312-a31f-4901-8481-d9bac05ae45e")
 	)
 	(junction
-		(at 184.15 184.15)
+		(at 236.22 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1babbd3-5d95-43c6-b1e7-7ba5ecbbe6ca")
@@ -11666,19 +11666,19 @@
 		(uuid "f1df5fba-ae5e-48ea-97a8-a1c04a8277cc")
 	)
 	(junction
-		(at 184.15 203.2)
+		(at 236.22 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2369e43-72c7-45f7-bbda-63faed9749cf")
 	)
 	(junction
-		(at 134.62 158.75)
+		(at 186.69 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f931db3b-3d8d-4fb8-ad2c-a3e98130c1ce")
 	)
 	(junction
-		(at 41.91 138.43)
+		(at 93.98 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9ee22a3-0cfe-4841-94d7-7be939a1231f")
@@ -11697,7 +11697,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 208.28) (xy 234.95 220.98)
+			(xy 287.02 208.28) (xy 287.02 220.98)
 		)
 		(stroke
 			(width 0)
@@ -11707,7 +11707,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 189.23) (xy 111.76 189.23)
+			(xy 156.21 189.23) (xy 163.83 189.23)
 		)
 		(stroke
 			(width 0)
@@ -11717,7 +11717,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 187.96) (xy 22.86 185.42)
+			(xy 74.93 187.96) (xy 74.93 185.42)
 		)
 		(stroke
 			(width 0)
@@ -11727,7 +11727,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 186.69) (xy 104.14 186.69)
+			(xy 160.02 186.69) (xy 156.21 186.69)
 		)
 		(stroke
 			(width 0)
@@ -11757,7 +11757,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 163.83) (xy 163.83 163.83)
+			(xy 208.28 163.83) (xy 215.9 163.83)
 		)
 		(stroke
 			(width 0)
@@ -11817,7 +11817,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 166.37) (xy 184.15 168.91)
+			(xy 236.22 166.37) (xy 236.22 168.91)
 		)
 		(stroke
 			(width 0)
@@ -11857,7 +11857,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 166.37) (xy 256.54 166.37)
+			(xy 320.04 166.37) (xy 308.61 166.37)
 		)
 		(stroke
 			(width 0)
@@ -11877,7 +11877,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 184.15) (xy 113.03 184.15)
+			(xy 156.21 184.15) (xy 165.1 184.15)
 		)
 		(stroke
 			(width 0)
@@ -11897,7 +11897,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 179.07) (xy 184.15 181.61)
+			(xy 236.22 179.07) (xy 236.22 181.61)
 		)
 		(stroke
 			(width 0)
@@ -11907,7 +11907,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 138.43) (xy 33.02 138.43)
+			(xy 87.63 138.43) (xy 85.09 138.43)
 		)
 		(stroke
 			(width 0)
@@ -11947,7 +11947,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 179.07) (xy 163.83 179.07)
+			(xy 193.04 179.07) (xy 215.9 179.07)
 		)
 		(stroke
 			(width 0)
@@ -11967,7 +11967,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 189.23) (xy 111.76 193.04)
+			(xy 163.83 189.23) (xy 163.83 193.04)
 		)
 		(stroke
 			(width 0)
@@ -11977,7 +11977,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 203.2) (xy 209.55 203.2)
+			(xy 265.43 203.2) (xy 261.62 203.2)
 		)
 		(stroke
 			(width 0)
@@ -12007,7 +12007,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 189.23) (xy 276.86 208.28)
+			(xy 328.93 189.23) (xy 328.93 208.28)
 		)
 		(stroke
 			(width 0)
@@ -12017,7 +12017,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 165.1) (xy 63.5 173.99)
+			(xy 115.57 165.1) (xy 115.57 173.99)
 		)
 		(stroke
 			(width 0)
@@ -12027,7 +12027,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 204.47) (xy 34.29 196.85)
+			(xy 86.36 204.47) (xy 86.36 196.85)
 		)
 		(stroke
 			(width 0)
@@ -12037,7 +12037,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 138.43) (xy 48.26 138.43)
+			(xy 111.76 138.43) (xy 100.33 138.43)
 		)
 		(stroke
 			(width 0)
@@ -12057,7 +12057,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 173.99) (xy 68.58 173.99)
+			(xy 115.57 173.99) (xy 120.65 173.99)
 		)
 		(stroke
 			(width 0)
@@ -12077,7 +12077,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 168.91) (xy 140.97 179.07)
+			(xy 193.04 168.91) (xy 193.04 179.07)
 		)
 		(stroke
 			(width 0)
@@ -12087,7 +12087,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 138.43) (xy 104.14 173.99)
+			(xy 156.21 138.43) (xy 156.21 173.99)
 		)
 		(stroke
 			(width 0)
@@ -12097,7 +12097,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 166.37) (xy 191.77 166.37)
+			(xy 236.22 166.37) (xy 243.84 166.37)
 		)
 		(stroke
 			(width 0)
@@ -12107,7 +12107,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 163.83) (xy 156.21 166.37)
+			(xy 208.28 163.83) (xy 208.28 166.37)
 		)
 		(stroke
 			(width 0)
@@ -12127,7 +12127,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 203.2) (xy 187.96 203.2)
+			(xy 236.22 203.2) (xy 240.03 203.2)
 		)
 		(stroke
 			(width 0)
@@ -12157,7 +12157,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 204.47) (xy 173.99 204.47)
+			(xy 227.33 204.47) (xy 226.06 204.47)
 		)
 		(stroke
 			(width 0)
@@ -12217,7 +12217,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 138.43) (xy 144.78 138.43)
+			(xy 186.69 138.43) (xy 196.85 138.43)
 		)
 		(stroke
 			(width 0)
@@ -12267,7 +12267,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 138.43) (xy 73.66 138.43)
+			(xy 156.21 138.43) (xy 125.73 138.43)
 		)
 		(stroke
 			(width 0)
@@ -12387,7 +12387,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 166.37) (xy 236.22 166.37)
+			(xy 278.13 166.37) (xy 288.29 166.37)
 		)
 		(stroke
 			(width 0)
@@ -12437,7 +12437,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 189.23) (xy 58.42 189.23)
+			(xy 107.95 189.23) (xy 110.49 189.23)
 		)
 		(stroke
 			(width 0)
@@ -12447,7 +12447,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 205.74) (xy 269.24 215.9)
+			(xy 321.31 205.74) (xy 321.31 215.9)
 		)
 		(stroke
 			(width 0)
@@ -12467,7 +12467,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 166.37) (xy 267.97 166.37)
+			(xy 330.2 166.37) (xy 320.04 166.37)
 		)
 		(stroke
 			(width 0)
@@ -12477,7 +12477,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 213.36) (xy 224.79 213.36)
+			(xy 265.43 213.36) (xy 276.86 213.36)
 		)
 		(stroke
 			(width 0)
@@ -12487,7 +12487,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 176.53) (xy 191.77 177.8)
+			(xy 243.84 176.53) (xy 243.84 177.8)
 		)
 		(stroke
 			(width 0)
@@ -12497,7 +12497,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 151.13) (xy 278.13 151.13)
+			(xy 318.77 151.13) (xy 330.2 151.13)
 		)
 		(stroke
 			(width 0)
@@ -12527,7 +12527,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 158.75) (xy 134.62 158.75)
+			(xy 143.51 158.75) (xy 186.69 158.75)
 		)
 		(stroke
 			(width 0)
@@ -12537,7 +12537,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 138.43) (xy 104.14 138.43)
+			(xy 186.69 138.43) (xy 156.21 138.43)
 		)
 		(stroke
 			(width 0)
@@ -12547,7 +12547,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 186.69) (xy 160.02 186.69)
+			(xy 215.9 186.69) (xy 212.09 186.69)
 		)
 		(stroke
 			(width 0)
@@ -12597,7 +12597,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 204.47) (xy 43.18 204.47)
+			(xy 86.36 204.47) (xy 95.25 204.47)
 		)
 		(stroke
 			(width 0)
@@ -12607,7 +12607,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 185.42) (xy 22.86 184.15)
+			(xy 74.93 185.42) (xy 74.93 184.15)
 		)
 		(stroke
 			(width 0)
@@ -12617,7 +12617,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 166.37) (xy 256.54 166.37)
+			(xy 298.45 166.37) (xy 308.61 166.37)
 		)
 		(stroke
 			(width 0)
@@ -12667,7 +12667,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 186.69) (xy 43.18 186.69)
+			(xy 120.65 186.69) (xy 95.25 186.69)
 		)
 		(stroke
 			(width 0)
@@ -12687,7 +12687,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 138.43) (xy 152.4 173.99)
+			(xy 204.47 138.43) (xy 204.47 173.99)
 		)
 		(stroke
 			(width 0)
@@ -12717,7 +12717,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 166.37) (xy 144.78 166.37)
+			(xy 186.69 166.37) (xy 196.85 166.37)
 		)
 		(stroke
 			(width 0)
@@ -12727,7 +12727,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 162.56) (xy 226.06 166.37)
+			(xy 278.13 162.56) (xy 278.13 166.37)
 		)
 		(stroke
 			(width 0)
@@ -12757,7 +12757,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 160.02) (xy 73.66 158.75)
+			(xy 125.73 160.02) (xy 125.73 158.75)
 		)
 		(stroke
 			(width 0)
@@ -12767,7 +12767,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 194.31) (xy 269.24 194.31)
+			(xy 314.96 194.31) (xy 321.31 194.31)
 		)
 		(stroke
 			(width 0)
@@ -12777,7 +12777,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 193.04) (xy 130.81 193.04)
+			(xy 177.8 193.04) (xy 182.88 193.04)
 		)
 		(stroke
 			(width 0)
@@ -12787,7 +12787,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 184.15) (xy 113.03 168.91)
+			(xy 165.1 184.15) (xy 165.1 168.91)
 		)
 		(stroke
 			(width 0)
@@ -12797,7 +12797,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 203.2) (xy 224.79 203.2)
+			(xy 265.43 203.2) (xy 276.86 203.2)
 		)
 		(stroke
 			(width 0)
@@ -12817,7 +12817,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 203.2) (xy 234.95 203.2)
+			(xy 276.86 203.2) (xy 287.02 203.2)
 		)
 		(stroke
 			(width 0)
@@ -12887,7 +12887,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 203.2) (xy 184.15 184.15)
+			(xy 236.22 203.2) (xy 236.22 184.15)
 		)
 		(stroke
 			(width 0)
@@ -12907,7 +12907,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 138.43) (xy 152.4 138.43)
+			(xy 196.85 138.43) (xy 204.47 138.43)
 		)
 		(stroke
 			(width 0)
@@ -12927,7 +12927,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 196.85) (xy 55.88 199.39)
+			(xy 107.95 196.85) (xy 107.95 199.39)
 		)
 		(stroke
 			(width 0)
@@ -12947,7 +12947,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 158.75) (xy 134.62 166.37)
+			(xy 186.69 158.75) (xy 186.69 166.37)
 		)
 		(stroke
 			(width 0)
@@ -12987,7 +12987,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 181.61) (xy 184.15 184.15)
+			(xy 236.22 181.61) (xy 236.22 184.15)
 		)
 		(stroke
 			(width 0)
@@ -13017,7 +13017,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 208.28) (xy 262.89 208.28)
+			(xy 328.93 208.28) (xy 314.96 208.28)
 		)
 		(stroke
 			(width 0)
@@ -13027,7 +13027,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 205.74) (xy 125.73 200.66)
+			(xy 177.8 205.74) (xy 177.8 200.66)
 		)
 		(stroke
 			(width 0)
@@ -13037,7 +13037,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 176.53) (xy 152.4 173.99)
+			(xy 204.47 176.53) (xy 204.47 173.99)
 		)
 		(stroke
 			(width 0)
@@ -13047,7 +13047,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 151.13) (xy 278.13 152.4)
+			(xy 330.2 151.13) (xy 330.2 152.4)
 		)
 		(stroke
 			(width 0)
@@ -13057,7 +13057,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 208.28) (xy 144.78 205.74)
+			(xy 196.85 208.28) (xy 196.85 205.74)
 		)
 		(stroke
 			(width 0)
@@ -13087,7 +13087,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 189.23) (xy 68.58 189.23)
+			(xy 110.49 189.23) (xy 120.65 189.23)
 		)
 		(stroke
 			(width 0)
@@ -13097,7 +13097,7 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 179.07) (xy 15.24 185.42)
+			(xy 67.31 179.07) (xy 67.31 185.42)
 		)
 		(stroke
 			(width 0)
@@ -13137,7 +13137,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 184.15) (xy 68.58 184.15)
+			(xy 74.93 184.15) (xy 120.65 184.15)
 		)
 		(stroke
 			(width 0)
@@ -13187,7 +13187,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 148.59) (xy 110.49 179.07)
+			(xy 162.56 148.59) (xy 162.56 179.07)
 		)
 		(stroke
 			(width 0)
@@ -13207,7 +13207,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 179.07) (xy 110.49 179.07)
+			(xy 156.21 179.07) (xy 162.56 179.07)
 		)
 		(stroke
 			(width 0)
@@ -13247,7 +13247,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 162.56) (xy 212.09 162.56)
+			(xy 266.7 162.56) (xy 264.16 162.56)
 		)
 		(stroke
 			(width 0)
@@ -13257,7 +13257,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 193.04) (xy 144.78 193.04)
+			(xy 193.04 193.04) (xy 196.85 193.04)
 		)
 		(stroke
 			(width 0)
@@ -13277,7 +13277,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 199.39) (xy 66.04 191.77)
+			(xy 118.11 199.39) (xy 118.11 191.77)
 		)
 		(stroke
 			(width 0)
@@ -13297,7 +13297,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 166.37) (xy 201.93 166.37)
+			(xy 243.84 166.37) (xy 254 166.37)
 		)
 		(stroke
 			(width 0)
@@ -13307,7 +13307,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 195.58) (xy 144.78 193.04)
+			(xy 196.85 195.58) (xy 196.85 193.04)
 		)
 		(stroke
 			(width 0)
@@ -13317,7 +13317,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 138.43) (xy 19.05 138.43)
+			(xy 74.93 138.43) (xy 71.12 138.43)
 		)
 		(stroke
 			(width 0)
@@ -13337,7 +13337,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 166.37) (xy 156.21 166.37)
+			(xy 196.85 166.37) (xy 208.28 166.37)
 		)
 		(stroke
 			(width 0)
@@ -13347,7 +13347,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 186.69) (xy 34.29 186.69)
+			(xy 95.25 186.69) (xy 86.36 186.69)
 		)
 		(stroke
 			(width 0)
@@ -13377,7 +13377,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 138.43) (xy 59.69 138.43)
+			(xy 125.73 138.43) (xy 111.76 138.43)
 		)
 		(stroke
 			(width 0)
@@ -13387,7 +13387,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 186.69) (xy 160.02 204.47)
+			(xy 212.09 186.69) (xy 212.09 204.47)
 		)
 		(stroke
 			(width 0)
@@ -13407,7 +13407,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 168.91) (xy 184.15 171.45)
+			(xy 236.22 168.91) (xy 236.22 171.45)
 		)
 		(stroke
 			(width 0)
@@ -13417,7 +13417,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 205.74) (xy 269.24 205.74)
+			(xy 314.96 205.74) (xy 321.31 205.74)
 		)
 		(stroke
 			(width 0)
@@ -13487,7 +13487,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 166.37) (xy 246.38 166.37)
+			(xy 288.29 166.37) (xy 298.45 166.37)
 		)
 		(stroke
 			(width 0)
@@ -13497,7 +13497,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 220.98) (xy 217.17 220.98)
+			(xy 287.02 220.98) (xy 269.24 220.98)
 		)
 		(stroke
 			(width 0)
@@ -13517,7 +13517,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 166.37) (xy 163.83 166.37)
+			(xy 208.28 166.37) (xy 215.9 166.37)
 		)
 		(stroke
 			(width 0)
@@ -13597,7 +13597,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 203.2) (xy 199.39 203.2)
+			(xy 250.19 203.2) (xy 251.46 203.2)
 		)
 		(stroke
 			(width 0)
@@ -13607,7 +13607,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 186.69) (xy 118.11 186.69)
+			(xy 190.5 186.69) (xy 170.18 186.69)
 		)
 		(stroke
 			(width 0)
@@ -13617,7 +13617,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 220.98) (xy 184.15 220.98)
+			(xy 259.08 220.98) (xy 236.22 220.98)
 		)
 		(stroke
 			(width 0)
@@ -13627,7 +13627,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 220.98) (xy 184.15 203.2)
+			(xy 236.22 220.98) (xy 236.22 203.2)
 		)
 		(stroke
 			(width 0)
@@ -13647,7 +13647,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 158.75) (xy 144.78 166.37)
+			(xy 196.85 158.75) (xy 196.85 166.37)
 		)
 		(stroke
 			(width 0)
@@ -13667,7 +13667,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 189.23) (xy 276.86 189.23)
+			(xy 256.54 189.23) (xy 328.93 189.23)
 		)
 		(stroke
 			(width 0)
@@ -13677,7 +13677,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 166.37) (xy 144.78 181.61)
+			(xy 196.85 166.37) (xy 196.85 181.61)
 		)
 		(stroke
 			(width 0)
@@ -13687,7 +13687,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 162.56) (xy 212.09 166.37)
+			(xy 264.16 162.56) (xy 264.16 166.37)
 		)
 		(stroke
 			(width 0)
@@ -13707,7 +13707,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 166.37) (xy 212.09 166.37)
+			(xy 254 166.37) (xy 264.16 166.37)
 		)
 		(stroke
 			(width 0)
@@ -13737,7 +13737,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 200.66) (xy 106.68 191.77)
+			(xy 158.75 200.66) (xy 158.75 191.77)
 		)
 		(stroke
 			(width 0)
@@ -13777,7 +13777,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 148.59) (xy 73.66 148.59)
+			(xy 162.56 148.59) (xy 125.73 148.59)
 		)
 		(stroke
 			(width 0)
@@ -13797,7 +13797,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 176.53) (xy 163.83 176.53)
+			(xy 204.47 176.53) (xy 215.9 176.53)
 		)
 		(stroke
 			(width 0)
@@ -13817,7 +13817,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 138.43) (xy 48.26 138.43)
+			(xy 93.98 138.43) (xy 100.33 138.43)
 		)
 		(stroke
 			(width 0)
@@ -13827,7 +13827,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 179.07) (xy 15.24 179.07)
+			(xy 120.65 179.07) (xy 67.31 179.07)
 		)
 		(stroke
 			(width 0)
@@ -13837,7 +13837,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 191.77) (xy 68.58 191.77)
+			(xy 118.11 191.77) (xy 120.65 191.77)
 		)
 		(stroke
 			(width 0)
@@ -13857,7 +13857,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 184.15) (xy 184.15 184.15)
+			(xy 250.19 184.15) (xy 236.22 184.15)
 		)
 		(stroke
 			(width 0)
@@ -13887,7 +13887,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 204.47) (xy 171.45 204.47)
+			(xy 226.06 204.47) (xy 223.52 204.47)
 		)
 		(stroke
 			(width 0)
@@ -13897,7 +13897,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 168.91) (xy 118.11 168.91)
+			(xy 165.1 168.91) (xy 170.18 168.91)
 		)
 		(stroke
 			(width 0)
@@ -13907,7 +13907,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 173.99) (xy 163.83 173.99)
+			(xy 204.47 173.99) (xy 215.9 173.99)
 		)
 		(stroke
 			(width 0)
@@ -13947,7 +13947,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 191.77) (xy 104.14 191.77)
+			(xy 158.75 191.77) (xy 156.21 191.77)
 		)
 		(stroke
 			(width 0)
@@ -13987,7 +13987,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 162.56) (xy 278.13 166.37)
+			(xy 330.2 162.56) (xy 330.2 166.37)
 		)
 		(stroke
 			(width 0)
@@ -14017,7 +14017,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 162.56) (xy 224.79 162.56)
+			(xy 278.13 162.56) (xy 276.86 162.56)
 		)
 		(stroke
 			(width 0)
@@ -14027,7 +14027,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 158.75) (xy 90.17 165.1)
+			(xy 142.24 158.75) (xy 142.24 165.1)
 		)
 		(stroke
 			(width 0)
@@ -14037,7 +14037,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 165.1) (xy 63.5 165.1)
+			(xy 132.08 165.1) (xy 115.57 165.1)
 		)
 		(stroke
 			(width 0)
@@ -14047,7 +14047,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 193.04) (xy 144.78 191.77)
+			(xy 196.85 193.04) (xy 196.85 191.77)
 		)
 		(stroke
 			(width 0)
@@ -14097,7 +14097,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 204.47) (xy 269.24 205.74)
+			(xy 321.31 204.47) (xy 321.31 205.74)
 		)
 		(stroke
 			(width 0)
@@ -14137,7 +14137,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 203.2) (xy 262.89 194.31)
+			(xy 314.96 203.2) (xy 314.96 194.31)
 		)
 		(stroke
 			(width 0)
@@ -14157,7 +14157,7 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 185.42) (xy 15.24 187.96)
+			(xy 67.31 185.42) (xy 67.31 187.96)
 		)
 		(stroke
 			(width 0)
@@ -14167,7 +14167,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 193.04) (xy 125.73 193.04)
+			(xy 163.83 193.04) (xy 177.8 193.04)
 		)
 		(stroke
 			(width 0)
@@ -14177,7 +14177,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 168.91) (xy 120.65 168.91)
+			(xy 170.18 168.91) (xy 172.72 168.91)
 		)
 		(stroke
 			(width 0)
@@ -14187,7 +14187,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 186.69) (xy 34.29 189.23)
+			(xy 86.36 186.69) (xy 86.36 189.23)
 		)
 		(stroke
 			(width 0)
@@ -14217,7 +14217,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 138.43) (xy 41.91 138.43)
+			(xy 87.63 138.43) (xy 93.98 138.43)
 		)
 		(stroke
 			(width 0)
@@ -14257,7 +14257,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 158.75) (xy 91.44 158.75)
+			(xy 142.24 158.75) (xy 143.51 158.75)
 		)
 		(stroke
 			(width 0)
@@ -14277,7 +14277,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 204.47) (xy 161.29 204.47)
+			(xy 212.09 204.47) (xy 213.36 204.47)
 		)
 		(stroke
 			(width 0)
@@ -14317,7 +14317,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 118.11 179.07 0)
+		(at 170.18 179.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14327,7 +14327,7 @@
 		(dnp no)
 		(uuid "011bae01-8513-4236-a138-eea0a9e3073c")
 		(property "Reference" "#PWR0193"
-			(at 118.11 185.42 0)
+			(at 170.18 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14338,7 +14338,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 182.88 0)
+			(at 170.18 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14348,7 +14348,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 179.07 0)
+			(at 170.18 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14359,7 +14359,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 179.07 0)
+			(at 170.18 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14370,7 +14370,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 179.07 0)
+			(at 170.18 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14473,7 +14473,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:GRM31CC72A475KE11L")
-		(at 269.24 199.39 90)
+		(at 321.31 199.39 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14483,7 +14483,7 @@
 		(dnp no)
 		(uuid "03d88cb5-1ff9-46f6-984c-9d1725353f56")
 		(property "Reference" "C73"
-			(at 269.24 196.85 90)
+			(at 321.31 196.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14494,7 +14494,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 270.51 201.93 90)
+			(at 322.58 201.93 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14505,7 +14505,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:C1206"
-			(at 269.24 199.39 0)
+			(at 321.31 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14516,7 +14516,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/GRM31CC72A475KE11L/236748.html"
-			(at 269.24 199.39 0)
+			(at 321.31 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14527,7 +14527,7 @@
 			)
 		)
 		(property "Description" "Capacitance:4.7uF Tolerance:±10% Tolerance:±10% Voltage Rating:100V Temperature Coefficient:X7S"
-			(at 269.24 199.39 0)
+			(at 321.31 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14538,7 +14538,7 @@
 			)
 		)
 		(property "Manufacturer Part" "GRM31CC72A475KE11L"
-			(at 269.24 199.39 0)
+			(at 321.31 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14549,7 +14549,7 @@
 			)
 		)
 		(property "Manufacturer" "muRata(村田)"
-			(at 269.24 199.39 0)
+			(at 321.31 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14560,7 +14560,7 @@
 			)
 		)
 		(property "Supplier Part" "C237304"
-			(at 269.24 199.39 0)
+			(at 321.31 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14571,7 +14571,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 269.24 199.39 0)
+			(at 321.31 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14582,7 +14582,7 @@
 			)
 		)
 		(property "LCSC Part Name" "4.7uF ±10% 100V"
-			(at 269.24 199.39 0)
+			(at 321.31 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14743,7 +14743,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 106.68 200.66 0)
+		(at 158.75 200.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14753,7 +14753,7 @@
 		(dnp no)
 		(uuid "04f3b062-110c-4758-9e77-eb43a20e390c")
 		(property "Reference" "#PWR0187"
-			(at 106.68 207.01 0)
+			(at 158.75 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14764,7 +14764,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 204.47 0)
+			(at 158.75 204.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14774,7 +14774,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 200.66 0)
+			(at 158.75 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14785,7 +14785,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 200.66 0)
+			(at 158.75 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14796,7 +14796,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 200.66 0)
+			(at 158.75 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15403,7 +15403,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 204.47 0)
+		(at 86.36 204.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15413,7 +15413,7 @@
 		(dnp no)
 		(uuid "1006378d-3331-4018-b58c-587f20c50186")
 		(property "Reference" "#PWR0197"
-			(at 34.29 210.82 0)
+			(at 86.36 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15424,7 +15424,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 34.29 208.28 0)
+			(at 86.36 208.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15434,7 +15434,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 204.47 0)
+			(at 86.36 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15445,7 +15445,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 204.47 0)
+			(at 86.36 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15456,7 +15456,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 204.47 0)
+			(at 86.36 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15692,7 +15692,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:GRM31CC72A475KE11L")
-		(at 41.91 143.51 90)
+		(at 93.98 143.51 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15702,7 +15702,7 @@
 		(dnp no)
 		(uuid "120f6774-c1e4-4ce3-a986-93f5a237d783")
 		(property "Reference" "C59"
-			(at 41.91 142.24 90)
+			(at 93.98 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15713,7 +15713,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 41.91 146.05 90)
+			(at 93.98 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15724,7 +15724,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:C1206"
-			(at 41.91 143.51 0)
+			(at 93.98 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15735,7 +15735,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/GRM31CC72A475KE11L/236748.html"
-			(at 41.91 143.51 0)
+			(at 93.98 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15746,7 +15746,7 @@
 			)
 		)
 		(property "Description" "Capacitance:4.7uF Tolerance:±10% Tolerance:±10% Voltage Rating:100V Temperature Coefficient:X7S"
-			(at 41.91 143.51 0)
+			(at 93.98 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15757,7 +15757,7 @@
 			)
 		)
 		(property "Manufacturer Part" "GRM31CC72A475KE11L"
-			(at 41.91 143.51 0)
+			(at 93.98 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15768,7 +15768,7 @@
 			)
 		)
 		(property "Manufacturer" "muRata(村田)"
-			(at 41.91 143.51 0)
+			(at 93.98 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15779,7 +15779,7 @@
 			)
 		)
 		(property "Supplier Part" "C237304"
-			(at 41.91 143.51 0)
+			(at 93.98 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15790,7 +15790,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 41.91 143.51 0)
+			(at 93.98 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15801,7 +15801,7 @@
 			)
 		)
 		(property "LCSC Part Name" "4.7uF ±10% 100V"
-			(at 41.91 143.51 0)
+			(at 93.98 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15906,7 +15906,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 191.77 177.8 0)
+		(at 243.84 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15916,7 +15916,7 @@
 		(dnp no)
 		(uuid "14319166-e615-4c8c-987a-a456ca2fdc81")
 		(property "Reference" "#PWR0205"
-			(at 191.77 184.15 0)
+			(at 243.84 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15927,7 +15927,7 @@
 			)
 		)
 		(property "Value" "GNDE"
-			(at 191.77 181.61 0)
+			(at 243.84 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15937,7 +15937,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 177.8 0)
+			(at 243.84 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15948,7 +15948,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 177.8 0)
+			(at 243.84 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15959,7 +15959,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 191.77 177.8 0)
+			(at 243.84 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15983,7 +15983,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 22.86 198.12 0)
+		(at 74.93 198.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15993,7 +15993,7 @@
 		(dnp no)
 		(uuid "150846af-972a-492b-902e-2490bc94bba0")
 		(property "Reference" "#PWR0204"
-			(at 22.86 204.47 0)
+			(at 74.93 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16004,7 +16004,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.86 201.93 0)
+			(at 74.93 201.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16014,7 +16014,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 198.12 0)
+			(at 74.93 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16025,7 +16025,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 198.12 0)
+			(at 74.93 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16036,7 +16036,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 22.86 198.12 0)
+			(at 74.93 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16060,7 +16060,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:SP015N03BGHTO")
-		(at 142.24 186.69 0)
+		(at 194.31 186.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16070,7 +16070,7 @@
 		(dnp no)
 		(uuid "199e2274-c9cf-4486-9403-573a622724e7")
 		(property "Reference" "Q8"
-			(at 148.59 184.15 90)
+			(at 200.66 184.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16080,7 +16080,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 142.24 186.69 0)
+			(at 194.31 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16090,7 +16090,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:TOLL-8_L10.4-W9.9-P1.20-LS11.7-BL"
-			(at 142.24 186.69 0)
+			(at 194.31 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16101,7 +16101,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/SP015N03BGHTO/23937200.html"
-			(at 142.24 186.69 0)
+			(at 194.31 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16112,7 +16112,7 @@
 			)
 		)
 		(property "Description" "Number:- Drain to Source Voltage:150V Current - Continuous Drain(Id):260A RDS(on):3.3mΩ@10V Pd - Power Dissipation:625W Gate Threshold Voltage (Vgs(th)):3V@250uA Gate Charge(Qg):122nC@10V Input Capacitance(Ciss):8.538nF Reverse Transfer Capacitance (Crss@"
-			(at 142.24 186.69 0)
+			(at 194.31 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16123,7 +16123,7 @@
 			)
 		)
 		(property "Manufacturer Part" "SP015N03BGHTO"
-			(at 142.24 186.69 0)
+			(at 194.31 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16134,7 +16134,7 @@
 			)
 		)
 		(property "Manufacturer" "Siliup(矽普)"
-			(at 142.24 186.69 0)
+			(at 194.31 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16145,7 +16145,7 @@
 			)
 		)
 		(property "Supplier Part" "C22385354"
-			(at 142.24 186.69 0)
+			(at 194.31 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16156,7 +16156,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 142.24 186.69 0)
+			(at 194.31 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16167,7 +16167,7 @@
 			)
 		)
 		(property "LCSC Part Name" "耐压:150V 电流:260A"
-			(at 142.24 186.69 0)
+			(at 194.31 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16510,7 +16510,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:0603WAF1801T5E")
-		(at 261.62 151.13 0)
+		(at 313.69 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16521,7 +16521,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d77543a-aba2-41ba-a3ec-28ef3f0850b7")
 		(property "Reference" "R68"
-			(at 261.62 148.59 0)
+			(at 313.69 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16531,7 +16531,7 @@
 			)
 		)
 		(property "Value" "1.8kΩ"
-			(at 261.62 151.13 0)
+			(at 313.69 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16542,7 +16542,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:R0603"
-			(at 261.62 151.13 0)
+			(at 313.69 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16553,7 +16553,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF1801T5E/4584.html"
-			(at 261.62 151.13 0)
+			(at 313.69 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16564,7 +16564,7 @@
 			)
 		)
 		(property "Description" "Type:Thick Film Resistor Resistance:1.8kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
-			(at 261.62 151.13 0)
+			(at 313.69 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16575,7 +16575,7 @@
 			)
 		)
 		(property "Manufacturer Part" "0603WAF1801T5E"
-			(at 261.62 151.13 0)
+			(at 313.69 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16586,7 +16586,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 261.62 151.13 0)
+			(at 313.69 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16597,7 +16597,7 @@
 			)
 		)
 		(property "Supplier Part" "C4177"
-			(at 261.62 151.13 0)
+			(at 313.69 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16608,7 +16608,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 261.62 151.13 0)
+			(at 313.69 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16619,7 +16619,7 @@
 			)
 		)
 		(property "LCSC Part Name" "1.8kΩ ±1% 100mW 厚膜电阻"
-			(at 261.62 151.13 0)
+			(at 313.69 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16646,7 +16646,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 246.38 176.53 0)
+		(at 298.45 176.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16656,7 +16656,7 @@
 		(dnp no)
 		(uuid "1f517df6-d695-44e9-bfb5-fd8d2c0e8c39")
 		(property "Reference" "#PWR0215"
-			(at 246.38 182.88 0)
+			(at 298.45 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16667,7 +16667,7 @@
 			)
 		)
 		(property "Value" "GNDE"
-			(at 246.38 180.34 0)
+			(at 298.45 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16677,7 +16677,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 176.53 0)
+			(at 298.45 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16688,7 +16688,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 176.53 0)
+			(at 298.45 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16699,7 +16699,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 246.38 176.53 0)
+			(at 298.45 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16934,7 +16934,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:0603WAF6042T5E")
-		(at 22.86 193.04 90)
+		(at 74.93 193.04 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16945,7 +16945,7 @@
 		(fields_autoplaced yes)
 		(uuid "23eefbd3-586e-448e-9008-4f61dfb226d9")
 		(property "Reference" "R43"
-			(at 25.4 191.77 90)
+			(at 77.47 191.77 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16956,7 +16956,7 @@
 			)
 		)
 		(property "Value" "60.4kΩ"
-			(at 25.4 194.31 90)
+			(at 77.47 194.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16967,7 +16967,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:R0603"
-			(at 22.86 193.04 0)
+			(at 74.93 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16978,7 +16978,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF6042T5E/23816.html"
-			(at 22.86 193.04 0)
+			(at 74.93 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16989,7 +16989,7 @@
 			)
 		)
 		(property "Description" "Type:Thick Film Resistor Resistance:60.4kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
-			(at 22.86 193.04 0)
+			(at 74.93 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17000,7 +17000,7 @@
 			)
 		)
 		(property "Manufacturer Part" "0603WAF6042T5E"
-			(at 22.86 193.04 0)
+			(at 74.93 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17011,7 +17011,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 22.86 193.04 0)
+			(at 74.93 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17022,7 +17022,7 @@
 			)
 		)
 		(property "Supplier Part" "C23089"
-			(at 22.86 193.04 0)
+			(at 74.93 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17033,7 +17033,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 22.86 193.04 0)
+			(at 74.93 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17044,7 +17044,7 @@
 			)
 		)
 		(property "LCSC Part Name" "60.4kΩ ±1% 100mW 厚膜电阻"
-			(at 22.86 193.04 0)
+			(at 74.93 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17417,7 +17417,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:ERJ1KM2R2D11OT")
-		(at 59.69 143.51 270)
+		(at 111.76 143.51 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17427,7 +17427,7 @@
 		(dnp no)
 		(uuid "2c98500d-db97-4518-b930-62b8e1437ccb")
 		(property "Reference" "C62"
-			(at 63.5 143.51 0)
+			(at 115.57 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17437,7 +17437,7 @@
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 57.15 143.51 0)
+			(at 109.22 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17447,7 +17447,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:CAP-TH_BD5.0-P2.00-D0.5-FD-1"
-			(at 59.69 143.51 0)
+			(at 111.76 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17458,7 +17458,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/ERJ1KM2R2D11OT/727108.html"
-			(at 59.69 143.51 0)
+			(at 111.76 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17469,7 +17469,7 @@
 			)
 		)
 		(property "Description" "Capacitance:2.2uF Tolerance:±20% Tolerance:±20% Voltage Rating:100V Ripple Current:- Equivalent Series Resistance(ESR):- Pin Spacing:- Diameter:5mm Height - Seated (Max):11mm Lifetime:- Operating Temperature:-40°C~+105°C Operating Temperature:-40°C~+105°C"
-			(at 59.69 143.51 0)
+			(at 111.76 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17480,7 +17480,7 @@
 			)
 		)
 		(property "Manufacturer Part" "ERJ1KM2R2D11OT"
-			(at 59.69 143.51 0)
+			(at 111.76 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17491,7 +17491,7 @@
 			)
 		)
 		(property "Manufacturer" "AISHI(艾华集团)"
-			(at 59.69 143.51 0)
+			(at 111.76 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17502,7 +17502,7 @@
 			)
 		)
 		(property "Supplier Part" "C694099"
-			(at 59.69 143.51 0)
+			(at 111.76 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17513,7 +17513,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 59.69 143.51 0)
+			(at 111.76 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17524,7 +17524,7 @@
 			)
 		)
 		(property "LCSC Part Name" "2.2uF ±20% 100V"
-			(at 59.69 143.51 0)
+			(at 111.76 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17551,7 +17551,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:CC0805KRX7R0BB471")
-		(at 34.29 193.04 90)
+		(at 86.36 193.04 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17561,7 +17561,7 @@
 		(dnp no)
 		(uuid "2e556991-94fd-42bd-8651-8ebbce89fd05")
 		(property "Reference" "C15"
-			(at 34.29 191.77 90)
+			(at 86.36 191.77 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17572,7 +17572,7 @@
 			)
 		)
 		(property "Value" "470pF"
-			(at 34.29 195.58 90)
+			(at 86.36 195.58 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17583,7 +17583,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:C0805"
-			(at 34.29 193.04 0)
+			(at 86.36 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17594,7 +17594,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20180906/C282243_51A53A5345E69C6665D4E8CFC2B98E68.pdf"
-			(at 34.29 193.04 0)
+			(at 86.36 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17605,7 +17605,7 @@
 			)
 		)
 		(property "Description" "Capacitance: Tolerance:±10% Tolerance:±10% Voltage Rated: Temperature Coefficient:"
-			(at 34.29 193.04 0)
+			(at 86.36 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17616,7 +17616,7 @@
 			)
 		)
 		(property "Manufacturer Part" "CC0805KRX7R0BB471"
-			(at 34.29 193.04 0)
+			(at 86.36 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17627,7 +17627,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 34.29 193.04 0)
+			(at 86.36 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17638,7 +17638,7 @@
 			)
 		)
 		(property "Supplier Part" "C107138"
-			(at 34.29 193.04 0)
+			(at 86.36 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17649,7 +17649,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 34.29 193.04 0)
+			(at 86.36 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17660,7 +17660,7 @@
 			)
 		)
 		(property "LCSC Part Name" "470pF ±10% 100V"
-			(at 34.29 193.04 0)
+			(at 86.36 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17687,7 +17687,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:GRM31CR61E476ME44L")
-		(at 246.38 171.45 90)
+		(at 298.45 171.45 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17698,7 +17698,7 @@
 		(fields_autoplaced yes)
 		(uuid "3127140e-5def-41ad-a738-f72ea17cdd3b")
 		(property "Reference" "C77"
-			(at 250.19 170.18 90)
+			(at 302.26 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17709,7 +17709,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 250.19 172.72 90)
+			(at 302.26 172.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17720,7 +17720,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:C1206"
-			(at 246.38 171.45 0)
+			(at 298.45 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17731,7 +17731,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/GRM31CR61E476ME44L/389810.html"
-			(at 246.38 171.45 0)
+			(at 298.45 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17742,7 +17742,7 @@
 			)
 		)
 		(property "Description" "Capacitance:47uF Tolerance:±20% Tolerance:±20% Voltage Rating:25V Temperature Coefficient:X5R"
-			(at 246.38 171.45 0)
+			(at 298.45 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17753,7 +17753,7 @@
 			)
 		)
 		(property "Manufacturer Part" "GRM31CR61E476ME44L"
-			(at 246.38 171.45 0)
+			(at 298.45 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17764,7 +17764,7 @@
 			)
 		)
 		(property "Manufacturer" "muRata(村田)"
-			(at 246.38 171.45 0)
+			(at 298.45 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17775,7 +17775,7 @@
 			)
 		)
 		(property "Supplier Part" "C403725"
-			(at 246.38 171.45 0)
+			(at 298.45 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17786,7 +17786,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 246.38 171.45 0)
+			(at 298.45 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17797,7 +17797,7 @@
 			)
 		)
 		(property "LCSC Part Name" "47uF ±20% 25V"
-			(at 246.38 171.45 0)
+			(at 298.45 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17824,7 +17824,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:GRM31CR61E476ME44L")
-		(at 191.77 171.45 90)
+		(at 243.84 171.45 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17835,7 +17835,7 @@
 		(fields_autoplaced yes)
 		(uuid "314524a9-e754-4606-8e43-59002527cb9d")
 		(property "Reference" "C66"
-			(at 195.58 170.18 90)
+			(at 247.65 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17846,7 +17846,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 195.58 172.72 90)
+			(at 247.65 172.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17857,7 +17857,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:C1206"
-			(at 191.77 171.45 0)
+			(at 243.84 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17868,7 +17868,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/GRM31CR61E476ME44L/389810.html"
-			(at 191.77 171.45 0)
+			(at 243.84 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17879,7 +17879,7 @@
 			)
 		)
 		(property "Description" "Capacitance:47uF Tolerance:±20% Tolerance:±20% Voltage Rating:25V Temperature Coefficient:X5R"
-			(at 191.77 171.45 0)
+			(at 243.84 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17890,7 +17890,7 @@
 			)
 		)
 		(property "Manufacturer Part" "GRM31CR61E476ME44L"
-			(at 191.77 171.45 0)
+			(at 243.84 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17901,7 +17901,7 @@
 			)
 		)
 		(property "Manufacturer" "muRata(村田)"
-			(at 191.77 171.45 0)
+			(at 243.84 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17912,7 +17912,7 @@
 			)
 		)
 		(property "Supplier Part" "C403725"
-			(at 191.77 171.45 0)
+			(at 243.84 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17923,7 +17923,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 191.77 171.45 0)
+			(at 243.84 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17934,7 +17934,7 @@
 			)
 		)
 		(property "LCSC Part Name" "47uF ±20% 25V"
-			(at 191.77 171.45 0)
+			(at 243.84 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18117,7 +18117,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:GCM1885C2A121FA16D")
-		(at 144.78 153.67 90)
+		(at 196.85 153.67 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18127,7 +18127,7 @@
 		(dnp no)
 		(uuid "33467721-52b3-4d39-badd-e9487c45e004")
 		(property "Reference" "U9"
-			(at 148.59 153.67 90)
+			(at 200.66 153.67 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18138,7 +18138,7 @@
 			)
 		)
 		(property "Value" "120pF"
-			(at 148.59 154.94 90)
+			(at 200.66 154.94 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18148,7 +18148,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:C0603"
-			(at 144.78 153.67 0)
+			(at 196.85 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18159,7 +18159,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/GCM1885C2A121FA16D/1955152.html"
-			(at 144.78 153.67 0)
+			(at 196.85 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18170,7 +18170,7 @@
 			)
 		)
 		(property "Description" "Capacitance:120pF Tolerance:±1% Tolerance:±1% Voltage Rating:100V Temperature Coefficient:C0G"
-			(at 144.78 153.67 0)
+			(at 196.85 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18181,7 +18181,7 @@
 			)
 		)
 		(property "Manufacturer Part" "GCM1885C2A121FA16D"
-			(at 144.78 153.67 0)
+			(at 196.85 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18192,7 +18192,7 @@
 			)
 		)
 		(property "Manufacturer" "muRata(村田)"
-			(at 144.78 153.67 0)
+			(at 196.85 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18203,7 +18203,7 @@
 			)
 		)
 		(property "Supplier Part" "C1864338"
-			(at 144.78 153.67 0)
+			(at 196.85 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18214,7 +18214,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 144.78 153.67 0)
+			(at 196.85 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18225,7 +18225,7 @@
 			)
 		)
 		(property "LCSC Part Name" "120pF ±1% 100V"
-			(at 144.78 153.67 0)
+			(at 196.85 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18252,7 +18252,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:0154005.DR")
-		(at 278.13 157.48 90)
+		(at 330.2 157.48 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18262,7 +18262,7 @@
 		(dnp no)
 		(uuid "3468c41b-f643-4fb2-8b8a-b64abede746c")
 		(property "Reference" "F6"
-			(at 275.59 157.48 0)
+			(at 327.66 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18272,7 +18272,7 @@
 			)
 		)
 		(property "Value" "0154005.DR"
-			(at 280.67 157.48 0)
+			(at 332.74 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18282,7 +18282,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:FUSE-SMD_L9.8-W5.1"
-			(at 278.13 157.48 0)
+			(at 330.2 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18293,7 +18293,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/0154005.DR/208035.html"
-			(at 278.13 157.48 0)
+			(at 330.2 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18304,7 +18304,7 @@
 			)
 		)
 		(property "Description" "Type:Surface Mount Fuse (with Holder) Current Rating:5A Voltage Rating (AC):125V Voltage Rating (DC):125V Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C Interrupt Rating:50A Length:9.73mm Width:5.03mm Height:3.81mm"
-			(at 278.13 157.48 0)
+			(at 330.2 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18315,7 +18315,7 @@
 			)
 		)
 		(property "Manufacturer Part" "0154005.DR"
-			(at 278.13 157.48 0)
+			(at 330.2 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18326,7 +18326,7 @@
 			)
 		)
 		(property "Manufacturer" "Littelfuse(美国力特)"
-			(at 278.13 157.48 0)
+			(at 330.2 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18337,7 +18337,7 @@
 			)
 		)
 		(property "Supplier Part" "C206916"
-			(at 278.13 157.48 0)
+			(at 330.2 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18348,7 +18348,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 278.13 157.48 0)
+			(at 330.2 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18359,7 +18359,7 @@
 			)
 		)
 		(property "LCSC Part Name" "125V贴片式保险丝（含保险丝座）"
-			(at 278.13 157.48 0)
+			(at 330.2 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18731,7 +18731,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:GRM31CR61E476ME44L")
-		(at 212.09 171.45 90)
+		(at 264.16 171.45 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18742,7 +18742,7 @@
 		(fields_autoplaced yes)
 		(uuid "3fb79152-52dc-4495-ab90-43f3c604e267")
 		(property "Reference" "C70"
-			(at 215.9 170.18 90)
+			(at 267.97 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18753,7 +18753,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 215.9 172.72 90)
+			(at 267.97 172.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18764,7 +18764,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:C1206"
-			(at 212.09 171.45 0)
+			(at 264.16 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18775,7 +18775,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/GRM31CR61E476ME44L/389810.html"
-			(at 212.09 171.45 0)
+			(at 264.16 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18786,7 +18786,7 @@
 			)
 		)
 		(property "Description" "Capacitance:47uF Tolerance:±20% Tolerance:±20% Voltage Rating:25V Temperature Coefficient:X5R"
-			(at 212.09 171.45 0)
+			(at 264.16 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18797,7 +18797,7 @@
 			)
 		)
 		(property "Manufacturer Part" "GRM31CR61E476ME44L"
-			(at 212.09 171.45 0)
+			(at 264.16 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18808,7 +18808,7 @@
 			)
 		)
 		(property "Manufacturer" "muRata(村田)"
-			(at 212.09 171.45 0)
+			(at 264.16 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18819,7 +18819,7 @@
 			)
 		)
 		(property "Supplier Part" "C403725"
-			(at 212.09 171.45 0)
+			(at 264.16 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18830,7 +18830,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 212.09 171.45 0)
+			(at 264.16 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18841,7 +18841,7 @@
 			)
 		)
 		(property "LCSC Part Name" "47uF ±20% 25V"
-			(at 212.09 171.45 0)
+			(at 264.16 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18868,7 +18868,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 15.24 198.12 0)
+		(at 67.31 198.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18878,7 +18878,7 @@
 		(dnp no)
 		(uuid "3ffd1fef-70af-4a9c-be62-84916376f84a")
 		(property "Reference" "#PWR0192"
-			(at 15.24 204.47 0)
+			(at 67.31 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18889,7 +18889,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 15.24 201.93 0)
+			(at 67.31 201.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18899,7 +18899,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 15.24 198.12 0)
+			(at 67.31 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18910,7 +18910,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 15.24 198.12 0)
+			(at 67.31 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18921,7 +18921,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 15.24 198.12 0)
+			(at 67.31 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19315,7 +19315,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 236.22 176.53 0)
+		(at 288.29 176.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19325,7 +19325,7 @@
 		(dnp no)
 		(uuid "41e5dedb-e1c9-4d8d-8ee1-6723aaba7f35")
 		(property "Reference" "#PWR0209"
-			(at 236.22 182.88 0)
+			(at 288.29 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19336,7 +19336,7 @@
 			)
 		)
 		(property "Value" "GNDE"
-			(at 236.22 180.34 0)
+			(at 288.29 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19346,7 +19346,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 176.53 0)
+			(at 288.29 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19357,7 +19357,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 176.53 0)
+			(at 288.29 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19368,7 +19368,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 176.53 0)
+			(at 288.29 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19392,7 +19392,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:CMMR1U-02 TR PBFREE")
-		(at 134.62 153.67 270)
+		(at 186.69 153.67 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19403,7 +19403,7 @@
 		(fields_autoplaced yes)
 		(uuid "422819bd-a949-46a7-9c00-647bd6b73ec1")
 		(property "Reference" "D18"
-			(at 137.16 153.67 90)
+			(at 189.23 153.67 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19414,7 +19414,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 134.62 153.67 0)
+			(at 186.69 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19424,7 +19424,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:SOD-123FL_L2.8-W1.8-LS3.8-RD"
-			(at 134.62 153.67 0)
+			(at 186.69 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19435,7 +19435,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/CMMR1U-02%2520TR%2520PBFREE/6152318.html"
-			(at 134.62 153.67 0)
+			(at 186.69 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19446,7 +19446,7 @@
 			)
 		)
 		(property "Description" "Voltage - Forward(Vf@If):1V@1.0A Voltage - DC Reverse(Vr):200V Reverse Leakage Current (Ir):1uA Reverse Recovery Time (trr):50ns Operating Junction Temperature Range:-65°C~+150°C Operating Junction Temperature Range:-65°C~+150°C"
-			(at 134.62 153.67 0)
+			(at 186.69 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19457,7 +19457,7 @@
 			)
 		)
 		(property "Manufacturer Part" "CMMR1U-02 TR PBFREE"
-			(at 134.62 153.67 0)
+			(at 186.69 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19468,7 +19468,7 @@
 			)
 		)
 		(property "Manufacturer" "Central(中环)"
-			(at 134.62 153.67 0)
+			(at 186.69 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19479,7 +19479,7 @@
 			)
 		)
 		(property "Supplier Part" "C5354735"
-			(at 134.62 153.67 0)
+			(at 186.69 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19490,7 +19490,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 134.62 153.67 0)
+			(at 186.69 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19501,7 +19501,7 @@
 			)
 		)
 		(property "LCSC Part Name" "耐压:200V 反向恢复时间：50ns"
-			(at 134.62 153.67 0)
+			(at 186.69 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19796,7 +19796,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 43.18 196.85 0)
+		(at 95.25 196.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19807,7 +19807,7 @@
 		(fields_autoplaced yes)
 		(uuid "44021556-f0a5-4314-a8f8-247304fd6555")
 		(property "Reference" "#FLG042"
-			(at 43.18 195.58 0)
+			(at 95.25 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19818,7 +19818,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 43.18 191.77 0)
+			(at 95.25 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19829,7 +19829,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 196.85 0)
+			(at 95.25 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19840,7 +19840,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 196.85 0)
+			(at 95.25 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19851,7 +19851,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 43.18 196.85 0)
+			(at 95.25 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19953,7 +19953,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:FRC0603F2371TS")
-		(at 212.09 220.98 0)
+		(at 264.16 220.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19964,7 +19964,7 @@
 		(fields_autoplaced yes)
 		(uuid "454c372a-3119-40d0-b359-cd0fe71c16d9")
 		(property "Reference" "R44"
-			(at 212.09 217.17 0)
+			(at 264.16 217.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19974,7 +19974,7 @@
 			)
 		)
 		(property "Value" "2.37kΩ"
-			(at 212.09 220.98 0)
+			(at 264.16 220.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19984,7 +19984,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:R0603"
-			(at 212.09 220.98 0)
+			(at 264.16 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19995,7 +19995,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 220.98 0)
+			(at 264.16 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20006,7 +20006,7 @@
 			)
 		)
 		(property "Description" "Type:Thick Film Resistor Resistance:2.37kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
-			(at 212.09 220.98 0)
+			(at 264.16 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20017,7 +20017,7 @@
 			)
 		)
 		(property "Manufacturer Part" "FRC0603F2371TS"
-			(at 212.09 220.98 0)
+			(at 264.16 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20028,7 +20028,7 @@
 			)
 		)
 		(property "Manufacturer" "FOJAN(富捷)"
-			(at 212.09 220.98 0)
+			(at 264.16 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20039,7 +20039,7 @@
 			)
 		)
 		(property "Supplier Part" "C2933174"
-			(at 212.09 220.98 0)
+			(at 264.16 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20050,7 +20050,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 212.09 220.98 0)
+			(at 264.16 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20061,7 +20061,7 @@
 			)
 		)
 		(property "LCSC Part Name" "2.37kΩ ±1% 100mW 厚膜电阻"
-			(at 212.09 220.98 0)
+			(at 264.16 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20364,7 +20364,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 48.26 148.59 0)
+		(at 100.33 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20374,7 +20374,7 @@
 		(dnp no)
 		(uuid "488b4152-868d-4d74-80e4-f574a473407b")
 		(property "Reference" "#PWR0196"
-			(at 48.26 154.94 0)
+			(at 100.33 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20385,7 +20385,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.26 152.4 0)
+			(at 100.33 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20395,7 +20395,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 148.59 0)
+			(at 100.33 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20406,7 +20406,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 148.59 0)
+			(at 100.33 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20417,7 +20417,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 148.59 0)
+			(at 100.33 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20576,7 +20576,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 19.05 148.59 0)
+		(at 71.12 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20586,7 +20586,7 @@
 		(dnp no)
 		(uuid "4956ef68-80c2-4a49-9206-3018502a7782")
 		(property "Reference" "#PWR0198"
-			(at 19.05 154.94 0)
+			(at 71.12 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20597,7 +20597,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 19.05 152.4 0)
+			(at 71.12 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20607,7 +20607,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 19.05 148.59 0)
+			(at 71.12 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20618,7 +20618,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 148.59 0)
+			(at 71.12 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20629,7 +20629,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 19.05 148.59 0)
+			(at 71.12 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20808,7 +20808,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:0805W8F300KT5E")
-		(at 135.89 193.04 0)
+		(at 187.96 193.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20818,7 +20818,7 @@
 		(dnp no)
 		(uuid "4ede77a4-0dba-4416-a136-80115901dcfc")
 		(property "Reference" "R41"
-			(at 135.89 190.5 0)
+			(at 187.96 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20828,7 +20828,7 @@
 			)
 		)
 		(property "Value" "3Ω"
-			(at 135.89 193.04 0)
+			(at 187.96 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20838,7 +20838,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:R0805"
-			(at 135.89 193.04 0)
+			(at 187.96 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20849,7 +20849,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/0805W8F300KT5E/18348.html"
-			(at 135.89 193.04 0)
+			(at 187.96 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20860,7 +20860,7 @@
 			)
 		)
 		(property "Description" "Type:Thick Film Resistors Resistance:3Ω Tolerance:±1% Tolerance:±1% Power(Watts):0.125W Voltage-Supply(Max):150V Temperature Coefficient:±400ppm/°C Temperature Coefficient:±400ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
-			(at 135.89 193.04 0)
+			(at 187.96 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20871,7 +20871,7 @@
 			)
 		)
 		(property "Manufacturer Part" "0805W8F300KT5E"
-			(at 135.89 193.04 0)
+			(at 187.96 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20882,7 +20882,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 135.89 193.04 0)
+			(at 187.96 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20893,7 +20893,7 @@
 			)
 		)
 		(property "Supplier Part" "C17660"
-			(at 135.89 193.04 0)
+			(at 187.96 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20904,7 +20904,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 135.89 193.04 0)
+			(at 187.96 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20915,7 +20915,7 @@
 			)
 		)
 		(property "LCSC Part Name" "3Ω ±1% 125mW 厚膜电阻"
-			(at 135.89 193.04 0)
+			(at 187.96 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20942,7 +20942,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:FRC0603F7501TS")
-		(at 43.18 191.77 90)
+		(at 95.25 191.77 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20953,7 +20953,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f31d2f6-808b-4649-8647-613fb25bc3f2")
 		(property "Reference" "R42"
-			(at 45.72 190.5 90)
+			(at 97.79 190.5 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20964,7 +20964,7 @@
 			)
 		)
 		(property "Value" "7.5kΩ"
-			(at 45.72 193.04 90)
+			(at 97.79 193.04 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20975,7 +20975,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:R0603"
-			(at 43.18 191.77 0)
+			(at 95.25 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20986,7 +20986,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 191.77 0)
+			(at 95.25 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20997,7 +20997,7 @@
 			)
 		)
 		(property "Description" "Type:Thick Film Resistor Resistance:7.5kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
-			(at 43.18 191.77 0)
+			(at 95.25 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21008,7 +21008,7 @@
 			)
 		)
 		(property "Manufacturer Part" "FRC0603F7501TS"
-			(at 43.18 191.77 0)
+			(at 95.25 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21019,7 +21019,7 @@
 			)
 		)
 		(property "Manufacturer" "FOJAN(富捷)"
-			(at 43.18 191.77 0)
+			(at 95.25 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21030,7 +21030,7 @@
 			)
 		)
 		(property "Supplier Part" "C2930127"
-			(at 43.18 191.77 0)
+			(at 95.25 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21041,7 +21041,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 43.18 191.77 0)
+			(at 95.25 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21052,7 +21052,7 @@
 			)
 		)
 		(property "LCSC Part Name" "7.5kΩ ±1% 100mW 厚膜电阻"
-			(at 43.18 191.77 0)
+			(at 95.25 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21079,7 +21079,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:GRM31CC72A475KE11L")
-		(at 118.11 173.99 90)
+		(at 170.18 173.99 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21089,7 +21089,7 @@
 		(dnp no)
 		(uuid "4fdd6e66-de1e-44b3-ab4d-0f1d6db08e54")
 		(property "Reference" "C61"
-			(at 118.11 171.45 90)
+			(at 170.18 171.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21100,7 +21100,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 119.38 176.53 90)
+			(at 171.45 176.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21111,7 +21111,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:C1206"
-			(at 118.11 173.99 0)
+			(at 170.18 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21122,7 +21122,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/GRM31CC72A475KE11L/236748.html"
-			(at 118.11 173.99 0)
+			(at 170.18 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21133,7 +21133,7 @@
 			)
 		)
 		(property "Description" "Capacitance:4.7uF Tolerance:±10% Tolerance:±10% Voltage Rating:100V Temperature Coefficient:X7S"
-			(at 118.11 173.99 0)
+			(at 170.18 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21144,7 +21144,7 @@
 			)
 		)
 		(property "Manufacturer Part" "GRM31CC72A475KE11L"
-			(at 118.11 173.99 0)
+			(at 170.18 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21155,7 +21155,7 @@
 			)
 		)
 		(property "Manufacturer" "muRata(村田)"
-			(at 118.11 173.99 0)
+			(at 170.18 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21166,7 +21166,7 @@
 			)
 		)
 		(property "Supplier Part" "C237304"
-			(at 118.11 173.99 0)
+			(at 170.18 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21177,7 +21177,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 118.11 173.99 0)
+			(at 170.18 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21188,7 +21188,7 @@
 			)
 		)
 		(property "LCSC Part Name" "4.7uF ±10% 100V"
-			(at 118.11 173.99 0)
+			(at 170.18 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21215,7 +21215,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 212.09 176.53 0)
+		(at 264.16 176.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21225,7 +21225,7 @@
 		(dnp no)
 		(uuid "5284a28d-c7db-4b5c-b987-954aacff8db3")
 		(property "Reference" "#PWR0207"
-			(at 212.09 182.88 0)
+			(at 264.16 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21236,7 +21236,7 @@
 			)
 		)
 		(property "Value" "GNDE"
-			(at 212.09 180.34 0)
+			(at 264.16 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21246,7 +21246,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 176.53 0)
+			(at 264.16 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21257,7 +21257,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 176.53 0)
+			(at 264.16 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21268,7 +21268,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 212.09 176.53 0)
+			(at 264.16 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21292,7 +21292,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 246.38 151.13 0)
+		(at 298.45 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21302,7 +21302,7 @@
 		(dnp no)
 		(uuid "53f52e42-1bf1-45d5-b1b3-ca3e49610abd")
 		(property "Reference" "#PWR0299"
-			(at 246.38 157.48 0)
+			(at 298.45 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21313,7 +21313,7 @@
 			)
 		)
 		(property "Value" "GNDE"
-			(at 246.38 154.94 0)
+			(at 298.45 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21323,7 +21323,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 151.13 0)
+			(at 298.45 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21334,7 +21334,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 151.13 0)
+			(at 298.45 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21345,7 +21345,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 246.38 151.13 0)
+			(at 298.45 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21369,7 +21369,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:GRM31CC72A475KE11L")
-		(at 35.56 143.51 90)
+		(at 87.63 143.51 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21379,7 +21379,7 @@
 		(dnp no)
 		(uuid "54dc8cbf-4a2e-4aa8-b64f-154ce60a52f8")
 		(property "Reference" "C7"
-			(at 35.56 140.97 90)
+			(at 87.63 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21390,7 +21390,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 35.56 144.78 90)
+			(at 87.63 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21401,7 +21401,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:C1206"
-			(at 35.56 143.51 0)
+			(at 87.63 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21412,7 +21412,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/GRM31CC72A475KE11L/236748.html"
-			(at 35.56 143.51 0)
+			(at 87.63 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21423,7 +21423,7 @@
 			)
 		)
 		(property "Description" "Capacitance:4.7uF Tolerance:±10% Tolerance:±10% Voltage Rating:100V Temperature Coefficient:X7S"
-			(at 35.56 143.51 0)
+			(at 87.63 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21434,7 +21434,7 @@
 			)
 		)
 		(property "Manufacturer Part" "GRM31CC72A475KE11L"
-			(at 35.56 143.51 0)
+			(at 87.63 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21445,7 +21445,7 @@
 			)
 		)
 		(property "Manufacturer" "muRata(村田)"
-			(at 35.56 143.51 0)
+			(at 87.63 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21456,7 +21456,7 @@
 			)
 		)
 		(property "Supplier Part" "C237304"
-			(at 35.56 143.51 0)
+			(at 87.63 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21467,7 +21467,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 35.56 143.51 0)
+			(at 87.63 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21478,7 +21478,7 @@
 			)
 		)
 		(property "LCSC Part Name" "4.7uF ±10% 100V"
-			(at 35.56 143.51 0)
+			(at 87.63 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21583,7 +21583,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:ERA6AEB680V")
-		(at 125.73 168.91 0)
+		(at 177.8 168.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21594,7 +21594,7 @@
 		(fields_autoplaced yes)
 		(uuid "5545cb44-02bc-4f38-b45a-b0b92355ee9c")
 		(property "Reference" "R6"
-			(at 125.73 165.1 0)
+			(at 177.8 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21604,7 +21604,7 @@
 			)
 		)
 		(property "Value" "68Ω"
-			(at 125.73 168.91 0)
+			(at 177.8 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21614,7 +21614,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:R0805"
-			(at 125.73 168.91 0)
+			(at 177.8 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21625,7 +21625,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 168.91 0)
+			(at 177.8 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21636,7 +21636,7 @@
 			)
 		)
 		(property "Description" "Type:Thin Film Resistor Resistance: Tolerance:±0.1% Tolerance:±0.1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±25ppm/°C Temperature Coefficient:±25ppm/°C Operating Temperature Range:-55°C~+155°C Operating Temperature Range:-55°C~+155°C"
-			(at 125.73 168.91 0)
+			(at 177.8 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21647,7 +21647,7 @@
 			)
 		)
 		(property "Manufacturer Part" "ERA6AEB680V"
-			(at 125.73 168.91 0)
+			(at 177.8 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21658,7 +21658,7 @@
 			)
 		)
 		(property "Manufacturer" "PANASONIC(松下)"
-			(at 125.73 168.91 0)
+			(at 177.8 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21669,7 +21669,7 @@
 			)
 		)
 		(property "Supplier Part" "C445645"
-			(at 125.73 168.91 0)
+			(at 177.8 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21680,7 +21680,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 125.73 168.91 0)
+			(at 177.8 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21691,7 +21691,7 @@
 			)
 		)
 		(property "LCSC Part Name" "68Ω ±0.1% 125mW 薄膜电阻"
-			(at 125.73 168.91 0)
+			(at 177.8 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21873,7 +21873,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 19.05 138.43 0)
+		(at 71.12 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21883,7 +21883,7 @@
 		(dnp no)
 		(uuid "58505f26-ac8a-4cea-891c-01bf6a14dcab")
 		(property "Reference" "#PWR0190"
-			(at 19.05 142.24 0)
+			(at 71.12 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21894,7 +21894,7 @@
 			)
 		)
 		(property "Value" "H_PWR-IN"
-			(at 19.05 134.62 0)
+			(at 71.12 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21904,7 +21904,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 19.05 138.43 0)
+			(at 71.12 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21915,7 +21915,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 138.43 0)
+			(at 71.12 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21926,7 +21926,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 19.05 138.43 0)
+			(at 71.12 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22106,7 +22106,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:LT8309ES5#TRMPBF")
-		(at 247.65 205.74 180)
+		(at 299.72 205.74 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22117,7 +22117,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c2b7856-4436-4689-84f0-f7eb4d49e836")
 		(property "Reference" "U28"
-			(at 248.92 198.12 0)
+			(at 300.99 198.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22127,7 +22127,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 247.65 205.74 0)
+			(at 299.72 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22137,7 +22137,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:TSOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR"
-			(at 247.65 205.74 0)
+			(at 299.72 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22148,7 +22148,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/LT8309ES5%2523TRMPBF/608061.html"
-			(at 247.65 205.74 0)
+			(at 299.72 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22159,7 +22159,7 @@
 			)
 		)
 		(property "Description" "Number of Channels:1 Voltage - Supply:4.5V~40V Voltage - Supply:4.5V~40V RDS(on):800mΩ Operating Temperature	-:-40°C~+125°C Operating Temperature	-:-40°C~+125°C Features:Over Temperature Protection"
-			(at 247.65 205.74 0)
+			(at 299.72 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22170,7 +22170,7 @@
 			)
 		)
 		(property "Manufacturer Part" "LT8309ES5#TRMPBF"
-			(at 247.65 205.74 0)
+			(at 299.72 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22181,7 +22181,7 @@
 			)
 		)
 		(property "Manufacturer" "ADI(亚德诺)"
-			(at 247.65 205.74 0)
+			(at 299.72 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22192,7 +22192,7 @@
 			)
 		)
 		(property "Supplier Part" "C580284"
-			(at 247.65 205.74 0)
+			(at 299.72 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22203,7 +22203,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 247.65 205.74 0)
+			(at 299.72 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22214,7 +22214,7 @@
 			)
 		)
 		(property "LCSC Part Name" "副边同步整流器驱动器"
-			(at 247.65 205.74 0)
+			(at 299.72 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22250,7 +22250,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 130.81 168.91 0)
+		(at 182.88 168.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22261,7 +22261,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d2bfec6-8d9e-4467-b8c9-74b0e34d533b")
 		(property "Reference" "#FLG032"
-			(at 130.81 167.64 0)
+			(at 182.88 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22272,7 +22272,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 130.81 163.83 0)
+			(at 182.88 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22283,7 +22283,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 168.91 0)
+			(at 182.88 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22294,7 +22294,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 168.91 0)
+			(at 182.88 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22305,7 +22305,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 130.81 168.91 0)
+			(at 182.88 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22485,7 +22485,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 34.29 186.69 0)
+		(at 86.36 186.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22496,7 +22496,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e21e1dc-4b49-4310-9ab1-462e44d98452")
 		(property "Reference" "#FLG040"
-			(at 34.29 185.42 0)
+			(at 86.36 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22507,7 +22507,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 34.29 181.61 0)
+			(at 86.36 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22518,7 +22518,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 186.69 0)
+			(at 86.36 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22529,7 +22529,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 186.69 0)
+			(at 86.36 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22540,7 +22540,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 34.29 186.69 0)
+			(at 86.36 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22564,7 +22564,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 199.39 0)
+		(at 107.95 199.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22574,7 +22574,7 @@
 		(dnp no)
 		(uuid "5ed628f6-7c7c-42db-9c8d-b20ddb9ba34f")
 		(property "Reference" "#PWR0188"
-			(at 55.88 205.74 0)
+			(at 107.95 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22585,7 +22585,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 203.2 0)
+			(at 107.95 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22595,7 +22595,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 199.39 0)
+			(at 107.95 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22606,7 +22606,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 199.39 0)
+			(at 107.95 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22617,7 +22617,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 199.39 0)
+			(at 107.95 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22641,7 +22641,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:CL10B224KB8NNNC")
-		(at 55.88 193.04 90)
+		(at 107.95 193.04 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22652,7 +22652,7 @@
 		(fields_autoplaced yes)
 		(uuid "60ab738f-0d06-4267-b063-101dae561ec3")
 		(property "Reference" "C63"
-			(at 59.69 191.77 90)
+			(at 111.76 191.77 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22663,7 +22663,7 @@
 			)
 		)
 		(property "Value" "220nF"
-			(at 59.69 194.31 90)
+			(at 111.76 194.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22674,7 +22674,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:C0603"
-			(at 55.88 193.04 0)
+			(at 107.95 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22685,7 +22685,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10B224KB8NNNC/65773.html"
-			(at 55.88 193.04 0)
+			(at 107.95 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22696,7 +22696,7 @@
 			)
 		)
 		(property "Description" "Capacitance:220nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
-			(at 55.88 193.04 0)
+			(at 107.95 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22707,7 +22707,7 @@
 			)
 		)
 		(property "Manufacturer Part" "CL10B224KB8NNNC"
-			(at 55.88 193.04 0)
+			(at 107.95 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22718,7 +22718,7 @@
 			)
 		)
 		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 55.88 193.04 0)
+			(at 107.95 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22729,7 +22729,7 @@
 			)
 		)
 		(property "Supplier Part" "C64705"
-			(at 55.88 193.04 0)
+			(at 107.95 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22740,7 +22740,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 55.88 193.04 0)
+			(at 107.95 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22751,7 +22751,7 @@
 			)
 		)
 		(property "LCSC Part Name" "220nF ±10% 50V"
-			(at 55.88 193.04 0)
+			(at 107.95 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22778,7 +22778,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:ERJ1KM2R2D11OT")
-		(at 278.13 171.45 270)
+		(at 330.2 171.45 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22788,7 +22788,7 @@
 		(dnp no)
 		(uuid "61d939e3-2b7b-49c2-8ada-ff4ba43b6770")
 		(property "Reference" "C76"
-			(at 281.94 171.45 0)
+			(at 334.01 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22798,7 +22798,7 @@
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 275.59 171.45 0)
+			(at 327.66 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22808,7 +22808,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:CAP-TH_BD5.0-P2.00-D0.5-FD-1"
-			(at 278.13 171.45 0)
+			(at 330.2 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22819,7 +22819,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/ERJ1KM2R2D11OT/727108.html"
-			(at 278.13 171.45 0)
+			(at 330.2 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22830,7 +22830,7 @@
 			)
 		)
 		(property "Description" "Capacitance:2.2uF Tolerance:±20% Tolerance:±20% Voltage Rating:100V Ripple Current:- Equivalent Series Resistance(ESR):- Pin Spacing:- Diameter:5mm Height - Seated (Max):11mm Lifetime:- Operating Temperature:-40°C~+105°C Operating Temperature:-40°C~+105°C"
-			(at 278.13 171.45 0)
+			(at 330.2 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22841,7 +22841,7 @@
 			)
 		)
 		(property "Manufacturer Part" "ERJ1KM2R2D11OT"
-			(at 278.13 171.45 0)
+			(at 330.2 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22852,7 +22852,7 @@
 			)
 		)
 		(property "Manufacturer" "AISHI(艾华集团)"
-			(at 278.13 171.45 0)
+			(at 330.2 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22863,7 +22863,7 @@
 			)
 		)
 		(property "Supplier Part" "C694099"
-			(at 278.13 171.45 0)
+			(at 330.2 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22874,7 +22874,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 278.13 171.45 0)
+			(at 330.2 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22885,7 +22885,7 @@
 			)
 		)
 		(property "LCSC Part Name" "2.2uF ±20% 100V"
-			(at 278.13 171.45 0)
+			(at 330.2 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22912,7 +22912,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 15.24 185.42 0)
+		(at 67.31 185.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22923,7 +22923,7 @@
 		(fields_autoplaced yes)
 		(uuid "62764f91-ddd4-4791-8808-ddf32ecd24fc")
 		(property "Reference" "#FLG038"
-			(at 15.24 184.15 0)
+			(at 67.31 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22934,7 +22934,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 15.24 180.34 0)
+			(at 67.31 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22945,7 +22945,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 15.24 185.42 0)
+			(at 67.31 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22956,7 +22956,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 15.24 185.42 0)
+			(at 67.31 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22967,7 +22967,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 15.24 185.42 0)
+			(at 67.31 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23128,7 +23128,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:ERJ1KM2R2D11OT")
-		(at 267.97 171.45 270)
+		(at 320.04 171.45 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23138,7 +23138,7 @@
 		(dnp no)
 		(uuid "6438e862-599e-499b-b9e2-1a6463ad8325")
 		(property "Reference" "C75"
-			(at 271.78 171.45 0)
+			(at 323.85 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23148,7 +23148,7 @@
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 265.43 171.45 0)
+			(at 317.5 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23158,7 +23158,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:CAP-TH_BD5.0-P2.00-D0.5-FD-1"
-			(at 267.97 171.45 0)
+			(at 320.04 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23169,7 +23169,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/ERJ1KM2R2D11OT/727108.html"
-			(at 267.97 171.45 0)
+			(at 320.04 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23180,7 +23180,7 @@
 			)
 		)
 		(property "Description" "Capacitance:2.2uF Tolerance:±20% Tolerance:±20% Voltage Rating:100V Ripple Current:- Equivalent Series Resistance(ESR):- Pin Spacing:- Diameter:5mm Height - Seated (Max):11mm Lifetime:- Operating Temperature:-40°C~+105°C Operating Temperature:-40°C~+105°C"
-			(at 267.97 171.45 0)
+			(at 320.04 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23191,7 +23191,7 @@
 			)
 		)
 		(property "Manufacturer Part" "ERJ1KM2R2D11OT"
-			(at 267.97 171.45 0)
+			(at 320.04 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23202,7 +23202,7 @@
 			)
 		)
 		(property "Manufacturer" "AISHI(艾华集团)"
-			(at 267.97 171.45 0)
+			(at 320.04 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23213,7 +23213,7 @@
 			)
 		)
 		(property "Supplier Part" "C694099"
-			(at 267.97 171.45 0)
+			(at 320.04 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23224,7 +23224,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 267.97 171.45 0)
+			(at 320.04 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23235,7 +23235,7 @@
 			)
 		)
 		(property "LCSC Part Name" "2.2uF ±20% 100V"
-			(at 267.97 171.45 0)
+			(at 320.04 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23340,7 +23340,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 173.99 204.47 0)
+		(at 226.06 204.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23351,7 +23351,7 @@
 		(fields_autoplaced yes)
 		(uuid "657ab653-538a-41b5-9b57-9e876ee3189b")
 		(property "Reference" "#FLG029"
-			(at 173.99 203.2 0)
+			(at 226.06 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23362,7 +23362,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 173.99 199.39 0)
+			(at 226.06 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23373,7 +23373,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 204.47 0)
+			(at 226.06 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23384,7 +23384,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 204.47 0)
+			(at 226.06 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23395,7 +23395,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 173.99 204.47 0)
+			(at 226.06 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23553,7 +23553,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 278.13 176.53 0)
+		(at 330.2 176.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23563,7 +23563,7 @@
 		(dnp no)
 		(uuid "6952308f-4a70-4bde-a9a6-72c46f4901b8")
 		(property "Reference" "#PWR0217"
-			(at 278.13 182.88 0)
+			(at 330.2 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23574,7 +23574,7 @@
 			)
 		)
 		(property "Value" "GNDE"
-			(at 278.13 180.34 0)
+			(at 330.2 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23584,7 +23584,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 278.13 176.53 0)
+			(at 330.2 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23595,7 +23595,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 278.13 176.53 0)
+			(at 330.2 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23606,7 +23606,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 278.13 176.53 0)
+			(at 330.2 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23764,7 +23764,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:0805W8F1603T5E")
-		(at 85.09 165.1 0)
+		(at 137.16 165.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23774,7 +23774,7 @@
 		(dnp no)
 		(uuid "69f76056-df20-4ce2-8149-b76466684314")
 		(property "Reference" "R39"
-			(at 85.09 160.02 0)
+			(at 137.16 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23784,7 +23784,7 @@
 			)
 		)
 		(property "Value" "160kΩ"
-			(at 85.09 162.56 0)
+			(at 137.16 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23794,7 +23794,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:R0805"
-			(at 85.09 165.1 0)
+			(at 137.16 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23805,7 +23805,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/0805W8F1603T5E/18173.html"
-			(at 85.09 165.1 0)
+			(at 137.16 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23816,7 +23816,7 @@
 			)
 		)
 		(property "Description" "Type:Thick Film Resistor Resistance:160kΩ Tolerance:±1% Tolerance:±1% Power(Watts):125mW Voltage-Supply(Max):150V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
-			(at 85.09 165.1 0)
+			(at 137.16 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23827,7 +23827,7 @@
 			)
 		)
 		(property "Manufacturer Part" "0805W8F1603T5E"
-			(at 85.09 165.1 0)
+			(at 137.16 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23838,7 +23838,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 85.09 165.1 0)
+			(at 137.16 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23849,7 +23849,7 @@
 			)
 		)
 		(property "Supplier Part" "C17485"
-			(at 85.09 165.1 0)
+			(at 137.16 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23860,7 +23860,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 85.09 165.1 0)
+			(at 137.16 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23871,7 +23871,7 @@
 			)
 		)
 		(property "LCSC Part Name" "160kΩ ±1% 125mW 厚膜电阻"
-			(at 85.09 165.1 0)
+			(at 137.16 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24034,7 +24034,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 175.26 204.47 0)
+		(at 227.33 204.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24044,7 +24044,7 @@
 		(dnp no)
 		(uuid "6f4aee42-d9ab-4f53-96d4-fb8225e7f630")
 		(property "Reference" "#PWR0202"
-			(at 175.26 210.82 0)
+			(at 227.33 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24055,7 +24055,7 @@
 			)
 		)
 		(property "Value" "GNDE"
-			(at 175.26 208.28 0)
+			(at 227.33 208.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24065,7 +24065,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 204.47 0)
+			(at 227.33 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24076,7 +24076,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 204.47 0)
+			(at 227.33 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24087,7 +24087,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 175.26 204.47 0)
+			(at 227.33 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24189,7 +24189,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 226.06 176.53 0)
+		(at 278.13 176.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24199,7 +24199,7 @@
 		(dnp no)
 		(uuid "70a5363e-2a95-4d3d-8d4e-3ac9123a1ce1")
 		(property "Reference" "#PWR0208"
-			(at 226.06 182.88 0)
+			(at 278.13 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24210,7 +24210,7 @@
 			)
 		)
 		(property "Value" "GNDE"
-			(at 226.06 180.34 0)
+			(at 278.13 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24220,7 +24220,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 176.53 0)
+			(at 278.13 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24231,7 +24231,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 176.53 0)
+			(at 278.13 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24242,7 +24242,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 226.06 176.53 0)
+			(at 278.13 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24266,7 +24266,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:PA1736NL")
-		(at 173.99 176.53 0)
+		(at 226.06 176.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24277,7 +24277,7 @@
 		(fields_autoplaced yes)
 		(uuid "71b53e18-c5e4-4596-bb23-75da02930136")
 		(property "Reference" "L5"
-			(at 173.99 158.75 0)
+			(at 226.06 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24287,7 +24287,7 @@
 			)
 		)
 		(property "Value" "20.5uH"
-			(at 173.99 176.53 0)
+			(at 226.06 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24298,7 +24298,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:XFMR-SMD_12P-L22.1-W21.8-P3.00-LS29.2-BL"
-			(at 173.99 176.53 0)
+			(at 226.06 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24309,7 +24309,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/PA1736NL/6647977.html"
-			(at 173.99 176.53 0)
+			(at 226.06 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24320,7 +24320,7 @@
 			)
 		)
 		(property "Description" "Inductance:20.5uH Isolation Voltage(Vrms):1.5kV operating temperature:-40°C~+125°C operating temperature:-40°C~+125°C"
-			(at 173.99 176.53 0)
+			(at 226.06 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24331,7 +24331,7 @@
 			)
 		)
 		(property "Manufacturer Part" "PA1736NL"
-			(at 173.99 176.53 0)
+			(at 226.06 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24342,7 +24342,7 @@
 			)
 		)
 		(property "Manufacturer" "PULSE(普思)"
-			(at 173.99 176.53 0)
+			(at 226.06 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24353,7 +24353,7 @@
 			)
 		)
 		(property "Supplier Part" "C5723154"
-			(at 173.99 176.53 0)
+			(at 226.06 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24364,7 +24364,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 173.99 176.53 0)
+			(at 226.06 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24375,7 +24375,7 @@
 			)
 		)
 		(property "LCSC Part Name" "PA1736NL"
-			(at 173.99 176.53 0)
+			(at 226.06 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24650,7 +24650,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 125.73 205.74 0)
+		(at 177.8 205.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24660,7 +24660,7 @@
 		(dnp no)
 		(uuid "730b154a-234b-4267-97a1-f98b2247cc9d")
 		(property "Reference" "#PWR0186"
-			(at 125.73 212.09 0)
+			(at 177.8 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24671,7 +24671,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 125.73 209.55 0)
+			(at 177.8 209.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24681,7 +24681,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 205.74 0)
+			(at 177.8 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24692,7 +24692,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 205.74 0)
+			(at 177.8 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24703,7 +24703,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 205.74 0)
+			(at 177.8 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24946,7 +24946,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:SMBJ5365B-TP")
-		(at 213.36 208.28 270)
+		(at 265.43 208.28 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24957,7 +24957,7 @@
 		(fields_autoplaced yes)
 		(uuid "7477dc4d-1e63-45f5-aae8-3070a4c7db15")
 		(property "Reference" "D21"
-			(at 217.17 208.28 90)
+			(at 269.24 208.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24968,7 +24968,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 213.36 208.28 0)
+			(at 265.43 208.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24978,7 +24978,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:SMB_L4.6-W3.6-LS5.3-RD"
-			(at 213.36 208.28 0)
+			(at 265.43 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24989,7 +24989,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20191118/C457823_F9C2F5204F20224564B779EBF12E94B7.pdf"
-			(at 213.36 208.28 0)
+			(at 265.43 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25000,7 +25000,7 @@
 			)
 		)
 		(property "Description" "Diode Configuration:Independent Type Zener Voltage (Nom):36V Reverse Leakage Current (Ir):500nA@27.4V Power Dissipation:5W Zener Impedance (Zzt):11Ω"
-			(at 213.36 208.28 0)
+			(at 265.43 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25011,7 +25011,7 @@
 			)
 		)
 		(property "Manufacturer Part" "SMBJ5365B-TP"
-			(at 213.36 208.28 0)
+			(at 265.43 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25022,7 +25022,7 @@
 			)
 		)
 		(property "Manufacturer" "MCC(美微科)"
-			(at 213.36 208.28 0)
+			(at 265.43 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25033,7 +25033,7 @@
 			)
 		)
 		(property "Supplier Part" "C151789"
-			(at 213.36 208.28 0)
+			(at 265.43 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25044,7 +25044,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 213.36 208.28 0)
+			(at 265.43 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25055,7 +25055,7 @@
 			)
 		)
 		(property "LCSC Part Name" "SMBJ5365B-TP"
-			(at 213.36 208.28 0)
+			(at 265.43 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25563,7 +25563,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:GRM31CC72A475KE11L")
-		(at 48.26 143.51 90)
+		(at 100.33 143.51 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25573,7 +25573,7 @@
 		(dnp no)
 		(uuid "792f046f-62bc-4504-96bf-def8d1bc9e5c")
 		(property "Reference" "C60"
-			(at 48.26 140.97 90)
+			(at 100.33 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25584,7 +25584,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 49.53 146.05 90)
+			(at 101.6 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25595,7 +25595,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:C1206"
-			(at 48.26 143.51 0)
+			(at 100.33 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25606,7 +25606,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/GRM31CC72A475KE11L/236748.html"
-			(at 48.26 143.51 0)
+			(at 100.33 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25617,7 +25617,7 @@
 			)
 		)
 		(property "Description" "Capacitance:4.7uF Tolerance:±10% Tolerance:±10% Voltage Rating:100V Temperature Coefficient:X7S"
-			(at 48.26 143.51 0)
+			(at 100.33 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25628,7 +25628,7 @@
 			)
 		)
 		(property "Manufacturer Part" "GRM31CC72A475KE11L"
-			(at 48.26 143.51 0)
+			(at 100.33 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25639,7 +25639,7 @@
 			)
 		)
 		(property "Manufacturer" "muRata(村田)"
-			(at 48.26 143.51 0)
+			(at 100.33 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25650,7 +25650,7 @@
 			)
 		)
 		(property "Supplier Part" "C237304"
-			(at 48.26 143.51 0)
+			(at 100.33 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25661,7 +25661,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 48.26 143.51 0)
+			(at 100.33 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25672,7 +25672,7 @@
 			)
 		)
 		(property "LCSC Part Name" "4.7uF ±10% 100V"
-			(at 48.26 143.51 0)
+			(at 100.33 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25699,7 +25699,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:GRM31CR61E476ME44L")
-		(at 19.05 143.51 90)
+		(at 71.12 143.51 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25709,7 +25709,7 @@
 		(dnp no)
 		(uuid "7944b562-7629-47d3-9927-48b69830b7f2")
 		(property "Reference" "C64"
-			(at 21.59 146.05 90)
+			(at 73.66 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25720,7 +25720,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 21.59 148.59 90)
+			(at 73.66 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25731,7 +25731,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:C1206"
-			(at 19.05 143.51 0)
+			(at 71.12 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25742,7 +25742,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/GRM31CR61E476ME44L/389810.html"
-			(at 19.05 143.51 0)
+			(at 71.12 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25753,7 +25753,7 @@
 			)
 		)
 		(property "Description" "Capacitance:47uF Tolerance:±20% Tolerance:±20% Voltage Rating:25V Temperature Coefficient:X5R"
-			(at 19.05 143.51 0)
+			(at 71.12 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25764,7 +25764,7 @@
 			)
 		)
 		(property "Manufacturer Part" "GRM31CR61E476ME44L"
-			(at 19.05 143.51 0)
+			(at 71.12 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25775,7 +25775,7 @@
 			)
 		)
 		(property "Manufacturer" "muRata(村田)"
-			(at 19.05 143.51 0)
+			(at 71.12 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25786,7 +25786,7 @@
 			)
 		)
 		(property "Supplier Part" "C403725"
-			(at 19.05 143.51 0)
+			(at 71.12 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25797,7 +25797,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 19.05 143.51 0)
+			(at 71.12 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25808,7 +25808,7 @@
 			)
 		)
 		(property "LCSC Part Name" "47uF ±20% 25V"
-			(at 19.05 143.51 0)
+			(at 71.12 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25913,7 +25913,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 269.24 215.9 0)
+		(at 321.31 215.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25923,7 +25923,7 @@
 		(dnp no)
 		(uuid "7b43b924-b394-40b2-b07b-50a85778b73f")
 		(property "Reference" "#PWR0212"
-			(at 269.24 222.25 0)
+			(at 321.31 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25934,7 +25934,7 @@
 			)
 		)
 		(property "Value" "GNDE"
-			(at 269.24 219.71 0)
+			(at 321.31 219.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25944,7 +25944,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 215.9 0)
+			(at 321.31 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25955,7 +25955,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 215.9 0)
+			(at 321.31 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25966,7 +25966,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 269.24 215.9 0)
+			(at 321.31 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26069,7 +26069,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:SP015N03BGHTO")
-		(at 200.66 189.23 0)
+		(at 252.73 189.23 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -26080,7 +26080,7 @@
 		(dnp no)
 		(uuid "7bd25ccd-bfa8-41fd-8276-f50cd238355e")
 		(property "Reference" "Q9"
-			(at 194.31 186.69 90)
+			(at 246.38 186.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26090,7 +26090,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 200.66 189.23 0)
+			(at 252.73 189.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26100,7 +26100,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:TOLL-8_L10.4-W9.9-P1.20-LS11.7-BL"
-			(at 200.66 189.23 0)
+			(at 252.73 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26111,7 +26111,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/SP015N03BGHTO/23937200.html"
-			(at 200.66 189.23 0)
+			(at 252.73 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26122,7 +26122,7 @@
 			)
 		)
 		(property "Description" "Number:- Drain to Source Voltage:150V Current - Continuous Drain(Id):260A RDS(on):3.3mΩ@10V Pd - Power Dissipation:625W Gate Threshold Voltage (Vgs(th)):3V@250uA Gate Charge(Qg):122nC@10V Input Capacitance(Ciss):8.538nF Reverse Transfer Capacitance (Crss@"
-			(at 200.66 189.23 0)
+			(at 252.73 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26133,7 +26133,7 @@
 			)
 		)
 		(property "Manufacturer Part" "SP015N03BGHTO"
-			(at 200.66 189.23 0)
+			(at 252.73 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26144,7 +26144,7 @@
 			)
 		)
 		(property "Manufacturer" "Siliup(矽普)"
-			(at 200.66 189.23 0)
+			(at 252.73 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26155,7 +26155,7 @@
 			)
 		)
 		(property "Supplier Part" "C22385354"
-			(at 200.66 189.23 0)
+			(at 252.73 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26166,7 +26166,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 200.66 189.23 0)
+			(at 252.73 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26177,7 +26177,7 @@
 			)
 		)
 		(property "LCSC Part Name" "耐压:150V 电流:260A"
-			(at 200.66 189.23 0)
+			(at 252.73 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26361,7 +26361,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 118.11 168.91 0)
+		(at 170.18 168.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26371,7 +26371,7 @@
 		(dnp no)
 		(uuid "7cd233ed-e928-46c1-b686-6ddb84065910")
 		(property "Reference" "#PWR0191"
-			(at 118.11 172.72 0)
+			(at 170.18 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26382,7 +26382,7 @@
 			)
 		)
 		(property "Value" "INTVCC"
-			(at 118.11 165.1 0)
+			(at 170.18 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26392,7 +26392,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 168.91 0)
+			(at 170.18 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26403,7 +26403,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 168.91 0)
+			(at 170.18 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26414,7 +26414,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 118.11 168.91 0)
+			(at 170.18 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26438,7 +26438,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:BAV20W-7-F")
-		(at 135.89 168.91 0)
+		(at 187.96 168.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26448,7 +26448,7 @@
 		(dnp no)
 		(uuid "7d8980e3-5438-4adc-b481-2d1f32a3465b")
 		(property "Reference" "D16"
-			(at 139.7 167.64 0)
+			(at 191.77 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26458,7 +26458,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 135.89 168.91 0)
+			(at 187.96 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26468,7 +26468,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:SOD-123_L2.7-W1.6-LS3.7-RD-1"
-			(at 135.89 168.91 0)
+			(at 187.96 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26479,7 +26479,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/BAV20W-7-F/252717.html"
-			(at 135.89 168.91 0)
+			(at 187.96 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26490,7 +26490,7 @@
 			)
 		)
 		(property "Description" "Diode Configuration:Independent Pd - Power Dissipation:250mW Current - Rectified:200mA Voltage - DC Reverse(Vr):200V Voltage - Forward(Vf@If):1.25V@200mA Non-Repetitive Peak Forward Surge Current:- Reverse Leakage Current (Ir):100nA Reverse Recovery Time"
-			(at 135.89 168.91 0)
+			(at 187.96 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26501,7 +26501,7 @@
 			)
 		)
 		(property "Manufacturer Part" "BAV20W-7-F"
-			(at 135.89 168.91 0)
+			(at 187.96 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26512,7 +26512,7 @@
 			)
 		)
 		(property "Manufacturer" "DIODES(美台)"
-			(at 135.89 168.91 0)
+			(at 187.96 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26523,7 +26523,7 @@
 			)
 		)
 		(property "Supplier Part" "C260853"
-			(at 135.89 168.91 0)
+			(at 187.96 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26534,7 +26534,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 135.89 168.91 0)
+			(at 187.96 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26545,7 +26545,7 @@
 			)
 		)
 		(property "LCSC Part Name" "200V 200mA"
-			(at 135.89 168.91 0)
+			(at 187.96 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26784,7 +26784,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 91.44 158.75 0)
+		(at 143.51 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26795,7 +26795,7 @@
 		(fields_autoplaced yes)
 		(uuid "8022b3ae-c273-46b3-a388-90e7ecb05f30")
 		(property "Reference" "#FLG044"
-			(at 91.44 157.48 0)
+			(at 143.51 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26806,7 +26806,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 91.44 153.67 0)
+			(at 143.51 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26817,7 +26817,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 158.75 0)
+			(at 143.51 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26828,7 +26828,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 158.75 0)
+			(at 143.51 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26839,7 +26839,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 91.44 158.75 0)
+			(at 143.51 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27210,7 +27210,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 267.97 176.53 0)
+		(at 320.04 176.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27220,7 +27220,7 @@
 		(dnp no)
 		(uuid "86c11c6e-bfb0-4762-b1ed-caf3abec0ea5")
 		(property "Reference" "#PWR0216"
-			(at 267.97 182.88 0)
+			(at 320.04 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27231,7 +27231,7 @@
 			)
 		)
 		(property "Value" "GNDE"
-			(at 267.97 180.34 0)
+			(at 320.04 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27241,7 +27241,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.97 176.53 0)
+			(at 320.04 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27252,7 +27252,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 176.53 0)
+			(at 320.04 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27263,7 +27263,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 267.97 176.53 0)
+			(at 320.04 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27556,7 +27556,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:0603WAF6041T5E")
-		(at 15.24 193.04 90)
+		(at 67.31 193.04 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27566,7 +27566,7 @@
 		(dnp no)
 		(uuid "87763bc1-d509-4796-9e8e-db69ee9abcfd")
 		(property "Reference" "R40"
-			(at 16.51 191.77 90)
+			(at 68.58 191.77 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27577,7 +27577,7 @@
 			)
 		)
 		(property "Value" "6.04kΩ"
-			(at 15.24 196.85 90)
+			(at 67.31 196.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27588,7 +27588,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:R0603"
-			(at 15.24 193.04 0)
+			(at 67.31 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27599,7 +27599,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF6041T5E/26720.html"
-			(at 15.24 193.04 0)
+			(at 67.31 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27610,7 +27610,7 @@
 			)
 		)
 		(property "Description" "Type:Thick Film Resistor Resistance:6.04kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
-			(at 15.24 193.04 0)
+			(at 67.31 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27621,7 +27621,7 @@
 			)
 		)
 		(property "Manufacturer Part" "0603WAF6041T5E"
-			(at 15.24 193.04 0)
+			(at 67.31 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27632,7 +27632,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 15.24 193.04 0)
+			(at 67.31 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27643,7 +27643,7 @@
 			)
 		)
 		(property "Supplier Part" "C25977"
-			(at 15.24 193.04 0)
+			(at 67.31 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27654,7 +27654,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 15.24 193.04 0)
+			(at 67.31 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27665,7 +27665,7 @@
 			)
 		)
 		(property "LCSC Part Name" "6.04kΩ ±1% 100mW 厚膜电阻"
-			(at 15.24 193.04 0)
+			(at 67.31 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27692,7 +27692,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:SMBJ85A-13-F")
-		(at 134.62 143.51 90)
+		(at 186.69 143.51 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27703,7 +27703,7 @@
 		(fields_autoplaced yes)
 		(uuid "87c173dc-3824-4137-bbdd-0ad90ce48230")
 		(property "Reference" "D17"
-			(at 138.43 143.51 90)
+			(at 190.5 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27714,7 +27714,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 134.62 143.51 0)
+			(at 186.69 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27724,7 +27724,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:SMB_L4.6-W3.6-LS5.3-RD"
-			(at 134.62 143.51 0)
+			(at 186.69 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27735,7 +27735,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20171023/C135113_15087479551001053218.pdf"
-			(at 134.62 143.51 0)
+			(at 186.69 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27746,7 +27746,7 @@
 			)
 		)
 		(property "Description" "Reverse Stand-Off Voltage (Vrwm):85V Maximum Clamping Voltage:137V Peak Pulse Current (Ipp):4.4A Peak Pulse Power Dissipation (Ppp):600W Breakdown Voltage:94.4V Reverse Leakage Current (Ir):5uA Type:TVS"
-			(at 134.62 143.51 0)
+			(at 186.69 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27757,7 +27757,7 @@
 			)
 		)
 		(property "Manufacturer Part" "SMBJ85A-13-F"
-			(at 134.62 143.51 0)
+			(at 186.69 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27768,7 +27768,7 @@
 			)
 		)
 		(property "Manufacturer" "DIODES(美台)"
-			(at 134.62 143.51 0)
+			(at 186.69 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27779,7 +27779,7 @@
 			)
 		)
 		(property "Supplier Part" "C135108"
-			(at 134.62 143.51 0)
+			(at 186.69 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27790,7 +27790,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 134.62 143.51 0)
+			(at 186.69 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27801,7 +27801,7 @@
 			)
 		)
 		(property "LCSC Part Name" "SMBJ85A-13-F"
-			(at 134.62 143.51 0)
+			(at 186.69 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28099,7 +28099,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:GRM31CR61E476ME44L")
-		(at 236.22 171.45 90)
+		(at 288.29 171.45 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28110,7 +28110,7 @@
 		(fields_autoplaced yes)
 		(uuid "8bd92f28-d953-496e-ab85-6b5ce02167a9")
 		(property "Reference" "C72"
-			(at 240.03 170.18 90)
+			(at 292.1 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28121,7 +28121,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 240.03 172.72 90)
+			(at 292.1 172.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28132,7 +28132,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:C1206"
-			(at 236.22 171.45 0)
+			(at 288.29 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28143,7 +28143,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/GRM31CR61E476ME44L/389810.html"
-			(at 236.22 171.45 0)
+			(at 288.29 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28154,7 +28154,7 @@
 			)
 		)
 		(property "Description" "Capacitance:47uF Tolerance:±20% Tolerance:±20% Voltage Rating:25V Temperature Coefficient:X5R"
-			(at 236.22 171.45 0)
+			(at 288.29 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28165,7 +28165,7 @@
 			)
 		)
 		(property "Manufacturer Part" "GRM31CR61E476ME44L"
-			(at 236.22 171.45 0)
+			(at 288.29 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28176,7 +28176,7 @@
 			)
 		)
 		(property "Manufacturer" "muRata(村田)"
-			(at 236.22 171.45 0)
+			(at 288.29 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28187,7 +28187,7 @@
 			)
 		)
 		(property "Supplier Part" "C403725"
-			(at 236.22 171.45 0)
+			(at 288.29 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28198,7 +28198,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 236.22 171.45 0)
+			(at 288.29 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28209,7 +28209,7 @@
 			)
 		)
 		(property "LCSC Part Name" "47uF ±20% 25V"
-			(at 236.22 171.45 0)
+			(at 288.29 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28584,7 +28584,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:CL10B333KB8NNNC")
-		(at 43.18 200.66 90)
+		(at 95.25 200.66 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28595,7 +28595,7 @@
 		(fields_autoplaced yes)
 		(uuid "9669785f-88b8-4760-9b45-faee7f0fe47d")
 		(property "Reference" "C65"
-			(at 46.99 199.39 90)
+			(at 99.06 199.39 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28606,7 +28606,7 @@
 			)
 		)
 		(property "Value" "33nF"
-			(at 46.99 201.93 90)
+			(at 99.06 201.93 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28617,7 +28617,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:C0603"
-			(at 43.18 200.66 0)
+			(at 95.25 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28628,7 +28628,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10B333KB8NNNC/21829.html"
-			(at 43.18 200.66 0)
+			(at 95.25 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28639,7 +28639,7 @@
 			)
 		)
 		(property "Description" "Capacitance:33nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
-			(at 43.18 200.66 0)
+			(at 95.25 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28650,7 +28650,7 @@
 			)
 		)
 		(property "Manufacturer Part" "CL10B333KB8NNNC"
-			(at 43.18 200.66 0)
+			(at 95.25 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28661,7 +28661,7 @@
 			)
 		)
 		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 43.18 200.66 0)
+			(at 95.25 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28672,7 +28672,7 @@
 			)
 		)
 		(property "Supplier Part" "C21117"
-			(at 43.18 200.66 0)
+			(at 95.25 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28683,7 +28683,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 43.18 200.66 0)
+			(at 95.25 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28694,7 +28694,7 @@
 			)
 		)
 		(property "LCSC Part Name" "33nF ±10% 50V"
-			(at 43.18 200.66 0)
+			(at 95.25 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28721,7 +28721,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 160.02 204.47 0)
+		(at 212.09 204.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28731,7 +28731,7 @@
 		(dnp no)
 		(uuid "96d99dd3-9446-43ff-b315-57f9384f4d8b")
 		(property "Reference" "#PWR0203"
-			(at 160.02 210.82 0)
+			(at 212.09 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28742,7 +28742,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 208.28 0)
+			(at 212.09 208.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28752,7 +28752,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 204.47 0)
+			(at 212.09 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28763,7 +28763,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 204.47 0)
+			(at 212.09 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28774,7 +28774,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 204.47 0)
+			(at 212.09 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28798,7 +28798,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:YLRY06-1-10F")
-		(at 144.78 200.66 90)
+		(at 196.85 200.66 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28808,7 +28808,7 @@
 		(dnp no)
 		(uuid "980ea2ca-b1d9-4a9c-a344-d1c0b8c6856d")
 		(property "Reference" "U27"
-			(at 147.32 200.66 90)
+			(at 199.39 200.66 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28819,7 +28819,7 @@
 			)
 		)
 		(property "Value" "10mΩ"
-			(at 149.86 198.12 90)
+			(at 201.93 198.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28829,7 +28829,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:R1206"
-			(at 144.78 200.66 0)
+			(at 196.85 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28840,7 +28840,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/YLRY06-1-10F/21957962.html"
-			(at 144.78 200.66 0)
+			(at 196.85 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28851,7 +28851,7 @@
 			)
 		)
 		(property "Description" "Type:Current Sense Resistor Resistance:10mΩ Tolerance:±1% Tolerance:±1% Power(Watts):1W Mounting Type:SMD"
-			(at 144.78 200.66 0)
+			(at 196.85 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28862,7 +28862,7 @@
 			)
 		)
 		(property "Manufacturer Part" "YLRY06-1-10F"
-			(at 144.78 200.66 0)
+			(at 196.85 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28873,7 +28873,7 @@
 			)
 		)
 		(property "Manufacturer" "yezhan(业展)"
-			(at 144.78 200.66 0)
+			(at 196.85 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28884,7 +28884,7 @@
 			)
 		)
 		(property "Supplier Part" "C20608707"
-			(at 144.78 200.66 0)
+			(at 196.85 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28895,7 +28895,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 144.78 200.66 0)
+			(at 196.85 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28906,7 +28906,7 @@
 			)
 		)
 		(property "LCSC Part Name" "10mΩ ±1% 1W"
-			(at 144.78 200.66 0)
+			(at 196.85 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29089,7 +29089,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:PTFR0603B100RN9")
-		(at 144.78 143.51 90)
+		(at 196.85 143.51 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29099,7 +29099,7 @@
 		(dnp no)
 		(uuid "9ab3f417-4423-4bcc-93d1-24bef79eee90")
 		(property "Reference" "R5"
-			(at 147.32 143.51 90)
+			(at 199.39 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29110,7 +29110,7 @@
 			)
 		)
 		(property "Value" "100Ω"
-			(at 148.59 144.78 90)
+			(at 200.66 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29120,7 +29120,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:R0603"
-			(at 144.78 143.51 0)
+			(at 196.85 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29131,7 +29131,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/PTFR0603B100RN9/373963.html"
-			(at 144.78 143.51 0)
+			(at 196.85 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29142,7 +29142,7 @@
 			)
 		)
 		(property "Description" "Type:Thin Film Resistor Resistance:100Ω Tolerance:±0.1% Tolerance:±0.1% Power(Watts):100mW Voltage-Supply(Max):100V Temperature Coefficient:±10ppm/°C Temperature Coefficient:±10ppm/°C Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C"
-			(at 144.78 143.51 0)
+			(at 196.85 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29153,7 +29153,7 @@
 			)
 		)
 		(property "Manufacturer Part" "PTFR0603B100RN9"
-			(at 144.78 143.51 0)
+			(at 196.85 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29164,7 +29164,7 @@
 			)
 		)
 		(property "Manufacturer" "RESI(开步睿思)"
-			(at 144.78 143.51 0)
+			(at 196.85 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29175,7 +29175,7 @@
 			)
 		)
 		(property "Supplier Part" "C394538"
-			(at 144.78 143.51 0)
+			(at 196.85 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29186,7 +29186,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 144.78 143.51 0)
+			(at 196.85 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29197,7 +29197,7 @@
 			)
 		)
 		(property "LCSC Part Name" "薄膜电阻 100Ω ±0.1% 100mW"
-			(at 144.78 143.51 0)
+			(at 196.85 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29302,7 +29302,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 66.04 199.39 0)
+		(at 118.11 199.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29312,7 +29312,7 @@
 		(dnp no)
 		(uuid "9ca14ee3-537d-4a3b-beb8-5c8317cdf46d")
 		(property "Reference" "#PWR0189"
-			(at 66.04 205.74 0)
+			(at 118.11 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29323,7 +29323,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 66.04 203.2 0)
+			(at 118.11 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29333,7 +29333,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 199.39 0)
+			(at 118.11 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29344,7 +29344,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 199.39 0)
+			(at 118.11 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29355,7 +29355,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 199.39 0)
+			(at 118.11 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29379,7 +29379,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 256.54 176.53 0)
+		(at 308.61 176.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29389,7 +29389,7 @@
 		(dnp no)
 		(uuid "9d26e26e-08a4-4e15-bf59-472dcfc61a3e")
 		(property "Reference" "#PWR0214"
-			(at 256.54 182.88 0)
+			(at 308.61 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29400,7 +29400,7 @@
 			)
 		)
 		(property "Value" "GNDE"
-			(at 256.54 180.34 0)
+			(at 308.61 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29410,7 +29410,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 176.53 0)
+			(at 308.61 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29421,7 +29421,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 176.53 0)
+			(at 308.61 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29432,7 +29432,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 256.54 176.53 0)
+			(at 308.61 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29589,7 +29589,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 224.79 213.36 0)
+		(at 276.86 213.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29599,7 +29599,7 @@
 		(dnp no)
 		(uuid "9fed6052-91e6-40ad-87e0-cdc78e792bfc")
 		(property "Reference" "#PWR0211"
-			(at 224.79 219.71 0)
+			(at 276.86 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29610,7 +29610,7 @@
 			)
 		)
 		(property "Value" "GNDE"
-			(at 224.79 217.17 0)
+			(at 276.86 217.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29620,7 +29620,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 213.36 0)
+			(at 276.86 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29631,7 +29631,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 213.36 0)
+			(at 276.86 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29642,7 +29642,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 213.36 0)
+			(at 276.86 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29666,7 +29666,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 118.11 186.69 0)
+		(at 170.18 186.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29677,7 +29677,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1af81db-ef98-49bf-95dd-deb1f3b6dfa1")
 		(property "Reference" "#FLG035"
-			(at 118.11 185.42 0)
+			(at 170.18 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29688,7 +29688,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 118.11 181.61 0)
+			(at 170.18 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29699,7 +29699,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 186.69 0)
+			(at 170.18 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29710,7 +29710,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 186.69 0)
+			(at 170.18 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29721,7 +29721,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 118.11 186.69 0)
+			(at 170.18 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29745,7 +29745,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 73.66 160.02 0)
+		(at 125.73 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29755,7 +29755,7 @@
 		(dnp no)
 		(uuid "a4ce5fcd-f755-42ad-81ce-7bdcdaf73873")
 		(property "Reference" "#PWR0200"
-			(at 73.66 166.37 0)
+			(at 125.73 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29766,7 +29766,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.66 163.83 0)
+			(at 125.73 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29776,7 +29776,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 160.02 0)
+			(at 125.73 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29787,7 +29787,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 160.02 0)
+			(at 125.73 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29798,7 +29798,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 160.02 0)
+			(at 125.73 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29822,7 +29822,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:GRM31CR61E476ME44L")
-		(at 226.06 171.45 90)
+		(at 278.13 171.45 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29833,7 +29833,7 @@
 		(fields_autoplaced yes)
 		(uuid "a4f7abb6-36ff-4b8e-bdb2-11f0dc1bfff4")
 		(property "Reference" "C71"
-			(at 229.87 170.18 90)
+			(at 281.94 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29844,7 +29844,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 229.87 172.72 90)
+			(at 281.94 172.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29855,7 +29855,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:C1206"
-			(at 226.06 171.45 0)
+			(at 278.13 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29866,7 +29866,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/GRM31CR61E476ME44L/389810.html"
-			(at 226.06 171.45 0)
+			(at 278.13 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29877,7 +29877,7 @@
 			)
 		)
 		(property "Description" "Capacitance:47uF Tolerance:±20% Tolerance:±20% Voltage Rating:25V Temperature Coefficient:X5R"
-			(at 226.06 171.45 0)
+			(at 278.13 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29888,7 +29888,7 @@
 			)
 		)
 		(property "Manufacturer Part" "GRM31CR61E476ME44L"
-			(at 226.06 171.45 0)
+			(at 278.13 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29899,7 +29899,7 @@
 			)
 		)
 		(property "Manufacturer" "muRata(村田)"
-			(at 226.06 171.45 0)
+			(at 278.13 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29910,7 +29910,7 @@
 			)
 		)
 		(property "Supplier Part" "C403725"
-			(at 226.06 171.45 0)
+			(at 278.13 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29921,7 +29921,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 226.06 171.45 0)
+			(at 278.13 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29932,7 +29932,7 @@
 			)
 		)
 		(property "LCSC Part Name" "47uF ±20% 25V"
-			(at 226.06 171.45 0)
+			(at 278.13 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30227,7 +30227,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 208.28 0)
+		(at 196.85 208.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30237,7 +30237,7 @@
 		(dnp no)
 		(uuid "a994d691-6590-4858-a0c2-2713a65cf791")
 		(property "Reference" "#PWR0201"
-			(at 144.78 214.63 0)
+			(at 196.85 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30248,7 +30248,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 212.09 0)
+			(at 196.85 212.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30258,7 +30258,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 208.28 0)
+			(at 196.85 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30269,7 +30269,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 208.28 0)
+			(at 196.85 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30280,7 +30280,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 208.28 0)
+			(at 196.85 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30304,7 +30304,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:XAL6030-102MEC")
-		(at 219.71 162.56 0)
+		(at 271.78 162.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30314,7 +30314,7 @@
 		(dnp no)
 		(uuid "a9f4f34d-ba8f-432b-a87e-120e211d1f1a")
 		(property "Reference" "U30"
-			(at 219.71 157.48 0)
+			(at 271.78 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30324,7 +30324,7 @@
 			)
 		)
 		(property "Value" "1uH"
-			(at 219.71 160.02 0)
+			(at 271.78 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30334,7 +30334,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:IND-SMD_L6.6-W6.4_XAL6060-103ME"
-			(at 219.71 162.56 0)
+			(at 271.78 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30345,7 +30345,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.coilcraft.com/getmedia/ea51f14b-7f32-4dc6-8dfe-d4b70549040f/xal60xx.pdf"
-			(at 219.71 162.56 0)
+			(at 271.78 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30356,7 +30356,7 @@
 			)
 		)
 		(property "Description" "Inductance:1uH Tolerance:±20% Tolerance:±20% Current - Saturation(Isat):23A DC Resistance(DCR):5.62mΩ Ratings:AEC-Q200"
-			(at 219.71 162.56 0)
+			(at 271.78 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30367,7 +30367,7 @@
 			)
 		)
 		(property "Manufacturer Part" "XAL6030-102MEC"
-			(at 219.71 162.56 0)
+			(at 271.78 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30378,7 +30378,7 @@
 			)
 		)
 		(property "Manufacturer" "Coilcraft(线艺)"
-			(at 219.71 162.56 0)
+			(at 271.78 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30389,7 +30389,7 @@
 			)
 		)
 		(property "Supplier Part" "C2938919"
-			(at 219.71 162.56 0)
+			(at 271.78 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30400,7 +30400,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 219.71 162.56 0)
+			(at 271.78 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30411,7 +30411,7 @@
 			)
 		)
 		(property "LCSC Part Name" "1uH ±20% 23A"
-			(at 219.71 162.56 0)
+			(at 271.78 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30732,7 +30732,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 199.39 203.2 0)
+		(at 251.46 203.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30743,7 +30743,7 @@
 		(fields_autoplaced yes)
 		(uuid "b0c69389-6dc4-46ef-9e2f-9af4db61db9c")
 		(property "Reference" "#FLG030"
-			(at 199.39 201.93 0)
+			(at 251.46 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30754,7 +30754,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 199.39 198.12 0)
+			(at 251.46 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30765,7 +30765,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 203.2 0)
+			(at 251.46 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30776,7 +30776,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 203.2 0)
+			(at 251.46 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30787,7 +30787,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 199.39 203.2 0)
+			(at 251.46 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31101,7 +31101,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 201.93 176.53 0)
+		(at 254 176.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31111,7 +31111,7 @@
 		(dnp no)
 		(uuid "b5ee2eee-f933-4814-b15e-e28210e04b1c")
 		(property "Reference" "#PWR0206"
-			(at 201.93 182.88 0)
+			(at 254 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31122,7 +31122,7 @@
 			)
 		)
 		(property "Value" "GNDE"
-			(at 201.93 180.34 0)
+			(at 254 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31132,7 +31132,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 176.53 0)
+			(at 254 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31143,7 +31143,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 176.53 0)
+			(at 254 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31154,7 +31154,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 201.93 176.53 0)
+			(at 254 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31178,7 +31178,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 209.55 203.2 0)
+		(at 261.62 203.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31189,7 +31189,7 @@
 		(fields_autoplaced yes)
 		(uuid "b6539af0-aa62-4eea-84da-6622fec7c691")
 		(property "Reference" "#FLG031"
-			(at 209.55 201.93 0)
+			(at 261.62 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31200,7 +31200,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 209.55 198.12 0)
+			(at 261.62 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31211,7 +31211,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 203.2 0)
+			(at 261.62 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31222,7 +31222,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 203.2 0)
+			(at 261.62 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31233,7 +31233,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 209.55 203.2 0)
+			(at 261.62 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31469,7 +31469,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 58.42 189.23 0)
+		(at 110.49 189.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31480,7 +31480,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9e72d4b-3c06-4f5f-9255-c8950df7706e")
 		(property "Reference" "#FLG041"
-			(at 58.42 187.96 0)
+			(at 110.49 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31491,7 +31491,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 58.42 184.15 0)
+			(at 110.49 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31502,7 +31502,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 189.23 0)
+			(at 110.49 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31513,7 +31513,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 189.23 0)
+			(at 110.49 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31524,7 +31524,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 58.42 189.23 0)
+			(at 110.49 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31548,7 +31548,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:PTFR0603B51K0P9")
-		(at 73.66 153.67 90)
+		(at 125.73 153.67 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31558,7 +31558,7 @@
 		(dnp no)
 		(uuid "ba7d4080-6443-4570-b51b-b825362e86f3")
 		(property "Reference" "R38"
-			(at 74.93 153.67 90)
+			(at 127 153.67 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31569,7 +31569,7 @@
 			)
 		)
 		(property "Value" "51kΩ"
-			(at 77.47 152.4 90)
+			(at 129.54 152.4 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31579,7 +31579,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:R0603"
-			(at 73.66 153.67 0)
+			(at 125.73 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31590,7 +31590,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/PTFR0603B51K0P9/327550.html"
-			(at 73.66 153.67 0)
+			(at 125.73 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31601,7 +31601,7 @@
 			)
 		)
 		(property "Description" "Type:Thin Film Resistor Resistance:51kΩ Tolerance:±0.1% Tolerance:±0.1% Power(Watts):100mW Voltage-Supply(Max):100V Temperature Coefficient:±25ppm/°C Temperature Coefficient:±25ppm/°C Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C"
-			(at 73.66 153.67 0)
+			(at 125.73 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31612,7 +31612,7 @@
 			)
 		)
 		(property "Manufacturer Part" "PTFR0603B51K0P9"
-			(at 73.66 153.67 0)
+			(at 125.73 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31623,7 +31623,7 @@
 			)
 		)
 		(property "Manufacturer" "RESI(开步睿思)"
-			(at 73.66 153.67 0)
+			(at 125.73 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31634,7 +31634,7 @@
 			)
 		)
 		(property "Supplier Part" "C351642"
-			(at 73.66 153.67 0)
+			(at 125.73 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31645,7 +31645,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 73.66 153.67 0)
+			(at 125.73 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31656,7 +31656,7 @@
 			)
 		)
 		(property "LCSC Part Name" "薄膜电阻 51kΩ ±0.1% 100mW 车规级"
-			(at 73.66 153.67 0)
+			(at 125.73 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32264,7 +32264,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 59.69 148.59 0)
+		(at 111.76 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32274,7 +32274,7 @@
 		(dnp no)
 		(uuid "bfae973e-56ee-4f04-8667-97c39b457b0b")
 		(property "Reference" "#PWR0199"
-			(at 59.69 154.94 0)
+			(at 111.76 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32285,7 +32285,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 59.69 152.4 0)
+			(at 111.76 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32295,7 +32295,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 148.59 0)
+			(at 111.76 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32306,7 +32306,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 148.59 0)
+			(at 111.76 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32317,7 +32317,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 148.59 0)
+			(at 111.76 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32475,7 +32475,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 198.12 194.31 0)
+		(at 250.19 194.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32485,7 +32485,7 @@
 		(dnp no)
 		(uuid "c193f37c-7a15-489b-9684-d8e4e5fcd2a0")
 		(property "Reference" "#PWR0210"
-			(at 198.12 200.66 0)
+			(at 250.19 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32496,7 +32496,7 @@
 			)
 		)
 		(property "Value" "GNDE"
-			(at 198.12 198.12 0)
+			(at 250.19 198.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32506,7 +32506,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 194.31 0)
+			(at 250.19 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32517,7 +32517,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 194.31 0)
+			(at 250.19 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32528,7 +32528,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 194.31 0)
+			(at 250.19 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32963,7 +32963,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 125.73 193.04 0)
+		(at 177.8 193.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32974,7 +32974,7 @@
 		(fields_autoplaced yes)
 		(uuid "c52be3af-9fba-47c0-9320-998963fe7a24")
 		(property "Reference" "#FLG036"
-			(at 125.73 191.77 0)
+			(at 177.8 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32985,7 +32985,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 125.73 187.96 0)
+			(at 177.8 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32996,7 +32996,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 193.04 0)
+			(at 177.8 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33007,7 +33007,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 193.04 0)
+			(at 177.8 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33018,7 +33018,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 125.73 193.04 0)
+			(at 177.8 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33331,7 +33331,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 148.59 0)
+		(at 87.63 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33341,7 +33341,7 @@
 		(dnp no)
 		(uuid "c8f78d8d-2c00-486e-a7c6-faf27051b699")
 		(property "Reference" "#PWR0194"
-			(at 35.56 154.94 0)
+			(at 87.63 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33352,7 +33352,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 152.4 0)
+			(at 87.63 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33362,7 +33362,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 148.59 0)
+			(at 87.63 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33373,7 +33373,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 148.59 0)
+			(at 87.63 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33384,7 +33384,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 148.59 0)
+			(at 87.63 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33542,7 +33542,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:AC0603KRX7R0BB472")
-		(at 166.37 204.47 0)
+		(at 218.44 204.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33553,7 +33553,7 @@
 		(fields_autoplaced yes)
 		(uuid "ca441fe0-0af3-4af0-81c2-eaa5f8a4b2b2")
 		(property "Reference" "C68"
-			(at 166.37 200.66 0)
+			(at 218.44 200.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33563,7 +33563,7 @@
 			)
 		)
 		(property "Value" "4.7nF"
-			(at 166.37 204.47 0)
+			(at 218.44 204.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33573,7 +33573,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:C0603"
-			(at 166.37 204.47 0)
+			(at 218.44 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33584,7 +33584,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/AC0603KRX7R0BB472/307252.html"
-			(at 166.37 204.47 0)
+			(at 218.44 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33595,7 +33595,7 @@
 			)
 		)
 		(property "Description" "Capacitance:4.7nF Tolerance:±10% Tolerance:±10% Voltage Rating:100V Temperature Coefficient:X7R"
-			(at 166.37 204.47 0)
+			(at 218.44 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33606,7 +33606,7 @@
 			)
 		)
 		(property "Manufacturer Part" "AC0603KRX7R0BB472"
-			(at 166.37 204.47 0)
+			(at 218.44 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33617,7 +33617,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 166.37 204.47 0)
+			(at 218.44 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33628,7 +33628,7 @@
 			)
 		)
 		(property "Supplier Part" "C327158"
-			(at 166.37 204.47 0)
+			(at 218.44 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33639,7 +33639,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 166.37 204.47 0)
+			(at 218.44 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33650,7 +33650,7 @@
 			)
 		)
 		(property "LCSC Part Name" "4.7nF ±10% 100V"
-			(at 166.37 204.47 0)
+			(at 218.44 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33755,7 +33755,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:CC0805KKX7R0BB105")
-		(at 224.79 208.28 90)
+		(at 276.86 208.28 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33766,7 +33766,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc615184-eebf-44a0-88bd-39aeb340d9b5")
 		(property "Reference" "U29"
-			(at 228.6 207.01 90)
+			(at 280.67 207.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33777,7 +33777,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 228.6 209.55 90)
+			(at 280.67 209.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33788,7 +33788,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:C0805"
-			(at 224.79 208.28 0)
+			(at 276.86 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33799,7 +33799,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/CC0805KKX7R0BB105/6213252.html"
-			(at 224.79 208.28 0)
+			(at 276.86 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33810,7 +33810,7 @@
 			)
 		)
 		(property "Description" "Capacitance:1uF Tolerance:±10% Tolerance:±10% Voltage Rating:100V Temperature Coefficient:X7R"
-			(at 224.79 208.28 0)
+			(at 276.86 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33821,7 +33821,7 @@
 			)
 		)
 		(property "Manufacturer Part" "CC0805KKX7R0BB105"
-			(at 224.79 208.28 0)
+			(at 276.86 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33832,7 +33832,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 224.79 208.28 0)
+			(at 276.86 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33843,7 +33843,7 @@
 			)
 		)
 		(property "Supplier Part" "C5370002"
-			(at 224.79 208.28 0)
+			(at 276.86 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33854,7 +33854,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 224.79 208.28 0)
+			(at 276.86 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33865,7 +33865,7 @@
 			)
 		)
 		(property "LCSC Part Name" "1uF ±10% 100V"
-			(at 224.79 208.28 0)
+			(at 276.86 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33970,7 +33970,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 140.97 193.04 0)
+		(at 193.04 193.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33981,7 +33981,7 @@
 		(fields_autoplaced yes)
 		(uuid "cda5e93f-0daf-4238-96ad-e48e3b050d18")
 		(property "Reference" "#FLG037"
-			(at 140.97 191.77 0)
+			(at 193.04 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33992,7 +33992,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 140.97 187.96 0)
+			(at 193.04 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34003,7 +34003,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 193.04 0)
+			(at 193.04 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34014,7 +34014,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 193.04 0)
+			(at 193.04 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34025,7 +34025,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 140.97 193.04 0)
+			(at 193.04 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34049,7 +34049,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 148.59 0)
+		(at 93.98 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34059,7 +34059,7 @@
 		(dnp no)
 		(uuid "d0aab579-adbd-494d-8ee5-95c1a8d526f5")
 		(property "Reference" "#PWR0195"
-			(at 41.91 154.94 0)
+			(at 93.98 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34070,7 +34070,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 152.4 0)
+			(at 93.98 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34080,7 +34080,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 148.59 0)
+			(at 93.98 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34091,7 +34091,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 148.59 0)
+			(at 93.98 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34102,7 +34102,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 148.59 0)
+			(at 93.98 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34205,7 +34205,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 80.01 165.1 0)
+		(at 132.08 165.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34216,7 +34216,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2a3427e-6a1b-47e7-8776-b0b9ef6b6b1b")
 		(property "Reference" "#FLG043"
-			(at 80.01 163.83 0)
+			(at 132.08 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34227,7 +34227,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 80.01 160.02 0)
+			(at 132.08 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34238,7 +34238,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 165.1 0)
+			(at 132.08 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34249,7 +34249,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 165.1 0)
+			(at 132.08 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34260,7 +34260,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 80.01 165.1 0)
+			(at 132.08 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34284,7 +34284,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:0603 Green 509-620mcd")
-		(at 251.46 151.13 0)
+		(at 303.53 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34295,7 +34295,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3247a06-3ab4-4dcc-9490-76c1c93e5046")
 		(property "Reference" "LED7"
-			(at 250.19 146.05 0)
+			(at 302.26 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34305,7 +34305,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 251.46 151.13 0)
+			(at 303.53 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34315,7 +34315,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:LED0603-RD"
-			(at 251.46 151.13 0)
+			(at 303.53 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34326,7 +34326,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/KT-0603G/13258.html"
-			(at 251.46 151.13 0)
+			(at 303.53 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34337,7 +34337,7 @@
 			)
 		)
 		(property "Description" "Lamp Holder Type:- Illumination Color:Emerald Green Voltage - Forward(Vf):3.1V Voltage - Forward(Vf):3.1V Power(Watts):100mW Forward Current:5mA Wavelength - Dominant:513nm~528nm Wavelength - Dominant:513nm~528nm Peak Wavelength:525nm Diode Configuration:"
-			(at 251.46 151.13 0)
+			(at 303.53 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34348,7 +34348,7 @@
 			)
 		)
 		(property "Manufacturer Part" "KT-0603G"
-			(at 251.46 151.13 0)
+			(at 303.53 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34359,7 +34359,7 @@
 			)
 		)
 		(property "Manufacturer" "KENTO"
-			(at 251.46 151.13 0)
+			(at 303.53 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34370,7 +34370,7 @@
 			)
 		)
 		(property "Supplier Part" "C12624"
-			(at 251.46 151.13 0)
+			(at 303.53 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34381,7 +34381,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 251.46 151.13 0)
+			(at 303.53 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34392,7 +34392,7 @@
 			)
 		)
 		(property "LCSC Part Name" "0603 翠绿 高亮"
-			(at 251.46 151.13 0)
+			(at 303.53 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34688,7 +34688,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:PSPMAA1082T-220M-CGP")
-		(at 27.94 138.43 0)
+		(at 80.01 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34698,7 +34698,7 @@
 		(dnp no)
 		(uuid "d5f09327-11d3-4c7f-83be-6bbd38eb9eb3")
 		(property "Reference" "L6"
-			(at 27.94 139.7 0)
+			(at 80.01 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34708,7 +34708,7 @@
 			)
 		)
 		(property "Value" "22uH"
-			(at 27.94 142.24 0)
+			(at 80.01 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34718,7 +34718,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:IND-SMD_L11.0-W10.0-PSPMAA1082T"
-			(at 27.94 138.43 0)
+			(at 80.01 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34729,7 +34729,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/PSPMAA1082T-220M-CGP/49353242.html"
-			(at 27.94 138.43 0)
+			(at 80.01 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34740,7 +34740,7 @@
 			)
 		)
 		(property "Description" "Inductance:22uH Tolerance:±20% Tolerance:±20% Current Rating:8A Current - Saturation(Isat):10A DC Resistance(DCR):35mΩ Type:Molded Inductor Ratings:-"
-			(at 27.94 138.43 0)
+			(at 80.01 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34751,7 +34751,7 @@
 			)
 		)
 		(property "Manufacturer Part" "PSPMAA1082T-220M-CGP"
-			(at 27.94 138.43 0)
+			(at 80.01 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34762,7 +34762,7 @@
 			)
 		)
 		(property "Manufacturer" "PROD(谱罗德)"
-			(at 27.94 138.43 0)
+			(at 80.01 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34773,7 +34773,7 @@
 			)
 		)
 		(property "Supplier Part" "C47149121"
-			(at 27.94 138.43 0)
+			(at 80.01 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34784,7 +34784,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 27.94 138.43 0)
+			(at 80.01 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34795,7 +34795,7 @@
 			)
 		)
 		(property "LCSC Part Name" "22μH ±20% 13A"
-			(at 27.94 138.43 0)
+			(at 80.01 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35056,7 +35056,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:LT3748EMS#PBF")
-		(at 86.36 181.61 0)
+		(at 138.43 181.61 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -35067,7 +35067,7 @@
 		(dnp no)
 		(uuid "d8027d71-e777-4e93-aa23-98bb37c6d76c")
 		(property "Reference" "U8"
-			(at 86.36 168.91 0)
+			(at 138.43 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35077,7 +35077,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 86.36 181.61 0)
+			(at 138.43 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35087,7 +35087,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:MSOP-16_12P-L4.0-W3.0-P0.50-LS4.9-BL"
-			(at 86.36 181.61 0)
+			(at 138.43 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35098,7 +35098,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/LT3748EMS%2523PBF/118416.html"
-			(at 86.36 181.61 0)
+			(at 138.43 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35109,7 +35109,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 181.61 0)
+			(at 138.43 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35120,7 +35120,7 @@
 			)
 		)
 		(property "Manufacturer Part" "LT3748EMS#PBF"
-			(at 86.36 181.61 0)
+			(at 138.43 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35131,7 +35131,7 @@
 			)
 		)
 		(property "Manufacturer" "ADI(亚德诺)"
-			(at 86.36 181.61 0)
+			(at 138.43 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35142,7 +35142,7 @@
 			)
 		)
 		(property "Supplier Part" "C117158"
-			(at 86.36 181.61 0)
+			(at 138.43 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35153,7 +35153,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 86.36 181.61 0)
+			(at 138.43 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35164,7 +35164,7 @@
 			)
 		)
 		(property "LCSC Part Name" "5V~100V"
-			(at 86.36 181.61 0)
+			(at 138.43 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35221,7 +35221,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:FRC0805F1204TS")
-		(at 73.66 143.51 90)
+		(at 125.73 143.51 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -35231,7 +35231,7 @@
 		(dnp no)
 		(uuid "d9e17f4a-3c1a-42f4-ad85-48d69d16e2c9")
 		(property "Reference" "R37"
-			(at 76.2 143.51 90)
+			(at 128.27 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35242,7 +35242,7 @@
 			)
 		)
 		(property "Value" "1.2MΩ"
-			(at 78.74 140.97 90)
+			(at 130.81 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35252,7 +35252,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:R0805"
-			(at 73.66 143.51 0)
+			(at 125.73 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35263,7 +35263,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 143.51 0)
+			(at 125.73 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35274,7 +35274,7 @@
 			)
 		)
 		(property "Description" "Type:Thick Film Resistor Resistance:1.2MΩ Tolerance:±1% Tolerance:±1% Power(Watts):125mW Voltage-Supply(Max):150V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
-			(at 73.66 143.51 0)
+			(at 125.73 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35285,7 +35285,7 @@
 			)
 		)
 		(property "Manufacturer Part" "FRC0805F1204TS"
-			(at 73.66 143.51 0)
+			(at 125.73 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35296,7 +35296,7 @@
 			)
 		)
 		(property "Manufacturer" "FOJAN(富捷)"
-			(at 73.66 143.51 0)
+			(at 125.73 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35307,7 +35307,7 @@
 			)
 		)
 		(property "Supplier Part" "C2933294"
-			(at 73.66 143.51 0)
+			(at 125.73 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35318,7 +35318,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 73.66 143.51 0)
+			(at 125.73 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35329,7 +35329,7 @@
 			)
 		)
 		(property "LCSC Part Name" "1.2MΩ ±1% 125mW 厚膜电阻"
-			(at 73.66 143.51 0)
+			(at 125.73 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35356,7 +35356,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 278.13 151.13 0)
+		(at 330.2 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -35366,7 +35366,7 @@
 		(dnp no)
 		(uuid "db9bfb71-30f5-4adc-b838-fce38199b497")
 		(property "Reference" "#PWR0213"
-			(at 278.13 154.94 0)
+			(at 330.2 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35377,7 +35377,7 @@
 			)
 		)
 		(property "Value" "12V_ISOLATED"
-			(at 278.13 147.32 0)
+			(at 330.2 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35387,7 +35387,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 278.13 151.13 0)
+			(at 330.2 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35398,7 +35398,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 278.13 151.13 0)
+			(at 330.2 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35409,7 +35409,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 278.13 151.13 0)
+			(at 330.2 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35433,7 +35433,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:CL10C470JB8NNNC")
-		(at 125.73 196.85 90)
+		(at 177.8 196.85 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -35444,7 +35444,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd5b4fcd-13b0-4f88-ad72-90336ea7cc27")
 		(property "Reference" "C67"
-			(at 129.54 195.58 90)
+			(at 181.61 195.58 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35455,7 +35455,7 @@
 			)
 		)
 		(property "Value" "47pF"
-			(at 129.54 198.12 90)
+			(at 181.61 198.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35466,7 +35466,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:C0603"
-			(at 125.73 196.85 0)
+			(at 177.8 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35477,7 +35477,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10C470JB8NNNC/2023.html"
-			(at 125.73 196.85 0)
+			(at 177.8 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35488,7 +35488,7 @@
 			)
 		)
 		(property "Description" "Capacitance:47pF Tolerance:±5% Tolerance:±5% Voltage Rating:50V Temperature Coefficient:C0G"
-			(at 125.73 196.85 0)
+			(at 177.8 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35499,7 +35499,7 @@
 			)
 		)
 		(property "Manufacturer Part" "CL10C470JB8NNNC"
-			(at 125.73 196.85 0)
+			(at 177.8 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35510,7 +35510,7 @@
 			)
 		)
 		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 125.73 196.85 0)
+			(at 177.8 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35521,7 +35521,7 @@
 			)
 		)
 		(property "Supplier Part" "C1671"
-			(at 125.73 196.85 0)
+			(at 177.8 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35532,7 +35532,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 125.73 196.85 0)
+			(at 177.8 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35543,7 +35543,7 @@
 			)
 		)
 		(property "LCSC Part Name" "47pF ±5% 50V"
-			(at 125.73 196.85 0)
+			(at 177.8 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35570,7 +35570,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:BAV20W-7-F")
-		(at 193.04 203.2 180)
+		(at 245.11 203.2 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -35580,7 +35580,7 @@
 		(dnp no)
 		(uuid "dda1c8e9-7e17-4c5e-b05d-cef2908e8c9a")
 		(property "Reference" "D19"
-			(at 189.23 204.47 0)
+			(at 241.3 204.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35590,7 +35590,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 193.04 203.2 0)
+			(at 245.11 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35600,7 +35600,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:SOD-123_L2.7-W1.6-LS3.7-RD-1"
-			(at 193.04 203.2 0)
+			(at 245.11 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35611,7 +35611,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/BAV20W-7-F/252717.html"
-			(at 193.04 203.2 0)
+			(at 245.11 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35622,7 +35622,7 @@
 			)
 		)
 		(property "Description" "Diode Configuration:Independent Pd - Power Dissipation:250mW Current - Rectified:200mA Voltage - DC Reverse(Vr):200V Voltage - Forward(Vf@If):1.25V@200mA Non-Repetitive Peak Forward Surge Current:- Reverse Leakage Current (Ir):100nA Reverse Recovery Time"
-			(at 193.04 203.2 0)
+			(at 245.11 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35633,7 +35633,7 @@
 			)
 		)
 		(property "Manufacturer Part" "BAV20W-7-F"
-			(at 193.04 203.2 0)
+			(at 245.11 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35644,7 +35644,7 @@
 			)
 		)
 		(property "Manufacturer" "DIODES(美台)"
-			(at 193.04 203.2 0)
+			(at 245.11 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35655,7 +35655,7 @@
 			)
 		)
 		(property "Supplier Part" "C260853"
-			(at 193.04 203.2 0)
+			(at 245.11 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35666,7 +35666,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 193.04 203.2 0)
+			(at 245.11 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35677,7 +35677,7 @@
 			)
 		)
 		(property "LCSC Part Name" "200V 200mA"
-			(at 193.04 203.2 0)
+			(at 245.11 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35704,7 +35704,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:RC0402FR-070RL")
-		(at 113.03 186.69 0)
+		(at 165.1 186.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -35714,7 +35714,7 @@
 		(dnp no)
 		(uuid "dfe68e64-0abe-4c1c-8f7f-426753034fce")
 		(property "Reference" "R36"
-			(at 118.11 185.42 0)
+			(at 170.18 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35724,7 +35724,7 @@
 			)
 		)
 		(property "Value" "0Ω"
-			(at 109.22 185.42 0)
+			(at 161.29 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35734,7 +35734,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:R0402"
-			(at 113.03 186.69 0)
+			(at 165.1 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35745,7 +35745,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/RC0402FR-070RL/107446.html"
-			(at 113.03 186.69 0)
+			(at 165.1 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35756,7 +35756,7 @@
 			)
 		)
 		(property "Description" "Type:Thick Film Resistors Resistance:0Ω Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:- Temperature Coefficient:- Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
-			(at 113.03 186.69 0)
+			(at 165.1 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35767,7 +35767,7 @@
 			)
 		)
 		(property "Manufacturer Part" "RC0402FR-070RL"
-			(at 113.03 186.69 0)
+			(at 165.1 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35778,7 +35778,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 113.03 186.69 0)
+			(at 165.1 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35789,7 +35789,7 @@
 			)
 		)
 		(property "Supplier Part" "C106231"
-			(at 113.03 186.69 0)
+			(at 165.1 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35800,7 +35800,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 113.03 186.69 0)
+			(at 165.1 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35811,7 +35811,7 @@
 			)
 		)
 		(property "LCSC Part Name" "厚膜电阻 0Ω ±1% 62.5mW"
-			(at 113.03 186.69 0)
+			(at 165.1 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36208,7 +36208,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:SMB5350B")
-		(at 256.54 171.45 270)
+		(at 308.61 171.45 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36219,7 +36219,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6010c75-4fc6-46c4-86bf-5620136378e1")
 		(property "Reference" "D20"
-			(at 260.35 171.45 90)
+			(at 312.42 171.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36230,7 +36230,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 256.54 171.45 0)
+			(at 308.61 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36240,7 +36240,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:SMB_L4.6-W3.6-LS5.3-RD"
-			(at 256.54 171.45 0)
+			(at 308.61 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36251,7 +36251,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/SMB5350B/269583.html"
-			(at 256.54 171.45 0)
+			(at 308.61 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36262,7 +36262,7 @@
 			)
 		)
 		(property "Description" "Diode Configuration:- Zener Voltage(Nom):13V Reverse Leakage Current (Ir):1uA@9.9V Zener Voltage(Range):- Zener Voltage(Range):- Pd - Power Dissipation:5W Impedance(Zzt):2.5Ω Impedance(Zzk):100Ω Operating Junction Temperature Range:-55°C~+150°C Operating Ju"
-			(at 256.54 171.45 0)
+			(at 308.61 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36273,7 +36273,7 @@
 			)
 		)
 		(property "Manufacturer Part" "SMB5350B"
-			(at 256.54 171.45 0)
+			(at 308.61 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36284,7 +36284,7 @@
 			)
 		)
 		(property "Manufacturer" "DOWO(东沃)"
-			(at 256.54 171.45 0)
+			(at 308.61 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36295,7 +36295,7 @@
 			)
 		)
 		(property "Supplier Part" "C284082"
-			(at 256.54 171.45 0)
+			(at 308.61 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36306,7 +36306,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 256.54 171.45 0)
+			(at 308.61 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36317,7 +36317,7 @@
 			)
 		)
 		(property "LCSC Part Name" "耐压:13V 电流:1uA@9.9V"
-			(at 256.54 171.45 0)
+			(at 308.61 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36478,7 +36478,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:GRM31CR61E476ME44L")
-		(at 201.93 171.45 90)
+		(at 254 171.45 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36489,7 +36489,7 @@
 		(fields_autoplaced yes)
 		(uuid "eae2ec46-5ade-4f40-b59f-ee9fb0afddd4")
 		(property "Reference" "C69"
-			(at 205.74 170.18 90)
+			(at 257.81 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36500,7 +36500,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 205.74 172.72 90)
+			(at 257.81 172.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36511,7 +36511,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:C1206"
-			(at 201.93 171.45 0)
+			(at 254 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36522,7 +36522,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/GRM31CR61E476ME44L/389810.html"
-			(at 201.93 171.45 0)
+			(at 254 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36533,7 +36533,7 @@
 			)
 		)
 		(property "Description" "Capacitance:47uF Tolerance:±20% Tolerance:±20% Voltage Rating:25V Temperature Coefficient:X5R"
-			(at 201.93 171.45 0)
+			(at 254 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36544,7 +36544,7 @@
 			)
 		)
 		(property "Manufacturer Part" "GRM31CR61E476ME44L"
-			(at 201.93 171.45 0)
+			(at 254 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36555,7 +36555,7 @@
 			)
 		)
 		(property "Manufacturer" "muRata(村田)"
-			(at 201.93 171.45 0)
+			(at 254 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36566,7 +36566,7 @@
 			)
 		)
 		(property "Supplier Part" "C403725"
-			(at 201.93 171.45 0)
+			(at 254 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36577,7 +36577,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 201.93 171.45 0)
+			(at 254 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36588,7 +36588,7 @@
 			)
 		)
 		(property "LCSC Part Name" "47uF ±20% 25V"
-			(at 201.93 171.45 0)
+			(at 254 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36771,7 +36771,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 22.86 185.42 0)
+		(at 74.93 185.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36782,7 +36782,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee1a6ce7-b6a0-426a-938a-6fb95d49003a")
 		(property "Reference" "#FLG039"
-			(at 22.86 184.15 0)
+			(at 74.93 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36793,7 +36793,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 22.86 180.34 0)
+			(at 74.93 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36804,7 +36804,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 185.42 0)
+			(at 74.93 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36815,7 +36815,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 185.42 0)
+			(at 74.93 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36826,7 +36826,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 22.86 185.42 0)
+			(at 74.93 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37452,7 +37452,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:0805W8F300KT5E")
-		(at 204.47 203.2 0)
+		(at 256.54 203.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37462,7 +37462,7 @@
 		(dnp no)
 		(uuid "f4e8ece7-f69b-456b-9654-6d5b8e12b190")
 		(property "Reference" "R45"
-			(at 204.47 200.66 0)
+			(at 256.54 200.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37472,7 +37472,7 @@
 			)
 		)
 		(property "Value" "3Ω"
-			(at 204.47 203.2 0)
+			(at 256.54 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37482,7 +37482,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:R0805"
-			(at 204.47 203.2 0)
+			(at 256.54 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37493,7 +37493,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/0805W8F300KT5E/18348.html"
-			(at 204.47 203.2 0)
+			(at 256.54 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37504,7 +37504,7 @@
 			)
 		)
 		(property "Description" "Type:Thick Film Resistors Resistance:3Ω Tolerance:±1% Tolerance:±1% Power(Watts):0.125W Voltage-Supply(Max):150V Temperature Coefficient:±400ppm/°C Temperature Coefficient:±400ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
-			(at 204.47 203.2 0)
+			(at 256.54 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37515,7 +37515,7 @@
 			)
 		)
 		(property "Manufacturer Part" "0805W8F300KT5E"
-			(at 204.47 203.2 0)
+			(at 256.54 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37526,7 +37526,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 204.47 203.2 0)
+			(at 256.54 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37537,7 +37537,7 @@
 			)
 		)
 		(property "Supplier Part" "C17660"
-			(at 204.47 203.2 0)
+			(at 256.54 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37548,7 +37548,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 204.47 203.2 0)
+			(at 256.54 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37559,7 +37559,7 @@
 			)
 		)
 		(property "LCSC Part Name" "3Ω ±1% 125mW 厚膜电阻"
-			(at 204.47 203.2 0)
+			(at 256.54 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38089,7 +38089,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 59.69 138.43 0)
+		(at 111.76 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -38100,7 +38100,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe9f54ee-5970-4ef0-9bd6-b38bfb47ec8a")
 		(property "Reference" "#FLG045"
-			(at 59.69 137.16 0)
+			(at 111.76 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38111,7 +38111,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 59.69 133.35 0)
+			(at 111.76 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38122,7 +38122,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 138.43 0)
+			(at 111.76 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38133,7 +38133,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 138.43 0)
+			(at 111.76 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38144,7 +38144,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 59.69 138.43 0)
+			(at 111.76 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

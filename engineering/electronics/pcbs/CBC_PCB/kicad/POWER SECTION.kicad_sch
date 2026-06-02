@@ -6999,6 +6999,180 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "CBC_PCB:SMTSOM380BTR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -5.842 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BSMTSOM330BTR"
+				(at -4.318 4.064 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA_Lib:SMD_BD6.0-D4.2"
+				(at 1.778 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at -0.254 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 -4.318 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "BSMTSOM330BTR"
+				(at -4.318 6.096 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 0 5.334 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part" "C20617225"
+				(at -6.858 8.128 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at -9.906 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part Name" ""
+				(at 0 -6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SMTSOM380BTR_0_1"
+				(polyline
+					(pts
+						(xy -0.635 0.635) (xy 0.635 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -0.635) (xy 0.635 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMTSOM380BTR_1_0"
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin no_connect line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "CBC_PCB:SP015N03BGHTO"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8456,6 +8630,16 @@
 		)
 		(uuid "67f2cdae-7bbb-42ac-80fc-1d2b684ee906")
 	)
+	(text "Heatsink Mounting"
+		(exclude_from_sim no)
+		(at 303.022 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "98f3ff1b-2755-4419-a94d-a4490ebef1e1")
+	)
 	(text "PRECHARGE SIGNAL HIGH=RELAY ON / NO POWER=PRECHARGEOFF"
 		(exclude_from_sim no)
 		(at 196.85 146.05 0)
@@ -8469,7 +8653,7 @@
 	(text_box "12V GATE CONTROL VOLTAGE\n"
 		(exclude_from_sim no)
 		(at 133.35 12.7 0)
-		(size 264.922 96.52)
+		(size 273.05 96.52)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -8491,7 +8675,7 @@
 	(text_box "MOSFET SWITCH"
 		(exclude_from_sim no)
 		(at 133.35 148.59 0)
-		(size 273.812 49.53)
+		(size 273.05 49.53)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -8534,8 +8718,8 @@
 	)
 	(text_box "Precharge circuit (active after battery startup)"
 		(exclude_from_sim no)
-		(at 133.35 109.22 0)
-		(size 150.622 39.37)
+		(at 134.62 109.22 0)
+		(size 186.69 39.37)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -8556,8 +8740,8 @@
 	)
 	(text_box "OUTPUT"
 		(exclude_from_sim no)
-		(at 284.48 109.22 0)
-		(size 114.3 39.37)
+		(at 321.31 109.22 0)
+		(size 85.09 39.37)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -8685,7 +8869,7 @@
 		(uuid "19b27dad-c0d6-48da-8a64-372d5cd8ed79")
 	)
 	(junction
-		(at 322.58 129.54)
+		(at 350.52 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "219895ce-d3ec-453b-bbc8-54109cbdbc02")
@@ -8703,13 +8887,13 @@
 		(uuid "25725c93-955b-4307-9abb-51d4c09bff1c")
 	)
 	(junction
-		(at 302.26 127)
+		(at 330.2 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a2c5e4d-1e49-4647-ae72-de394a0225b4")
 	)
 	(junction
-		(at 322.58 127)
+		(at 350.52 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b222545-5aa9-4d3e-9924-d5f74c3aa66e")
@@ -8805,7 +8989,7 @@
 		(uuid "406e47e8-7f71-475a-8045-b2609586be0f")
 	)
 	(junction
-		(at 379.73 135.89)
+		(at 393.7 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41494522-f73c-448c-b1c0-9d40afe82cac")
@@ -8877,7 +9061,7 @@
 		(uuid "67a62cf1-7223-4b67-9aa5-e9b1741778f8")
 	)
 	(junction
-		(at 302.26 129.54)
+		(at 330.2 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68b78ae4-3cf2-4729-8e3d-630de3e4cddf")
@@ -8925,7 +9109,7 @@
 		(uuid "6e886704-ed40-41a2-a48c-847f66ab56ad")
 	)
 	(junction
-		(at 322.58 135.89)
+		(at 350.52 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70964a59-a3b4-4e52-a82a-3d2483184871")
@@ -9039,7 +9223,7 @@
 		(uuid "9ae53eb4-43b7-4f3a-b05e-0c6ed6e89271")
 	)
 	(junction
-		(at 359.41 129.54)
+		(at 373.38 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9af99c6a-caa1-4b91-be05-d0216663cfa7")
@@ -9099,7 +9283,7 @@
 		(uuid "a7ba71b2-39a7-4ac4-b2db-73f32a3dd201")
 	)
 	(junction
-		(at 379.73 129.54)
+		(at 393.7 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9e8fee9-bcb0-4a29-b842-f716cf2f7370")
@@ -9165,7 +9349,7 @@
 		(uuid "cee39783-78b2-40f0-9970-5255a4df6667")
 	)
 	(junction
-		(at 359.41 127)
+		(at 373.38 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d001905e-08af-4f29-b499-173718192795")
@@ -9249,7 +9433,7 @@
 		(uuid "f1c1ff3a-9ea6-4f3b-ba57-6f24e96b7323")
 	)
 	(junction
-		(at 379.73 127)
+		(at 393.7 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f262ba24-f62d-4771-b094-93720d372f46")
@@ -9306,7 +9490,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 129.54) (xy 379.73 127)
+			(xy 393.7 129.54) (xy 393.7 127)
 		)
 		(stroke
 			(width 0)
@@ -9386,7 +9570,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 135.89) (xy 379.73 129.54)
+			(xy 393.7 135.89) (xy 393.7 129.54)
 		)
 		(stroke
 			(width 0)
@@ -9666,7 +9850,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 129.54) (xy 359.41 135.89)
+			(xy 373.38 129.54) (xy 373.38 135.89)
 		)
 		(stroke
 			(width 0)
@@ -9966,7 +10150,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 124.46) (xy 322.58 127)
+			(xy 350.52 124.46) (xy 350.52 127)
 		)
 		(stroke
 			(width 0)
@@ -9996,7 +10180,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 129.54) (xy 322.58 135.89)
+			(xy 350.52 129.54) (xy 350.52 135.89)
 		)
 		(stroke
 			(width 0)
@@ -10196,7 +10380,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 127) (xy 359.41 129.54)
+			(xy 373.38 127) (xy 373.38 129.54)
 		)
 		(stroke
 			(width 0)
@@ -10376,7 +10560,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 127) (xy 379.73 124.46)
+			(xy 393.7 127) (xy 393.7 124.46)
 		)
 		(stroke
 			(width 0)
@@ -10786,7 +10970,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 137.16) (xy 379.73 135.89)
+			(xy 393.7 137.16) (xy 393.7 135.89)
 		)
 		(stroke
 			(width 0)
@@ -10836,7 +11020,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 137.16) (xy 322.58 135.89)
+			(xy 350.52 137.16) (xy 350.52 135.89)
 		)
 		(stroke
 			(width 0)
@@ -11146,7 +11330,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 129.54) (xy 302.26 127)
+			(xy 330.2 129.54) (xy 330.2 127)
 		)
 		(stroke
 			(width 0)
@@ -11316,7 +11500,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 127) (xy 322.58 129.54)
+			(xy 350.52 127) (xy 350.52 129.54)
 		)
 		(stroke
 			(width 0)
@@ -11646,7 +11830,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 135.89) (xy 302.26 135.89)
+			(xy 350.52 135.89) (xy 330.2 135.89)
 		)
 		(stroke
 			(width 0)
@@ -11656,7 +11840,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 127) (xy 302.26 124.46)
+			(xy 330.2 127) (xy 330.2 124.46)
 		)
 		(stroke
 			(width 0)
@@ -11906,7 +12090,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 135.89) (xy 379.73 135.89)
+			(xy 373.38 135.89) (xy 393.7 135.89)
 		)
 		(stroke
 			(width 0)
@@ -11916,7 +12100,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 124.46) (xy 359.41 127)
+			(xy 373.38 124.46) (xy 373.38 127)
 		)
 		(stroke
 			(width 0)
@@ -12016,7 +12200,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 135.89) (xy 302.26 129.54)
+			(xy 330.2 135.89) (xy 330.2 129.54)
 		)
 		(stroke
 			(width 0)
@@ -14890,7 +15074,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 379.73 137.16 0)
+		(at 393.7 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14900,7 +15084,7 @@
 		(dnp no)
 		(uuid "0e9c3975-ee83-409e-af43-a747addbaebb")
 		(property "Reference" "#PWR0130"
-			(at 379.73 143.51 0)
+			(at 393.7 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14911,7 +15095,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 377.19 142.24 0)
+			(at 391.16 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14922,7 +15106,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 379.73 137.16 0)
+			(at 393.7 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14933,7 +15117,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 379.73 137.16 0)
+			(at 393.7 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14944,7 +15128,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 379.73 137.16 0)
+			(at 393.7 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15258,6 +15442,140 @@
 		)
 	)
 	(symbol
+		(lib_id "CBC_PCB:SMTSOM380BTR")
+		(at 297.18 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "124b67ba-44b7-4d44-89bb-7daf52530a22")
+		(property "Reference" "U40"
+			(at 291.338 133.858 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BSMTSOM330BTR"
+			(at 298.45 135.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CBC_PCB:SMD_BD6.0-D4.2"
+			(at 298.958 138.176 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 296.926 138.176 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 297.18 140.208 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "BSMTSOM330BTR"
+			(at 292.862 129.794 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 297.18 130.556 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C20617225"
+			(at 290.322 127.762 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 287.274 133.858 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 297.18 142.748 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "95d2a838-ae4e-4e5a-9b67-2d1e344de264")
+		)
+		(instances
+			(project "CBC_PCB"
+				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/16623c3f-27fc-4db0-8b22-f4a31ec72271"
+					(reference "U40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 273.05 138.43 0)
 		(unit 1)
@@ -15484,6 +15802,140 @@
 			(project "CBC_PCB"
 				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/16623c3f-27fc-4db0-8b22-f4a31ec72271"
 					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CBC_PCB:SMTSOM380BTR")
+		(at 297.18 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16ce369f-a33e-4a03-8c61-1014b3b33a19")
+		(property "Reference" "U4"
+			(at 291.338 128.778 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BSMTSOM330BTR"
+			(at 298.45 130.8099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CBC_PCB:SMD_BD6.0-D4.2"
+			(at 298.958 133.096 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 296.926 133.096 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 297.18 135.128 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "BSMTSOM330BTR"
+			(at 292.862 124.714 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 297.18 125.476 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C20617225"
+			(at 290.322 122.682 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 287.274 128.778 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 297.18 137.668 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0dabda2b-18ed-4d7e-b490-f41745c23374")
+		)
+		(instances
+			(project "CBC_PCB"
+				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/16623c3f-27fc-4db0-8b22-f4a31ec72271"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -28148,7 +28600,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 322.58 137.16 180)
+		(at 350.52 137.16 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28158,7 +28610,7 @@
 		(dnp no)
 		(uuid "9b0f79f7-ac27-420b-89d0-07963d850162")
 		(property "Reference" "#PWR0129"
-			(at 322.58 133.35 0)
+			(at 350.52 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28169,7 +28621,7 @@
 			)
 		)
 		(property "Value" "H_PWR-IN"
-			(at 322.58 140.97 0)
+			(at 350.52 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28179,7 +28631,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 322.58 137.16 0)
+			(at 350.52 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28190,7 +28642,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 322.58 137.16 0)
+			(at 350.52 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28201,7 +28653,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 322.58 137.16 0)
+			(at 350.52 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30837,7 +31289,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:AMT0650009DB0000G")
-		(at 302.26 124.46 0)
+		(at 330.2 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30848,7 +31300,7 @@
 		(fields_autoplaced yes)
 		(uuid "bfaa8ccf-1dfc-4691-aa04-4b57f51c189e")
 		(property "Reference" "J6"
-			(at 312.42 116.84 0)
+			(at 340.36 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30858,7 +31310,7 @@
 			)
 		)
 		(property "Value" "AMT0650009DB0000G"
-			(at 312.42 119.38 0)
+			(at 340.36 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30868,7 +31320,7 @@
 			)
 		)
 		(property "Footprint" "CBC_PCB:AMT0650009DB0000G"
-			(at 318.77 219.71 0)
+			(at 346.71 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30880,7 +31332,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.anytek.com.cn/Upload/AMT65009DB-ea34f585add14be99019296bea885a72.pdf"
-			(at 318.77 318.77 0)
+			(at 346.71 318.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30892,7 +31344,7 @@
 			)
 		)
 		(property "Description" "6 Pin Screw Terminal, Power Tap M5 Through Hole"
-			(at 302.26 124.46 0)
+			(at 330.2 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30903,7 +31355,7 @@
 			)
 		)
 		(property "Height" "10.2"
-			(at 318.77 519.43 0)
+			(at 346.71 519.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30915,7 +31367,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Amphenol"
-			(at 318.77 619.76 0)
+			(at 346.71 619.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30927,7 +31379,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "AMT0650009DB0000G"
-			(at 318.77 718.82 0)
+			(at 346.71 718.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30939,7 +31391,7 @@
 			)
 		)
 		(property "Mouser Part Number" "523-AMT0650009DB000G"
-			(at 318.77 819.15 0)
+			(at 346.71 819.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30951,7 +31403,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-Anytek/AMT0650009DB0000G?qs=ST9lo4GX8V3ZU92Xjfsnhw%3D%3D"
-			(at 318.77 919.48 0)
+			(at 346.71 919.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30963,7 +31415,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 318.77 1019.81 0)
+			(at 346.71 1019.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30975,7 +31427,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 318.77 1118.87 0)
+			(at 346.71 1118.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32063,7 +32515,7 @@
 	)
 	(symbol
 		(lib_id "CBC_PCB:AMT0650009DB0000G")
-		(at 359.41 124.46 0)
+		(at 373.38 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32074,7 +32526,7 @@
 		(fields_autoplaced yes)
 		(uuid "d0d00f72-e5bd-42c1-af1d-872bbaacc5fa")
 		(property "Reference" "J7"
-			(at 369.57 118.11 0)
+			(at 383.54 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32084,7 +32536,7 @@
 			)
 		)
 		(property "Value" "AMT0650009DB0000G"
-			(at 369.57 120.65 0)
+			(at 383.54 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32094,7 +32546,7 @@
 			)
 		)
 		(property "Footprint" "CBC_PCB:AMT0650009DB0000G"
-			(at 375.92 219.71 0)
+			(at 389.89 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32106,7 +32558,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.anytek.com.cn/Upload/AMT65009DB-ea34f585add14be99019296bea885a72.pdf"
-			(at 375.92 318.77 0)
+			(at 389.89 318.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32118,7 +32570,7 @@
 			)
 		)
 		(property "Description" "6 Pin Screw Terminal, Power Tap M5 Through Hole"
-			(at 359.41 124.46 0)
+			(at 373.38 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32129,7 +32581,7 @@
 			)
 		)
 		(property "Height" "10.2"
-			(at 375.92 519.43 0)
+			(at 389.89 519.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32141,7 +32593,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Amphenol"
-			(at 375.92 619.76 0)
+			(at 389.89 619.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32153,7 +32605,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "AMT0650009DB0000G"
-			(at 375.92 718.82 0)
+			(at 389.89 718.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32165,7 +32617,7 @@
 			)
 		)
 		(property "Mouser Part Number" "523-AMT0650009DB000G"
-			(at 375.92 819.15 0)
+			(at 389.89 819.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32177,7 +32629,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-Anytek/AMT0650009DB0000G?qs=ST9lo4GX8V3ZU92Xjfsnhw%3D%3D"
-			(at 375.92 919.48 0)
+			(at 389.89 919.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32189,7 +32641,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 375.92 1019.81 0)
+			(at 389.89 1019.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32201,7 +32653,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 375.92 1118.87 0)
+			(at 389.89 1118.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
