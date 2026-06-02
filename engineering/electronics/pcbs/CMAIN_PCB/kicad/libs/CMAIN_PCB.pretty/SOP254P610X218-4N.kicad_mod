@@ -1,0 +1,311 @@
+(footprint "SOP254P610X218-4N"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SOP")
+	(tags "Relay or Contactor")
+	(property "Reference" "REF**"
+		(at -2.687006 3.394113 180)
+		(layer "F.SilkS")
+		(uuid "37ffb6e8-ef8f-4081-abb6-4d2794b49488")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "CPC1019N"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6762460f-f05b-427e-a93d-693fd388e24b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dde38dd5-727f-4228-8304-3f94ecc751bb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SPST-NO Solid State Relay Solder 1 A, 750 mA dc Surface Mount, AC/DC MOSFET"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b8011bb-9411-4c53-b24b-2d236ae0be3e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "2.184"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3506143f-c094-40b5-95ce-ddec86a0f5fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "849-CPC1019N"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0a26c90-046a-43c9-8ac8-348d2fb1966a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/IXYS-Integrated-Circuits/CPC1019N?qs=OpMkDkHXivODOFSk3K4MqQ%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9377c50f-3b49-4e37-bef2-34a6888c9aae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "LITTELFUSE"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5178072b-b8ba-4bdd-99da-aff678a9dbc3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "CPC1019N"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc7e4070-6b04-48b0-b637-773afc91966c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/Power_control/")
+	(sheetfile "Power_control.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.5 -1.945)
+		(end -2.15 -1.945)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "db98bedc-ef83-4614-9945-8f4e8ebee978")
+	)
+	(fp_line
+		(start -1.8 -2.044)
+		(end 1.8 -2.044)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "035b11c0-5855-4a3f-b5fc-920b75a38ef2")
+	)
+	(fp_line
+		(start -1.8 2.044)
+		(end -1.8 -2.044)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8e3d46f4-c747-458a-a7b1-f857c9ae3251")
+	)
+	(fp_line
+		(start 1.8 -2.044)
+		(end 1.8 2.044)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "825add09-6d51-4410-adad-80b63b6e1277")
+	)
+	(fp_line
+		(start 1.8 2.044)
+		(end -1.8 2.044)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f52a7d7c-7474-4083-846a-9c9dbe402684")
+	)
+	(fp_line
+		(start -3.75 -2.396)
+		(end 3.75 -2.396)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3c44bd66-a012-4737-af42-882535eabd98")
+	)
+	(fp_line
+		(start -3.75 2.396)
+		(end -3.75 -2.396)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c9daff29-a569-4894-aa31-480a5f25aac4")
+	)
+	(fp_line
+		(start 3.75 -2.396)
+		(end 3.75 2.396)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5eb38ca4-466e-4674-a5a7-886e62891c91")
+	)
+	(fp_line
+		(start 3.75 2.396)
+		(end -3.75 2.396)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bdef7a94-acee-4f4d-bc4e-c18a2211d330")
+	)
+	(fp_line
+		(start -1.905 -2.044)
+		(end 1.905 -2.044)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "07e87263-1138-4851-9ee5-e06e96129fb7")
+	)
+	(fp_line
+		(start -1.905 2.044)
+		(end -1.905 -2.044)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "20e29438-ffb4-42c3-838a-23bed2caa094")
+	)
+	(fp_line
+		(start -1.904999 0.496)
+		(end 0.635 -2.044)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5432d1f2-ed54-47ff-a9ba-19841791df3a")
+	)
+	(fp_line
+		(start 1.905 -2.044)
+		(end 1.905 2.044)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7ac61b7d-f721-489e-9adf-596f653d4d91")
+	)
+	(fp_line
+		(start 1.905 2.044)
+		(end -1.905 2.044)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "794b00cb-0fbf-4fe2-adc2-4fb6925ef37b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "fc86fb70-be68-465f-8683-8d06d5c22924")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.825 -1.27 90)
+		(size 0.65 1.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "319db9b2-0f85-4a1d-893e-48270245801c")
+	)
+	(pad "2" smd rect
+		(at -2.825 1.27 90)
+		(size 0.65 1.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7146e054-3c5c-425b-9547-0acee383d490")
+	)
+	(pad "3" smd rect
+		(at 2.825 1.27 90)
+		(size 0.65 1.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c994e076-7e32-4ece-94f2-14f27515c2ab")
+	)
+	(pad "4" smd rect
+		(at 2.825 -1.27 90)
+		(size 0.65 1.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3d908e1c-1589-450b-8c8e-de64d03f5a16")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/CPC1114N.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

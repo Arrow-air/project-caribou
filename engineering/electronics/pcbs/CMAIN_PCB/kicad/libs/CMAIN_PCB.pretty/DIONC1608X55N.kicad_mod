@@ -1,0 +1,327 @@
+(footprint "DIONC1608X55N"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "0603")
+	(tags "Diode")
+	(property "Reference" "REF**"
+		(at 0 1.7 0)
+		(layer "F.SilkS")
+		(uuid "645bfb7d-5e79-4785-9211-568daca04a09")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "PESD0603-240"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f8142f02-bf00-41de-b972-9aec201d86f6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.littelfuse.com/~/media/electronics/datasheets/polymer_esd_suppressors/littelfuse_polymer_esd_suppressor_pesd_catalog_datasheet.pdf.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77d213d9-a00e-4842-b9b2-58474d41c4af")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "LITTELFUSE - PESD0603-240 - ESD SUPPRESSOR, 0603, 24V, 0.25PF"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aeca90a1-369e-4ed8-8f5d-f28cea25db99")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SUPPLIER PART NUMBER" "650-PESD0603-240"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db76f36b-a493-4fbe-8d11-b3f76c764650")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SUPPLIER" "Mouser"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5068611-9ad7-4a42-b6cb-772a05f9bd2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFR" "LITTELFUSE"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c34d2ef2-2cf1-4d46-986c-0686ca543b00")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "PESD0603-240"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3cf55aa8-872a-45bf-a861-9b1c65d625e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ALTIUM_VALUE" "PESD0603-240"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad70679c-ae3e-460c-b966-a773fe206bde")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PRICE" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e9736c69-a9b4-4ab8-8f67-043791986ebc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "0.55"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df9f7225-4422-4ae7-8cb1-6e78e86a3e9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "650-PESD0603-240"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "57242124-8159-49cb-b58b-4e73854745d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/PESD0603-240?qs=NK6InXoXhq6AnVVWZjdyfg%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "826edf1e-cc9d-424b-93bd-ba710db19eab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "LITTELFUSE"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0cc3e0f5-4045-4fe3-bdd2-a83f32d346de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "PESD0603-240"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9b6b2b7-adaf-4859-b8bf-8705fc2d8ac3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/CAN_circuit/")
+	(sheetfile "CAN circuit.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 0 -0.312)
+		(end 0 0.312)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "521e5511-b989-493f-a130-1f77c9800a15")
+	)
+	(fp_line
+		(start -1.5 -0.75)
+		(end 1.5 -0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6cd7abb1-38bd-41ae-b2ee-966c7141651a")
+	)
+	(fp_line
+		(start -1.5 0.75)
+		(end -1.5 -0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "add5a819-4a4c-4bfe-b227-2e614fa84806")
+	)
+	(fp_line
+		(start 1.5 -0.75)
+		(end 1.5 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "434792b4-63f5-4a34-b200-b61a1d7bd437")
+	)
+	(fp_line
+		(start 1.5 0.75)
+		(end -1.5 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d1c1ec10-a01d-4714-b056-6a0f0ab2c5ca")
+	)
+	(fp_line
+		(start -0.8 -0.412)
+		(end 0.8 -0.412)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "283bd130-55e5-424e-a2cf-210a2598ff38")
+	)
+	(fp_line
+		(start -0.8 0.412)
+		(end -0.8 -0.412)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a418f001-22bd-43a9-bcd1-f5ce56390f2c")
+	)
+	(fp_line
+		(start 0.8 -0.412)
+		(end 0.8 0.412)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "96f00753-c547-4d0f-8b63-70352e6aa7bc")
+	)
+	(fp_line
+		(start 0.8 0.412)
+		(end -0.8 0.412)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a1fb8086-6ad8-433d-90bd-f3cbdd2273f5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "fbce157b-d037-4096-a9a8-02212d441304")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.8 0)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bc273e1e-60f7-4382-a42b-7d878b0d53f2")
+	)
+	(pad "2" smd rect
+		(at 0.8 0)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "03ca95ba-93b3-4eb4-9af7-5afc57dd65fc")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/PESD0603-240.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

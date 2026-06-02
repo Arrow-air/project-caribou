@@ -1,5 +1,6 @@
 (sym_lib_table
   (lib (name "CMAIN_PCB")(type "KiCad")(uri "${KIPRJMOD}/libs/CMAIN_PCB.kicad_sym")(options "")(descr "Project-specific CMAIN symbols"))
+  (lib (name "Signal Distribution Box-altium-import")(type "KiCad")(uri "${KIPRJMOD}/libs/Signal Distribution Box-altium-import.kicad_sym")(options "")(descr "Project-local imported Altium symbols"))
   (lib (name "EasyEDA_Lib")(type "KiCad")(uri "${KIPRJMOD}/libs/EasyEDA_Lib.kicad_sym")(options "")(descr "Project-local imported EasyEDA_Lib symbols"))
   (lib (name "Jumper")(type "KiCad")(uri "${KIPRJMOD}/libs/Jumper.kicad_sym")(options "")(descr "Project-local imported Jumper symbols"))
   (lib (name "PCM_JLCPCB-Diodes")(type "KiCad")(uri "${KIPRJMOD}/libs/PCM_JLCPCB-Diodes.kicad_sym")(options "")(descr "Project-local imported PCM_JLCPCB-Diodes symbols"))

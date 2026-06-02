@@ -1,0 +1,301 @@
+(footprint "1812L010DR"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "1812L")
+	(tags "Resettable Fuse")
+	(property "Reference" "REF**"
+		(at -0.070711 3.181981 0)
+		(layer "F.SilkS")
+		(uuid "31114009-f146-4e6a-ac22-2c0235b28b6c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "1812L110_24DR"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "af4ae4b6-a6a2-4720-9c40-dc373e47a63e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_1812l_datasheet.pdf.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2688242-9567-470e-8c73-4b8aff5234e3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Resettable Fuses - PPTC PTC 24V POLY 1812 HALOGEN-FREE 1.10A"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d4d1df5b-5ca7-48f2-bb86-d36426abd907")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "1.25"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16e75bce-4a3c-4dd7-b5a6-747d1b352169")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "576-1812L110/24DR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0e5929a-1ad5-4a1a-9569-654a314045ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/1812L110-24DR?qs=fp%2Fo%2FcJ74olDQ9douCTKCA%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9017deb8-d3a5-4855-86ad-2ec94ae986d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "LITTELFUSE"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "720289a9-2237-4f6b-9ec3-d1ea5bed946f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "1812L110/24DR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a843fac-2ee8-45ef-b030-e0efbb1efa86")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/Power_control/")
+	(sheetfile "Power_control.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4 -0.1)
+		(end -4 -0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "29a2931e-7dd1-491d-98b2-9b6e0e4fdefc")
+	)
+	(fp_line
+		(start -4 0.1)
+		(end -4 0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "79e06640-77f7-465c-b21f-e701698e95cd")
+	)
+	(fp_line
+		(start -1.5 -1.62)
+		(end 1.5 -1.62)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7447ed0d-40e9-4d98-b41b-583b6a872991")
+	)
+	(fp_line
+		(start -1.5 1.62)
+		(end 1.5 1.62)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b82afe8d-40b4-442e-916b-5776baad21f5")
+	)
+	(fp_arc
+		(start -4 -0.1)
+		(mid -3.899998 0)
+		(end -4 0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9c46bc40-b44f-493f-8f6e-0ce0819fb211")
+	)
+	(fp_arc
+		(start -4 0.1)
+		(mid -4.1 0)
+		(end -4 -0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8e49a127-8c4d-4d3c-a36c-5d2e7735dbcd")
+	)
+	(fp_line
+		(start -4.505 -2.62)
+		(end 4.505 -2.62)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d2ea6585-6727-42bc-989b-5ee5a17ef3ac")
+	)
+	(fp_line
+		(start -4.505 2.62)
+		(end -4.505 -2.62)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1b6122f6-712e-44f9-8dc5-58b67a11d701")
+	)
+	(fp_line
+		(start 4.505 -2.62)
+		(end 4.505 2.62)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a7acd1cb-e120-40b6-8883-be8f3fcf906e")
+	)
+	(fp_line
+		(start 4.505 2.62)
+		(end -4.505 2.62)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3609f0a0-d90b-4ad3-861a-c6cab3f01163")
+	)
+	(fp_line
+		(start -2.275 -1.62)
+		(end 2.275 -1.62)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "87284a3e-374f-4baf-ad47-6fb8b0cb268d")
+	)
+	(fp_line
+		(start -2.275 1.62)
+		(end -2.275 -1.62)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "254ecaf0-9bab-4647-974f-b0df4bf1ff57")
+	)
+	(fp_line
+		(start 2.275 -1.62)
+		(end 2.275 1.62)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ef4c3fa4-09e2-49c6-8fa6-3f8d85ed1ae4")
+	)
+	(fp_line
+		(start 2.275 1.62)
+		(end -2.275 1.62)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "00aee78c-11aa-4725-8e5e-d6b7f82f5c33")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "98a9355f-90d5-42ee-b6d8-4c417463f5fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.615 0)
+		(size 1.78 3.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c5b1ef28-da09-4778-afd2-bdf9d7377188")
+	)
+	(pad "2" smd rect
+		(at 2.615 0)
+		(size 1.78 3.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d2c1bbc5-3d80-4213-abb7-4bf47f66b950")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/1812L110_24DR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

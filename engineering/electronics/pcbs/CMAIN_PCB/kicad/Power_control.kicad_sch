@@ -3312,7 +3312,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 152.4 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -3472,7 +3472,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 194.31 81.28 90)
 			(hide yes)
 			(show_name no)
@@ -3551,7 +3551,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Samacsys:SOP254P610X218-4N"
+		(property "Footprint" "CMAIN_PCB:SOP254P610X218-4N"
 			(at 116.84 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -3699,7 +3699,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:POWERPAK-SO-8_L5.9-W4.9-P1.27-LS6.2-BL"
+		(property "Footprint" "CMAIN_PCB:POWERPAK-SO-8_L5.9-W4.9-P1.27-LS6.2-BL"
 			(at 198.12 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -3911,7 +3911,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Samacsys:0154002DR"
+		(property "Footprint" "CMAIN_PCB:0154002DR"
 			(at 180.34 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -4132,7 +4132,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SMB"
+		(property "Footprint" "CMAIN_PCB:D_SMB"
 			(at 194.31 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -4402,7 +4402,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 181.61 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -4482,7 +4482,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:POWERPAK-SO-8_L5.9-W4.9-P1.27-LS6.2-BL"
+		(property "Footprint" "CMAIN_PCB:POWERPAK-SO-8_L5.9-W4.9-P1.27-LS6.2-BL"
 			(at 210.82 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -4696,7 +4696,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Samacsys_kicad_sym:LEDC2012X85N"
+		(property "Footprint" "CMAIN_PCB:LEDC2012X85N"
 			(at 152.4 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -4839,7 +4839,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 156.21 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5234,7 +5234,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Samacsys_kicad_sym:LEDC2012X85N"
+		(property "Footprint" "CMAIN_PCB:LEDC2012X85N"
 			(at 156.21 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -5454,7 +5454,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 81.28 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -5535,7 +5535,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 199.39 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -5693,7 +5693,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Samacsys:SOP254P610X218-4N"
+		(property "Footprint" "CMAIN_PCB:SOP254P610X218-4N"
 			(at 116.84 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -5998,7 +5998,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 212.09 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -6079,7 +6079,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SMB"
+		(property "Footprint" "CMAIN_PCB:D_SMB"
 			(at 181.61 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -6269,7 +6269,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 81.28 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -6348,7 +6348,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SMB_L4.6-W3.6-LS5.3-RD"
+		(property "Footprint" "CMAIN_PCB:SMB_L4.6-W3.6-LS5.3-RD"
 			(at 167.64 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -6482,7 +6482,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SMB_L4.6-W3.6-LS5.3-RD"
+		(property "Footprint" "CMAIN_PCB:SMB_L4.6-W3.6-LS5.3-RD"
 			(at 167.64 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -6771,7 +6771,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Samacsys:1812L010DR"
+		(property "Footprint" "CMAIN_PCB:1812L010DR"
 			(at 198.12 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -6913,7 +6913,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Samacsys:0154002DR"
+		(property "Footprint" "CMAIN_PCB:0154002DR"
 			(at 185.42 158.75 0)
 			(hide yes)
 			(show_name no)

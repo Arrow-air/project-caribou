@@ -4686,7 +4686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Samacsys:SM04B-GHS-TB"
+		(property "Footprint" "CMAIN_PCB:SM04B-GHS-TB"
 			(at 114.3 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -4916,7 +4916,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Samacsys:SM04B-GHS-TB"
+		(property "Footprint" "CMAIN_PCB:SM04B-GHS-TB"
 			(at 16.51 137.16 0)
 			(hide yes)
 			(show_name no)

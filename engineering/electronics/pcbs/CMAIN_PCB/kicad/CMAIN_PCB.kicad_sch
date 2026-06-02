@@ -5583,7 +5583,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Only mounting hole"
+			(property "Footprint" "CMAIN_PCB:SMD_BD6.0-D4.2"
 				(at 16.51 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -17024,7 +17024,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Samacsys:SM04B-GHS-TB"
+		(property "Footprint" "CMAIN_PCB:SM04B-GHS-TB"
 			(at 275.59 314.96 0)
 			(hide yes)
 			(show_name no)
@@ -17253,7 +17253,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Samacsys:1778735"
+		(property "Footprint" "CMAIN_PCB:1778735"
 			(at 264.16 278.13 0)
 			(hide yes)
 			(show_name no)
@@ -17485,7 +17485,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Snapeda:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm"
+		(property "Footprint" "CMAIN_PCB:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm"
 			(at 280.67 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -17725,7 +17725,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Samacsys:AXK6S00547YG"
+		(property "Footprint" "CMAIN_PCB:AXK6S00547YG"
 			(at 118.11 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -18343,7 +18343,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Samacsys:SM04B-GHS-TB"
+		(property "Footprint" "CMAIN_PCB:SM04B-GHS-TB"
 			(at 326.39 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -18495,7 +18495,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "CMAIN_PCB:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 294.64 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -18719,7 +18719,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Snapeda:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "CMAIN_PCB:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 297.18 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -18800,7 +18800,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 307.34 43.18 90)
 			(hide yes)
 			(show_name no)
@@ -19182,7 +19182,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Samacsys:SM06B-GHS-TB"
+		(property "Footprint" "CMAIN_PCB:SM06B-GHS-TB"
 			(at 275.59 327.66 0)
 			(hide yes)
 			(show_name no)
@@ -19640,7 +19640,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:AT13-4P"
+		(property "Footprint" "CMAIN_PCB:1814948"
 			(at 39.116 213.868 0)
 			(hide yes)
 			(show_name no)
@@ -20158,7 +20158,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Samacsys:SM04B-GHS-TB"
+		(property "Footprint" "CMAIN_PCB:SM04B-GHS-TB"
 			(at 138.684 214.376 0)
 			(hide yes)
 			(show_name no)
@@ -20310,7 +20310,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Samacsys:SM04B-GHS-TB"
+		(property "Footprint" "CMAIN_PCB:SM04B-GHS-TB"
 			(at 165.354 258.572 0)
 			(hide yes)
 			(show_name no)
@@ -20769,7 +20769,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Samacsys:SM04B-GHS-TB"
+		(property "Footprint" "CMAIN_PCB:SM04B-GHS-TB"
 			(at 363.22 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -21306,7 +21306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 276.86 182.88 90)
 			(hide yes)
 			(show_name no)
@@ -21715,7 +21715,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Snapeda:XT30PW-F_AMASS_XT30PW-F"
+		(property "Footprint" "CMAIN_PCB:XT30PW-F_AMASS_XT30PW-F"
 			(at 149.606 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -21960,7 +21960,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Samacsys:1814935"
+		(property "Footprint" "CMAIN_PCB:1814935"
 			(at 375.92 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -22341,7 +22341,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:CONN-TH_SM03B-GHS-TB-LF-SN"
+		(property "Footprint" "CMAIN_PCB:CONN-TH_SM03B-GHS-TB-LF-SN"
 			(at 143.51 144.272 0)
 			(hide yes)
 			(show_name no)
@@ -22851,7 +22851,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Samacsys:SM05B-GHS-TB"
+		(property "Footprint" "CMAIN_PCB:SM05B-GHS-TB"
 			(at 339.09 314.96 0)
 			(hide yes)
 			(show_name no)
@@ -23471,7 +23471,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Samacsys:SM04B-GHS-TB"
+		(property "Footprint" "CMAIN_PCB:SM04B-GHS-TB"
 			(at 138.684 272.542 0)
 			(hide yes)
 			(show_name no)
@@ -24363,7 +24363,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 304.8 180.34 90)
 			(hide yes)
 			(show_name no)
@@ -24508,7 +24508,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 397.51 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -24589,7 +24589,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Samacsys:SM04B-GHS-TB"
+		(property "Footprint" "CMAIN_PCB:SM04B-GHS-TB_J9"
 			(at 325.12 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -24739,7 +24739,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Samacsys:1814951"
+		(property "Footprint" "CMAIN_PCB:1814951"
 			(at 151.13 299.72 0)
 			(hide yes)
 			(show_name no)
@@ -25130,7 +25130,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:AT13-4P"
+		(property "Footprint" "CMAIN_PCB:1814948"
 			(at 39.116 179.578 0)
 			(hide yes)
 			(show_name no)
@@ -25436,7 +25436,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:CONN-TH_5P-P2.50_ZX-XH2.54-5PZZ"
+		(property "Footprint" "CMAIN_PCB:CONN-TH_5P-P2.50_ZX-XH2.54-5PZZ"
 			(at 339.09 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -26166,7 +26166,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Samacsys:1814935"
+		(property "Footprint" "CMAIN_PCB:1814935"
 			(at 285.75 356.87 0)
 			(hide yes)
 			(show_name no)
@@ -26854,7 +26854,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Samacsys:1814935"
+		(property "Footprint" "CMAIN_PCB:1814935"
 			(at 151.13 318.77 0)
 			(hide yes)
 			(show_name no)
@@ -27002,7 +27002,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Samacsys:USB421603A"
+		(property "Footprint" "CMAIN_PCB:USB421603A"
 			(at 389.89 306.07 0)
 			(hide yes)
 			(show_name no)
@@ -28264,7 +28264,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Samacsys:AXK6S00547YG"
+		(property "Footprint" "CMAIN_PCB:AXK6S00547YG"
 			(at 59.69 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -29037,7 +29037,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Samacsys:1778735"
+		(property "Footprint" "CMAIN_PCB:1778735"
 			(at 207.01 278.13 0)
 			(hide yes)
 			(show_name no)
@@ -29421,7 +29421,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Samacsys:SM04B-GHS-TB"
+		(property "Footprint" "CMAIN_PCB:SM04B-GHS-TB"
 			(at 165.354 273.812 0)
 			(hide yes)
 			(show_name no)
@@ -29731,7 +29731,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Samacsys:SM04B-GHS-TB"
+		(property "Footprint" "CMAIN_PCB:SM04B-GHS-TB"
 			(at 138.684 258.572 0)
 			(hide yes)
 			(show_name no)
@@ -30351,7 +30351,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Snapeda:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "CMAIN_PCB:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 284.48 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -30740,7 +30740,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:AT13-4P"
+		(property "Footprint" "CMAIN_PCB:1814948"
 			(at 39.116 161.798 0)
 			(hide yes)
 			(show_name no)
@@ -30888,7 +30888,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Samacsys:1814935"
+		(property "Footprint" "CMAIN_PCB:1814935"
 			(at 184.15 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -31352,7 +31352,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 354.33 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -32065,7 +32065,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 278.13 185.42 90)
 			(hide yes)
 			(show_name no)
@@ -32448,7 +32448,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Samacsys:CMT8530SSMTTR"
+		(property "Footprint" "CMAIN_PCB:CMT8530SSMTTR"
 			(at 384.81 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -32969,7 +32969,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 281.94 149.86 90)
 			(hide yes)
 			(show_name no)
@@ -33439,7 +33439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 302.26 130.81 90)
 			(hide yes)
 			(show_name no)
@@ -33519,7 +33519,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Samacsys:1814935"
+		(property "Footprint" "CMAIN_PCB:1814935"
 			(at 375.92 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -33668,7 +33668,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 285.75 149.86 90)
 			(hide yes)
 			(show_name no)
@@ -34132,7 +34132,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:AT13-4P"
+		(property "Footprint" "CMAIN_PCB:1814948"
 			(at 39.116 196.088 0)
 			(hide yes)
 			(show_name no)

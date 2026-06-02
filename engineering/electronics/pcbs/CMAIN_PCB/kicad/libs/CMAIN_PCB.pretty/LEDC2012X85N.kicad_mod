@@ -1,0 +1,279 @@
+(footprint "LEDC2012X85N"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "APT2012")
+	(tags "LED")
+	(property "Reference" "REF**"
+		(at -0.070711 -3.040559 180)
+		(layer "F.SilkS")
+		(uuid "293baf12-40df-4038-a611-78ff402acde2")
+		(effects
+			(font
+				(size 1.27 1.2)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "APT2012LVBC_D"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4a82bd6d-980d-4b71-b6a8-21355d61f79e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/APT2012LVBC_D.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29d64df2-ee74-4f66-932a-e312a45538a7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Standard LEDs - SMD 2.0X1.2MM LOW CRNT"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96e229cb-4e55-445d-8ea9-ec3d8edebd3c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "0.85"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37d6f6a5-aaff-412f-be0b-a1f3b55057bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "604-APT2012LVBCD"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "faae097c-66ec-4d73-8dac-14cdf2767a84")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kingbright/APT2012LVBC-D?qs=6oMev5NRZMGErJYT6KZLXg%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45cd3116-9276-41cc-ad55-342a31074b92")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Kingbright"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4fbf3889-bb82-4578-9028-e521afe08273")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "APT2012LVBC/D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b206b0c0-5b1f-42c4-8807-32a905e15198")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/Power_control/")
+	(sheetfile "Power_control.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.75 -1.05)
+		(end -1.75 1.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c80aa9d5-341b-48ed-8acf-bfd589f51c9a")
+	)
+	(fp_line
+		(start -1.75 1.05)
+		(end 0.95 1.050001)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8643590c-73cd-4da1-8c62-535829d8f8f8")
+	)
+	(fp_line
+		(start 0.95 -1.050001)
+		(end -1.75 -1.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f945f242-82b3-498f-996e-f4b25af54ef3")
+	)
+	(fp_line
+		(start -1.85 -1.15)
+		(end 1.85 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5fc84a66-a9a7-45e8-b46a-8fd6eb855329")
+	)
+	(fp_line
+		(start -1.85 1.15)
+		(end -1.85 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9bd0b996-a372-46c5-9b49-634b084c6173")
+	)
+	(fp_line
+		(start 1.85 -1.15)
+		(end 1.85 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "25d03582-fd41-4cbf-b5ac-c54472f0661c")
+	)
+	(fp_line
+		(start 1.85 1.15)
+		(end -1.85 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c0053bfb-541d-4706-8b16-aa2ff755bf5f")
+	)
+	(fp_line
+		(start -1 -0.625)
+		(end 1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9b859255-2332-488c-86e0-a1fc078bfec3")
+	)
+	(fp_line
+		(start -1 -0.208)
+		(end -0.583 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "806c5f4a-d0a9-4f90-aff8-8f085faef5a9")
+	)
+	(fp_line
+		(start -1 0.625)
+		(end -1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ebf6c324-7836-416d-8c65-32cd3de7eb5b")
+	)
+	(fp_line
+		(start 1 -0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f0ad8e27-ae85-44b7-aaef-4aa54e6d858e")
+	)
+	(fp_line
+		(start 1 0.625)
+		(end -1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "34bb829e-7d99-4945-81e1-eedfc084cbd3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "db6a3c51-62a7-43b0-8e62-1987e652549d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.949999 0)
+		(size 0.9 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f731276e-afe7-4dae-a3dd-727598d17984")
+	)
+	(pad "2" smd rect
+		(at 0.949999 0)
+		(size 0.9 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "db700a06-709b-469b-8696-01a1a3255326")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/APT2012LVBC_D.stp"
+		(offset
+			(xyz -0.02999999888 0 0.01999999925)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

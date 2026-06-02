@@ -1,0 +1,291 @@
+(footprint "1814948"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "1814948")
+	(tags "Connector")
+	(property "Reference" "REF**"
+		(at -8.414571 -1.343503 0)
+		(layer "F.SilkS")
+		(uuid "e6929235-8196-487a-b257-24d01862646e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "1814948"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "28b1e75e-f42e-4b86-a2f7-aae110cde528")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.phoenixcontact.com/de/produkte/1814948/pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47773304-fef7-4437-96a0-dd41f12d65a1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "PCB header, nominal cross section: 0.5 mm?, color: white, nominal current: 6 A, rated voltage (III/2): 160 V, contact surface: Tin, type of contact: Male connector, Number of potentials: 5, Number of rows: 1, Number of positions per row: 5, number of connections: 5, product range: PTSM 0,5/..-HH-SMD WH, pitch: 2.5 mm, mounting: SMD soldering, pin layout: Linear pad geometry, Stecksystem: COMBICON COMPACT PTSM, Locking: without, type of packaging: 32 mm wide tape"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "19708133-cede-4818-a3ed-070c3ea65d01")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "5.1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3bf79501-bbc9-4e48-bf7b-baee251980a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "651-1814948"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "adb2e28a-624c-4333-bd95-0bfe1ad965bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1814948?qs=eTPcRhULBzxggS8GURKAhQ%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf090339-2228-411a-a254-f05a96d858d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Phoenix Contact"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84cf7198-fd05-439f-bd13-12f1807f11c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "1814948"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f85297f1-4489-4f6c-a908-197688bd4e72")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetfile "CMAIN_PCB.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 9.049999 8.25)
+		(end -9.049999 8.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1bab278c-8f8d-4e26-af6f-b3cc2c16ec19")
+	)
+	(fp_circle
+		(center -8.85 0)
+		(end -8.85 0.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e18ef6e6-6be0-41a2-a733-57d96d153ee9")
+	)
+	(fp_line
+		(start -10.25 -2.4)
+		(end 10.25 -2.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0a9b9d7a-f24e-4e4f-871f-03c2cc925427")
+	)
+	(fp_line
+		(start -10.25 9.25)
+		(end -10.25 -2.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e3eb4e5b-ab26-43ff-afe2-e89e5ffe8ef0")
+	)
+	(fp_line
+		(start 10.25 -2.4)
+		(end 10.25 9.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9e11a9ad-6e16-42dc-b8b8-4fcf75309e3a")
+	)
+	(fp_line
+		(start 10.25 9.25)
+		(end -10.25 9.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "db8047fb-99b5-4e0a-8f8b-bbef53a49dcf")
+	)
+	(fp_line
+		(start -9.049999 0.75)
+		(end 9.049999 0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8aa08a13-0494-4489-a49b-87bcfc0ef0f4")
+	)
+	(fp_line
+		(start -9.049999 8.25)
+		(end -9.049999 0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8f650d06-8961-4e64-a1e9-caebb8829f8b")
+	)
+	(fp_line
+		(start 9.049999 0.75)
+		(end 9.049999 8.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f1cef084-95d9-462d-948e-4c7f0127b532")
+	)
+	(fp_line
+		(start 9.049999 8.25)
+		(end -9.049999 8.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4742a77a-3dbc-4305-bf8a-07dfc2b15bc2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "842cfc9d-9199-4ceb-8131-efa36b2ebaa4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "" smd rect
+		(at -8.35 4.25)
+		(size 2.2 5.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(zone_connect 0)
+		(uuid "43bc1714-dc57-4610-b403-cb3c72c826f7")
+	)
+	(pad "" smd rect
+		(at 8.35 4.25)
+		(size 2.2 5.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(zone_connect 0)
+		(uuid "7a7afd4e-17c5-4014-9c76-6dc4dc53ebb6")
+	)
+	(pad "1" smd rect
+		(at -5 0)
+		(size 1.2 3.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9e1b595f-c4ba-4897-9e7f-281f9df21141")
+	)
+	(pad "2" smd rect
+		(at -2.5 0)
+		(size 1.2 3.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0a9d0c5c-e95b-4961-a736-312130d1e884")
+	)
+	(pad "3" smd rect
+		(at 0 0)
+		(size 1.2 3.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5aa56185-1241-40fa-9d0d-f1865b6487ab")
+	)
+	(pad "4" smd rect
+		(at 2.5 0)
+		(size 1.2 3.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b63c6e21-e707-4ec3-a7b8-4351e75e6b2d")
+	)
+	(pad "5" smd rect
+		(at 5 0)
+		(size 1.2 3.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d4de8d54-9b7d-4c50-9b62-99fcb1919262")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/1814948.stp"
+		(offset
+			(xyz 7.099999798 -8.180000182 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)

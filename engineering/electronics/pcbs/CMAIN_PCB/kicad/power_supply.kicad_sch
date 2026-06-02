@@ -37,7 +37,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "CBC_PCB:AT13-08PA-BM01"
+			(property "Footprint" "CMAIN_PCB:AT13-08PA-BM01"
 				(at 15.494 12.192 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1340,7 +1340,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "SY8205FCC:VREG_SY8205FCC"
+			(property "Footprint" "CMAIN_PCB:VREG_SY8205FCC"
 				(at -1.016 16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -9728,7 +9728,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "TRANS_PSMN4R8-100BSE"
+		(property "Footprint" "CMAIN_PCB:POWERPAK-SO-8_L5.9-W4.9-P1.27-LS6.2-BL"
 			(at 242.57 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -10028,7 +10028,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "R2512"
+		(property "Footprint" "CMAIN_PCB:R_2512_6332Metric"
 			(at 255.27 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -10498,7 +10498,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "R2512"
+		(property "Footprint" "CMAIN_PCB:R_2512_6332Metric"
 			(at 255.27 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -10734,7 +10734,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CBC_PCB:AT13-08PA-BM01"
+		(property "Footprint" "CMAIN_PCB:AT13-08PA-BM01"
 			(at 56.896 300.228 0)
 			(hide yes)
 			(show_name no)
@@ -10972,7 +10972,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "TRANS_PSMN4R8-100BSE"
+		(property "Footprint" "CMAIN_PCB:POWERPAK-SO-8_L5.9-W4.9-P1.27-LS6.2-BL"
 			(at 242.57 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -11116,7 +11116,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LED_PLCC2"
+		(property "Footprint" "CMAIN_PCB:LEDC2012X85N"
 			(at 279.4 288.29 0)
 			(hide yes)
 			(show_name no)
@@ -11269,7 +11269,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "R0805"
+		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 191.77 278.13 0)
 			(hide yes)
 			(show_name no)
@@ -11735,7 +11735,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LED_PLCC2"
+		(property "Footprint" "CMAIN_PCB:LEDC2012X85N"
 			(at 191.77 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -11888,7 +11888,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "C0805"
+		(property "Footprint" "CMAIN_PCB:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 205.74 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -12041,7 +12041,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "R2512"
+		(property "Footprint" "CMAIN_PCB:R_2512_6332Metric"
 			(at 255.27 332.74 0)
 			(hide yes)
 			(show_name no)
@@ -12194,7 +12194,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "R2512"
+		(property "Footprint" "CMAIN_PCB:R_2512_6332Metric"
 			(at 255.27 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -12347,7 +12347,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "DO-214AA2"
+		(property "Footprint" "CMAIN_PCB:D_SMB"
 			(at 176.53 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -12630,7 +12630,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "C1206"
+		(property "Footprint" "EasyEDA_Lib:C1206"
 			(at 156.21 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -13079,7 +13079,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "R0805"
+		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 191.77 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -13232,7 +13232,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "TRANS_PSMN4R8-100BSE"
+		(property "Footprint" "CMAIN_PCB:POWERPAK-SO-8_L5.9-W4.9-P1.27-LS6.2-BL"
 			(at 242.57 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -13764,7 +13764,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "DO-214AA2"
+		(property "Footprint" "CMAIN_PCB:D_SMB"
 			(at 176.53 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -13905,7 +13905,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "C0805"
+		(property "Footprint" "CMAIN_PCB:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 212.09 281.94 0)
 			(hide yes)
 			(show_name no)
@@ -14212,7 +14212,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "C0805"
+		(property "Footprint" "CMAIN_PCB:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 205.74 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -14365,7 +14365,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAP_EEUFC1E101S"
+		(property "Footprint" "EasyEDA_Lib:CAP-TH_BD10.0-P5.00-D0.6-FD_2"
 			(at 168.91 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -14663,7 +14663,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAP_EEUFC1E101S"
+		(property "Footprint" "EasyEDA_Lib:CAP-TH_BD10.0-P5.00-D0.6-FD_2"
 			(at 168.91 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -14804,7 +14804,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "TRANS_PSMN4R8-100BSE"
+		(property "Footprint" "CMAIN_PCB:POWERPAK-SO-8_L5.9-W4.9-P1.27-LS6.2-BL"
 			(at 242.57 332.74 0)
 			(hide yes)
 			(show_name no)
@@ -15179,7 +15179,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LED_PLCC2"
+		(property "Footprint" "CMAIN_PCB:LEDC2012X85N"
 			(at 191.77 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -15650,7 +15650,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "R0805"
+		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 279.4 280.67 0)
 			(hide yes)
 			(show_name no)
@@ -15880,7 +15880,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "R0805"
+		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 191.77 325.12 0)
 			(hide yes)
 			(show_name no)
@@ -16033,7 +16033,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LED_PLCC2"
+		(property "Footprint" "CMAIN_PCB:LEDC2012X85N"
 			(at 438.658 205.486 0)
 			(hide yes)
 			(show_name no)
@@ -16344,7 +16344,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAP_EEUFC1E101S"
+		(property "Footprint" "EasyEDA_Lib:CAP-TH_BD10.0-P5.00-D0.6-FD_2"
 			(at 168.91 276.86 0)
 			(hide yes)
 			(show_name no)
@@ -16562,7 +16562,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "C1206"
+		(property "Footprint" "EasyEDA_Lib:C1206"
 			(at 417.576 296.926 0)
 			(hide yes)
 			(show_name no)
@@ -16691,7 +16691,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "R2512"
+		(property "Footprint" "CMAIN_PCB:R_2512_6332Metric"
 			(at 255.27 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -17388,7 +17388,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SOP50P490X110-16N"
+		(property "Footprint" "CMAIN_PCB:MSOP-16_3x4.039mm_P0.5mm"
 			(at 250.19 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -17725,7 +17725,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "C0805"
+		(property "Footprint" "CMAIN_PCB:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 212.09 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -17955,7 +17955,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "C1206"
+		(property "Footprint" "EasyEDA_Lib:C1206"
 			(at 330.2 88.392 0)
 			(hide yes)
 			(show_name no)
@@ -18161,7 +18161,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LED_PLCC2"
+		(property "Footprint" "CMAIN_PCB:LEDC2012X85N"
 			(at 446.278 305.816 0)
 			(hide yes)
 			(show_name no)
@@ -18468,7 +18468,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "TRANS_PSMN4R8-100BSE"
+		(property "Footprint" "CMAIN_PCB:POWERPAK-SO-8_L5.9-W4.9-P1.27-LS6.2-BL"
 			(at 242.57 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -18766,7 +18766,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "DO-214AA2"
+		(property "Footprint" "CMAIN_PCB:D_SMB"
 			(at 176.53 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -19369,7 +19369,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LED_PLCC2"
+		(property "Footprint" "CMAIN_PCB:LEDC2012X85N"
 			(at 191.77 285.75 0)
 			(hide yes)
 			(show_name no)
@@ -19522,7 +19522,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "C1206"
+		(property "Footprint" "EasyEDA_Lib:C1206"
 			(at 156.21 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -19740,7 +19740,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "R0805"
+		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 442.468 103.886 0)
 			(hide yes)
 			(show_name no)
@@ -20117,7 +20117,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "C1206"
+		(property "Footprint" "EasyEDA_Lib:C1206"
 			(at 418.846 196.596 0)
 			(hide yes)
 			(show_name no)
@@ -20246,7 +20246,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "DO-214AA2"
+		(property "Footprint" "CMAIN_PCB:D_SMB"
 			(at 176.53 321.31 0)
 			(hide yes)
 			(show_name no)
@@ -20387,7 +20387,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LED_PLCC2"
+		(property "Footprint" "CMAIN_PCB:LEDC2012X85N"
 			(at 191.77 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -20620,7 +20620,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CBC_PCB:AT13-08PA-BM01"
+		(property "Footprint" "CMAIN_PCB:AT13-08PA-BM01"
 			(at 56.896 253.238 0)
 			(hide yes)
 			(show_name no)
@@ -20780,7 +20780,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 338.074 192.786 0)
 			(hide yes)
 			(show_name no)
@@ -20938,7 +20938,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "C1206"
+		(property "Footprint" "EasyEDA_Lib:C1206"
 			(at 156.21 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -21157,7 +21157,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CBC_PCB:AT13-08PA-BM01"
+		(property "Footprint" "CMAIN_PCB:AT13-08PA-BM01"
 			(at 56.896 199.898 0)
 			(hide yes)
 			(show_name no)
@@ -21318,7 +21318,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LED_PLCC2"
+		(property "Footprint" "CMAIN_PCB:LEDC2012X85N"
 			(at 279.4 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -21551,7 +21551,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SY8205FCC:VREG_SY8205FCC"
+		(property "Footprint" "CMAIN_PCB:VREG_SY8205FCC"
 			(at 353.568 279.146 0)
 			(hide yes)
 			(show_name no)
@@ -22083,7 +22083,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAP_EEUFC1E101S"
+		(property "Footprint" "EasyEDA_Lib:CAP-TH_BD10.0-P5.00-D0.6-FD_2"
 			(at 168.91 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -22224,7 +22224,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "C1206"
+		(property "Footprint" "EasyEDA_Lib:C1206"
 			(at 418.846 102.616 0)
 			(hide yes)
 			(show_name no)
@@ -22828,7 +22828,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "R0805"
+		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 446.278 298.196 0)
 			(hide yes)
 			(show_name no)
@@ -22969,7 +22969,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "R0805"
+		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 191.77 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -23358,7 +23358,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "R0805"
+		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 279.4 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -23746,7 +23746,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "C0805"
+		(property "Footprint" "CMAIN_PCB:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 212.09 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -23899,7 +23899,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "C1206"
+		(property "Footprint" "EasyEDA_Lib:C1206"
 			(at 328.93 282.702 0)
 			(hide yes)
 			(show_name no)
@@ -24028,7 +24028,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LED_PLCC2"
+		(property "Footprint" "CMAIN_PCB:LEDC2012X85N"
 			(at 191.77 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -24258,7 +24258,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "R0805"
+		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 438.658 197.866 0)
 			(hide yes)
 			(show_name no)
@@ -24399,7 +24399,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "C1206"
+		(property "Footprint" "EasyEDA_Lib:C1206"
 			(at 330.2 182.372 0)
 			(hide yes)
 			(show_name no)
@@ -24528,7 +24528,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "C1206"
+		(property "Footprint" "EasyEDA_Lib:C1206"
 			(at 156.21 325.12 0)
 			(hide yes)
 			(show_name no)
@@ -24670,7 +24670,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CBC_PCB:AT13-08PA-BM01"
+		(property "Footprint" "CMAIN_PCB:AT13-08PA-BM01"
 			(at 56.896 105.918 0)
 			(hide yes)
 			(show_name no)
@@ -24913,7 +24913,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "DO-214AA2"
+		(property "Footprint" "CMAIN_PCB:D_SMB"
 			(at 176.53 127 0)
 			(hide yes)
 			(show_name no)
@@ -25441,7 +25441,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "C1206"
+		(property "Footprint" "EasyEDA_Lib:C1206"
 			(at 156.21 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -25582,7 +25582,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "DO-214AA2"
+		(property "Footprint" "CMAIN_PCB:D_SMB"
 			(at 176.53 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -26438,7 +26438,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LED_PLCC2"
+		(property "Footprint" "CMAIN_PCB:LEDC2012X85N"
 			(at 191.77 332.74 0)
 			(hide yes)
 			(show_name no)
@@ -26591,7 +26591,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "C0805"
+		(property "Footprint" "CMAIN_PCB:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 205.74 303.53 0)
 			(hide yes)
 			(show_name no)
@@ -26902,7 +26902,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SY8205FCC:VREG_SY8205FCC"
+		(property "Footprint" "CMAIN_PCB:VREG_SY8205FCC"
 			(at 354.838 84.836 0)
 			(hide yes)
 			(show_name no)
@@ -27373,7 +27373,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SOP50P490X110-16N"
+		(property "Footprint" "CMAIN_PCB:MSOP-16_3x4.039mm_P0.5mm"
 			(at 250.19 316.23 0)
 			(hide yes)
 			(show_name no)
@@ -27852,7 +27852,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SOP50P490X110-16N"
+		(property "Footprint" "CMAIN_PCB:MSOP-16_3x4.039mm_P0.5mm"
 			(at 250.19 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -28036,7 +28036,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CBC_PCB:AT13-08PA-BM01"
+		(property "Footprint" "CMAIN_PCB:AT13-08PA-BM01"
 			(at 56.896 58.928 0)
 			(hide yes)
 			(show_name no)
@@ -28197,7 +28197,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAP_EEUFC1E101S"
+		(property "Footprint" "EasyEDA_Lib:CAP-TH_BD10.0-P5.00-D0.6-FD_2"
 			(at 168.91 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -28492,7 +28492,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "R0805"
+		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 191.77 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -28722,7 +28722,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "C1206"
+		(property "Footprint" "EasyEDA_Lib:C1206"
 			(at 156.21 278.13 0)
 			(hide yes)
 			(show_name no)
@@ -28942,7 +28942,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LED_PLCC2"
+		(property "Footprint" "CMAIN_PCB:LEDC2012X85N"
 			(at 279.4 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -29096,7 +29096,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CBC_PCB:AT13-08PA-BM01"
+		(property "Footprint" "CMAIN_PCB:AT13-08PA-BM01"
 			(at 56.896 152.908 0)
 			(hide yes)
 			(show_name no)
@@ -29257,7 +29257,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "R0805"
+		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 191.77 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -29410,7 +29410,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LED_PLCC2"
+		(property "Footprint" "CMAIN_PCB:LEDC2012X85N"
 			(at 442.468 111.506 0)
 			(hide yes)
 			(show_name no)
@@ -29562,7 +29562,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SY8205FCC:VREG_SY8205FCC"
+		(property "Footprint" "CMAIN_PCB:VREG_SY8205FCC"
 			(at 354.838 178.816 0)
 			(hide yes)
 			(show_name no)
@@ -29798,7 +29798,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "R0805"
+		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 279.4 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -29951,7 +29951,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAP_EEUFC1E101S"
+		(property "Footprint" "EasyEDA_Lib:CAP-TH_BD10.0-P5.00-D0.6-FD_2"
 			(at 168.91 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -30092,7 +30092,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "R2512"
+		(property "Footprint" "CMAIN_PCB:R_2512_6332Metric"
 			(at 255.27 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -30480,7 +30480,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "TRANS_PSMN4R8-100BSE"
+		(property "Footprint" "CMAIN_PCB:POWERPAK-SO-8_L5.9-W4.9-P1.27-LS6.2-BL"
 			(at 242.57 273.05 0)
 			(hide yes)
 			(show_name no)
