@@ -1,0 +1,7 @@
+# KiCad local/generated artifacts
+**/.history/
+**/*-backups/
+**/*.lck
+**/fp-info-cache
+*.bak
+*.bck

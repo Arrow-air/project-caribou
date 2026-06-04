@@ -5,7 +5,7 @@
 	(uuid "ccf2d5f7-aa32-41aa-b9e7-92e7a28a4edc")
 	(paper "A4")
 	(lib_symbols
-		(symbol "CBC_PCB:AT13-08PA-BM01"
+		(symbol "CBC_PCB:B08B-JWPF-SK-R"
 			(body_styles demorgan)
 			(pin_names
 				(offset 0.254)
@@ -16,27 +16,29 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 23.876 6.858 0)
+				(at 10.668 -22.606 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "AT13-08PA-BM01"
-				(at 15.748 3.81 0)
+			(property "Value" "B08B-JWPF-SK-R"
+				(at 4.826 3.302 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "CBC_PCB:CONN_AT13-08-BMXX"
-				(at 15.494 12.192 0)
+			(property "Footprint" "CMAIN_PCB:B08B-JWPF-SK-R"
+				(at 14.732 12.446 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -47,8 +49,8 @@
 					)
 				)
 			)
-			(property "Datasheet" "AT13-08-BM01"
-				(at 7.874 9.144 0)
+			(property "Datasheet" "B08B-JWPF-SK-R"
+				(at 9.144 9.398 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -59,8 +61,8 @@
 					)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Description" "B08B-JWPF-SK-R"
+				(at 9.398 6.858 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -70,17 +72,7 @@
 					)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "AT13-12PB-BM03"
+			(property "SUPPLIER PART NUMBER" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -89,6 +81,55 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
+				)
+			)
+			(property "SUPPLIER" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "MFR" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ALTIUM_VALUE" ""
+				(at -0.508 -15.494 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
 				)
 			)
 			(property "ki_fp_filters" "CONN_AT13-12X-BMXX_AMP"
@@ -102,7 +143,7 @@
 					)
 				)
 			)
-			(symbol "AT13-08PA-BM01_1_1"
+			(symbol "B08B-JWPF-SK-R_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 12.7 -20.32)
@@ -547,7 +588,7 @@
 					)
 				)
 			)
-			(symbol "AT13-08PA-BM01_1_2"
+			(symbol "B08B-JWPF-SK-R_1_2"
 				(polyline
 					(pts
 						(xy 5.08 2.54) (xy 5.08 -30.48)
@@ -4824,7 +4865,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:AT13-08PA-BM01")
+		(lib_id "CBC_PCB:B08B-JWPF-SK-R")
 		(at 46.99 55.88 0)
 		(mirror y)
 		(unit 1)
@@ -4846,7 +4887,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "B08B-JWPF-SK-R"
 			(at 42.164 52.578 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4857,8 +4898,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CBC_PCB:AT13-08PA-BM01"
-			(at 31.496 43.688 0)
+		(property "Footprint" "CBC_PCB:B08B-JWPF-SK-R"
+			(at 32.258 43.434 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4869,8 +4910,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "AT13-08-BM01"
-			(at 39.116 46.736 0)
+		(property "Datasheet" "B08B-JWPF-SK-R"
+			(at 37.846 46.482 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4881,8 +4922,8 @@
 				)
 			)
 		)
-		(property "Description" "Automotive Connectors RA Flng Mnt PCB Rcpt 8POS Gry Gld Cont A"
-			(at 46.99 55.88 0)
+		(property "Description" "B08B-JWPF-SK-R"
+			(at 37.592 49.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4892,19 +4933,7 @@
 				)
 			)
 		)
-		(property "SUPPLIER PART NUMBER" "654-AT13-08PA-BM01"
-			(at 46.99 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "SUPPLIER" "Mouser"
+		(property "SUPPLIER PART NUMBER" ""
 			(at 46.99 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4916,7 +4945,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MFR" "Amphenol SINE Systems"
+		(property "SUPPLIER" ""
 			(at 46.99 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4928,7 +4957,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "AT13-08PA-BM01"
+		(property "MFR" ""
 			(at 46.99 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4940,7 +4969,19 @@
 				(justify left bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "AT13-08PA-BM01"
+		(property "MPN" ""
+			(at 46.99 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
 			(at 47.498 71.374 0)
 			(hide yes)
 			(show_name no)
