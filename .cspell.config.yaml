@@ -24,4 +24,13 @@ ignorePaths:
   - "out"
   - "coverage"
   - "src/*.plan"
+  - "**/*.kicad_sch"
+  - "**/*.kicad_pcb"
+  - "**/*.kicad_sym"
+  - "**/*.kicad_mod"
+  - "**/*.kicad_prl"
+  - "**/*.kicad_pro"
+  - "**/*.kicad_dru"
+  - "**/*.step"
+  - "**/*.json"
 noConfigSearch: true
