@@ -1,0 +1,13 @@
+(version 1)
+
+# CBC_PCB design-rule overlay, generated for 6-layer / 2 oz routing cleanup.
+# GND and GND_CD are isolated domains. The only intentional coupling is the
+# ESD/bleed network D1 PESD1CAN-UX, R34 1 MΩ, and C33 100 pF.
+
+(rule "GND_to_GND_CD_isolation"
+    (constraint clearance (min 1.00mm))
+    (condition "A.NetName == 'GND' && B.NetName == 'GND_CD'"))
+
+(rule "GND_CD_to_GND_isolation"
+    (constraint clearance (min 1.00mm))
+    (condition "A.NetName == 'GND_CD' && B.NetName == 'GND'"))
