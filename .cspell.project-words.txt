@@ -1,3 +1,4 @@
+Altium
 AMXL
 Anytek
 Ardu
@@ -11,6 +12,7 @@ CANH
 CANL
 CBC
 CMAIN
+connectivities
 datasheet
 dmodels
 EASYEDA
@@ -25,11 +27,13 @@ GPIOs
 heatsinking
 hexacopter
 Hobbywing
-hobbywing
+JLCEDA
+JLCPCB
 keepout
 KiCad
 libcanard
 Licence
+manufacturability
 microcontroller
 MOSFET
 MOSFETs
@@ -38,9 +42,9 @@ MTOW
 netlist
 PCBNAME
 pcbs
+PESD
 Pinout
 Precharge
-precharge
 PREFUSE
 Prolanv
 Rdson
@@ -53,3 +57,4 @@ Snapeda
 Tattu
 UART
 UAVCAN
+Unisolated

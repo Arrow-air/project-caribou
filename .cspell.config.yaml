@@ -33,4 +33,6 @@ ignorePaths:
   - "**/*.kicad_dru"
   - "**/*.step"
   - "**/*.json"
+  - "**/*.elibz"
+  - "engineering/electronics/pcbs/CBC_PCB/kicad/**"
 noConfigSearch: true
