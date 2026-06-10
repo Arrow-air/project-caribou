@@ -4,5 +4,6 @@
 	(lib (name "Device") (type "KiCad") (uri "${KICAD10_SYMBOL_DIR}/Device.kicad_sym") (options "") (descr "KiCad device symbols"))
 	(lib (name "Diode") (type "KiCad") (uri "${KICAD10_SYMBOL_DIR}/Diode.kicad_sym") (options "") (descr "KiCad diode symbols"))
 	(lib (name "CBC_PCB") (type "KiCad") (uri "${KIPRJMOD}/libs/CBC_PCB.kicad_sym") (options "") (descr "CBC project symbols"))
-  (lib (name "EasyEDA_Lib_2")(type "EasyEDA (JLCEDA) Pro")(uri "${KIPRJMOD}/EasyEDA_Lib_2/EasyEDA_Lib_2.elibz")(options "")(descr ""))
+	(lib (name "EasyEDA_Lib_2") (type "EasyEDA (JLCEDA) Pro") (uri "${KIPRJMOD}/EasyEDA_Lib_2/EasyEDA_Lib_2.elibz") (options "") (descr ""))
+	(lib (name "Samacsys_kicad_sym") (type "KiCad") (uri "${KIPRJMOD}/libs/Samacsys_kicad_sym.kicad_sym") (options "") (descr "Vendored Samacsys symbols used by CBC"))
 )

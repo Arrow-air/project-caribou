@@ -1,0 +1,62 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-06-10T08:23:55",
+    "ignored_checks": [
+        {
+            "description": "Symbol pin or wire end off connection grid",
+            "key": "endpoint_off_grid"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.1",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/d195d1ee-585b-4211-912f-f5dd5687bc63",
+            "violations": []
+        },
+        {
+            "path": "/POWER SECTION/",
+            "uuid_path": "/d195d1ee-585b-4211-912f-f5dd5687bc63/16623c3f-27fc-4db0-8b22-f4a31ec72271",
+            "violations": []
+        },
+        {
+            "path": "/ESP32 SECTION/",
+            "uuid_path": "/d195d1ee-585b-4211-912f-f5dd5687bc63/85d35496-b202-4947-9b5c-82b5f7bb520b",
+            "violations": []
+        },
+        {
+            "path": "/CAN SECTION/",
+            "uuid_path": "/d195d1ee-585b-4211-912f-f5dd5687bc63/313c40c6-0a26-497a-98c9-c78a7bba0e9e",
+            "violations": []
+        },
+        {
+            "path": "/PERIPHERALS/",
+            "uuid_path": "/d195d1ee-585b-4211-912f-f5dd5687bc63/b4c95d27-7981-477f-a8ef-d2ce83f3675e",
+            "violations": []
+        },
+        {
+            "path": "/POWER REGULATOR/",
+            "uuid_path": "/d195d1ee-585b-4211-912f-f5dd5687bc63/cc7537cf-40ae-42d0-a857-c01ca15aab74",
+            "violations": []
+        }
+    ],
+    "source": "CBC_PCB.kicad_sch"
+}

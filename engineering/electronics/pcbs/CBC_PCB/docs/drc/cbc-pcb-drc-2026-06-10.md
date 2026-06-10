@@ -1,8 +1,8 @@
 # CBC PCB DRC report — 2026-06-10
 
-Generated with `kicad-cli pcb drc --format json --severity-all --all-track-errors` after applying net classes, via normalization, and existing routed-segment width normalization.
+Generated with `kicad-cli pcb drc --format json --severity-all --all-track-errors` after applying net classes, via normalization, existing routed-segment width normalization, and simple ERC cleanup.
 
-- Violations: 516
+- Violations: 511
 - Unconnected items: 92
 - Custom `GND` ↔ `GND_CD` isolation-rule clearance violations: 55
 
@@ -13,16 +13,15 @@ Generated with `kicad-cli pcb drc --format json --severity-all --all-track-error
 - `solder_mask_bridge`: 22
 - `silk_overlap`: 22
 - `copper_edge_clearance`: 8
-- `lib_footprint_issues`: 7
 - `via_dangling`: 5
 - `starved_thermal`: 4
 - `silk_over_copper`: 4
+- `lib_footprint_mismatch`: 3
 - `hole_clearance`: 2
 - `track_dangling`: 2
 - `silk_edge_clearance`: 2
 - `courtyards_overlap`: 1
 - `missing_courtyard`: 1
-- `lib_footprint_mismatch`: 1
 
 ## Notes
 
