@@ -288,7 +288,7 @@
 			(pintype "no_connect")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/SM06B-GHS-TB_LF__SN_.stp"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal.step"
 			(offset
 				(xyz 14.66999986 -9.89999947 -23.12999881)
 			)

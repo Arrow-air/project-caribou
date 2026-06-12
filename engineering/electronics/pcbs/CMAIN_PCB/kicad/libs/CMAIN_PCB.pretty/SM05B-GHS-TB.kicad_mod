@@ -275,7 +275,7 @@
 		(uuid "f411da85-12da-4601-89bb-dbfa976400aa")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/SM05B-GHS-TB_LF__SN_.stp"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_SM05B-GHS-TB_1x05-1MP_P1.25mm_Horizontal.step"
 		(offset
 			(xyz 0 -2.200000015 0.2)
 		)

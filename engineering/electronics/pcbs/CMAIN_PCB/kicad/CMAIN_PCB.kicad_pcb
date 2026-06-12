@@ -1692,7 +1692,7 @@
 			(uuid "f78e36a2-e130-420b-84a8-5f29b8dcf489")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/APT2012LVBC_D.stp"
+		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.step"
 			(offset
 				(xyz -0.02999999888 0 0.01999999925)
 			)
@@ -2453,7 +2453,7 @@
 			(uuid "86bf3e58-d26d-4def-ba97-ba63a01c92c1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/1778719.stp"
+		(model "${KICAD10_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal.step"
 			(offset
 				(xyz -5.85 -2.5 0)
 			)
@@ -4364,7 +4364,7 @@
 			(uuid "03caa087-603d-406d-9c22-ab86e5f55a1d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/SM04B-GHS-TB_LF__SN_.stp"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal.step"
 			(offset
 				(xyz -0.6199999955 -2.099999873 0.2)
 			)
@@ -9152,7 +9152,7 @@
 			(uuid "65fdf276-ef24-46d1-ad9e-5199fa24f191")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/CPC1114N.stp"
+		(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/Toshiba_SOIC-4-6_4.4x3.6mm_P1.27mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11633,7 +11633,7 @@
 			(uuid "9adb4ca5-c1fa-4af0-a8be-821c5fef0976")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Snapeda.3dshapes/M2x4.5.step"
+		(model "${KIPRJMOD}/EASYEDA_MODELS/SCREW-SMD_BD4.4-D2.8-H4.5.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12560,7 +12560,7 @@
 			(uuid "f1db2252-62d9-45d7-b358-423750b4c92f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/SM05B-GHS-TB_LF__SN_.stp"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_SM05B-GHS-TB_1x05-1MP_P1.25mm_Horizontal.step"
 			(offset
 				(xyz 0 -2.200000015 0.2)
 			)
@@ -12930,7 +12930,7 @@
 			(uuid "b7b3b863-51b6-49a5-a58e-1dde9a2202e3")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/APT2012LVBC_D.stp"
+		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.step"
 			(offset
 				(xyz -0.02999999888 0 0.01999999925)
 			)
@@ -13229,7 +13229,7 @@
 			(uuid "29452beb-ac06-43e0-88e6-94871d6dfe09")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/SM04B-GHS-TB_LF__SN_.stp"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal.step"
 			(offset
 				(xyz -0.6199999955 -2.099999873 0.2)
 			)
@@ -18548,7 +18548,7 @@
 			(uuid "8ffab624-759d-4633-9b48-7cacac5e25d8")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/1778719.stp"
+		(model "${KICAD10_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal.step"
 			(offset
 				(xyz -5.85 -2.5 0)
 			)
@@ -18839,7 +18839,7 @@
 			(uuid "a5350f67-f2b8-45f2-af9b-a531629f0b54")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/APT2012LVBC_D.stp"
+		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.step"
 			(offset
 				(xyz -0.02999999888 0 0.01999999925)
 			)
@@ -19209,7 +19209,7 @@
 			(uuid "0e3d54df-38cb-4a52-93fe-163784e8bbb1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/APT2012LVBC_D.stp"
+		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.step"
 			(offset
 				(xyz -0.02999999888 0 0.01999999925)
 			)
@@ -19515,7 +19515,7 @@
 			(uuid "84f11eaf-2717-47be-9268-ed8792106018")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/1778719.stp"
+		(model "${KICAD10_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal.step"
 			(offset
 				(xyz -5.85 -2.5 0)
 			)
@@ -20074,7 +20074,7 @@
 			(uuid "080889a4-d998-45a8-87bc-a2235a6602f7")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/CMT-8530S-SMT-TR.stp"
+		(model "${KICAD10_3DMODEL_DIR}/Buzzer_Beeper.3dshapes/Buzzer_Murata_PKMCS0909E.step"
 			(offset
 				(xyz 4.25 4.25 3)
 			)
@@ -20403,7 +20403,7 @@
 			(uuid "a8504589-f8ea-4f71-946a-7ae886f436ef")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/CPC1114N.stp"
+		(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/Toshiba_SOIC-4-6_4.4x3.6mm_P1.27mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21637,7 +21637,7 @@
 			(uuid "7cd1a479-1d67-4f0e-8f5e-f60673a78599")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Snapeda.3dshapes/M2x4.5.step"
+		(model "${KIPRJMOD}/EASYEDA_MODELS/SCREW-SMD_BD4.4-D2.8-H4.5.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23504,7 +23504,7 @@
 			(uuid "9f841cd9-a305-4d19-9e1d-abde92d52261")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/APT2012LVBC_D.stp"
+		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.step"
 			(offset
 				(xyz -0.02999999888 0 0.01999999925)
 			)
@@ -24564,7 +24564,7 @@
 			(uuid "775d0577-c558-47a8-ae04-c29cd34f2119")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/APT2012LVBC_D.stp"
+		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.step"
 			(offset
 				(xyz -0.02999999888 0 0.01999999925)
 			)
@@ -25647,7 +25647,7 @@
 			(uuid "a3720b44-c6a2-42c0-b2d1-54db2f90e1de")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/MCP2515-I_SO.stp"
+		(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-18W_7.5x11.6mm_P1.27mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -27303,7 +27303,7 @@
 			(uuid "d1a87330-b844-4bcb-a5c4-40c12c4e984a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/SM04B-GHS-TB_LF__SN_.stp"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal.step"
 			(offset
 				(xyz -0.6199999955 -2.099999873 0.2)
 			)
@@ -28920,7 +28920,7 @@
 			(uuid "06c136bf-1136-4bad-b750-11d1fd410814")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/TJA1049T_3J.stp"
+		(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -29226,7 +29226,7 @@
 			(uuid "3c72b36c-e606-43f2-83fd-3183a5fb4131")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/1778719.stp"
+		(model "${KICAD10_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal.step"
 			(offset
 				(xyz -5.85 -2.5 0)
 			)
@@ -29525,7 +29525,7 @@
 			(uuid "4e3df42b-092b-43a4-a11b-9fd8886ceb61")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/SM04B-GHS-TB_LF__SN_.stp"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal.step"
 			(offset
 				(xyz -0.6199999955 -2.099999873 0.2)
 			)
@@ -30779,7 +30779,7 @@
 			(uuid "c5de94b7-f1fc-4111-887b-aa58ebe95986")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/CPC1114N.stp"
+		(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/Toshiba_SOIC-4-6_4.4x3.6mm_P1.27mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -31293,7 +31293,7 @@
 			(uuid "0adc86fa-864c-4390-88b8-9cbd54a6593f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/1778719.stp"
+		(model "${KICAD10_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal.step"
 			(offset
 				(xyz -5.85 -2.5 0)
 			)
@@ -33250,7 +33250,7 @@
 			(uuid "036302fe-4fac-4377-bbf9-b990a520c522")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Snapeda.3dshapes/M3x8.step"
+		(model "${KICAD10_3DMODEL_DIR}/Mounting_Wuerth.3dshapes/Mounting_Wuerth_WA-SMSI-M3_H8mm_9774080360.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -37195,7 +37195,7 @@
 			(uuid "3ee38933-1a90-4a23-915b-153fbd1d6ca5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/APT2012LVBC_D.stp"
+		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.step"
 			(offset
 				(xyz -0.02999999888 0 0.01999999925)
 			)
@@ -39621,7 +39621,7 @@
 			(uuid "1e4cead2-0f97-4dd9-b575-c1b34d408297")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/SM06B-GHS-TB_LF__SN_.stp"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal.step"
 			(offset
 				(xyz 14.66999986 -9.89999947 -23.12999881)
 			)
@@ -41101,7 +41101,7 @@
 			(uuid "06cb0834-cfa1-4e1b-8ec7-5d58db2f1455")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/APT2012LVBC_D.stp"
+		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.step"
 			(offset
 				(xyz -0.02999999888 0 0.01999999925)
 			)
@@ -43767,7 +43767,7 @@
 			(uuid "c38a318b-c300-4d30-ae24-6096bbd2348a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/APT2012LVBC_D.stp"
+		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.step"
 			(offset
 				(xyz -0.02999999888 0 0.01999999925)
 			)
@@ -44073,7 +44073,7 @@
 			(uuid "b4066f28-e445-4d50-bcec-08cee226beab")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/1778719.stp"
+		(model "${KICAD10_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal.step"
 			(offset
 				(xyz -5.85 -2.5 0)
 			)
@@ -45973,7 +45973,7 @@
 			(uuid "a7cafe9b-f142-4ecd-a78b-b39423960059")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/1778719.stp"
+		(model "${KICAD10_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal.step"
 			(offset
 				(xyz -5.85 -2.5 0)
 			)
@@ -48135,7 +48135,7 @@
 			(uuid "85d976f6-3c86-4713-9b85-da8317109ec0")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Snapeda.3dshapes/M3x8.step"
+		(model "${KICAD10_3DMODEL_DIR}/Mounting_Wuerth.3dshapes/Mounting_Wuerth_WA-SMSI-M3_H8mm_9774080360.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -50595,7 +50595,7 @@
 			(uuid "97525205-6e16-464d-a668-a6285a1ea6e6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Snapeda.3dshapes/M2.5x10.step"
+		(model "${KIPRJMOD}/EASYEDA_MODELS/SMD_BD5.6-L5.6-W5.6-D4.1.step"
 			(offset
 				(xyz 0.0105 -0.0025 0)
 			)
@@ -52456,7 +52456,7 @@
 			(uuid "490f36f0-d6f3-4c07-bfc4-0f2ea9a8a2c4")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/1814935.stp"
+		(model "${KICAD10_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal.step"
 			(offset
 				(xyz 5.849999817 -8.180000182 0)
 			)
@@ -53960,7 +53960,7 @@
 			(uuid "75de9f15-1ada-4e40-a416-6d7b17864b86")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Snapeda.3dshapes/M2.5x10.step"
+		(model "${KIPRJMOD}/EASYEDA_MODELS/SMD_BD5.6-L5.6-W5.6-D4.1.step"
 			(offset
 				(xyz 0.0105 -0.0025 0)
 			)
@@ -56707,7 +56707,7 @@
 			(uuid "690a0d4a-5d0b-4a60-ac57-040cac66c29c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/APT2012LVBC_D.stp"
+		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.step"
 			(offset
 				(xyz -0.02999999888 0 0.01999999925)
 			)
@@ -59212,7 +59212,7 @@
 			(uuid "377ca6e4-21d4-41d1-b49f-c4e43ccc362f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/CPC1114N.stp"
+		(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/Toshiba_SOIC-4-6_4.4x3.6mm_P1.27mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -59839,7 +59839,7 @@
 			(uuid "bb454e59-ac22-4232-92dd-0595dc852131")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/PESD0603-240.stp"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -60469,7 +60469,7 @@
 			(uuid "85ea21c6-bcfe-4756-bf51-1f400409fc46")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/APT2012LVBC_D.stp"
+		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.step"
 			(offset
 				(xyz -0.02999999888 0 0.01999999925)
 			)
@@ -61524,7 +61524,7 @@
 			(uuid "f452e30c-e916-43a8-98bf-c2c26f28fc3e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/APT2012LVBC_D.stp"
+		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.step"
 			(offset
 				(xyz -0.02999999888 0 0.01999999925)
 			)
@@ -62856,7 +62856,7 @@
 			(uuid "6d278e9c-04e9-433d-a4e5-c67d6f636b09")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/CPC1114N.stp"
+		(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/Toshiba_SOIC-4-6_4.4x3.6mm_P1.27mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -66203,7 +66203,7 @@
 			(uuid "e7b491bf-b27e-4c2f-944b-aefea85f0c8a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Snapeda.3dshapes/M2.5x10.step"
+		(model "${KIPRJMOD}/EASYEDA_MODELS/SMD_BD5.6-L5.6-W5.6-D4.1.step"
 			(offset
 				(xyz 0.0105 -0.0025 0)
 			)
@@ -66693,7 +66693,7 @@
 			(uuid "68a790a8-03b9-41f2-81bc-e4af6a71c3c8")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Snapeda.3dshapes/M3x8.step"
+		(model "${KICAD10_3DMODEL_DIR}/Mounting_Wuerth.3dshapes/Mounting_Wuerth_WA-SMSI-M3_H8mm_9774080360.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -68680,7 +68680,7 @@
 			(uuid "ad60cde4-f1d5-4339-a349-fabb67ac6b56")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/APT2012LVBC_D.stp"
+		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.step"
 			(offset
 				(xyz -0.02999999888 0 0.01999999925)
 			)
@@ -69378,7 +69378,7 @@
 			(uuid "80970069-59e9-4a05-8f3f-1fd23ce756c1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/CPC1114N.stp"
+		(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/Toshiba_SOIC-4-6_4.4x3.6mm_P1.27mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -69868,7 +69868,7 @@
 			(uuid "488daa5b-fa98-47b2-a02b-5a3c3258ef75")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Snapeda.3dshapes/M3x8.step"
+		(model "${KICAD10_3DMODEL_DIR}/Mounting_Wuerth.3dshapes/Mounting_Wuerth_WA-SMSI-M3_H8mm_9774080360.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -73445,7 +73445,7 @@
 			(uuid "2361526a-83e3-4bf5-96c2-6d26dbef8079")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/TSYS01.stp"
+		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-16-1EP_4x4mm_P0.65mm_EP2.5x2.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -75842,7 +75842,7 @@
 			(uuid "29fa38e2-22cb-4836-88eb-35a54990caa0")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/CPC1114N.stp"
+		(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/Toshiba_SOIC-4-6_4.4x3.6mm_P1.27mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -80900,7 +80900,7 @@
 			(uuid "04dfde69-d102-4aa2-b13c-e78a1a222c81")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Snapeda.3dshapes/M2.5x10.step"
+		(model "${KIPRJMOD}/EASYEDA_MODELS/SMD_BD5.6-L5.6-W5.6-D4.1.step"
 			(offset
 				(xyz 0.0105 -0.0025 0)
 			)
@@ -81685,7 +81685,7 @@
 			(uuid "b611d064-c4ee-41dc-b72c-2635d9616dac")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/APT2012LVBC_D.stp"
+		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.step"
 			(offset
 				(xyz -0.02999999888 0 0.01999999925)
 			)
@@ -82270,7 +82270,7 @@
 			(uuid "ac68e4aa-c9ea-41ee-a57e-454210f1fb7b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/SM04B-GHS-TB_LF__SN_.stp"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal.step"
 			(offset
 				(xyz -0.6199999955 -2.099999873 0.2)
 			)
@@ -82599,7 +82599,7 @@
 			(uuid "3d3b40e4-017d-42eb-8d1a-9e2b5afba0e1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/CPC1114N.stp"
+		(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/Toshiba_SOIC-4-6_4.4x3.6mm_P1.27mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -86485,7 +86485,7 @@
 			(uuid "ce66cb91-1704-4322-b028-712ebc046205")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/CPC1114N.stp"
+		(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/Toshiba_SOIC-4-6_4.4x3.6mm_P1.27mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -87366,7 +87366,7 @@
 			(uuid "380f988a-cd15-4721-8202-bc42a915ae86")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Snapeda.3dshapes/M2x4.5.step"
+		(model "${KIPRJMOD}/EASYEDA_MODELS/SCREW-SMD_BD4.4-D2.8-H4.5.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -90261,7 +90261,7 @@
 			(uuid "b041d205-225a-4930-a143-0c97fc76d82b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/PESD0603-240.stp"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -94091,7 +94091,7 @@
 			(uuid "3bc37553-60cf-42a8-a787-7e5a9ec8f45a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Snapeda.3dshapes/M2x4.5.step"
+		(model "${KIPRJMOD}/EASYEDA_MODELS/SCREW-SMD_BD4.4-D2.8-H4.5.step"
 			(offset
 				(xyz 0 0 0)
 			)

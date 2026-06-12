@@ -281,7 +281,7 @@
 			(pintype "passive")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/CPC1114N.stp"
+		(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/Toshiba_SOIC-4-6_4.4x3.6mm_P1.27mm.step"
 			(offset
 				(xyz 0 0 0)
 			)

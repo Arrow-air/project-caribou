@@ -463,7 +463,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Snapeda.3dshapes/M2x4.5.step"
+		(model "${KIPRJMOD}/EASYEDA_MODELS/SCREW-SMD_BD4.4-D2.8-H4.5.step"
 			(offset
 				(xyz 0 0 0)
 			)

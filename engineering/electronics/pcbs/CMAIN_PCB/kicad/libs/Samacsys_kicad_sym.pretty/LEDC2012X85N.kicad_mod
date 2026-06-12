@@ -247,7 +247,7 @@
 			(pintype "passive")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/APT2012LVBC_D.stp"
+		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.step"
 			(offset
 				(xyz -0.02999999888 0 0.01999999925)
 			)

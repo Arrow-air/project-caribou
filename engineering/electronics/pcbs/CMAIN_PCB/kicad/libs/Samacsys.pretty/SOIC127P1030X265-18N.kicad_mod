@@ -465,7 +465,7 @@
 			(pintype "power_in")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/MCP2515-I_SO.stp"
+		(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-18W_7.5x11.6mm_P1.27mm.step"
 			(offset
 				(xyz 0 0 0)
 			)

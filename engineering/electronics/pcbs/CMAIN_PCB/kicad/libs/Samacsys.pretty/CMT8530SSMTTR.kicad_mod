@@ -301,7 +301,7 @@
 			(pintype "passive+no_connect")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/CMT-8530S-SMT-TR.stp"
+		(model "${KICAD10_3DMODEL_DIR}/Buzzer_Beeper.3dshapes/Buzzer_Murata_PKMCS0909E.step"
 			(offset
 				(xyz 4.25 4.25 3)
 			)

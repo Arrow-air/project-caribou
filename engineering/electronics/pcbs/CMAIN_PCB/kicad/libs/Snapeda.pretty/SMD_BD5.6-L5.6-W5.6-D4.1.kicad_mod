@@ -398,7 +398,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/Snapeda.3dshapes/M2.5x10.step"
+		(model "${KIPRJMOD}/EASYEDA_MODELS/SMD_BD5.6-L5.6-W5.6-D4.1.step"
 			(offset
 				(xyz 0.0105 -0.0025 0)
 			)
