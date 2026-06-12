@@ -9,4 +9,5 @@
   (lib (name "Resistor_SMD")(type "KiCad")(uri "${KICAD10_FOOTPRINT_DIR}/Resistor_SMD.pretty")(options "")(descr "KiCad default Resistor_SMD"))
   (lib (name "Capacitor_SMD")(type "KiCad")(uri "${KICAD10_FOOTPRINT_DIR}/Capacitor_SMD.pretty")(options "")(descr "KiCad default Capacitor_SMD"))
   (lib (name "TestPoint")(type "KiCad")(uri "${KICAD10_FOOTPRINT_DIR}/TestPoint.pretty")(options "")(descr "KiCad default TestPoint"))
+  (lib (name "EasyEDA_Lib_CMAIN")(type "EasyEDA / JLCEDA Pro")(uri "${KIPRJMOD}/EasyEDA_Lib_CMAIN/EasyEDA_Lib_CMAIN.elibz")(options "")(descr ""))
 )

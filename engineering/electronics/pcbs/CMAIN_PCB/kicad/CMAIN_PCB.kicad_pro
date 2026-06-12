@@ -443,7 +443,7 @@
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
-      "endpoint_off_grid": "warning",
+      "endpoint_off_grid": "ignore",
       "extra_units": "error",
       "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
@@ -473,7 +473,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "error",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -517,21 +517,33 @@
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "+12V": [
-        "Low_Power"
-      ],
-      "+3.3V": [
-        "Low_Power"
-      ],
-      "+5V": [
-        "Low_Power"
-      ],
-      "GND": [
-        "Low_Power"
-      ]
-    },
-    "netclass_patterns": []
+    "netclass_assignments": null,
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "12V_1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "12V_2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "12V_3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "5V_1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "5V_2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "5V_3"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -661,7 +673,7 @@
         "uuid": "ca31b60c-f1cb-4b97-95b8-376c0a181311"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D5,D8,#PWR96-97,#PWR147-149,#PWR257,U5,U19-21",
     "variants": []
   },
   "sheets": [
@@ -684,6 +696,10 @@
     [
       "002c9034-3e37-4b7e-9bfc-c61c7c67d734",
       "Power_supply"
+    ],
+    [
+      "002b442a-146d-4553-9e8a-6c907d98a196",
+      "Emergency_cutoff"
     ]
   ],
   "text_variables": {},

@@ -6101,7 +6101,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "5V_1"
 			(at 166.37 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)

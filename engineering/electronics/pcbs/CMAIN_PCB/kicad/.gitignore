@@ -3,3 +3,6 @@
 *.bak
 *.bck
 *-bak
+.history*/
+jlcpcb/
+*.lck
