@@ -265,7 +265,7 @@
 			(pintype "passive")
 		)
 		(embedded_fonts no)
-		(model "NX3225GB-16M-STD-CRA-2.stp"
+		(model "${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step"
 			(offset
 				(xyz -1.6 -1.249999981 0)
 			)

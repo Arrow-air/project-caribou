@@ -386,7 +386,7 @@
 		(uuid "8c531b9c-7a5a-49f1-a6a9-a6c27f8e0ff9")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/D_SMB.step"
+	(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMB.step"
 		(offset
 			(xyz 0 0 0)
 		)
