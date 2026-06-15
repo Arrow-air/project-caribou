@@ -1126,7 +1126,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "03070df6-0bfd-485c-a2e9-8f6201ea0022")
 		(at 261.976 137 90)
@@ -2465,7 +2465,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "04460d94-17d2-4314-9b5b-74743230aafc")
 		(at 299.476 202)
@@ -2753,7 +2753,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_71505040a9"
 		(layer "F.Cu")
 		(uuid "0691f80e-645d-40e6-9b5e-665a103be2e3")
 		(at 125.9 179.8)
@@ -3039,7 +3039,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "073de10d-78e3-48b0-ba6f-93c1068a7ad3")
 		(at 153.6 217.8)
@@ -6525,7 +6525,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_71505040a9"
 		(layer "F.Cu")
 		(uuid "10be479e-75a9-4e45-9697-a9e3288a127f")
 		(at 262 206.5 90)
@@ -7681,7 +7681,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "12fdf5df-aee9-4f9b-bf34-396c5b815623")
 		(at 141.6 220.4 180)
@@ -8258,7 +8258,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "142a0f2f-bbdd-460e-a023-5df03617ffd3")
 		(at 127.45 105.825 90)
@@ -9164,7 +9164,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_71505040a9"
 		(layer "F.Cu")
 		(uuid "15d59d5c-6181-4a12-be73-13387bc80cbd")
 		(at 264.976 124.5 90)
@@ -9450,7 +9450,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "16137987-9b11-452a-96b2-2a90055ea06b")
 		(at 123 189.4 180)
@@ -10579,7 +10579,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_71505040a9"
 		(layer "F.Cu")
 		(uuid "1ac49268-3e14-418b-8523-9cf3820f8640")
 		(at 288.476 205 180)
@@ -10867,7 +10867,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+	(footprint "CMAIN_PCB:fp_e0a4172b1a"
 		(layer "F.Cu")
 		(uuid "1b0fc676-7682-4c08-9002-8dfbf9518101")
 		(at 215.5 122.75 90)
@@ -13241,7 +13241,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "1da42a47-d839-4fe3-be86-ad26c26dbe86")
 		(at 261.976 123 90)
@@ -14685,7 +14685,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_71505040a9"
 		(layer "F.Cu")
 		(uuid "21bf787e-3352-48c7-a239-e1a10d5b2fa9")
 		(at 288.476 195 180)
@@ -15784,7 +15784,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "238b615a-84a6-4066-8f76-4365f2e2f076")
 		(at 141.5 206.2)
@@ -15992,7 +15992,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "240c1d3f-af17-4d26-b8d6-e893db83a640")
 		(at 153.6 200.3)
@@ -16653,7 +16653,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_71505040a9"
 		(layer "F.Cu")
 		(uuid "2496bd72-054b-4078-a567-a08a70aed1f0")
 		(at 195 122.5 -90)
@@ -17327,7 +17327,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_71505040a9"
 		(layer "F.Cu")
 		(uuid "29a674ac-b3c6-4d89-95f1-36ac501c1513")
 		(at 256.476 133 -90)
@@ -17966,7 +17966,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_71505040a9"
 		(layer "F.Cu")
 		(uuid "2b1f23de-b557-44df-aae1-23a109c62efa")
 		(at 288.476 158.175 180)
@@ -19527,7 +19527,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "2de9126e-3eda-4bd0-841e-55d3a3f6eff3")
 		(at 157.7 198 90)
@@ -21649,7 +21649,7 @@
 			)
 		)
 	)
-	(footprint "Snapeda:GIGABLOX_NANO_SWITCH_REVA_MODULE_LSHM-120-02.5-L-DV-A-S-K-TR"
+	(footprint "Snapeda:fp_072ec239da"
 		(layer "F.Cu")
 		(uuid "2fb0fd3c-a074-46c4-ab01-d4f640883798")
 		(at 214 97.5)
@@ -22652,7 +22652,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "2fe82f7e-8271-4112-88b3-a445c85443d6")
 		(at 211.2 122.7 -90)
@@ -22860,7 +22860,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_6a12138141"
 		(layer "F.Cu")
 		(uuid "30462126-3a16-46b5-98c3-b052eaba6ae8")
 		(at 250 207 -90)
@@ -24576,7 +24576,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "365a6e90-fdbf-42c5-810b-852856b1546e")
 		(at 272.576 115.5)
@@ -25659,7 +25659,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "39c27c2f-ac4f-4753-8573-2bb6456c8585")
 		(at 127.2 189.4)
@@ -25945,7 +25945,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "3bd30784-67cc-470b-9b17-596caafd4cfd")
 		(at 141.4 194.4)
@@ -26522,7 +26522,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_71505040a9"
 		(layer "F.Cu")
 		(uuid "3dc826f8-96f5-4308-a9fd-6a1f37a35d9d")
 		(at 265 198 90)
@@ -26808,7 +26808,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "3e837540-2485-42e2-82e0-e4e49b3109f2")
 		(at 141.5 211.9)
@@ -27757,7 +27757,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_71505040a9"
 		(layer "F.Cu")
 		(uuid "411938fa-7331-43cc-9848-a173ab78ec64")
 		(at 288.476 131.5 180)
@@ -28045,7 +28045,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "41638c01-2979-4b42-9306-ab705c342f0f")
 		(at 281.599999 101.202944 180)
@@ -29890,7 +29890,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "4b11d3c9-43e9-47a1-9025-b4645a71da37")
 		(at 118 189.3 -90)
@@ -30176,7 +30176,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "4bf5e783-691b-4ed0-be1e-454c8155f18c")
 		(at 117.9 192.4 180)
@@ -30791,7 +30791,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "4eee3427-ecf9-49d0-9d99-c2a72859fe17")
 		(at 246.032528 84.727356)
@@ -33658,7 +33658,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "59f63c72-97b2-4f74-b8d4-e8cbb3ad6d46")
 		(at 262 210.5 90)
@@ -34024,7 +34024,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "5bfffff8-2e58-4baf-8695-bc91ca108c40")
 		(at 255.447099 79.716948 90)
@@ -34230,7 +34230,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_71505040a9"
 		(layer "F.Cu")
 		(uuid "5e2c2ff6-b888-4af4-a94c-e9ee51ae2e14")
 		(at 256.476 123 -90)
@@ -34971,7 +34971,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "6099457d-cd4f-4e27-a03b-22156af00d91")
 		(at 141.5 200.3)
@@ -35631,7 +35631,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "6315243c-1b28-4652-b02f-a4cdfceb2de0")
 		(at 259.476 137 -90)
@@ -37576,7 +37576,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "6b9a45be-2a04-4532-a9da-6187105c8c90")
 		(at 272.6 189)
@@ -39099,7 +39099,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "6c5e283d-2e82-4a69-83ba-9a756c61e0a9")
 		(at 122.575 105.85 90)
@@ -39633,7 +39633,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_71505040a9"
 		(layer "F.Cu")
 		(uuid "6c8d4375-6c3b-4df4-b669-f64b140cd237")
 		(at 288.476 121.5 180)
@@ -41113,7 +41113,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "7133123d-8604-4afa-b785-7dd2e0cb19b4")
 		(at 299.476 198)
@@ -41829,7 +41829,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "72fb0d04-7b15-41b9-8041-466c7f38aa43")
 		(at 199.1 122.5 90)
@@ -42525,7 +42525,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "743aedd4-1db5-4279-831f-e54c1f185699")
 		(at 299.476 161.175)
@@ -42813,7 +42813,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "75a3d8cd-c6a5-489a-a237-52cf6f4cb12e")
 		(at 141.4 188.6)
@@ -44085,7 +44085,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "78ea1571-c0eb-4e1e-9453-2953494d769a")
 		(at 272.6 152.2)
@@ -45393,7 +45393,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_71505040a9"
 		(layer "F.Cu")
 		(uuid "7b8e317a-058a-474d-bd0c-9623c68e2ffe")
 		(at 262 169.6625 90)
@@ -45985,7 +45985,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "7c47343a-8e11-4470-b590-3eb8b2ade494")
 		(at 153.6 212)
@@ -49667,7 +49667,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "806ff925-9b4f-4475-a0df-62d3761815b2")
 		(at 281.539339 90.667053 90)
@@ -49873,7 +49873,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "80f37fe0-5cd5-4f60-9da1-edaa6d8a5bc4")
 		(at 130.4 176 -90)
@@ -51096,7 +51096,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_71505040a9"
 		(layer "F.Cu")
 		(uuid "838a1ef0-7fa1-47cd-a5a4-922c0709809f")
 		(at 288.476 168.175 180)
@@ -51384,7 +51384,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_71505040a9"
 		(layer "F.Cu")
 		(uuid "85fda897-4030-4d30-9642-f76b45d29bc9")
 		(at 256.5 206.5 -90)
@@ -51670,7 +51670,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "872f9a81-0733-4b26-999c-7b565f9ff539")
 		(at 157.7 209.7 90)
@@ -51878,7 +51878,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "888046bf-01f3-4bf7-8b05-d8071c85a427")
 		(at 197.1 122.5 90)
@@ -53108,7 +53108,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "8fb5a95e-b301-4108-b172-0a978f2fff59")
 		(at 157.7 221.4 90)
@@ -53316,7 +53316,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "920e4774-80b8-4012-989e-48e09220372a")
 		(at 201.1 122.5 -90)
@@ -55400,7 +55400,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "97a295ba-bede-4bb5-8e5c-d2f33fddc382")
 		(at 259.5 173.7 -90)
@@ -56063,7 +56063,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_71505040a9"
 		(layer "F.Cu")
 		(uuid "98bf5c32-2582-44dd-921f-b40b8a3a7404")
 		(at 113.2 167 180)
@@ -57673,7 +57673,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_71505040a9"
 		(layer "F.Cu")
 		(uuid "9ba278f3-ca2c-4636-bc09-ae0a32f21412")
 		(at 256.5 159.6625 -90)
@@ -59224,7 +59224,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "9d7ca4af-f6b4-4258-8127-b300ba9a3c8a")
 		(at 299.476 128.5)
@@ -60958,7 +60958,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "a408b363-ccf6-4d1a-9cff-4c6489ed5e75")
 		(at 157.7 192.1 90)
@@ -61536,7 +61536,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "a66d8add-6669-439a-88c6-4bef785a57e4")
 		(at 157.7 203.9 90)
@@ -62868,7 +62868,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "a9cf53b5-790c-4dd2-ae5d-43f83d7d04eb")
 		(at 245 196)
@@ -63598,7 +63598,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm"
+	(footprint "CMAIN_PCB:fp_fbc818f6a0"
 		(layer "F.Cu")
 		(uuid "aba9cb0c-f2ec-4e09-9115-68fe2a5588c4")
 		(at 203.4 122.7 90)
@@ -67345,7 +67345,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "b21763cd-3239-4477-8fad-6e86c1195ea9")
 		(at 245 159.2)
@@ -67620,7 +67620,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "b2718316-f35f-4962-a176-f1162e68acea")
 		(at 153.5 188.6)
@@ -67828,7 +67828,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "b322f645-15a5-474a-924e-f1dafc69e57e")
 		(at 262 173.7 90)
@@ -68036,7 +68036,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "b74f5e30-16a8-4fe3-b172-9037bacfcc5c")
 		(at 129.8 163.7 180)
@@ -70753,7 +70753,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "bbba2beb-52f1-4b40-9e26-2161fa8b5d4f")
 		(at 153.6 206.1)
@@ -71349,7 +71349,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "bc63e389-645b-4767-a189-1bc58111ff48")
 		(at 177.075 62.2 90)
@@ -72762,7 +72762,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_6a12138141"
 		(layer "F.Cu")
 		(uuid "c41a3349-ddf4-4f26-9248-e896c4ad7b3d")
 		(at 112.3 172.2)
@@ -73457,7 +73457,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "c5211ffc-aca5-4de0-923c-9598db06fa8e")
 		(at 257.851262 103.182843)
@@ -73663,7 +73663,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "c6cbf42c-86e4-4c77-8b2d-4c4f381eb43e")
 		(at 244.976 122.5)
@@ -73938,7 +73938,7 @@
 			)
 		)
 	)
-	(footprint "EasyEDA_Lib:POWERPAK-SO-8_L5.9-W4.9-P1.27-LS6.2-BL"
+	(footprint "EasyEDA_Lib:fp_a2a0cc2e74"
 		(layer "F.Cu")
 		(uuid "c807c33f-132e-44c2-8bdc-b0d4f57a65ca")
 		(at 253.042936 97.651725 180)
@@ -74632,7 +74632,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "c8e4a03e-16b0-401a-833d-915c5b4fccb2")
 		(at 208.3 122.7 -90)
@@ -75317,7 +75317,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "c9e52bb1-b7b9-410b-bab9-8d5081f4ca9b")
 		(at 259.5 210.5 -90)
@@ -76485,7 +76485,7 @@
 			)
 		)
 	)
-	(footprint "EasyEDA_Lib:POWERPAK-SO-8_L5.9-W4.9-P1.27-LS6.2-BL"
+	(footprint "EasyEDA_Lib:fp_a2a0cc2e74"
 		(layer "F.Cu")
 		(uuid "cfc4c6d2-011a-47cf-80ad-3e286d43fe38")
 		(at 272.700505 97.651725 180)
@@ -79767,7 +79767,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "d9689dde-32c8-4ec6-8f17-d300c9513bb3")
 		(at 141.6 217.8)
@@ -80912,7 +80912,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "df8332ca-6564-4d55-81d2-9c4547b977fd")
 		(at 213.2 122.7 -90)
@@ -81198,7 +81198,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "e023723a-7cf5-41c0-865d-5be243f42328")
 		(at 157.7 215.5 90)
@@ -81697,7 +81697,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_71505040a9"
 		(layer "F.Cu")
 		(uuid "e03cfdea-0ce2-404a-8ba3-80f7f1ea2704")
 		(at 265 161.2375 90)
@@ -82611,7 +82611,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "e17bb98d-d0e5-4fee-9ddf-f448b9ce0526")
 		(at 283.943502 90.657002 90)
@@ -83245,7 +83245,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Snapeda:GIGABLOX_NANO_SWITCH_REVA_MODULE_LSHM-120-02.5-L-DV-A-S-K-TR"
+	(footprint "Snapeda:fp_072ec239da"
 		(layer "F.Cu")
 		(uuid "e1acd769-b974-4a6f-9e43-069191492f64")
 		(at 186 97.5)
@@ -84248,7 +84248,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "e1e86d26-28d4-4696-a31c-3b2ba03f35fa")
 		(at 265.488015 85.080909)
@@ -87747,7 +87747,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "eab31f2f-f465-4137-a426-093b925f13ea")
 		(at 262 159.7 90)
@@ -88580,7 +88580,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "CMAIN_PCB:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_6a12138141"
 		(layer "F.Cu")
 		(uuid "ec450095-bb6f-4303-b206-d8f73d8e07a8")
 		(at 112.2 178.1)
@@ -88866,7 +88866,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "ed161bd2-e20d-4948-92cc-148fbcba5b1b")
 		(at 141.4 182.8)
@@ -89074,7 +89074,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "ef033015-41f7-46c5-bab2-716e3ab98a72")
 		(at 299.476 124.5)
@@ -89362,7 +89362,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_71505040a9"
 		(layer "F.Cu")
 		(uuid "ef6a91f1-afa1-462c-82bd-a2bda41a767f")
 		(at 256.5 169.6375 -90)
@@ -89648,7 +89648,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_71505040a9"
 		(layer "F.Cu")
 		(uuid "f073c7e8-972d-459e-99eb-267c974f7041")
 		(at 116.4 184.9)
@@ -90273,7 +90273,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+	(footprint "CMAIN_PCB:fp_e0a4172b1a"
 		(layer "F.Cu")
 		(uuid "f1c63092-633f-4f32-8a52-43320a043efb")
 		(at 206 122.65 90)
@@ -91967,7 +91967,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "f42fa33d-da25-4bcd-a27b-489d997ee26c")
 		(at 258.134105 79.706897 90)
@@ -92173,7 +92173,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_71505040a9"
 		(layer "F.Cu")
 		(uuid "f59e44e0-d6c0-4d2e-97b5-e3eba71c6a51")
 		(at 261.976 133 90)
@@ -93303,7 +93303,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "fa2a4964-26bd-4353-b1df-77f0dd9ceccf")
 		(at 299.476 165.175)
@@ -94103,7 +94103,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "fe40d0cd-ed91-4883-a560-39fe4f8ef6d6")
 		(at 262 196.5 90)
@@ -94311,7 +94311,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_71505040a9"
 		(layer "F.Cu")
 		(uuid "fe7f3f3e-085e-4b50-b212-a5456266de53")
 		(at 256.5 196.5 -90)
@@ -94597,7 +94597,7 @@
 			)
 		)
 	)
-	(footprint "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "CMAIN_PCB:fp_9fb50b8536"
 		(layer "F.Cu")
 		(uuid "ffbf0823-8c96-4436-849c-9f510b0ef261")
 		(at 153.5 194.4)

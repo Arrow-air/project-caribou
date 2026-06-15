@@ -19472,7 +19472,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm"
+		(property "Footprint" "CMAIN_PCB:fp_fbc818f6a0"
 			(at 434.34 129.286 0)
 			(hide yes)
 			(show_name no)
@@ -20694,7 +20694,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "CMAIN_PCB:fp_71505040a9"
 			(at 448.31 143.256 0)
 			(hide yes)
 			(show_name no)
@@ -20918,7 +20918,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "CMAIN_PCB:fp_e0a4172b1a"
 			(at 450.85 166.116 0)
 			(hide yes)
 			(show_name no)
@@ -20999,7 +20999,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
 			(at 416.306 47.498 90)
 			(hide yes)
 			(show_name no)
@@ -24116,7 +24116,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
 			(at 430.53 169.926 90)
 			(hide yes)
 			(show_name no)
@@ -27603,7 +27603,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
 			(at 458.47 167.386 90)
 			(hide yes)
 			(show_name no)
@@ -27748,7 +27748,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
 			(at 446.532 345.694 0)
 			(hide yes)
 			(show_name no)
@@ -34208,7 +34208,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "CMAIN_PCB:fp_e0a4172b1a"
 			(at 438.15 129.286 0)
 			(hide yes)
 			(show_name no)
@@ -35510,7 +35510,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
 			(at 456.438 340.868 0)
 			(hide yes)
 			(show_name no)
@@ -36212,7 +36212,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
 			(at 431.8 172.466 90)
 			(hide yes)
 			(show_name no)
@@ -37170,7 +37170,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
 			(at 435.61 136.906 90)
 			(hide yes)
 			(show_name no)
@@ -37561,7 +37561,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
 			(at 455.93 117.856 90)
 			(hide yes)
 			(show_name no)
@@ -37869,7 +37869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
 			(at 439.42 136.906 90)
 			(hide yes)
 			(show_name no)

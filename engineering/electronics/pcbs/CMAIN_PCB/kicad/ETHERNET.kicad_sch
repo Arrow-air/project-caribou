@@ -210,7 +210,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "Snapeda:GIGABLOX_NANO_SWITCH_REVA_MODULE_LSHM-120-02.5-L-DV-A-S-K-TR"
+			(property "Footprint" "Snapeda:fp_072ec239da"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2666,7 +2666,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Snapeda:GIGABLOX_NANO_SWITCH_REVA_MODULE_LSHM-120-02.5-L-DV-A-S-K-TR"
+		(property "Footprint" "Snapeda:fp_072ec239da"
 			(at 214.63 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -3446,7 +3446,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Snapeda:GIGABLOX_NANO_SWITCH_REVA_MODULE_LSHM-120-02.5-L-DV-A-S-K-TR"
+		(property "Footprint" "Snapeda:fp_072ec239da"
 			(at 116.84 111.76 0)
 			(hide yes)
 			(show_name no)

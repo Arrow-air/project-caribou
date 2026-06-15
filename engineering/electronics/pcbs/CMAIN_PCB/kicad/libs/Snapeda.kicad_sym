@@ -634,7 +634,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:POWERPAK-SO-8_L5.9-W4.9-P1.27-LS6.2-BL"
+		(property "Footprint" "EasyEDA_Lib:fp_a2a0cc2e74"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1030,7 +1030,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:POWERPAK-SO-8_L5.9-W4.9-P1.27-LS6.2-BL"
+		(property "Footprint" "EasyEDA_Lib:fp_a2a0cc2e74"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
