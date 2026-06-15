@@ -2683,7 +2683,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib_CMAIN:BM04B-GHS-TBT(LF)(SN)"
+		(symbol "CMAIN_PCB:BM04B-GHS-TBT(LF)(SN)"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2809,7 +2809,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 3.81 -6.35 90)
 					(length 5.08)
 					(name "1"
@@ -2827,7 +2827,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 1.27 -6.35 90)
 					(length 5.08)
 					(name "2"
@@ -2845,7 +2845,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -1.27 -6.35 90)
 					(length 5.08)
 					(name "3"
@@ -2863,7 +2863,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -3.81 -6.35 90)
 					(length 5.08)
 					(name "4"
@@ -2881,7 +2881,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -11.43 3.81 0)
 					(length 5.08)
 					(name "5"
@@ -2899,7 +2899,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 11.43 3.81 180)
 					(length 5.08)
 					(name "6"
@@ -2920,7 +2920,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib_CMAIN:SMTSO3050CTJ"
+		(symbol "CMAIN_PCB:SMTSO3050CTJ"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3078,7 +3078,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib_CMAIN:SS14_C7420316"
+		(symbol "CMAIN_PCB:SS14_C7420316"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3242,7 +3242,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "A"
@@ -3260,7 +3260,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "K"
@@ -3281,7 +3281,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib_CMAIN:TYPEC-303-ACP16"
+		(symbol "CMAIN_PCB:TYPEC-303-ACP16"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3781,7 +3781,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib_CMAIN:USBLC6-2SC6"
+		(symbol "CMAIN_PCB:USBLC6-2SC6"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -19311,7 +19311,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib_CMAIN:SMTSO3050CTJ")
+		(lib_id "CMAIN_PCB:SMTSO3050CTJ")
 		(at 137.16 216.662 0)
 		(unit 1)
 		(body_style 1)
@@ -20910,7 +20910,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib_CMAIN:USBLC6-2SC6")
+		(lib_id "CMAIN_PCB:USBLC6-2SC6")
 		(at 485.648 325.628 0)
 		(unit 1)
 		(body_style 1)
@@ -22492,7 +22492,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib_CMAIN:BM04B-GHS-TBT(LF)(SN)")
+		(lib_id "CMAIN_PCB:BM04B-GHS-TBT(LF)(SN)")
 		(at 285.75 151.13 0)
 		(unit 1)
 		(body_style 1)
@@ -26186,7 +26186,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib_CMAIN:BM04B-GHS-TBT(LF)(SN)")
+		(lib_id "CMAIN_PCB:BM04B-GHS-TBT(LF)(SN)")
 		(at 265.43 158.75 0)
 		(unit 1)
 		(body_style 1)
@@ -27228,7 +27228,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib_CMAIN:SMTSO3050CTJ")
+		(lib_id "CMAIN_PCB:SMTSO3050CTJ")
 		(at 137.16 233.172 0)
 		(unit 1)
 		(body_style 1)
@@ -30031,7 +30031,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib_CMAIN:TYPEC-303-ACP16")
+		(lib_id "CMAIN_PCB:TYPEC-303-ACP16")
 		(at 425.958 325.628 180)
 		(unit 1)
 		(body_style 1)
@@ -32531,7 +32531,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib_CMAIN:BM04B-GHS-TBT(LF)(SN)")
+		(lib_id "CMAIN_PCB:BM04B-GHS-TBT(LF)(SN)")
 		(at 306.07 156.21 0)
 		(unit 1)
 		(body_style 1)
@@ -32835,7 +32835,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib_CMAIN:BM04B-GHS-TBT(LF)(SN)")
+		(lib_id "CMAIN_PCB:BM04B-GHS-TBT(LF)(SN)")
 		(at 242.57 153.67 0)
 		(unit 1)
 		(body_style 1)
@@ -33678,7 +33678,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib_CMAIN:SS14_C7420316")
+		(lib_id "CMAIN_PCB:SS14_C7420316")
 		(at 453.898 309.118 0)
 		(unit 1)
 		(body_style 1)
@@ -36197,7 +36197,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib_CMAIN:SMTSO3050CTJ")
+		(lib_id "CMAIN_PCB:SMTSO3050CTJ")
 		(at 137.16 222.25 0)
 		(unit 1)
 		(body_style 1)
@@ -38012,7 +38012,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib_CMAIN:SMTSO3050CTJ")
+		(lib_id "CMAIN_PCB:SMTSO3050CTJ")
 		(at 137.16 227.584 0)
 		(unit 1)
 		(body_style 1)

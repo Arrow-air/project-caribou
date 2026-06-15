@@ -1962,7 +1962,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA_Lib_CMAIN:CYA0650-3.3UH"
+		(symbol "CMAIN_PCB:CYA0650-3.3UH"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2126,7 +2126,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 1.016)
 					(name "1"
@@ -2144,7 +2144,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 1.016)
 					(name "2"
@@ -11811,7 +11811,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib_CMAIN:CYA0650-3.3UH")
+		(lib_id "CMAIN_PCB:CYA0650-3.3UH")
 		(at 386.08 99.06 0)
 		(unit 1)
 		(body_style 1)
@@ -14049,7 +14049,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib_CMAIN:CYA0650-3.3UH")
+		(lib_id "CMAIN_PCB:CYA0650-3.3UH")
 		(at 386.334 193.04 0)
 		(unit 1)
 		(body_style 1)
@@ -23632,7 +23632,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib_CMAIN:CYA0650-3.3UH")
+		(lib_id "CMAIN_PCB:CYA0650-3.3UH")
 		(at 384.556 293.37 0)
 		(unit 1)
 		(body_style 1)
