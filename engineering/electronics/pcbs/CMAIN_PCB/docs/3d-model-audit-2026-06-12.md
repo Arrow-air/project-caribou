@@ -10,12 +10,12 @@ Audit scope: model references in `kicad/CMAIN_PCB.kicad_pcb` and local CMAIN foo
 
 ## Fixed in this pass
 
-- Repointed stale KiCad 8 `.wrl` passive-component refs to KiCad 10 `.step` models:
+- Updated stale KiCad 8 `.wrl` passive-component refs to KiCad 10 `.step` models:
   - `R_0805_2012Metric`
   - `C_0805_2012Metric`
   - `C_0603_1608Metric`
-- Repointed the JLCPCB `D_SMB.step` ref to KiCad's built-in `Diode_SMD.3dshapes/D_SMB.step`.
-- Repointed relative `NX3225GB-16M-STD-CRA-2.stp` refs to KiCad's built-in `Crystal_SMD_3225-4Pin_3.2x2.5mm.step`.
+- Updated the JLCPCB `D_SMB.step` ref to KiCad's built-in `Diode_SMD.3dshapes/D_SMB.step`.
+- Updated relative `NX3225GB-16M-STD-CRA-2.stp` refs to KiCad's built-in `Crystal_SMD_3225-4Pin_3.2x2.5mm.step`.
 - Added reusable models already present elsewhere in the Caribou repo:
   - `EASYEDA_MODELS/C1206_L3.2-W1.6-H1.3.step`
   - `EASYEDA_MODELS/SMB_L4.6-W3.6-LS5.3-RD.step`
