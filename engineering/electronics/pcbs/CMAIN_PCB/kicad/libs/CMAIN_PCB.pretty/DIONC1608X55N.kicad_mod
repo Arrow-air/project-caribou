@@ -313,7 +313,7 @@
 		(uuid "03ca95ba-93b3-4eb4-9af7-5afc57dd65fc")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/PESD0603-240.stp"
+	(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0603_1608Metric.step"
 		(offset
 			(xyz 0 0 0)
 		)

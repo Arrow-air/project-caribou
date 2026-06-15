@@ -277,7 +277,7 @@
 		(uuid "d4de8d54-9b7d-4c50-9b62-99fcb1919262")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/1814948.stp"
+	(model "${KICAD10_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MPT-0,5-5-2.54_1x05_P2.54mm_Horizontal.step"
 		(offset
 			(xyz 7.099999798 -8.180000182 0)
 		)

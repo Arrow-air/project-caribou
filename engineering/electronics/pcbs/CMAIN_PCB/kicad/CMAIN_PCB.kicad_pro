@@ -140,7 +140,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.2,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -149,14 +149,14 @@
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
-        "min_silk_clearance": 0.0,
+        "min_silk_clearance": 0.1,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -203,7 +203,13 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2,
+        0.3,
+        0.5,
+        1.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +236,24 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
+        },
+        {
+          "diameter": 1.2,
+          "drill": 0.6
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -443,7 +466,7 @@
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
-      "endpoint_off_grid": "warning",
+      "endpoint_off_grid": "ignore",
       "extra_units": "error",
       "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
@@ -473,7 +496,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "error",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -495,22 +518,155 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Default",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2147483647,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
         "tuning_profile": "",
+        "wire_width": 6,
+        "name": "Default",
+        "track_width": 0.2,
+        "clearance": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
-        "wire_width": 6
+        "diff_pair_width": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "tuning_profile": "",
+        "wire_width": 6,
+        "name": "Signal_Control",
+        "track_width": 0.2,
+        "clearance": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "diff_pair_width": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "pcb_color": "rgba(120, 120, 120, 0.350)",
+        "schematic_color": "rgba(120, 120, 120, 0.350)",
+        "priority": 0
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "tuning_profile": "",
+        "wire_width": 6,
+        "name": "CAN_Bus",
+        "track_width": 0.2,
+        "clearance": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "diff_pair_width": 0.2,
+        "diff_pair_gap": 0.2,
+        "diff_pair_via_gap": 0.25,
+        "pcb_color": "rgba(0, 120, 255, 0.450)",
+        "schematic_color": "rgba(0, 120, 255, 0.450)",
+        "priority": 0
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "tuning_profile": "",
+        "wire_width": 6,
+        "name": "Ethernet",
+        "track_width": 0.2,
+        "clearance": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "diff_pair_width": 0.2,
+        "diff_pair_gap": 0.2,
+        "diff_pair_via_gap": 0.25,
+        "pcb_color": "rgba(160, 80, 255, 0.450)",
+        "schematic_color": "rgba(160, 80, 255, 0.450)",
+        "priority": 0
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "tuning_profile": "",
+        "wire_width": 6,
+        "name": "Power_0V5A",
+        "track_width": 0.3,
+        "clearance": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "diff_pair_width": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "pcb_color": "rgba(255, 180, 0, 0.450)",
+        "schematic_color": "rgba(255, 180, 0, 0.450)",
+        "priority": 0
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "tuning_profile": "",
+        "wire_width": 6,
+        "name": "Power_1A",
+        "track_width": 0.5,
+        "clearance": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "diff_pair_width": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "pcb_color": "rgba(255, 120, 0, 0.500)",
+        "schematic_color": "rgba(255, 120, 0, 0.500)",
+        "priority": 0
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "tuning_profile": "",
+        "wire_width": 6,
+        "name": "Power_5A",
+        "track_width": 1.0,
+        "clearance": 0.3,
+        "via_diameter": 1.2,
+        "via_drill": 0.6,
+        "diff_pair_width": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "pcb_color": "rgba(255, 0, 0, 0.550)",
+        "schematic_color": "rgba(255, 0, 0, 0.550)",
+        "priority": 0
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "tuning_profile": "",
+        "wire_width": 6,
+        "name": "GND_System",
+        "track_width": 0.3,
+        "clearance": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "diff_pair_width": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "pcb_color": "rgba(0, 170, 0, 0.450)",
+        "schematic_color": "rgba(0, 170, 0, 0.450)",
+        "priority": 0
       }
     ],
     "meta": {
@@ -518,17 +674,1622 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "+12V": [
-        "Low_Power"
+      "+12V_PL": [
+        "Power_5A"
       ],
       "+3.3V": [
-        "Low_Power"
+        "Power_0V5A"
       ],
-      "+5V": [
-        "Low_Power"
+      "/BUZZER+": [
+        "Signal_Control"
+      ],
+      "/BUZZER-": [
+        "Signal_Control"
+      ],
+      "/CAN2_H": [
+        "CAN_Bus"
+      ],
+      "/CAN2_L": [
+        "CAN_Bus"
+      ],
+      "/FMU_CH1": [
+        "Signal_Control"
+      ],
+      "/FMU_CH5": [
+        "Signal_Control"
+      ],
+      "/FMU_CH6": [
+        "Signal_Control"
+      ],
+      "/FMU_CH7": [
+        "Signal_Control"
+      ],
+      "/FMU_CH8": [
+        "Signal_Control"
+      ],
+      "/I2C1_SCL_GPS1_MAG_LED": [
+        "Signal_Control"
+      ],
+      "/I2C1_SDA_GPS1_MAG_LED": [
+        "Signal_Control"
+      ],
+      "/IO_CH1": [
+        "Signal_Control"
+      ],
+      "/IO_CH2": [
+        "Signal_Control"
+      ],
+      "/IO_CH3": [
+        "Signal_Control"
+      ],
+      "/IO_CH4": [
+        "Signal_Control"
+      ],
+      "/IO_CH5": [
+        "Signal_Control"
+      ],
+      "/IO_CH6": [
+        "Signal_Control"
+      ],
+      "/IO_PPM_INPUT_AND_SBUS_INPUT": [
+        "Signal_Control"
+      ],
+      "/IO_SAFETY_SWITCH_IN": [
+        "Signal_Control"
+      ],
+      "/IO_VDD_3V3": [
+        "Power_0V5A"
+      ],
+      "/N_IO_LED_SAFETY": [
+        "Signal_Control"
+      ],
+      "/Power_control/CS1": [
+        "Signal_Control"
+      ],
+      "/Power_control/CS2": [
+        "Signal_Control"
+      ],
+      "/UART5_CTS_TEL2": [
+        "Signal_Control"
+      ],
+      "/UART5_RTS_TEL2": [
+        "Signal_Control"
+      ],
+      "/UART5_RX_TEL2": [
+        "Signal_Control"
+      ],
+      "/UART5_TX_TEL2": [
+        "Signal_Control"
+      ],
+      "/UART7_RX_TEL1": [
+        "Signal_Control"
+      ],
+      "/UART7_TX_TEL1": [
+        "Signal_Control"
+      ],
+      "/UART8_RX_GPS2": [
+        "Signal_Control"
+      ],
+      "/UART8_TX_GPS2": [
+        "Signal_Control"
+      ],
+      "/USART1_RX_GPS1": [
+        "Signal_Control"
+      ],
+      "/USART1_TX_GPS1": [
+        "Signal_Control"
+      ],
+      "/USART2_RX_TEL3": [
+        "Signal_Control"
+      ],
+      "/USART2_TX_TEL3": [
+        "Signal_Control"
+      ],
+      "/USB_D+": [
+        "Signal_Control"
+      ],
+      "/USB_D-": [
+        "Signal_Control"
+      ],
+      "/VBUS": [
+        "Power_0V5A"
+      ],
+      "12VSW": [
+        "Power_5A"
+      ],
+      "12V_1": [
+        "Power_5A"
+      ],
+      "12V_2": [
+        "Power_5A"
+      ],
+      "12V_3": [
+        "Power_5A"
+      ],
+      "12V_TR_1": [
+        "Power_5A"
+      ],
+      "12V_TR_2": [
+        "Power_5A"
+      ],
+      "12V_TR_3": [
+        "Power_5A"
+      ],
+      "12V_TR_4": [
+        "Power_5A"
+      ],
+      "12V_TR_5": [
+        "Power_5A"
+      ],
+      "12V_TR_6": [
+        "Power_5A"
+      ],
+      "12V_TR_SUPPLY_1": [
+        "Power_5A"
+      ],
+      "12V_TR_SUPPLY_2": [
+        "Power_5A"
+      ],
+      "12V_TR_SUPPLY_3": [
+        "Power_5A"
+      ],
+      "12V_TR_SUPPLY_4": [
+        "Power_5A"
+      ],
+      "12V_TR_SUPPLY_5": [
+        "Power_5A"
+      ],
+      "12V_TR_SUPPLY_6": [
+        "Power_5A"
+      ],
+      "5V_1": [
+        "Power_0V5A"
+      ],
+      "5V_2": [
+        "Power_0V5A"
+      ],
+      "5V_3": [
+        "Power_0V5A"
+      ],
+      "CAN1_H": [
+        "CAN_Bus"
+      ],
+      "CAN1_L": [
+        "CAN_Bus"
+      ],
+      "CANH_DRONE": [
+        "CAN_Bus"
+      ],
+      "CANL_DRONE": [
+        "CAN_Bus"
+      ],
+      "ETH1_0A+": [
+        "Ethernet"
+      ],
+      "ETH1_0A-": [
+        "Ethernet"
+      ],
+      "ETH1_0B+": [
+        "Ethernet"
+      ],
+      "ETH1_0B-": [
+        "Ethernet"
+      ],
+      "ETH1_2A+": [
+        "Ethernet"
+      ],
+      "ETH1_2A-": [
+        "Ethernet"
+      ],
+      "ETH1_2B+": [
+        "Ethernet"
+      ],
+      "ETH1_2B-": [
+        "Ethernet"
+      ],
+      "ETH1_3A+": [
+        "Ethernet"
+      ],
+      "ETH1_3A-": [
+        "Ethernet"
+      ],
+      "ETH1_3B+": [
+        "Ethernet"
+      ],
+      "ETH1_3B-": [
+        "Ethernet"
+      ],
+      "ETH2_1A+": [
+        "Ethernet"
+      ],
+      "ETH2_1A-": [
+        "Ethernet"
+      ],
+      "ETH2_1B+": [
+        "Ethernet"
+      ],
+      "ETH2_1B-": [
+        "Ethernet"
+      ],
+      "ETH2_2A+": [
+        "Ethernet"
+      ],
+      "ETH2_2A-": [
+        "Ethernet"
+      ],
+      "ETH2_2B+": [
+        "Ethernet"
+      ],
+      "ETH2_2B-": [
+        "Ethernet"
+      ],
+      "ETH2_3A+": [
+        "Ethernet"
+      ],
+      "ETH2_3A-": [
+        "Ethernet"
+      ],
+      "ETH2_3B+": [
+        "Ethernet"
+      ],
+      "ETH2_3B-": [
+        "Ethernet"
+      ],
+      "FMU_CH2": [
+        "Signal_Control"
+      ],
+      "FMU_CH4": [
+        "Signal_Control"
       ],
       "GND": [
-        "Low_Power"
+        "GND_System"
+      ],
+      "GPIO_26_CS": [
+        "Signal_Control"
+      ],
+      "IO_CH7": [
+        "Signal_Control"
+      ],
+      "Net-(C22-Pad1)": [
+        "Signal_Control"
+      ],
+      "Net-(C38-Pad1)": [
+        "Signal_Control"
+      ],
+      "Net-(C45-Pad1)": [
+        "Signal_Control"
+      ],
+      "Net-(D12-C)": [
+        "Signal_Control"
+      ],
+      "Net-(D13-C)": [
+        "Signal_Control"
+      ],
+      "Net-(D14-C)": [
+        "Signal_Control"
+      ],
+      "Net-(D15-C)": [
+        "Signal_Control"
+      ],
+      "Net-(D16-C)": [
+        "Signal_Control"
+      ],
+      "Net-(D17-C)": [
+        "Signal_Control"
+      ],
+      "Net-(F7-Pad2)": [
+        "Signal_Control"
+      ],
+      "Net-(IC1-CSB)": [
+        "Signal_Control"
+      ],
+      "Net-(IC1-PS)": [
+        "Signal_Control"
+      ],
+      "Net-(IC1-SDO)": [
+        "Signal_Control"
+      ],
+      "Net-(J1-GPIO14(TXD))": [
+        "Signal_Control"
+      ],
+      "Net-(J1-GPIO15(RXD))": [
+        "Signal_Control"
+      ],
+      "Net-(J1-GPIO23)": [
+        "Signal_Control"
+      ],
+      "Net-(J1-GPIO24)": [
+        "Signal_Control"
+      ],
+      "Net-(J47-P1A_N)": [
+        "Ethernet"
+      ],
+      "Net-(J47-P1A_P)": [
+        "Ethernet"
+      ],
+      "Net-(J47-P1B_N)": [
+        "Ethernet"
+      ],
+      "Net-(J47-P1B_P)": [
+        "Ethernet"
+      ],
+      "Net-(J47-P1C_N)": [
+        "Ethernet"
+      ],
+      "Net-(J47-P1C_P)": [
+        "Ethernet"
+      ],
+      "Net-(J47-P1D_N)": [
+        "Ethernet"
+      ],
+      "Net-(J47-P1D_P)": [
+        "Ethernet"
+      ],
+      "Net-(JP1-A)": [
+        "Signal_Control"
+      ],
+      "Net-(JP2-A)": [
+        "Signal_Control"
+      ],
+      "Net-(JP5-B)": [
+        "Signal_Control"
+      ],
+      "Net-(K1-+CONTROL)": [
+        "Signal_Control"
+      ],
+      "Net-(K10-+CONTROL)": [
+        "Signal_Control"
+      ],
+      "Net-(K10-LOAD_2)": [
+        "Signal_Control"
+      ],
+      "Net-(K2-+CONTROL)": [
+        "Signal_Control"
+      ],
+      "Net-(K4-+CONTROL)": [
+        "Signal_Control"
+      ],
+      "Net-(K4-LOAD_1)": [
+        "Signal_Control"
+      ],
+      "Net-(K5-+CONTROL)": [
+        "Signal_Control"
+      ],
+      "Net-(K5-LOAD_2)": [
+        "Signal_Control"
+      ],
+      "Net-(K6-+CONTROL)": [
+        "Signal_Control"
+      ],
+      "Net-(K6-LOAD_2)": [
+        "Signal_Control"
+      ],
+      "Net-(K7-+CONTROL)": [
+        "Signal_Control"
+      ],
+      "Net-(K7-LOAD_2)": [
+        "Signal_Control"
+      ],
+      "Net-(K8-+CONTROL)": [
+        "Signal_Control"
+      ],
+      "Net-(K8-LOAD_2)": [
+        "Signal_Control"
+      ],
+      "Net-(K9-+CONTROL)": [
+        "Signal_Control"
+      ],
+      "Net-(K9-LOAD_2)": [
+        "Signal_Control"
+      ],
+      "Net-(LED1-A)": [
+        "Signal_Control"
+      ],
+      "Net-(LED10-A)": [
+        "Signal_Control"
+      ],
+      "Net-(LED11-A)": [
+        "Signal_Control"
+      ],
+      "Net-(LED12-A)": [
+        "Signal_Control"
+      ],
+      "Net-(LED13-A)": [
+        "Signal_Control"
+      ],
+      "Net-(LED14-A)": [
+        "Signal_Control"
+      ],
+      "Net-(LED15-A)": [
+        "Signal_Control"
+      ],
+      "Net-(LED2-A)": [
+        "Signal_Control"
+      ],
+      "Net-(LED3-A)": [
+        "Signal_Control"
+      ],
+      "Net-(LED4-A)": [
+        "Signal_Control"
+      ],
+      "Net-(LED5-A)": [
+        "Signal_Control"
+      ],
+      "Net-(LED7-A)": [
+        "Signal_Control"
+      ],
+      "Net-(LED8-A)": [
+        "Signal_Control"
+      ],
+      "Net-(LED9-A)": [
+        "Signal_Control"
+      ],
+      "Net-(Q1-D)": [
+        "Signal_Control"
+      ],
+      "Net-(Q1-G)": [
+        "Signal_Control"
+      ],
+      "Net-(Q2-D)": [
+        "Signal_Control"
+      ],
+      "Net-(Q2-G)": [
+        "Signal_Control"
+      ],
+      "Net-(Q4-D)": [
+        "Signal_Control"
+      ],
+      "Net-(Q4-G)": [
+        "Signal_Control"
+      ],
+      "Net-(Q5-D)": [
+        "Signal_Control"
+      ],
+      "Net-(Q5-G)": [
+        "Signal_Control"
+      ],
+      "Net-(Q6-D)": [
+        "Signal_Control"
+      ],
+      "Net-(Q6-G)": [
+        "Signal_Control"
+      ],
+      "Net-(Q7-D)": [
+        "Signal_Control"
+      ],
+      "Net-(Q7-G)": [
+        "Signal_Control"
+      ],
+      "Net-(Q8-D)": [
+        "Signal_Control"
+      ],
+      "Net-(Q8-G)": [
+        "Signal_Control"
+      ],
+      "Net-(Q9-D)": [
+        "Signal_Control"
+      ],
+      "Net-(Q9-G)": [
+        "Signal_Control"
+      ],
+      "Net-(S1-NC_1)": [
+        "Signal_Control"
+      ],
+      "Net-(U1-RX)": [
+        "Signal_Control"
+      ],
+      "Net-(U1-STB)": [
+        "Signal_Control"
+      ],
+      "Net-(U1-TX)": [
+        "Signal_Control"
+      ],
+      "Net-(U17-BS)": [
+        "Signal_Control"
+      ],
+      "Net-(U17-EN)": [
+        "Signal_Control"
+      ],
+      "Net-(U17-FB)": [
+        "Signal_Control"
+      ],
+      "Net-(U17-LX)": [
+        "Signal_Control"
+      ],
+      "Net-(U17-SS)": [
+        "Signal_Control"
+      ],
+      "Net-(U17-VCC)": [
+        "Signal_Control"
+      ],
+      "Net-(U18-BS)": [
+        "Signal_Control"
+      ],
+      "Net-(U18-EN)": [
+        "Signal_Control"
+      ],
+      "Net-(U18-FB)": [
+        "Signal_Control"
+      ],
+      "Net-(U18-LX)": [
+        "Signal_Control"
+      ],
+      "Net-(U18-SS)": [
+        "Signal_Control"
+      ],
+      "Net-(U18-VCC)": [
+        "Signal_Control"
+      ],
+      "Net-(U2-OSC1)": [
+        "Signal_Control"
+      ],
+      "Net-(U2-OSC2)": [
+        "Signal_Control"
+      ],
+      "Net-(U2-~{RESET~{}})": [
+        "Signal_Control"
+      ],
+      "Net-(U29-COMP)": [
+        "Signal_Control"
+      ],
+      "Net-(U29-RANGE)": [
+        "Signal_Control"
+      ],
+      "Net-(U30-COMP)": [
+        "Signal_Control"
+      ],
+      "Net-(U30-RANGE)": [
+        "Signal_Control"
+      ],
+      "Net-(U31-COMP)": [
+        "Signal_Control"
+      ],
+      "Net-(U31-RANGE)": [
+        "Signal_Control"
+      ],
+      "Net-(U4-BS)": [
+        "Signal_Control"
+      ],
+      "Net-(U4-EN)": [
+        "Signal_Control"
+      ],
+      "Net-(U4-FB)": [
+        "Signal_Control"
+      ],
+      "Net-(U4-LX)": [
+        "Signal_Control"
+      ],
+      "Net-(U4-SS)": [
+        "Signal_Control"
+      ],
+      "Net-(U4-VCC)": [
+        "Signal_Control"
+      ],
+      "Net-(USB33-CC1)": [
+        "Signal_Control"
+      ],
+      "Net-(USB33-CC2)": [
+        "Signal_Control"
+      ],
+      "Net-(USB33-DN1)": [
+        "Signal_Control"
+      ],
+      "Net-(USB33-DP1)": [
+        "Signal_Control"
+      ],
+      "SPI_CE0": [
+        "Signal_Control"
+      ],
+      "SPI_MISO": [
+        "Signal_Control"
+      ],
+      "SPI_MOSI": [
+        "Signal_Control"
+      ],
+      "SPI_SCLK": [
+        "Signal_Control"
+      ],
+      "unconnected-(CN18-Pad5)": [
+        "Signal_Control"
+      ],
+      "unconnected-(CN18-Pad6)": [
+        "Signal_Control"
+      ],
+      "unconnected-(CN20-Pad5)": [
+        "Signal_Control"
+      ],
+      "unconnected-(CN20-Pad6)": [
+        "Signal_Control"
+      ],
+      "unconnected-(CN22-Pad5)": [
+        "Signal_Control"
+      ],
+      "unconnected-(CN22-Pad6)": [
+        "Signal_Control"
+      ],
+      "unconnected-(CN54-Pad5)": [
+        "Signal_Control"
+      ],
+      "unconnected-(CN54-Pad6)": [
+        "Signal_Control"
+      ],
+      "unconnected-(IC1-NC_1-Pad6)": [
+        "Signal_Control"
+      ],
+      "unconnected-(IC1-NC_2-Pad7)": [
+        "Signal_Control"
+      ],
+      "unconnected-(IC1-NC_3-Pad8)": [
+        "Signal_Control"
+      ],
+      "unconnected-(IC1-NC_4-Pad9)": [
+        "Signal_Control"
+      ],
+      "unconnected-(IC1-NC_5-Pad10)": [
+        "Signal_Control"
+      ],
+      "unconnected-(IC1-NC_6-Pad11)": [
+        "Signal_Control"
+      ],
+      "unconnected-(IC1-NC_7-Pad12)": [
+        "Signal_Control"
+      ],
+      "unconnected-(IC1-NC_8-Pad13)": [
+        "Signal_Control"
+      ],
+      "unconnected-(IC1-NC_9-Pad14)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J1-GPIO0(ID_SD)-Pad27)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J1-GPIO1(ID_SC)-Pad28)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J1-GPIO12(PWM0)-Pad32)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J1-GPIO13(PWM1)-Pad33)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J1-GPIO16-Pad36)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J1-GPIO17-Pad11)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J1-GPIO18(PCM_CLK)-Pad12)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J1-GPIO19(PCM_FS)-Pad35)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J1-GPIO2(SDA)-Pad3)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J1-GPIO20(PCM_DIN)-Pad38)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J1-GPIO21(PCM_DOUT)-Pad40)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J1-GPIO22-Pad15)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J1-GPIO25-Pad22)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J1-GPIO27-Pad13)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J1-GPIO3(SCL)-Pad5)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J1-GPIO4(GPCLK0)-Pad7)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J1-GPIO5-Pad29)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J1-GPIO6-Pad31)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J1-GPIO7(CE1)-Pad26)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J11-Mounting-Pad1)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J11-Mounting-Pad1)_1": [
+        "Signal_Control"
+      ],
+      "unconnected-(J12-Pad4)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J14-PadS1)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J14-PadS2)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J15-Pad4)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J15-PadMP)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J15-PadMP)_1": [
+        "Signal_Control"
+      ],
+      "unconnected-(J17-Pad3)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J17-Pad4)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J17-Pad5)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J29-Pad6)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad100)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad14)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad16)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad18)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad19)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad20)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad21)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad22)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad23)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad24)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad26)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad28)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad29)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad30)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad32)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad34)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad36)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad38)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad39)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad40)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad42)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad44)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad45)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad46)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad48)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad50)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad51)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad52)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad54)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad56)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad57)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad58)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad59)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad60)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad61)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad62)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad63)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad64)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad65)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad66)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad68)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad70)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad72)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad74)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad76)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad78)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad80)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad81)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad82)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad83)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad84)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad85)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad86)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad88)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad90)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad92)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad94)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad96)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad97)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad98)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J3-Pad99)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J30-Pad6)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J35-PadMP)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J35-PadMP)_1": [
+        "Signal_Control"
+      ],
+      "unconnected-(J36-PadMP)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J36-PadMP)_1": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad100)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad13)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad14)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad15)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad16)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad17)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad18)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad19)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad20)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad21)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad22)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad23)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad24)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad25)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad26)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad27)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad28)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad29)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad30)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad31)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad32)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad33)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad34)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad35)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad36)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad37)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad38)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad39)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad40)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad41)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad42)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad43)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad44)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad45)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad46)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad47)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad48)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad49)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad50)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad51)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad52)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad53)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad54)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad56)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad57)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad58)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad59)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad60)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad61)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad62)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad63)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad64)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad65)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad66)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad68)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad70)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad72)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad73)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad74)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad76)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad78)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad80)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad82)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad84)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad86)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad88)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad90)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad92)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad94)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad96)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad98)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J4-Pad99)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J41-PadMP)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J41-PadMP)_1": [
+        "Signal_Control"
+      ],
+      "unconnected-(J47-+3V3-Pad40)": [
+        "Power_0V5A"
+      ],
+      "unconnected-(J47-P0C_N-Pad26)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J47-P0C_P-Pad28)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J47-P0D_N-Pad22)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J47-P0D_P-Pad24)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J47-P2C_N-Pad9)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J47-P2C_P-Pad11)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J47-P2D_N-Pad5)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J47-P2D_P-Pad7)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J47-P3C_N-Pad10)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J47-P3C_P-Pad12)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J47-P3D_N-Pad6)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J47-P3D_P-Pad8)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J47-SCK-Pad37)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J47-SDA-Pad38)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J47-SH1-PadS1)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J47-SH2-PadS2)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J5-PadMP)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J5-PadMP)_1": [
+        "Signal_Control"
+      ],
+      "unconnected-(J51-+3V3-Pad40)": [
+        "Power_0V5A"
+      ],
+      "unconnected-(J51-P1C_N-Pad25)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J51-P1C_P-Pad27)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J51-P1D_N-Pad21)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J51-P1D_P-Pad23)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J51-P2C_N-Pad9)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J51-P2C_P-Pad11)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J51-P2D_N-Pad5)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J51-P2D_P-Pad7)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J51-P3C_N-Pad10)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J51-P3C_P-Pad12)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J51-P3D_N-Pad6)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J51-P3D_P-Pad8)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J51-SCK-Pad37)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J51-SDA-Pad38)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J51-SH1-PadS1)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J51-SH2-PadS2)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J7-PadMP)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J7-PadMP)_1": [
+        "Signal_Control"
+      ],
+      "unconnected-(J9-PadMP)": [
+        "Signal_Control"
+      ],
+      "unconnected-(J9-PadMP)_1": [
+        "Signal_Control"
+      ],
+      "unconnected-(LS1-NC_1-Pad3)": [
+        "Signal_Control"
+      ],
+      "unconnected-(LS1-NC_2-Pad4)": [
+        "Signal_Control"
+      ],
+      "unconnected-(S1-COM_2-Pad5)": [
+        "Signal_Control"
+      ],
+      "unconnected-(S1-NC_2-Pad3)": [
+        "Signal_Control"
+      ],
+      "unconnected-(S1-NC_3-Pad4)": [
+        "Signal_Control"
+      ],
+      "unconnected-(S1-NC_4-Pad6)": [
+        "Signal_Control"
+      ],
+      "unconnected-(S2-COM_2-Pad5)": [
+        "Signal_Control"
+      ],
+      "unconnected-(S2-NC_2-Pad3)": [
+        "Signal_Control"
+      ],
+      "unconnected-(S2-NC_3-Pad4)": [
+        "Signal_Control"
+      ],
+      "unconnected-(S2-NC_4-Pad6)": [
+        "Signal_Control"
+      ],
+      "unconnected-(U10-Pad1)": [
+        "Signal_Control"
+      ],
+      "unconnected-(U10-Pad1)_1": [
+        "Signal_Control"
+      ],
+      "unconnected-(U10-Pad1)_2": [
+        "Signal_Control"
+      ],
+      "unconnected-(U10-Pad1)_3": [
+        "Signal_Control"
+      ],
+      "unconnected-(U10-Pad1)_4": [
+        "Signal_Control"
+      ],
+      "unconnected-(U11-Pad1)": [
+        "Signal_Control"
+      ],
+      "unconnected-(U11-Pad1)_1": [
+        "Signal_Control"
+      ],
+      "unconnected-(U11-Pad1)_2": [
+        "Signal_Control"
+      ],
+      "unconnected-(U11-Pad1)_3": [
+        "Signal_Control"
+      ],
+      "unconnected-(U11-Pad1)_4": [
+        "Signal_Control"
+      ],
+      "unconnected-(U12-Pad1)": [
+        "Signal_Control"
+      ],
+      "unconnected-(U12-Pad1)_1": [
+        "Signal_Control"
+      ],
+      "unconnected-(U12-Pad1)_2": [
+        "Signal_Control"
+      ],
+      "unconnected-(U12-Pad1)_3": [
+        "Signal_Control"
+      ],
+      "unconnected-(U12-Pad1)_4": [
+        "Signal_Control"
+      ],
+      "unconnected-(U13-Pad1)": [
+        "Signal_Control"
+      ],
+      "unconnected-(U13-Pad1)_1": [
+        "Signal_Control"
+      ],
+      "unconnected-(U13-Pad1)_2": [
+        "Signal_Control"
+      ],
+      "unconnected-(U13-Pad1)_3": [
+        "Signal_Control"
+      ],
+      "unconnected-(U13-Pad1)_4": [
+        "Signal_Control"
+      ],
+      "unconnected-(U14-Pad1)": [
+        "Signal_Control"
+      ],
+      "unconnected-(U14-Pad1)_1": [
+        "Signal_Control"
+      ],
+      "unconnected-(U14-Pad1)_2": [
+        "Signal_Control"
+      ],
+      "unconnected-(U14-Pad1)_3": [
+        "Signal_Control"
+      ],
+      "unconnected-(U14-Pad1)_4": [
+        "Signal_Control"
+      ],
+      "unconnected-(U15-Pad1)": [
+        "Signal_Control"
+      ],
+      "unconnected-(U15-Pad1)_1": [
+        "Signal_Control"
+      ],
+      "unconnected-(U15-Pad1)_2": [
+        "Signal_Control"
+      ],
+      "unconnected-(U15-Pad1)_3": [
+        "Signal_Control"
+      ],
+      "unconnected-(U15-Pad1)_4": [
+        "Signal_Control"
+      ],
+      "unconnected-(U16-Pad1)": [
+        "Signal_Control"
+      ],
+      "unconnected-(U16-Pad1)_1": [
+        "Signal_Control"
+      ],
+      "unconnected-(U16-Pad1)_2": [
+        "Signal_Control"
+      ],
+      "unconnected-(U16-Pad1)_3": [
+        "Signal_Control"
+      ],
+      "unconnected-(U16-Pad1)_4": [
+        "Signal_Control"
+      ],
+      "unconnected-(U19-Pad1)": [
+        "Signal_Control"
+      ],
+      "unconnected-(U19-Pad1)_1": [
+        "Signal_Control"
+      ],
+      "unconnected-(U19-Pad1)_2": [
+        "Signal_Control"
+      ],
+      "unconnected-(U19-Pad1)_3": [
+        "Signal_Control"
+      ],
+      "unconnected-(U2-CLKOUT{slash}SOF-Pad3)": [
+        "Signal_Control"
+      ],
+      "unconnected-(U2-~{RX0BF~{}}-Pad11)": [
+        "Signal_Control"
+      ],
+      "unconnected-(U2-~{RX1BF~{}}-Pad10)": [
+        "Signal_Control"
+      ],
+      "unconnected-(U2-~{TX0RTS~{}}-Pad4)": [
+        "Signal_Control"
+      ],
+      "unconnected-(U2-~{TX1RTS~{}}-Pad5)": [
+        "Signal_Control"
+      ],
+      "unconnected-(U2-~{TX2RTS~{}}-Pad6)": [
+        "Signal_Control"
+      ],
+      "unconnected-(U20-Pad1)": [
+        "Signal_Control"
+      ],
+      "unconnected-(U20-Pad1)_1": [
+        "Signal_Control"
+      ],
+      "unconnected-(U20-Pad1)_2": [
+        "Signal_Control"
+      ],
+      "unconnected-(U20-Pad1)_3": [
+        "Signal_Control"
+      ],
+      "unconnected-(U21-Pad1)": [
+        "Signal_Control"
+      ],
+      "unconnected-(U21-Pad1)_1": [
+        "Signal_Control"
+      ],
+      "unconnected-(U21-Pad1)_2": [
+        "Signal_Control"
+      ],
+      "unconnected-(U21-Pad1)_3": [
+        "Signal_Control"
+      ],
+      "unconnected-(U29-CPO1-Pad11)": [
+        "Signal_Control"
+      ],
+      "unconnected-(U29-CPO2-Pad6)": [
+        "Signal_Control"
+      ],
+      "unconnected-(U29-FETON1-Pad9)": [
+        "Signal_Control"
+      ],
+      "unconnected-(U29-FETON2-Pad8)": [
+        "Signal_Control"
+      ],
+      "unconnected-(U3-Pad1)": [
+        "Signal_Control"
+      ],
+      "unconnected-(U3-Pad1)_1": [
+        "Signal_Control"
+      ],
+      "unconnected-(U3-Pad1)_2": [
+        "Signal_Control"
+      ],
+      "unconnected-(U3-Pad1)_3": [
+        "Signal_Control"
+      ],
+      "unconnected-(U3-Pad1)_4": [
+        "Signal_Control"
+      ],
+      "unconnected-(U30-CPO1-Pad11)": [
+        "Signal_Control"
+      ],
+      "unconnected-(U30-CPO2-Pad6)": [
+        "Signal_Control"
+      ],
+      "unconnected-(U30-FETON1-Pad9)": [
+        "Signal_Control"
+      ],
+      "unconnected-(U30-FETON2-Pad8)": [
+        "Signal_Control"
+      ],
+      "unconnected-(U31-CPO1-Pad11)": [
+        "Signal_Control"
+      ],
+      "unconnected-(U31-CPO2-Pad6)": [
+        "Signal_Control"
+      ],
+      "unconnected-(U31-FETON1-Pad9)": [
+        "Signal_Control"
+      ],
+      "unconnected-(U31-FETON2-Pad8)": [
+        "Signal_Control"
+      ],
+      "unconnected-(U5-Pad1)": [
+        "Signal_Control"
+      ],
+      "unconnected-(U5-Pad1)_1": [
+        "Signal_Control"
+      ],
+      "unconnected-(U5-Pad1)_2": [
+        "Signal_Control"
+      ],
+      "unconnected-(U5-Pad1)_3": [
+        "Signal_Control"
+      ],
+      "unconnected-(U6-Pad1)": [
+        "Signal_Control"
+      ],
+      "unconnected-(U6-Pad1)_1": [
+        "Signal_Control"
+      ],
+      "unconnected-(U6-Pad1)_2": [
+        "Signal_Control"
+      ],
+      "unconnected-(U6-Pad1)_3": [
+        "Signal_Control"
+      ],
+      "unconnected-(U6-Pad1)_4": [
+        "Signal_Control"
+      ],
+      "unconnected-(U7-Pad1)": [
+        "Signal_Control"
+      ],
+      "unconnected-(U7-Pad1)_1": [
+        "Signal_Control"
+      ],
+      "unconnected-(U7-Pad1)_2": [
+        "Signal_Control"
+      ],
+      "unconnected-(U7-Pad1)_3": [
+        "Signal_Control"
+      ],
+      "unconnected-(U7-Pad1)_4": [
+        "Signal_Control"
+      ],
+      "unconnected-(U8-Pad1)": [
+        "Signal_Control"
+      ],
+      "unconnected-(U8-Pad1)_1": [
+        "Signal_Control"
+      ],
+      "unconnected-(U8-Pad1)_2": [
+        "Signal_Control"
+      ],
+      "unconnected-(U8-Pad1)_3": [
+        "Signal_Control"
+      ],
+      "unconnected-(U8-Pad1)_4": [
+        "Signal_Control"
+      ],
+      "unconnected-(U9-Pad1)": [
+        "Signal_Control"
+      ],
+      "unconnected-(U9-Pad1)_1": [
+        "Signal_Control"
+      ],
+      "unconnected-(U9-Pad1)_2": [
+        "Signal_Control"
+      ],
+      "unconnected-(U9-Pad1)_3": [
+        "Signal_Control"
+      ],
+      "unconnected-(U9-Pad1)_4": [
+        "Signal_Control"
+      ],
+      "unconnected-(USB33-SBU1-PadA8)": [
+        "Signal_Control"
+      ],
+      "unconnected-(USB33-SBU2-PadB8)": [
+        "Signal_Control"
       ]
     },
     "netclass_patterns": []
@@ -684,6 +2445,10 @@
     [
       "002c9034-3e37-4b7e-9bfc-c61c7c67d734",
       "Power_supply"
+    ],
+    [
+      "002b442a-146d-4553-9e8a-6c907d98a196",
+      "Emergency_cutoff"
     ]
   ],
   "text_variables": {},

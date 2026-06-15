@@ -53,3 +53,4 @@ Snapeda
 Tattu
 UART
 UAVCAN
+VBUS

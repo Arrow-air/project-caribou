@@ -36,7 +36,7 @@
 						(justify left)
 					)
 				)
-				(property "Footprint" "PCM_JLCPCB:D_SMB"
+				(property "Footprint" "CMAIN_PCB:fp_d63b4eda8b"
 					(at -1.778 0 90)
 					(show_name no)
 					(do_not_autoplace no)

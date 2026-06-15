@@ -33,7 +33,7 @@
 						(justify left top)
 					)
 				)
-				(property "Footprint" "Samacsys:0154001DR"
+				(property "Footprint" "CMAIN_PCB:0154001DR"
 					(at 13.97 -96.19 0)
 					(show_name no)
 					(do_not_autoplace no)
@@ -222,7 +222,7 @@
 						(justify left top)
 					)
 				)
-				(property "Footprint" "Samacsys:0154002DR"
+				(property "Footprint" "CMAIN_PCB:fp_bb67a3d8d8"
 					(at 13.97 -96.19 0)
 					(show_name no)
 					(do_not_autoplace no)
@@ -408,7 +408,7 @@
 						(justify left top)
 					)
 				)
-				(property "Footprint" "Samacsys:1778719"
+				(property "Footprint" "CMAIN_PCB:1778719"
 					(at 16.51 -94.92 0)
 					(show_name no)
 					(do_not_autoplace no)
@@ -618,7 +618,7 @@
 						(justify left top)
 					)
 				)
-				(property "Footprint" "Samacsys:1814935"
+				(property "Footprint" "CMAIN_PCB:1814935"
 					(at 16.51 -94.92 0)
 					(show_name no)
 					(do_not_autoplace no)
@@ -831,7 +831,7 @@
 						(justify left top)
 					)
 				)
-				(property "Footprint" "Samacsys:SOD3716X135N"
+				(property "Footprint" "CMAIN_PCB:SOD3716X135N"
 					(at 10.16 -93.65 0)
 					(show_name no)
 					(do_not_autoplace no)
@@ -1054,7 +1054,7 @@
 						(justify left top)
 					)
 				)
-				(property "Footprint" "Samacsys:SM04B-GHS-TB"
+				(property "Footprint" "CMAIN_PCB:fp_628ed3b7cf"
 					(at 16.51 -94.92 0)
 					(show_name no)
 					(do_not_autoplace no)

@@ -5,234 +5,6 @@
 	(uuid "7d358642-ef2e-49b7-b17c-c8d2fafb9bd5")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Samacsys_kicad_sym:SM04B-GHS-TB_LF__SN_"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 5.588 4.318 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "SM04B-GHS-TB_LF__SN_"
-				(at 5.588 2.286 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 0.5 0.5)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "Samacsys:SM04B-GHS-TB"
-				(at 16.51 -94.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" ""
-				(at 16.51 -194.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "JST GH Series, 1.25mm Pitch 4 Way Right Angle PCB Header, Solder Termination, 1A"
-				(at 4.318 9.652 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" ""
-				(at 16.51 -394.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" "N/A"
-				(at 16.51 -494.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/SM04B-GHS-TBLFSN?qs=QpmGXVUTftEJzKB1YHGCXw%3D%3D"
-				(at 16.51 -594.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-				(at 16.51 -694.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "SM04B-GHS-TB(LF)(SN)"
-				(at 16.51 -794.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "SM04B-GHS-TB_LF__SN__1_1"
-				(rectangle
-					(start 5.08 1.27)
-					(end 15.24 -11.43)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 0)
-					(length 5.08)
-					(name "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Snapeda:SMTWEM245STR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -438,7 +210,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "Snapeda:GIGABLOX_NANO_SWITCH_REVA_MODULE_LSHM-120-02.5-L-DV-A-S-K-TR"
+			(property "Footprint" "CMAIN_PCB:fp_072ec239da"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1702,6 +1474,10 @@
 		(uuid "0c51d40e-0cb8-4cb5-916f-f5cb6d4fba8a")
 	)
 	(no_connect
+		(at 121.92 96.52)
+		(uuid "15bb0da4-c5f1-49d8-b2d8-6328d23137c0")
+	)
+	(no_connect
 		(at 219.71 78.74)
 		(uuid "1d6c02a0-2b85-4693-aff4-bc28b16366b9")
 	)
@@ -1722,12 +1498,16 @@
 		(uuid "27575c69-b8b4-4148-8542-c64c6ac3f5b0")
 	)
 	(no_connect
-		(at 91.44 58.42)
-		(uuid "4b00481b-5576-421f-9ad9-6141f5b371a3")
+		(at 91.44 99.06)
+		(uuid "2983d6d9-4546-401d-a38f-2567d9577810")
 	)
 	(no_connect
-		(at 101.6 120.65)
-		(uuid "4c2570cf-1ab9-4229-827b-342d346e470b")
+		(at 189.23 96.52)
+		(uuid "3d4ca2b1-c4b8-4727-9b04-b2effef46264")
+	)
+	(no_connect
+		(at 91.44 58.42)
+		(uuid "4b00481b-5576-421f-9ad9-6141f5b371a3")
 	)
 	(no_connect
 		(at 91.44 78.74)
@@ -1746,10 +1526,6 @@
 		(uuid "63a0561d-a656-4eaf-b82b-aaf28ca55314")
 	)
 	(no_connect
-		(at 199.39 120.65)
-		(uuid "77445452-05d5-479b-b58a-e6518fd8ad81")
-	)
-	(no_connect
 		(at 219.71 58.42)
 		(uuid "77fa4220-7adc-447b-b15f-58d39e9f9af2")
 	)
@@ -1760,6 +1536,10 @@
 	(no_connect
 		(at 219.71 104.14)
 		(uuid "7ae78902-e381-4705-9ea2-25b5edcc9161")
+	)
+	(no_connect
+		(at 189.23 99.06)
+		(uuid "8fe1b72d-aa86-4808-a0d4-f9132aaff23d")
 	)
 	(no_connect
 		(at 189.23 63.5)
@@ -1776,6 +1556,14 @@
 	(no_connect
 		(at 91.44 63.5)
 		(uuid "af8810af-3cf6-4719-8764-863716b16e1c")
+	)
+	(no_connect
+		(at 91.44 96.52)
+		(uuid "bc30067d-5662-4df1-be56-41913bd7a8ac")
+	)
+	(no_connect
+		(at 219.71 96.52)
+		(uuid "be519f37-c8cd-47ff-a64e-72b30dceb49b")
 	)
 	(no_connect
 		(at 219.71 60.96)
@@ -1829,26 +1617,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 114.3) (xy 227.33 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "188bb9bf-9163-487f-9e5f-3d88e9fd4805")
-	)
-	(wire
-		(pts
-			(xy 104.14 114.3) (xy 104.14 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f6944bd-c41b-4260-9440-e7cc85940e69")
-	)
-	(wire
-		(pts
 			(xy 219.71 53.34) (xy 223.52 53.34)
 		)
 		(stroke
@@ -1879,26 +1647,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 99.06) (xy 91.44 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a72199d-f25a-4b87-bf11-7efa096be8b8")
-	)
-	(wire
-		(pts
-			(xy 209.55 113.03) (xy 209.55 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "405917ae-0a56-4ced-8f7b-8ecf6dda0bb9")
-	)
-	(wire
-		(pts
 			(xy 223.52 50.8) (xy 228.6 50.8)
 		)
 		(stroke
@@ -1906,16 +1654,6 @@
 			(type default)
 		)
 		(uuid "41e796aa-a924-4cb3-aebc-30328b0c2970")
-	)
-	(wire
-		(pts
-			(xy 179.07 113.03) (xy 179.07 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4596f432-428c-4653-b107-367af14cb690")
 	)
 	(wire
 		(pts
@@ -1949,26 +1687,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 96.52) (xy 189.23 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c5eb9f1-46cd-4f11-8b47-e3fd8a0e7933")
-	)
-	(wire
-		(pts
-			(xy 179.07 99.06) (xy 189.23 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e7b0bec-d601-4738-8871-12af1c2230f3")
-	)
-	(wire
-		(pts
 			(xy 121.92 86.36) (xy 189.23 86.36)
 		)
 		(stroke
@@ -1979,16 +1697,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 96.52) (xy 219.71 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "699dbc59-63dd-4454-8ea8-0c4e107f856a")
-	)
-	(wire
-		(pts
 			(xy 121.92 91.44) (xy 189.23 91.44)
 		)
 		(stroke
@@ -1996,16 +1704,6 @@
 			(type default)
 		)
 		(uuid "6aaff305-9bf8-4979-a93a-2a771ea87133")
-	)
-	(wire
-		(pts
-			(xy 201.93 114.3) (xy 201.93 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cb02703-069c-43b2-9449-2bc011eb2df5")
 	)
 	(wire
 		(pts
@@ -2029,26 +1727,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 120.65) (xy 106.68 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86784911-6399-43e0-9998-010fd8f28913")
-	)
-	(wire
-		(pts
-			(xy 129.54 114.3) (xy 129.54 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90349e02-26c6-4a9c-a0dd-c1164750cbbb")
-	)
-	(wire
-		(pts
 			(xy 121.92 83.82) (xy 189.23 83.82)
 		)
 		(stroke
@@ -2066,36 +1744,6 @@
 			(type default)
 		)
 		(uuid "a48dcc89-25bb-4bdb-bff3-15938f466da4")
-	)
-	(wire
-		(pts
-			(xy 111.76 113.03) (xy 111.76 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a67e25be-50ab-44b9-9736-d6ebaeb53297")
-	)
-	(wire
-		(pts
-			(xy 204.47 120.65) (xy 204.47 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abe2485d-185f-4b3a-b5bf-52b2cbe8d307")
-	)
-	(wire
-		(pts
-			(xy 209.55 113.03) (xy 179.07 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b17a6785-e961-4ccc-b53d-aa983ddd96e1")
 	)
 	(wire
 		(pts
@@ -2149,16 +1797,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 113.03) (xy 82.55 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c82758bd-94cc-458d-8e45-35b9b950be35")
-	)
-	(wire
-		(pts
 			(xy 121.92 78.74) (xy 189.23 78.74)
 		)
 		(stroke
@@ -2166,46 +1804,6 @@
 			(type default)
 		)
 		(uuid "cf165085-6e6b-4341-8ab6-282256649020")
-	)
-	(wire
-		(pts
-			(xy 111.76 113.03) (xy 82.55 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2b45203-0e11-439f-bcfc-ca4134889364")
-	)
-	(wire
-		(pts
-			(xy 227.33 114.3) (xy 227.33 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3fcd79f-4c73-4769-b6a1-fac0addde690")
-	)
-	(wire
-		(pts
-			(xy 80.01 114.3) (xy 129.54 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d575c78d-1ac6-43f6-b359-fcb0df4b717c")
-	)
-	(wire
-		(pts
-			(xy 80.01 96.52) (xy 91.44 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcc457c6-83c5-4ca0-9575-d163cc60ec53")
 	)
 	(wire
 		(pts
@@ -2219,16 +1817,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 114.3) (xy 80.01 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea179805-f4d6-480c-9d70-59f0fe4ae04d")
-	)
-	(wire
-		(pts
 			(xy 121.92 53.34) (xy 125.73 53.34)
 		)
 		(stroke
@@ -2236,26 +1824,6 @@
 			(type default)
 		)
 		(uuid "f4fe594c-9a75-4012-ab9e-23221e365215")
-	)
-	(wire
-		(pts
-			(xy 177.8 114.3) (xy 177.8 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9758304-cc95-45a0-a398-558e522ceff3")
-	)
-	(wire
-		(pts
-			(xy 129.54 96.52) (xy 121.92 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbf46af2-ff6a-4ecd-8070-cff45f3c3659")
 	)
 	(wire
 		(pts
@@ -2855,7 +2423,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 219.71 99.06 90)
+		(at 219.71 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2865,7 +2433,7 @@
 		(dnp no)
 		(uuid "00c95f51-4204-402a-84c0-ab21efe905b1")
 		(property "Reference" "#PWR043"
-			(at 226.06 99.06 0)
+			(at 219.71 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2876,7 +2444,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 222.25 99.06 90)
+			(at 224.79 101.854 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2941,7 +2509,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0f29b1f6-f797-4b3a-bb9b-8cb6881f681d")
 		(property "Reference" "U14"
 			(at 105.41 35.56 0)
@@ -2955,7 +2522,7 @@
 			)
 		)
 		(property "Value" "SMTWEM245STR"
-			(at 106.68 35.56 0)
+			(at 109.728 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2965,7 +2532,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Snapeda:SCREW-SMD_BD4.4-D2.8-H4.5"
+		(property "Footprint" "CMAIN_PCB:SCREW-SMD_BD4.4-D2.8-H4.5"
 			(at 105.41 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -3099,7 +2666,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Snapeda:GIGABLOX_NANO_SWITCH_REVA_MODULE_LSHM-120-02.5-L-DV-A-S-K-TR"
+		(property "Footprint" "CMAIN_PCB:fp_072ec239da"
 			(at 214.63 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -3426,7 +2993,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 228.6 50.8 90)
+		(at 228.6 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3436,7 +3003,7 @@
 		(dnp no)
 		(uuid "21d52f7a-5107-4ae8-9609-bd5c9fb34dc3")
 		(property "Reference" "#PWR037"
-			(at 234.95 50.8 0)
+			(at 228.6 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3447,7 +3014,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 231.14 50.8 90)
+			(at 230.378 55.118 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3512,7 +3079,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4c767df4-a334-41ce-bf19-aedad0bdbc4b")
 		(property "Reference" "U16"
 			(at 204.47 35.56 0)
@@ -3526,7 +3092,7 @@
 			)
 		)
 		(property "Value" "SMTWEM245STR"
-			(at 205.74 35.56 0)
+			(at 207.264 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3536,7 +3102,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Snapeda:SCREW-SMD_BD4.4-D2.8-H4.5"
+		(property "Footprint" "CMAIN_PCB:SCREW-SMD_BD4.4-D2.8-H4.5"
 			(at 204.47 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -3637,86 +3203,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 207.01 120.65 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5050c78b-45ae-4b5b-b884-04b84a805a62")
-		(property "Reference" "#PWR046"
-			(at 207.01 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 207.01 118.11 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d52e18c3-3f9c-455b-83a2-6c877e3d1d65")
-		)
-		(instances
-			(project "CMAIN_PCB"
-				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311/7fc55132-40b7-435e-ae4f-47513b724df7"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
-		(at 177.8 50.8 90)
+		(at 177.8 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3724,10 +3212,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "705ff9f4-1fa5-4ec2-89a4-3b8c0e2df189")
 		(property "Reference" "#PWR025"
-			(at 181.61 50.8 0)
+			(at 177.8 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3737,15 +3224,14 @@
 				)
 			)
 		)
-		(property "Value" "+12V"
-			(at 173.99 50.8 90)
+		(property "Value" "12V_1"
+			(at 178.054 46.736 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3794,84 +3280,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 109.22 120.65 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "73b898a4-2eac-449d-a034-71db3fe24d18")
-		(property "Reference" "#PWR0126"
-			(at 109.22 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 109.22 118.11 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5e9e3361-fe7f-4103-b21e-552b2457baa7")
-		)
-		(instances
-			(project "CMAIN_PCB"
-				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311/7fc55132-40b7-435e-ae4f-47513b724df7"
-					(reference "#PWR0126")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Snapeda:SMTWEM245STR")
 		(at 196.85 35.56 0)
 		(unit 1)
@@ -3904,7 +3312,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Snapeda:SCREW-SMD_BD4.4-D2.8-H4.5"
+		(property "Footprint" "CMAIN_PCB:SCREW-SMD_BD4.4-D2.8-H4.5"
 			(at 196.85 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -4038,7 +3446,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Snapeda:GIGABLOX_NANO_SWITCH_REVA_MODULE_LSHM-120-02.5-L-DV-A-S-K-TR"
+		(property "Footprint" "CMAIN_PCB:fp_072ec239da"
 			(at 116.84 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -4365,7 +3773,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 80.01 50.8 90)
+		(at 80.01 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4373,10 +3781,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "86c03749-307e-4271-a88b-3ec4276131fc")
 		(property "Reference" "#PWR022"
-			(at 83.82 50.8 0)
+			(at 80.01 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4386,15 +3793,14 @@
 				)
 			)
 		)
-		(property "Value" "+12V"
-			(at 76.2 50.8 90)
+		(property "Value" "12V_1"
+			(at 80.264 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4444,7 +3850,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 121.92 99.06 90)
+		(at 121.92 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4454,7 +3860,7 @@
 		(dnp no)
 		(uuid "93ef810a-9583-4b87-92f7-5bc4f58adde8")
 		(property "Reference" "#PWR021"
-			(at 128.27 99.06 0)
+			(at 121.92 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4465,7 +3871,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 99.06 90)
+			(at 126.746 101.854 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4553,7 +3959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Snapeda:SCREW-SMD_BD4.4-D2.8-H4.5"
+		(property "Footprint" "CMAIN_PCB:SCREW-SMD_BD4.4-D2.8-H4.5"
 			(at 97.79 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -4654,160 +4060,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Samacsys_kicad_sym:SM04B-GHS-TB_LF__SN_")
-		(at 209.55 120.65 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a2682359-93df-4fe6-9a24-b3a705a12c37")
-		(property "Reference" "J52"
-			(at 210.82 127 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SM04B-GHS-TB_LF__SN_"
-			(at 210.82 128.27 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CMAIN_PCB:SM04B-GHS-TB"
-			(at 114.3 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" ""
-			(at 15.24 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "JST GH Series, 1.25mm Pitch 4 Way Right Angle PCB Header, Solder Termination, 1A"
-			(at 209.55 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at -185.42 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "N/A"
-			(at -285.75 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/SM04B-GHS-TBLFSN?qs=QpmGXVUTftEJzKB1YHGCXw%3D%3D"
-			(at -384.81 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-			(at -485.14 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SM04B-GHS-TB(LF)(SN)"
-			(at -585.47 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "4"
-			(uuid "620992ab-9b1a-46a4-815d-1cf89da5b832")
-		)
-		(pin "1"
-			(uuid "11c4a706-71c1-40e2-af0c-decd8421e245")
-		)
-		(pin "3"
-			(uuid "8ae6ec1e-b815-4f2c-b7e7-47827e5fb4f0")
-		)
-		(pin "2"
-			(uuid "dffa335d-fa85-49fc-b09f-80b2664a91bb")
-		)
-		(pin "MP"
-			(uuid "b9119e26-bed6-460f-a2ba-5c79024a5ab4")
-		)
-		(instances
-			(project "CMAIN_PCB"
-				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311/7fc55132-40b7-435e-ae4f-47513b724df7"
-					(reference "J52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 130.81 50.8 90)
+		(at 130.81 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4817,7 +4071,7 @@
 		(dnp no)
 		(uuid "c181df90-99ca-4d8a-bef7-cbaf3fdfca0b")
 		(property "Reference" "#PWR023"
-			(at 137.16 50.8 0)
+			(at 130.81 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4828,7 +4082,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 50.8 90)
+			(at 132.588 55.118 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4878,158 +4132,6 @@
 			(project "CMAIN_PCB"
 				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311/7fc55132-40b7-435e-ae4f-47513b724df7"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Samacsys_kicad_sym:SM04B-GHS-TB_LF__SN_")
-		(at 111.76 120.65 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cee20439-93bb-4224-85b3-a1b67cf9f0be")
-		(property "Reference" "J48"
-			(at 113.03 127 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SM04B-GHS-TB_LF__SN_"
-			(at 113.03 128.27 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CMAIN_PCB:SM04B-GHS-TB"
-			(at 16.51 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" ""
-			(at -82.55 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "JST GH Series, 1.25mm Pitch 4 Way Right Angle PCB Header, Solder Termination, 1A"
-			(at 111.76 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at -283.21 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "N/A"
-			(at -383.54 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/SM04B-GHS-TBLFSN?qs=QpmGXVUTftEJzKB1YHGCXw%3D%3D"
-			(at -482.6 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-			(at -582.93 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SM04B-GHS-TB(LF)(SN)"
-			(at -683.26 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "4"
-			(uuid "29dc943f-b80b-4149-ac7d-4f35112baf8a")
-		)
-		(pin "1"
-			(uuid "2ed6ed8a-33eb-4ba6-8df2-53b9f1055a0b")
-		)
-		(pin "3"
-			(uuid "4488c2ca-ee5f-4e94-a1c2-ff8c918dc602")
-		)
-		(pin "2"
-			(uuid "4f3d75f3-3b82-4abc-b2c7-6f96298ac4fd")
-		)
-		(pin "MP"
-			(uuid "3e70d336-28b7-4917-b59e-8a546d4f30ba")
-		)
-		(instances
-			(project "CMAIN_PCB"
-				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311/7fc55132-40b7-435e-ae4f-47513b724df7"
-					(reference "J48")
 					(unit 1)
 				)
 			)
