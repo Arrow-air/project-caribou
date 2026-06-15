@@ -5,7 +5,8 @@ Caribou PCB project.
 - GitHub issue: [#8 — Design Caribou main PCB: merge Feather PDB and Quiver main PCB](https://github.com/Arrow-air/project-caribou/issues/8)
 - Starting point: Project Feather PDB and Project Quiver main PCB.
 - Scope: low-voltage/signal-level avionics integration, 6-motor outputs, ArduPilot/CAN architecture, ESC signal outputs, sensor connections, and central-frame form factor. High-voltage/current handling is out of scope.
-
+- External 3D viewer / Fusion share link: <https://a360.co/4xzUs3s>
+- STEP export: [`manufacturing/CMAIN_PCB.step`](manufacturing/CMAIN_PCB.step)
 
 ## Connector Requirements
 
