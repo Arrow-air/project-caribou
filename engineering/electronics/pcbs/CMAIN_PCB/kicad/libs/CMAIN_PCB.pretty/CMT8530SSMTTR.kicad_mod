@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 0 0)
 		(layer "F.SilkS")
-		(uuid "6e24eb15-da53-4c32-9e39-bf0de3b6ff32")
+		(uuid "5c5ec763-b658-426a-a68c-1bc075668cdd")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20,7 +20,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "83000051-3413-4371-88ea-025698d5b0e0")
+		(uuid "f551fe6a-f283-418d-80e5-2dce38673627")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ce8b69c5-c8dc-4f1b-b886-d00f54d5fea5")
+		(uuid "539a17f6-f1f8-40f8-9cf1-cabccaac4a90")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "08290835-934f-41ca-af7a-f2309540a9b5")
+		(uuid "f24f755b-2299-406b-8fba-a38fc9e6e861")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -57,7 +57,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5c96dde8-dc9b-4bf2-9ad7-573d94606cd8")
+		(uuid "014f572b-3819-4e59-8311-9ddbb927e982")
 		(effects
 			(font
 				(size 1 1)
@@ -70,7 +70,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8d855558-075d-4411-bd25-db35a459397e")
+		(uuid "52c47142-8e7c-4e0f-af65-3490f81f95c6")
 		(effects
 			(font
 				(size 1 1)
@@ -83,7 +83,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d458ff8c-e8bb-4f49-bad1-bac752e9392f")
+		(uuid "9345075f-1e7f-44e1-bc79-57f4b1190fd2")
 		(effects
 			(font
 				(size 1 1)
@@ -96,7 +96,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b73f45f1-031a-4985-b2d1-aab25653d9b6")
+		(uuid "7202a4fc-c6e4-4f4a-9331-1b13a09a1001")
 		(effects
 			(font
 				(size 1 1)
@@ -109,7 +109,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "373e360b-253a-4661-a854-04877d1c7342")
+		(uuid "73544edf-3cea-4a1c-9f30-1152141e207b")
 		(effects
 			(font
 				(size 1 1)
@@ -128,7 +128,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9a187dec-4502-4e87-b437-c88784337253")
+		(uuid "4d9b55e5-8142-4160-b8b3-9009dd93d17c")
 	)
 	(fp_line
 		(start -1.5 -4.25)
@@ -138,7 +138,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ae3d1854-1d47-4ff4-a68d-e65ee89c72be")
+		(uuid "42a327bf-6d9f-41a2-b801-7a1035c9de16")
 	)
 	(fp_line
 		(start -1.5 4.25)
@@ -148,7 +148,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "93a11701-810b-493b-8360-a6d1e31182a5")
+		(uuid "8150ea19-f867-4d99-9df3-c7c0e0f1e886")
 	)
 	(fp_line
 		(start 4.25 1.5)
@@ -158,7 +158,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d936eb4b-146d-4a56-a748-7fd388467257")
+		(uuid "9b0419ef-6ff6-40ad-9d38-15314c10a3c6")
 	)
 	(fp_line
 		(start 5.1 3.5)
@@ -168,7 +168,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "201ea3f7-db8d-47a0-9569-bebf66bf240d")
+		(uuid "49755200-a5eb-4cdd-9b20-980bd39bd1df")
 	)
 	(fp_line
 		(start 5.2 3.5)
@@ -178,7 +178,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ba985dfd-5cf7-45fa-97d6-ab9b4759075f")
+		(uuid "8e9c5906-f4fb-436a-9947-830805ff79d3")
 	)
 	(fp_arc
 		(start 5.1 3.5)
@@ -189,7 +189,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "663b0921-a0e7-4c20-8ab6-398bc1bad545")
+		(uuid "31090536-acfc-4322-9a55-85aed68e9db9")
 	)
 	(fp_arc
 		(start 5.2 3.5)
@@ -200,7 +200,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "178ee476-4c99-40c7-8ec0-65ef542730fd")
+		(uuid "f31e798c-5bfd-4ae0-80db-5f39c193783b")
 	)
 	(fp_line
 		(start -5.75 -5.75)
@@ -210,7 +210,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "c929b621-c562-4e78-9b44-3ab6fab793c6")
+		(uuid "ab768895-1fd6-4b9b-be3d-0d68844c6efe")
 	)
 	(fp_line
 		(start -5.75 5.75)
@@ -220,7 +220,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "6e9e14da-6986-4ee8-a097-6a9b9a228e18")
+		(uuid "327f37b9-d170-49c0-80a7-25ddd17beee3")
 	)
 	(fp_line
 		(start 5.75 -5.75)
@@ -230,7 +230,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "0b54f27c-71f8-490b-a4e2-742d3a6e6e57")
+		(uuid "c8e642cd-c546-4eb3-bea1-5217a9a54a04")
 	)
 	(fp_line
 		(start 5.75 5.75)
@@ -240,7 +240,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "6b77df07-0a59-4257-a394-8f04fc0ba025")
+		(uuid "8802012c-0cd2-41d8-ad30-a4c6cd46ca92")
 	)
 	(fp_line
 		(start -4.25 -4.25)
@@ -250,7 +250,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "4a7afa29-23b0-443a-b822-f070281575d4")
+		(uuid "62f1b3a7-94f5-4f85-8afa-79746ea84b9e")
 	)
 	(fp_line
 		(start -4.25 4.25)
@@ -260,7 +260,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "a6befe64-6449-42bf-a6a4-91801b1d000f")
+		(uuid "430d1314-1c10-4484-a4fa-c039ae568121")
 	)
 	(fp_line
 		(start 4.25 -4.25)
@@ -270,7 +270,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "e67f7f27-ad91-4260-9282-681eb2146867")
+		(uuid "412b801c-9eba-4ef1-ab63-575909ffad39")
 	)
 	(fp_line
 		(start 4.25 4.25)
@@ -280,12 +280,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "e4edfb39-47a9-497b-953b-f2f87094525b")
+		(uuid "98c5dcc8-a621-49f6-ace3-9e874d33cddb")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "fae5cab6-f13e-4baf-9d8b-2d1b4c08ab28")
+		(uuid "bbb1f488-b078-439b-91f1-6c37d34c2143")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -297,28 +297,28 @@
 		(at 3.5 3.5 90)
 		(size 2.5 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "f8183968-d30b-481d-b23b-b5716af76d8b")
+		(uuid "fe7331e1-74ba-49e2-b442-3f6cd0826f46")
 	)
 	(pad "2" smd rect
 		(at 3.5 -3.5 90)
 		(size 2.5 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "f58c6047-4729-42b0-8e72-ed9233685f26")
+		(uuid "e8f991d6-0457-45c3-a9bc-4a34414c1f1a")
 	)
 	(pad "3" smd rect
 		(at -3.5 -3.5 90)
 		(size 2.5 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "29ff2e36-f483-4c05-b1e4-ffb526939dcc")
+		(uuid "38b23a28-15ec-487f-8b0e-6227bebab3cb")
 	)
 	(pad "4" smd rect
 		(at -3.5 3.5 90)
 		(size 2.5 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "759f08ac-3654-4438-a6f8-540d7b31991d")
+		(uuid "33251647-f37e-4e1d-a380-3c1a5eb0e37b")
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3DMODEL_DIR}/Buzzer_Beeper.3dshapes/Buzzer_Murata_PKMCS0909E.step"
+	(model "${KIPRJMOD}/libs/3dmodels/CMT-8530S-SMT-TR.stp"
 		(offset
 			(xyz 4.25 4.25 3)
 		)

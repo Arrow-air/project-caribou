@@ -173,7 +173,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Samacsys:SOP254P610X218-4N"
+			(property "Footprint" "CMAIN_PCB:fp_b86bc27d28"
 				(at 31.75 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)

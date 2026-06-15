@@ -1989,7 +1989,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA_Lib_CMAIN:IND-SMD_CYA0650-3.3UH"
+			(property "Footprint" "EasyEDA_Lib:IND-SMD_CYA0650-3.3UH"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2196,7 +2196,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Samacsys:0154005DR"
+			(property "Footprint" "CMAIN_PCB:0154005DR"
 				(at 13.97 -96.19 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -11841,7 +11841,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib_CMAIN:IND-SMD_CYA0650-3.3UH"
+		(property "Footprint" "EasyEDA_Lib:IND-SMD_CYA0650-3.3UH"
 			(at 386.08 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -12806,7 +12806,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Samacsys:0154005DR"
+		(property "Footprint" "CMAIN_PCB:0154005DR"
 			(at 436.88 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -14079,7 +14079,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib_CMAIN:IND-SMD_CYA0650-3.3UH"
+		(property "Footprint" "EasyEDA_Lib:IND-SMD_CYA0650-3.3UH"
 			(at 386.334 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -17414,6 +17414,85 @@
 			(project "CMAIN_PCB"
 				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311/002c9034-3e37-4b7e-9bfc-c61c7c67d734"
 					(reference "#PWR0244")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 369.57 284.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66902ea4-0a32-4e46-b982-58a6a9ff6481")
+		(property "Reference" "#FLG907"
+			(at 369.57 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 369.57 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 369.57 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 369.57 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 369.57 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9d484bd3-d7bd-46b5-8387-37b45138d248")
+		)
+		(instances
+			(project "CMAIN_PCB"
+				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311/002c9034-3e37-4b7e-9bfc-c61c7c67d734"
+					(reference "#FLG907")
 					(unit 1)
 				)
 			)
@@ -22935,7 +23014,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Samacsys:0154005DR"
+		(property "Footprint" "CMAIN_PCB:0154005DR"
 			(at 434.34 289.56 0)
 			(hide yes)
 			(show_name no)
@@ -23583,7 +23662,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib_CMAIN:IND-SMD_CYA0650-3.3UH"
+		(property "Footprint" "EasyEDA_Lib:IND-SMD_CYA0650-3.3UH"
 			(at 384.556 293.37 0)
 			(hide yes)
 			(show_name no)
@@ -26821,6 +26900,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 370.84 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2dea2e2-1516-4689-ba9f-577f19559f4e")
+		(property "Reference" "#FLG906"
+			(at 370.84 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 370.84 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 370.84 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 370.84 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 370.84 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0de4da62-df80-43c6-9dbc-0d887dd26c16")
+		)
+		(instances
+			(project "CMAIN_PCB"
+				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311/002c9034-3e37-4b7e-9bfc-c61c7c67d734"
+					(reference "#FLG906")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 402.59 109.22 180)
 		(unit 1)
@@ -28760,7 +28918,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Samacsys:0154005DR"
+		(property "Footprint" "CMAIN_PCB:0154005DR"
 			(at 438.15 389.89 0)
 			(hide yes)
 			(show_name no)
@@ -32031,164 +32189,4 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 370.84 184.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2dea2e2-1516-4689-ba9f-577f19559f4e")
-		(property "Reference" "#FLG906"
-			(at 370.84 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 370.84 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 370.84 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 370.84 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 370.84 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0de4da62-df80-43c6-9dbc-0d887dd26c16")
-		)
-		(instances
-			(project "CMAIN_PCB"
-				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311/002c9034-3e37-4b7e-9bfc-c61c7c67d734"
-					(reference "#FLG906")
-					(unit 1)
-				)
-			)
-		)
-	)
-
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 369.57 284.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "66902ea4-0a32-4e46-b982-58a6a9ff6481")
-		(property "Reference" "#FLG907"
-			(at 369.57 283.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 369.57 279.40 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 369.57 284.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 369.57 284.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 369.57 284.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9d484bd3-d7bd-46b5-8387-37b45138d248")
-		)
-		(instances
-			(project "CMAIN_PCB"
-				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311/002c9034-3e37-4b7e-9bfc-c61c7c67d734"
-					(reference "#FLG907")
-					(unit 1)
-				)
-			)
-		)
-	)
-
 )

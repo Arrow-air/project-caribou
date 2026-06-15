@@ -320,7 +320,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "PCM_JLCPCB:D_SMB"
+			(property "Footprint" "CMAIN_PCB:fp_d63b4eda8b"
 				(at -1.778 0 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -867,7 +867,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Samacsys:0154002DR"
+			(property "Footprint" "CMAIN_PCB:fp_bb67a3d8d8"
 				(at 13.97 -96.19 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1056,7 +1056,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Samacsys:0154002DR"
+			(property "Footprint" "CMAIN_PCB:fp_bb67a3d8d8"
 				(at 13.97 -96.19 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1245,7 +1245,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Samacsys:1812L010DR"
+			(property "Footprint" "CMAIN_PCB:fp_f66875c510"
 				(at 13.97 -96.19 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1458,7 +1458,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "Samacsys_kicad_sym:LEDC2012X85N"
+			(property "Footprint" "CMAIN_PCB:fp_28506134e3"
 				(at 12.7 -93.65 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1731,7 +1731,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Samacsys:SOP254P610X218-4N"
+			(property "Footprint" "CMAIN_PCB:fp_b86bc27d28"
 				(at 31.75 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)

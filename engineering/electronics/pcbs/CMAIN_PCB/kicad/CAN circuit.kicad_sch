@@ -328,7 +328,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Samacsys:SOIC127P1030X265-18N"
+			(property "Footprint" "CMAIN_PCB:SOIC127P1030X265-18N"
 				(at 34.29 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -794,7 +794,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Samacsys:NX3225GD-STD-CRA-3"
+			(property "Footprint" "CMAIN_PCB:NX3225GD-STD-CRA-3"
 				(at 8.89 -96.19 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1019,7 +1019,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Samacsys:DIONC1608X55N"
+			(property "Footprint" "CMAIN_PCB:fp_80e3db1b2a"
 				(at 11.43 -97.46 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1230,7 +1230,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Samacsys:SLW9135352ASMT"
+			(property "Footprint" "CMAIN_PCB:SLW9135352ASMT"
 				(at 26.67 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1476,7 +1476,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Samacsys:SOIC127P600X175-8N"
+			(property "Footprint" "CMAIN_PCB:SOIC127P600X175-8N"
 				(at 24.13 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3715,7 +3715,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Samacsys:SOIC127P1030X265-18N"
+		(property "Footprint" "CMAIN_PCB:SOIC127P1030X265-18N"
 			(at 130.81 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -6189,7 +6189,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Samacsys:SLW9135352ASMT"
+		(property "Footprint" "CMAIN_PCB:SLW9135352ASMT"
 			(at 213.36 -2.54 0)
 			(hide yes)
 			(show_name no)
@@ -6800,7 +6800,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Samacsys:SOIC127P600X175-8N"
+		(property "Footprint" "CMAIN_PCB:SOIC127P600X175-8N"
 			(at 182.88 173.99 0)
 			(hide yes)
 			(show_name no)

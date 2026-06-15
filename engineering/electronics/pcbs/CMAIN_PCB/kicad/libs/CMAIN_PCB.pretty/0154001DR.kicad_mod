@@ -1,0 +1,317 @@
+	(footprint "0154001DR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "10.0")
+		(layer "F.Cu")
+		(descr "SMD-NANO2")
+		(tags "Fuse")
+		(property "Reference" "F5"
+			(at 3.959798 3.535534 135)
+			(layer "F.SilkS")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "0154001.DR"
+			(at 0 -0.021 135)
+			(layer "F.SilkS")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf"
+			(at 0 0 135)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Littelfuse Surface Mount Fuse 1A, 125V ac/dc"
+			(at 0 0 135)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "576-0154001.DR"
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/0154001.DR?qs=gu7KAQ731UTuTU2jXDgQVQ%3D%3D"
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0154001.DR"
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/c60b632a-df5e-4d62-a4c6-0d8226599a53/c9e29e6e-9158-4340-a5bf-c16f462e4e48")
+		(sheetname "/Power_supply/")
+		(sheetfile "power_supply.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 4.865 -2.515)
+			(end 4.865 -2.199999)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 4.865 2.199999)
+			(end 4.865 2.515)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 4.865 2.515)
+			(end -4.865 2.515)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -4.865 -2.515)
+			(end 4.865 -2.515)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -4.865 -2.199999)
+			(end -4.865 -2.515)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -5.8 0)
+			(end -5.8 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -5.9 0)
+			(end -5.9 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -4.865 2.515)
+			(end -4.865 2.199999)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_arc
+			(start -5.8 0)
+			(mid -5.85 0.05)
+			(end -5.9 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_arc
+			(start -5.9 0)
+			(mid -5.85 -0.05)
+			(end -5.8 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start 6 -3)
+			(end 6 3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+		)
+		(fp_line
+			(start 6 3)
+			(end -6 3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+		)
+		(fp_line
+			(start -6 -3)
+			(end 6 -3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+		)
+		(fp_line
+			(start -6 3)
+			(end -6 -3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+		)
+		(fp_line
+			(start 4.865 -2.515)
+			(end -4.865 -2.515)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+		)
+		(fp_line
+			(start 4.865 2.515)
+			(end 4.865 -2.515)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+		)
+		(fp_line
+			(start -4.865 -2.515)
+			(end -4.865 2.515)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+		)
+		(fp_line
+			(start -4.865 2.515)
+			(end 4.865 2.515)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -0.021 135)
+			(layer "F.Fab")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -3.190001 0 225)
+			(size 3.81 4.24)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 347 "Net-(U4-+VO)")
+			(pinfunction "1")
+			(pintype "passive")
+		)
+		(pad "2" smd rect
+			(at 3.190001 0 225)
+			(size 3.81 4.24)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 408 "VDD5V_BRICK2")
+			(pinfunction "2")
+			(pintype "passive")
+		)
+		(embedded_fonts no)
+		(model "0154001.DR.stp"
+			(offset
+				(xyz 0 0.01999999925 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+	)

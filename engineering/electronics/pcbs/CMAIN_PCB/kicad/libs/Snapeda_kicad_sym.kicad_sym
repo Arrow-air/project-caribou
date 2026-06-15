@@ -33,7 +33,7 @@
 						(justify left bottom)
 					)
 				)
-				(property "Footprint" "Snapeda:fp_072ec239da"
+				(property "Footprint" "CMAIN_PCB:fp_072ec239da"
 					(at 0 0 0)
 					(show_name no)
 					(do_not_autoplace no)
@@ -967,7 +967,7 @@
 						(justify left bottom)
 					)
 				)
-				(property "Footprint" "Snapeda:XT30PW-F_AMASS_XT30PW-F"
+				(property "Footprint" "CMAIN_PCB:fp_bb7ca60498"
 					(at 0.254 8.128 0)
 					(show_name no)
 					(do_not_autoplace no)

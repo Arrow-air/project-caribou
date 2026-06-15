@@ -2709,7 +2709,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA_Lib_CMAIN:CONN-SMD_4P-P1.25_BM04B-GHS-TBT-LF-SN"
+			(property "Footprint" "EasyEDA_Lib:fp_49628edcd6"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2946,7 +2946,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA_Lib_CMAIN:SMD_SMTSO3060CTJ"
+			(property "Footprint" "EasyEDA_Lib:SMD_SMTSO3060CTJ"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3104,7 +3104,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA_Lib_CMAIN:SMA_L4.3-W2.6-LS5.0-FD"
+			(property "Footprint" "EasyEDA_Lib:SMA_L4.3-W2.6-LS5.0-FD"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3307,7 +3307,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA_Lib_CMAIN:USB-C-SMD_TYPEC-303-ACP16"
+			(property "Footprint" "EasyEDA_Lib:USB-C-SMD_TYPEC-303-ACP16"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3807,7 +3807,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA_Lib_CMAIN:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+			(property "Footprint" "EasyEDA_Lib:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4693,7 +4693,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Samacsys:1778719"
+		(symbol "CMAIN_PCB:1778719"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4721,7 +4721,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Samacsys:1778719"
+			(property "Footprint" "CMAIN_PCB:1778719"
 				(at 16.51 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4903,217 +4903,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Samacsys:1814935"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 16.51 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "1814935"
-				(at 16.51 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "Samacsys:1814935"
-				(at 16.51 -94.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "http://www.phoenixcontact.com/de/produkte/1814935/pdf"
-				(at 16.51 -194.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "PCB header, nominal cross section: 0.5 mm?, color: white, nominal current: 6 A, rated voltage (III/2): 160 V, contact surface: Tin, type of contact: Male connector, Number of potentials: 4, Number of rows: 1, Number of positions per row: 4, number of connections: 4, product range: PTSM 0,5/..-HH-SMD WH, pitch: 2.5 mm, mounting: SMD soldering, pin layout: Linear pad geometry, Stecksystem: COMBICON COMPACT PTSM, Locking: without, type of packaging: 32 mm wide tape"
-				(at 5.588 12.446 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "5.1"
-				(at 16.51 -394.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" "651-1814935"
-				(at 16.51 -494.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1814935?qs=eTPcRhULBzz6VcWT1ftydw%3D%3D"
-				(at 16.51 -594.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "Phoenix Contact"
-				(at 16.51 -694.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "1814935"
-				(at 16.51 -794.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "1814935_1_1"
-				(rectangle
-					(start 5.08 1.27)
-					(end 15.24 -8.89)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 20.32 0 180)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -2.54 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -5.08 180)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -7.62 180)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Samacsys:SM04B-GHS-TB_LF__SN_"
+		(symbol "CMAIN_PCB:fp_628ed3b7cf_LF__SN_"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5141,7 +4931,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Samacsys:SM04B-GHS-TB"
+			(property "Footprint" "CMAIN_PCB:fp_628ed3b7cf"
 				(at 16.51 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5369,7 +5159,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Samacsys:AXK6S00547YG"
+			(property "Footprint" "CMAIN_PCB:fp_a8c49da410"
 				(at 21.59 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -7307,7 +7097,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Samacsys:CMT8530SSMTTR"
+			(property "Footprint" "CMAIN_PCB:fp_725b73d6bb"
 				(at 21.59 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -7673,7 +7463,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Samacsys:SSQ-120-XX-YYY-D"
+			(property "Footprint" "CMAIN_PCB:SSQ-120-XX-YYY-D"
 				(at 19.05 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -8531,7 +8321,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Samacsys:SLW9135352ASMT"
+			(property "Footprint" "CMAIN_PCB:SLW9135352ASMT"
 				(at 26.67 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -8777,7 +8567,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Samacsys:SM04B-GHS-TB"
+			(property "Footprint" "CMAIN_PCB:fp_628ed3b7cf"
 				(at 16.51 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -9005,7 +8795,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Samacsys:SM05B-GHS-TB"
+			(property "Footprint" "CMAIN_PCB:fp_681455ee5c"
 				(at 16.51 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -9251,7 +9041,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Samacsys:SM06B-GHS-TB"
+			(property "Footprint" "CMAIN_PCB:fp_106ace55d0"
 				(at 16.51 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -9515,7 +9305,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Samacsys:QFN65P400X400X90-17N"
+			(property "Footprint" "CMAIN_PCB:QFN65P400X400X90-17N"
 				(at 31.75 -84.76 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -10540,7 +10330,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "Snapeda:XT30PW-F_AMASS_XT30PW-F"
+			(property "Footprint" "CMAIN_PCB:fp_bb7ca60498"
 				(at 0.254 8.128 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -19553,7 +19343,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib_CMAIN:SMD_SMTSO3060CTJ"
+		(property "Footprint" "EasyEDA_Lib:SMD_SMTSO3060CTJ"
 			(at 137.16 216.662 0)
 			(hide yes)
 			(show_name no)
@@ -20509,7 +20299,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Samacsys:SM04B-GHS-TB_LF__SN_")
+		(lib_id "CMAIN_PCB:fp_628ed3b7cf_LF__SN_")
 		(at 490.474 74.168 0)
 		(mirror y)
 		(unit 1)
@@ -21151,7 +20941,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib_CMAIN:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+		(property "Footprint" "EasyEDA_Lib:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
 			(at 485.648 325.628 0)
 			(hide yes)
 			(show_name no)
@@ -21732,7 +21522,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Samacsys:1778719")
+		(lib_id "CMAIN_PCB:1778719")
 		(at 358.394 166.116 0)
 		(mirror y)
 		(unit 1)
@@ -21765,7 +21555,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Samacsys:1778719"
+		(property "Footprint" "CMAIN_PCB:1778719"
 			(at 341.884 261.366 0)
 			(hide yes)
 			(show_name no)
@@ -22214,7 +22004,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Snapeda:SMD_BD5.6-L5.6-W5.6-D4.1"
+		(property "Footprint" "CMAIN_PCB:SMD_BD5.6-L5.6-W5.6-D4.1"
 			(at 170.434 351.79 0)
 			(hide yes)
 			(show_name no)
@@ -22550,7 +22340,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Samacsys:SM04B-GHS-TB_LF__SN_")
+		(lib_id "CMAIN_PCB:fp_628ed3b7cf_LF__SN_")
 		(at 269.24 39.624 0)
 		(mirror y)
 		(unit 1)
@@ -22732,7 +22522,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib_CMAIN:CONN-SMD_4P-P1.25_BM04B-GHS-TBT-LF-SN"
+		(property "Footprint" "EasyEDA_Lib:fp_49628edcd6"
 			(at 285.75 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -23159,7 +22949,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Samacsys:1778719")
+		(lib_id "CMAIN_PCB:1778719")
 		(at 284.226 286.004 0)
 		(mirror y)
 		(unit 1)
@@ -23192,7 +22982,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Samacsys:1778719"
+		(property "Footprint" "CMAIN_PCB:1778719"
 			(at 267.716 381.254 0)
 			(hide yes)
 			(show_name no)
@@ -23309,7 +23099,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Samacsys:SM04B-GHS-TB_LF__SN_")
+		(lib_id "CMAIN_PCB:fp_628ed3b7cf_LF__SN_")
 		(at 536.956 74.422 0)
 		(mirror y)
 		(unit 1)
@@ -24412,7 +24202,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Samacsys:QFN65P400X400X90-17N"
+		(property "Footprint" "CMAIN_PCB:QFN65P400X400X90-17N"
 			(at 481.33 227.076 0)
 			(hide yes)
 			(show_name no)
@@ -26246,7 +26036,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Samacsys:1778719")
+		(lib_id "CMAIN_PCB:1778719")
 		(at 283.718 309.118 0)
 		(mirror y)
 		(unit 1)
@@ -26279,7 +26069,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Samacsys:1778719"
+		(property "Footprint" "CMAIN_PCB:1778719"
 			(at 267.208 404.368 0)
 			(hide yes)
 			(show_name no)
@@ -26426,7 +26216,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib_CMAIN:CONN-SMD_4P-P1.25_BM04B-GHS-TBT-LF-SN"
+		(property "Footprint" "EasyEDA_Lib:fp_49628edcd6"
 			(at 265.43 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -26575,7 +26365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Snapeda:SMD_BD5.6-L5.6-W5.6-D4.1"
+		(property "Footprint" "CMAIN_PCB:SMD_BD5.6-L5.6-W5.6-D4.1"
 			(at 170.434 346.71 0)
 			(hide yes)
 			(show_name no)
@@ -27330,7 +27120,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Samacsys_kicad_sym:M9N-G4-3100"
+		(property "Footprint" "CMAIN_PCB:M9N-G4-3100"
 			(at 424.434 164.846 0)
 			(hide yes)
 			(show_name no)
@@ -27470,7 +27260,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib_CMAIN:SMD_SMTSO3060CTJ"
+		(property "Footprint" "EasyEDA_Lib:SMD_SMTSO3060CTJ"
 			(at 137.16 233.172 0)
 			(hide yes)
 			(show_name no)
@@ -27797,7 +27587,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Samacsys:SM04B-GHS-TB_LF__SN_")
+		(lib_id "CMAIN_PCB:fp_628ed3b7cf_LF__SN_")
 		(at 446.532 68.072 0)
 		(unit 1)
 		(body_style 1)
@@ -29146,7 +28936,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Snapeda:SMD_BD6.0-D4.2"
+		(property "Footprint" "CMAIN_PCB:SMD_BD6.0-D4.2"
 			(at 416.052 104.902 0)
 			(hide yes)
 			(show_name no)
@@ -29478,8 +29268,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Samacsys:1814935")
-		(at 360.426 367.284 0)
+		(lib_id "CMAIN_PCB:1778719")
+		(at 362.966 367.284 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -29490,17 +29280,7 @@
 		(dnp no)
 		(uuid "7b55347f-cc50-4080-a29a-a6ea86cc5554")
 		(property "Reference" "J50"
-			(at 346.456 377.444 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1814935"
-			(at 354.076 363.474 0)
+			(at 346.456 359.664 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29510,8 +29290,19 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:1814935"
-			(at 343.916 461.264 0)
+		(property "Value" "1778719"
+			(at 346.456 362.204 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "CMAIN_PCB:1778719"
+			(at 346.456 462.204 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29522,8 +29313,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "http://www.phoenixcontact.com/de/produkte/1814935/pdf"
-			(at 343.916 561.594 0)
+		(property "Datasheet" "http://www.phoenixcontact.com/de/produkte/1778719/pdf"
+			(at 346.456 562.204 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29534,8 +29325,8 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "PCB header, nominal cross section: 0.5 mm?, color: white, nominal current: 6 A, rated voltage (III/2): 160 V, contact surface: Tin, type of contact: Male connector, Number of potentials: 4, Number of rows: 1, Number of positions per row: 4, number of connections: 4, product range: PTSM 0,5/..-HH-SMD WH, pitch: 2.5 mm, mounting: SMD soldering, pin layout: Linear pad geometry, Stecksystem: COMBICON COMPACT PTSM, Locking: without, type of packaging: 32 mm wide tape"
-			(at 355.346 354.584 0)
+		(property "Description" "PCB header, nominal cross section: 0.5 mm?, color: white, nominal current: 6 A, rated voltage (III/2): 160 V, contact surface: Tin, type of contact: Male connector, Number of potentials: 4, Number of rows: 1, Number of positions per row: 4, number of connections: 4, product range: PTSM 0,5/..-HV-SMD WH, pitch: 2.5 mm, mounting: SMD soldering, pin layout: Linear pad geometry, solder pin [P]: 2 mm, Stecksystem: COMBICON COMPACT PTSM, Locking: without, type of packaging: 44 mm wide tape, Article with anti-rota"
+			(at 360.68 357.378 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29545,20 +29336,8 @@
 				)
 			)
 		)
-		(property "Height" "5.1"
-			(at 343.916 762.254 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "651-1814935"
-			(at 343.916 861.314 0)
+		(property "Height" "7.65"
+			(at 346.456 762.204 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29569,8 +29348,20 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1814935?qs=eTPcRhULBzz6VcWT1ftydw%3D%3D"
-			(at 343.916 961.644 0)
+		(property "Mouser Part Number" "651-1778719"
+			(at 346.456 862.204 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1778719?qs=o1waKiAPAqfNyRuQw4b1ZA%3D%3D"
+			(at 346.456 962.204 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29582,7 +29373,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 343.916 1061.974 0)
+			(at 346.456 1062.204 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29593,8 +29384,8 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "1814935"
-			(at 343.916 1162.304 0)
+		(property "Manufacturer_Part_Number" "1778719"
+			(at 346.456 1162.204 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29659,7 +29450,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Samacsys:SLW9135352ASMT"
+		(property "Footprint" "CMAIN_PCB:SLW9135352ASMT"
 			(at 411.226 -55.372 0)
 			(hide yes)
 			(show_name no)
@@ -30270,7 +30061,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib_CMAIN:USB-C-SMD_TYPEC-303-ACP16"
+		(property "Footprint" "EasyEDA_Lib:USB-C-SMD_TYPEC-303-ACP16"
 			(at 425.958 325.628 0)
 			(hide yes)
 			(show_name no)
@@ -30461,7 +30252,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Snapeda:SMD_BD5.6-L5.6-W5.6-D4.1"
+		(property "Footprint" "CMAIN_PCB:SMD_BD5.6-L5.6-W5.6-D4.1"
 			(at 170.434 354.33 0)
 			(hide yes)
 			(show_name no)
@@ -30672,7 +30463,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Snapeda:SMD_BD6.0-D4.2"
+		(property "Footprint" "CMAIN_PCB:SMD_BD6.0-D4.2"
 			(at 416.052 102.362 0)
 			(hide yes)
 			(show_name no)
@@ -31084,7 +30875,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Samacsys:1778719")
+		(lib_id "CMAIN_PCB:1778719")
 		(at 358.394 128.778 0)
 		(mirror y)
 		(unit 1)
@@ -31117,7 +30908,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Samacsys:1778719"
+		(property "Footprint" "CMAIN_PCB:1778719"
 			(at 341.884 224.028 0)
 			(hide yes)
 			(show_name no)
@@ -31267,7 +31058,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Snapeda:SMD_BD6.0-D4.2"
+		(property "Footprint" "CMAIN_PCB:SMD_BD6.0-D4.2"
 			(at 416.052 97.282 0)
 			(hide yes)
 			(show_name no)
@@ -31480,7 +31271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Snapeda:SMD_BD6.0-D4.2"
+		(property "Footprint" "CMAIN_PCB:SMD_BD6.0-D4.2"
 			(at 416.052 99.822 0)
 			(hide yes)
 			(show_name no)
@@ -32511,7 +32302,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Samacsys:1778719")
+		(lib_id "CMAIN_PCB:1778719")
 		(at 358.394 150.876 0)
 		(mirror y)
 		(unit 1)
@@ -32544,7 +32335,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Samacsys:1778719"
+		(property "Footprint" "CMAIN_PCB:1778719"
 			(at 341.884 244.856 0)
 			(hide yes)
 			(show_name no)
@@ -32770,7 +32561,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib_CMAIN:CONN-SMD_4P-P1.25_BM04B-GHS-TBT-LF-SN"
+		(property "Footprint" "EasyEDA_Lib:fp_49628edcd6"
 			(at 306.07 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -33074,7 +32865,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib_CMAIN:CONN-SMD_4P-P1.25_BM04B-GHS-TBT-LF-SN"
+		(property "Footprint" "EasyEDA_Lib:fp_49628edcd6"
 			(at 242.57 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -33918,7 +33709,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib_CMAIN:SMA_L4.3-W2.6-LS5.0-FD"
+		(property "Footprint" "EasyEDA_Lib:SMA_L4.3-W2.6-LS5.0-FD"
 			(at 453.898 309.118 0)
 			(hide yes)
 			(show_name no)
@@ -36438,7 +36229,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib_CMAIN:SMD_SMTSO3060CTJ"
+		(property "Footprint" "EasyEDA_Lib:SMD_SMTSO3060CTJ"
 			(at 137.16 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -36878,7 +36669,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Snapeda:SMD_BD5.6-L5.6-W5.6-D4.1"
+		(property "Footprint" "CMAIN_PCB:SMD_BD5.6-L5.6-W5.6-D4.1"
 			(at 170.434 349.25 0)
 			(hide yes)
 			(show_name no)
@@ -37299,7 +37090,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Samacsys:1778719")
+		(lib_id "CMAIN_PCB:1778719")
 		(at 358.394 110.998 0)
 		(mirror y)
 		(unit 1)
@@ -37332,7 +37123,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Samacsys:1778719"
+		(property "Footprint" "CMAIN_PCB:1778719"
 			(at 341.884 206.248 0)
 			(hide yes)
 			(show_name no)
@@ -38073,7 +37864,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Samacsys:1778719")
+		(lib_id "CMAIN_PCB:1778719")
 		(at 278.384 364.998 0)
 		(unit 1)
 		(body_style 1)
@@ -38104,7 +37895,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Samacsys:1778719"
+		(property "Footprint" "CMAIN_PCB:1778719"
 			(at 294.894 460.248 0)
 			(hide yes)
 			(show_name no)
@@ -38253,7 +38044,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib_CMAIN:SMD_SMTSO3060CTJ"
+		(property "Footprint" "EasyEDA_Lib:SMD_SMTSO3060CTJ"
 			(at 137.16 227.584 0)
 			(hide yes)
 			(show_name no)
@@ -38613,7 +38404,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Samacsys:SSM-120-XXX-DV"
+		(property "Footprint" "CMAIN_PCB:SSM-120-XXX-DV"
 			(at 210.058 376.428 0)
 			(hide yes)
 			(show_name no)

@@ -33,7 +33,7 @@
 						(justify left top)
 					)
 				)
-				(property "Footprint" "Samacsys:0154002DR"
+				(property "Footprint" "CMAIN_PCB:fp_bb67a3d8d8"
 					(at 13.97 -96.19 0)
 					(show_name no)
 					(do_not_autoplace no)
@@ -222,7 +222,7 @@
 						(justify left top)
 					)
 				)
-				(property "Footprint" "Samacsys:0154005DR"
+				(property "Footprint" "CMAIN_PCB:0154005DR"
 					(at 13.97 -96.19 0)
 					(show_name no)
 					(do_not_autoplace no)
@@ -408,7 +408,7 @@
 						(justify left top)
 					)
 				)
-				(property "Footprint" "Samacsys:1778735"
+				(property "Footprint" "CMAIN_PCB:1778735"
 					(at 16.51 -94.92 0)
 					(show_name no)
 					(do_not_autoplace no)
@@ -657,7 +657,7 @@
 						(justify left top)
 					)
 				)
-				(property "Footprint" "Samacsys:1812L010DR"
+				(property "Footprint" "CMAIN_PCB:fp_f66875c510"
 					(at 13.97 -96.19 0)
 					(show_name no)
 					(do_not_autoplace no)
@@ -867,7 +867,7 @@
 						(justify left top)
 					)
 				)
-				(property "Footprint" "Samacsys:1814935"
+				(property "Footprint" "CMAIN_PCB:1814935"
 					(at 16.51 -94.92 0)
 					(show_name no)
 					(do_not_autoplace no)
@@ -1077,7 +1077,7 @@
 						(justify left top)
 					)
 				)
-				(property "Footprint" "Samacsys:1814948"
+				(property "Footprint" "CMAIN_PCB:1814948"
 					(at 16.51 -94.92 0)
 					(show_name no)
 					(do_not_autoplace no)
@@ -1305,7 +1305,7 @@
 						(justify left top)
 					)
 				)
-				(property "Footprint" "Samacsys:1814951"
+				(property "Footprint" "CMAIN_PCB:1814951"
 					(at 19.05 -94.92 0)
 					(show_name no)
 					(do_not_autoplace no)
@@ -1554,7 +1554,7 @@
 						(justify left bottom)
 					)
 				)
-				(property "Footprint" "Samacsys_kicad_sym:LEDC2012X85N"
+				(property "Footprint" "CMAIN_PCB:fp_28506134e3"
 					(at 12.7 -93.65 0)
 					(show_name no)
 					(do_not_autoplace no)
@@ -1827,7 +1827,7 @@
 						(justify left top)
 					)
 				)
-				(property "Footprint" "Samacsys:AXK6S00547YG"
+				(property "Footprint" "CMAIN_PCB:fp_a8c49da410"
 					(at 21.59 -94.92 0)
 					(show_name no)
 					(do_not_autoplace no)
@@ -3765,7 +3765,7 @@
 						(justify left top)
 					)
 				)
-				(property "Footprint" "Samacsys:CMT8530SSMTTR"
+				(property "Footprint" "CMAIN_PCB:fp_725b73d6bb"
 					(at 21.59 -94.92 0)
 					(show_name no)
 					(do_not_autoplace no)
@@ -3975,7 +3975,7 @@
 						(justify left top)
 					)
 				)
-				(property "Footprint" "Samacsys:SOP254P610X218-4N"
+				(property "Footprint" "CMAIN_PCB:fp_b86bc27d28"
 					(at 31.75 -94.92 0)
 					(show_name no)
 					(do_not_autoplace no)
@@ -4341,7 +4341,7 @@
 						(justify left top)
 					)
 				)
-				(property "Footprint" "Samacsys:SOIC127P1030X265-18N"
+				(property "Footprint" "CMAIN_PCB:SOIC127P1030X265-18N"
 					(at 34.29 -94.92 0)
 					(show_name no)
 					(do_not_autoplace no)
@@ -4807,7 +4807,7 @@
 						(justify left top)
 					)
 				)
-				(property "Footprint" "Samacsys:NX3225GD-STD-CRA-3"
+				(property "Footprint" "CMAIN_PCB:NX3225GD-STD-CRA-3"
 					(at 8.89 -96.19 0)
 					(show_name no)
 					(do_not_autoplace no)
@@ -5032,7 +5032,7 @@
 						(justify left top)
 					)
 				)
-				(property "Footprint" "Samacsys:DIONC1608X55N"
+				(property "Footprint" "CMAIN_PCB:fp_80e3db1b2a"
 					(at 11.43 -97.46 0)
 					(show_name no)
 					(do_not_autoplace no)
@@ -5243,7 +5243,7 @@
 						(justify left top)
 					)
 				)
-				(property "Footprint" "Samacsys:REC20K"
+				(property "Footprint" "CMAIN_PCB:REC20K"
 					(at 26.67 -94.92 0)
 					(show_name no)
 					(do_not_autoplace no)
@@ -5489,7 +5489,7 @@
 						(justify left top)
 					)
 				)
-				(property "Footprint" "Samacsys:REC30K"
+				(property "Footprint" "CMAIN_PCB:REC30K"
 					(at 26.67 -94.92 0)
 					(show_name no)
 					(do_not_autoplace no)
@@ -5735,7 +5735,7 @@
 						(justify left top)
 					)
 				)
-				(property "Footprint" "Samacsys:SSQ-120-XX-YYY-D"
+				(property "Footprint" "CMAIN_PCB:SSQ-120-XX-YYY-D"
 					(at 19.05 -94.92 0)
 					(show_name no)
 					(do_not_autoplace no)
@@ -6593,7 +6593,7 @@
 						(justify left top)
 					)
 				)
-				(property "Footprint" "Samacsys:SLW9135352ASMT"
+				(property "Footprint" "CMAIN_PCB:SLW9135352ASMT"
 					(at 26.67 -94.92 0)
 					(show_name no)
 					(do_not_autoplace no)
@@ -6839,7 +6839,7 @@
 						(justify left top)
 					)
 				)
-				(property "Footprint" "Samacsys:SM04B-GHS-TB"
+				(property "Footprint" "CMAIN_PCB:fp_628ed3b7cf"
 					(at 16.51 -94.92 0)
 					(show_name no)
 					(do_not_autoplace no)
@@ -7067,7 +7067,7 @@
 						(justify left top)
 					)
 				)
-				(property "Footprint" "Samacsys:SM05B-GHS-TB"
+				(property "Footprint" "CMAIN_PCB:fp_681455ee5c"
 					(at 16.51 -94.92 0)
 					(show_name no)
 					(do_not_autoplace no)
@@ -7313,7 +7313,7 @@
 						(justify left top)
 					)
 				)
-				(property "Footprint" "Samacsys:SM06B-GHS-TB"
+				(property "Footprint" "CMAIN_PCB:fp_106ace55d0"
 					(at 16.51 -94.92 0)
 					(show_name no)
 					(do_not_autoplace no)
@@ -7577,7 +7577,7 @@
 						(justify left top)
 					)
 				)
-				(property "Footprint" "Samacsys:SOIC127P600X175-8N"
+				(property "Footprint" "CMAIN_PCB:SOIC127P600X175-8N"
 					(at 24.13 -94.92 0)
 					(show_name no)
 					(do_not_autoplace no)
@@ -7860,7 +7860,7 @@
 						(justify left top)
 					)
 				)
-				(property "Footprint" "Samacsys:QFN65P400X400X90-17N"
+				(property "Footprint" "CMAIN_PCB:QFN65P400X400X90-17N"
 					(at 31.75 -84.76 0)
 					(show_name no)
 					(do_not_autoplace no)
@@ -8304,7 +8304,7 @@
 						(justify left top)
 					)
 				)
-				(property "Footprint" "Samacsys:USB421603A"
+				(property "Footprint" "CMAIN_PCB:USB421603A"
 					(at 29.21 -94.92 0)
 					(show_name no)
 					(do_not_autoplace no)

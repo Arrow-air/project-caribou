@@ -210,7 +210,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "Snapeda:fp_072ec239da"
+			(property "Footprint" "CMAIN_PCB:fp_072ec239da"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2532,7 +2532,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Snapeda:SCREW-SMD_BD4.4-D2.8-H4.5"
+		(property "Footprint" "CMAIN_PCB:SCREW-SMD_BD4.4-D2.8-H4.5"
 			(at 105.41 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -2666,7 +2666,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Snapeda:fp_072ec239da"
+		(property "Footprint" "CMAIN_PCB:fp_072ec239da"
 			(at 214.63 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -3102,7 +3102,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Snapeda:SCREW-SMD_BD4.4-D2.8-H4.5"
+		(property "Footprint" "CMAIN_PCB:SCREW-SMD_BD4.4-D2.8-H4.5"
 			(at 204.47 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -3312,7 +3312,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Snapeda:SCREW-SMD_BD4.4-D2.8-H4.5"
+		(property "Footprint" "CMAIN_PCB:SCREW-SMD_BD4.4-D2.8-H4.5"
 			(at 196.85 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -3446,7 +3446,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Snapeda:fp_072ec239da"
+		(property "Footprint" "CMAIN_PCB:fp_072ec239da"
 			(at 116.84 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -3959,7 +3959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Snapeda:SCREW-SMD_BD4.4-D2.8-H4.5"
+		(property "Footprint" "CMAIN_PCB:SCREW-SMD_BD4.4-D2.8-H4.5"
 			(at 97.79 40.64 0)
 			(hide yes)
 			(show_name no)
