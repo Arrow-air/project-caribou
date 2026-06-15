@@ -5026,7 +5026,7 @@
 					(justify left top)
 				)
 			)
-			(symbol "SM04B-GHS-TB_LF__SN__1_1"
+			(symbol "fp_628ed3b7cf_LF__SN__1_1"
 				(rectangle
 					(start 5.08 1.27)
 					(end 15.24 -11.43)
