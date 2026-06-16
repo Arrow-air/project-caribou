@@ -1,0 +1,579 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-06-16T10:50:03",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.1",
+    "schematic_parity": [
+        {
+            "description": "Missing symbol field 'Height' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J8",
+                    "pos": {
+                        "x": 295.0,
+                        "y": 78.0
+                    },
+                    "uuid": "ba006e32-86d4-43a8-8f00-8d7b19d7cf81"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'SUPPLIER PART NUMBER' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J12",
+                    "pos": {
+                        "x": 240.0,
+                        "y": 35.0
+                    },
+                    "uuid": "2f73a103-4869-4257-9422-7511130b1fc4"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'SUPPLIER PART NUMBER' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J13",
+                    "pos": {
+                        "x": 255.0,
+                        "y": 35.0
+                    },
+                    "uuid": "3dad6342-6fc7-46aa-8718-ef8e0b6441af"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'SUPPLIER PART NUMBER' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J23",
+                    "pos": {
+                        "x": 230.0,
+                        "y": 231.3
+                    },
+                    "uuid": "536da82a-c06d-4263-84bf-7a2b7e9b2959"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'SUPPLIER PART NUMBER' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J27",
+                    "pos": {
+                        "x": 230.0,
+                        "y": 214.8
+                    },
+                    "uuid": "e67389d0-baa5-4d57-9fb2-25cf9a0bb14f"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'SUPPLIER PART NUMBER' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J29",
+                    "pos": {
+                        "x": 240.0,
+                        "y": 50.0
+                    },
+                    "uuid": "a73696f4-3b07-4dcf-b067-3e1a79b214aa"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'SUPPLIER PART NUMBER' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J30",
+                    "pos": {
+                        "x": 270.0,
+                        "y": 50.0
+                    },
+                    "uuid": "0b941125-ec25-4d83-8946-514b5bfea06b"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'SUPPLIER PART NUMBER' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J31",
+                    "pos": {
+                        "x": 255.0,
+                        "y": 50.0
+                    },
+                    "uuid": "4630499d-cffd-49f9-a74d-61bbdb5801b1"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'SUPPLIER PART NUMBER' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J32",
+                    "pos": {
+                        "x": 170.0,
+                        "y": 214.8
+                    },
+                    "uuid": "e295c9c5-51d8-4d43-9a2e-e54afb63e22f"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Height' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J37",
+                    "pos": {
+                        "x": 240.0,
+                        "y": 65.0
+                    },
+                    "uuid": "d8a2b824-ce6d-47f0-b690-65786428b156"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Height' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J38",
+                    "pos": {
+                        "x": 270.0,
+                        "y": 65.0
+                    },
+                    "uuid": "159f1815-eeed-4f87-bd1e-dbe39aafc2ce"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Height' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J39",
+                    "pos": {
+                        "x": 255.0,
+                        "y": 65.0
+                    },
+                    "uuid": "c4080d79-3a3f-4c84-9e9a-6e90e849aabe"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'SUPPLIER PART NUMBER' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J40",
+                    "pos": {
+                        "x": 170.0,
+                        "y": 198.3
+                    },
+                    "uuid": "8c297d5b-377a-4fe8-8c6c-96e0a87a074d"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Height' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J43",
+                    "pos": {
+                        "x": 125.0,
+                        "y": 50.0
+                    },
+                    "uuid": "e70e9bae-10d6-4275-aeec-f9ea9edbaa02"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'SUPPLIER PART NUMBER' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J45",
+                    "pos": {
+                        "x": 230.0,
+                        "y": 198.3
+                    },
+                    "uuid": "aff0fd97-4935-4028-bb04-cb8c77d861bf"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Height' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J46",
+                    "pos": {
+                        "x": 125.0,
+                        "y": 62.0
+                    },
+                    "uuid": "e21ba9ca-b73c-42b8-869f-06810bc2ae23"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Height' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J48",
+                    "pos": {
+                        "x": 125.0,
+                        "y": 74.0
+                    },
+                    "uuid": "e4897f35-6268-46fc-bcc9-7bae8064350e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Height' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J49",
+                    "pos": {
+                        "x": 295.0,
+                        "y": 63.0
+                    },
+                    "uuid": "68e85eee-21e8-499b-ad88-19401671cb51"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'SUPPLIER PART NUMBER' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J52",
+                    "pos": {
+                        "x": 295.0,
+                        "y": 93.0
+                    },
+                    "uuid": "ae056d4b-62c3-43eb-9cbc-7ef55a10172b"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'SUPPLIER PART NUMBER' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J53",
+                    "pos": {
+                        "x": 270.0,
+                        "y": 35.0
+                    },
+                    "uuid": "e867ee7c-04bb-466b-b636-c4071a183e20"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'SUPPLIER PART NUMBER' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J55",
+                    "pos": {
+                        "x": 170.0,
+                        "y": 231.3
+                    },
+                    "uuid": "d694555c-2e2c-4579-9845-e0aa89e8fef1"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Height' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J56",
+                    "pos": {
+                        "x": 125.0,
+                        "y": 86.0
+                    },
+                    "uuid": "13df0a3a-75bf-48a8-8709-2363ef642ad1"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'SUPPLIER PART NUMBER' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J57",
+                    "pos": {
+                        "x": 295.0,
+                        "y": 48.0
+                    },
+                    "uuid": "22a386fa-39ee-4cb0-9188-7deabfe969d4"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'SUPPLIER PART NUMBER' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J25",
+                    "pos": {
+                        "x": 214.0,
+                        "y": 216.8
+                    },
+                    "uuid": "eae517ed-7958-4fc2-bc4f-dcaf00c364aa"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'SUPPLIER PART NUMBER' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J26",
+                    "pos": {
+                        "x": 186.0,
+                        "y": 216.8
+                    },
+                    "uuid": "7df82784-7cf1-4be4-9495-f62114df8636"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'SUPPLIER PART NUMBER' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J28",
+                    "pos": {
+                        "x": 186.0,
+                        "y": 200.3
+                    },
+                    "uuid": "20705887-5071-4c83-9d94-1fbce7801025"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'SUPPLIER PART NUMBER' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J34",
+                    "pos": {
+                        "x": 214.0,
+                        "y": 233.3
+                    },
+                    "uuid": "596c5fe2-8965-464e-a5e3-933d02a6b6ea"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'SUPPLIER PART NUMBER' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J42",
+                    "pos": {
+                        "x": 214.0,
+                        "y": 200.3
+                    },
+                    "uuid": "535a40fc-4925-4046-bae1-f550c55b108a"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'SUPPLIER PART NUMBER' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J44",
+                    "pos": {
+                        "x": 186.0,
+                        "y": 233.3
+                    },
+                    "uuid": "ba343e9f-c7cd-4168-91b8-7d431fa2d7dc"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        }
+    ],
+    "source": "CMAIN_PCB.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Footprint 'fp_49628edcd6' does not match copy in library 'EasyEDA_Lib'",
+            "items": [
+                {
+                    "description": "Footprint CN20",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 69.175
+                    },
+                    "uuid": "0e875dc5-bab4-4b1e-9466-b4814e275bf5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'fp_49628edcd6' does not match copy in library 'EasyEDA_Lib'",
+            "items": [
+                {
+                    "description": "Footprint CN18",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 59.5
+                    },
+                    "uuid": "1e6ac1c3-8dde-458d-9de7-c3fd224867dc"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SMA_L4.3-W2.6-LS5.0-FD' does not match copy in library 'EasyEDA_Lib'",
+            "items": [
+                {
+                    "description": "Footprint D8",
+                    "pos": {
+                        "x": 136.1,
+                        "y": 98.5
+                    },
+                    "uuid": "2449ca68-d7b5-45fa-ab89-a91933fbe356"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'fp_49628edcd6' does not match copy in library 'EasyEDA_Lib'",
+            "items": [
+                {
+                    "description": "Footprint CN54",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 49.8
+                    },
+                    "uuid": "3257f775-6735-4a56-b043-afcdd59cc91e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'fp_49628edcd6' does not match copy in library 'EasyEDA_Lib'",
+            "items": [
+                {
+                    "description": "Footprint CN22",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 78.825
+                    },
+                    "uuid": "616b9fdc-c741-463a-afc3-9ec965a93722"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL' does not match copy in library 'EasyEDA_Lib'",
+            "items": [
+                {
+                    "description": "Footprint D5",
+                    "pos": {
+                        "x": 132.45,
+                        "y": 99.8
+                    },
+                    "uuid": "6c0554df-c8bd-4432-a3e3-75de6d09e555"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Text thickness out of range (TrueType font characters with insufficient stroke weight)",
+            "items": [
+                {
+                    "description": "PCB text 'ARROW\t\nProject Quiver MAIN_PCB V1.2\n12/25' on F.Silkscreen",
+                    "pos": {
+                        "x": 238.5,
+                        "y": 298.4
+                    },
+                    "uuid": "966ddde5-9477-48c1-befe-9199e378e7f9"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        }
+    ]
+}
