@@ -1288,6 +1288,209 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "CMAIN_PCB:CYA0650-3.3UH"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "3.3uH"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA_Lib:IND-SMD_CYA0650-3.3UH"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/CYA0650-3.3UH/5869572.html"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Inductance:3.3uH Tolerance:±20% Tolerance:±20% Current Rating:8.5A Current - Saturation (Isat):9A DC Resistance(DCR):19.9mΩ"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "CYA0650-3.3UH"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "SHOU HAN(首韩)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part" "C5189753"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part Name" "3.3uH ±20%"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CYA0650-3.3UH_1_0"
+				(arc
+					(start -4.064 0)
+					(mid -3.0226 1.016)
+					(end -2.032 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.032 0)
+					(mid -0.9906 1.016)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 1.016 1.016)
+					(end 2.032 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.032 0)
+					(mid 3.048 1.016)
+					(end 4.064 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 1.016)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 1.016)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "CMAIN_PCB:SY8205FCC"
 			(pin_names
 				(offset 1.016)
@@ -1955,209 +2158,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "CMAIN_PCB:CYA0650-3.3UH"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "3.3uH"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "EasyEDA_Lib:IND-SMD_CYA0650-3.3UH"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://item.szlcsc.com/datasheet/CYA0650-3.3UH/5869572.html"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Inductance:3.3uH Tolerance:±20% Tolerance:±20% Current Rating:8.5A Current - Saturation (Isat):9A DC Resistance(DCR):19.9mΩ"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part" "CYA0650-3.3UH"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "SHOU HAN(首韩)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier Part" "C5189753"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part Name" "3.3uH ±20%"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CYA0650-3.3UH_1_0"
-				(arc
-					(start -4.064 0)
-					(mid -3.0226 1.016)
-					(end -2.032 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.032 0)
-					(mid -0.9906 1.016)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 1.016 1.016)
-					(end 2.032 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.032 0)
-					(mid 3.048 1.016)
-					(end 4.064 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 1.016)
-					(name "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 1.016)
-					(name "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
 							)
 						)
 					)
@@ -9438,7 +9438,7 @@
 		)
 		(uuid "fffc01e9-9cd0-4344-84b8-a0feb3fd6458")
 	)
-	(global_label "CANL_DRONE"
+	(global_label "CAN1_L"
 		(shape bidirectional)
 		(at 93.98 222.25 0)
 		(fields_autoplaced yes)
@@ -9450,7 +9450,7 @@
 		)
 		(uuid "00f8e9fe-f006-4854-9580-62cc1d8685bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.22 222.25 0)
+			(at 104.9708 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9462,9 +9462,9 @@
 			)
 		)
 	)
-	(global_label "CANH_DRONE"
+	(global_label "CAN1_H"
 		(shape bidirectional)
-		(at 93.98 83.82 0)
+		(at 93.98 325.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9472,9 +9472,9 @@
 			)
 			(justify left)
 		)
-		(uuid "164c88fc-f83a-4694-a731-d601b83c376a")
+		(uuid "1170ae87-e21d-424d-b267-5516ab473a31")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.22 83.82 0)
+			(at 105.2732 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9486,9 +9486,9 @@
 			)
 		)
 	)
-	(global_label "CANL_DRONE"
+	(global_label "CAN1_H"
 		(shape bidirectional)
-		(at 93.98 175.26 0)
+		(at 93.98 177.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9496,9 +9496,9 @@
 			)
 			(justify left)
 		)
-		(uuid "27a1dc89-c982-40a6-a9f3-d7a19baad2a2")
+		(uuid "2523d339-2b07-44d3-bde6-4708cbb99282")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.22 175.26 0)
+			(at 105.2732 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9510,7 +9510,31 @@
 			)
 		)
 	)
-	(global_label "CANL_DRONE"
+	(global_label "CAN1_H"
+		(shape bidirectional)
+		(at 93.98 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2fc4bb9d-4dda-4ead-a8ae-8d275380f4be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.2732 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CAN1_L"
 		(shape bidirectional)
 		(at 93.98 322.58 0)
 		(fields_autoplaced yes)
@@ -9520,9 +9544,9 @@
 			)
 			(justify left)
 		)
-		(uuid "28f22bf6-9e93-402c-8c8d-67a4b0cbd9a8")
+		(uuid "3d533d86-811e-475d-9655-a62a505b23c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.22 322.58 0)
+			(at 104.9708 322.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9534,31 +9558,7 @@
 			)
 		)
 	)
-	(global_label "CANL_DRONE"
-		(shape bidirectional)
-		(at 93.98 275.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2d53c1cb-eff8-4b9f-a5ed-6f8adef16d60")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.22 275.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "CANL_DRONE"
+	(global_label "CAN1_L"
 		(shape bidirectional)
 		(at 93.98 81.28 0)
 		(fields_autoplaced yes)
@@ -9568,9 +9568,9 @@
 			)
 			(justify left)
 		)
-		(uuid "41ec12d8-4b36-481e-8fc0-407aeabbbb03")
+		(uuid "4b995c54-4587-47ae-8f9c-c613813a0b3c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.22 81.28 0)
+			(at 104.9708 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9582,9 +9582,9 @@
 			)
 		)
 	)
-	(global_label "CANL_DRONE"
+	(global_label "CAN1_H"
 		(shape bidirectional)
-		(at 93.98 128.27 0)
+		(at 93.98 278.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9592,9 +9592,9 @@
 			)
 			(justify left)
 		)
-		(uuid "4938dd61-878d-4cf9-a9f6-4a6681060bcf")
+		(uuid "6ad45f14-faf2-45b6-8d44-cb3a681d55dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.22 128.27 0)
+			(at 105.2732 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9606,7 +9606,7 @@
 			)
 		)
 	)
-	(global_label "CANH_DRONE"
+	(global_label "CAN1_H"
 		(shape bidirectional)
 		(at 93.98 224.79 0)
 		(fields_autoplaced yes)
@@ -9618,7 +9618,7 @@
 		)
 		(uuid "767e3472-fa86-4f6b-af1f-53f01326d527")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.22 224.79 0)
+			(at 105.2732 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9630,9 +9630,9 @@
 			)
 		)
 	)
-	(global_label "CANH_DRONE"
+	(global_label "CAN1_L"
 		(shape bidirectional)
-		(at 93.98 325.12 0)
+		(at 93.98 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9640,9 +9640,9 @@
 			)
 			(justify left)
 		)
-		(uuid "7fe0b131-c064-47af-8022-b10a5e421703")
+		(uuid "7e86922c-9969-402f-9e4a-3c46a89385d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.22 325.12 0)
+			(at 104.9708 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9654,9 +9654,9 @@
 			)
 		)
 	)
-	(global_label "CANH_DRONE"
+	(global_label "CAN1_L"
 		(shape bidirectional)
-		(at 93.98 278.13 0)
+		(at 93.98 275.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9664,9 +9664,9 @@
 			)
 			(justify left)
 		)
-		(uuid "efa3ddc0-b4d4-468a-9fd1-ba433a133642")
+		(uuid "9b607b11-cb08-4b9b-9afd-f5300c37a2f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.22 278.13 0)
+			(at 104.9708 275.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9678,9 +9678,9 @@
 			)
 		)
 	)
-	(global_label "CANH_DRONE"
+	(global_label "CAN1_L"
 		(shape bidirectional)
-		(at 93.98 130.81 0)
+		(at 93.98 175.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9688,9 +9688,9 @@
 			)
 			(justify left)
 		)
-		(uuid "efbf508c-490f-4e48-9413-ea52e14d3bde")
+		(uuid "a0658c03-cae6-498f-b6e1-63f11c72a992")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.22 130.81 0)
+			(at 104.9708 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9702,9 +9702,9 @@
 			)
 		)
 	)
-	(global_label "CANH_DRONE"
+	(global_label "CAN1_H"
 		(shape bidirectional)
-		(at 93.98 177.8 0)
+		(at 93.98 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9712,9 +9712,9 @@
 			)
 			(justify left)
 		)
-		(uuid "f3679e59-8dd3-438c-98d4-7f526256f53a")
+		(uuid "dfafd18f-bbb1-4b47-be42-407f6ca365ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.22 177.8 0)
+			(at 105.2732 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
