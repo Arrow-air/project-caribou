@@ -54,3 +54,5 @@ Tattu
 UART
 UAVCAN
 VBUS
+SMTSO
+edcd
