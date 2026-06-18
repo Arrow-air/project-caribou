@@ -1125,7 +1125,7 @@
 				)
 			)
 		)
-		(property "Value" "1K5"
+		(property "Value" "1K5 150V"
 			(at 67.564 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1135,7 +1135,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 67.564 41.91 90)
 			(hide yes)
 			(show_name no)
@@ -1281,7 +1281,7 @@
 				)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "47K 150V"
 			(at 106.934 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1291,7 +1291,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 110.49 148.59 90)
 			(hide yes)
 			(show_name no)
@@ -1809,7 +1809,7 @@
 				)
 			)
 		)
-		(property "Value" "1K5"
+		(property "Value" "1K5 150V"
 			(at 122.936 142.494 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1819,7 +1819,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 122.936 146.05 90)
 			(hide yes)
 			(show_name no)
@@ -1966,7 +1966,7 @@
 				)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "47K 150V"
 			(at 183.134 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1976,7 +1976,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 186.69 90.17 90)
 			(hide yes)
 			(show_name no)
@@ -2045,7 +2045,7 @@
 				)
 			)
 		)
-		(property "Value" "1K5"
+		(property "Value" "1K5 150V"
 			(at 123.19 40.894 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2055,7 +2055,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 123.19 44.45 90)
 			(hide yes)
 			(show_name no)
@@ -2202,7 +2202,7 @@
 				)
 			)
 		)
-		(property "Value" "1R"
+		(property "Value" "1R 150V"
 			(at 166.37 99.314 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2212,7 +2212,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 166.37 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -2281,7 +2281,7 @@
 				)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "47K 150V"
 			(at 182.88 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2291,7 +2291,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 186.436 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -2360,7 +2360,7 @@
 				)
 			)
 		)
-		(property "Value" "1R"
+		(property "Value" "1R 150V"
 			(at 166.37 40.894 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2370,7 +2370,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 166.37 44.45 90)
 			(hide yes)
 			(show_name no)
@@ -2751,7 +2751,7 @@
 				)
 			)
 		)
-		(property "Value" "1R"
+		(property "Value" "1R 150V"
 			(at 166.116 142.494 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2761,7 +2761,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 166.116 146.05 90)
 			(hide yes)
 			(show_name no)
@@ -3434,7 +3434,7 @@
 				)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "47K 150V"
 			(at 183.134 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3444,7 +3444,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 186.69 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -3668,7 +3668,7 @@
 				)
 			)
 		)
-		(property "Value" "1R"
+		(property "Value" "1R 150V"
 			(at 166.37 119.634 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3678,7 +3678,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 166.37 123.19 90)
 			(hide yes)
 			(show_name no)
@@ -3825,7 +3825,7 @@
 				)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "47K 150V"
 			(at 183.134 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3835,7 +3835,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 186.69 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -4129,7 +4129,7 @@
 				)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "47K 150V"
 			(at 183.134 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4139,7 +4139,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 186.69 128.27 90)
 			(hide yes)
 			(show_name no)
@@ -4362,7 +4362,7 @@
 				)
 			)
 		)
-		(property "Value" "1K5"
+		(property "Value" "1K5 150V"
 			(at 123.19 119.634 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4372,7 +4372,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 123.19 123.19 90)
 			(hide yes)
 			(show_name no)
@@ -4518,7 +4518,7 @@
 				)
 			)
 		)
-		(property "Value" "1K5"
+		(property "Value" "1K5 150V"
 			(at 123.19 99.314 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4528,7 +4528,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 123.19 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -4674,7 +4674,7 @@
 				)
 			)
 		)
-		(property "Value" "1R"
+		(property "Value" "1R 150V"
 			(at 166.37 81.534 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4684,7 +4684,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 166.37 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -4900,7 +4900,7 @@
 				)
 			)
 		)
-		(property "Value" "1K5"
+		(property "Value" "1K5 150V"
 			(at 123.19 61.214 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4910,7 +4910,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 123.19 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -5281,7 +5281,7 @@
 				)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "47K 150V"
 			(at 183.134 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5291,7 +5291,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 186.69 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -5360,7 +5360,7 @@
 				)
 			)
 		)
-		(property "Value" "1R"
+		(property "Value" "1R 150V"
 			(at 166.37 61.214 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5370,7 +5370,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 166.37 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -5594,7 +5594,7 @@
 				)
 			)
 		)
-		(property "Value" "1K5"
+		(property "Value" "1K5 150V"
 			(at 123.19 81.534 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5604,7 +5604,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 123.19 85.09 90)
 			(hide yes)
 			(show_name no)

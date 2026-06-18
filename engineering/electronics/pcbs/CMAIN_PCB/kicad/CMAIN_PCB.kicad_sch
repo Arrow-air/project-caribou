@@ -19321,7 +19321,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "SMTSO3050CTJ"
 			(at 137.16 216.662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20461,7 +20461,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF 50V"
 			(at 448.31 136.906 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20472,7 +20472,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:fp_71505040a9"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 448.31 143.256 0)
 			(hide yes)
 			(show_name no)
@@ -20766,7 +20766,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "120R"
+		(property "Value" "120R 150V"
 			(at 421.894 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20777,7 +20777,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 416.306 47.498 90)
 			(hide yes)
 			(show_name no)
@@ -20919,7 +20919,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "USBLC6-2SC6"
 			(at 485.648 325.628 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22500,7 +22500,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "BM04B-GHS-TBT(LF)(SN)"
 			(at 285.75 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23883,7 +23883,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k 150V"
 			(at 429.26 171.196 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23894,7 +23894,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 430.53 169.926 90)
 			(hide yes)
 			(show_name no)
@@ -26194,7 +26194,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "BM04B-GHS-TBT(LF)(SN)"
 			(at 265.43 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27084,7 +27084,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6710e7a1-1767-41b2-8623-f6b89496b3e3")
 		(property "Reference" "J11"
 			(at 413.004 81.026 0)
@@ -27238,7 +27238,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "SMTSO3050CTJ"
 			(at 137.16 233.172 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27370,7 +27370,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100k 150V"
 			(at 461.01 166.116 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27381,7 +27381,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 458.47 167.386 90)
 			(hide yes)
 			(show_name no)
@@ -27516,7 +27516,7 @@
 				)
 			)
 		)
-		(property "Value" "5K1"
+		(property "Value" "5K1 150V"
 			(at 446.532 345.694 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27526,7 +27526,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 446.532 345.694 0)
 			(hide yes)
 			(show_name no)
@@ -30039,7 +30039,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "TYPEC-303-ACP16"
 			(at 425.958 325.628 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32539,7 +32539,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "BM04B-GHS-TBT(LF)(SN)"
 			(at 306.07 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32843,7 +32843,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "BM04B-GHS-TBT(LF)(SN)"
 			(at 242.57 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33687,7 +33687,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "SS14"
 			(at 453.898 309.118 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35279,7 +35279,7 @@
 				)
 			)
 		)
-		(property "Value" "5K1"
+		(property "Value" "5K1 150V"
 			(at 456.438 340.868 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35289,7 +35289,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 456.438 340.868 0)
 			(hide yes)
 			(show_name no)
@@ -35980,7 +35980,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k 150V"
 			(at 430.53 173.736 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35991,7 +35991,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 431.8 172.466 90)
 			(hide yes)
 			(show_name no)
@@ -36207,7 +36207,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "SMTSO3050CTJ"
 			(at 137.16 222.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36938,7 +36938,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100k 150V"
 			(at 434.34 134.366 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36949,7 +36949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 435.61 136.906 90)
 			(hide yes)
 			(show_name no)
@@ -37329,7 +37329,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100k 150V"
 			(at 457.2 116.586 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37340,7 +37340,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 455.93 117.856 90)
 			(hide yes)
 			(show_name no)
@@ -37637,7 +37637,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100k 150V"
 			(at 438.15 134.366 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37648,7 +37648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 439.42 136.906 90)
 			(hide yes)
 			(show_name no)
@@ -38022,7 +38022,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "SMTSO3050CTJ"
 			(at 137.16 227.584 0)
 			(show_name no)
 			(do_not_autoplace no)
