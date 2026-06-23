@@ -12,5 +12,4 @@
   (lib (name "power")(type "KiCad")(uri "${KICAD10_SYMBOL_DIR}/power.kicad_sym")(options "")(descr "KiCad default power"))
   (lib (name "Device")(type "KiCad")(uri "${KICAD10_SYMBOL_DIR}/Device.kicad_sym")(options "")(descr "KiCad default Device"))
   (lib (name "Connector")(type "KiCad")(uri "${KICAD10_SYMBOL_DIR}/Connector.kicad_sym")(options "")(descr "KiCad default Connector"))
-  (lib (name "EasyEDA_Lib_CMAIN")(type "EasyEDA (JLCEDA) Pro")(uri "${KIPRJMOD}/EasyEDA_Lib_CMAIN/EasyEDA_Lib_CMAIN.elibz")(options "")(descr ""))
 )

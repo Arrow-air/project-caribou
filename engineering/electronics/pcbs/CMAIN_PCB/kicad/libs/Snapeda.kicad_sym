@@ -1545,7 +1545,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SMD_BD5.6-L5.6-W5.6-D4.1"
+		(property "Footprint" "CMAIN_PCB:SMD_SMTSO25100CTJ"
 			(at 0 7.874 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -1,4 +1,4 @@
-(footprint "SCREW-SMD_BD4.4-D2.8-H4.5"
+(footprint "SCREW-SMD_TH162050CTJ"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
@@ -6,7 +6,7 @@
 	(property "Reference" "U13"
 		(at 0 -3.337 0)
 		(layer "F.SilkS")
-		(uuid "bb2ddf50-000c-4677-bb18-058a5212f783")
+		(uuid "8994f197-29af-4327-af98-58056992c7af")
 		(effects
 			(font
 				(size 1 1)
@@ -14,10 +14,10 @@
 			)
 		)
 	)
-	(property "Value" "SMTWEM245STR"
+	(property "Value" "TH162050CTJ"
 		(at 0 3.337 0)
 		(layer "F.Fab")
-		(uuid "e38ac327-e8b5-432c-9953-e91f9d3e87d7")
+		(uuid "02c467ec-91f2-4a13-95fe-8ed5fbc6ec0e")
 		(effects
 			(font
 				(size 1 1)
@@ -25,11 +25,11 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://item.szlcsc.com/datasheet/SMTWEM245STR/6053346.html"
+	(property "Datasheet" ""
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3c2a8a25-4612-4aed-a537-858c512e20c1")
+		(uuid "e581ef9c-1e25-4d37-bcc2-99d4708118a4")
 		(effects
 			(font
 				(size 1 1)
@@ -37,11 +37,11 @@
 			)
 		)
 	)
-	(property "Description" "specifications:M2 surface treatment:Tin Plated Product Description:- material quality:Iron Rated current:- length:4.5mm"
+	(property "Description" ""
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1bf7f455-9473-4a20-83f5-21c67159cf84")
+		(uuid "bb86fe2b-6ba5-4be9-8d1d-4a5a804e976f")
 		(effects
 			(font
 				(size 1 1)
@@ -49,11 +49,11 @@
 			)
 		)
 	)
-	(property "JLC_3DModel_Q" "2dd7b21b82964a8eb4c50383a3ef6ef9"
+	(property "JLC_3D_Size" ""
 		(at 0 0 0)
 		(layer "Cmts.User")
 		(hide yes)
-		(uuid "c3fc2421-1e5f-411a-8077-a251b9e64317")
+		(uuid "b843f1ed-7273-434b-adf2-98d64edc4bd9")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -61,24 +61,12 @@
 			)
 		)
 	)
-	(property "JLC_3D_Size" "4.35 4.357"
-		(at 0 0 0)
-		(layer "Cmts.User")
-		(hide yes)
-		(uuid "fdfd3de8-9c6c-41e0-9ff0-53f975176272")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Manufacturer Part" "SMTWEM245STR"
+	(property "Manufacturer Part" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1c26e4ee-7f02-41be-8eca-5469b00dc44c")
+		(uuid "41bd9c06-7119-4cd4-b0f2-6eee8e1364ab")
 		(effects
 			(font
 				(size 1 1)
@@ -86,12 +74,12 @@
 			)
 		)
 	)
-	(property "Manufacturer" "YIYUAN(怡远)"
+	(property "Manufacturer" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3c25d9ec-7dbc-4d1d-8e4a-911482731434")
+		(uuid "c6e029c2-b586-465a-afc2-887b2af2da56")
 		(effects
 			(font
 				(size 1 1)
@@ -99,12 +87,12 @@
 			)
 		)
 	)
-	(property "Supplier Part" "C5301792"
+	(property "Supplier Part" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e60dce71-6226-4249-ba47-94c3191a3b57")
+		(uuid "b10e033f-3bad-454d-b289-1bb4c923ca58")
 		(effects
 			(font
 				(size 1 1)
@@ -112,25 +100,12 @@
 			)
 		)
 	)
-	(property "Supplier" "LCSC"
+	(property "LCSC Part Name" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3150bb7d-6e32-4331-af28-ff0106a007e8")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "LCSC Part Name" "YIYUAN(怡远) 电路板表贴圆螺母柱 PCB贴片连接器 M2x4.35xL4.5+1.4mm 铁镀锡 SMTWEM245STR"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a3ca6cae-e8d0-456a-895b-8b972d960abe")
+		(uuid "3db59e11-3ae1-4220-9d9f-415834755e7d")
 		(effects
 			(font
 				(size 1 1)
@@ -150,7 +125,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "8520f70b-e67b-45ad-bfa1-527eca79375c")
+		(uuid "e66702d7-a7b9-4a2b-a5a0-e0edd01d5855")
 	)
 	(fp_poly
 		(pts
@@ -171,7 +146,7 @@
 		)
 		(fill yes)
 		(layer "User.1")
-		(uuid "346560f9-f953-445e-9015-1c23c00dc24d")
+		(uuid "71823f7f-e817-435d-b1ec-d68226eef43d")
 	)
 	(fp_poly
 		(pts
@@ -192,7 +167,7 @@
 		)
 		(fill yes)
 		(layer "User.1")
-		(uuid "955e90a9-5bc1-4754-b4a4-1cd239f6215d")
+		(uuid "3e75a6ed-3ef3-466a-ab5e-127f21fe07dc")
 	)
 	(fp_poly
 		(pts
@@ -213,7 +188,7 @@
 		)
 		(fill yes)
 		(layer "User.1")
-		(uuid "d3565dcd-f898-4395-a37e-d154bdefe4dc")
+		(uuid "689eea4c-a4da-41dd-9df0-276b5e7ac8dd")
 	)
 	(fp_poly
 		(pts
@@ -234,7 +209,7 @@
 		)
 		(fill yes)
 		(layer "User.1")
-		(uuid "d63e2328-4633-4d43-8ea4-f662412dfbbc")
+		(uuid "810a1678-68c7-4275-b540-98bbf37fb837")
 	)
 	(fp_line
 		(start -0.001 -2.1745)
@@ -244,7 +219,7 @@
 			(type default)
 		)
 		(layer "User.2")
-		(uuid "90f81906-7f82-4568-9789-26b782d8fc96")
+		(uuid "a6fcace5-3f65-4e3d-8bc5-dae9748cb1fd")
 	)
 	(fp_line
 		(start 0.0005 2.177)
@@ -254,7 +229,7 @@
 			(type default)
 		)
 		(layer "User.2")
-		(uuid "aca74cf4-7fbe-480b-82ae-612a5a280cae")
+		(uuid "bb378ad1-0e89-4b1e-8e5a-696701c28113")
 	)
 	(fp_line
 		(start 2.174 -0.0005)
@@ -264,7 +239,7 @@
 			(type default)
 		)
 		(layer "User.2")
-		(uuid "5ad48e4b-8432-4567-adbd-f4da812580ff")
+		(uuid "113c7906-91fc-4940-8439-d0b156046c3c")
 	)
 	(fp_arc
 		(start -2.1765 0.001)
@@ -275,7 +250,7 @@
 			(type default)
 		)
 		(layer "User.2")
-		(uuid "d2491985-2d29-4ede-8dfa-8c35910039f0")
+		(uuid "0b9ee133-36e4-4a6a-b79d-7a4fb266bdf7")
 	)
 	(fp_arc
 		(start -0.0005 2.177)
@@ -286,7 +261,7 @@
 			(type default)
 		)
 		(layer "User.2")
-		(uuid "b03d77d2-1f31-4241-967f-f916dc65539b")
+		(uuid "3c8f69ab-42df-4b26-bb2f-619325758173")
 	)
 	(fp_arc
 		(start 0 -2.1745)
@@ -297,7 +272,7 @@
 			(type default)
 		)
 		(layer "User.2")
-		(uuid "38764e09-7758-4b02-85df-15c601118a0e")
+		(uuid "ac6e454a-bbf3-404b-b950-246314d27960")
 	)
 	(fp_arc
 		(start 2.174 0.0035)
@@ -308,7 +283,7 @@
 			(type default)
 		)
 		(layer "User.2")
-		(uuid "2561cf74-4d5c-4146-9d34-0974e4d8df01")
+		(uuid "a48f005b-f369-4cd3-80ef-9a56ec762a3a")
 	)
 	(fp_poly
 		(pts
@@ -321,7 +296,7 @@
 		)
 		(fill yes)
 		(layer "User.3")
-		(uuid "1431b958-cfef-4af4-8c57-bec0ce0a56ba")
+		(uuid "9fcac4f4-9250-4f41-a1d2-ce092a6bb47b")
 	)
 	(pad "1" smd custom
 		(at -1.4735 -1.1965)
@@ -357,7 +332,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "b1f39356-a3d1-47c9-91d4-1dc1c413be3a")
+		(uuid "21ac6d2d-d3af-4116-b638-03b01998a493")
 	)
 	(pad "1" smd custom
 		(at -1.1965 1.4735)
@@ -393,7 +368,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "8af35a4b-129b-41c2-929f-e83eef3e3da6")
+		(uuid "574f7a03-f01a-4e33-a2cd-a9e9b5ce8374")
 	)
 	(pad "1" thru_hole circle
 		(at 0 0)
@@ -402,7 +377,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
-		(uuid "6f9bcc31-9fb2-4a58-9964-9882ffd1e73d")
+		(uuid "1e8be2a4-10f6-41d5-b3d6-a9128ba67a8c")
 	)
 	(pad "1" smd custom
 		(at 1.196 -1.4735)
@@ -437,7 +412,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "094d1f3e-d944-41cc-aae7-a8207bfa870f")
+		(uuid "dd87f34e-711b-4cde-b0ad-0ada2b7c64e3")
 	)
 	(pad "1" smd custom
 		(at 1.4735 1.1965)
@@ -473,7 +448,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "003e276e-2588-497e-9cf6-a60df5ea6de9")
+		(uuid "22aa6da9-b96e-42c5-8418-8793109d66a1")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/EASYEDA_MODELS/SCREW-SMD_BD4.4-D2.8-H4.5.step"
