@@ -13,7 +13,7 @@ Update integrated:
 Verification with KiCad CLI 10.0.1:
 
 - `kicad-cli sch erc --format json engineering/electronics/pcbs/CMAIN_PCB/kicad/CMAIN_PCB.kicad_sch`
-  - 16 ERC violations remain, all `pin_to_pin` warnings from unspecified-pin imported symbols.
+  - 0 ERC violations remain.
   - 0 `lib_symbol_issues` remain.
 - `kicad-cli pcb drc --format json engineering/electronics/pcbs/CMAIN_PCB/kicad/CMAIN_PCB.kicad_pcb`
   - 2 DRC violations remain:

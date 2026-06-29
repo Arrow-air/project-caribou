@@ -3952,7 +3952,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -3.81 5.08 0)
 					(length 2.54)
 					(name "1"
@@ -3970,7 +3970,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -3.81 2.54 0)
 					(length 2.54)
 					(name "2"
@@ -3988,7 +3988,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
 					(name "3"
@@ -4006,7 +4006,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -3.81 -2.54 0)
 					(length 2.54)
 					(name "4"
@@ -4024,7 +4024,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 2.54 -8.89 90)
 					(length 2.54)
 					(name "5"
@@ -4042,7 +4042,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 2.54 10.16 270)
 					(length 2.54)
 					(name "6"
