@@ -1,27 +1,149 @@
-(footprint "IND-SMD_CYA0650-3.3UH" (layer F.Cu) (tedit 6A2C0473)
-  (descr "IND-SMD_CYA0650-3.3UH footprint")
-  (tags "IND-SMD_CYA0650-3.3UH footprint C5189753")
-  (attr smd)
-  (fp_text reference REF** (at 0 -5.3) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value IND-SMD_CYA0650-3.3UH (at 0 5.299975) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start 3.6 1.73114) (end 3.6 3.299975) (layer F.SilkS) (width 0.254001))
-  (fp_line (start 3.6 -3.3) (end 3.6 -1.73114) (layer F.SilkS) (width 0.254001))
-  (fp_line (start -3.599975 -1.73114) (end -3.599975 -3.3) (layer F.SilkS) (width 0.254001))
-  (fp_line (start -3.599975 3.299975) (end -3.599975 1.73114) (layer F.SilkS) (width 0.254001))
-  (fp_line (start 3.6 3.299975) (end -3.599975 3.299975) (layer F.SilkS) (width 0.254001))
-  (fp_line (start -3.6 -3.3) (end 3.6 -3.3) (layer F.SilkS) (width 0.254001))
-  (pad 2 smd rect (at 2.849936 -0.000051) (size 1.5 3) (layers F.Cu F.Mask F.Paste))
-  (pad 1 smd rect (at -2.850089 -0.000051) (size 1.5 3) (layers F.Cu F.Mask F.Paste))
-  (fp_text user ${REFERENCE} (at 0 -0.000013) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (model packages3d/IND-SMD_CYA0650-3.3UH.step
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "IND-SMD_CYA0650-3.3UH"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "IND-SMD_CYA0650-3.3UH footprint")
+	(tags "IND-SMD_CYA0650-3.3UH footprint C5189753")
+	(property "Reference" "REF**"
+		(at 0 -5.3 0)
+		(layer "F.SilkS")
+		(uuid "70f3666c-2b1a-47b3-8a64-1b6d7baf9c20")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IND-SMD_CYA0650-3.3UH"
+		(at 0 5.299975 0)
+		(layer "F.Fab")
+		(uuid "3e764334-3ff8-4070-8107-0d5c54a84e1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "42f4518f-60dd-4e9d-90dc-b558d4ff4626")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "afdbe4d9-4bb4-4a76-9c7f-b42ac20e40ba")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.6 -3.3)
+		(end 3.6 -3.3)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "13a4dcf0-ca6c-43b5-968e-bd174de886ef")
+	)
+	(fp_line
+		(start -3.599975 -1.73114)
+		(end -3.599975 -3.3)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6339d78f-d16e-4b3c-8afd-f4f8d3ca4ad7")
+	)
+	(fp_line
+		(start -3.599975 3.299975)
+		(end -3.599975 1.73114)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "20ca1f65-4ede-428b-ad89-3f70b38d5d8a")
+	)
+	(fp_line
+		(start 3.6 -3.3)
+		(end 3.6 -1.73114)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0e304bf4-6e75-40be-8de0-8b38efdb1108")
+	)
+	(fp_line
+		(start 3.6 1.73114)
+		(end 3.6 3.299975)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "28988ee9-bd45-4844-8891-cba7b635eaf8")
+	)
+	(fp_line
+		(start 3.6 3.299975)
+		(end -3.599975 3.299975)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1636d044-b3e0-4b52-a105-6f9dd66aee4c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.000013 0)
+		(layer "F.Fab")
+		(uuid "8210ef23-7e7d-4844-8bd8-581f2f927eef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.850089 -0.000051)
+		(size 1.5 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9048b71c-9714-48de-8915-f8df75c2c6fb")
+	)
+	(pad "2" smd rect
+		(at 2.849936 -0.000051)
+		(size 1.5 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "129e2540-1dc3-4124-acf0-ce62f62c2ddd")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/EASYEDA_MODELS/IND-SMD_CYA0650-3.3UH.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

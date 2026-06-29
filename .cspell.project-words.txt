@@ -28,8 +28,11 @@ Hobbywing
 hobbywing
 keepout
 KiCad
+JLCEDA
+jlcpcb
 libcanard
 Licence
+lockfiles
 microcontroller
 MOSFET
 MOSFETs
@@ -49,6 +52,7 @@ Rsense
 Samacsys
 SCHMITT
 SIYI
+Skia
 Snapeda
 Tattu
 UART

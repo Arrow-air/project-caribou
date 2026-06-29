@@ -5,13 +5,33 @@
 	(uuid "7d358642-ef2e-49b7-b17c-c8d2fafb9bd5")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Snapeda:SMTWEM245STR"
+		(symbol "CMAIN_PCB:TH162050CTJ"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
+			(property "Reference" "CN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "CMAIN_PCB:SCREW-SMD_TH162050CTJ"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -22,18 +42,19 @@
 					)
 				)
 			)
-			(property "Value" "SMTWEM245STR"
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/TH162050CTJ/3539797.html"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA_Lib:SCREW-SMD_BD4.4-D2.8-H4.5"
-				(at 0 -5.588 0)
+			(property "Description" "surface treatment:Tin plated Product Description:M2*4*5+1.5 material quality:Brass"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -43,8 +64,8 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://item.szlcsc.com/datasheet/SMTWEM245STR/6053346.html"
-				(at 0 -9.652 0)
+			(property "Manufacturer Part" "TH162050CTJ"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -54,8 +75,8 @@
 					)
 				)
 			)
-			(property "Description" "specifications:M2 surface treatment:Tin Plated Product Description:- material quality:Iron Rated current:- length:4.5mm"
-				(at -0.254 -3.556 0)
+			(property "Manufacturer" "Sinhoo(雄和远景)"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -65,30 +86,8 @@
 					)
 				)
 			)
-			(property "Manufacturer Part" "SMTWEM245STR"
-				(at -0.254 3.048 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "YIYUAN(怡远)"
-				(at 0 7.366 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier Part" "C5301792"
-				(at 0 5.334 0)
+			(property "Supplier Part" "C3020130"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -99,7 +98,7 @@
 				)
 			)
 			(property "Supplier" "LCSC"
-				(at 0 9.398 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -109,8 +108,8 @@
 					)
 				)
 			)
-			(property "LCSC Part Name" "YIYUAN(怡远) 电路板表贴圆螺母柱 PCB贴片连接器 M2x4.35xL4.5+1.4mm 铁镀锡 SMTWEM245STR"
-				(at 0 -7.62 0)
+			(property "LCSC Part Name" "雄和远景，电路板表贴圆螺母柱，M2Xφ4X5+1.5，铜镀锡，编带装"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -120,11 +119,10 @@
 					)
 				)
 			)
-			(symbol "SMTWEM245STR_0_1"
-				(polyline
-					(pts
-						(xy -0.635 0.635) (xy 0.635 -0.635)
-					)
+			(symbol "TH162050CTJ_1_0"
+				(rectangle
+					(start -2.54 2.54)
+					(end 2.54 -2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -133,33 +131,8 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -0.635 -0.635) (xy 0.635 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SMTWEM245STR_1_0"
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin no_connect line
-					(at -2.54 0 0)
+				(pin unspecified line
+					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -1502,6 +1475,14 @@
 		(uuid "2983d6d9-4546-401d-a38f-2567d9577810")
 	)
 	(no_connect
+		(at 102.108 35.56)
+		(uuid "313328c2-7462-4736-8f31-773092eb39ce")
+	)
+	(no_connect
+		(at 92.71 35.56)
+		(uuid "3247e72d-2fc8-4857-bef8-4d20fbd082f3")
+	)
+	(no_connect
 		(at 189.23 96.52)
 		(uuid "3d4ca2b1-c4b8-4727-9b04-b2effef46264")
 	)
@@ -1526,12 +1507,20 @@
 		(uuid "63a0561d-a656-4eaf-b82b-aaf28ca55314")
 	)
 	(no_connect
+		(at 191.77 35.56)
+		(uuid "6af78c24-1508-4d15-96c7-14bb97a03365")
+	)
+	(no_connect
 		(at 219.71 58.42)
 		(uuid "77fa4220-7adc-447b-b15f-58d39e9f9af2")
 	)
 	(no_connect
 		(at 189.23 58.42)
 		(uuid "7861ff5f-419c-4f2d-a67c-ad4afdf2a832")
+	)
+	(no_connect
+		(at 201.422 35.56)
+		(uuid "7911c45e-a31e-4784-b3a6-d6cdc0ba80c5")
 	)
 	(no_connect
 		(at 219.71 104.14)
@@ -2500,8 +2489,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Snapeda:SMTWEM245STR")
-		(at 105.41 35.56 0)
+		(lib_id "CMAIN_PCB:TH162050CTJ")
+		(at 107.188 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2510,8 +2499,28 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0f29b1f6-f797-4b3a-bb9b-8cb6881f681d")
-		(property "Reference" "U14"
-			(at 105.41 35.56 0)
+		(property "Reference" "CN14"
+			(at 107.188 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 107.188 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CMAIN_PCB:SCREW-SMD_TH162050CTJ"
+			(at 107.188 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2521,19 +2530,8 @@
 				)
 			)
 		)
-		(property "Value" "SMTWEM245STR"
-			(at 109.728 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CMAIN_PCB:SCREW-SMD_BD4.4-D2.8-H4.5"
-			(at 105.41 40.64 0)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/TH162050CTJ/3539797.html"
+			(at 107.188 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2543,8 +2541,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/SMTWEM245STR/6053346.html"
-			(at 105.41 45.72 0)
+		(property "Description" "surface treatment:Tin plated Product Description:M2*4*5+1.5 material quality:Brass"
+			(at 107.188 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2554,8 +2552,8 @@
 				)
 			)
 		)
-		(property "Description" "specifications:M2 surface treatment:Tin Plated Product Description:- material quality:Iron Rated current:- length:4.5mm"
-			(at 105.41 39.37 0)
+		(property "Manufacturer Part" "TH162050CTJ"
+			(at 107.188 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2565,8 +2563,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "SMTWEM245STR"
-			(at 105.41 33.02 0)
+		(property "Manufacturer" "Sinhoo(雄和远景)"
+			(at 107.188 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2576,19 +2574,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YIYUAN(怡远)"
-			(at 105.41 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part" "C5301792"
-			(at 105.41 30.48 0)
+		(property "Supplier Part" "C3020130"
+			(at 107.188 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2599,7 +2586,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 105.41 26.67 0)
+			(at 107.188 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2609,8 +2596,8 @@
 				)
 			)
 		)
-		(property "LCSC Part Name" "YIYUAN(怡远) 电路板表贴圆螺母柱 PCB贴片连接器 M2x4.35xL4.5+1.4mm 铁镀锡 SMTWEM245STR"
-			(at 105.41 43.18 0)
+		(property "LCSC Part Name" "雄和远景，电路板表贴圆螺母柱，M2Xφ4X5+1.5，铜镀锡，编带装"
+			(at 107.188 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2626,7 +2613,7 @@
 		(instances
 			(project "CMAIN_PCB"
 				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311/7fc55132-40b7-435e-ae4f-47513b724df7"
-					(reference "U14")
+					(reference "CN14")
 					(unit 1)
 				)
 			)
@@ -3070,8 +3057,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Snapeda:SMTWEM245STR")
-		(at 204.47 35.56 0)
+		(lib_id "CMAIN_PCB:TH162050CTJ")
+		(at 206.502 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3080,8 +3067,28 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4c767df4-a334-41ce-bf19-aedad0bdbc4b")
-		(property "Reference" "U16"
-			(at 204.47 35.56 0)
+		(property "Reference" "CN16"
+			(at 206.502 32.004 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 206.502 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CMAIN_PCB:SCREW-SMD_TH162050CTJ"
+			(at 206.502 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3091,19 +3098,8 @@
 				)
 			)
 		)
-		(property "Value" "SMTWEM245STR"
-			(at 207.264 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CMAIN_PCB:SCREW-SMD_BD4.4-D2.8-H4.5"
-			(at 204.47 40.64 0)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/TH162050CTJ/3539797.html"
+			(at 206.502 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3113,8 +3109,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/SMTWEM245STR/6053346.html"
-			(at 204.47 45.72 0)
+		(property "Description" "surface treatment:Tin plated Product Description:M2*4*5+1.5 material quality:Brass"
+			(at 206.502 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3124,8 +3120,8 @@
 				)
 			)
 		)
-		(property "Description" "specifications:M2 surface treatment:Tin Plated Product Description:- material quality:Iron Rated current:- length:4.5mm"
-			(at 204.47 39.37 0)
+		(property "Manufacturer Part" "TH162050CTJ"
+			(at 206.502 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3135,8 +3131,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "SMTWEM245STR"
-			(at 204.47 33.02 0)
+		(property "Manufacturer" "Sinhoo(雄和远景)"
+			(at 206.502 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3146,19 +3142,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YIYUAN(怡远)"
-			(at 204.47 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part" "C5301792"
-			(at 204.47 30.48 0)
+		(property "Supplier Part" "C3020130"
+			(at 206.502 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3169,7 +3154,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 204.47 26.67 0)
+			(at 206.502 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3179,8 +3164,8 @@
 				)
 			)
 		)
-		(property "LCSC Part Name" "YIYUAN(怡远) 电路板表贴圆螺母柱 PCB贴片连接器 M2x4.35xL4.5+1.4mm 铁镀锡 SMTWEM245STR"
-			(at 204.47 43.18 0)
+		(property "LCSC Part Name" "雄和远景，电路板表贴圆螺母柱，M2Xφ4X5+1.5，铜镀锡，编带装"
+			(at 206.502 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3196,7 +3181,7 @@
 		(instances
 			(project "CMAIN_PCB"
 				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311/7fc55132-40b7-435e-ae4f-47513b724df7"
-					(reference "U16")
+					(reference "CN16")
 					(unit 1)
 				)
 			)
@@ -3280,7 +3265,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Snapeda:SMTWEM245STR")
+		(lib_id "CMAIN_PCB:TH162050CTJ")
 		(at 196.85 35.56 0)
 		(unit 1)
 		(body_style 1)
@@ -3290,7 +3275,27 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "79b0aeee-4efe-43bc-9af6-0e868a78c718")
-		(property "Reference" "U15"
+		(property "Reference" "CN15"
+			(at 196.85 32.004 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 196.85 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CMAIN_PCB:SCREW-SMD_TH162050CTJ"
 			(at 196.85 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -3301,19 +3306,8 @@
 				)
 			)
 		)
-		(property "Value" "SMTWEM245STR"
-			(at 196.85 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CMAIN_PCB:SCREW-SMD_BD4.4-D2.8-H4.5"
-			(at 196.85 40.64 0)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/TH162050CTJ/3539797.html"
+			(at 196.85 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3323,8 +3317,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/SMTWEM245STR/6053346.html"
-			(at 196.85 45.72 0)
+		(property "Description" "surface treatment:Tin plated Product Description:M2*4*5+1.5 material quality:Brass"
+			(at 196.85 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3334,8 +3328,8 @@
 				)
 			)
 		)
-		(property "Description" "specifications:M2 surface treatment:Tin Plated Product Description:- material quality:Iron Rated current:- length:4.5mm"
-			(at 196.85 39.37 0)
+		(property "Manufacturer Part" "TH162050CTJ"
+			(at 196.85 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3345,8 +3339,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "SMTWEM245STR"
-			(at 196.85 33.02 0)
+		(property "Manufacturer" "Sinhoo(雄和远景)"
+			(at 196.85 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3356,19 +3350,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YIYUAN(怡远)"
-			(at 196.85 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part" "C5301792"
-			(at 196.85 30.48 0)
+		(property "Supplier Part" "C3020130"
+			(at 196.85 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3379,7 +3362,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 196.85 26.67 0)
+			(at 196.85 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3389,8 +3372,8 @@
 				)
 			)
 		)
-		(property "LCSC Part Name" "YIYUAN(怡远) 电路板表贴圆螺母柱 PCB贴片连接器 M2x4.35xL4.5+1.4mm 铁镀锡 SMTWEM245STR"
-			(at 196.85 43.18 0)
+		(property "LCSC Part Name" "雄和远景，电路板表贴圆螺母柱，M2Xφ4X5+1.5，铜镀锡，编带装"
+			(at 196.85 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3406,7 +3389,7 @@
 		(instances
 			(project "CMAIN_PCB"
 				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311/7fc55132-40b7-435e-ae4f-47513b724df7"
-					(reference "U15")
+					(reference "CN15")
 					(unit 1)
 				)
 			)
@@ -3927,7 +3910,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Snapeda:SMTWEM245STR")
+		(lib_id "CMAIN_PCB:TH162050CTJ")
 		(at 97.79 35.56 0)
 		(unit 1)
 		(body_style 1)
@@ -3937,7 +3920,27 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d195693-847b-4d72-89e5-8a6464fd2345")
-		(property "Reference" "U13"
+		(property "Reference" "CN13"
+			(at 97.79 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 97.79 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CMAIN_PCB:SCREW-SMD_TH162050CTJ"
 			(at 97.79 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -3948,19 +3951,8 @@
 				)
 			)
 		)
-		(property "Value" "SMTWEM245STR"
-			(at 97.79 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CMAIN_PCB:SCREW-SMD_BD4.4-D2.8-H4.5"
-			(at 97.79 40.64 0)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/TH162050CTJ/3539797.html"
+			(at 97.79 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3970,8 +3962,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/SMTWEM245STR/6053346.html"
-			(at 97.79 45.72 0)
+		(property "Description" "surface treatment:Tin plated Product Description:M2*4*5+1.5 material quality:Brass"
+			(at 97.79 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3981,8 +3973,8 @@
 				)
 			)
 		)
-		(property "Description" "specifications:M2 surface treatment:Tin Plated Product Description:- material quality:Iron Rated current:- length:4.5mm"
-			(at 97.79 39.37 0)
+		(property "Manufacturer Part" "TH162050CTJ"
+			(at 97.79 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3992,8 +3984,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "SMTWEM245STR"
-			(at 97.79 33.02 0)
+		(property "Manufacturer" "Sinhoo(雄和远景)"
+			(at 97.79 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4003,19 +3995,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YIYUAN(怡远)"
-			(at 97.79 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part" "C5301792"
-			(at 97.79 30.48 0)
+		(property "Supplier Part" "C3020130"
+			(at 97.79 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4026,7 +4007,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 97.79 26.67 0)
+			(at 97.79 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4036,8 +4017,8 @@
 				)
 			)
 		)
-		(property "LCSC Part Name" "YIYUAN(怡远) 电路板表贴圆螺母柱 PCB贴片连接器 M2x4.35xL4.5+1.4mm 铁镀锡 SMTWEM245STR"
-			(at 97.79 43.18 0)
+		(property "LCSC Part Name" "雄和远景，电路板表贴圆螺母柱，M2Xφ4X5+1.5，铜镀锡，编带装"
+			(at 97.79 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4053,7 +4034,7 @@
 		(instances
 			(project "CMAIN_PCB"
 				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311/7fc55132-40b7-435e-ae4f-47513b724df7"
-					(reference "U13")
+					(reference "CN13")
 					(unit 1)
 				)
 			)

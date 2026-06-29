@@ -1,0 +1,157 @@
+<!-- cspell: disable -->
+# CMAIN part-choice differences to review (not changed)
+
+Generated while cleaning schematic Value fields. These are cases where the uploaded JLCPCB BOM Tool match differs from the current schematic manufacturer part and/or non-generated footprint metadata. I did **not** apply these part-choice changes.
+
+- Difference rows: **147**
+- matched footprint differs: **85**
+- matched part differs: **83**
+
+## Differences
+- `C1`: schematic `100nF 50V` / MPN `CC0805KRX7R9BB104` / footprint `C_0805_2012Metric` → JLC match `CC0805KRX7R9BB104` (`C49678`) / footprint `fp_71505040a9`. Reason: matched footprint differs.
+- `C10`: schematic `10uF 50V` / MPN `GCM31CC71E106KA03L` / footprint `C1206` → JLC match `CL31A106KBHNNNE` (`C13585`) / footprint `C1206`. Reason: matched part differs.
+- `C11`: schematic `10uF 50V` / MPN `GCM31CC71E106KA03L` / footprint `C1206` → JLC match `CL31A106KBHNNNE` (`C13585`) / footprint `C1206`. Reason: matched part differs.
+- `C12`: schematic `10uF 50V` / MPN `GCM31CC71E106KA03L` / footprint `C1206` → JLC match `CL31A106KBHNNNE` (`C13585`) / footprint `C1206`. Reason: matched part differs.
+- `C13`: schematic `100uF 100V` / MPN `EEU-FC1E101S` / footprint `CAP-TH_BD10.0-P5.00-D0.6-FD_2` → JLC match `PA100V100M10x12` (`C46550452`) / footprint `CAP-TH_BD10.0-P5.00-D0.6-FD_2`. Reason: matched part differs.
+- `C14`: schematic `100uF 100V` / MPN `EEU-FC1E101S` / footprint `CAP-TH_BD10.0-P5.00-D0.6-FD_2` → JLC match `PA100V100M10x12` (`C46550452`) / footprint `CAP-TH_BD10.0-P5.00-D0.6-FD_2`. Reason: matched part differs.
+- `C15`: schematic `10uF 50V` / MPN `GCM31CC71E106KA03L` / footprint `C1206` → JLC match `CL31A106KBHNNNE` (`C13585`) / footprint `C1206`. Reason: matched part differs.
+- `C16`: schematic `10uF 50V` / MPN `GCM31CC71E106KA03L` / footprint `C1206` → JLC match `CL31A106KBHNNNE` (`C13585`) / footprint `C1206`. Reason: matched part differs.
+- `C17`: schematic `100uF 100V` / MPN `EEU-FC1E101S` / footprint `CAP-TH_BD10.0-P5.00-D0.6-FD_2` → JLC match `PA100V100M10x12` (`C46550452`) / footprint `CAP-TH_BD10.0-P5.00-D0.6-FD_2`. Reason: matched part differs.
+- `C18`: schematic `100uF 100V` / MPN `EEU-FC1E101S` / footprint `CAP-TH_BD10.0-P5.00-D0.6-FD_2` → JLC match `PA100V100M10x12` (`C46550452`) / footprint `CAP-TH_BD10.0-P5.00-D0.6-FD_2`. Reason: matched part differs.
+- `C2`: schematic `0.1uF 50V` / MPN `—` / footprint `C_0805_2012Metric` → JLC match `CC0805KRX7R9BB104` (`C49678`) / footprint `CC0805KRX7R9BB104`. Reason: matched footprint differs.
+- `C20`: schematic `100uF 100V` / MPN `EEU-FC1E101S` / footprint `CAP-TH_BD10.0-P5.00-D0.6-FD_2` → JLC match `PA100V100M10x12` (`C46550452`) / footprint `CAP-TH_BD10.0-P5.00-D0.6-FD_2`. Reason: matched part differs.
+- `C21`: schematic `100uF 100V` / MPN `EEU-FC1E101S` / footprint `CAP-TH_BD10.0-P5.00-D0.6-FD_2` → JLC match `PA100V100M10x12` (`C46550452`) / footprint `CAP-TH_BD10.0-P5.00-D0.6-FD_2`. Reason: matched part differs.
+- `C25`: schematic `1uF 50V` / MPN `—` / footprint `C_0805_2012Metric` → JLC match `CL21B105KBFNNNE` (`C28323`) / footprint `CC0805KRX7R9BB104`. Reason: matched footprint differs.
+- `C26`: schematic `0.1uF 50V` / MPN `—` / footprint `C_0805_2012Metric` → JLC match `CC0805KRX7R9BB104` (`C49678`) / footprint `CC0805KRX7R9BB104`. Reason: matched footprint differs.
+- `C27`: schematic `100nF 50V` / MPN `CC0805KRX7R9BB104` / footprint `C_0805_2012Metric` → JLC match `CC0805KRX7R9BB104` (`C49678`) / footprint `fp_71505040a9`. Reason: matched footprint differs.
+- `C28`: schematic `100nF 50V` / MPN `CC0805KRX7R9BB104` / footprint `C_0805_2012Metric` → JLC match `CC0805KRX7R9BB104` (`C49678`) / footprint `fp_71505040a9`. Reason: matched footprint differs.
+- `C29`: schematic `0.47uF 50V` / MPN `CC0805KKX7R9BB474` / footprint `C_0805_2012Metric` → JLC match `CL21B474KBFNNNE` (`C13967`) / footprint `0805`. Reason: matched part differs.
+- `C3`: schematic `100nF 50V` / MPN `CC0805KRX7R9BB104` / footprint `C_0805_2012Metric` → JLC match `CC0805KRX7R9BB104` (`C49678`) / footprint `fp_71505040a9`. Reason: matched footprint differs.
+- `C30`: schematic `0.47uF 50V` / MPN `CC0805KKX7R9BB474` / footprint `C_0805_2012Metric` → JLC match `CL21B474KBFNNNE` (`C13967`) / footprint `0805`. Reason: matched part differs.
+- `C31`: schematic `100nF 50V` / MPN `CC0805KRX7R9BB104` / footprint `C_0805_2012Metric` → JLC match `CC0805KRX7R9BB104` (`C49678`) / footprint `fp_71505040a9`. Reason: matched footprint differs.
+- `C32`: schematic `0.47uF 50V` / MPN `CC0805KKX7R9BB474` / footprint `C_0805_2012Metric` → JLC match `CL21B474KBFNNNE` (`C13967`) / footprint `0805`. Reason: matched part differs.
+- `C33`: schematic `0.1uF 50V` / MPN `—` / footprint `C_0805_2012Metric` → JLC match `CC0805KRX7R9BB104` (`C49678`) / footprint `CC0805KRX7R9BB104`. Reason: matched footprint differs.
+- `C35`: schematic `0.1uF 50V` / MPN `—` / footprint `C_0805_2012Metric` → JLC match `CC0805KRX7R9BB104` (`C49678`) / footprint `CC0805KRX7R9BB104`. Reason: matched footprint differs.
+- `C36`: schematic `0.1uF 50V` / MPN `—` / footprint `C_0805_2012Metric` → JLC match `CC0805KRX7R9BB104` (`C49678`) / footprint `CC0805KRX7R9BB104`. Reason: matched footprint differs.
+- `C37`: schematic `1uF 50V` / MPN `—` / footprint `C_0805_2012Metric` → JLC match `CL21B105KBFNNNE` (`C28323`) / footprint `CC0805KRX7R9BB104`. Reason: matched footprint differs.
+- `C4`: schematic `100nF 50V` / MPN `CC0805KRX7R9BB104` / footprint `C_0805_2012Metric` → JLC match `CC0805KRX7R9BB104` (`C49678`) / footprint `fp_71505040a9`. Reason: matched footprint differs.
+- `C40`: schematic `0.1uF 50V` / MPN `—` / footprint `C_0805_2012Metric` → JLC match `CC0805KRX7R9BB104` (`C49678`) / footprint `CC0805KRX7R9BB104`. Reason: matched footprint differs.
+- `C42`: schematic `0.1uF 50V` / MPN `—` / footprint `C_0805_2012Metric` → JLC match `CC0805KRX7R9BB104` (`C49678`) / footprint `CC0805KRX7R9BB104`. Reason: matched footprint differs.
+- `C43`: schematic `0.1uF 50V` / MPN `—` / footprint `C_0805_2012Metric` → JLC match `CC0805KRX7R9BB104` (`C49678`) / footprint `CC0805KRX7R9BB104`. Reason: matched footprint differs.
+- `C44`: schematic `1uF 50V` / MPN `—` / footprint `C_0805_2012Metric` → JLC match `CL21B105KBFNNNE` (`C28323`) / footprint `CC0805KRX7R9BB104`. Reason: matched footprint differs.
+- `C5`: schematic `100nF 50V` / MPN `CC0805KRX7R9BB104` / footprint `C_0805_2012Metric` → JLC match `CC0805KRX7R9BB104` (`C49678`) / footprint `fp_71505040a9`. Reason: matched footprint differs.
+- `C6`: schematic `8pF 50V` / MPN `CC0603JRNPO9BN8R0` / footprint `C_0603_1608Metric` → JLC match `0603CG8R0C500NT` (`C36508`) / footprint `CC0603JRNPO9BN8R0`. Reason: matched part differs; matched footprint differs.
+- `C7`: schematic `8pF 50V` / MPN `CC0603JRNPO9BN8R0` / footprint `C_0603_1608Metric` → JLC match `0603CG8R0C500NT` (`C36508`) / footprint `CC0603JRNPO9BN8R0`. Reason: matched part differs; matched footprint differs.
+- `C8`: schematic `0.1uF 50V` / MPN `—` / footprint `C_0805_2012Metric` → JLC match `CC0805KRX7R9BB104` (`C49678`) / footprint `CC0805KRX7R9BB104`. Reason: matched footprint differs.
+- `C9`: schematic `10uF 50V` / MPN `GCM31CC71E106KA03L` / footprint `C1206` → JLC match `CL31A106KBHNNNE` (`C13585`) / footprint `C1206`. Reason: matched part differs.
+- `J1`: schematic `RPI_5_WITH_SSQ-120-01-F-D` / MPN `SSQ-120-01-F-D` / footprint `SSM-120-XXX-DV` → JLC match `SSM-120-F-DV` (`C3323521`) / footprint `SSM-120-XXX-DV`. Reason: matched part differs.
+- `J11`: schematic `M9N-G4-3100` / MPN `SSQ-104-01-L-D` / footprint `M9N-G4-3100` → JLC match `0805W8J0104T5E` (`C25611`) / footprint `M9N-G4-3100`. Reason: matched part differs.
+- `J37`: schematic `B04B-JWPF-SK-R` / MPN `1778719` / footprint `B04B-JWPF-SK-R` → JLC match `B04B-JWPF-SK-R(LF)(SN)` (`C2983882`) / footprint `B04B-JWPF-SK-R`. Reason: matched part differs.
+- `J38`: schematic `B04B-JWPF-SK-R` / MPN `1778719` / footprint `B04B-JWPF-SK-R` → JLC match `B04B-JWPF-SK-R(LF)(SN)` (`C2983882`) / footprint `B04B-JWPF-SK-R`. Reason: matched part differs.
+- `J39`: schematic `B04B-JWPF-SK-R` / MPN `1814935` / footprint `B04B-JWPF-SK-R` → JLC match `B04B-JWPF-SK-R(LF)(SN)` (`C2983882`) / footprint `B04B-JWPF-SK-R`. Reason: matched part differs.
+- `J43`: schematic `B04B-JWPF-SK-R` / MPN `SM04B-GHS-TB(LF)(SN)` / footprint `B04B-JWPF-SK-R` → JLC match `B04B-JWPF-SK-R(LF)(SN)` (`C2983882`) / footprint `B04B-JWPF-SK-R`. Reason: matched part differs.
+- `J46`: schematic `B04B-JWPF-SK-R` / MPN `SM04B-GHS-TB(LF)(SN)` / footprint `B04B-JWPF-SK-R` → JLC match `B04B-JWPF-SK-R(LF)(SN)` (`C2983882`) / footprint `B04B-JWPF-SK-R`. Reason: matched part differs.
+- `J48`: schematic `B04B-JWPF-SK-R` / MPN `SM04B-GHS-TB(LF)(SN)` / footprint `B04B-JWPF-SK-R` → JLC match `B04B-JWPF-SK-R(LF)(SN)` (`C2983882`) / footprint `B04B-JWPF-SK-R`. Reason: matched part differs.
+- `J49`: schematic `B04B-JWPF-SK-R` / MPN `1814935` / footprint `B04B-JWPF-SK-R` → JLC match `B04B-JWPF-SK-R(LF)(SN)` (`C2983882`) / footprint `B04B-JWPF-SK-R`. Reason: matched part differs.
+- `J56`: schematic `B04B-JWPF-SK-R` / MPN `SM04B-GHS-TB(LF)(SN)` / footprint `B04B-JWPF-SK-R` → JLC match `B04B-JWPF-SK-R(LF)(SN)` (`C2983882`) / footprint `B04B-JWPF-SK-R`. Reason: matched part differs.
+- `J8`: schematic `B04B-JWPF-SK-R` / MPN `1814935` / footprint `B04B-JWPF-SK-R` → JLC match `B04B-JWPF-SK-R(LF)(SN)` (`C2983882`) / footprint `B04B-JWPF-SK-R`. Reason: matched part differs.
+- `K1`: schematic `CPC1019N` / MPN `CPC1019N` / footprint `SOP254P610X218-4N` → JLC match `CPC1019NTR` (`C1854946`) / footprint `SOP254P610X218-4N`. Reason: matched part differs.
+- `K10`: schematic `CPC1019N` / MPN `CPC1019N` / footprint `SOP254P610X218-4N` → JLC match `CPC1019NTR` (`C1854946`) / footprint `SOP254P610X218-4N`. Reason: matched part differs.
+- `K2`: schematic `CPC1019N` / MPN `CPC1019N` / footprint `SOP254P610X218-4N` → JLC match `CPC1019NTR` (`C1854946`) / footprint `SOP254P610X218-4N`. Reason: matched part differs.
+- `K4`: schematic `CPC1019N` / MPN `CPC1019N` / footprint `SOP254P610X218-4N` → JLC match `CPC1019NTR` (`C1854946`) / footprint `SOP254P610X218-4N`. Reason: matched part differs.
+- `K5`: schematic `CPC1019N` / MPN `CPC1019N` / footprint `SOP254P610X218-4N` → JLC match `CPC1019NTR` (`C1854946`) / footprint `SOP254P610X218-4N`. Reason: matched part differs.
+- `K6`: schematic `CPC1019N` / MPN `CPC1019N` / footprint `SOP254P610X218-4N` → JLC match `CPC1019NTR` (`C1854946`) / footprint `SOP254P610X218-4N`. Reason: matched part differs.
+- `K7`: schematic `CPC1019N` / MPN `CPC1019N` / footprint `SOP254P610X218-4N` → JLC match `CPC1019NTR` (`C1854946`) / footprint `SOP254P610X218-4N`. Reason: matched part differs.
+- `K8`: schematic `CPC1019N` / MPN `CPC1019N` / footprint `SOP254P610X218-4N` → JLC match `CPC1019NTR` (`C1854946`) / footprint `SOP254P610X218-4N`. Reason: matched part differs.
+- `K9`: schematic `CPC1019N` / MPN `CPC1019N` / footprint `SOP254P610X218-4N` → JLC match `CPC1019NTR` (`C1854946`) / footprint `SOP254P610X218-4N`. Reason: matched part differs.
+- `LED1`: schematic `RED` / MPN `LS T676-Q1R2-1-Z` / footprint `LEDC2012X85N` → JLC match `APT2012SURCK` (`C5875730`) / footprint `LEDC2012X85N`. Reason: matched part differs.
+- `LED10`: schematic `RED` / MPN `LS T676-Q1R2-1-Z` / footprint `LEDC2012X85N` → JLC match `APT2012SURCK` (`C5875730`) / footprint `LEDC2012X85N`. Reason: matched part differs.
+- `LED11`: schematic `RED` / MPN `LS T676-Q1R2-1-Z` / footprint `LEDC2012X85N` → JLC match `APT2012SURCK` (`C5875730`) / footprint `LEDC2012X85N`. Reason: matched part differs.
+- `LED12`: schematic `RED` / MPN `LS T676-Q1R2-1-Z` / footprint `LEDC2012X85N` → JLC match `APT2012SURCK` (`C5875730`) / footprint `LEDC2012X85N`. Reason: matched part differs.
+- `LED13`: schematic `RED` / MPN `LS T676-Q1R2-1-Z` / footprint `LEDC2012X85N` → JLC match `APT2012SURCK` (`C5875730`) / footprint `LEDC2012X85N`. Reason: matched part differs.
+- `LED14`: schematic `RED` / MPN `LS T676-Q1R2-1-Z` / footprint `LEDC2012X85N` → JLC match `APT2012SURCK` (`C5875730`) / footprint `LEDC2012X85N`. Reason: matched part differs.
+- `LED15`: schematic `RED` / MPN `LS T676-Q1R2-1-Z` / footprint `LEDC2012X85N` → JLC match `APT2012SURCK` (`C5875730`) / footprint `LEDC2012X85N`. Reason: matched part differs.
+- `LED2`: schematic `RED` / MPN `LS T676-Q1R2-1-Z` / footprint `LEDC2012X85N` → JLC match `APT2012SURCK` (`C5875730`) / footprint `LEDC2012X85N`. Reason: matched part differs.
+- `LED3`: schematic `RED` / MPN `LS T676-Q1R2-1-Z` / footprint `LEDC2012X85N` → JLC match `APT2012SURCK` (`C5875730`) / footprint `LEDC2012X85N`. Reason: matched part differs.
+- `LED7`: schematic `RED` / MPN `LS T676-Q1R2-1-Z` / footprint `LEDC2012X85N` → JLC match `APT2012SURCK` (`C5875730`) / footprint `LEDC2012X85N`. Reason: matched part differs.
+- `LED8`: schematic `RED` / MPN `LS T676-Q1R2-1-Z` / footprint `LEDC2012X85N` → JLC match `APT2012SURCK` (`C5875730`) / footprint `LEDC2012X85N`. Reason: matched part differs.
+- `LED9`: schematic `RED` / MPN `LS T676-Q1R2-1-Z` / footprint `LEDC2012X85N` → JLC match `APT2012SURCK` (`C5875730`) / footprint `LEDC2012X85N`. Reason: matched part differs.
+- `R1`: schematic `1K5 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8F1501T5E` (`C4310`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R10`: schematic `10k 150V` / MPN `RC0805FR-0710KL` / footprint `R_0805_2012Metric` → JLC match `0805W8F1002T5E` (`C17414`) / footprint `RC0805FR-0710KL`. Reason: matched part differs; matched footprint differs.
+- `R11`: schematic `10k 150V` / MPN `RC0805FR-0710KL` / footprint `R_0805_2012Metric` → JLC match `0805W8F1002T5E` (`C17414`) / footprint `RC0805FR-0710KL`. Reason: matched part differs; matched footprint differs.
+- `R12`: schematic `5K1 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8F5101T5E` (`C27834`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R13`: schematic `5K1 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8F5101T5E` (`C27834`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R14`: schematic `120R 150V` / MPN `RC0805FR-07120RL` / footprint `R_0805_2012Metric` → JLC match `0805W8F1200T5E` (`C17437`) / footprint `RC0805FR-07120RL`. Reason: matched part differs; matched footprint differs.
+- `R16`: schematic `0R 150V` / MPN `RC0805FR-070RL` / footprint `R_0805_2012Metric` → JLC match `0805W8F0000T5E` (`C17477`) / footprint `RC0805FR-070RL`. Reason: matched part differs; matched footprint differs.
+- `R17`: schematic `10K 150V` / MPN `RC0805FR-0710KL` / footprint `R_0805_2012Metric` → JLC match `0805W8F1002T5E` (`C17414`) / footprint `RC0805FR-0710KL`. Reason: matched part differs; matched footprint differs.
+- `R18`: schematic `120R 150V` / MPN `RC0805FR-07120RL` / footprint `R_0805_2012Metric` → JLC match `0805W8F1200T5E` (`C17437`) / footprint `RC0805FR-07120RL`. Reason: matched part differs; matched footprint differs.
+- `R19`: schematic `10K 150V` / MPN `RC0805FR-0710KL` / footprint `R_0805_2012Metric` → JLC match `0805W8F1002T5E` (`C17414`) / footprint `RC0805FR-0710KL`. Reason: matched part differs; matched footprint differs.
+- `R2`: schematic `100k 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8J0104T5E` (`C25611`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R20`: schematic `10K 150V` / MPN `RC0805FR-0710KL` / footprint `R_0805_2012Metric` → JLC match `0805W8F1002T5E` (`C17414`) / footprint `RC0805FR-0710KL`. Reason: matched part differs; matched footprint differs.
+- `R21`: schematic `10K 150V` / MPN `RC0805FR-0710KL` / footprint `R_0805_2012Metric` → JLC match `0805W8F1002T5E` (`C17414`) / footprint `RC0805FR-0710KL`. Reason: matched part differs; matched footprint differs.
+- `R22`: schematic `1K5 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8F1501T5E` (`C4310`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R23`: schematic `100K 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8J0104T5E` (`C25611`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R24`: schematic `75K 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8F7502T5E` (`C17819`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R25`: schematic `10K 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8F1002T5E` (`C17414`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R26`: schematic `1K5 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8F1501T5E` (`C4310`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R27`: schematic `1K5 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8F1501T5E` (`C4310`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R28`: schematic `1R 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8F100KT5E` (`C25271`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R29`: schematic `4K7 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8F4701T5E` (`C17673`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R3`: schematic `100R 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8F1000T5E` (`C17408`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R30`: schematic `4K7 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8F4701T5E` (`C17673`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R31`: schematic `1R 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8F100KT5E` (`C25271`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R32`: schematic `1R 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8F100KT5E` (`C25271`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R33`: schematic `100K 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8J0104T5E` (`C25611`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R34`: schematic `75K 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8F7502T5E` (`C17819`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R35`: schematic `10K 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8F1002T5E` (`C17414`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R36`: schematic `100K 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8J0104T5E` (`C25611`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R37`: schematic `75K 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8F7502T5E` (`C17819`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R38`: schematic `10K 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8F1002T5E` (`C17414`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R39`: schematic `1R 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8F100KT5E` (`C25271`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R4`: schematic `100k 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8J0104T5E` (`C25611`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R40`: schematic `1R 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8F100KT5E` (`C25271`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R41`: schematic `1R 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8F100KT5E` (`C25271`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R42`: schematic `1K5 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8F1501T5E` (`C4310`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R43`: schematic `1K5 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8F1501T5E` (`C4310`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R44`: schematic `1K5 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8F1501T5E` (`C4310`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R45`: schematic `1K5 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8F1501T5E` (`C4310`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R46`: schematic `1K5 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8F1501T5E` (`C4310`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R47`: schematic `47K 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8F4702T5E` (`C17713`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R48`: schematic `47K 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8F4702T5E` (`C17713`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R49`: schematic `47K 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8F4702T5E` (`C17713`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R5`: schematic `100k 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8J0104T5E` (`C25611`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R50`: schematic `2K 150V` / MPN `RC0805FR-072KL` / footprint `R_0805_2012Metric` → JLC match `0805W8F2001T5E` (`C17604`) / footprint `RC0805FR-072KL`. Reason: matched part differs; matched footprint differs.
+- `R51`: schematic `2K 150V` / MPN `RC0805FR-072KL` / footprint `R_0805_2012Metric` → JLC match `0805W8F2001T5E` (`C17604`) / footprint `RC0805FR-072KL`. Reason: matched part differs; matched footprint differs.
+- `R52`: schematic `2K 150V` / MPN `RC0805FR-072KL` / footprint `R_0805_2012Metric` → JLC match `0805W8F2001T5E` (`C17604`) / footprint `RC0805FR-072KL`. Reason: matched part differs; matched footprint differs.
+- `R53`: schematic `2K 150V` / MPN `RC0805FR-072KL` / footprint `R_0805_2012Metric` → JLC match `0805W8F2001T5E` (`C17604`) / footprint `RC0805FR-072KL`. Reason: matched part differs; matched footprint differs.
+- `R54`: schematic `2K 150V` / MPN `RC0805FR-072KL` / footprint `R_0805_2012Metric` → JLC match `0805W8F2001T5E` (`C17604`) / footprint `RC0805FR-072KL`. Reason: matched part differs; matched footprint differs.
+- `R55`: schematic `2K 150V` / MPN `RC0805FR-072KL` / footprint `R_0805_2012Metric` → JLC match `0805W8F2001T5E` (`C17604`) / footprint `RC0805FR-072KL`. Reason: matched part differs; matched footprint differs.
+- `R56`: schematic `47K 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8F4702T5E` (`C17713`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R57`: schematic `47K 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8F4702T5E` (`C17713`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R58`: schematic `47K 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8F4702T5E` (`C17713`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R59`: schematic `47K 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8F4702T5E` (`C17713`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R6`: schematic `100R 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8F1000T5E` (`C17408`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R67`: schematic `2mR` / MPN `PA2512FKE070R002E` / footprint `R_2512_6332Metric` → JLC match `JER2512F3R002` (`C46634447`) / footprint `2512`. Reason: matched part differs.
+- `R68`: schematic `2mR` / MPN `PA2512FKE070R002E` / footprint `R_2512_6332Metric` → JLC match `JER2512F3R002` (`C46634447`) / footprint `2512`. Reason: matched part differs.
+- `R69`: schematic `2mR` / MPN `PA2512FKE070R002E` / footprint `R_2512_6332Metric` → JLC match `JER2512F3R002` (`C46634447`) / footprint `2512`. Reason: matched part differs.
+- `R7`: schematic `10K 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8F1002T5E` (`C17414`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R70`: schematic `2mR` / MPN `PA2512FKE070R002E` / footprint `R_2512_6332Metric` → JLC match `JER2512F3R002` (`C46634447`) / footprint `2512`. Reason: matched part differs.
+- `R71`: schematic `2mR` / MPN `PA2512FKE070R002E` / footprint `R_2512_6332Metric` → JLC match `JER2512F3R002` (`C46634447`) / footprint `2512`. Reason: matched part differs.
+- `R72`: schematic `2mR` / MPN `PA2512FKE070R002E` / footprint `R_2512_6332Metric` → JLC match `JER2512F3R002` (`C46634447`) / footprint `2512`. Reason: matched part differs.
+- `R74`: schematic `2K 150V` / MPN `RC0805FR-072KL` / footprint `R_0805_2012Metric` → JLC match `0805W8F2001T5E` (`C17604`) / footprint `RC0805FR-072KL`. Reason: matched part differs; matched footprint differs.
+- `R75`: schematic `2K 150V` / MPN `RC0805FR-072KL` / footprint `R_0805_2012Metric` → JLC match `0805W8F2001T5E` (`C17604`) / footprint `RC0805FR-072KL`. Reason: matched part differs; matched footprint differs.
+- `R76`: schematic `2K 150V` / MPN `RC0805FR-072KL` / footprint `R_0805_2012Metric` → JLC match `0805W8F2001T5E` (`C17604`) / footprint `RC0805FR-072KL`. Reason: matched part differs; matched footprint differs.
+- `R77`: schematic `560R 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8J0561T5E` (`C25319`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R78`: schematic `560R 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8J0561T5E` (`C25319`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R79`: schematic `560R 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8J0561T5E` (`C25319`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `R8`: schematic `100k 150V` / MPN `RC0805FR-0710KL` / footprint `R_0805_2012Metric` → JLC match `0805W8F1003T5E` (`C149504`) / footprint `RC0805FR-0710KL`. Reason: matched part differs; matched footprint differs.
+- `R9`: schematic `10K 150V` / MPN `—` / footprint `R_0805_2012Metric` → JLC match `0805W8F1002T5E` (`C17414`) / footprint `fp_9fb50b8536`. Reason: matched footprint differs.
+- `U13`: schematic `SMTWEM245STR` / MPN `SMTWEM245STR` / footprint `SCREW-SMD_BD4.4-D2.8-H4.5` → JLC match `TH162050CTJ` (`C3020130`) / footprint `SCREW-SMD_BD4.4-D2.8-H4.5`. Reason: matched part differs.
+- `U14`: schematic `SMTWEM245STR` / MPN `SMTWEM245STR` / footprint `SCREW-SMD_BD4.4-D2.8-H4.5` → JLC match `TH162050CTJ` (`C3020130`) / footprint `SCREW-SMD_BD4.4-D2.8-H4.5`. Reason: matched part differs.
+- `U15`: schematic `SMTWEM245STR` / MPN `SMTWEM245STR` / footprint `SCREW-SMD_BD4.4-D2.8-H4.5` → JLC match `TH162050CTJ` (`C3020130`) / footprint `SCREW-SMD_BD4.4-D2.8-H4.5`. Reason: matched part differs.
+- `U16`: schematic `SMTWEM245STR` / MPN `SMTWEM245STR` / footprint `SCREW-SMD_BD4.4-D2.8-H4.5` → JLC match `TH162050CTJ` (`C3020130`) / footprint `SCREW-SMD_BD4.4-D2.8-H4.5`. Reason: matched part differs.
+- `U2`: schematic `MCP2515-I/SO` / MPN `MCP2515-I/SO` / footprint `SOIC127P1030X265-18N` → JLC match `MCP2515T-I/SO` (`C153782`) / footprint `SOIC127P1030X265-18N`. Reason: matched part differs.
+- `U29`: schematic `LTC4370IMS#PBF` / MPN `LTC4370IMS#PBF` / footprint `MSOP-16_3x4.039mm_P0.5mm` → JLC match `LTC4370IDE#PBF` (`C580892`) / footprint `MSOP-16_3x4.039mm_P0.5mm`. Reason: matched part differs.
+- `U30`: schematic `LTC4370IMS#PBF` / MPN `LTC4370IMS#PBF` / footprint `MSOP-16_3x4.039mm_P0.5mm` → JLC match `LTC4370IDE#PBF` (`C580892`) / footprint `MSOP-16_3x4.039mm_P0.5mm`. Reason: matched part differs.
+- `U31`: schematic `LTC4370IMS#PBF` / MPN `LTC4370IMS#PBF` / footprint `MSOP-16_3x4.039mm_P0.5mm` → JLC match `LTC4370IDE#PBF` (`C580892`) / footprint `MSOP-16_3x4.039mm_P0.5mm`. Reason: matched part differs.
+- `X1`: schematic `16MHz` / MPN `NX3225GB-16M-STD-CRA-2` / footprint `NX3225GB-16M-STD-CRA-2` → JLC match `NX3225GB-16MHZ-STD-CRA-2` (`C481399`) / footprint `NX3225GB-16M-STD-CRA-2`. Reason: matched part differs.

@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "CMAIN_PCB") (type "KiCad") (uri "${KIPRJMOD}/libs/CMAIN_PCB.pretty") (options "") (descr "Project-specific CMAIN footprints"))
   (lib (name "EasyEDA_Lib") (type "KiCad") (uri "${KIPRJMOD}/libs/EasyEDA_Lib.pretty") (options "") (descr "Project-local EasyEDA/JLCEDA footprints"))
+  (lib (name "Capacitor_SMD") (type "KiCad") (uri "${KICAD10_FOOTPRINT_DIR}/Capacitor_SMD.pretty") (options "") (descr "KiCad standard SMD capacitor footprints"))
+  (lib (name "Resistor_SMD") (type "KiCad") (uri "${KICAD10_FOOTPRINT_DIR}/Resistor_SMD.pretty") (options "") (descr "KiCad standard SMD resistor footprints"))
 )

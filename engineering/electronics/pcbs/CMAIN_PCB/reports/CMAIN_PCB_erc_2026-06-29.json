@@ -1,0 +1,61 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-06-29T05:10:11",
+    "ignored_checks": [
+        {
+            "description": "Symbol pin or wire end off connection grid",
+            "key": "endpoint_off_grid"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.1",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/ca31b60c-f1cb-4b97-95b8-376c0a181311",
+            "violations": []
+        },
+        {
+            "path": "/CAN_circuit/",
+            "uuid_path": "/ca31b60c-f1cb-4b97-95b8-376c0a181311/0d4cbb3e-b122-4341-b734-6b322639915e",
+            "violations": []
+        },
+        {
+            "path": "/Ethernet/",
+            "uuid_path": "/ca31b60c-f1cb-4b97-95b8-376c0a181311/7fc55132-40b7-435e-ae4f-47513b724df7",
+            "violations": []
+        },
+        {
+            "path": "/Power_control/",
+            "uuid_path": "/ca31b60c-f1cb-4b97-95b8-376c0a181311/6f7110fd-2fa0-40a7-819e-80dc3167296a",
+            "violations": []
+        },
+        {
+            "path": "/Power_supply/",
+            "uuid_path": "/ca31b60c-f1cb-4b97-95b8-376c0a181311/002c9034-3e37-4b7e-9bfc-c61c7c67d734",
+            "violations": []
+        },
+        {
+            "path": "/Emergency_cutoff/",
+            "uuid_path": "/ca31b60c-f1cb-4b97-95b8-376c0a181311/002b442a-146d-4553-9e8a-6c907d98a196",
+            "violations": []
+        }
+    ],
+    "source": "CMAIN_PCB.kicad_sch"
+}

@@ -2457,243 +2457,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CMAIN_PCB:BM04B-GHS-TBT(LF)(SN)"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "CN"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "EasyEDA_Lib:fp_49628edcd6"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://item.szlcsc.com/datasheet/BM04B-GHS-TBT(LF)(SN)/173073.html"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Pins Structure:1x4P Pitch:1.25mm Mounting Type:Surface Mount,Vertical Reference Series:GH Number of Pins:4P Number of Rows:1 Number of PINs Per Row:4 Row Spacing:- Current Rating:1A Contact Material:Phosphor Bronze Contact Plating:Tin Operating Temperatur"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part" "BM04B-GHS-TBT(LF)(SN)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "JST"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier Part" "C161692"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part Name" "1x4P 间距:1.25mm 立贴 系列:GH"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "BM04B-GHS-TBT(LF)(SN)_1_0"
-				(rectangle
-					(start -6.35 6.35)
-					(end 6.35 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 3.81 -6.35 90)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 -6.35 90)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -1.27 -6.35 90)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -6.35 90)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -11.43 3.81 0)
-					(length 5.08)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 3.81 180)
-					(length 5.08)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "CMAIN_PCB:SMTSO3050CTJ"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4038,6 +3801,254 @@
 						(effects
 							(font
 								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "CMAIN_PCB:WAFER-GH1.25-4PLB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "CMAIN_PCB:WAFER-GH1.25-4PLB"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/WAFER-GH1.25-4PLB/3561382.html"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Pins Structure:1x4P Pitch:1.25mm Mounting Type:Surface Mount,Vertical Reference Series:GH Number of Pins:4P Number of Rows:1 Number of PINs Per Row:4 Row Spacing:- Current Rating:1A Contact Material:Brass Contact Plating:Tin Operating Temperature:-25°C~+85"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "WAFER-GH1.25-4PLB"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "XUNPU(讯普)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part" "C3029370"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part Name" "1x4P 间距:1.25mm 立贴 系列:GH"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "WAFER-GH1.25-4PLB_1_0"
+				(rectangle
+					(start -1.27 -6.35)
+					(end 5.08 7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 6.35)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 5.08 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 2.54 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -2.54 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -8.89 90)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 10.16 270)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -9951,180 +9962,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Snapeda:SMTSO25100CTJ"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SMTSO25100CTJ"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "EasyEDA_Lib:SMD_BD5.6-L5.6-W5.6-D4.1"
-				(at 0 7.874 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211122/17CF5E24EB4D4DC090A80DE3D7DE5E21.pdf"
-				(at 0 6.096 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "specifications:M2.5X10 surface treatment:镀锡 Product Description:- material quality:- model:SMTSO25100CTJ brand:Sinhoo(雄和远景)"
-				(at 0 -4.572 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part" "SMTSO25100CTJ"
-				(at 0 -8.382 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Sinhoo(雄和远景)"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier Part" "C2916330"
-				(at 0 4.318 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 -3.302 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part Name" "雄和远景，电路板表贴圆螺母柱，M2.5X10，铜镀锡,1个"
-				(at -0.254 2.286 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SMTSO25100CTJ_0_1"
-				(polyline
-					(pts
-						(xy -0.635 0.635) (xy 0.635 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -0.635) (xy 0.635 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SMTSO25100CTJ_1_0"
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin no_connect line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Snapeda:SMTSOM380BTR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -12498,16 +12335,6 @@
 		)
 		(uuid "7c354c8b-fca3-486a-ae46-3191679f215a")
 	)
-	(text "Threaded standoffs for mounting the RPI"
-		(exclude_from_sim no)
-		(at 179.578 350.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7f09b020-a640-4d57-a947-9eeb88f2ac70")
-	)
 	(text "PORT 2"
 		(exclude_from_sim no)
 		(at 258.318 221.996 0)
@@ -13182,6 +13009,12 @@
 		(uuid "58b78195-27e2-4fcd-8a76-ddcc26ff764e")
 	)
 	(junction
+		(at 438.658 321.818)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5966905d-3c3b-4347-ad0f-8b60837534c3")
+	)
+	(junction
 		(at 187.96 220.472)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13192,6 +13025,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6aca11a3-40a7-4d63-83e6-cfab80ff755f")
+	)
+	(junction
+		(at 258.826 114.046)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ff2ded4-4615-44a4-b141-b49934daf5cf")
 	)
 	(junction
 		(at 187.96 225.552)
@@ -13284,12 +13123,6 @@
 		(uuid "b23db1e2-71d9-48ae-a5c1-15c2128b1adc")
 	)
 	(junction
-		(at 438.658 321.818)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c6003371-ab1e-420a-8487-b23c06df05ef")
-	)
-	(junction
 		(at 444.5 116.586)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13338,7 +13171,7 @@
 		(uuid "0987f3e4-6742-4ee4-8aeb-a14bb984676f")
 	)
 	(no_connect
-		(at 276.86 154.94)
+		(at 270.256 154.94)
 		(uuid "0e1ecf8a-6f45-4392-811c-18ea47c37acd")
 	)
 	(no_connect
@@ -13378,7 +13211,7 @@
 		(uuid "1955b670-d056-4a3a-9e7e-52a6bb724192")
 	)
 	(no_connect
-		(at 132.08 222.25)
+		(at 127.254 222.504)
 		(uuid "1d22b609-7d5f-4580-9d3c-8afa3938ffcb")
 	)
 	(no_connect
@@ -13582,7 +13415,7 @@
 		(uuid "51ddd069-92c4-4db7-bab4-c0c3cf81edb7")
 	)
 	(no_connect
-		(at 297.18 147.32)
+		(at 292.608 154.94)
 		(uuid "52a73b37-d9d1-4a3d-8327-cf3270048b56")
 	)
 	(no_connect
@@ -13662,7 +13495,7 @@
 		(uuid "6c29e455-22fa-46ae-bf71-3537d814f13c")
 	)
 	(no_connect
-		(at 132.08 216.662)
+		(at 127.254 216.916)
 		(uuid "6cced542-ff94-4510-a046-068eaeb82886")
 	)
 	(no_connect
@@ -13690,7 +13523,7 @@
 		(uuid "731bfe5f-ac71-4260-8011-18c0491ea342")
 	)
 	(no_connect
-		(at 132.08 233.172)
+		(at 127.254 233.426)
 		(uuid "73bf2aa1-bce3-49a0-a9cd-ec996cefad3a")
 	)
 	(no_connect
@@ -13746,7 +13579,7 @@
 		(uuid "8d95c817-01ec-4a5a-b156-6e7a2e9ab11a")
 	)
 	(no_connect
-		(at 132.08 227.584)
+		(at 127.254 227.838)
 		(uuid "8eb70279-e8a7-4af9-90cb-b28a7a3f9475")
 	)
 	(no_connect
@@ -13794,7 +13627,7 @@
 		(uuid "9bdddb3b-2187-4fa5-9107-a2a399f9d67c")
 	)
 	(no_connect
-		(at 231.14 149.86)
+		(at 230.124 154.94)
 		(uuid "9c57b4ef-49b3-4dd5-a3d4-120ca077efc4")
 	)
 	(no_connect
@@ -13814,7 +13647,7 @@
 		(uuid "a3d09935-e59d-4cb2-99b3-9b68ef676841")
 	)
 	(no_connect
-		(at 317.5 152.4)
+		(at 311.658 154.94)
 		(uuid "a52ff4e5-5fed-4e03-a439-b85206abe848")
 	)
 	(no_connect
@@ -13834,7 +13667,7 @@
 		(uuid "af1afbe5-7dcc-4eee-8cb2-4945549ff2ce")
 	)
 	(no_connect
-		(at 294.64 152.4)
+		(at 291.084 154.94)
 		(uuid "b1b140a7-bd12-4d68-83ac-4f3c81a5e48e")
 	)
 	(no_connect
@@ -13918,7 +13751,7 @@
 		(uuid "c3545635-6925-4c3c-a83f-70c7b7962559")
 	)
 	(no_connect
-		(at 254 154.94)
+		(at 251.206 154.94)
 		(uuid "c35e4e49-31bd-4230-ba82-ca697eaeb29a")
 	)
 	(no_connect
@@ -13946,7 +13779,7 @@
 		(uuid "d3256780-06a8-4bf1-bddb-d7c4dabe2096")
 	)
 	(no_connect
-		(at 274.32 147.32)
+		(at 272.034 154.94)
 		(uuid "d38d0e13-36bc-421f-bab2-b85eb1b7de75")
 	)
 	(no_connect
@@ -14030,7 +13863,7 @@
 		(uuid "f038a54e-2e2f-47b1-a6b3-74935f6e4a7e")
 	)
 	(no_connect
-		(at 254 149.86)
+		(at 249.174 154.94)
 		(uuid "f049a8cd-2a82-464c-b2cb-20baf63eac6f")
 	)
 	(no_connect
@@ -14333,6 +14166,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.112 129.286) (xy 258.826 129.286)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1889b1b1-fdf1-4027-a5ca-9b74b765b901")
+	)
+	(wire
+		(pts
 			(xy 441.96 334.518) (xy 441.96 333.248)
 		)
 		(stroke
@@ -14350,6 +14193,16 @@
 			(type default)
 		)
 		(uuid "1dd6e42d-8287-4d1d-b8fe-54acdef985a0")
+	)
+	(wire
+		(pts
+			(xy 493.014 74.168) (xy 490.474 74.168)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f24c142-679d-4229-83c0-3fe3ad34e2ff")
 	)
 	(wire
 		(pts
@@ -14380,6 +14233,16 @@
 			(type default)
 		)
 		(uuid "254edfe9-babb-4f00-a0d3-dfffac810d60")
+	)
+	(wire
+		(pts
+			(xy 539.75 74.422) (xy 536.956 74.422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "264b9f86-4df3-4c34-b509-5a551d4ea193")
 	)
 	(wire
 		(pts
@@ -14513,6 +14376,16 @@
 	)
 	(wire
 		(pts
+			(xy 287.528 114.046) (xy 285.496 114.046)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39901b77-2cfd-4c45-8716-74c5df4d2a2b")
+	)
+	(wire
+		(pts
 			(xy 291.846 131.826) (xy 285.496 131.826)
 		)
 		(stroke
@@ -14550,6 +14423,16 @@
 			(type default)
 		)
 		(uuid "3ea6af58-0263-4345-bb4b-f8be55cfad94")
+	)
+	(wire
+		(pts
+			(xy 287.274 136.906) (xy 285.496 136.906)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41176869-1abd-490d-bc00-0b2ae171cf38")
 	)
 	(wire
 		(pts
@@ -14763,7 +14646,7 @@
 	)
 	(wire
 		(pts
-			(xy 433.578 330.581) (xy 438.658 330.581)
+			(xy 433.578 329.438) (xy 438.658 329.438)
 		)
 		(stroke
 			(width 0)
@@ -14813,7 +14696,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 157.48) (xy 284.48 163.83)
+			(xy 280.924 161.29) (xy 280.924 167.64)
 		)
 		(stroke
 			(width 0)
@@ -15013,7 +14896,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 162.56) (xy 304.8 168.91)
+			(xy 301.498 161.29) (xy 301.498 167.64)
 		)
 		(stroke
 			(width 0)
@@ -15073,6 +14956,16 @@
 	)
 	(wire
 		(pts
+			(xy 288.29 129.286) (xy 285.496 129.286)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90b1da2c-8254-4a77-b61a-6f742228e69b")
+	)
+	(wire
+		(pts
 			(xy 427.99 173.736) (xy 426.72 173.736)
 		)
 		(stroke
@@ -15080,6 +14973,16 @@
 			(type default)
 		)
 		(uuid "964cbfe7-f43b-4e0f-a1ad-31191629d13d")
+	)
+	(wire
+		(pts
+			(xy 261.366 121.666) (xy 258.826 121.666)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "983124b6-6315-460d-bc4f-d78a6868e8a7")
 	)
 	(wire
 		(pts
@@ -15133,6 +15036,16 @@
 	)
 	(wire
 		(pts
+			(xy 541.274 82.042) (xy 536.956 82.042)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaa39570-14a2-4b23-bb6c-ef3368b2fb03")
+	)
+	(wire
+		(pts
 			(xy 443.611 309.118) (xy 448.818 309.118)
 		)
 		(stroke
@@ -15160,6 +15073,16 @@
 			(type default)
 		)
 		(uuid "abc9da85-f9d6-4512-9776-48c8a1fdbfac")
+	)
+	(wire
+		(pts
+			(xy 441.198 75.692) (xy 446.532 75.692)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad1f1279-bc2b-4a34-8091-5a5d61a4863f")
 	)
 	(wire
 		(pts
@@ -15193,13 +15116,23 @@
 	)
 	(wire
 		(pts
-			(xy 433.578 330.581) (xy 433.578 329.438)
+			(xy 495.3 81.788) (xy 490.474 81.788)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b1c3e172-4340-4b7a-8d60-2f6557314053")
+		(uuid "b401ee19-56b6-42fc-8fb4-009494283c75")
+	)
+	(wire
+		(pts
+			(xy 439.928 68.072) (xy 446.532 68.072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5368d99-708f-4aa9-b084-a6d3359301e8")
 	)
 	(wire
 		(pts
@@ -15313,7 +15246,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 168.91) (xy 307.34 162.56)
+			(xy 304.038 167.64) (xy 304.038 161.29)
 		)
 		(stroke
 			(width 0)
@@ -15323,7 +15256,7 @@
 	)
 	(wire
 		(pts
-			(xy 438.658 330.581) (xy 438.658 321.818)
+			(xy 438.658 329.438) (xy 438.658 321.818)
 		)
 		(stroke
 			(width 0)
@@ -15393,6 +15326,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 136.906) (xy 258.826 136.906)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3ae76cb-3fa8-48f0-a9d4-ae98d785844c")
+	)
+	(wire
+		(pts
 			(xy 187.96 223.012) (xy 187.96 225.552)
 		)
 		(stroke
@@ -15410,6 +15353,16 @@
 			(type default)
 		)
 		(uuid "c743e4cc-8973-4e68-9231-b5a3d1fff458")
+	)
+	(wire
+		(pts
+			(xy 287.274 121.666) (xy 285.496 121.666)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c984b506-f8b3-4562-aaec-05e235706b2d")
 	)
 	(wire
 		(pts
@@ -15500,6 +15453,16 @@
 			(type default)
 		)
 		(uuid "d3be6d8c-bad2-4277-adac-2cecc41f8281")
+	)
+	(wire
+		(pts
+			(xy 261.874 114.046) (xy 258.826 114.046)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4bef993-bb83-4d85-b902-4a6bffcd3a1b")
 	)
 	(wire
 		(pts
@@ -15733,7 +15696,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 163.83) (xy 287.02 157.48)
+			(xy 283.464 167.64) (xy 283.464 161.29)
 		)
 		(stroke
 			(width 0)
@@ -16282,7 +16245,7 @@
 		(uuid "7a5543c9-e444-4e43-bfe6-7a9ac851d8c0")
 	)
 	(label "CAN2_H"
-		(at 287.02 163.83 270)
+		(at 283.464 167.64 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16352,7 +16315,7 @@
 		(uuid "a34b015b-2e76-428c-a619-60233144a234")
 	)
 	(label "CAN2_H"
-		(at 307.34 168.91 270)
+		(at 304.038 167.64 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16462,7 +16425,7 @@
 		(uuid "b1090eb4-a61c-4278-b68e-702a3405380c")
 	)
 	(label "CAN2_L"
-		(at 304.8 168.91 270)
+		(at 301.498 167.64 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16702,7 +16665,7 @@
 		(uuid "ea5e7f38-7b7b-41b6-bb3e-47a0438586ee")
 	)
 	(label "CAN2_L"
-		(at 284.48 163.83 270)
+		(at 280.924 167.64 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16989,7 +16952,7 @@
 	)
 	(global_label "CAN1_L"
 		(shape input)
-		(at 241.3 160.02 270)
+		(at 239.014 161.29 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16999,7 +16962,7 @@
 		)
 		(uuid "156c327c-2053-4025-978a-d86ab3f2c5ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.3 169.8995 90)
+			(at 239.014 171.1695 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17373,7 +17336,7 @@
 	)
 	(global_label "CAN1_L"
 		(shape input)
-		(at 264.16 165.1 270)
+		(at 260.096 161.29 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17383,7 +17346,7 @@
 		)
 		(uuid "622225ad-d27b-4437-aab4-0b8cfb7a09ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.16 174.9795 90)
+			(at 260.096 171.1695 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17637,7 +17600,7 @@
 	)
 	(global_label "CAN1_H"
 		(shape input)
-		(at 243.84 160.02 270)
+		(at 241.554 161.29 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17647,7 +17610,7 @@
 		)
 		(uuid "74d76764-4545-4810-b28a-970d3910c34b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.84 170.2019 90)
+			(at 241.554 171.4719 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17925,7 +17888,7 @@
 	)
 	(global_label "CAN1_H"
 		(shape input)
-		(at 266.7 165.1 270)
+		(at 262.636 161.29 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17935,7 +17898,7 @@
 		)
 		(uuid "b6881680-9606-47c3-a0ed-5347720fb3b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.7 175.2819 90)
+			(at 262.636 171.4719 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18520,7 +18483,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 285.496 136.906 90)
+		(at 287.274 136.906 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18528,10 +18491,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "063f8cce-70f5-440b-bfec-c7dd662f14a8")
 		(property "Reference" "#PWR0136"
-			(at 291.846 136.906 0)
+			(at 287.274 143.256 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18542,18 +18504,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 289.306 136.906 90)
+			(at 289.052 138.176 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 285.496 136.906 0)
+			(at 287.274 136.906 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18564,7 +18526,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 285.496 136.906 0)
+			(at 287.274 136.906 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18575,7 +18537,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 285.496 136.906 0)
+			(at 287.274 136.906 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18607,7 +18569,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "08b1e56f-c81a-4a74-aa45-2aa4ff1cccf6")
 		(property "Reference" "#PWR014"
 			(at 237.998 314.198 0)
@@ -18621,7 +18582,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 235.458 314.198 90)
+			(at 233.426 314.198 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18686,7 +18647,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0995ae6b-5e36-4019-b5cf-8610f95a6462")
 		(property "Reference" "#PWR024"
 			(at 227.838 326.898 0)
@@ -18700,7 +18660,7 @@
 			)
 		)
 		(property "Value" "5V_2"
-			(at 235.458 326.898 90)
+			(at 233.426 326.898 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19231,7 +19191,7 @@
 		(dnp no)
 		(uuid "0e42b3f7-3eda-4204-92c8-5e1c80f5d08c")
 		(property "Reference" "JP1"
-			(at 431.8 129.286 0)
+			(at 432.562 129.286 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19300,7 +19260,7 @@
 	)
 	(symbol
 		(lib_id "CMAIN_PCB:SMTSO3050CTJ")
-		(at 137.16 216.662 0)
+		(at 132.334 216.916 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19308,10 +19268,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "10c7c64a-945d-4699-b120-8119fb14d24b")
 		(property "Reference" "U5"
-			(at 140.716 216.6619 0)
+			(at 135.89 216.9159 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19321,8 +19280,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at 137.16 216.662 0)
+		(property "Value" "SMTSO3050CTJ"
+			(at 143.256 218.694 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19332,7 +19291,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:SMD_SMTSO3060CTJ"
-			(at 137.16 216.662 0)
+			(at 132.334 216.916 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19343,7 +19302,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/SMTSO3050CTJ/3209261.html"
-			(at 137.16 216.662 0)
+			(at 132.334 216.916 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19354,7 +19313,7 @@
 			)
 		)
 		(property "Description" "specifications:M3X5 surface treatment:Tin plated Product Description:- material quality:-"
-			(at 137.16 216.662 0)
+			(at 132.334 216.916 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19365,7 +19324,7 @@
 			)
 		)
 		(property "Manufacturer Part" "SMTSO3050CTJ"
-			(at 137.16 216.662 0)
+			(at 132.334 216.916 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19376,7 +19335,7 @@
 			)
 		)
 		(property "Manufacturer" "Sinhoo(雄和远景)"
-			(at 137.16 216.662 0)
+			(at 132.334 216.916 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19387,7 +19346,7 @@
 			)
 		)
 		(property "Supplier Part" "C2915636"
-			(at 137.16 216.662 0)
+			(at 132.334 216.916 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19398,7 +19357,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 137.16 216.662 0)
+			(at 132.334 216.916 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19409,7 +19368,7 @@
 			)
 		)
 		(property "LCSC Part Name" "雄和远景，电路板表贴圆螺母柱，M3Xφ5.56X5+1.53，铜镀锡，编带装"
-			(at 137.16 216.662 0)
+			(at 132.334 216.916 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19521,7 +19480,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "11398732-9b90-45f7-a9c3-5831bde524a1")
 		(property "Reference" "#PWR020"
 			(at 237.998 324.358 0)
@@ -19535,7 +19493,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 235.458 324.358 90)
+			(at 233.426 324.358 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20451,7 +20409,7 @@
 		(dnp no)
 		(uuid "163a6746-783b-4495-8d98-70dea72032a0")
 		(property "Reference" "C1"
-			(at 448.31 134.366 0)
+			(at 448.31 137.922 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20461,8 +20419,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 448.31 136.906 0)
+		(property "Value" "100nF 50V"
+			(at 450.85 140.716 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20472,7 +20430,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:fp_71505040a9"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 448.31 143.256 0)
 			(hide yes)
 			(show_name no)
@@ -20756,7 +20714,7 @@
 		(dnp no)
 		(uuid "1845f3bd-7ef9-4fee-98e9-dd0cd264ffc4")
 		(property "Reference" "R14"
-			(at 415.544 43.18 90)
+			(at 418.084 45.466 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20766,7 +20724,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "120R"
+		(property "Value" "120R 150V"
 			(at 421.894 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20777,7 +20735,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 416.306 47.498 90)
 			(hide yes)
 			(show_name no)
@@ -20907,7 +20865,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1a5a642f-48b2-4b4b-8b5c-8abb18446a6d")
 		(property "Reference" "D5"
 			(at 485.648 311.15 0)
@@ -20919,8 +20876,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 485.648 325.628 0)
+		(property "Value" "USBLC6-2SC6"
+			(at 479.044 340.106 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20929,7 +20886,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+		(property "Footprint" "CMAIN_PCB:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
 			(at 485.648 325.628 0)
 			(hide yes)
 			(show_name no)
@@ -21046,7 +21003,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 482.854 36.576 270)
+		(at 482.854 36.576 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21056,7 +21013,7 @@
 		(dnp no)
 		(uuid "1bcbe702-8b7d-4b19-a57e-b585f32d9302")
 		(property "Reference" "#PWR0238"
-			(at 479.044 36.576 0)
+			(at 482.854 40.386 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21067,7 +21024,7 @@
 			)
 		)
 		(property "Value" "5V_2"
-			(at 486.664 36.576 0)
+			(at 482.854 32.766 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21959,140 +21916,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Snapeda:SMTSO25100CTJ")
-		(at 170.434 359.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "252c5c82-d21e-4c3d-9a3e-2137d2697e37")
-		(property "Reference" "U11"
-			(at 170.434 359.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SMTSO25100CTJ"
-			(at 172.974 359.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CMAIN_PCB:SMD_BD5.6-L5.6-W5.6-D4.1"
-			(at 170.434 351.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211122/17CF5E24EB4D4DC090A80DE3D7DE5E21.pdf"
-			(at 170.434 354.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "specifications:M2.5X10 surface treatment:镀锡 Product Description:- material quality:- model:SMTSO25100CTJ brand:Sinhoo(雄和远景)"
-			(at 170.434 364.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "SMTSO25100CTJ"
-			(at 170.434 368.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Sinhoo(雄和远景)"
-			(at 170.434 365.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part" "C2916330"
-			(at 170.434 355.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 170.434 363.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part Name" "雄和远景，电路板表贴圆螺母柱，M2.5X10，铜镀锡,1个"
-			(at 170.434 358.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5ec875af-fdbc-4d92-b2fd-23c025ce5849")
-		)
-		(instances
-			(project "CMAIN_PCB"
-				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311"
-					(reference "U11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 335.534 166.116 270)
 		(unit 1)
@@ -22480,8 +22303,9 @@
 		)
 	)
 	(symbol
-		(lib_id "CMAIN_PCB:BM04B-GHS-TBT(LF)(SN)")
-		(at 285.75 151.13 0)
+		(lib_id "CMAIN_PCB:WAFER-GH1.25-4PLB")
+		(at 280.924 157.48 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22490,8 +22314,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b8d9447-efba-4e85-9877-7e0997fca049")
-		(property "Reference" "CN18"
-			(at 285.75 149.352 0)
+		(property "Reference" "U14"
+			(at 276.606 151.384 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22501,7 +22325,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 285.75 151.13 0)
+			(at 280.924 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22510,8 +22334,8 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:fp_49628edcd6"
-			(at 285.75 151.13 0)
+		(property "Footprint" "CMAIN_PCB:WAFER-GH1.25-4PLB"
+			(at 280.924 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22521,8 +22345,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/BM04B-GHS-TBT(LF)(SN)/173073.html"
-			(at 285.75 151.13 0)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/WAFER-GH1.25-4PLB/3561382.html"
+			(at 280.924 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22532,8 +22356,8 @@
 				)
 			)
 		)
-		(property "Description" "Pins Structure:1x4P Pitch:1.25mm Mounting Type:Surface Mount,Vertical Reference Series:GH Number of Pins:4P Number of Rows:1 Number of PINs Per Row:4 Row Spacing:- Current Rating:1A Contact Material:Phosphor Bronze Contact Plating:Tin Operating Temperatur"
-			(at 285.75 151.13 0)
+		(property "Description" "Pins Structure:1x4P Pitch:1.25mm Mounting Type:Surface Mount,Vertical Reference Series:GH Number of Pins:4P Number of Rows:1 Number of PINs Per Row:4 Row Spacing:- Current Rating:1A Contact Material:Brass Contact Plating:Tin Operating Temperature:-25°C~+85"
+			(at 280.924 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22543,8 +22367,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "BM04B-GHS-TBT(LF)(SN)"
-			(at 285.75 151.13 0)
+		(property "Manufacturer Part" "WAFER-GH1.25-4PLB"
+			(at 280.924 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22554,8 +22378,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "JST"
-			(at 285.75 151.13 0)
+		(property "Manufacturer" "XUNPU(讯普)"
+			(at 280.924 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22565,8 +22389,8 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C161692"
-			(at 285.75 151.13 0)
+		(property "Supplier Part" "C3029370"
+			(at 280.924 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22577,7 +22401,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 285.75 151.13 0)
+			(at 280.924 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22588,7 +22412,7 @@
 			)
 		)
 		(property "LCSC Part Name" "1x4P 间距:1.25mm 立贴 系列:GH"
-			(at 285.75 151.13 0)
+			(at 280.924 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22619,7 +22443,7 @@
 		(instances
 			(project "CMAIN_PCB"
 				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311"
-					(reference "CN18")
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -23477,7 +23301,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 285.496 114.046 270)
+		(at 287.528 114.046 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23485,10 +23309,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "37c02fac-c44d-4fc7-adf3-793ea570f3ae")
 		(property "Reference" "#PWR0133"
-			(at 281.686 114.046 0)
+			(at 287.528 117.856 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23499,7 +23322,7 @@
 			)
 		)
 		(property "Value" "5V_3"
-			(at 288.036 114.046 90)
+			(at 288.798 112.776 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23510,7 +23333,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 285.496 114.046 0)
+			(at 287.528 114.046 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23521,7 +23344,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 285.496 114.046 0)
+			(at 287.528 114.046 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23532,7 +23355,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 285.496 114.046 0)
+			(at 287.528 114.046 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23556,7 +23379,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 289.56 157.48 180)
+		(at 286.004 161.29 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23567,7 +23390,7 @@
 		(fields_autoplaced yes)
 		(uuid "37f17e88-9a3b-4cdf-b697-70cf776befd9")
 		(property "Reference" "#PWR0105"
-			(at 289.56 153.67 0)
+			(at 286.004 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23578,7 +23401,7 @@
 			)
 		)
 		(property "Value" "5V_1"
-			(at 289.56 160.02 90)
+			(at 286.004 163.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23589,7 +23412,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 289.56 157.48 0)
+			(at 286.004 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23600,7 +23423,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 289.56 157.48 0)
+			(at 286.004 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23611,7 +23434,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 289.56 157.48 0)
+			(at 286.004 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23873,7 +23696,7 @@
 		(dnp no)
 		(uuid "3d6c4e3d-4543-4de0-859c-317a56077696")
 		(property "Reference" "R11"
-			(at 429.26 168.656 90)
+			(at 428.752 171.196 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23883,8 +23706,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 429.26 171.196 90)
+		(property "Value" "10k 150V"
+			(at 426.466 169.164 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23894,7 +23717,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 430.53 169.926 90)
 			(hide yes)
 			(show_name no)
@@ -24347,7 +24170,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 446.532 75.692 270)
+		(at 441.198 75.692 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24357,7 +24180,7 @@
 		(dnp no)
 		(uuid "3f31a701-3899-4e27-8c9c-5dd322aa5213")
 		(property "Reference" "#PWR017"
-			(at 440.182 75.692 0)
+			(at 441.198 82.042 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24368,7 +24191,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 441.452 75.692 90)
+			(at 441.198 80.772 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24378,7 +24201,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 446.532 75.692 0)
+			(at 441.198 75.692 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24389,7 +24212,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 446.532 75.692 0)
+			(at 441.198 75.692 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24400,7 +24223,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 446.532 75.692 0)
+			(at 441.198 75.692 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24967,7 +24790,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 536.956 82.042 90)
+		(at 541.274 82.042 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24975,10 +24798,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "48c32ec9-436a-4a4b-b938-423bc1a598e4")
 		(property "Reference" "#PWR099"
-			(at 543.306 82.042 0)
+			(at 541.274 88.392 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24989,18 +24811,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 540.766 82.042 90)
+			(at 539.496 85.852 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 536.956 82.042 0)
+			(at 541.274 82.042 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25011,7 +24833,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 536.956 82.042 0)
+			(at 541.274 82.042 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25022,7 +24844,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 536.956 82.042 0)
+			(at 541.274 82.042 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25046,7 +24868,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 467.106 44.196 90)
+		(at 467.106 44.196 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25057,7 +24879,7 @@
 		(fields_autoplaced yes)
 		(uuid "49452b5b-82a9-48fc-a01c-1a80bf0295c2")
 		(property "Reference" "#PWR07"
-			(at 473.456 44.196 0)
+			(at 467.106 50.546 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25068,14 +24890,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 470.916 44.196 90)
+			(at 469.9 45.4659 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -26174,8 +25996,9 @@
 		)
 	)
 	(symbol
-		(lib_id "CMAIN_PCB:BM04B-GHS-TBT(LF)(SN)")
-		(at 265.43 158.75 0)
+		(lib_id "CMAIN_PCB:WAFER-GH1.25-4PLB")
+		(at 260.096 157.48 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26184,8 +26007,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "52d1cdee-9626-4d10-ad77-768df442b7ee")
-		(property "Reference" "CN20"
-			(at 265.43 156.464 0)
+		(property "Reference" "U13"
+			(at 255.778 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26195,7 +26018,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 265.43 158.75 0)
+			(at 260.096 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26204,8 +26027,8 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:fp_49628edcd6"
-			(at 265.43 158.75 0)
+		(property "Footprint" "CMAIN_PCB:WAFER-GH1.25-4PLB"
+			(at 260.096 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26215,8 +26038,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/BM04B-GHS-TBT(LF)(SN)/173073.html"
-			(at 265.43 158.75 0)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/WAFER-GH1.25-4PLB/3561382.html"
+			(at 260.096 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26226,8 +26049,8 @@
 				)
 			)
 		)
-		(property "Description" "Pins Structure:1x4P Pitch:1.25mm Mounting Type:Surface Mount,Vertical Reference Series:GH Number of Pins:4P Number of Rows:1 Number of PINs Per Row:4 Row Spacing:- Current Rating:1A Contact Material:Phosphor Bronze Contact Plating:Tin Operating Temperatur"
-			(at 265.43 158.75 0)
+		(property "Description" "Pins Structure:1x4P Pitch:1.25mm Mounting Type:Surface Mount,Vertical Reference Series:GH Number of Pins:4P Number of Rows:1 Number of PINs Per Row:4 Row Spacing:- Current Rating:1A Contact Material:Brass Contact Plating:Tin Operating Temperature:-25°C~+85"
+			(at 260.096 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26237,8 +26060,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "BM04B-GHS-TBT(LF)(SN)"
-			(at 265.43 158.75 0)
+		(property "Manufacturer Part" "WAFER-GH1.25-4PLB"
+			(at 260.096 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26248,8 +26071,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "JST"
-			(at 265.43 158.75 0)
+		(property "Manufacturer" "XUNPU(讯普)"
+			(at 260.096 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26259,8 +26082,8 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C161692"
-			(at 265.43 158.75 0)
+		(property "Supplier Part" "C3029370"
+			(at 260.096 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26271,7 +26094,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 265.43 158.75 0)
+			(at 260.096 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26282,7 +26105,7 @@
 			)
 		)
 		(property "LCSC Part Name" "1x4P 间距:1.25mm 立贴 系列:GH"
-			(at 265.43 158.75 0)
+			(at 260.096 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26313,141 +26136,7 @@
 		(instances
 			(project "CMAIN_PCB"
 				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311"
-					(reference "CN20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Snapeda:SMTSO25100CTJ")
-		(at 170.434 354.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54b06e76-d326-4193-a589-8b08d27c3c36")
-		(property "Reference" "U9"
-			(at 170.434 354.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SMTSO25100CTJ"
-			(at 172.974 354.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CMAIN_PCB:SMD_BD5.6-L5.6-W5.6-D4.1"
-			(at 170.434 346.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211122/17CF5E24EB4D4DC090A80DE3D7DE5E21.pdf"
-			(at 170.434 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "specifications:M2.5X10 surface treatment:镀锡 Product Description:- material quality:- model:SMTSO25100CTJ brand:Sinhoo(雄和远景)"
-			(at 170.434 359.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "SMTSO25100CTJ"
-			(at 170.434 363.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Sinhoo(雄和远景)"
-			(at 170.434 360.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part" "C2916330"
-			(at 170.434 350.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 170.434 358.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part Name" "雄和远景，电路板表贴圆螺母柱，M2.5X10，铜镀锡,1个"
-			(at 170.434 353.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e7370c8c-66de-4a31-9d4f-1d02f67c393a")
-		)
-		(instances
-			(project "CMAIN_PCB"
-				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311"
-					(reference "U9")
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -26455,7 +26144,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 246.38 160.02 180)
+		(at 244.094 161.29 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26466,7 +26155,7 @@
 		(fields_autoplaced yes)
 		(uuid "577d3a23-a325-4d08-82a6-661fd88df8b1")
 		(property "Reference" "#PWR058"
-			(at 246.38 156.21 0)
+			(at 244.094 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26477,7 +26166,7 @@
 			)
 		)
 		(property "Value" "5V_1"
-			(at 246.38 162.56 90)
+			(at 244.094 163.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26488,7 +26177,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 160.02 0)
+			(at 244.094 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26499,7 +26188,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 160.02 0)
+			(at 244.094 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26510,7 +26199,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 246.38 160.02 0)
+			(at 244.094 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26611,7 +26300,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 302.26 162.56 0)
+		(at 298.958 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26622,7 +26311,7 @@
 		(fields_autoplaced yes)
 		(uuid "597a973f-dba0-4576-ad8c-c1a8bf299028")
 		(property "Reference" "#PWR0128"
-			(at 302.26 168.91 0)
+			(at 298.958 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26633,7 +26322,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 302.26 166.37 90)
+			(at 298.958 165.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26644,7 +26333,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 302.26 162.56 0)
+			(at 298.958 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26655,7 +26344,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 302.26 162.56 0)
+			(at 298.958 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26666,7 +26355,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 302.26 162.56 0)
+			(at 298.958 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26690,7 +26379,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 261.62 165.1 0)
+		(at 257.556 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26701,7 +26390,7 @@
 		(fields_autoplaced yes)
 		(uuid "5abead00-fec2-41dc-a10f-884bb1fe7931")
 		(property "Reference" "#PWR0127"
-			(at 261.62 171.45 0)
+			(at 257.556 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26712,7 +26401,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 261.62 168.91 90)
+			(at 257.556 165.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26723,7 +26412,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 165.1 0)
+			(at 257.556 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26734,7 +26423,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 165.1 0)
+			(at 257.556 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26745,7 +26434,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 261.62 165.1 0)
+			(at 257.556 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26998,7 +26687,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 258.826 136.906 90)
+		(at 260.35 136.906 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27006,10 +26695,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "666b8771-7aae-43a5-aa63-72eafd743282")
 		(property "Reference" "#PWR0132"
-			(at 265.176 136.906 0)
+			(at 260.35 143.256 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27020,18 +26708,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 262.636 136.906 90)
+			(at 261.874 138.176 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 258.826 136.906 0)
+			(at 260.35 136.906 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27042,7 +26730,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 258.826 136.906 0)
+			(at 260.35 136.906 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27053,7 +26741,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 258.826 136.906 0)
+			(at 260.35 136.906 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27084,7 +26772,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6710e7a1-1767-41b2-8623-f6b89496b3e3")
 		(property "Reference" "J11"
 			(at 413.004 81.026 0)
@@ -27217,7 +26905,7 @@
 	)
 	(symbol
 		(lib_id "CMAIN_PCB:SMTSO3050CTJ")
-		(at 137.16 233.172 0)
+		(at 132.334 233.426 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27225,10 +26913,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "674f094b-1590-4f54-bfb5-c6e2cca88e3e")
 		(property "Reference" "U21"
-			(at 140.716 233.1719 0)
+			(at 135.89 233.4259 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27238,8 +26925,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at 137.16 233.172 0)
+		(property "Value" "SMTSO3050CTJ"
+			(at 143.002 235.458 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27249,7 +26936,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:SMD_SMTSO3060CTJ"
-			(at 137.16 233.172 0)
+			(at 132.334 233.426 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27260,7 +26947,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/SMTSO3050CTJ/3209261.html"
-			(at 137.16 233.172 0)
+			(at 132.334 233.426 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27271,7 +26958,7 @@
 			)
 		)
 		(property "Description" "specifications:M3X5 surface treatment:Tin plated Product Description:- material quality:-"
-			(at 137.16 233.172 0)
+			(at 132.334 233.426 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27282,7 +26969,7 @@
 			)
 		)
 		(property "Manufacturer Part" "SMTSO3050CTJ"
-			(at 137.16 233.172 0)
+			(at 132.334 233.426 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27293,7 +26980,7 @@
 			)
 		)
 		(property "Manufacturer" "Sinhoo(雄和远景)"
-			(at 137.16 233.172 0)
+			(at 132.334 233.426 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27304,7 +26991,7 @@
 			)
 		)
 		(property "Supplier Part" "C2915636"
-			(at 137.16 233.172 0)
+			(at 132.334 233.426 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27315,7 +27002,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 137.16 233.172 0)
+			(at 132.334 233.426 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27326,7 +27013,7 @@
 			)
 		)
 		(property "LCSC Part Name" "雄和远景，电路板表贴圆螺母柱，M3Xφ5.56X5+1.53，铜镀锡，编带装"
-			(at 137.16 233.172 0)
+			(at 132.334 233.426 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27360,7 +27047,7 @@
 		(dnp no)
 		(uuid "67d3071c-d1b6-40d2-816d-748fd5bdcce2")
 		(property "Reference" "R8"
-			(at 459.74 163.576 90)
+			(at 459.74 166.116 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27370,8 +27057,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 461.01 166.116 90)
+		(property "Value" "100k 150V"
+			(at 466.09 168.402 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27381,7 +27068,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 458.47 167.386 90)
 			(hide yes)
 			(show_name no)
@@ -27516,8 +27203,8 @@
 				)
 			)
 		)
-		(property "Value" "5K1"
-			(at 446.532 345.694 90)
+		(property "Value" "5K1 150V"
+			(at 449.326 345.694 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27526,7 +27213,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 446.532 345.694 0)
 			(hide yes)
 			(show_name no)
@@ -27892,7 +27579,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6a8e3704-15c6-45e1-bf98-48ce7bb57efb")
 		(property "Reference" "#PWR02"
 			(at 237.998 288.798 0)
@@ -27906,7 +27592,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 235.458 288.798 90)
+			(at 233.426 288.798 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27963,7 +27649,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 281.94 157.48 0)
+		(at 278.384 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27974,7 +27660,7 @@
 		(fields_autoplaced yes)
 		(uuid "6cecd87d-b1e3-4414-b9bc-a0be128576ca")
 		(property "Reference" "#PWR0123"
-			(at 281.94 163.83 0)
+			(at 278.384 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27985,7 +27671,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 281.94 161.29 90)
+			(at 278.384 165.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27996,7 +27682,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 281.94 157.48 0)
+			(at 278.384 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28007,7 +27693,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 281.94 157.48 0)
+			(at 278.384 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28018,7 +27704,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 281.94 157.48 0)
+			(at 278.384 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28505,7 +28191,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "767e6ef6-eedd-4a20-9948-e7e8e8380b21")
 		(property "Reference" "#PWR027"
 			(at 227.838 329.438 0)
@@ -28519,7 +28204,7 @@
 			)
 		)
 		(property "Value" "5V_2"
-			(at 235.458 329.438 90)
+			(at 233.426 329.438 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28576,7 +28261,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 238.76 160.02 0)
+		(at 236.474 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28587,7 +28272,7 @@
 		(fields_autoplaced yes)
 		(uuid "76ac9256-fb0b-4805-a69b-d3ed1cd3c1f4")
 		(property "Reference" "#PWR062"
-			(at 238.76 166.37 0)
+			(at 236.474 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28598,7 +28283,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 238.76 163.83 90)
+			(at 236.474 165.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28609,7 +28294,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 160.02 0)
+			(at 236.474 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28620,7 +28305,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 160.02 0)
+			(at 236.474 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28631,7 +28316,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 238.76 160.02 0)
+			(at 236.474 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28655,7 +28340,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 258.826 129.286 270)
+		(at 261.112 129.286 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28666,7 +28351,7 @@
 		(fields_autoplaced yes)
 		(uuid "76b9b298-dc2e-462d-a91e-babf1b9a7394")
 		(property "Reference" "#PWR0126"
-			(at 255.016 129.286 0)
+			(at 261.112 133.096 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28677,7 +28362,7 @@
 			)
 		)
 		(property "Value" "5V_3"
-			(at 261.366 129.286 90)
+			(at 262.636 128.0159 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28688,7 +28373,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 258.826 129.286 0)
+			(at 261.112 129.286 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28699,7 +28384,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 258.826 129.286 0)
+			(at 261.112 129.286 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28710,7 +28395,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 258.826 129.286 0)
+			(at 261.112 129.286 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28734,7 +28419,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 258.826 114.046 270)
+		(at 261.874 114.046 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28742,10 +28427,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "77019c81-126c-40b7-965e-f08ca7e512c3")
 		(property "Reference" "#PWR064"
-			(at 255.016 114.046 0)
+			(at 261.874 117.856 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28756,7 +28440,7 @@
 			)
 		)
 		(property "Value" "5V_3"
-			(at 261.366 114.046 90)
+			(at 263.398 112.776 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28767,7 +28451,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 258.826 114.046 0)
+			(at 261.874 114.046 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28778,7 +28462,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 258.826 114.046 0)
+			(at 261.874 114.046 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28789,7 +28473,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 258.826 114.046 0)
+			(at 261.874 114.046 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30039,8 +29723,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 425.958 325.628 0)
+		(property "Value" "TYPEC-303-ACP16"
+			(at 423.418 348.996 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30201,140 +29885,6 @@
 			(project "CMAIN_PCB"
 				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311"
 					(reference "USB33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Snapeda:SMTSO25100CTJ")
-		(at 170.434 361.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8561919c-c5ba-4798-b303-55d100462f16")
-		(property "Reference" "U12"
-			(at 170.434 361.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SMTSO25100CTJ"
-			(at 172.974 361.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CMAIN_PCB:SMD_BD5.6-L5.6-W5.6-D4.1"
-			(at 170.434 354.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211122/17CF5E24EB4D4DC090A80DE3D7DE5E21.pdf"
-			(at 170.434 356.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "specifications:M2.5X10 surface treatment:镀锡 Product Description:- material quality:- model:SMTSO25100CTJ brand:Sinhoo(雄和远景)"
-			(at 170.434 367.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "SMTSO25100CTJ"
-			(at 170.434 370.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Sinhoo(雄和远景)"
-			(at 170.434 368.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part" "C2916330"
-			(at 170.434 358.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 170.434 365.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part Name" "雄和远景，电路板表贴圆螺母柱，M2.5X10，铜镀锡,1个"
-			(at 170.434 360.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b5658205-99fb-4637-9b9c-f660da952ef0")
-		)
-		(instances
-			(project "CMAIN_PCB"
-				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311"
-					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -30714,7 +30264,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8f7bfff6-43b9-4fc0-b03a-bcd5981582e9")
 		(property "Reference" "#PWR03"
 			(at 237.998 293.878 0)
@@ -30728,7 +30277,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 235.458 293.878 90)
+			(at 233.426 293.878 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31148,7 +30697,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 285.496 121.666 90)
+		(at 287.274 121.666 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31156,10 +30705,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "957dc6b1-4bbd-4615-ac28-a39d0b1a8414")
 		(property "Reference" "#PWR0134"
-			(at 291.846 121.666 0)
+			(at 287.274 128.016 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31170,18 +30718,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 289.306 121.666 90)
+			(at 289.052 122.936 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 285.496 121.666 0)
+			(at 287.274 121.666 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31192,7 +30740,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 285.496 121.666 0)
+			(at 287.274 121.666 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31203,7 +30751,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 285.496 121.666 0)
+			(at 287.274 121.666 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32056,7 +31604,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 258.826 121.666 90)
+		(at 261.366 121.666 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32064,10 +31612,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a49666d9-fed1-4cb7-9f79-5e87a4665cca")
 		(property "Reference" "#PWR072"
-			(at 265.176 121.666 0)
+			(at 261.366 128.016 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32078,18 +31625,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 262.636 121.666 90)
+			(at 263.144 122.936 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 258.826 121.666 0)
+			(at 261.366 121.666 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32100,7 +31647,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 258.826 121.666 0)
+			(at 261.366 121.666 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32111,7 +31658,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 258.826 121.666 0)
+			(at 261.366 121.666 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32519,8 +32066,9 @@
 		)
 	)
 	(symbol
-		(lib_id "CMAIN_PCB:BM04B-GHS-TBT(LF)(SN)")
-		(at 306.07 156.21 0)
+		(lib_id "CMAIN_PCB:WAFER-GH1.25-4PLB")
+		(at 301.498 157.48 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32529,8 +32077,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a78a3dbe-40e2-455c-8c40-26f1be9c7bc8")
-		(property "Reference" "CN54"
-			(at 306.07 154.178 0)
+		(property "Reference" "U16"
+			(at 296.926 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32540,7 +32088,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 306.07 156.21 0)
+			(at 301.498 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32549,8 +32097,8 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:fp_49628edcd6"
-			(at 306.07 156.21 0)
+		(property "Footprint" "CMAIN_PCB:WAFER-GH1.25-4PLB"
+			(at 301.498 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32560,8 +32108,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/BM04B-GHS-TBT(LF)(SN)/173073.html"
-			(at 306.07 156.21 0)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/WAFER-GH1.25-4PLB/3561382.html"
+			(at 301.498 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32571,8 +32119,8 @@
 				)
 			)
 		)
-		(property "Description" "Pins Structure:1x4P Pitch:1.25mm Mounting Type:Surface Mount,Vertical Reference Series:GH Number of Pins:4P Number of Rows:1 Number of PINs Per Row:4 Row Spacing:- Current Rating:1A Contact Material:Phosphor Bronze Contact Plating:Tin Operating Temperatur"
-			(at 306.07 156.21 0)
+		(property "Description" "Pins Structure:1x4P Pitch:1.25mm Mounting Type:Surface Mount,Vertical Reference Series:GH Number of Pins:4P Number of Rows:1 Number of PINs Per Row:4 Row Spacing:- Current Rating:1A Contact Material:Brass Contact Plating:Tin Operating Temperature:-25°C~+85"
+			(at 301.498 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32582,8 +32130,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "BM04B-GHS-TBT(LF)(SN)"
-			(at 306.07 156.21 0)
+		(property "Manufacturer Part" "WAFER-GH1.25-4PLB"
+			(at 301.498 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32593,8 +32141,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "JST"
-			(at 306.07 156.21 0)
+		(property "Manufacturer" "XUNPU(讯普)"
+			(at 301.498 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32604,8 +32152,8 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C161692"
-			(at 306.07 156.21 0)
+		(property "Supplier Part" "C3029370"
+			(at 301.498 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32616,7 +32164,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 306.07 156.21 0)
+			(at 301.498 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32627,7 +32175,7 @@
 			)
 		)
 		(property "LCSC Part Name" "1x4P 间距:1.25mm 立贴 系列:GH"
-			(at 306.07 156.21 0)
+			(at 301.498 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32658,7 +32206,7 @@
 		(instances
 			(project "CMAIN_PCB"
 				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311"
-					(reference "CN54")
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -32666,7 +32214,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 490.474 74.168 270)
+		(at 493.014 74.168 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32677,7 +32225,7 @@
 		(fields_autoplaced yes)
 		(uuid "a7a2e49a-afc5-4bd0-a37c-71c532ecbaef")
 		(property "Reference" "#PWR067"
-			(at 486.664 74.168 0)
+			(at 493.014 77.978 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32688,7 +32236,7 @@
 			)
 		)
 		(property "Value" "5V_2"
-			(at 495.554 74.168 90)
+			(at 495.3 72.8979 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32699,7 +32247,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 490.474 74.168 0)
+			(at 493.014 74.168 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32710,7 +32258,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 490.474 74.168 0)
+			(at 493.014 74.168 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32721,7 +32269,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 490.474 74.168 0)
+			(at 493.014 74.168 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32745,7 +32293,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 490.474 81.788 90)
+		(at 495.3 81.788 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32753,10 +32301,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a86fdfc7-9c74-47f4-b5c2-6a47add7b89e")
 		(property "Reference" "#PWR015"
-			(at 496.824 81.788 0)
+			(at 495.3 88.138 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32767,18 +32314,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 495.554 81.788 90)
+			(at 493.522 85.598 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 490.474 81.788 0)
+			(at 495.3 81.788 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32789,7 +32336,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 490.474 81.788 0)
+			(at 495.3 81.788 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32800,7 +32347,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 490.474 81.788 0)
+			(at 495.3 81.788 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32823,8 +32370,9 @@
 		)
 	)
 	(symbol
-		(lib_id "CMAIN_PCB:BM04B-GHS-TBT(LF)(SN)")
-		(at 242.57 153.67 0)
+		(lib_id "CMAIN_PCB:WAFER-GH1.25-4PLB")
+		(at 239.014 157.48 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32833,8 +32381,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa231d76-1280-407b-98d8-c3259c2cc333")
-		(property "Reference" "CN22"
-			(at 242.57 150.876 0)
+		(property "Reference" "U15"
+			(at 234.442 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32844,7 +32392,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 242.57 153.67 0)
+			(at 239.014 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32853,8 +32401,8 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:fp_49628edcd6"
-			(at 242.57 153.67 0)
+		(property "Footprint" "CMAIN_PCB:WAFER-GH1.25-4PLB"
+			(at 239.014 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32864,8 +32412,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/BM04B-GHS-TBT(LF)(SN)/173073.html"
-			(at 242.57 153.67 0)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/WAFER-GH1.25-4PLB/3561382.html"
+			(at 239.014 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32875,8 +32423,8 @@
 				)
 			)
 		)
-		(property "Description" "Pins Structure:1x4P Pitch:1.25mm Mounting Type:Surface Mount,Vertical Reference Series:GH Number of Pins:4P Number of Rows:1 Number of PINs Per Row:4 Row Spacing:- Current Rating:1A Contact Material:Phosphor Bronze Contact Plating:Tin Operating Temperatur"
-			(at 242.57 153.67 0)
+		(property "Description" "Pins Structure:1x4P Pitch:1.25mm Mounting Type:Surface Mount,Vertical Reference Series:GH Number of Pins:4P Number of Rows:1 Number of PINs Per Row:4 Row Spacing:- Current Rating:1A Contact Material:Brass Contact Plating:Tin Operating Temperature:-25°C~+85"
+			(at 239.014 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32886,8 +32434,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "BM04B-GHS-TBT(LF)(SN)"
-			(at 242.57 153.67 0)
+		(property "Manufacturer Part" "WAFER-GH1.25-4PLB"
+			(at 239.014 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32897,8 +32445,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "JST"
-			(at 242.57 153.67 0)
+		(property "Manufacturer" "XUNPU(讯普)"
+			(at 239.014 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32908,8 +32456,8 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C161692"
-			(at 242.57 153.67 0)
+		(property "Supplier Part" "C3029370"
+			(at 239.014 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32920,7 +32468,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 242.57 153.67 0)
+			(at 239.014 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32931,7 +32479,7 @@
 			)
 		)
 		(property "LCSC Part Name" "1x4P 间距:1.25mm 立贴 系列:GH"
-			(at 242.57 153.67 0)
+			(at 239.014 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32962,7 +32510,7 @@
 		(instances
 			(project "CMAIN_PCB"
 				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311"
-					(reference "CN22")
+					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -33588,7 +33136,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 285.496 129.286 270)
+		(at 288.29 129.286 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33599,7 +33147,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7010cdc-a797-4929-b67f-079728a8f7ab")
 		(property "Reference" "#PWR0135"
-			(at 281.686 129.286 0)
+			(at 288.29 133.096 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33610,7 +33158,7 @@
 			)
 		)
 		(property "Value" "5V_3"
-			(at 288.036 129.286 90)
+			(at 289.814 128.0159 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33621,7 +33169,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 285.496 129.286 0)
+			(at 288.29 129.286 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33632,7 +33180,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 285.496 129.286 0)
+			(at 288.29 129.286 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33643,7 +33191,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 285.496 129.286 0)
+			(at 288.29 129.286 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33675,7 +33223,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b9791a70-79e6-4839-b6dc-29069631f82a")
 		(property "Reference" "D8"
 			(at 453.898 304.8 0)
@@ -33687,8 +33234,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 453.898 309.118 0)
+		(property "Value" "SS14"
+			(at 453.898 312.674 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35181,7 +34728,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 309.88 162.56 180)
+		(at 306.578 161.29 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -35192,7 +34739,7 @@
 		(fields_autoplaced yes)
 		(uuid "d09e2d3f-78d1-44b4-a066-011f5dff3598")
 		(property "Reference" "#PWR0125"
-			(at 309.88 158.75 0)
+			(at 306.578 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35203,7 +34750,7 @@
 			)
 		)
 		(property "Value" "5V_2"
-			(at 309.88 165.1 90)
+			(at 306.578 163.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35214,7 +34761,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 309.88 162.56 0)
+			(at 306.578 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35225,7 +34772,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 309.88 162.56 0)
+			(at 306.578 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35236,7 +34783,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 309.88 162.56 0)
+			(at 306.578 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35279,8 +34826,8 @@
 				)
 			)
 		)
-		(property "Value" "5K1"
-			(at 456.438 340.868 90)
+		(property "Value" "5K1 150V"
+			(at 458.978 341.122 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35289,7 +34836,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 456.438 340.868 0)
 			(hide yes)
 			(show_name no)
@@ -35568,7 +35115,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 536.956 74.422 270)
+		(at 539.75 74.422 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -35579,7 +35126,7 @@
 		(fields_autoplaced yes)
 		(uuid "d88b32b0-55a0-4ba1-b698-6eae58f505f0")
 		(property "Reference" "#PWR098"
-			(at 533.146 74.422 0)
+			(at 539.75 78.232 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35590,7 +35137,7 @@
 			)
 		)
 		(property "Value" "5V_2"
-			(at 540.766 74.422 90)
+			(at 541.274 73.1519 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35601,7 +35148,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 536.956 74.422 0)
+			(at 539.75 74.422 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35612,7 +35159,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 536.956 74.422 0)
+			(at 539.75 74.422 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35623,7 +35170,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 536.956 74.422 0)
+			(at 539.75 74.422 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35970,7 +35517,7 @@
 		(dnp no)
 		(uuid "e1075df0-d87e-4912-8c94-f5247ebb44af")
 		(property "Reference" "R10"
-			(at 430.53 176.276 90)
+			(at 429.768 173.736 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35980,8 +35527,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 430.53 173.736 90)
+		(property "Value" "10k 150V"
+			(at 427.228 176.022 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35991,7 +35538,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 431.8 172.466 90)
 			(hide yes)
 			(show_name no)
@@ -36186,7 +35733,7 @@
 	)
 	(symbol
 		(lib_id "CMAIN_PCB:SMTSO3050CTJ")
-		(at 137.16 222.25 0)
+		(at 132.334 222.504 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36194,10 +35741,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e6853fe0-5de4-4280-a78f-952e45954e33")
 		(property "Reference" "U19"
-			(at 140.716 222.2499 0)
+			(at 135.89 222.5039 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36207,8 +35753,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at 137.16 222.25 0)
+		(property "Value" "SMTSO3050CTJ"
+			(at 143.002 224.282 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36218,7 +35764,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:SMD_SMTSO3060CTJ"
-			(at 137.16 222.25 0)
+			(at 132.334 222.504 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36229,7 +35775,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/SMTSO3050CTJ/3209261.html"
-			(at 137.16 222.25 0)
+			(at 132.334 222.504 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36240,7 +35786,7 @@
 			)
 		)
 		(property "Description" "specifications:M3X5 surface treatment:Tin plated Product Description:- material quality:-"
-			(at 137.16 222.25 0)
+			(at 132.334 222.504 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36251,7 +35797,7 @@
 			)
 		)
 		(property "Manufacturer Part" "SMTSO3050CTJ"
-			(at 137.16 222.25 0)
+			(at 132.334 222.504 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36262,7 +35808,7 @@
 			)
 		)
 		(property "Manufacturer" "Sinhoo(雄和远景)"
-			(at 137.16 222.25 0)
+			(at 132.334 222.504 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36273,7 +35819,7 @@
 			)
 		)
 		(property "Supplier Part" "C2915636"
-			(at 137.16 222.25 0)
+			(at 132.334 222.504 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36284,7 +35830,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 137.16 222.25 0)
+			(at 132.334 222.504 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36295,7 +35841,7 @@
 			)
 		)
 		(property "LCSC Part Name" "雄和远景，电路板表贴圆螺母柱，M3Xφ5.56X5+1.53，铜镀锡，编带装"
-			(at 137.16 222.25 0)
+			(at 132.334 222.504 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36319,7 +35865,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 269.24 165.1 180)
+		(at 265.176 161.29 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36330,7 +35876,7 @@
 		(fields_autoplaced yes)
 		(uuid "e773594e-2272-4f51-9fbb-fb2d32469b1c")
 		(property "Reference" "#PWR0124"
-			(at 269.24 161.29 0)
+			(at 265.176 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36341,7 +35887,7 @@
 			)
 		)
 		(property "Value" "5V_2"
-			(at 269.24 167.64 90)
+			(at 265.176 163.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36352,7 +35898,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 165.1 0)
+			(at 265.176 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36363,7 +35909,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 165.1 0)
+			(at 265.176 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36374,7 +35920,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 269.24 165.1 0)
+			(at 265.176 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36398,7 +35944,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 446.532 68.072 90)
+		(at 439.928 68.072 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36409,7 +35955,7 @@
 		(fields_autoplaced yes)
 		(uuid "e7ad080c-1c7c-442c-91a3-6f903bc47ac8")
 		(property "Reference" "#PWR019"
-			(at 450.342 68.072 0)
+			(at 439.928 71.882 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36420,7 +35966,7 @@
 			)
 		)
 		(property "Value" "5V_1"
-			(at 442.722 68.072 90)
+			(at 441.706 66.8019 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36431,7 +35977,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 446.532 68.072 0)
+			(at 439.928 68.072 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36442,7 +35988,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 446.532 68.072 0)
+			(at 439.928 68.072 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36453,7 +35999,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 446.532 68.072 0)
+			(at 439.928 68.072 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36618,140 +36164,6 @@
 			(project "CMAIN_PCB"
 				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311"
 					(reference "LS1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Snapeda:SMTSO25100CTJ")
-		(at 170.434 356.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9095837-900c-4775-a2bf-e7c78ca3fcae")
-		(property "Reference" "U10"
-			(at 170.434 356.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SMTSO25100CTJ"
-			(at 172.974 356.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CMAIN_PCB:SMD_BD5.6-L5.6-W5.6-D4.1"
-			(at 170.434 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211122/17CF5E24EB4D4DC090A80DE3D7DE5E21.pdf"
-			(at 170.434 351.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "specifications:M2.5X10 surface treatment:镀锡 Product Description:- material quality:- model:SMTSO25100CTJ brand:Sinhoo(雄和远景)"
-			(at 170.434 361.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "SMTSO25100CTJ"
-			(at 170.434 365.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Sinhoo(雄和远景)"
-			(at 170.434 363.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part" "C2916330"
-			(at 170.434 353.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 170.434 360.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part Name" "雄和远景，电路板表贴圆螺母柱，M2.5X10，铜镀锡,1个"
-			(at 170.434 355.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "84aebd25-8cee-4b9b-a2aa-43316ac18c2b")
-		)
-		(instances
-			(project "CMAIN_PCB"
-				(path "/ca31b60c-f1cb-4b97-95b8-376c0a181311"
-					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -36928,7 +36340,7 @@
 		(dnp no)
 		(uuid "eeb785b6-fed0-4769-922b-feeb41625d44")
 		(property "Reference" "R4"
-			(at 431.8 135.636 90)
+			(at 434.34 136.652 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36938,8 +36350,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 434.34 134.366 90)
+		(property "Value" "100k 150V"
+			(at 432.308 134.112 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36949,7 +36361,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 435.61 136.906 90)
 			(hide yes)
 			(show_name no)
@@ -37329,8 +36741,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 457.2 116.586 90)
+		(property "Value" "100k 150V"
+			(at 461.772 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37340,7 +36752,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 455.93 117.856 90)
 			(hide yes)
 			(show_name no)
@@ -37627,7 +37039,7 @@
 		(dnp no)
 		(uuid "f6de23c2-cebd-4a0e-ab47-e78710bd4c38")
 		(property "Reference" "R5"
-			(at 440.69 135.636 90)
+			(at 438.15 136.652 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37637,8 +37049,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 438.15 134.366 90)
+		(property "Value" "100k 150V"
+			(at 441.452 129.286 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37648,7 +37060,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CMAIN_PCB:fp_9fb50b8536"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 439.42 136.906 90)
 			(hide yes)
 			(show_name no)
@@ -38001,7 +37413,7 @@
 	)
 	(symbol
 		(lib_id "CMAIN_PCB:SMTSO3050CTJ")
-		(at 137.16 227.584 0)
+		(at 132.334 227.838 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -38009,10 +37421,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fb020a9e-af2c-4f68-bd75-a6fea93602e8")
 		(property "Reference" "U20"
-			(at 140.716 227.5839 0)
+			(at 135.89 227.8379 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38022,8 +37433,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at 137.16 227.584 0)
+		(property "Value" "SMTSO3050CTJ"
+			(at 143.256 229.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38033,7 +37444,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:SMD_SMTSO3060CTJ"
-			(at 137.16 227.584 0)
+			(at 132.334 227.838 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38044,7 +37455,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/SMTSO3050CTJ/3209261.html"
-			(at 137.16 227.584 0)
+			(at 132.334 227.838 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38055,7 +37466,7 @@
 			)
 		)
 		(property "Description" "specifications:M3X5 surface treatment:Tin plated Product Description:- material quality:-"
-			(at 137.16 227.584 0)
+			(at 132.334 227.838 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38066,7 +37477,7 @@
 			)
 		)
 		(property "Manufacturer Part" "SMTSO3050CTJ"
-			(at 137.16 227.584 0)
+			(at 132.334 227.838 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38077,7 +37488,7 @@
 			)
 		)
 		(property "Manufacturer" "Sinhoo(雄和远景)"
-			(at 137.16 227.584 0)
+			(at 132.334 227.838 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38088,7 +37499,7 @@
 			)
 		)
 		(property "Supplier Part" "C2915636"
-			(at 137.16 227.584 0)
+			(at 132.334 227.838 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38099,7 +37510,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 137.16 227.584 0)
+			(at 132.334 227.838 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38110,7 +37521,7 @@
 			)
 		)
 		(property "LCSC Part Name" "雄和远景，电路板表贴圆螺母柱，M3Xφ5.56X5+1.53，铜镀锡，编带装"
-			(at 137.16 227.584 0)
+			(at 132.334 227.838 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38142,7 +37553,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fd72a444-dbd3-428c-8a75-3895c0d2d6d3")
 		(property "Reference" "#PWR010"
 			(at 237.998 306.578 0)
@@ -38156,7 +37566,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 235.458 306.578 90)
+			(at 233.426 306.578 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

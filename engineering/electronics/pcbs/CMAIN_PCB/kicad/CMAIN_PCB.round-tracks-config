@@ -1,0 +1,9 @@
+Default	True	1.0	3
+CAN_Bus	True	1.0	3
+Ethernet	True	0.5	3
+GND_System	True	1.0	3
+Power_0V5A	True	1.0	3
+Power_1A	True	1.0	3
+Power_5A	True	1.0	3
+Signal_Control	True	1.0	3
+False	True	False
