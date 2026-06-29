@@ -3015,7 +3015,7 @@
 		(dnp no)
 		(uuid "052daa46-9ae3-4dd6-9d00-ed0a58a9ecfc")
 		(property "Reference" "R19"
-			(at 92.71 102.87 90)
+			(at 92.71 102.616 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3026,7 +3026,7 @@
 			)
 		)
 		(property "Value" "10K 150V"
-			(at 93.98 104.14 90)
+			(at 98.298 106.934 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3179,7 +3179,7 @@
 			)
 		)
 		(property "Value" "8pF 50V"
-			(at 82.55 118.11 90)
+			(at 85.598 125.222 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3957,7 +3957,7 @@
 		(dnp no)
 		(uuid "3f15c7ef-e0b3-450c-8740-fa003ffd0459")
 		(property "Reference" "C3"
-			(at 162.56 69.85 90)
+			(at 161.29 70.866 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3968,7 +3968,7 @@
 			)
 		)
 		(property "Value" "100nF 50V"
-			(at 162.56 62.23 90)
+			(at 162.56 62.738 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4188,7 +4188,7 @@
 		(dnp no)
 		(uuid "54b6882c-f093-4363-9516-ca92b90a8c4c")
 		(property "Reference" "C4"
-			(at 179.07 69.85 90)
+			(at 179.07 70.866 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4199,7 +4199,7 @@
 			)
 		)
 		(property "Value" "100nF 50V"
-			(at 182.88 63.5 90)
+			(at 183.896 62.484 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4656,7 +4656,7 @@
 		(dnp no)
 		(uuid "704d9910-9dc7-4efe-8678-94ecf9ca0f5c")
 		(property "Reference" "R20"
-			(at 147.32 118.11 0)
+			(at 145.796 111.506 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4667,7 +4667,7 @@
 			)
 		)
 		(property "Value" "10K 150V"
-			(at 149.86 118.11 0)
+			(at 151.384 116.078 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4809,7 +4809,7 @@
 		(dnp no)
 		(uuid "71c911e1-3d53-4036-b3db-49624f97f26c")
 		(property "Reference" "D2"
-			(at 205.74 115.57 0)
+			(at 216.154 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4820,7 +4820,7 @@
 			)
 		)
 		(property "Value" "PESD0603-240"
-			(at 203.2 115.57 0)
+			(at 213.614 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5024,7 +5024,7 @@
 		(dnp no)
 		(uuid "7b4ca473-1ba5-41bc-946c-b04bb1d6f476")
 		(property "Reference" "R17"
-			(at 153.67 81.28 0)
+			(at 154.178 83.312 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5035,7 +5035,7 @@
 			)
 		)
 		(property "Value" "10K 150V"
-			(at 153.67 83.82 0)
+			(at 149.86 85.598 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5256,7 +5256,7 @@
 		(dnp no)
 		(uuid "8c3e8865-f364-4a82-8623-b368dbc675ed")
 		(property "Reference" "D1"
-			(at 196.85 68.58 0)
+			(at 200.914 70.612 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5267,7 +5267,7 @@
 			)
 		)
 		(property "Value" "PESD0603-240"
-			(at 199.39 68.58 0)
+			(at 203.454 70.612 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5471,7 +5471,7 @@
 		(dnp no)
 		(uuid "92c5aea6-10bd-46d6-b2c5-82ca87565a6c")
 		(property "Reference" "R18"
-			(at 212.09 101.6 0)
+			(at 211.328 101.092 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5482,7 +5482,7 @@
 			)
 		)
 		(property "Value" "120R 150V"
-			(at 212.09 104.14 0)
+			(at 211.328 103.632 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5624,7 +5624,7 @@
 		(dnp no)
 		(uuid "9c09745c-4642-4893-abcf-0d2300790c13")
 		(property "Reference" "R16"
-			(at 146.05 81.28 0)
+			(at 146.812 83.312 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5635,7 +5635,7 @@
 			)
 		)
 		(property "Value" "0R 150V"
-			(at 146.05 83.82 0)
+			(at 142.24 85.344 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6395,7 +6395,7 @@
 		(dnp no)
 		(uuid "cdd26c5f-bdcc-48e7-9404-eaff5b9e798d")
 		(property "Reference" "R21"
-			(at 144.78 130.81 0)
+			(at 145.796 127.508 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6406,7 +6406,7 @@
 			)
 		)
 		(property "Value" "10K 150V"
-			(at 147.32 130.81 0)
+			(at 151.638 122.682 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6637,7 +6637,7 @@
 			)
 		)
 		(property "Value" "8pF 50V"
-			(at 81.28 107.95 90)
+			(at 85.09 107.696 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7258,7 +7258,7 @@
 			)
 		)
 		(property "Value" "100nF 50V"
-			(at 114.3 85.09 90)
+			(at 114.808 85.344 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

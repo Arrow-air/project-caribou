@@ -2954,6 +2954,26 @@
 	)
 	(wire
 		(pts
+			(xy 205.613 48.26) (xy 205.613 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "147a6877-8e14-4d74-8fb4-a10a37c1fa71")
+	)
+	(wire
+		(pts
+			(xy 205.613 52.07) (xy 203.2 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d1793b3-eb44-4909-8288-ad8cbd943544")
+	)
+	(wire
+		(pts
 			(xy 188.468 108.712) (xy 188.468 101.092)
 		)
 		(stroke
@@ -3194,7 +3214,17 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 52.07) (xy 204.47 52.07)
+			(xy 205.359 86.36) (xy 205.359 90.932)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d31fabb-9f35-475b-bd92-87fcf8c134f5")
+	)
+	(wire
+		(pts
+			(xy 205.613 48.26) (xy 208.28 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3284,7 +3314,17 @@
 	)
 	(wire
 		(pts
-			(xy 202.438 90.932) (xy 204.978 90.932)
+			(xy 205.359 90.932) (xy 202.438 90.932)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1405abd-9fa8-4d5d-84c7-213bd75fa771")
+	)
+	(wire
+		(pts
+			(xy 205.359 86.36) (xy 208.28 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3453,7 +3493,7 @@
 		(uuid "f2ae8d44-9db6-42e0-9481-6b3d7ec7a94d")
 	)
 	(label "CS1"
-		(at 204.47 52.07 0)
+		(at 208.28 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3463,7 +3503,7 @@
 		(uuid "923352d7-6d57-4a03-8689-f7fe7d873d85")
 	)
 	(label "CS2"
-		(at 204.978 90.932 0)
+		(at 208.28 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3654,7 +3694,7 @@
 		(dnp no)
 		(uuid "1755fc07-23fb-470d-9463-b6facfdcfcec")
 		(property "Reference" "R29"
-			(at 149.86 68.58 90)
+			(at 150.368 68.072 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3665,7 +3705,7 @@
 			)
 		)
 		(property "Value" "4K7 150V"
-			(at 149.86 66.04 90)
+			(at 150.368 70.104 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3813,7 +3853,7 @@
 		(dnp no)
 		(uuid "2272eb45-fcb5-4a1b-9594-a02945d3a444")
 		(property "Reference" "R9"
-			(at 180.086 88.9 90)
+			(at 179.324 90.932 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3824,7 +3864,7 @@
 			)
 		)
 		(property "Value" "10K 150V"
-			(at 179.07 90.932 90)
+			(at 176.022 88.646 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4742,7 +4782,7 @@
 		(dnp no)
 		(uuid "633f1e8b-e0c0-4584-92bf-0b713fe42d19")
 		(property "Reference" "R7"
-			(at 180.34 49.784 90)
+			(at 179.832 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4753,7 +4793,7 @@
 			)
 		)
 		(property "Value" "10K 150V"
-			(at 179.07 52.07 90)
+			(at 177.038 50.038 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5874,7 +5914,7 @@
 		(dnp no)
 		(uuid "a2ee3ad5-c077-4473-808e-09ec13647d0d")
 		(property "Reference" "R3"
-			(at 200.406 49.784 90)
+			(at 200.152 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5885,7 +5925,7 @@
 			)
 		)
 		(property "Value" "100R 150V"
-			(at 201.93 52.07 90)
+			(at 204.47 50.038 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6336,7 +6376,7 @@
 		(dnp no)
 		(uuid "c5c7c906-8a12-4218-92f5-7fc6dd56e34a")
 		(property "Reference" "R6"
-			(at 204.978 89.662 90)
+			(at 199.898 90.932 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6347,7 +6387,7 @@
 			)
 		)
 		(property "Value" "100R 150V"
-			(at 201.168 90.932 90)
+			(at 203.708 88.646 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6822,7 +6862,7 @@
 		(dnp no)
 		(uuid "e7d55941-a6c3-49f5-b6e5-30ea8f0e8250")
 		(property "Reference" "D7"
-			(at 167.64 63.5 0)
+			(at 166.624 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6832,7 +6872,7 @@
 			)
 		)
 		(property "Value" "SS34"
-			(at 167.64 69.85 0)
+			(at 167.894 71.628 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7111,7 +7151,7 @@
 		(dnp no)
 		(uuid "ee734535-c537-47b4-89f1-d0897bc50e3b")
 		(property "Reference" "F8"
-			(at 174.498 102.362 0)
+			(at 173.99 102.362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7121,7 +7161,7 @@
 			)
 		)
 		(property "Value" "1812L110_24DR"
-			(at 180.34 104.902 0)
+			(at 180.594 104.648 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
