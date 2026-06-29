@@ -42,6 +42,7 @@ ignorePaths:
   - "**/*.zip"
   - "**/*.7z"
   - "**/*.bak"
+  - "**/kicad/production/**"
   - "**/CMAIN_PCB-backups/**"
   - "**/CBC_PCB-backups/**"
   - "**/fp-lib-table"
