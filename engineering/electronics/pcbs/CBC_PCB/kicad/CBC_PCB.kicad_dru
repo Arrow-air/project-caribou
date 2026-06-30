@@ -1,0 +1,35 @@
+(version 1)
+(rule GND_to_GND_CD
+	(constraint clearance (min 1mm))
+	(condition "A.NetName == 'GND' && B.NetName == 'GND_CD'")
+)
+(rule GND_to_PWR_IN-
+	(constraint clearance (min 1mm))
+	(condition "A.NetName == 'H_PWR-IN-' && B.NetName == 'GND'")
+)
+(rule Default_to_Default
+	(constraint clearance (min 0.15mm))
+)
+(rule "Copper to edge clearance 1"
+	(constraint edge_clearance (min 0.5mm))
+)
+(rule "Via style 1"
+	(constraint via_diameter (min 0.45mm) (max 1.2mm))
+	(constraint hole_size (min 0.25mm) (max 0.7mm))
+	(condition "A.Via_Type == 'Through'")
+)
+(rule "Vias under SMD 1"
+	(constraint disallow micro_via blind_via buried_via)
+	(condition "A.Pad_Type == 'SMD'")
+)
+(rule "Courtyard clearance 1"
+	(constraint courtyard_clearance (min 0.25mm))
+)
+(rule GND_to_PWR_IN_
+	(constraint clearance (min 1mm))
+	(condition "A.NetName == 'H_PWR-IN' && B.NetName == 'GND'")
+)
+(rule GND_to_GNDE
+	(constraint clearance (min 0.5mm))
+	(condition "A.NetName == 'GNDE' && B.NetName == 'GND'")
+)

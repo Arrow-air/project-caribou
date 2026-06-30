@@ -55,6 +55,7 @@ SIYI
 Skia
 Snapeda
 Tattu
+TYPEC
 UART
 UAVCAN
 VBUS
