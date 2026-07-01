@@ -2793,7 +2793,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 73.66) (xy 80.01 73.66)
+			(xy 46.99 73.66) (xy 109.22 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2938,7 +2938,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "01cfe4ba-adb4-4650-abd2-661ad2491372")
-		(property "Reference" "#PWR0158"
+		(property "Reference" "#PWR0512"
 			(at 101.6 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -2998,7 +2998,7 @@
 		(instances
 			(project "CBC_PCB"
 				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/b4c95d27-7981-477f-a8ef-d2ce83f3675e"
-					(reference "#PWR0158")
+					(reference "#PWR0512")
 					(unit 1)
 				)
 			)
@@ -3016,7 +3016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14029131-2cb8-46a4-b32f-d72a1d7522f2")
-		(property "Reference" "C26"
+		(property "Reference" "C502"
 			(at 82.55 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3135,7 +3135,7 @@
 		(instances
 			(project "CBC_PCB"
 				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/b4c95d27-7981-477f-a8ef-d2ce83f3675e"
-					(reference "C26")
+					(reference "C502")
 					(unit 1)
 				)
 			)
@@ -3153,7 +3153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17541674-270f-459f-b5c3-ddc8a41bc13e")
-		(property "Reference" "#PWR0185"
+		(property "Reference" "#PWR0501"
 			(at 20.32 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -3213,7 +3213,7 @@
 		(instances
 			(project "CBC_PCB"
 				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/b4c95d27-7981-477f-a8ef-d2ce83f3675e"
-					(reference "#PWR0185")
+					(reference "#PWR0501")
 					(unit 1)
 				)
 			)
@@ -3231,7 +3231,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2d512016-49b6-4f1c-a589-b388bb2f60a6")
-		(property "Reference" "U6"
+		(property "Reference" "U502"
 			(at 38.1 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3366,7 +3366,7 @@
 		(instances
 			(project "CBC_PCB"
 				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/b4c95d27-7981-477f-a8ef-d2ce83f3675e"
-					(reference "U6")
+					(reference "U502")
 					(unit 1)
 				)
 			)
@@ -3384,7 +3384,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "303890e8-da29-4ed6-ba0c-b66db7697dbe")
-		(property "Reference" "#PWR0184"
+		(property "Reference" "#PWR0502"
 			(at 22.86 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -3444,7 +3444,7 @@
 		(instances
 			(project "CBC_PCB"
 				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/b4c95d27-7981-477f-a8ef-d2ce83f3675e"
-					(reference "#PWR0184")
+					(reference "#PWR0502")
 					(unit 1)
 				)
 			)
@@ -3461,7 +3461,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "30e3a045-f2e6-4abc-a7b3-b1b4a3951223")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR0503"
 			(at 69.85 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -3521,7 +3521,84 @@
 		(instances
 			(project "CBC_PCB"
 				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/b4c95d27-7981-477f-a8ef-d2ce83f3675e"
-					(reference "#PWR069")
+					(reference "#PWR0503")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 109.22 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "35f91b43-9813-4781-833f-10fab97687a5")
+		(property "Reference" "#PWR0510"
+			(at 109.22 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12V_Supply"
+			(at 109.22 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 109.22 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "577e7f2e-f87a-4b70-b46e-ddca683be112")
+		)
+		(instances
+			(project "CBC_PCB"
+				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/b4c95d27-7981-477f-a8ef-d2ce83f3675e"
+					(reference "#PWR0510")
 					(unit 1)
 				)
 			)
@@ -3538,7 +3615,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3f037fb5-ef88-4ffb-a106-9ab3b1ff7286")
-		(property "Reference" "#PWR0159"
+		(property "Reference" "#PWR0509"
 			(at 80.01 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -3598,7 +3675,7 @@
 		(instances
 			(project "CBC_PCB"
 				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/b4c95d27-7981-477f-a8ef-d2ce83f3675e"
-					(reference "#PWR0159")
+					(reference "#PWR0509")
 					(unit 1)
 				)
 			)
@@ -3616,7 +3693,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56cbbc48-b762-40c6-b607-a5ebd427784a")
-		(property "Reference" "#FLG051"
+		(property "Reference" "#FLG0502"
 			(at 102.87 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3677,84 +3754,7 @@
 		(instances
 			(project "CBC_PCB"
 				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/b4c95d27-7981-477f-a8ef-d2ce83f3675e"
-					(reference "#FLG051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 80.01 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6ee7320a-efb6-4501-b626-97294bc6b885")
-		(property "Reference" "#PWR0157"
-			(at 80.01 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 80.01 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d150b4a8-a00e-444f-bb2e-20a98a9efb9f")
-		)
-		(instances
-			(project "CBC_PCB"
-				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/b4c95d27-7981-477f-a8ef-d2ce83f3675e"
-					(reference "#PWR0157")
+					(reference "#FLG0502")
 					(unit 1)
 				)
 			)
@@ -3771,7 +3771,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "85240edf-13a9-41ff-bff1-68f37a040f84")
-		(property "Reference" "R10"
+		(property "Reference" "R501"
 			(at 62.738 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3889,7 +3889,7 @@
 		(instances
 			(project "CBC_PCB"
 				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/b4c95d27-7981-477f-a8ef-d2ce83f3675e"
-					(reference "R10")
+					(reference "R501")
 					(unit 1)
 				)
 			)
@@ -3907,7 +3907,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "874ec618-d909-4bde-b3e0-1e4c146518a4")
-		(property "Reference" "#FLG069"
+		(property "Reference" "#FLG0501"
 			(at 76.2 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -3968,7 +3968,7 @@
 		(instances
 			(project "CBC_PCB"
 				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/b4c95d27-7981-477f-a8ef-d2ce83f3675e"
-					(reference "#FLG069")
+					(reference "#FLG0501")
 					(unit 1)
 				)
 			)
@@ -3986,7 +3986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b317740-baf4-45b0-977a-8982ee4b0d17")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR0505"
 			(at 78.74 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -4046,7 +4046,7 @@
 		(instances
 			(project "CBC_PCB"
 				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/b4c95d27-7981-477f-a8ef-d2ce83f3675e"
-					(reference "#PWR067")
+					(reference "#PWR0505")
 					(unit 1)
 				)
 			)
@@ -4064,7 +4064,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9102e7f4-2515-4b44-bc36-4b7a3bea8619")
-		(property "Reference" "U1"
+		(property "Reference" "U501"
 			(at 36.83 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4199,7 +4199,7 @@
 		(instances
 			(project "CBC_PCB"
 				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/b4c95d27-7981-477f-a8ef-d2ce83f3675e"
-					(reference "U1")
+					(reference "U501")
 					(unit 1)
 				)
 			)
@@ -4216,7 +4216,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a94ccfa6-f998-40c9-a52e-fadeebceb5ab")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR0504"
 			(at 71.12 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -4276,7 +4276,7 @@
 		(instances
 			(project "CBC_PCB"
 				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/b4c95d27-7981-477f-a8ef-d2ce83f3675e"
-					(reference "#PWR071")
+					(reference "#PWR0504")
 					(unit 1)
 				)
 			)
@@ -4293,7 +4293,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2cf2c5a-1604-46b4-bb4d-c1d7c0a3ef33")
-		(property "Reference" "R11"
+		(property "Reference" "R502"
 			(at 64.262 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4411,7 +4411,7 @@
 		(instances
 			(project "CBC_PCB"
 				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/b4c95d27-7981-477f-a8ef-d2ce83f3675e"
-					(reference "R11")
+					(reference "R502")
 					(unit 1)
 				)
 			)
@@ -4429,7 +4429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4386318-d48f-407b-a3ee-2b4d6117d242")
-		(property "Reference" "C25"
+		(property "Reference" "C501"
 			(at 82.55 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4548,7 +4548,7 @@
 		(instances
 			(project "CBC_PCB"
 				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/b4c95d27-7981-477f-a8ef-d2ce83f3675e"
-					(reference "C25")
+					(reference "C501")
 					(unit 1)
 				)
 			)
@@ -4565,7 +4565,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8f72de7-79d9-4885-b80f-cc273fd0feb7")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR0506"
 			(at 78.74 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -4625,7 +4625,7 @@
 		(instances
 			(project "CBC_PCB"
 				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/b4c95d27-7981-477f-a8ef-d2ce83f3675e"
-					(reference "#PWR068")
+					(reference "#PWR0506")
 					(unit 1)
 				)
 			)
@@ -4643,7 +4643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba9bb4d2-e946-4ed0-bfec-f528704e01eb")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR0508"
 			(at 78.74 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -4703,7 +4703,7 @@
 		(instances
 			(project "CBC_PCB"
 				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/b4c95d27-7981-477f-a8ef-d2ce83f3675e"
-					(reference "#PWR074")
+					(reference "#PWR0508")
 					(unit 1)
 				)
 			)
@@ -4721,7 +4721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d18006b1-7f4d-4657-bfa2-e62a2744a016")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR0507"
 			(at 78.74 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -4781,7 +4781,7 @@
 		(instances
 			(project "CBC_PCB"
 				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/b4c95d27-7981-477f-a8ef-d2ce83f3675e"
-					(reference "#PWR073")
+					(reference "#PWR0507")
 					(unit 1)
 				)
 			)
@@ -4798,7 +4798,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d467bef1-f844-4a5b-9711-c1eeecf14502")
-		(property "Reference" "#PWR0156"
+		(property "Reference" "#PWR0511"
 			(at 101.6 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4858,7 +4858,7 @@
 		(instances
 			(project "CBC_PCB"
 				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/b4c95d27-7981-477f-a8ef-d2ce83f3675e"
-					(reference "#PWR0156")
+					(reference "#PWR0511")
 					(unit 1)
 				)
 			)
@@ -4876,7 +4876,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e2fac996-d32a-481a-a776-f7ca95f5f959")
-		(property "Reference" "J2"
+		(property "Reference" "J501"
 			(at 36.322 78.486 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5020,7 +5020,7 @@
 		(instances
 			(project "CBC_PCB"
 				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/b4c95d27-7981-477f-a8ef-d2ce83f3675e"
-					(reference "J2")
+					(reference "J501")
 					(unit 1)
 				)
 			)

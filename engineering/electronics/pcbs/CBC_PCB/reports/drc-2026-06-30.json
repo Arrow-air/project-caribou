@@ -1,0 +1,59 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-06-30T09:08:14",
+    "ignored_checks": [
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Text height out of range",
+            "key": "text_height"
+        },
+        {
+            "description": "Text thickness out of range",
+            "key": "text_thickness"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.1",
+    "schematic_parity": [],
+    "source": "CBC_PCB.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Footprint 'CAP-SMD_BD10.0-L10.3-W10.3-FD-LS11.0' does not match copy in library 'EasyEDA_Lib_2'",
+            "items": [
+                {
+                    "description": "Footprint C609",
+                    "pos": {
+                        "x": 140.15,
+                        "y": 136.825
+                    },
+                    "uuid": "90aa83dc-42c6-4153-9aa5-c796519ff49f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'USB-C-SMD_TYPEC-303-ACP16' does not match copy in library 'EasyEDA_Lib_2'",
+            "items": [
+                {
+                    "description": "Footprint USB301",
+                    "pos": {
+                        "x": 66.135,
+                        "y": 151.5
+                    },
+                    "uuid": "a7640ed7-6c13-465f-a594-2bc9c047ea0a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        }
+    ]
+}
