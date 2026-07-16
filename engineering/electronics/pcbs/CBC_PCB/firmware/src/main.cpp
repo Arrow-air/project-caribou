@@ -53,8 +53,12 @@
 
 // ---------------- globals ----------------
 
-MCP2515 canBat(PIN_CAN_BAT_CS);
-MCP2515 canDrone(PIN_CAN_DRONE_CS);
+// NOTE: constructed in setup(), NOT as globals. The library's default
+// constructor calls SPI.begin() at static-init time (before the Arduino core
+// is initialized) — on core 3.x that leaves the SPI bus broken and the first
+// transfer hangs forever. Passing &SPI explicitly skips that begin() call.
+static MCP2515 *canBat = nullptr;
+static MCP2515 *canDrone = nullptr;
 
 OneWire owTemp1(PIN_TEMP1);
 OneWire owTemp2(PIN_TEMP2);
@@ -69,7 +73,7 @@ static bool droneSend(const struct can_frame &f) {
   // Multi-frame transfers (e.g. the 9-frame GetNodeInfo response) can outrun
   // the MCP2515's 3 TX buffers — wait briefly for a free one (~128us/frame @1M).
   for (int i = 0; i < 40; i++) {
-    if (canDrone.sendMessage(&f) == MCP2515::ERROR_OK) return true;
+    if (canDrone->sendMessage(&f) == MCP2515::ERROR_OK) return true;
     delayMicroseconds(50);
   }
   return false;
@@ -106,6 +110,7 @@ static CAN_SPEED droneBitrate = DEFAULT_DRONE_BITRATE;
 
 static void initCan(MCP2515 &dev, int rstPin, CAN_SPEED speed, bool listenOnly,
                     const char *name) {
+  Serial.printf("[can] %s init (rst pin %d)...\n", name, rstPin);
   digitalWrite(rstPin, LOW);
   delay(10);
   digitalWrite(rstPin, HIGH);
@@ -219,11 +224,11 @@ static void scanBatteryBitrate() {
   CAN_SPEED best = batBitrate;
   uint32_t bestCount = 0;
   for (auto r : rates) {
-    initCan(canBat, PIN_CAN_BAT_RST, r, true, "bat");
+    initCan(*canBat, PIN_CAN_BAT_RST, r, true, "bat");
     uint32_t count = 0, t0 = millis();
     struct can_frame f;
     while (millis() - t0 < 3000) {
-      if (canBat.readMessage(&f) == MCP2515::ERROR_OK) count++;
+      if (canBat->readMessage(&f) == MCP2515::ERROR_OK) count++;
       yield();
     }
     Serial.printf("[scan] %s: %lu frames\n", bitrateName(r), (unsigned long)count);
@@ -231,7 +236,7 @@ static void scanBatteryBitrate() {
   }
   batBitrate = best;
   Serial.printf("[scan] selecting %s, normal mode\n", bitrateName(best));
-  initCan(canBat, PIN_CAN_BAT_RST, batBitrate, false, "bat");
+  initCan(*canBat, PIN_CAN_BAT_RST, batBitrate, false, "bat");
 }
 
 // ---------------- bridge stub ----------------
@@ -313,8 +318,8 @@ static void handleCommand(char *cmd) {
       case 1000: s = CAN_1000KBPS; break;
       default: Serial.println("bad bitrate (125|250|500|1000)"); return;
     }
-    if (isBat) { batBitrate = s; initCan(canBat, PIN_CAN_BAT_RST, s, false, "bat"); }
-    else if (isDrone) { droneBitrate = s; initCan(canDrone, PIN_CAN_DRONE_RST, s, false, "drone"); }
+    if (isBat) { batBitrate = s; initCan(*canBat, PIN_CAN_BAT_RST, s, false, "bat"); }
+    else if (isDrone) { droneBitrate = s; initCan(*canDrone, PIN_CAN_DRONE_RST, s, false, "drone"); }
     else Serial.println("usage: bitrate bat|drone <kbps>");
     return;
   }
@@ -363,8 +368,13 @@ void setup() {
 
   SPI.begin(PIN_SPI_SCK, PIN_SPI_MISO, PIN_SPI_MOSI, -1);
 
-  initCan(canBat, PIN_CAN_BAT_RST, batBitrate, false, "bat");
-  initCan(canDrone, PIN_CAN_DRONE_RST, droneBitrate, false, "drone");
+  // Construct AFTER SPI.begin; passing &SPI keeps the ctor from re-running
+  // SPI.begin() itself (see note at the declarations above).
+  canBat = new MCP2515(PIN_CAN_BAT_CS, 10000000, &SPI);
+  canDrone = new MCP2515(PIN_CAN_DRONE_CS, 10000000, &SPI);
+
+  initCan(*canBat, PIN_CAN_BAT_RST, batBitrate, false, "bat");
+  initCan(*canDrone, PIN_CAN_DRONE_RST, droneBitrate, false, "drone");
 
   temp1.begin();
   temp2.begin();
@@ -411,7 +421,7 @@ void loop() {
   static uint32_t rawWindowStart = 0;
   static uint8_t rawCount = 0;
   struct can_frame f;
-  while (canBat.readMessage(&f) == MCP2515::ERROR_OK) {
+  while (canBat->readMessage(&f) == MCP2515::ERROR_OK) {
     batFramesRx++;
     batRx.handleFrame(f, now);
     if (rawBat) {
@@ -421,7 +431,7 @@ void loop() {
   }
 
   // --- drone bus RX ---
-  while (canDrone.readMessage(&f) == MCP2515::ERROR_OK) {
+  while (canDrone->readMessage(&f) == MCP2515::ERROR_OK) {
     droneFramesRx++;
     droneRx.handleFrame(f, now);
     droneNode.handleFrame(f, now); // allocation echoes, GetNodeInfo requests
