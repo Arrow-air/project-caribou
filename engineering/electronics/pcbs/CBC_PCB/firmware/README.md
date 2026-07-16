@@ -3,8 +3,10 @@
 Firmware for the ESP32-S3-WROOM-1-N16R8 (U301) on the Caribou Battery Connector
 board (CBC_PCB, ordered board state / PR #51).
 
-**Status: v0.1.0 — written against the netlist and docs, not yet tested on
-hardware.** Everything marked ⚠ below needs a check on the first real board.
+**Status: v0.1.0 — bench-verified over USB on the first real board
+(2026-07-16):** console, both MCP2515s (init codes all 0), both DS18B20s, and
+the full auto-arm sequence work. Still pending on hardware: battery frames on
+CN201, FC node-ID allocation, kill-trigger polarity (items marked ⚠ below).
 
 ## What it does
 
@@ -79,20 +81,37 @@ Traced from the schematics; this drives the firmware design:
 
 ## Build & flash
 
-### PlatformIO (recommended)
+The project pins the **pioarduino** platform (Arduino core 3.x) in
+`platformio.ini`. This is required: the official `espressif32` PlatformIO
+platform is frozen on Arduino core 2.0.x, which **boot-loops on the S3 N16R8
+module** (repeating `rst:0x3 (RTC_SW_SYS_RST)` with no output — seen on the
+first board, fixed by the platform switch). pioarduino needs Python ≥ 3.10;
+the PlatformIO VSCode extension's bundled Python is fine.
+
+### PlatformIO — VSCode extension
+
+1. Install the "PlatformIO IDE" extension.
+2. **File → Open Folder** → open this `firmware/` directory itself (the folder
+   containing `platformio.ini` — opening the repo root won't be detected).
+3. First open downloads the platform + toolchain (a few minutes).
+4. Bottom toolbar: ✓ = Build, → = Upload (USB-C, CP2102N auto-reset — no
+   button dance), 🔌 = Serial Monitor (115200 preset). The monitor doesn't
+   echo typed characters; commands still work, press Enter.
+
+### PlatformIO — CLI
 
 ```bash
-pip install platformio          # once
+pip install platformio          # once (needs Python >= 3.10)
 cd firmware
 pio run                         # build
 pio run -t upload               # flash via USB-C (CP2102N auto-reset/boot)
-pio device monitor -b 115200    # serial console
+pio device monitor              # serial console (115200, DTR/RTS preset)
 ```
 
 If upload doesn't autodetect the port: `pio run -t upload --upload-port
-/dev/cu.usbserial-*` (macOS) or `/dev/ttyUSB0` (Linux). The UMH3N auto-program
-circuit means no button dance is needed; if it ever fails, hold BOOT-strapping
-by shorting IO0 low while pressing reset (SW301).
+/dev/cu.usbserial-*` (macOS) or `/dev/ttyUSB0` (Linux); on Windows install the
+Silicon Labs CP210x VCP driver if COMx doesn't appear. If auto-program ever
+fails, hold BOOT-strapping by shorting IO0 low while pressing reset (SW301).
 
 ### esptool with a prebuilt binary
 
@@ -106,9 +125,24 @@ esptool.py --chip esp32s3 --port /dev/ttyUSB0 --baud 460800 write_flash \
 
 ### Arduino IDE (alternative)
 
-Board: *ESP32S3 Dev Module*, Flash Size 16 MB, USB CDC On Boot: **Disabled**
-(console is on UART0 through the CP2102N, not native USB). Libraries:
-`autowp-mcp2515`, `OneWire`, `DallasTemperature`.
+Arduino IDE 2.3+ (esp32 core 3.x). Board: *ESP32S3 Dev Module*, Flash Size
+16 MB, PSRAM: **OPI PSRAM**, USB CDC On Boot: **Disabled** (console is on
+UART0 through the CP2102N, not native USB). Libraries: `autowp-mcp2515`,
+`OneWire`, `DallasTemperature`.
+
+### Troubleshooting
+
+- **Endless `rst:0x3` ROM banner, no output:** image built for the wrong
+  core/memory config — make sure the pinned pioarduino platform and the
+  `qio_opi` settings in `platformio.ini` are intact (N16R8 = octal PSRAM).
+- **Banner prints, then silence before `[can] ... init`:** SPI initialized at
+  static-init time. The MCP2515 objects must be constructed inside `setup()`
+  *after* `SPI.begin()` (the library's default constructor calls
+  `SPI.begin()` from the global constructor, which breaks on core 3.x) —
+  don't move them back to globals.
+- `[E] addApbChangeCallback(): duplicate func` at boot is a known harmless
+  Arduino-core message.
+- OneWire `extra tokens at end of #undef` compile warnings are cosmetic.
 
 ## Serial console
 
@@ -180,8 +214,8 @@ up speaking something else.
 
 ## Open items
 
-- ⚠ Not hardware-tested yet — first bench test over USB (see above), then lab
-  supply + no load before a real pack.
+- ✅ ~~First bench test over USB~~ — passed 2026-07-16 (console, CAN init,
+  temps, auto-arm). Next: lab supply + no load before a real pack.
 - ⚠ Confirm kill-trigger polarity on IO5 (assumed HIGH = trigger present).
 - ⚠ Verify allocation handshake + GetNodeInfo against a real FC (ArduPilot
   DNA server); the protocol code is written from the v0 spec, untested.
