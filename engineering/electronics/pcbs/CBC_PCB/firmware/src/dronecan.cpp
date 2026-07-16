@@ -141,12 +141,30 @@ void DroneCanRx::completeTransfer(uint8_t src, uint16_t dtid, const uint8_t *p,
     nodeStatus.mode = (p[4] >> 3) & 7U;
     nodeStatus.sub_mode = p[4] & 7U;
     nodeStatus.vendor_code = le16(p + 5);
+  } else if (dtid == DTID_TATTU_BATTERY && len >= 12) {
+    // Tattu vendor broadcast — layout proven by the Quiver RPi tattu bridge.
+    // Transfer CRC not validated (vendor DSDL signature unknown).
+    BatteryTelemetry &b = battery;
+    b.valid = true;
+    b.crc_ok = true; // unvalidated
+    b.last_update_ms = now_ms;
+    b.source_node = src;
+    b.protocol = 2;
+    b.tattu_vendor = le16(p + 0);
+    b.model_instance_id = le16(p + 2);
+    b.voltage = le16(p + 4) / 1000.0f;                 // mV
+    b.current = (int16_t)le16(p + 6) / 100.0f;         // 10 mA units
+    b.temperature_k = (int16_t)le16(p + 8) + 273.15f;  // degC
+    uint16_t soc = le16(p + 10);
+    b.soc_pct = (uint8_t)(soc > 100 ? 100 : soc);
+    strncpy(b.model_name, "Tattu(0x1092)", sizeof(b.model_name) - 1);
   } else if (dtid == DTID_BATTERY_INFO && len >= 23) {
     BatteryTelemetry &b = battery;
     b.valid = true;
     b.crc_ok = crcOk;
     b.last_update_ms = now_ms;
     b.source_node = src;
+    b.protocol = 1;
     b.temperature_k = float16ToFloat(le16(p + 0));
     b.voltage = float16ToFloat(le16(p + 2));
     b.current = float16ToFloat(le16(p + 4));

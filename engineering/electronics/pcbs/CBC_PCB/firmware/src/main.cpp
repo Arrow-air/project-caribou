@@ -239,7 +239,8 @@ static void printStatus() {
                 bitrateName(droneBitrate), (unsigned long)droneFramesRx);
   if (batRx.battery.valid) {
     BatteryTelemetry &b = batRx.battery;
-    Serial.printf("[battery] node=%u '%s' %.1fV %.1fA soc=%u%% soh=%u%% %.0fWh/%.0fWh temp=%.1fC flags=0x%03X%s (age %lus)\n",
+    Serial.printf("[battery] %s node=%u '%s' %.1fV %.1fA soc=%u%% soh=%u%% %.0fWh/%.0fWh temp=%.1fC flags=0x%03X%s (age %lus)\n",
+                  b.protocol == 2 ? "tattu" : "dronecan",
                   b.source_node, b.model_name, b.voltage, b.current, b.soc_pct,
                   b.soh_pct, b.remaining_capacity_wh, b.full_charge_capacity_wh,
                   b.temperature_k > 0 ? b.temperature_k - 273.15f : 0.0f,

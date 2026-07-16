@@ -13,6 +13,14 @@
 #define DTID_NODE_STATUS 341
 #define DTID_BATTERY_INFO 1092
 
+// Tattu vendor-specific broadcast, as observed from Tattu packs on Quiver
+// (project-quiver docs/Operations/firmware/tattu-bridge/tattu_bridge.py):
+// ext ID 0x01109216 = priority 1, data type 0x1092 (4242), source node 22.
+// Multi-frame v0 transfer, ~54-byte payload:
+//   u16 vendor, u16 model, u16 voltage[mV], i16 current[10mA],
+//   i16 temperature[degC], u16 soc[%], ... (rest not yet mapped)
+#define DTID_TATTU_BATTERY 0x1092
+
 // DSDL 64-bit data type signature for uavcan.equipment.power.BatteryInfo.
 // Used to seed the transfer CRC of multi-frame transfers. On CRC mismatch we
 // still decode but mark crc_ok=false (verify against a real battery).
@@ -23,6 +31,8 @@ struct BatteryTelemetry {
   bool crc_ok = false;
   uint32_t last_update_ms = 0;
   uint8_t source_node = 0;
+  uint8_t protocol = 0;      // 0 none, 1 = BatteryInfo (1092), 2 = Tattu vendor (0x1092)
+  uint16_t tattu_vendor = 0; // Tattu vendor field (protocol 2 only)
   // uavcan.equipment.power.BatteryInfo fields
   float temperature_k = 0;
   float voltage = 0;

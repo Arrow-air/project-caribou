@@ -126,22 +126,25 @@ Config defaults live at the top of `src/main.cpp`: `AUTO_ARM_ON_BOOT` (1),
 `AUTO_ARM_DELAY_MS`, precharge timing, `CBC_NODE_ID` (25), default bitrates
 (1 Mbps both buses).
 
-## Battery protocol notes (Tattu 4.0)
+## Battery protocol notes (Tattu)
 
-Gens Ace markets the Tattu 4.0 as DroneCAN-compatible (ArduPilot/PX4), but
-there are field reports (ArduPilot forum, "Tattu 4.0 Battery support over
-CAN") of packs shipping with firmware that speaks a **proprietary CAN 2.0
-protocol** instead, fixed only via Tattu's BD300 adapter + their config tool.
-So the plan:
+Both protocols seen from Tattu packs are supported, based on the working
+Quiver RPi bridge (`project-quiver`
+`docs/Operations/firmware/tattu-bridge/tattu_bridge.py`):
 
-1. Connect the battery, watch the raw dump (`raw bat on`, default) and run
-   `scan` if nothing appears at 1 Mbps.
-2. If DroneCAN: the firmware already decodes `BatteryInfo` (voltage, current,
-   SoC, capacity, temp) and prints it in the status line. ⚠ The packed
-   SoC/SoH bitfields and the transfer-CRC signature should be sanity-checked
-   against real frames once.
-3. If proprietary: capture a minute of raw dump and we reverse it / or ask
-   Tattu for the BD300 tool to switch the pack to DroneCAN mode.
+1. **Tattu vendor broadcast** (what Quiver packs actually send): DroneCAN v0
+   multi-frame transfer on ext ID `0x01109216` — priority 1, data type
+   `0x1092` (4242), source node 22, **1 Mbps**. 8-frame burst; payload:
+   `u16 vendor, u16 model, u16 voltage[mV], i16 current[10mA], i16 temp[°C],
+   u16 soc[%]`, remainder not yet mapped (likely per-cell voltages etc.).
+   Decoded automatically (`[battery] tattu ...` in the status output). The
+   transfer CRC is not validated (vendor DSDL signature unknown).
+2. **Standard `uavcan.equipment.power.BatteryInfo`** (1092), in case a pack
+   ships with the DroneCAN firmware variant. ⚠ Packed SoC/SoH bitfields and
+   the CRC signature should be sanity-checked against real frames once.
+
+Raw dump (`raw bat on`, default) and `scan` remain available if a pack shows
+up speaking something else.
 
 ## Open items
 
