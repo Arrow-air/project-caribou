@@ -1,6 +1,9 @@
 #include "dronecan.h"
 #include <string.h>
-#include <esp_system.h> // esp_random()
+#include <esp_system.h>
+#if __has_include(<esp_random.h>)
+#include <esp_random.h> // esp_random() lives here on ESP-IDF 5.x / Arduino core 3.x
+#endif
 
 // ---------- helpers ----------
 
