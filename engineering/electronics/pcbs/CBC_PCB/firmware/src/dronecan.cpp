@@ -1,5 +1,6 @@
 #include "dronecan.h"
 #include <string.h>
+#include <esp_system.h> // esp_random()
 
 // ---------- helpers ----------
 
@@ -185,6 +186,210 @@ void DroneCanRx::completeTransfer(uint8_t src, uint16_t dtid, const uint8_t *p,
     if (nameLen > 32) nameLen = 32;
     memcpy(b.model_name, p + 23, nameLen);
     b.model_name[nameLen] = 0;
+  }
+}
+
+// ---------- DroneCanNode: allocation client + NodeStatus + GetNodeInfo ----------
+
+void DroneCanNode::begin(SendFn send, const uint8_t unique_id[16],
+                         uint8_t static_node_id) {
+  send_ = send;
+  memcpy(unique_id_, unique_id, 16);
+  node_id_ = static_node_id & 0x7FU;
+}
+
+void DroneCanNode::poll(uint32_t now) {
+  if (!send_) return;
+  if (!allocated()) {
+    if (next_alloc_request_ms_ == 0)
+      next_alloc_request_ms_ = now + 600 + (esp_random() % 400);
+    // If the server stopped echoing mid-handshake, restart from stage 1.
+    if (confirmed_uid_bytes_ != 0 && now - last_server_echo_ms_ > 1000)
+      confirmed_uid_bytes_ = 0;
+    if ((int32_t)(now - next_alloc_request_ms_) >= 0) {
+      sendAllocationRequest(now);
+      next_alloc_request_ms_ = now + 600 + (esp_random() % 400);
+    }
+    return;
+  }
+  if (now - last_node_status_ms_ >= 1000) {
+    last_node_status_ms_ = now;
+    struct can_frame f;
+    dronecanMakeNodeStatus(f, node_id_, now / 1000, health_, 0);
+    send_(f);
+  }
+}
+
+void DroneCanNode::sendAllocationRequest(uint32_t now) {
+  static uint8_t alloc_tid = 0;
+  uint8_t offset = confirmed_uid_bytes_;
+  uint8_t count = (uint8_t)(16 - offset);
+  if (count > 6) count = 6;
+
+  struct can_frame f;
+  // Anonymous message frame: priority | 14-bit random discriminator |
+  // lower 2 bits of dtid | source node 0.
+  uint32_t disc = esp_random() & 0x3FFFU;
+  f.can_id = CAN_EFF_FLAG | (24UL << 24) | (disc << 10) |
+             (((uint32_t)DTID_ALLOCATION & 3U) << 8);
+  f.data[0] = (uint8_t)((0U << 1) | (offset == 0 ? 1U : 0U)); // any ID; first_part flag
+  memcpy(f.data + 1, unique_id_ + offset, count);
+  f.can_dlc = (uint8_t)(1 + count + 1);
+  f.data[f.can_dlc - 1] = (uint8_t)(0xC0U | (alloc_tid & 0x1FU)); // single frame
+  alloc_tid = (alloc_tid + 1) & 0x1FU;
+  send_(f);
+  (void)now;
+}
+
+void DroneCanNode::handleAllocationBroadcast(const uint8_t *p, uint16_t len,
+                                             uint32_t now) {
+  if (len < 1) return;
+  uint8_t offered_node_id = p[0] >> 1;
+  const uint8_t *uid = p + 1;
+  uint16_t uidLen = (uint16_t)(len - 1);
+  if (uidLen > 16) uidLen = 16;
+
+  if (uidLen == 0 || memcmp(uid, unique_id_, uidLen) != 0) {
+    // Someone else's allocation in progress — back off per spec.
+    next_alloc_request_ms_ = now + 600 + (esp_random() % 400);
+    confirmed_uid_bytes_ = 0;
+    return;
+  }
+  last_server_echo_ms_ = now;
+  if (uidLen == 16) {
+    if (offered_node_id != 0) node_id_ = offered_node_id; // allocated!
+    return;
+  }
+  confirmed_uid_bytes_ = (uint8_t)uidLen;
+  next_alloc_request_ms_ = now + (esp_random() % 400); // follow-up stage
+}
+
+void DroneCanNode::handleFrame(const struct can_frame &f, uint32_t now) {
+  if (!(f.can_id & CAN_EFF_FLAG) || f.can_dlc < 1) return;
+  uint32_t id = f.can_id & CAN_EFF_MASK;
+  uint8_t src = id & 0x7FU;
+
+  if (id & 0x80U) { // service frame
+    if (!allocated()) return;
+    uint8_t dest = (id >> 8) & 0x7FU;
+    uint8_t stype = (id >> 16) & 0xFFU;
+    bool isRequest = (id >> 15) & 1U;
+    if (isRequest && dest == node_id_ && stype == SRVID_GET_NODE_INFO)
+      sendGetNodeInfoResponse(src, f.data[f.can_dlc - 1] & 0x1FU);
+    return;
+  }
+
+  if (src == 0) { // anonymous frame = another allocatee requesting; back off
+    if (((id >> 8) & 3U) == DTID_ALLOCATION && !allocated())
+      next_alloc_request_ms_ = now + 600 + (esp_random() % 400);
+    return;
+  }
+
+  uint16_t dtid = (uint16_t)((id >> 8) & 0xFFFFU);
+  if (dtid != DTID_ALLOCATION || allocated()) return;
+
+  // Allocation broadcast from the server (single- or multi-frame).
+  uint8_t tail = f.data[f.can_dlc - 1];
+  bool sot = tail & 0x80U, eot = tail & 0x40U, tog = (tail >> 5) & 1U;
+  uint8_t tid = tail & 0x1FU;
+  uint8_t plen = (uint8_t)(f.can_dlc - 1);
+
+  if (sot && eot) {
+    handleAllocationBroadcast(f.data, plen, now);
+    return;
+  }
+  if (sot) {
+    if (tog) return;
+    alloc_reasm_.active = true;
+    alloc_reasm_.src = src;
+    alloc_reasm_.tid = tid;
+    alloc_reasm_.toggle = 0;
+    alloc_reasm_.len = 0;
+  } else {
+    if (!alloc_reasm_.active || alloc_reasm_.src != src ||
+        alloc_reasm_.tid != tid || tog != (alloc_reasm_.toggle ^ 1U)) {
+      alloc_reasm_.active = false;
+      return;
+    }
+    alloc_reasm_.toggle ^= 1U;
+  }
+  if (alloc_reasm_.len + plen > sizeof(alloc_reasm_.buf)) {
+    alloc_reasm_.active = false;
+    return;
+  }
+  memcpy(alloc_reasm_.buf + alloc_reasm_.len, f.data, plen);
+  alloc_reasm_.len += plen;
+  if (eot) {
+    alloc_reasm_.active = false;
+    if (alloc_reasm_.len >= 3) // skip 2-byte transfer CRC (not validated)
+      handleAllocationBroadcast(alloc_reasm_.buf + 2,
+                                (uint16_t)(alloc_reasm_.len - 2), now);
+  }
+}
+
+void DroneCanNode::sendGetNodeInfoResponse(uint8_t dest, uint8_t tid) {
+  uint8_t p[64];
+  // NodeStatus (7 bytes)
+  uint32_t up = last_node_status_ms_ / 1000;
+  p[0] = (uint8_t)up;
+  p[1] = (uint8_t)(up >> 8);
+  p[2] = (uint8_t)(up >> 16);
+  p[3] = (uint8_t)(up >> 24);
+  p[4] = (uint8_t)((health_ & 3U) << 6); // mode OPERATIONAL, sub 0
+  p[5] = 0;
+  p[6] = 0;
+  // SoftwareVersion: major, minor, optional_field_flags, vcs_commit, image_crc
+  p[7] = 0;  // major
+  p[8] = 1;  // minor
+  memset(p + 9, 0, 13);
+  // HardwareVersion: major, minor, unique_id[16], certificate len (0)
+  p[22] = 1;
+  p[23] = 0;
+  memcpy(p + 24, unique_id_, 16);
+  p[40] = 0;
+  // name (tail array, no length prefix)
+  static const char name[] = "org.arrowair.cbc";
+  const uint16_t nameLen = sizeof(name) - 1;
+  memcpy(p + 41, name, nameLen);
+  uint16_t total = 41 + nameLen;
+
+  // Service response frame ID: priority | service type | response | dest | 1 | src
+  uint32_t id = (30UL << 24) | ((uint32_t)SRVID_GET_NODE_INFO << 16) |
+                ((uint32_t)dest << 8) | 0x80U | node_id_;
+  sendMultiFrame(id, p, total, SIG_GET_NODE_INFO, tid);
+}
+
+void DroneCanNode::sendMultiFrame(uint32_t id, const uint8_t *payload,
+                                  uint16_t len, uint64_t signature, uint8_t tid) {
+  struct can_frame f;
+  f.can_id = CAN_EFF_FLAG | id;
+  if (len <= 7) {
+    memcpy(f.data, payload, len);
+    f.data[len] = (uint8_t)(0xC0U | (tid & 0x1FU));
+    f.can_dlc = (uint8_t)(len + 1);
+    send_(f);
+    return;
+  }
+  uint16_t crc = transferCrc(signature, payload, len);
+  uint32_t total = (uint32_t)len + 2; // stream = crc_lo, crc_hi, payload
+  uint32_t off = 0;
+  uint8_t toggle = 0;
+  bool first = true;
+  while (off < total) {
+    uint8_t chunk = (uint8_t)((total - off > 7) ? 7 : (total - off));
+    for (uint8_t i = 0; i < chunk; i++) {
+      uint32_t s = off + i;
+      f.data[i] = (s == 0) ? (uint8_t)(crc & 0xFFU)
+                : (s == 1) ? (uint8_t)(crc >> 8)
+                           : payload[s - 2];
+    }
+    off += chunk;
+    f.data[chunk] = (uint8_t)((first ? 0x80U : 0U) | (off >= total ? 0x40U : 0U) |
+                              ((uint32_t)toggle << 5) | (tid & 0x1FU));
+    f.can_dlc = (uint8_t)(chunk + 1);
+    send_(f);
+    toggle ^= 1U;
+    first = false;
   }
 }
 

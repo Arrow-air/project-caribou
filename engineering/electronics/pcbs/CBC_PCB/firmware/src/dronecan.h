@@ -93,3 +93,58 @@ void dronecanMakeNodeStatus(struct can_frame &f, uint8_t node_id,
                             uint32_t uptime_sec, uint8_t health, uint8_t mode);
 
 float float16ToFloat(uint16_t h);
+
+// ---------------------------------------------------------------------------
+// DroneCanNode — minimal v0 node for the drone bus:
+//  * dynamic node ID allocation client (uavcan.protocol.dynamic_node_id.
+//    Allocation, dtid 1) — the "handshake with the FC" that assigns each CBC
+//    a unique node ID when several sit on one bus. ArduPilot runs the
+//    allocation server by default (CAN_Dn_UC_OPTION / DNA server).
+//  * NodeStatus broadcast @1Hz once allocated.
+//  * uavcan.protocol.GetNodeInfo (service 1) responder, so the FC can
+//    identify the node ("org.arrowair.cbc") and persist the allocation.
+// ---------------------------------------------------------------------------
+
+#define DTID_ALLOCATION 1
+#define SRVID_GET_NODE_INFO 1
+#define SIG_GET_NODE_INFO 0xEE468A8121C46A9EULL
+
+class DroneCanNode {
+public:
+  typedef bool (*SendFn)(const struct can_frame &f);
+
+  // unique_id: 16 bytes, must be stable per board (we derive it from the
+  // ESP32 eFuse MAC). static_node_id != 0 skips allocation entirely.
+  void begin(SendFn send, const uint8_t unique_id[16], uint8_t static_node_id);
+  void poll(uint32_t now_ms);
+  void handleFrame(const struct can_frame &f, uint32_t now_ms);
+
+  bool allocated() const { return node_id_ != 0; }
+  uint8_t nodeId() const { return node_id_; }
+  void setHealth(uint8_t h) { health_ = h; }
+
+private:
+  void sendAllocationRequest(uint32_t now_ms);
+  void handleAllocationBroadcast(const uint8_t *payload, uint16_t len,
+                                 uint32_t now_ms);
+  void sendGetNodeInfoResponse(uint8_t dest, uint8_t tid);
+  void sendMultiFrame(uint32_t can_id, const uint8_t *payload, uint16_t len,
+                      uint64_t signature, uint8_t tid);
+
+  SendFn send_ = nullptr;
+  uint8_t unique_id_[16] = {0};
+  uint8_t node_id_ = 0;
+  uint8_t health_ = 0;
+  uint8_t confirmed_uid_bytes_ = 0; // unique-id bytes echoed back by the server
+  uint32_t next_alloc_request_ms_ = 0;
+  uint32_t last_server_echo_ms_ = 0;
+  uint32_t last_node_status_ms_ = 0;
+
+  // tiny reassembler for multi-frame Allocation broadcasts from the server
+  struct {
+    bool active = false;
+    uint8_t src = 0, tid = 0, toggle = 0;
+    uint16_t len = 0;
+    uint8_t buf[32];
+  } alloc_reasm_;
+};

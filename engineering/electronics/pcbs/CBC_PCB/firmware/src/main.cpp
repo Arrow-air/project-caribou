@@ -37,8 +37,11 @@
 #define PRECHARGE_OVERLAP_MS 250
 #define LATCH_PULSE_MS 50
 
-// DroneCAN node ID of the CBC on the drone bus.
-#define CBC_NODE_ID 25
+// DroneCAN node ID on the drone bus. 0 = request one from the FC via dynamic
+// node allocation (the standard DroneCAN "handshake" — ArduPilot runs the
+// allocation server by default), which is what you want with 6 CBCs on one
+// bus. Set 1..125 to pin a static ID instead.
+#define CBC_STATIC_NODE_ID 0
 
 // Default bitrates. DroneCAN convention is 1 Mbps; if the Tattu speaks its
 // proprietary protocol it may use something else — use "scan" to find out.
@@ -60,6 +63,17 @@ DallasTemperature temp2(&owTemp2);
 
 DroneCanRx batRx;   // battery bus decoder
 DroneCanRx droneRx; // drone bus decoder (see who else is talking)
+DroneCanNode droneNode; // our node on the drone bus (allocation + NodeStatus)
+
+static bool droneSend(const struct can_frame &f) {
+  // Multi-frame transfers (e.g. the 9-frame GetNodeInfo response) can outrun
+  // the MCP2515's 3 TX buffers — wait briefly for a free one (~128us/frame @1M).
+  for (int i = 0; i < 40; i++) {
+    if (canDrone.sendMessage(&f) == MCP2515::ERROR_OK) return true;
+    delayMicroseconds(50);
+  }
+  return false;
+}
 
 enum SwitchState { SW_OFF, SW_PRECHARGE, SW_LATCH_PULSE, SW_OVERLAP, SW_ON };
 static SwitchState swState = SW_OFF;
@@ -237,6 +251,10 @@ static void printStatus() {
                 bitrateName(batBitrate), (unsigned long)batFramesRx,
                 (unsigned long)batRx.transfers_ok, (unsigned long)batRx.crc_errors,
                 bitrateName(droneBitrate), (unsigned long)droneFramesRx);
+  Serial.printf("[dronecan] drone bus node: %s\n",
+                droneNode.allocated()
+                    ? (String("ID ") + droneNode.nodeId()).c_str()
+                    : "waiting for allocation from FC");
   if (batRx.battery.valid) {
     BatteryTelemetry &b = batRx.battery;
     Serial.printf("[battery] %s node=%u '%s' %.1fV %.1fA soc=%u%% soh=%u%% %.0fWh/%.0fWh temp=%.1fC flags=0x%03X%s (age %lus)\n",
@@ -355,6 +373,18 @@ void setup() {
   temp1.requestTemperatures();
   temp2.requestTemperatures();
 
+  // Drone-bus DroneCAN node: unique ID from the eFuse MAC (stable per board)
+  uint8_t uid[16] = {0};
+  memcpy(uid, "ARW-CBC1", 8);
+  uint64_t mac = ESP.getEfuseMac();
+  memcpy(uid + 8, &mac, 8);
+  droneNode.begin(droneSend, uid, CBC_STATIC_NODE_ID);
+#if CBC_STATIC_NODE_ID == 0
+  Serial.println("[dronecan] requesting node ID from the FC (dynamic allocation)");
+#else
+  Serial.printf("[dronecan] static node ID %u\n", CBC_STATIC_NODE_ID);
+#endif
+
   killActive = digitalRead(PIN_KILL_SENSE);
   if (killActive) Serial.println("[kill] trigger active at boot — auto-arm held off");
 
@@ -394,17 +424,17 @@ void loop() {
   while (canDrone.readMessage(&f) == MCP2515::ERROR_OK) {
     droneFramesRx++;
     droneRx.handleFrame(f, now);
+    droneNode.handleFrame(f, now); // allocation echoes, GetNodeInfo requests
     if (rawDrone) printFrame("drone", f);
   }
 
-  // --- drone bus NodeStatus @1Hz ---
-  static uint32_t lastNodeStatus = 0;
-  if (now - lastNodeStatus >= 1000) {
-    lastNodeStatus = now;
-    struct can_frame ns;
-    dronecanMakeNodeStatus(ns, CBC_NODE_ID, now / 1000,
-                           killActive ? 1 /*WARNING*/ : 0 /*OK*/, 0 /*OPERATIONAL*/);
-    canDrone.sendMessage(&ns);
+  // --- drone bus node housekeeping (allocation handshake / NodeStatus @1Hz) ---
+  static bool wasAllocated = false;
+  droneNode.setHealth(killActive ? 1 /*WARNING*/ : 0 /*OK*/);
+  droneNode.poll(now);
+  if (!wasAllocated && droneNode.allocated()) {
+    wasAllocated = true;
+    Serial.printf("[dronecan] node ID %u allocated by the FC\n", droneNode.nodeId());
   }
 
   bridgeProcess();

@@ -15,10 +15,13 @@ hardware.** Everything marked ⚠ below needs a check on the first real board.
 - **Battery CAN (CAN1)** — listens on the Tattu bus, attempts DroneCAN decode
   (`NodeStatus`, `BatteryInfo`) and dumps raw frames so the actual protocol can
   be identified.
-- **Drone CAN (CAN2, isolated)** — DroneCAN node skeleton broadcasting
-  `NodeStatus` at 1 Hz (node ID 25) so the CBC is visible to the autopilot.
-  The battery→drone telemetry **bridge is stubbed** (`bridgeProcess()` in
-  `src/main.cpp`) for later.
+- **Drone CAN (CAN2, isolated)** — DroneCAN node with **dynamic node ID
+  allocation**: at boot the CBC requests a node ID from the FC's allocation
+  server (ArduPilot runs one by default), so 6 CBCs on one bus each get a
+  unique ID with no per-board configuration. Unique ID is derived from the
+  ESP32 eFuse MAC. Answers `GetNodeInfo` (`org.arrowair.cbc`) and broadcasts
+  `NodeStatus` at 1 Hz once allocated. The battery→drone telemetry **bridge
+  is stubbed** (`bridgeProcess()` in `src/main.cpp`) for later.
 - **Temperatures** — reads both DS18B20 sensors (U501/U502).
 - **Serial console** — status output + commands at 115200 baud over USB-C.
 
@@ -122,9 +125,30 @@ scan                  auto-detect battery bus bitrate (3 s listen per rate)
 help
 ```
 
-Config defaults live at the top of `src/main.cpp`: `AUTO_ARM_ON_BOOT` (1),
-`AUTO_ARM_DELAY_MS`, precharge timing, `CBC_NODE_ID` (25), default bitrates
-(1 Mbps both buses).
+Config defaults live at the top of `src/main.cpp`: `AUTO_ARM_ON_BOOT` (1,
+confirmed by Julius), `AUTO_ARM_DELAY_MS`, precharge timing,
+`CBC_STATIC_NODE_ID` (0 = dynamic allocation from the FC; set 1..125 to pin),
+default bitrates (1 Mbps both buses).
+
+## Bench check over USB
+
+USB-C alone powers the whole logic section: VBUS → D301 → +5 V rail → LDOs →
+3V3 (ESP32, both MCP2515s, both CAN transceivers, temp sensors). The battery
+power path stays dead without a pack — the 12 V gate rail comes from the
+battery-fed flyback or J501.8 — so the arm sequence runs harmlessly as a
+logic-level test.
+
+So: plug in USB-C, `pio device monitor -b 115200`, and check:
+
+1. Boot banner, `[can] bat/drone init` results (0 = OK for reset/bitrate/mode
+   — nonzero means SPI/MCP2515 trouble).
+2. `[status]` line every 2 s with both temp sensors reading plausible values.
+3. Kill input: apply/remove 12 V on J501.7 → `[kill] ...` log lines.
+4. Auto-arm sequence log ~3 s after boot (`precharge → latch → ON`); verify
+   IO4/IO6 with a scope if you want the timing.
+5. With the drone bus wired to an FC: `[dronecan] node ID n allocated by the
+   FC` and the CBC appearing in the DroneCAN/UAVCAN inspector.
+6. With a battery on CN201: `[bat]` raw frames + `[battery] tattu ...` decode.
 
 ## Battery protocol notes (Tattu)
 
@@ -146,12 +170,22 @@ Quiver RPi bridge (`project-quiver`
 Raw dump (`raw bat on`, default) and `scan` remain available if a pack shows
 up speaking something else.
 
+## Confirmed by Julius (2026-07-16)
+
+- Latch behavior (firmware can arm, not disarm) and momentary kill are **as
+  designed**.
+- Auto-arm at boot is the correct default.
+- Battery: Tattu **18S** variant; 6 packs/CBCs on the drone bus → dynamic
+  node allocation handles the IDs.
+
 ## Open items
 
-- ⚠ Not yet compiled against real hardware — first bench test should be done
-  with a lab supply + no load before a real Tattu pack.
+- ⚠ Not hardware-tested yet — first bench test over USB (see above), then lab
+  supply + no load before a real pack.
 - ⚠ Confirm kill-trigger polarity on IO5 (assumed HIGH = trigger present).
-- ⚠ Confirm the "kill releases → power returns" behavior is intended.
-- Decide auto-arm policy (currently: arm 3 s after boot unless kill active).
-- CAN bridge battery→drone (`BatteryInfo` republish) once protocol confirmed.
-- Persist bitrate/config in NVS instead of compile-time defaults.
+- ⚠ Verify allocation handshake + GetNodeInfo against a real FC (ArduPilot
+  DNA server); the protocol code is written from the v0 spec, untested.
+- CAN bridge battery→drone (`BatteryInfo` republish, per-battery `battery_id`
+  so the FC can tell the 6 packs apart) once bench-verified.
+- Map the remaining ~42 bytes of the Tattu 0x1092 payload (per-cell voltages?).
+- Persist config in NVS instead of compile-time defaults.
