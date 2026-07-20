@@ -12526,7 +12526,7 @@
 		)
 		(uuid "a05b3a69-1769-42b8-9cd3-b9d692bfc71b")
 	)
-	(text "IO_CH5 (PWM6)"
+	(text "IO_CH6 (PWM6)"
 		(exclude_from_sim no)
 		(at 149.606 110.49 0)
 		(effects
