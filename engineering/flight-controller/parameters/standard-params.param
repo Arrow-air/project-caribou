@@ -4,18 +4,19 @@
 #
 # Caribou deltas vs Quiver:
 #   - FRAME_CLASS 1→2 (hexacopter, X layout)
-#   - SERVO1..6 = Motor1..6. Per CMAIN_PCB schematics the FC main outputs
-#     route IO_CH1→J27, IO_CH2→J32, IO_CH3→J40, IO_CH4→J23, IO_CH5→J45,
-#     IO_CH6→J55 (4-pin JWPF ESC signal connectors, pin 4 = signal).
-#     SERVOn ↔ IO_CHn ↔ that connector. ⚠ Wire each X15 ESC to the connector
-#     matching its position in the ArduPilot HEXA/X motor diagram.
-#   - ESC control = plain PWM (MOT_PWM_TYPE 10→0, CAN_D1_UC_ESC_BM 15→0):
-#     CMAIN routes discrete PWM signal lines to the six ESC connectors,
-#     Quiver's DroneCAN-ESC settings don't apply. ⚠ Confirm X15 input mode.
+#   - SERVO1..6 = Motor1..6. Motor mapping confirmed from CMAIN silkscreen:
+#     each ESC connector carries CAN1_H/L + GND + CHn (DroneCAN primary,
+#     PWM backup on pin 4). Motor n ↔ CHn ↔ connector, with airframe arm
+#     letters per silkscreen: M1=B (J27), M2=E (J32), M3=F (J40),
+#     M4=C (J23), M5=A (J45), M6=D (J55) — matches the ArduPilot HEXA/X
+#     motor-order diagram lettering.
+#   - ESC control = DroneCAN (primary), PWM is backup only:
+#     CAN_D1_UC_ESC_BM 15→63 (six ESCs), MOT_PWM_TYPE kept at Quiver's
+#     value; PWM output range 1050–1950 kept for the backup path.
 #   - Battery: 18S (Quiver was 14S) — all voltage thresholds rescaled at the
-#     same per-cell setpoints. BATT_MONITOR 9(ESC)→8 (DroneCAN BatteryInfo,
-#     to come from the CBCs once the CAN bridge fw is done). ⚠ Set
-#     BATT_CAPACITY to the real Tattu 18S pack value.
+#     same per-cell setpoints; capacity 30000 mAh confirmed. BATT_MONITOR
+#     stays 9 (DroneCAN ESC telemetry); CBC DroneCAN BatteryInfo is a
+#     future option once the CAN bridge fw is done.
 #   - Obstacle avoidance / proximity stack removed (no RPLidar, no radar):
 #     PRX1_*, RNGFND1_* gone, SERIAL5 lidar → -1, WPNAV_RFND_USE→0.
 #     AVOID_ENABLE=0 / OA_TYPE=0 kept from base.
@@ -95,18 +96,18 @@ BATT_CRT_VOLT,57.6
 BATT_FS_CRT_ACT,1
 BATT_FS_LOW_ACT,2
 BATT_FS_VOLTSRC,1
-BATT_MONITOR,8
+BATT_MONITOR,9
 BATT_OPTIONS,128
 BATT2_LOW_VOLT,61.7
-BATT2_MONITOR,8
+BATT2_MONITOR,9
 BRD_OPTIONS,1
 BRD_SAFETY_DEFLT,0
 BRD_SAFETY_MASK,16368
 BRD_SAFETYOPTION,3
 BRD_VBUS_MIN,4.3
-# --- CAN: DroneCAN kept for RID + CBC battery telemetry; ESCs are PWM ---
+# --- CAN: DroneCAN ESCs (primary control) + future CBC telemetry ---
 CAN_D1_PROTOCOL,1
-CAN_D1_UC_ESC_BM,0
+CAN_D1_UC_ESC_BM,63
 CAN_D1_UC_NODE,10
 CAN_D1_UC_NTF_RT,20
 CAN_D1_UC_OPTION,128
@@ -200,13 +201,13 @@ LOIT_BRK_DELAY,0.4
 LOIT_BRK_JERK,500
 LOIT_OPTIONS,1
 LOIT_SPEED,1250
-# --- Motors: 18S voltages; PWM ESCs (X15); thrust curve needs Caribou tune ---
+# --- Motors: 18S voltages; DroneCAN X15 ESCs (PWM backup); needs Caribou tune ---
 MOT_BAT_VOLT_MAX,78.3
 MOT_BAT_VOLT_MIN,59.4
 MOT_HOVER_LEARN,2
 MOT_PWM_MAX,1950
 MOT_PWM_MIN,1050
-MOT_PWM_TYPE,0
+MOT_PWM_TYPE,10
 MOT_SAFE_TIME,1
 MOT_SPIN_ARM,0.07
 MOT_SPIN_MAX,0.95
@@ -250,7 +251,7 @@ SERIAL5_OPTIONS,0
 SERIAL5_PROTOCOL,-1
 SERVO_GPIO_MASK,65472
 SERVO_RATE,50
-# --- Motor outputs: SERVOn = Motor n = CMAIN IO_CHn (see header) ---
+# --- Motor outputs: SERVOn = Motor n = CMAIN CHn connector (see header) ---
 SERVO1_FUNCTION,33
 SERVO1_MAX,1950
 SERVO1_MIN,1050
