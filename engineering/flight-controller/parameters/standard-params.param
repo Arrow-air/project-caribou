@@ -19,8 +19,8 @@
 #   - Obstacle avoidance / proximity stack removed (no RPLidar, no radar):
 #     PRX1_*, RNGFND1_* gone, SERIAL5 lidar → -1, WPNAV_RFND_USE→0.
 #     AVOID_ENABLE=0 / OA_TYPE=0 kept from base.
-#   - Remote ID ENABLED (Quiver params-remoteid.param merged in, DID_* at
-#     bottom). Assumes a DroneBeacon db201 on the DroneCAN bus like Quiver.
+#   - Remote ID DISABLED (DID_ENABLE=0). Load Quiver's params-remoteid.param
+#     overlay if/when a beacon is fitted.
 #   - SERVO_GPIO_MASK 65520→65472 (frees ch5+6 for motors, GPIO = ch7..16)
 #
 # ⚠⚠ TUNING PLACEHOLDERS — Quiver values, NOT valid for a ~200 kg hexa:
@@ -286,13 +286,7 @@ WPNAV_RFND_USE,0
 WPNAV_SPEED,350
 WPNAV_SPEED_DN,100
 WPNAV_SPEED_UP,100
-# --- Remote ID (merged from Quiver params-remoteid.param) ---
-# Assumes DroneBeacon db201 on the DroneCAN bus. Requires firmware with
-# AP_OPENDRONEID_ENABLED=1. Operator/UAS IDs are set per-operator in
-# Mission Planner -> DroneID tab. DID_OPTIONS=1 = no pre-arm block while
-# IDs are unconfigured.
-DID_ENABLE,1
-DID_CANDRIVER,1
-DID_MAVPORT,-1
-DID_OPTIONS,1
-DID_BARO_ACC,-1
+# --- Remote ID: DISABLED ---
+# To enable later, load Quiver's params-remoteid.param overlay
+# (DroneBeacon db201 on DroneCAN; requires AP_OPENDRONEID_ENABLED=1 fw).
+DID_ENABLE,0
