@@ -1,0 +1,8 @@
+{
+  "label": "Electronics",
+  "position": 3,
+  "link": {
+    "type": "doc",
+    "id": "electronics/index"
+  }
+}
