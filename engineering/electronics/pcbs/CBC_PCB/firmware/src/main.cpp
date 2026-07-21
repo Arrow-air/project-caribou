@@ -28,7 +28,7 @@
 #include "pins.h"
 #include "dronecan.h"
 
-#define FW_VERSION "0.3.0"
+#define FW_VERSION "0.3.1"
 
 // ---------------- configuration ----------------
 
@@ -295,6 +295,13 @@ static void bridgeProcess() {
     lastBridge = now;
     BatteryTelemetry tagged = b;
     tagged.battery_id = (uint8_t)cbcParams[1].value; // BATT_ID param (per-pack)
+    // Forward the hottest of the three temperatures we know — the pack's own
+    // internal sensor and the two DS18B20s on the CBC board — so the FC sees
+    // whichever part of the battery path is running warmest.
+    float tC = (tagged.temperature_k > 0.0f) ? (tagged.temperature_k - 273.15f) : NAN;
+    if (!isnan(tempC1) && (isnan(tC) || tempC1 > tC)) tC = tempC1;
+    if (!isnan(tempC2) && (isnan(tC) || tempC2 > tC)) tC = tempC2;
+    if (!isnan(tC)) tagged.temperature_k = tC + 273.15f;
     uint8_t buf[64];
     uint16_t len = dronecanEncodeBatteryInfo(buf, tagged);
     droneNode.broadcast(DTID_BATTERY_INFO, SIG_BATTERY_INFO, buf, len);

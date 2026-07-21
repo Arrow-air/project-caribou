@@ -249,6 +249,9 @@ case a pack ships with real DroneCAN firmware. Raw dump (`raw bat on`) and
 `uavcan.equipment.power.BatteryInfo` and broadcast on the drone bus at 2 Hz.
 Note the sign convention flip: BatteryInfo current is positive-discharging
 (ArduPilot convention), Tattu is positive-charging — the encoder negates.
+The bridged temperature is the **max of three sensors** (v0.3.1): the pack's
+internal temp and the two DS18B20s on the CBC board, so the FC always sees
+the hottest point in the battery path. Missing/failed sensors are skipped.
 
 ## Confirmed by Julius (2026-07-16)
 
