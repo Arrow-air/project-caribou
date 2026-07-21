@@ -35,6 +35,17 @@ float float16ToFloat(uint16_t h) {
   return out;
 }
 
+uint16_t floatToFloat16(float f) {
+  uint32_t x;
+  memcpy(&x, &f, 4);
+  uint16_t sign = (uint16_t)((x >> 16) & 0x8000U);
+  int32_t exp = (int32_t)((x >> 23) & 0xFFU) - 127 + 15;
+  uint32_t mant = x & 0x7FFFFFU;
+  if (exp <= 0) return sign; // flush subnormals/underflow to +/- 0
+  if (exp >= 0x1F) return (uint16_t)(sign | 0x7C00U); // inf/overflow
+  return (uint16_t)(sign | ((uint32_t)exp << 10) | (mant >> 13));
+}
+
 // CRC-16-CCITT-FALSE (poly 0x1021, init 0xFFFF) as used for UAVCAN v0
 // transfer CRCs. The CRC is seeded with the 64-bit data type signature
 // (little-endian byte order), then run over the full transfer payload.
@@ -63,6 +74,18 @@ static uint32_t getBitsMsbFirst(const uint8_t *buf, uint32_t bitOff, uint8_t nBi
     v = (v << 1) | ((buf[b >> 3] >> (7U - (b & 7U))) & 1U);
   }
   return v;
+}
+
+static void putBitsMsbFirst(uint8_t *buf, uint32_t bitOff, uint8_t nBits,
+                            uint32_t v) {
+  for (uint8_t i = 0; i < nBits; i++) {
+    uint32_t b = bitOff + i;
+    uint8_t bit = (uint8_t)((v >> (nBits - 1U - i)) & 1U);
+    if (bit)
+      buf[b >> 3] |= (uint8_t)(1U << (7U - (b & 7U)));
+    else
+      buf[b >> 3] &= (uint8_t)~(1U << (7U - (b & 7U)));
+  }
 }
 
 static uint16_t le16(const uint8_t *p) { return (uint16_t)(p[0] | ((uint16_t)p[1] << 8)); }
@@ -103,9 +126,20 @@ bool DroneCanRx::handleFrame(const struct can_frame &f, uint32_t now_ms) {
     reasm.len = 0;
   } else {
     if (!reasm.active || reasm.src != src || reasm.dtid != dtid ||
-        reasm.tid != tid || tog != (reasm.toggle ^ 1U)) {
+        tog != (reasm.toggle ^ 1U)) {
       reasm.active = false;
       return false;
+    }
+    if (tid != reasm.tid) {
+      // Tattu quirk: the pack increments the transfer ID on EVERY frame
+      // instead of keeping it constant per transfer. Accept +1 sequences
+      // for the Tattu data type only.
+      if (dtid == DTID_TATTU_BATTERY && tid == ((reasm.tid + 1U) & 0x1FU)) {
+        reasm.tid = tid;
+      } else {
+        reasm.active = false;
+        return false;
+      }
     }
     reasm.toggle ^= 1U;
   }
@@ -145,9 +179,10 @@ void DroneCanRx::completeTransfer(uint8_t src, uint16_t dtid, const uint8_t *p,
     nodeStatus.mode = (p[4] >> 3) & 7U;
     nodeStatus.sub_mode = p[4] & 7U;
     nodeStatus.vendor_code = le16(p + 5);
-  } else if (dtid == DTID_TATTU_BATTERY && len >= 12) {
-    // Tattu vendor broadcast — layout proven by the Quiver RPi tattu bridge.
-    // Transfer CRC not validated (vendor DSDL signature unknown).
+  } else if (dtid == DTID_TATTU_BATTERY && len >= 60) {
+    // Tattu 18S "E-UAVCAN" broadcast (TATTU-2177 spec) — see dronecan.h for
+    // the full layout. Transfer CRC not validated (vendor seed unknown).
+    // 60-byte variant = no serial; 76-byte variant appends char serial[16].
     BatteryTelemetry &b = battery;
     b.valid = true;
     b.crc_ok = true; // unvalidated
@@ -156,12 +191,38 @@ void DroneCanRx::completeTransfer(uint8_t src, uint16_t dtid, const uint8_t *p,
     b.protocol = 2;
     b.tattu_vendor = le16(p + 0);
     b.model_instance_id = le16(p + 2);
-    b.voltage = le16(p + 4) / 1000.0f;                 // mV
-    b.current = (int16_t)le16(p + 6) / 100.0f;         // 10 mA units
-    b.temperature_k = (int16_t)le16(p + 8) + 273.15f;  // degC
+    b.voltage = le16(p + 4) * 0.01f;                  // 10 mV units
+    b.current = (int16_t)le16(p + 6) * 0.01f;         // 10 mA, + = charging
+    b.temperature_k = (int16_t)le16(p + 8) + 273.15f; // degC
     uint16_t soc = le16(p + 10);
     b.soc_pct = (uint8_t)(soc > 100 ? 100 : soc);
-    strncpy(b.model_name, "Tattu(0x1092)", sizeof(b.model_name) - 1);
+    b.cycles = le16(p + 12);
+    int16_t health = (int16_t)le16(p + 14);
+    if (health < 0) health = 0;
+    if (health > 100) health = 100;
+    b.soh_pct = (uint8_t)health;
+    b.cell_count = 18;
+    for (uint8_t i = 0; i < 18; i++) b.cells_mv[i] = le16(p + 16 + 2 * i);
+    b.design_mah = le16(p + 52);
+    b.remaining_mah = le16(p + 54);
+    b.error_flags = le32(p + 56);
+    b.remaining_capacity_wh = b.remaining_mah * 0.001f * b.voltage;
+    b.full_charge_capacity_wh = b.design_mah * 0.001f * b.voltage;
+    if (len >= 76) {
+      memcpy(b.serial, p + 60, 16);
+      b.serial[16] = 0;
+    }
+    strncpy(b.model_name, "Tattu 18S", sizeof(b.model_name) - 1);
+    // Map Tattu error bits onto BatteryInfo STATUS_FLAG_* values.
+    uint16_t sf = 1; // STATUS_FLAG_IN_USE
+    if (b.current > 0.05f) sf |= 2;                    // CHARGING
+    if (b.error_flags & (1UL << 0)) sf |= 16;          // TEMP_COLD
+    if (b.error_flags & (1UL << 1)) sf |= 8;           // TEMP_HOT
+    if (b.error_flags & ((1UL << 2) | (1UL << 3) |     // chg/dis overcurrent
+                         (1UL << 9) | (1UL << 10)))    // chg/dis short
+      sf |= 32;                                        // OVERLOAD
+    if (b.error_flags != 0) sf |= 256;                 // BMS_ERROR
+    b.status_flags = sf;
   } else if (dtid == DTID_BATTERY_INFO && len >= 23) {
     BatteryTelemetry &b = battery;
     b.valid = true;
@@ -396,7 +457,54 @@ void DroneCanNode::sendMultiFrame(uint32_t id, const uint8_t *payload,
   }
 }
 
+bool DroneCanNode::broadcast(uint16_t dtid, uint64_t signature,
+                             const uint8_t *payload, uint16_t len) {
+  if (!send_ || !allocated()) return false;
+  const uint32_t priority = 16; // medium
+  uint32_t id = (priority << 24) | ((uint32_t)dtid << 8) | node_id_;
+  sendMultiFrame(id, payload, len, signature, bcast_tid_);
+  bcast_tid_ = (bcast_tid_ + 1U) & 0x1FU;
+  return true;
+}
+
 // ---------- TX ----------
+
+// Encode uavcan.equipment.power.BatteryInfo. Layout (byte-aligned unless
+// noted): 7x float16, then uint11 status_flags / uint7 soh / uint7 soc /
+// uint7 soc_stdev (MSB-first packed, bits 112..143), u8 battery_id,
+// u32 model_instance_id, then model_name as tail array (no length prefix).
+uint16_t dronecanEncodeBatteryInfo(uint8_t *out, const BatteryTelemetry &b) {
+  // BatteryInfo current convention (ArduPilot AP_BattMonitor_DroneCAN):
+  // positive = discharging. Tattu reports positive = charging, so negate.
+  float current = (b.protocol == 2) ? -b.current : b.current;
+  uint16_t f16[7] = {
+      floatToFloat16(b.temperature_k),
+      floatToFloat16(b.voltage),
+      floatToFloat16(current),
+      floatToFloat16(b.average_power_10sec),
+      floatToFloat16(b.remaining_capacity_wh),
+      floatToFloat16(b.full_charge_capacity_wh),
+      floatToFloat16(b.hours_to_full_charge),
+  };
+  for (int i = 0; i < 7; i++) {
+    out[2 * i] = (uint8_t)(f16[i] & 0xFFU);
+    out[2 * i + 1] = (uint8_t)(f16[i] >> 8);
+  }
+  out[14] = out[15] = out[16] = out[17] = 0;
+  putBitsMsbFirst(out, 112, 11, b.status_flags);
+  putBitsMsbFirst(out, 123, 7, b.soh_pct);
+  putBitsMsbFirst(out, 130, 7, b.soc_pct);
+  putBitsMsbFirst(out, 137, 7, b.soc_stdev);
+  out[18] = b.battery_id;
+  out[19] = (uint8_t)(b.model_instance_id);
+  out[20] = (uint8_t)(b.model_instance_id >> 8);
+  out[21] = (uint8_t)(b.model_instance_id >> 16);
+  out[22] = (uint8_t)(b.model_instance_id >> 24);
+  uint16_t nameLen = (uint16_t)strlen(b.model_name);
+  if (nameLen > 31) nameLen = 31;
+  memcpy(out + 23, b.model_name, nameLen);
+  return (uint16_t)(23 + nameLen);
+}
 
 void dronecanMakeNodeStatus(struct can_frame &f, uint8_t node_id,
                             uint32_t uptime_sec, uint8_t health, uint8_t mode) {

@@ -13,12 +13,20 @@
 #define DTID_NODE_STATUS 341
 #define DTID_BATTERY_INFO 1092
 
-// Tattu vendor-specific broadcast, as observed from Tattu packs on Quiver
-// (project-quiver docs/Operations/firmware/tattu-bridge/tattu_bridge.py):
-// ext ID 0x01109216 = priority 1, data type 0x1092 (4242), source node 22.
-// Multi-frame v0 transfer, ~54-byte payload:
-//   u16 vendor, u16 model, u16 voltage[mV], i16 current[10mA],
-//   i16 temperature[degC], u16 soc[%], ... (rest not yet mapped)
+// Tattu "E-UAVCAN" vendor broadcast (TATTU-2177 spec, confirmed against a
+// real Grepow/Tattu 18S 30Ah pack on the CBC, 2026-07-21):
+// ext ID 0x01109216 = priority 1, data type 0x1092 (4242), source node 0x16.
+// 4 Hz, little-endian, multi-frame v0-style transfer with two quirks:
+//   * transfer ID increments on EVERY frame (not constant per transfer)
+//   * transfer CRC uses an unknown seed — we don't validate it
+// Payload (76-byte variant; a 60-byte variant without serial alternates):
+//   ofs 0  i16 manufacturer      ofs 2  i16 model
+//   ofs 4  u16 voltage [10mV]    ofs 6  i16 current [10mA] (+ = charging)
+//   ofs 8  i16 temperature [C]   ofs 10 u16 soc [%]
+//   ofs 12 u16 cycle count       ofs 14 i16 health [%]
+//   ofs 16 u16 cell_mv[18]       ofs 52 u16 design capacity [mAh]
+//   ofs 54 u16 remaining [mAh]   ofs 56 u32 error bitfield
+//   ofs 60 char serial[16]       (76-byte variant only)
 #define DTID_TATTU_BATTERY 0x1092
 
 // DSDL 64-bit data type signature for uavcan.equipment.power.BatteryInfo.
@@ -48,6 +56,14 @@ struct BatteryTelemetry {
   uint8_t battery_id = 0;
   uint32_t model_instance_id = 0;
   char model_name[33] = {0};
+  // Tattu extras (protocol 2 only)
+  uint8_t cell_count = 0;
+  uint16_t cells_mv[18] = {0};
+  uint16_t cycles = 0;
+  uint16_t design_mah = 0;
+  uint16_t remaining_mah = 0;
+  uint32_t error_flags = 0; // Tattu error bitfield (see spec comment above)
+  char serial[17] = {0};
 };
 
 struct NodeStatusTelemetry {
@@ -93,6 +109,13 @@ void dronecanMakeNodeStatus(struct can_frame &f, uint8_t node_id,
                             uint32_t uptime_sec, uint8_t health, uint8_t mode);
 
 float float16ToFloat(uint16_t h);
+uint16_t floatToFloat16(float f);
+
+// Encode BatteryTelemetry as uavcan.equipment.power.BatteryInfo into out
+// (>= 64 bytes). Returns encoded length. Note: BatteryInfo current is
+// positive-discharging (ArduPilot convention), Tattu is positive-charging;
+// the encoder negates accordingly.
+uint16_t dronecanEncodeBatteryInfo(uint8_t *out, const BatteryTelemetry &b);
 
 // ---------------------------------------------------------------------------
 // DroneCanNode — minimal v0 node for the drone bus:
@@ -123,6 +146,11 @@ public:
   uint8_t nodeId() const { return node_id_; }
   void setHealth(uint8_t h) { health_ = h; }
 
+  // Broadcast an arbitrary message transfer (single- or multi-frame) on the
+  // drone bus. No-op until allocated. Returns false if not allocated.
+  bool broadcast(uint16_t dtid, uint64_t signature, const uint8_t *payload,
+                 uint16_t len);
+
 private:
   void sendAllocationRequest(uint32_t now_ms);
   void handleAllocationBroadcast(const uint8_t *payload, uint16_t len,
@@ -136,6 +164,7 @@ private:
   uint8_t node_id_ = 0;
   uint8_t health_ = 0;
   uint8_t confirmed_uid_bytes_ = 0; // unique-id bytes echoed back by the server
+  uint8_t bcast_tid_ = 0;
   uint32_t next_alloc_request_ms_ = 0;
   uint32_t last_server_echo_ms_ = 0;
   uint32_t last_node_status_ms_ = 0;

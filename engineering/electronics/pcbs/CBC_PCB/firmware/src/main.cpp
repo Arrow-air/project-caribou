@@ -1,15 +1,17 @@
-// CBC_PCB firmware v0.1.0
+// CBC_PCB firmware v0.2.0
 // ESP32-S3-WROOM-1-N16R8 — Caribou Battery Connector board
 //
 // Functions:
 //  - Main power switch control: precharge -> latch arm sequence (see README:
 //    firmware can ARM the latch but can NOT disarm it — hardware property).
 //  - Kill trigger monitoring (12V_TRIGGER_SIG via Schmitt buffer on IO5).
-//  - CAN1 (battery bus, MCP2515 U402 @16MHz): listens for Tattu telemetry.
-//    Tries DroneCAN decode (NodeStatus/BatteryInfo) + raw frame logging so the
-//    actual protocol can be identified on real hardware.
-//  - CAN2 (drone bus, MCP2515 U401 @16MHz, isolated): DroneCAN node skeleton,
-//    broadcasts NodeStatus @1Hz. Battery->drone bridge is stubbed for later.
+//  - CAN1 (battery bus, MCP2515 U402 @16MHz): decodes the Tattu 18S
+//    "E-UAVCAN" broadcast (protocol confirmed on hardware, Jul 2026 —
+//    voltage/current/SOC/SOH/cycles/18 cell voltages/capacity/errors/serial).
+//  - CAN2 (drone bus, MCP2515 U401 @16MHz, isolated): DroneCAN node with
+//    dynamic node allocation, NodeStatus @1Hz, GetNodeInfo, and a battery
+//    bridge that republishes Tattu telemetry as standard
+//    uavcan.equipment.power.BatteryInfo @2Hz so the FC sees the pack.
 //  - 2x DS18B20 board temperature sensors.
 //  - USB serial console (115200 baud via CP2102N) for status + commands.
 
@@ -22,7 +24,7 @@
 #include "pins.h"
 #include "dronecan.h"
 
-#define FW_VERSION "0.1.0"
+#define FW_VERSION "0.2.0"
 
 // ---------------- configuration ----------------
 
@@ -85,7 +87,7 @@ static uint32_t swStateSince = 0;
 static bool killActive = false;
 static bool autoArmPending = AUTO_ARM_ON_BOOT;
 
-static bool rawBat = true; // dump battery bus frames until protocol confirmed
+static bool rawBat = false; // protocol confirmed; 'raw bat on' to dump frames
 static bool rawDrone = false;
 static uint32_t batFramesRx = 0, droneFramesRx = 0;
 static float tempC1 = NAN, tempC2 = NAN;
@@ -239,13 +241,26 @@ static void scanBatteryBitrate() {
   initCan(*canBat, PIN_CAN_BAT_RST, batBitrate, false, "bat");
 }
 
-// ---------------- bridge stub ----------------
+// ---------------- battery -> drone bus bridge ----------------
 
-// TODO(CAN bridge): once the battery protocol is confirmed, republish battery
-// telemetry on the drone bus as uavcan.equipment.power.BatteryInfo (multi-frame
-// TX with transfer CRC seeded by SIG_BATTERY_INFO), and forward whatever else
-// the autopilot should see. Deliberately left out for now per Julius (Jul 16).
-static void bridgeProcess() {}
+// Republish the decoded Tattu telemetry on the drone bus as standard
+// uavcan.equipment.power.BatteryInfo @2Hz. ArduPilot picks this up with
+// BATT_MONITOR=8 (DroneCAN). Stops if telemetry goes stale (>5s).
+#define BRIDGE_PERIOD_MS 500
+#define BRIDGE_STALE_MS 5000
+
+static void bridgeProcess() {
+  static uint32_t lastBridge = 0;
+  uint32_t now = millis();
+  if (now - lastBridge < BRIDGE_PERIOD_MS) return;
+  if (!droneNode.allocated()) return;
+  BatteryTelemetry &b = batRx.battery;
+  if (!b.valid || now - b.last_update_ms > BRIDGE_STALE_MS) return;
+  lastBridge = now;
+  uint8_t buf[64];
+  uint16_t len = dronecanEncodeBatteryInfo(buf, b);
+  droneNode.broadcast(DTID_BATTERY_INFO, SIG_BATTERY_INFO, buf, len);
+}
 
 // ---------------- status / console ----------------
 
@@ -262,15 +277,26 @@ static void printStatus() {
                     : "waiting for allocation from FC");
   if (batRx.battery.valid) {
     BatteryTelemetry &b = batRx.battery;
-    Serial.printf("[battery] %s node=%u '%s' %.1fV %.1fA soc=%u%% soh=%u%% %.0fWh/%.0fWh temp=%.1fC flags=0x%03X%s (age %lus)\n",
+    Serial.printf("[battery] %s node=%u '%s' %.2fV %.2fA soc=%u%% soh=%u%% temp=%.0fC%s (age %lus)\n",
                   b.protocol == 2 ? "tattu" : "dronecan",
                   b.source_node, b.model_name, b.voltage, b.current, b.soc_pct,
-                  b.soh_pct, b.remaining_capacity_wh, b.full_charge_capacity_wh,
+                  b.soh_pct,
                   b.temperature_k > 0 ? b.temperature_k - 273.15f : 0.0f,
-                  b.status_flags, b.crc_ok ? "" : " CRC?",
+                  b.crc_ok ? "" : " CRC?",
                   (unsigned long)((millis() - b.last_update_ms) / 1000));
+    if (b.protocol == 2 && b.cell_count) {
+      uint16_t cmin = 0xFFFF, cmax = 0;
+      for (uint8_t i = 0; i < b.cell_count; i++) {
+        if (b.cells_mv[i] < cmin) cmin = b.cells_mv[i];
+        if (b.cells_mv[i] > cmax) cmax = b.cells_mv[i];
+      }
+      Serial.printf("[battery] cells %u: %u..%umV (spread %u) | %u/%umAh cycles=%u err=0x%08lX serial='%s'\n",
+                    b.cell_count, cmin, cmax, (unsigned)(cmax - cmin),
+                    b.remaining_mah, b.design_mah, b.cycles,
+                    (unsigned long)b.error_flags, b.serial);
+    }
   } else {
-    Serial.println("[battery] no DroneCAN telemetry decoded yet");
+    Serial.println("[battery] no battery telemetry decoded yet");
   }
   if (batRx.nodeStatus.valid) {
     NodeStatusTelemetry &n = batRx.nodeStatus;
@@ -285,7 +311,7 @@ static void printHelp() {
       "  status              print full status now\n"
       "  arm                 run precharge + latch-on sequence\n"
       "  precharge on|off    drive precharge FET manually\n"
-      "  raw bat on|off      dump raw battery bus frames (default on)\n"
+      "  raw bat on|off      dump raw battery bus frames (default off)\n"
       "  raw drone on|off    dump raw drone bus frames\n"
       "  bitrate bat|drone 125|250|500|1000\n"
       "  scan                auto-detect battery bus bitrate\n"

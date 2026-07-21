@@ -3,10 +3,14 @@
 Firmware for the ESP32-S3-WROOM-1-N16R8 (U301) on the Caribou Battery Connector
 board (CBC_PCB, ordered board state / PR #51).
 
-**Status: v0.1.0 — bench-verified over USB on the first real board
-(2026-07-16):** console, both MCP2515s (init codes all 0), both DS18B20s, and
-the full auto-arm sequence work. Still pending on hardware: battery frames on
-CN201, FC node-ID allocation, kill-trigger polarity (items marked ⚠ below).
+**Status: v0.2.0 — battery protocol confirmed on hardware (2026-07-21):** a
+real Tattu/Grepow 18S 30Ah pack was captured on CN201 and the full telemetry
+decode (voltage, current, temp, SOC, SOH, cycles, 18 cell voltages, capacity,
+error flags, serial) plus the battery→drone `BatteryInfo` bridge are now
+implemented. v0.1.0 bench test (2026-07-16) verified console, both MCP2515s,
+both DS18B20s, and the auto-arm sequence. Still pending on hardware: FC
+node-ID allocation, bridge output on a real FC, kill-trigger polarity (⚠
+below).
 
 ## What it does
 
@@ -14,16 +18,20 @@ CN201, FC node-ID allocation, kill-trigger polarity (items marked ⚠ below).
   (auto-arm 3 s after boot by default, or via the `arm` serial command).
 - **Kill trigger monitoring** — watches the 12 V trigger input and reports
   state changes; aborts an in-progress arm sequence if the trigger asserts.
-- **Battery CAN (CAN1)** — listens on the Tattu bus, attempts DroneCAN decode
-  (`NodeStatus`, `BatteryInfo`) and dumps raw frames so the actual protocol can
-  be identified.
+- **Battery CAN (CAN1)** — decodes the Tattu 18S "E-UAVCAN" broadcast
+  (confirmed protocol, see below): pack voltage/current/temp/SOC/SOH/cycles,
+  all 18 cell voltages, design/remaining capacity, error bitfield, serial.
+  Also decodes standard DroneCAN `NodeStatus`/`BatteryInfo` if a pack speaks
+  that instead.
 - **Drone CAN (CAN2, isolated)** — DroneCAN node with **dynamic node ID
   allocation**: at boot the CBC requests a node ID from the FC's allocation
   server (ArduPilot runs one by default), so 6 CBCs on one bus each get a
   unique ID with no per-board configuration. Unique ID is derived from the
   ESP32 eFuse MAC. Answers `GetNodeInfo` (`org.arrowair.cbc`) and broadcasts
-  `NodeStatus` at 1 Hz once allocated. The battery→drone telemetry **bridge
-  is stubbed** (`bridgeProcess()` in `src/main.cpp`) for later.
+  `NodeStatus` at 1 Hz once allocated. The **battery→drone bridge**
+  republishes the decoded pack telemetry as standard
+  `uavcan.equipment.power.BatteryInfo` at 2 Hz (stops if battery telemetry
+  goes stale >5 s), so ArduPilot sees it with `BATT_MONITOR=8`.
 - **Temperatures** — reads both DS18B20 sensors (U501/U502).
 - **Serial console** — status output + commands at 115200 baud over USB-C.
 
@@ -152,7 +160,7 @@ UART0 through the CP2102N, not native USB). Libraries: `autowp-mcp2515`,
 status                print full status now
 arm                   run precharge + latch-on sequence
 precharge on|off      drive precharge FET manually (bench testing)
-raw bat on|off        dump raw battery bus frames (ON by default)
+raw bat on|off        dump raw battery bus frames (OFF by default since v0.2.0)
 raw drone on|off      dump raw drone bus frames
 bitrate bat|drone 125|250|500|1000
 scan                  auto-detect battery bus bitrate (3 s listen per rate)
@@ -182,27 +190,38 @@ So: plug in USB-C, `pio device monitor -b 115200`, and check:
    IO4/IO6 with a scope if you want the timing.
 5. With the drone bus wired to an FC: `[dronecan] node ID n allocated by the
    FC` and the CBC appearing in the DroneCAN/UAVCAN inspector.
-6. With a battery on CN201: `[bat]` raw frames + `[battery] tattu ...` decode.
+6. With a battery on CN201: `[battery] tattu ...` decode lines (two per
+   status: pack summary + cells/capacity/serial). `raw bat on` for frames.
 
-## Battery protocol notes (Tattu)
+## Battery protocol (Tattu 18S "E-UAVCAN") — confirmed 2026-07-21
 
-Both protocols seen from Tattu packs are supported, based on the working
-Quiver RPi bridge (`project-quiver`
-`docs/Operations/firmware/tattu-bridge/tattu_bridge.py`):
+Confirmed against a real Grepow/Tattu 18S 30Ah pack captured on the first CBC
+board (Julius's frame dump). Matches the TATTU-2177 spec appendix.
 
-1. **Tattu vendor broadcast** (what Quiver packs actually send): DroneCAN v0
-   multi-frame transfer on ext ID `0x01109216` — priority 1, data type
-   `0x1092` (4242), source node 22, **1 Mbps**. 8-frame burst; payload:
-   `u16 vendor, u16 model, u16 voltage[mV], i16 current[10mA], i16 temp[°C],
-   u16 soc[%]`, remainder not yet mapped (likely per-cell voltages etc.).
-   Decoded automatically (`[battery] tattu ...` in the status output). The
-   transfer CRC is not validated (vendor DSDL signature unknown).
-2. **Standard `uavcan.equipment.power.BatteryInfo`** (1092), in case a pack
-   ships with the DroneCAN firmware variant. ⚠ Packed SoC/SoH bitfields and
-   the CRC signature should be sanity-checked against real frames once.
+- **Framing:** CAN 2.0B extended, **1 Mbps**, 4 Hz. Ext ID `0x01109216` =
+  priority 1 · message type `0x1092` · source node `0x16`. UAVCAN-v0-style
+  multi-frame transfer with two vendor quirks the decoder handles:
+  1. the **transfer ID increments on every frame** (not constant per
+     transfer — a strict v0 reassembler rejects these, which is why fw
+     v0.1.0 decoded nothing);
+  2. the transfer CRC seed is unknown, so it is not validated.
+- **Payload** (little-endian; 76-byte variant with serial alternates with a
+  60-byte variant without):
+  `i16 manufacturer, i16 model, u16 voltage[10mV], i16 current[10mA,
+  +=charging], i16 temp[°C], u16 soc[%], u16 cycles, i16 health[%],
+  u16 cell_mv[18], u16 design[mAh], u16 remaining[mAh], u32 error_bits,
+  char serial[16]`.
+- The pack also broadcasts a second message type `0x17E4` (not yet mapped)
+  and an ASCII `V1` version beacon on `0x001E0959`.
 
-Raw dump (`raw bat on`, default) and `scan` remain available if a pack shows
-up speaking something else.
+Standard `uavcan.equipment.power.BatteryInfo` (1092) decode is also kept in
+case a pack ships with real DroneCAN firmware. Raw dump (`raw bat on`) and
+`scan` remain available if a pack shows up speaking something else.
+
+**Bridge:** the decoded telemetry is re-encoded as
+`uavcan.equipment.power.BatteryInfo` and broadcast on the drone bus at 2 Hz.
+Note the sign convention flip: BatteryInfo current is positive-discharging
+(ArduPilot convention), Tattu is positive-charging — the encoder negates.
 
 ## Confirmed by Julius (2026-07-16)
 
@@ -215,11 +234,15 @@ up speaking something else.
 ## Open items
 
 - ✅ ~~First bench test over USB~~ — passed 2026-07-16 (console, CAN init,
-  temps, auto-arm). Next: lab supply + no load before a real pack.
+  temps, auto-arm).
+- ✅ ~~Battery frames on CN201 / protocol identification~~ — confirmed
+  2026-07-21, full 18S decode implemented.
+- ✅ ~~CAN bridge battery→drone~~ — `BatteryInfo` republish at 2 Hz
+  implemented (v0.2.0); needs verification against a real FC.
 - ⚠ Confirm kill-trigger polarity on IO5 (assumed HIGH = trigger present).
 - ⚠ Verify allocation handshake + GetNodeInfo against a real FC (ArduPilot
   DNA server); the protocol code is written from the v0 spec, untested.
-- CAN bridge battery→drone (`BatteryInfo` republish, per-battery `battery_id`
-  so the FC can tell the 6 packs apart) once bench-verified.
-- Map the remaining ~42 bytes of the Tattu 0x1092 payload (per-cell voltages?).
+- Per-battery `battery_id` (currently 0) so the FC can tell the 6 packs
+  apart — could derive from the allocated node ID or pack serial.
+- Map the second Tattu message type `0x17E4`.
 - Persist config in NVS instead of compile-time defaults.
