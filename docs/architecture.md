@@ -15,23 +15,20 @@ This page covers the parts of the architecture that are documented in the reposi
 
 ## Architecture at a Glance
 
-```
-                    ┌─────────────── Central Core ───────────────┐
-                    │  Flight controller (ArduPilot)              │
-                    │  CMAIN PCB — LV distribution + CAN hub      │
-                    │  Payload interfaces                         │
-                    └──────┬──────────────────────────────────────┘
-                           │ harness per arm: isolated 12V,
-                           │ DroneCAN, kill/control signals
-        ┌──────────────────┴──────────────────┐
-        │           Motor Arm (×6)            │
-        │  Tattu 4.0 18S battery              │
-        │    → C90D adapter PCB               │
-        │    → CBC PCB (fuse, precharge,      │
-        │       kill, regulation, dual CAN)   │
-        │    → Hobbywing X15 motor + ESC      │
-        │       with 63" propeller            │
-        └─────────────────────────────────────┘
+```text
+CENTRAL CORE
+  - Flight controller (ArduPilot)
+  - CMAIN PCB (LV distribution + CAN hub)
+  - Payload interfaces
+      |
+      |  harness per arm: isolated 12V,
+      |  DroneCAN, kill/control signals
+      |
+MOTOR ARM (x6)
+  Tattu 4.0 18S battery
+   -> C90D adapter PCB
+   -> CBC PCB (fuse, precharge, kill, regulation, dual CAN)
+   -> Hobbywing X15 motor + ESC with 63" propeller
 ```
 
 ## Propulsion

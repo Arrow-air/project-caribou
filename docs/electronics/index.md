@@ -19,16 +19,16 @@ Caribou uses a small family of custom PCBs, all designed in KiCad and developed 
 
 Each of the six motor arms is an independent power unit:
 
-```
+```text
 Tattu 4.0 18S battery
-        │
-     [C90D]  90° adapter
-        │
-     [CBC]   fuse · precharge · kill · regulation · CAN
-      │  │
-      │  └── isolated 12V + DroneCAN + signals ──→ harness ──→ CMAIN
-      │
-   [Hobbywing X15]  motor + ESC
+        |
+     [C90D]  90-degree adapter
+        |
+     [CBC]   fuse / precharge / kill / regulation / CAN
+      |   \
+      |    \-- isolated 12V + DroneCAN + signals --> harness --> CMAIN
+      |
+ [Hobbywing X15]  motor + ESC
 ```
 
 There is no shared high-voltage bus between arms — each battery feeds its own propulsion unit through its own CBC. The CBC's galvanically isolated 12V output feeds the aircraft's low-voltage system via CMAIN, so a fault on the aircraft LV bus cannot back-feed into the battery power path.
