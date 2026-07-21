@@ -132,6 +132,24 @@ uint16_t dronecanEncodeBatteryInfo(uint8_t *out, const BatteryTelemetry &b);
 #define SRVID_GET_NODE_INFO 1
 #define SIG_GET_NODE_INFO 0xEE468A8121C46A9EULL
 
+// Standard configuration services (what the DroneCAN GUI tool's node
+// properties panel speaks): parameter get/set, save-to-flash, restart.
+#define SRVID_PARAM_GETSET 11
+#define SIG_PARAM_GETSET 0xA7B622F939D1A4D5ULL
+#define SRVID_PARAM_EXECUTEOPCODE 10
+#define SIG_PARAM_EXECUTEOPCODE 0x3B131AC5EB69D2CDULL
+#define SRVID_RESTART_NODE 5
+#define SIG_RESTART_NODE 0x569E05394A3017F0ULL
+#define RESTART_NODE_MAGIC 0xACCE551B1EULL
+
+// A configuration parameter exposed over uavcan.protocol.param.GetSet
+// (integer type only — enough for NODE_ID / BATT_ID).
+struct DroneCanParam {
+  const char *name;
+  int64_t value;
+  int64_t defval, minval, maxval;
+};
+
 class DroneCanNode {
 public:
   typedef bool (*SendFn)(const struct can_frame &f);
@@ -151,11 +169,31 @@ public:
   bool broadcast(uint16_t dtid, uint64_t signature, const uint8_t *payload,
                  uint16_t len);
 
+  // Expose config params over uavcan.protocol.param.GetSet. onSave is called
+  // for ExecuteOpcode SAVE (persist to flash), onErase for ERASE (the node
+  // resets values to defaults first, then calls onErase to persist).
+  // onRestart is called after a valid RestartNode request has been answered.
+  void setParams(DroneCanParam *params, uint8_t count) {
+    params_ = params;
+    nparams_ = count;
+  }
+  void setConfigHandlers(void (*onSave)(), void (*onErase)(),
+                         void (*onRestart)()) {
+    save_cb_ = onSave;
+    erase_cb_ = onErase;
+    restart_cb_ = onRestart;
+  }
+
 private:
   void sendAllocationRequest(uint32_t now_ms);
   void handleAllocationBroadcast(const uint8_t *payload, uint16_t len,
                                  uint32_t now_ms);
   void sendGetNodeInfoResponse(uint8_t dest, uint8_t tid);
+  void handleServiceRequest(uint8_t src, uint8_t stype, uint8_t tid,
+                            const uint8_t *payload, uint16_t len);
+  void handleParamGetSet(uint8_t dest, uint8_t tid, const uint8_t *payload,
+                         uint16_t len);
+  void sendParamGetSetResponse(uint8_t dest, uint8_t tid, int paramIdx);
   void sendMultiFrame(uint32_t can_id, const uint8_t *payload, uint16_t len,
                       uint64_t signature, uint8_t tid);
 
@@ -169,6 +207,12 @@ private:
   uint32_t last_server_echo_ms_ = 0;
   uint32_t last_node_status_ms_ = 0;
 
+  DroneCanParam *params_ = nullptr;
+  uint8_t nparams_ = 0;
+  void (*save_cb_)() = nullptr;
+  void (*erase_cb_)() = nullptr;
+  void (*restart_cb_)() = nullptr;
+
   // tiny reassembler for multi-frame Allocation broadcasts from the server
   struct {
     bool active = false;
@@ -176,4 +220,13 @@ private:
     uint16_t len = 0;
     uint8_t buf[32];
   } alloc_reasm_;
+
+  // reassembler for multi-frame service requests addressed to us
+  // (e.g. param.GetSet set-requests, which exceed one frame)
+  struct {
+    bool active = false;
+    uint8_t src = 0, stype = 0, tid = 0, toggle = 0;
+    uint16_t len = 0;
+    uint8_t buf[128];
+  } srv_reasm_;
 };

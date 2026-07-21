@@ -65,27 +65,57 @@ static uint16_t transferCrc(uint64_t signature, const uint8_t *payload, uint16_t
   return crc;
 }
 
-// UAVCAN v0 packs sub-byte fields MSB-first within the bit stream;
-// byte-aligned multi-byte scalars are little-endian.
-static uint32_t getBitsMsbFirst(const uint8_t *buf, uint32_t bitOff, uint8_t nBits) {
-  uint32_t v = 0;
-  for (uint8_t i = 0; i < nBits; i++) {
-    uint32_t b = bitOff + i;
-    v = (v << 1) | ((buf[b >> 3] >> (7U - (b & 7U))) & 1U);
+// --- v0 scalar bit (de)serialization, ported from libcanard ---
+// Semantics: a scalar is laid out as its little-endian byte array; if the bit
+// length is not byte-aligned, the final partial byte is shifted to the MSB
+// side; then bits are streamed sequentially, MSB-first within each byte.
+// (This is what canardEncodeScalar/canardDecodeScalar do — NOT a plain
+// MSB-first dump of the value, which differs for multi-byte unaligned fields
+// like BatteryInfo's uint11 status_flags.)
+
+static void copyBitArray(const uint8_t *src, uint32_t src_offset,
+                         uint32_t src_len, uint8_t *dst, uint32_t dst_offset) {
+  src += src_offset / 8U;
+  dst += dst_offset / 8U;
+  src_offset %= 8U;
+  dst_offset %= 8U;
+  const uint32_t last_bit = src_offset + src_len;
+  while (last_bit - src_offset) {
+    const uint8_t sb = (uint8_t)(src_offset % 8U);
+    const uint8_t db = (uint8_t)(dst_offset % 8U);
+    const uint8_t maxo = sb > db ? sb : db;
+    const uint32_t rem = last_bit - src_offset;
+    const uint32_t copy_bits = rem < (8U - maxo) ? rem : (8U - maxo);
+    const uint8_t write_mask = (uint8_t)((uint8_t)(0xFF00U >> copy_bits) >> db);
+    const uint8_t src_data = (uint8_t)(((uint32_t)src[src_offset / 8U] << sb) >> db);
+    dst[dst_offset / 8U] = (uint8_t)(((uint32_t)dst[dst_offset / 8U] &
+                                      (uint32_t)~write_mask) |
+                                     (uint32_t)(src_data & write_mask));
+    src_offset += copy_bits;
+    dst_offset += copy_bits;
   }
-  return v;
 }
 
-static void putBitsMsbFirst(uint8_t *buf, uint32_t bitOff, uint8_t nBits,
-                            uint32_t v) {
-  for (uint8_t i = 0; i < nBits; i++) {
-    uint32_t b = bitOff + i;
-    uint8_t bit = (uint8_t)((v >> (nBits - 1U - i)) & 1U);
-    if (bit)
-      buf[b >> 3] |= (uint8_t)(1U << (7U - (b & 7U)));
-    else
-      buf[b >> 3] &= (uint8_t)~(1U << (7U - (b & 7U)));
-  }
+static void encodeScalar(uint8_t *dst, uint32_t bit_ofs, uint8_t bit_len,
+                         uint64_t value) {
+  uint8_t bytes[8];
+  for (int i = 0; i < 8; i++) bytes[i] = (uint8_t)(value >> (8 * i));
+  if (bit_len % 8U)
+    bytes[bit_len / 8U] = (uint8_t)(bytes[bit_len / 8U] << (8U - (bit_len % 8U)));
+  copyBitArray(bytes, 0, bit_len, dst, bit_ofs);
+}
+
+static uint64_t decodeScalar(const uint8_t *src, uint32_t bit_ofs,
+                             uint8_t bit_len, bool value_is_signed = false) {
+  uint8_t bytes[8] = {0};
+  copyBitArray(src, bit_ofs, bit_len, bytes, 0);
+  if (bit_len % 8U)
+    bytes[bit_len / 8U] = (uint8_t)(bytes[bit_len / 8U] >> (8U - (bit_len % 8U)));
+  uint64_t v = 0;
+  for (int i = 0; i < 8; i++) v |= (uint64_t)bytes[i] << (8 * i);
+  if (value_is_signed && bit_len < 64 && (v & (1ULL << (bit_len - 1))))
+    v |= ~((1ULL << bit_len) - 1ULL);
+  return v;
 }
 
 static uint16_t le16(const uint8_t *p) { return (uint16_t)(p[0] | ((uint16_t)p[1] << 8)); }
@@ -238,12 +268,11 @@ void DroneCanRx::completeTransfer(uint8_t src, uint16_t dtid, const uint8_t *p,
     b.full_charge_capacity_wh = float16ToFloat(le16(p + 10));
     b.hours_to_full_charge = float16ToFloat(le16(p + 12));
     // Packed tail: uint11 status_flags, uint7 soh, uint7 soc, uint7 soc_stdev
-    // starting at bit 112 (byte 14). Verify against a real battery — sub-byte
-    // packing order is the usual v0 MSB-first convention.
-    b.status_flags = (uint16_t)getBitsMsbFirst(p, 112, 11);
-    b.soh_pct = (uint8_t)getBitsMsbFirst(p, 123, 7);
-    b.soc_pct = (uint8_t)getBitsMsbFirst(p, 130, 7);
-    b.soc_stdev = (uint8_t)getBitsMsbFirst(p, 137, 7);
+    // starting at bit 112 (byte 14), canard scalar semantics.
+    b.status_flags = (uint16_t)decodeScalar(p, 112, 11);
+    b.soh_pct = (uint8_t)decodeScalar(p, 123, 7);
+    b.soc_pct = (uint8_t)decodeScalar(p, 130, 7);
+    b.soc_stdev = (uint8_t)decodeScalar(p, 137, 7);
     b.battery_id = p[18];
     b.model_instance_id = le32(p + 19);
     uint16_t nameLen = len - 23;
@@ -338,8 +367,47 @@ void DroneCanNode::handleFrame(const struct can_frame &f, uint32_t now) {
     uint8_t dest = (id >> 8) & 0x7FU;
     uint8_t stype = (id >> 16) & 0xFFU;
     bool isRequest = (id >> 15) & 1U;
-    if (isRequest && dest == node_id_ && stype == SRVID_GET_NODE_INFO)
-      sendGetNodeInfoResponse(src, f.data[f.can_dlc - 1] & 0x1FU);
+    if (!isRequest || dest != node_id_) return;
+
+    uint8_t tail = f.data[f.can_dlc - 1];
+    bool sot = tail & 0x80U, eot = tail & 0x40U, tog = (tail >> 5) & 1U;
+    uint8_t tid = tail & 0x1FU;
+    uint8_t plen = (uint8_t)(f.can_dlc - 1);
+
+    if (sot && eot) {
+      handleServiceRequest(src, stype, tid, f.data, plen);
+      return;
+    }
+    // multi-frame request (e.g. a param set-request) — reassemble
+    if (sot) {
+      if (tog) return;
+      srv_reasm_.active = true;
+      srv_reasm_.src = src;
+      srv_reasm_.stype = stype;
+      srv_reasm_.tid = tid;
+      srv_reasm_.toggle = 0;
+      srv_reasm_.len = 0;
+    } else {
+      if (!srv_reasm_.active || srv_reasm_.src != src ||
+          srv_reasm_.stype != stype || srv_reasm_.tid != tid ||
+          tog != (srv_reasm_.toggle ^ 1U)) {
+        srv_reasm_.active = false;
+        return;
+      }
+      srv_reasm_.toggle ^= 1U;
+    }
+    if (srv_reasm_.len + plen > sizeof(srv_reasm_.buf)) {
+      srv_reasm_.active = false;
+      return;
+    }
+    memcpy(srv_reasm_.buf + srv_reasm_.len, f.data, plen);
+    srv_reasm_.len += plen;
+    if (eot) {
+      srv_reasm_.active = false;
+      if (srv_reasm_.len >= 3) // skip 2-byte transfer CRC (not validated)
+        handleServiceRequest(src, stype, tid, srv_reasm_.buf + 2,
+                             (uint16_t)(srv_reasm_.len - 2));
+    }
     return;
   }
 
@@ -404,7 +472,7 @@ void DroneCanNode::sendGetNodeInfoResponse(uint8_t dest, uint8_t tid) {
   p[6] = 0;
   // SoftwareVersion: major, minor, optional_field_flags, vcs_commit, image_crc
   p[7] = 0;  // major
-  p[8] = 1;  // minor
+  p[8] = 3;  // minor
   memset(p + 9, 0, 13);
   // HardwareVersion: major, minor, unique_id[16], certificate len (0)
   p[22] = 1;
@@ -467,6 +535,148 @@ bool DroneCanNode::broadcast(uint16_t dtid, uint64_t signature,
   return true;
 }
 
+void DroneCanNode::handleServiceRequest(uint8_t src, uint8_t stype, uint8_t tid,
+                                        const uint8_t *p, uint16_t len) {
+  if (stype == SRVID_GET_NODE_INFO) {
+    sendGetNodeInfoResponse(src, tid);
+  } else if (stype == SRVID_PARAM_GETSET) {
+    handleParamGetSet(src, tid, p, len);
+  } else if (stype == SRVID_PARAM_EXECUTEOPCODE) {
+    if (len < 1) return;
+    uint8_t opcode = p[0];
+    bool ok = false;
+    if (opcode == 0) { // SAVE
+      if (save_cb_) {
+        save_cb_();
+        ok = true;
+      }
+    } else if (opcode == 1) { // ERASE -> reset to defaults, then persist
+      for (uint8_t i = 0; i < nparams_; i++)
+        params_[i].value = params_[i].defval;
+      if (erase_cb_) {
+        erase_cb_();
+        ok = true;
+      }
+    }
+    uint8_t out[7] = {0}; // int48 argument (0) + bool ok = 49 bits
+    encodeScalar(out, 48, 1, ok ? 1U : 0U);
+    uint32_t id = (30UL << 24) | ((uint32_t)SRVID_PARAM_EXECUTEOPCODE << 16) |
+                  ((uint32_t)src << 8) | 0x80U | node_id_;
+    sendMultiFrame(id, out, 7, SIG_PARAM_EXECUTEOPCODE, tid);
+  } else if (stype == SRVID_RESTART_NODE) {
+    if (len < 5) return;
+    uint64_t magic = decodeScalar(p, 0, 40);
+    bool ok = (magic == RESTART_NODE_MAGIC) && restart_cb_ != nullptr;
+    uint8_t out[1] = {0};
+    encodeScalar(out, 0, 1, ok ? 1U : 0U);
+    uint32_t id = (30UL << 24) | ((uint32_t)SRVID_RESTART_NODE << 16) |
+                  ((uint32_t)src << 8) | 0x80U | node_id_;
+    sendMultiFrame(id, out, 1, SIG_RESTART_NODE, tid);
+    if (ok)
+      restart_cb_(); // handler delays to let the frame flush, then restarts
+  }
+}
+
+void DroneCanNode::handleParamGetSet(uint8_t dest, uint8_t tid,
+                                     const uint8_t *p, uint16_t len) {
+  // Request: uint13 index, param.Value (3-bit union tag), uint8[<=92] name
+  // (tail array, no length prefix). Empty value = read; non-empty = write.
+  if (len < 2) return;
+  uint16_t index = (uint16_t)decodeScalar(p, 0, 13);
+  uint8_t tag = (uint8_t)decodeScalar(p, 13, 3);
+  bool hasValue = false;
+  int64_t newVal = 0;
+  uint32_t nameByte = 2;
+  switch (tag) {
+  case 0: // empty
+    break;
+  case 1: // integer
+    if (len < 10) return;
+    newVal = (int64_t)decodeScalar(p, 16, 64, true);
+    hasValue = true;
+    nameByte = 10;
+    break;
+  case 2: { // real (accept, truncate to int)
+    if (len < 6) return;
+    uint32_t raw = (uint32_t)decodeScalar(p, 16, 32);
+    float fv;
+    memcpy(&fv, &raw, 4);
+    newVal = (int64_t)fv;
+    hasValue = true;
+    nameByte = 6;
+    break;
+  }
+  case 3: // boolean
+    if (len < 3) return;
+    newVal = decodeScalar(p, 16, 8) ? 1 : 0;
+    hasValue = true;
+    nameByte = 3;
+    break;
+  default: // string / unknown — unsupported for integer params
+    return;
+  }
+  int idx = -1;
+  uint16_t nameLen = (len > nameByte) ? (uint16_t)(len - nameByte) : 0;
+  if (nameLen > 0 && nameLen <= 92) {
+    for (uint8_t i = 0; i < nparams_; i++) {
+      if (strlen(params_[i].name) == nameLen &&
+          memcmp(params_[i].name, p + nameByte, nameLen) == 0) {
+        idx = i;
+        break;
+      }
+    }
+  } else if (index < nparams_) {
+    idx = index;
+  }
+  if (idx >= 0 && hasValue) {
+    int64_t v = newVal;
+    if (v < params_[idx].minval) v = params_[idx].minval;
+    if (v > params_[idx].maxval) v = params_[idx].maxval;
+    params_[idx].value = v;
+  }
+  sendParamGetSetResponse(dest, tid, idx);
+}
+
+void DroneCanNode::sendParamGetSetResponse(uint8_t dest, uint8_t tid,
+                                           int paramIdx) {
+  // Response: Value value, Value default_value, NumericValue max_value,
+  // NumericValue min_value, uint8[<=92] name (tail array).
+  // All-empty unions (10 bits) when param not found — that's how the GUI
+  // detects the end of the parameter list.
+  uint8_t out[64];
+  memset(out, 0, sizeof(out));
+  uint32_t bo = 0;
+  if (paramIdx < 0 || paramIdx >= (int)nparams_) {
+    bo = 10; // 3+3+2+2 empty tags, no name
+  } else {
+    const DroneCanParam &pr = params_[paramIdx];
+    encodeScalar(out, bo, 3, 1); // Value tag = integer
+    bo += 3;
+    encodeScalar(out, bo, 64, (uint64_t)pr.value);
+    bo += 64;
+    encodeScalar(out, bo, 3, 1);
+    bo += 3;
+    encodeScalar(out, bo, 64, (uint64_t)pr.defval);
+    bo += 64;
+    encodeScalar(out, bo, 2, 1); // NumericValue tag = integer
+    bo += 2;
+    encodeScalar(out, bo, 64, (uint64_t)pr.maxval);
+    bo += 64;
+    encodeScalar(out, bo, 2, 1);
+    bo += 2;
+    encodeScalar(out, bo, 64, (uint64_t)pr.minval);
+    bo += 64;
+    for (const char *c = pr.name; *c; c++) {
+      encodeScalar(out, bo, 8, (uint8_t)*c);
+      bo += 8;
+    }
+  }
+  uint16_t total = (uint16_t)((bo + 7) / 8);
+  uint32_t id = (30UL << 24) | ((uint32_t)SRVID_PARAM_GETSET << 16) |
+                ((uint32_t)dest << 8) | 0x80U | node_id_;
+  sendMultiFrame(id, out, total, SIG_PARAM_GETSET, tid);
+}
+
 // ---------- TX ----------
 
 // Encode uavcan.equipment.power.BatteryInfo. Layout (byte-aligned unless
@@ -491,10 +701,10 @@ uint16_t dronecanEncodeBatteryInfo(uint8_t *out, const BatteryTelemetry &b) {
     out[2 * i + 1] = (uint8_t)(f16[i] >> 8);
   }
   out[14] = out[15] = out[16] = out[17] = 0;
-  putBitsMsbFirst(out, 112, 11, b.status_flags);
-  putBitsMsbFirst(out, 123, 7, b.soh_pct);
-  putBitsMsbFirst(out, 130, 7, b.soc_pct);
-  putBitsMsbFirst(out, 137, 7, b.soc_stdev);
+  encodeScalar(out, 112, 11, b.status_flags);
+  encodeScalar(out, 123, 7, b.soh_pct);
+  encodeScalar(out, 130, 7, b.soc_pct);
+  encodeScalar(out, 137, 7, b.soc_stdev);
   out[18] = b.battery_id;
   out[19] = (uint8_t)(b.model_instance_id);
   out[20] = (uint8_t)(b.model_instance_id >> 8);

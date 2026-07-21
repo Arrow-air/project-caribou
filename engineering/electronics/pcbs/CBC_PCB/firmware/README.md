@@ -3,14 +3,17 @@
 Firmware for the ESP32-S3-WROOM-1-N16R8 (U301) on the Caribou Battery Connector
 board (CBC_PCB, ordered board state / PR #51).
 
-**Status: v0.2.0 — battery protocol confirmed on hardware (2026-07-21):** a
-real Tattu/Grepow 18S 30Ah pack was captured on CN201 and the full telemetry
-decode (voltage, current, temp, SOC, SOH, cycles, 18 cell voltages, capacity,
-error flags, serial) plus the battery→drone `BatteryInfo` bridge are now
-implemented. v0.1.0 bench test (2026-07-16) verified console, both MCP2515s,
-both DS18B20s, and the auto-arm sequence. Still pending on hardware: FC
-node-ID allocation, bridge output on a real FC, kill-trigger polarity (⚠
-below).
+**Status: v0.3.0 — config over CAN (2026-07-21):** `NODE_ID` and `BATT_ID`
+are now DroneCAN parameters, persisted in ESP32 flash (NVS) and editable from
+the DroneCAN GUI tool over the drone bus — no USB connection needed (see
+*Configuration over CAN* below). v0.2.0 (same day) confirmed the battery
+protocol on hardware: a real Tattu/Grepow 18S 30Ah pack was captured on CN201
+and the full telemetry decode (voltage, current, temp, SOC, SOH, cycles, 18
+cell voltages, capacity, error flags, serial) plus the battery→drone
+`BatteryInfo` bridge are implemented. v0.1.0 bench test (2026-07-16) verified
+console, both MCP2515s, both DS18B20s, and the auto-arm sequence. Still
+pending on hardware: FC node-ID allocation, bridge + param services on a real
+FC, kill-trigger polarity (⚠ below).
 
 ## What it does
 
@@ -32,6 +35,9 @@ below).
   republishes the decoded pack telemetry as standard
   `uavcan.equipment.power.BatteryInfo` at 2 Hz (stops if battery telemetry
   goes stale >5 s), so ArduPilot sees it with `BATT_MONITOR=8`.
+- **Config over CAN** — `NODE_ID` and `BATT_ID` parameters via the standard
+  DroneCAN services (`param.GetSet`, `param.ExecuteOpcode` SAVE/ERASE,
+  `RestartNode`), stored in NVS flash. Editable from the DroneCAN GUI tool.
 - **Temperatures** — reads both DS18B20 sensors (U501/U502).
 - **Serial console** — status output + commands at 115200 baud over USB-C.
 
@@ -169,8 +175,29 @@ help
 
 Config defaults live at the top of `src/main.cpp`: `AUTO_ARM_ON_BOOT` (1,
 confirmed by Julius), `AUTO_ARM_DELAY_MS`, precharge timing,
-`CBC_STATIC_NODE_ID` (0 = dynamic allocation from the FC; set 1..125 to pin),
-default bitrates (1 Mbps both buses).
+`CBC_DEFAULT_NODE_ID` (factory default for the `NODE_ID` parameter), default
+bitrates (1 Mbps both buses). Node/battery ID are runtime parameters — see
+next section.
+
+## Configuration over CAN (v0.3.0)
+
+No USB needed: connect the [DroneCAN GUI tool](https://dronecan.github.io/GUI_Tool/Overview/)
+to the drone bus, double-click the CBC node (`org.arrowair.cbc`) → *Fetch All*:
+
+| Parameter | Range | Default | Meaning |
+|---|---|---|---|
+| `NODE_ID` | 0–125 | 0 | 0 = dynamic allocation from the FC; 1–125 = static node ID. Applies after save + restart. |
+| `BATT_ID` | 0–255 | 0 | `battery_id` tag in the bridged `BatteryInfo`, so the FC can tell the 6 packs apart (match to ArduPilot `BATTx_SERIAL_NUM`). |
+
+Workflow in the GUI tool: edit the value → **Send** (applies in RAM, `BATT_ID`
+takes effect immediately) → **Store All** (persists to NVS flash) → **Restart**
+(needed for `NODE_ID` to take effect). *Erase All* resets both to defaults.
+The GUI tool runs its own DNA allocation server, so a factory-fresh CBC
+(`NODE_ID`=0) gets an ID and shows up even without an FC on the bus.
+
+Implemented services: `uavcan.protocol.param.GetSet` (integer params),
+`uavcan.protocol.param.ExecuteOpcode` (SAVE/ERASE),
+`uavcan.protocol.RestartNode` (standard magic number).
 
 ## Bench check over USB
 
@@ -240,9 +267,11 @@ Note the sign convention flip: BatteryInfo current is positive-discharging
 - ✅ ~~CAN bridge battery→drone~~ — `BatteryInfo` republish at 2 Hz
   implemented (v0.2.0); needs verification against a real FC.
 - ⚠ Confirm kill-trigger polarity on IO5 (assumed HIGH = trigger present).
+- ✅ ~~Per-battery `battery_id`~~ — `BATT_ID` parameter (v0.3.0), set per
+  board over CAN.
+- ✅ ~~Persist config in NVS instead of compile-time defaults~~ — v0.3.0.
 - ⚠ Verify allocation handshake + GetNodeInfo against a real FC (ArduPilot
   DNA server); the protocol code is written from the v0 spec, untested.
-- Per-battery `battery_id` (currently 0) so the FC can tell the 6 packs
-  apart — could derive from the allocated node ID or pack serial.
+- ⚠ Verify the param services against the DroneCAN GUI tool on hardware
+  (written from the DSDL definitions, untested).
 - Map the second Tattu message type `0x17E4`.
-- Persist config in NVS instead of compile-time defaults.

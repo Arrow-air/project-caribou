@@ -1,4 +1,4 @@
-// CBC_PCB firmware v0.2.0
+// CBC_PCB firmware v0.3.0
 // ESP32-S3-WROOM-1-N16R8 — Caribou Battery Connector board
 //
 // Functions:
@@ -14,17 +14,21 @@
 //    uavcan.equipment.power.BatteryInfo @2Hz so the FC sees the pack.
 //  - 2x DS18B20 board temperature sensors.
 //  - USB serial console (115200 baud via CP2102N) for status + commands.
+//  - Config over CAN: NODE_ID / BATT_ID exposed via the standard DroneCAN
+//    parameter services (GetSet / SAVE / RestartNode), persisted in ESP32
+//    flash (NVS). Editable from the DroneCAN GUI tool — no USB needed.
 
 #include <Arduino.h>
 #include <SPI.h>
 #include <mcp2515.h>
 #include <OneWire.h>
 #include <DallasTemperature.h>
+#include <Preferences.h>
 
 #include "pins.h"
 #include "dronecan.h"
 
-#define FW_VERSION "0.2.0"
+#define FW_VERSION "0.3.0"
 
 // ---------------- configuration ----------------
 
@@ -39,11 +43,13 @@
 #define PRECHARGE_OVERLAP_MS 250
 #define LATCH_PULSE_MS 50
 
-// DroneCAN node ID on the drone bus. 0 = request one from the FC via dynamic
-// node allocation (the standard DroneCAN "handshake" — ArduPilot runs the
-// allocation server by default), which is what you want with 6 CBCs on one
-// bus. Set 1..125 to pin a static ID instead.
-#define CBC_STATIC_NODE_ID 0
+// DroneCAN node ID on the drone bus. This is only the factory default for
+// the NODE_ID parameter — the live value is stored in NVS and adjustable
+// over CAN via the DroneCAN GUI tool (parameters NODE_ID / BATT_ID).
+// 0 = request an ID from the FC via dynamic node allocation (the standard
+// DroneCAN "handshake" — ArduPilot runs the allocation server by default),
+// which is what you want with 6 CBCs on one bus. 1..125 pins a static ID.
+#define CBC_DEFAULT_NODE_ID 0
 
 // Default bitrates. DroneCAN convention is 1 Mbps; if the Tattu speaks its
 // proprietary protocol it may use something else — use "scan" to find out.
@@ -70,6 +76,36 @@ DallasTemperature temp2(&owTemp2);
 DroneCanRx batRx;   // battery bus decoder
 DroneCanRx droneRx; // drone bus decoder (see who else is talking)
 DroneCanNode droneNode; // our node on the drone bus (allocation + NodeStatus)
+
+// ---- config parameters (DroneCAN GetSet + NVS persistence) ----
+// NODE_ID: 0 = dynamic allocation from the FC, 1..125 = static node ID.
+//          Takes effect after save + restart (GUI tool: Fetch/Store/Restart).
+// BATT_ID: battery_id field in the bridged BatteryInfo (per-pack tag so the
+//          FC can tell the 6 CBCs apart; matches ArduPilot BATTx_SERIAL_NUM).
+Preferences prefs;
+static DroneCanParam cbcParams[] = {
+    {"NODE_ID", CBC_DEFAULT_NODE_ID, CBC_DEFAULT_NODE_ID, 0, 125},
+    {"BATT_ID", 0, 0, 0, 255},
+};
+
+static void paramsSave() {
+  prefs.putUChar("node_id", (uint8_t)cbcParams[0].value);
+  prefs.putUChar("batt_id", (uint8_t)cbcParams[1].value);
+  Serial.printf("[param] saved to NVS: NODE_ID=%d BATT_ID=%d (node ID change applies after restart)\n",
+                (int)cbcParams[0].value, (int)cbcParams[1].value);
+}
+
+static void paramsErase() {
+  paramsSave(); // values already reset to defaults by the node
+  Serial.println("[param] reset to defaults");
+}
+
+static void nodeRestart() {
+  Serial.println("[dronecan] RestartNode request accepted — rebooting");
+  Serial.flush();
+  delay(100); // let the response frame drain out of the MCP2515
+  esp_restart();
+}
 
 static bool droneSend(const struct can_frame &f) {
   // Multi-frame transfers (e.g. the 9-frame GetNodeInfo response) can outrun
@@ -257,8 +293,10 @@ static void bridgeProcess() {
   BatteryTelemetry &b = batRx.battery;
   if (!b.valid || now - b.last_update_ms > BRIDGE_STALE_MS) return;
   lastBridge = now;
+  BatteryTelemetry tagged = b;
+  tagged.battery_id = (uint8_t)cbcParams[1].value; // BATT_ID param (per-pack)
   uint8_t buf[64];
-  uint16_t len = dronecanEncodeBatteryInfo(buf, b);
+  uint16_t len = dronecanEncodeBatteryInfo(buf, tagged);
   droneNode.broadcast(DTID_BATTERY_INFO, SIG_BATTERY_INFO, buf, len);
 }
 
@@ -409,17 +447,26 @@ void setup() {
   temp1.requestTemperatures();
   temp2.requestTemperatures();
 
+  // Config parameters from NVS (set over CAN via the DroneCAN GUI tool)
+  prefs.begin("cbc");
+  cbcParams[0].value = prefs.getUChar("node_id", CBC_DEFAULT_NODE_ID);
+  cbcParams[1].value = prefs.getUChar("batt_id", 0);
+  Serial.printf("[param] NODE_ID=%d BATT_ID=%d (from NVS; edit via DroneCAN GUI tool)\n",
+                (int)cbcParams[0].value, (int)cbcParams[1].value);
+
   // Drone-bus DroneCAN node: unique ID from the eFuse MAC (stable per board)
   uint8_t uid[16] = {0};
   memcpy(uid, "ARW-CBC1", 8);
   uint64_t mac = ESP.getEfuseMac();
   memcpy(uid + 8, &mac, 8);
-  droneNode.begin(droneSend, uid, CBC_STATIC_NODE_ID);
-#if CBC_STATIC_NODE_ID == 0
-  Serial.println("[dronecan] requesting node ID from the FC (dynamic allocation)");
-#else
-  Serial.printf("[dronecan] static node ID %u\n", CBC_STATIC_NODE_ID);
-#endif
+  uint8_t staticId = (uint8_t)cbcParams[0].value;
+  droneNode.begin(droneSend, uid, staticId);
+  droneNode.setParams(cbcParams, 2);
+  droneNode.setConfigHandlers(paramsSave, paramsErase, nodeRestart);
+  if (staticId == 0)
+    Serial.println("[dronecan] requesting node ID from the FC (dynamic allocation)");
+  else
+    Serial.printf("[dronecan] static node ID %u\n", staticId);
 
   killActive = digitalRead(PIN_KILL_SENSE);
   if (killActive) Serial.println("[kill] trigger active at boot — auto-arm held off");
