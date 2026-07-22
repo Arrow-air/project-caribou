@@ -176,8 +176,10 @@ help
 Config defaults live at the top of `src/main.cpp`: `AUTO_ARM_ON_BOOT` (1,
 confirmed by Julius), `AUTO_ARM_DELAY_MS`, precharge timing,
 `CBC_DEFAULT_NODE_ID` (factory default for the `NODE_ID` parameter), default
-bitrates (1 Mbps both buses). Node/battery ID are runtime parameters — see
-next section.
+bitrates (battery bus 1 Mbps = confirmed Tattu rate; drone bus **500 kbps**
+since v0.3.2 — Caribou's long stubs favor the slower rate, set ArduPilot
+`CAN_P1_BITRATE=500000` to match). Node/battery ID are runtime parameters —
+see next section.
 
 ## Configuration over CAN (v0.3.0)
 

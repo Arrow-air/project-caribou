@@ -28,7 +28,7 @@
 #include "pins.h"
 #include "dronecan.h"
 
-#define FW_VERSION "0.3.1"
+#define FW_VERSION "0.3.2"
 
 // ---------------- configuration ----------------
 
@@ -51,10 +51,12 @@
 // which is what you want with 6 CBCs on one bus. 1..125 pins a static ID.
 #define CBC_DEFAULT_NODE_ID 0
 
-// Default bitrates. DroneCAN convention is 1 Mbps; if the Tattu speaks its
-// proprietary protocol it may use something else — use "scan" to find out.
+// Default bitrates. Battery bus: 1 Mbps (confirmed Tattu rate — use "scan"
+// if a pack shows up speaking something else). Drone bus: 500 kbps — Caribou
+// has long stubs, and the slower rate gives more margin on a big-airframe
+// bus (Julius, 2026-07-22). The FC side must match: CAN_P1_BITRATE=500000.
 #define DEFAULT_BAT_BITRATE CAN_1000KBPS
-#define DEFAULT_DRONE_BITRATE CAN_1000KBPS
+#define DEFAULT_DRONE_BITRATE CAN_500KBPS
 
 #define STATUS_PERIOD_MS 2000
 #define RAW_DUMP_MAX_PER_SEC 20
