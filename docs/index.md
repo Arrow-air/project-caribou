@@ -18,7 +18,7 @@ All design files and documentation are released under the [CERN Open Hardware Li
 ## Key Capabilities
 
 - **Heavy lift** — ~100 kg payload capacity for cargo delivery or ~80 L liquid spraying missions
-- **Powerful COTS propulsion** — 6× Hobbywing XRotor X15 propulsion units with 63" (1600 mm) propellers, rated at up to 72 kg maximum thrust per rotor
+- **Powerful off-the-shelf propulsion** — 6× Hobbywing XRotor X15 propulsion units with 63" (1600 mm) propellers, rated at up to 72 kg maximum thrust per rotor
 - **High-voltage architecture** — 18S (~75 V) power system for PT1 with Tattu smart batteries, external HV kill switch, pre-charge circuitry, and redundant power supply
 - **Custom electronics** — purpose-built battery connector PCB (CBC) and main PCB (CMAIN) handling power distribution, battery telemetry, and safety switching
 - **Redundant avionics** — triple-redundant IMU, GPS, and compass running ArduPilot, compatible with QGroundControl and Mission Planner

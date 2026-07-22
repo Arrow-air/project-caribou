@@ -15,10 +15,10 @@ Source: [`engineering/electronics/pcbs/CMAIN_PCB/`](https://github.com/Arrow-air
 
 | Quantity | Connector | Purpose |
 |---|---|---|
-| 6 | Amphenol AT13-12PB-BM03 | One per CBC — isolated 12 V in, DroneCAN, kill/control signals |
-| 6 | Amphenol AT13-6P-BM01GRY | One per ESC — CAN H, CAN L, PWM, GND |
+| 6 | JST JWPF 8-pin (B08B-JWPF-SK-R) | One per CBC — isolated 12 V in, DroneCAN, kill/control signals |
+| 6 | JST JWPF 4-pin (B04B-JWPF-SK-R) | One per Hobbywing X15 ESC — CAN H, CAN L, PWM, GND |
 
-The AT series is an automotive-grade sealed connector family chosen for vibration resistance and field serviceability. Additional external sensor and payload connectors (following Quiver's pattern of radar, LiDAR, camera, and attachment interfaces) are still being defined — compact waterproof M8 circular connectors are the leading candidate for low-current sensor ports.
+External wire-to-board interfaces use the JST JWPF waterproof connector family (an earlier Amphenol AT13 concept was dropped in favor of JST). Smaller JST GH connectors are used for internal signal-level connections. The board also carries sensor and payload interfaces per the schematic — GNSS (including a DroneCAN RTK option), front and altimeter radar, SIYI gimbal/camera, safety switch, and a companion computer header — plus auxiliary power outputs.
 
 ## Scope
 

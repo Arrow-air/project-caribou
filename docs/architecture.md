@@ -35,7 +35,7 @@ MOTOR ARM (x6)
 
 Six Hobbywing XRotor X15 integrated propulsion units (motor + ESC) with 63" (1600 mm) propellers, rated by Hobbywing at 32.5–37.5 kg working thrust and up to 72 kg maximum thrust per rotor. Hover sits around 50% throttle (~45 A per motor); full throttle draws close to 200 A per motor, which drives the current ratings throughout the power path.
 
-ESCs take CAN and PWM signal inputs, connected to CMAIN via sealed automotive-grade connectors.
+ESCs take CAN and PWM signal inputs, connected to CMAIN via waterproof JST JWPF connectors.
 
 ## Power
 

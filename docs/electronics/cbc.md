@@ -27,7 +27,7 @@ Source: [`engineering/electronics/pcbs/CBC_PCB/`](https://github.com/Arrow-air/p
 | Parameter | Value |
 |---|---|
 | Battery configuration | 18S (64.8 V nominal, 75.6 V max) |
-| Continuous current | 100 A |
+| Continuous current | 150 A (in line with the C90D power path) |
 | Spike current | 200 A (short duration) |
 | Main fuse | 250 A ceramic bolt-in |
 | Isolated output | 12 V / 10 A (GNDE) |
@@ -41,7 +41,7 @@ The current ratings are derived from Hobbywing X15 motor data: roughly 45 A per 
 
 The CBC has two independent CAN interfaces:
 
-- **CAN 1 — Battery** — private bus to the Tattu 4.0 smart battery
+- **CAN 1 — Battery** — private bus to the Tattu 4.0 smart battery. This interface is galvanically isolated, so the battery-side CAN domain stays separate from the board logic
 - **CAN 2 — DroneCAN** — aircraft-wide bus to the flight controller via CMAIN
 
 Firmware decodes the battery pack telemetry (voltage, current, state of charge, cell data, temperatures) and republishes it as standard DroneCAN battery messages, so the autopilot sees each pack as a normal DroneCAN battery monitor. CAN termination is jumper-selectable and open by default.
