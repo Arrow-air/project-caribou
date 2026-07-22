@@ -28,7 +28,7 @@
 #include "pins.h"
 #include "dronecan.h"
 
-#define FW_VERSION "0.3.2"
+#define FW_VERSION "0.3.3"
 
 // ---------------- configuration ----------------
 
@@ -110,8 +110,17 @@ static void nodeRestart() {
 }
 
 static bool droneSend(const struct can_frame &f) {
-    // Multi-frame transfers (e.g. the 9-frame GetNodeInfo response) can outrun
-    // the MCP2515's 3 TX buffers — wait briefly for a free one (~128us/frame @1M).
+    // Frames of a multi-frame UAVCAN transfer MUST hit the wire in order, but
+    // the MCP2515 arbitrates its 3 TX buffers by buffer NUMBER when the TXP
+    // priorities are equal — so if two frames are queued at once they can
+    // transmit out of order. pyuavcan (DroneCAN GUI tool) then rejects the
+    // transfer with "Toggle bit value ... incorrect". Serialize instead: wait
+    // until all TX buffers have drained before loading the next frame
+    // (READ STATUS bits 2/4/6 = TXnREQ; ~260us/frame @500k).
+    for (int i = 0; i < 400; i++) {
+        if ((canDrone->getStatus() & 0x54U) == 0) break;
+        delayMicroseconds(20);
+    }
     for (int i = 0; i < 40; i++) {
         if (canDrone->sendMessage(&f) == MCP2515::ERROR_OK) return true;
         delayMicroseconds(50);
