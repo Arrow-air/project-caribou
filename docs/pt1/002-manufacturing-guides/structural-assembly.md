@@ -1,3 +1,8 @@
+---
+title: Structural Assembly Guide
+draft: true
+---
+
 # Structural Assembly Guide — PT1
 
 **Status:** In progress  
