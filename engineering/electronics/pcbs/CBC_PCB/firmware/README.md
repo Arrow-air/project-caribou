@@ -33,7 +33,7 @@ FC, kill-trigger polarity (⚠ below).
   ESP32 eFuse MAC. Answers `GetNodeInfo` (`org.arrowair.cbc`) and broadcasts
   `NodeStatus` at 1 Hz once allocated. The **battery→drone bridge**
   republishes the decoded pack telemetry as standard
-  `uavcan.equipment.power.BatteryInfo` at 2 Hz (stops if battery telemetry
+  `uavcan.equipment.power.BatteryInfo` at 4 Hz (stops if battery telemetry
   goes stale >5 s), so ArduPilot sees it with `BATT_MONITOR=8`.
 - **Config over CAN** — `NODE_ID` and `BATT_ID` parameters via the standard
   DroneCAN services (`param.GetSet`, `param.ExecuteOpcode` SAVE/ERASE,
@@ -248,7 +248,7 @@ case a pack ships with real DroneCAN firmware. Raw dump (`raw bat on`) and
 `scan` remain available if a pack shows up speaking something else.
 
 **Bridge:** the decoded telemetry is re-encoded as
-`uavcan.equipment.power.BatteryInfo` and broadcast on the drone bus at 2 Hz.
+`uavcan.equipment.power.BatteryInfo` and broadcast on the drone bus at 4 Hz (matches the pack's native rate; v0.3.4).
 Note the sign convention flip: BatteryInfo current is positive-discharging
 (ArduPilot convention), Tattu is positive-charging — the encoder negates.
 The bridged temperature is the **max of three sensors** (v0.3.1): the pack's
@@ -269,7 +269,7 @@ the hottest point in the battery path. Missing/failed sensors are skipped.
   temps, auto-arm).
 - ✅ ~~Battery frames on CN201 / protocol identification~~ — confirmed
   2026-07-21, full 18S decode implemented.
-- ✅ ~~CAN bridge battery→drone~~ — `BatteryInfo` republish at 2 Hz
+- ✅ ~~CAN bridge battery→drone~~ — `BatteryInfo` republish at 4 Hz
   implemented (v0.2.0); needs verification against a real FC.
 - ⚠ Confirm kill-trigger polarity on IO5 (assumed HIGH = trigger present).
 - ✅ ~~Per-battery `battery_id`~~ — `BATT_ID` parameter (v0.3.0), set per

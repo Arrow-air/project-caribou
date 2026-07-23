@@ -11,7 +11,7 @@
 //  - CAN2 (drone bus, MCP2515 U401 @16MHz, isolated): DroneCAN node with
 //    dynamic node allocation, NodeStatus @1Hz, GetNodeInfo, and a battery
 //    bridge that republishes Tattu telemetry as standard
-//    uavcan.equipment.power.BatteryInfo @2Hz so the FC sees the pack.
+//    uavcan.equipment.power.BatteryInfo @4Hz so the FC sees the pack.
 //  - 2x DS18B20 board temperature sensors.
 //  - USB serial console (115200 baud via CP2102N) for status + commands.
 //  - Config over CAN: NODE_ID / BATT_ID exposed via the standard DroneCAN
@@ -28,7 +28,7 @@
 #include "pins.h"
 #include "dronecan.h"
 
-#define FW_VERSION "0.3.3"
+#define FW_VERSION "0.3.4"
 
 // ---------------- configuration ----------------
 
@@ -291,9 +291,10 @@ static void scanBatteryBitrate() {
 // ---------------- battery -> drone bus bridge ----------------
 
 // Republish the decoded Tattu telemetry on the drone bus as standard
-// uavcan.equipment.power.BatteryInfo @2Hz. ArduPilot picks this up with
-// BATT_MONITOR=8 (DroneCAN). Stops if telemetry goes stale (>5s).
-#define BRIDGE_PERIOD_MS 500
+// uavcan.equipment.power.BatteryInfo @4Hz (matches the pack's native update
+// rate). ArduPilot picks this up with BATT_MONITOR=8 (DroneCAN). Stops if
+// telemetry goes stale (>5s).
+#define BRIDGE_PERIOD_MS 250
 #define BRIDGE_STALE_MS 5000
 
 static void bridgeProcess() {
