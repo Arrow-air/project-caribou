@@ -1,6 +1,6 @@
 # Project Caribou 🦌
 
-![Project Caribou](docs/images/caribou_render.png)
+![Project Caribou PT1](docs/images/caribou_photo.jpg)
 
 **An open-source heavy-lift hexacopter for cargo logistics and precision agriculture.**
 
