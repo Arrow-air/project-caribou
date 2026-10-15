@@ -43,6 +43,6 @@ project-caribou/
 
 ## License
 
-Hardware designs (CAD files, schematics, PCB layouts, manufacturing files and documentation) are licensed under the **[CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S v2)](LICENSE)**. The licence requires that derivative works remain open source under the same terms.
+Everything in this repository is licensed under the **[CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S v2)](LICENSE)**: the hardware design (CAD files, schematics, PCB layouts, manufacturing files and documentation) and the CBC firmware under `engineering/electronics/pcbs/CBC_PCB/firmware/`. The licence requires that derivative works remain open source under the same terms.
 
 Source location: <https://github.com/Arrow-air/project-caribou>
