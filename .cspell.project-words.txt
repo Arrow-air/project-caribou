@@ -109,3 +109,5 @@ Xtensa
 multirotor
 pinouts
 pyuavcan
+licence
+licences
