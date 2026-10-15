@@ -61,3 +61,11 @@ UAVCAN
 VBUS
 SMTSO
 edcd
+BRWZ
+GNSS
+JWPF
+PSRAM
+WROOM
+Xtensa
+multirotor
+pinouts
