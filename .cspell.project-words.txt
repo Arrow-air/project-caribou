@@ -108,3 +108,4 @@ GNSS
 Xtensa
 multirotor
 pinouts
+pyuavcan
