@@ -1,3 +1,4 @@
+# cspell:disable -- ArduPilot parameter names are not dictionary words
 # Caribou Standard Parameters (PT1)
 # Forked from Quiver standard-params.param (project-quiver
 # docs/Operations/firmware/parameters/, PT3 base 2025-11-13) on 2026-07-20.
