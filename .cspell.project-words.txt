@@ -103,3 +103,8 @@ unvalidated
 usbserial
 VBUS
 WROOM
+BRWZ
+GNSS
+Xtensa
+multirotor
+pinouts
