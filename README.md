@@ -43,4 +43,6 @@ project-caribou/
 
 ## License
 
-[CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S)](https://ohwr.org/cern_ohl_s_v2.txt)
+Everything in this repository is licensed under the **[CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S v2)](LICENSE)**: the hardware design (CAD files, schematics, PCB layouts, manufacturing files and documentation) and the CBC firmware under `engineering/electronics/pcbs/CBC_PCB/firmware/`. The licence requires that derivative works remain open source under the same terms.
+
+Source location: <https://github.com/Arrow-air/project-caribou>
