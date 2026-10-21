@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.4,
-          "height": 0.8,
-          "width": 0.8
+          "drill": 0.6,
+          "height": 1.7,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -107,6 +107,26 @@
         ],
         [
           "copper_edge_clearance|97927947|49558455|2b029019-1921-463a-947f-acb1d2e8863c|345f5c71-3b8b-4406-abbd-a36f3947b3fb",
+          ""
+        ],
+        [
+          "starved_thermal|63975000|148400000|b9aec3b6-cc74-4efe-8d27-d1dbe535e0c9|008ab73e-e7a2-4b66-a8ce-5a4d32554241|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|65450000|147050000|b9aec3b6-cc74-4efe-8d27-d1dbe535e0c9|c49d0ffa-6b6e-4748-aa96-de3c1891273d|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|65450000|153650000|2d4e9450-c34a-4bc0-a2ba-ddc2d3cfdc0b|e7d9fb91-1a6d-4185-b24b-b450ce5703f5|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|66800000|148150000|2d4e9450-c34a-4bc0-a2ba-ddc2d3cfdc0b|3d99b39d-f2cd-4150-9765-6d4a6f21a369|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|66800000|153650000|2d4e9450-c34a-4bc0-a2ba-ddc2d3cfdc0b|fee9368d-2c11-4776-9e1a-8f5bf791c0c9|B.Cu",
           ""
         ]
       ],

@@ -33,3 +33,37 @@
 	(constraint clearance (min 0.5mm))
 	(condition "A.NetName == 'GNDE' && B.NetName == 'GND'")
 )
+
+# --- PT1.5: GND (logic) is now tied to H_PWR-IN- at NT201; the switched ESC negative is H_PWR-OUT-.
+# Keep every clearance the old switched "GND" had, now on H_PWR-OUT-, plus the new pair H_PWR-OUT- <-> GND
+# (full battery voltage across the open main switch).
+(rule PWR_OUT-_to_GND
+	(constraint clearance (min 1mm))
+	(condition "A.NetName == 'H_PWR-OUT-' && B.NetName == 'GND'")
+)
+(rule PWR_OUT-_to_PWR_IN-
+	(constraint clearance (min 1mm))
+	(condition "A.NetName == 'H_PWR-OUT-' && B.NetName == 'H_PWR-IN-'")
+)
+(rule PWR_OUT-_to_PWR_IN
+	(constraint clearance (min 1mm))
+	(condition "A.NetName == 'H_PWR-OUT-' && B.NetName == 'H_PWR-IN'")
+)
+(rule PWR_OUT-_to_GND_CD
+	(constraint clearance (min 1mm))
+	(condition "A.NetName == 'H_PWR-OUT-' && B.NetName == 'GND_CD'")
+)
+(rule PWR_OUT-_to_GNDE
+	(constraint clearance (min 0.5mm))
+	(condition "A.NetName == 'H_PWR-OUT-' && B.NetName == 'GNDE'")
+)
+# --- PT1.5: aux input nets split off H_PWR-IN (NTC / 10 R / fuse) keep the H_PWR-IN <-> GND clearance
+(rule PWR_IN_AUX_to_GND
+	(constraint clearance (min 1mm))
+	(condition "B.NetName == 'GND' && (A.NetName == 'H_PWR-IN_AUX' || A.NetName == 'H_PWR-IN_5V_P1' || A.NetName == 'H_PWR-IN_5V_P2' || A.NetName == 'H_PWR-IN_ISO')")
+)
+# --- H_PWR-OUT- (switched ESC negative, up to battery voltage vs logic when the FETs are off) against every other net
+(rule PWR_OUT-_to_signals
+	(constraint clearance (min 1mm))
+	(condition "A.NetName == 'H_PWR-OUT-' && B.NetName != 'H_PWR-OUT-' && B.Type != 'Zone'")
+)

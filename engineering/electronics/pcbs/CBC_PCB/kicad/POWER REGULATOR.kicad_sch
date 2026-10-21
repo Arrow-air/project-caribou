@@ -1581,6 +1581,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "CBC_PCB:25121WF100JT4E"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10Ω"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA_Lib:R2512"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/25121WF100JT4E/48024.html"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Type:Thick Film Resistor Resistance:10Ω Tolerance:±1% Tolerance:±1% Power(Watts):1W Voltage-Supply(Max):200V Temperature Coefficient:±400ppm/°C Temperature Coefficient:±400ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "25121WF100JT4E"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(厚声)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part" "C47019"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part Name" "10Ω ±1% 1W 厚膜电阻"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "25121WF100JT4E_1_0"
+				(rectangle
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "CBC_PCB:AC0603KRX7R0BB472"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6570,6 +6736,192 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "CBC_PCB:NTC_10D-15"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "RT"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NTC 10D-15"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA_Lib_2:RES-TH_L12.5-W5.1-P7.50-D1.2-S2.20"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C105635.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "NTC inrush current limiter, 10 Ohm at 25C, Imax 5A, R at Imax 0.18 Ohm, B 2950K, 15mm disc, THT P=7.5mm, -40..+200C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "NTC 10D-15"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "RUILON"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part" "C105635"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "NTC thermistor inrush current limiter ICL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "NTC_10D-15_0_1"
+				(polyline
+					(pts
+						(xy -3.81 -2.032) (xy -2.794 -2.032) (xy 2.794 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NTC_10D-15_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "CBC_PCB:PA1736NL"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -9225,217 +9577,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CBC_PCB:XAL6030-102MEC"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1uH"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "EasyEDA_Lib:IND-SMD_L6.6-W6.4_XAL6060-103ME"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.coilcraft.com/getmedia/ea51f14b-7f32-4dc6-8dfe-d4b70549040f/xal60xx.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Inductance:1uH Tolerance:±20% Tolerance:±20% Current - Saturation(Isat):23A DC Resistance(DCR):5.62mΩ Ratings:AEC-Q200"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part" "XAL6030-102MEC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Coilcraft(线艺)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier Part" "C2938919"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part Name" "1uH ±20% 23A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "XAL6030-102MEC_1_0"
-				(polyline
-					(pts
-						(xy -4.2672 0) (xy -4.2164 0.4064) (xy -4.2164 0.4064) (xy -4.0132 0.762) (xy -4.0132 0.762) (xy -3.6576 1.016)
-						(xy -3.6576 1.016) (xy -3.2512 1.0922) (xy -3.2512 1.0922) (xy -2.8702 1.016) (xy -2.8702 1.016)
-						(xy -2.5146 0.762) (xy -2.5146 0.762) (xy -2.3114 0.4064) (xy -2.3114 0.4064) (xy -2.2606 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.1082 0) (xy -2.0828 0.4064) (xy -2.0828 0.4064) (xy -1.8542 0.762) (xy -1.8542 0.762) (xy -1.4986 1.016)
-						(xy -1.4986 1.016) (xy -1.1176 1.0922) (xy -1.1176 1.0922) (xy -0.7112 1.016) (xy -0.7112 1.016)
-						(xy -0.3556 0.762) (xy -0.3556 0.762) (xy -0.1524 0.4064) (xy -0.1524 0.4064) (xy -0.1016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0.0508 0.4064) (xy 0.0508 0.4064) (xy 0.2794 0.762) (xy 0.2794 0.762) (xy 0.6096 1.016)
-						(xy 0.6096 1.016) (xy 1.016 1.0922) (xy 1.016 1.0922) (xy 1.4224 1.016) (xy 1.4224 1.016) (xy 1.7526 0.762)
-						(xy 1.7526 0.762) (xy 1.9812 0.4064) (xy 1.9812 0.4064) (xy 2.032 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.2098 0) (xy 2.2352 0.4064) (xy 2.2352 0.4064) (xy 2.4638 0.762) (xy 2.4638 0.762) (xy 2.8194 1.016)
-						(xy 2.8194 1.016) (xy 3.2004 1.0922) (xy 3.2004 1.0922) (xy 3.6068 1.016) (xy 3.6068 1.016) (xy 3.9624 0.762)
-						(xy 3.9624 0.762) (xy 4.1656 0.4064) (xy 4.1656 0.4064) (xy 4.2164 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 0.762)
-					(name "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 0.762)
-					(name "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "CBC_PCB:YLRY06-1-10F"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -10217,6 +10358,208 @@
 				(pin input line
 					(at 5.08 0 180)
 					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "EasyEDA_Lib_2:FAUL0630-1R0MT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA_Lib_2:IND-SMD_L7.0-W6.6"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/FAUL0630-1R0MT/3597526.html"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "FAUL0630-1R0MT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "cjiang(长江微电)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part" "C3040349"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part Name" "1uH ±20% 15A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FAUL0630-1R0MT_1_0"
+				(arc
+					(start -4.064 0)
+					(mid -3.0226 1.016)
+					(end -2.032 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.032 0)
+					(mid -0.9906 1.016)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 1.016 1.016)
+					(end 2.032 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.032 0)
+					(mid 3.048 1.016)
+					(end 4.064 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 1.016)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 1.016)
 					(name "2"
 						(effects
 							(font
@@ -11551,6 +11894,17 @@
 		)
 		(uuid "cdd09f81-877c-4d4c-8787-b168c3fcfbef")
 	)
+	(text "RT601 (NTC): hot-plug inrush limit for the 5 V bucks and the iso-12 V flyback. Cold 10 Ohm: <=7.6 A, damps the L601 filter.\nHot (~1 Ohm at 60 W out): ~1.3 V drop, ~1.6 W, ~120 C. Needs ~2 min off after heavy load to protect fully again.\nR628/R629 (10 Ohm, like R208/R209): per-buck inrush limit and sacrificial element if a buck or its input cap shorts;\nthe other buck keeps +5V up. F604 (3 A T): clears a short in the flyback input - the NTC alone would get LOWER-ohmic.\nGate DCDCs stay on H_PWR-IN via R208/R209. Layout: glue RT601, keep heat-sensitive parts clear."
+		(exclude_from_sim no)
+		(at 15.24 233.68 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left top)
+		)
+		(uuid "666add82-85d9-48fb-a9f2-0f726eecc7a7")
+	)
 	(text "Isolated 12V supply for external hardware"
 		(exclude_from_sim no)
 		(at 13.97 130.81 0)
@@ -11607,6 +11961,28 @@
 			(justify left top)
 		)
 		(uuid "6eff7c2a-3f8a-464b-bd6c-e9d6c96a48bd")
+	)
+	(text_box "AUX INPUT: INRUSH LIMIT + FAULT ISOLATION (rev PT1.5)"
+		(exclude_from_sim no)
+		(at 12.7 228.6 0)
+		(size 160.02 50.8)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "7e381e42-00e3-4213-8719-4bf6a56d7d63")
 	)
 	(text_box "3V3 OUTPUT 2"
 		(exclude_from_sim no)
@@ -11983,6 +12359,12 @@
 		(uuid "7c30c847-fc2b-4a86-bde2-18348a9069c9")
 	)
 	(junction
+		(at 109.22 259.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c98e02b-728a-4d4f-b1a2-899a8759ce33")
+	)
+	(junction
 		(at 196.85 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12011,6 +12393,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81666e70-c5a8-492b-97f5-3d0e32c7cae1")
+	)
+	(junction
+		(at 109.22 271.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81b620bf-d19f-44eb-aa2a-fde13b032d2f")
 	)
 	(junction
 		(at 130.81 92.71)
@@ -12095,6 +12483,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0a6b77d-337a-46c6-bebf-5e8fd8fe5a23")
+	)
+	(junction
+		(at 35.56 255.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4e7dba9-abc0-4386-9496-e6798da5449f")
 	)
 	(junction
 		(at 100.33 92.71)
@@ -12185,6 +12579,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2eb4397-9978-43a5-8563-7203c182cd59")
+	)
+	(junction
+		(at 55.88 255.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6d9fdee-6281-4578-8459-e8e9323ad58a")
 	)
 	(junction
 		(at 288.29 40.64)
@@ -12312,6 +12712,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 259.08) (xy 109.22 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02db7377-75a2-4722-8ccf-007329a2fddb")
+	)
+	(wire
+		(pts
 			(xy 156.21 189.23) (xy 163.83 189.23)
 		)
 		(stroke
@@ -12399,6 +12809,16 @@
 			(type default)
 		)
 		(uuid "099c2ff4-9ce8-4b33-831a-786cf94fae6c")
+	)
+	(wire
+		(pts
+			(xy 109.22 259.08) (xy 116.84 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0af83bc0-3505-4d4e-9e84-03b601119ea6")
 	)
 	(wire
 		(pts
@@ -12499,6 +12919,16 @@
 			(type default)
 		)
 		(uuid "15dcdb61-0d40-4e2d-b354-c0edc1f903e3")
+	)
+	(wire
+		(pts
+			(xy 50.8 255.27) (xy 55.88 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "161885fd-8984-420f-b0b3-07fcf5112b9e")
 	)
 	(wire
 		(pts
@@ -12972,6 +13402,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 255.27) (xy 40.64 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3870f87c-c4e3-4ab2-8053-f6bc6e57bd00")
+	)
+	(wire
+		(pts
 			(xy 226.06 29.21) (xy 236.22 29.21)
 		)
 		(stroke
@@ -13112,6 +13552,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 255.27) (xy 35.56 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "490022ee-70fa-4133-8948-64afff6ef56a")
+	)
+	(wire
+		(pts
 			(xy 265.43 213.36) (xy 276.86 213.36)
 		)
 		(stroke
@@ -13202,6 +13652,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 271.78) (xy 93.98 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "555dfb25-6a05-4f84-aff3-8241907890e5")
+	)
+	(wire
+		(pts
 			(xy 182.88 92.71) (xy 182.88 93.98)
 		)
 		(stroke
@@ -13229,6 +13689,16 @@
 			(type default)
 		)
 		(uuid "56a1f030-4770-4649-86cf-7a2008b3c7b1")
+	)
+	(wire
+		(pts
+			(xy 109.22 271.78) (xy 116.84 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57a03d45-e919-4338-8115-bae0960b6618")
 	)
 	(wire
 		(pts
@@ -13382,6 +13852,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 246.38) (xy 93.98 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61c02a2f-cd62-4af4-abdb-41c0863742c0")
+	)
+	(wire
+		(pts
 			(xy 278.13 162.56) (xy 278.13 166.37)
 		)
 		(stroke
@@ -13469,6 +13949,16 @@
 			(type default)
 		)
 		(uuid "64e7db9d-a398-455f-bd7d-7d15c25502a8")
+	)
+	(wire
+		(pts
+			(xy 83.82 259.08) (xy 93.98 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "655065d1-5d23-4f31-b7e3-5eccaf2acfd0")
 	)
 	(wire
 		(pts
@@ -13619,6 +14109,16 @@
 			(type default)
 		)
 		(uuid "755b0f56-3426-4d3a-a54b-343277e95bc0")
+	)
+	(wire
+		(pts
+			(xy 55.88 255.27) (xy 60.96 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75c6021e-e1e7-4650-a253-a9696f221f89")
 	)
 	(wire
 		(pts
@@ -14442,6 +14942,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 246.38) (xy 116.84 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c71fa2cf-f348-4bf0-b545-f5ffd7508e39")
+	)
+	(wire
+		(pts
 			(xy 92.71 93.98) (xy 92.71 91.44)
 		)
 		(stroke
@@ -14899,6 +15409,16 @@
 			(type default)
 		)
 		(uuid "ee7b01e0-eeae-4892-9afa-b3f3d6701bfa")
+	)
+	(wire
+		(pts
+			(xy 104.14 271.78) (xy 109.22 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0006ffc-8334-4acf-ab7d-2a600399b314")
 	)
 	(wire
 		(pts
@@ -15930,6 +16450,85 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
+		(at 109.22 271.78 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09436419-f6d0-4424-a713-b6ce47c5c3b9")
+		(property "Reference" "#FLG0630"
+			(at 109.22 273.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 109.22 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 109.22 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6340155d-9ff2-4f33-bb01-d7216f945443")
+		)
+		(instances
+			(project "CBC_PCB"
+				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/cc7537cf-40ae-42d0-a857-c01ca15aab74"
+					(reference "#FLG0630")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
 		(at 160.02 92.71 0)
 		(unit 1)
 		(body_style 1)
@@ -16158,6 +16757,85 @@
 			(project "CBC_PCB"
 				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/cc7537cf-40ae-42d0-a857-c01ca15aab74"
 					(reference "#PWR0609")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 35.56 255.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1055101b-99eb-4e56-8645-78eb66756609")
+		(property "Reference" "#FLG0628"
+			(at 35.56 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 35.56 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 35.56 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5cdb72d8-0e48-45a9-8ee7-3c7d8cb642e0")
+		)
+		(instances
+			(project "CBC_PCB"
+				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/cc7537cf-40ae-42d0-a857-c01ca15aab74"
+					(reference "#FLG0628")
 					(unit 1)
 				)
 			)
@@ -16584,6 +17262,141 @@
 			(project "CBC_PCB"
 				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/cc7537cf-40ae-42d0-a857-c01ca15aab74"
 					(reference "#PWR0640")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CBC_PCB:25121WF100JT4E")
+		(at 99.06 259.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "135dbc18-ee56-47c4-970f-d68826b6f5e3")
+		(property "Reference" "R629"
+			(at 99.06 256.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10Ω"
+			(at 99.06 261.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:R2512"
+			(at 99.06 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/25121WF100JT4E/48024.html"
+			(at 99.06 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Type:Thick Film Resistor Resistance:10Ω Tolerance:±1% Tolerance:±1% Power(Watts):1W Voltage-Supply(Max):200V Temperature Coefficient:±400ppm/°C Temperature Coefficient:±400ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
+			(at 99.06 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "25121WF100JT4E"
+			(at 99.06 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 99.06 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C47019"
+			(at 99.06 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 99.06 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "10Ω ±1% 1W 厚膜电阻"
+			(at 99.06 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bcc1060a-fff3-478b-9a06-57b7c602b6a2")
+		)
+		(pin "2"
+			(uuid "1592b4b6-c510-4585-9384-716f9124ffef")
+		)
+		(instances
+			(project "CBC_PCB"
+				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/cc7537cf-40ae-42d0-a857-c01ca15aab74"
+					(reference "R629")
 					(unit 1)
 				)
 			)
@@ -17458,6 +18271,83 @@
 			(project "CBC_PCB"
 				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/cc7537cf-40ae-42d0-a857-c01ca15aab74"
 					(reference "#PWR0629")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 83.82 271.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "21227f76-8975-4e51-988d-60d10b8a17a6")
+		(property "Reference" "#PWR0715"
+			(at 83.82 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "H_PWR-IN_AUX"
+			(at 83.82 267.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 83.82 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d6dd142-8ac1-4d6a-a70a-568beebac4f4")
+		)
+		(instances
+			(project "CBC_PCB"
+				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/cc7537cf-40ae-42d0-a857-c01ca15aab74"
+					(reference "#PWR0715")
 					(unit 1)
 				)
 			)
@@ -18809,7 +19699,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:C0603"
+		(property "Footprint" "EasyEDA_Lib:C0805"
 			(at 196.85 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -18820,7 +19710,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/GCM1885C2A121FA16D/1955152.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C527211.pdf"
 			(at 196.85 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -18831,7 +19721,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:120pF Tolerance:±1% Tolerance:±1% Voltage Rating:100V Temperature Coefficient:C0G"
+		(property "Description" "Capacitance:120pF Tolerance:±5% Voltage Rating:500V Temperature Coefficient:NP0 0805 (snubber, was 100V 0603)"
 			(at 196.85 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -18842,7 +19732,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "GCM1885C2A121FA16D"
+		(property "Manufacturer Part" "CC0805JRNPOBBN121"
 			(at 196.85 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -18853,7 +19743,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "muRata(村田)"
+		(property "Manufacturer" "YAGEO"
 			(at 196.85 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -18864,7 +19754,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C1864338"
+		(property "Supplier Part" "C527211"
 			(at 196.85 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -18886,7 +19776,7 @@
 				)
 			)
 		)
-		(property "LCSC Part Name" "120pF ±1% 100V"
+		(property "LCSC Part Name" "120pF ±5% 500V NP0"
 			(at 196.85 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -18907,6 +19797,141 @@
 			(project "CBC_PCB"
 				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/cc7537cf-40ae-42d0-a857-c01ca15aab74"
 					(reference "U605")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CBC_PCB:25121WF100JT4E")
+		(at 99.06 246.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34234147-f085-4e13-99dc-aa0772a36361")
+		(property "Reference" "R628"
+			(at 99.06 243.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10Ω"
+			(at 99.06 248.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:R2512"
+			(at 99.06 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/25121WF100JT4E/48024.html"
+			(at 99.06 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Type:Thick Film Resistor Resistance:10Ω Tolerance:±1% Tolerance:±1% Power(Watts):1W Voltage-Supply(Max):200V Temperature Coefficient:±400ppm/°C Temperature Coefficient:±400ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
+			(at 99.06 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "25121WF100JT4E"
+			(at 99.06 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 99.06 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C47019"
+			(at 99.06 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 99.06 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "10Ω ±1% 1W 厚膜电阻"
+			(at 99.06 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1f604a44-ab42-4757-a55d-952c5760898b")
+		)
+		(pin "2"
+			(uuid "5b27f614-0e53-4192-98e5-c9a395056899")
+		)
+		(instances
+			(project "CBC_PCB"
+				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/cc7537cf-40ae-42d0-a857-c01ca15aab74"
+					(reference "R628")
 					(unit 1)
 				)
 			)
@@ -19252,6 +20277,129 @@
 			(project "CBC_PCB"
 				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/cc7537cf-40ae-42d0-a857-c01ca15aab74"
 					(reference "U608")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CBC_PCB:NTC_10D-15")
+		(at 45.72 255.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3c6749bb-2e9c-4e0e-99e6-c556a2b7dea3")
+		(property "Reference" "RT601"
+			(at 45.72 251.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NTC 10D-15"
+			(at 45.72 259.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib_2:RES-TH_L12.5-W5.1-P7.50-D1.2-S2.20"
+			(at 45.72 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C105635.pdf"
+			(at 45.72 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "NTC inrush current limiter, 10 Ohm at 25C, Imax 5A, R at Imax 0.18 Ohm, B 2950K, 15mm disc, THT P=7.5mm, -40..+200C"
+			(at 45.72 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "NTC 10D-15"
+			(at 45.72 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "RUILON"
+			(at 45.72 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C105635"
+			(at 45.72 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 45.72 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cb74f8ff-98de-41cd-ae96-7a3f3659d530")
+		)
+		(pin "2"
+			(uuid "417c620f-fa00-410c-8e6a-f030ea247393")
+		)
+		(instances
+			(project "CBC_PCB"
+				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/cc7537cf-40ae-42d0-a857-c01ca15aab74"
+					(reference "RT601")
 					(unit 1)
 				)
 			)
@@ -20018,7 +21166,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CMMR1U-02%2520TR%2520PBFREE/6152318.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C48996687.pdf"
 			(at 186.69 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -20040,7 +21188,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "CMMR1U-02 TR PBFREE"
+		(property "Manufacturer Part" "ES1DFL"
 			(at 186.69 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -20051,7 +21199,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Central(中环)"
+		(property "Manufacturer" "DOWO"
 			(at 186.69 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -20062,7 +21210,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C5354735"
+		(property "Supplier Part" "C48996687"
 			(at 186.69 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -22531,7 +23679,7 @@
 				)
 			)
 		)
-		(property "Value" "H_PWR-IN"
+		(property "Value" "H_PWR-IN_5V_P2"
 			(at 18.288 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22608,7 +23756,7 @@
 				)
 			)
 		)
-		(property "Value" "H_PWR-IN"
+		(property "Value" "H_PWR-IN_ISO"
 			(at 71.12 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24534,6 +25682,140 @@
 		)
 	)
 	(symbol
+		(lib_id "CBC_PCB:0154005.DR")
+		(at 99.06 271.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6c497ab0-8cf7-41e8-94fb-000181408f08")
+		(property "Reference" "F604"
+			(at 99.06 269.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0154003.DRT"
+			(at 99.06 274.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:FUSE-SMD_L9.8-W5.1"
+			(at 99.06 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C206913.pdf"
+			(at 99.06 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse 3A time-delay 125VAC/VDC, OMNI-BLOK SMD 9.7x5mm, interrupt rating 50A"
+			(at 99.06 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0154003.DRT"
+			(at 99.06 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Littelfuse(美国力特)"
+			(at 99.06 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C206913"
+			(at 99.06 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 99.06 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "125V贴片式保险丝（含保险丝座）"
+			(at 99.06 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b78894f-ad67-4f02-a1c6-679bb8d213ea")
+		)
+		(pin "2"
+			(uuid "10617376-e690-4eb3-984a-f7c0357f113a")
+		)
+		(instances
+			(project "CBC_PCB"
+				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/cc7537cf-40ae-42d0-a857-c01ca15aab74"
+					(reference "F604")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CBC_PCB:0603WAF3900T5E")
 		(at 232.41 115.57 0)
 		(unit 1)
@@ -24896,6 +26178,85 @@
 			(project "CBC_PCB"
 				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/cc7537cf-40ae-42d0-a857-c01ca15aab74"
 					(reference "#PWR0659")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 109.22 259.08 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "716d537f-4c9a-4dea-9686-4db9b7891267")
+		(property "Reference" "#FLG0629"
+			(at 109.22 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 109.22 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 109.22 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "48fa4e33-1d43-4b6d-a85b-b20205d95e5b")
+		)
+		(instances
+			(project "CBC_PCB"
+				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/cc7537cf-40ae-42d0-a857-c01ca15aab74"
+					(reference "#FLG0629")
 					(unit 1)
 				)
 			)
@@ -26009,7 +27370,7 @@
 				)
 			)
 		)
-		(property "Value" "H_PWR-IN"
+		(property "Value" "H_PWR-IN_5V_P1"
 			(at 182.88 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26462,6 +27823,83 @@
 			(project "CBC_PCB"
 				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/cc7537cf-40ae-42d0-a857-c01ca15aab74"
 					(reference "C609")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 60.96 255.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "79b485b8-e15d-4ff4-8aa7-165266111cb5")
+		(property "Reference" "#PWR0710"
+			(at 60.96 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "H_PWR-IN_AUX"
+			(at 60.96 251.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 60.96 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f7b1bf6-d104-4a13-b763-cf6f059f0f82")
+		)
+		(instances
+			(project "CBC_PCB"
+				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/cc7537cf-40ae-42d0-a857-c01ca15aab74"
+					(reference "#PWR0710")
 					(unit 1)
 				)
 			)
@@ -27399,6 +28837,239 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 116.84 246.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7df921ab-5702-43b9-b976-b1caeb9bd12e")
+		(property "Reference" "#PWR0712"
+			(at 116.84 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "H_PWR-IN_5V_P1"
+			(at 116.84 242.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 116.84 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ac3733df-4c48-40d2-93a7-a3c7c46529ac")
+		)
+		(instances
+			(project "CBC_PCB"
+				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/cc7537cf-40ae-42d0-a857-c01ca15aab74"
+					(reference "#PWR0712")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 116.84 259.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7eda3cac-749c-468d-918c-3f3de8733686")
+		(property "Reference" "#PWR0714"
+			(at 116.84 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "H_PWR-IN_5V_P2"
+			(at 116.84 255.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 116.84 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a771ba9-1d16-4fe0-bee6-2a19478c573a")
+		)
+		(instances
+			(project "CBC_PCB"
+				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/cc7537cf-40ae-42d0-a857-c01ca15aab74"
+					(reference "#PWR0714")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 55.88 255.27 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f9b5212-5d1d-464a-8bee-3e47e0a3d8ff")
+		(property "Reference" "#FLG0631"
+			(at 55.88 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 55.88 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 55.88 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b3fa33fe-f6bd-46af-8cf2-17a603b4a6e3")
+		)
+		(instances
+			(project "CBC_PCB"
+				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/cc7537cf-40ae-42d0-a857-c01ca15aab74"
+					(reference "#FLG0631")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 143.51 158.75 0)
 		(unit 1)
@@ -28329,7 +30000,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "SMBJ58A"
 			(at 186.69 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28350,7 +30021,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20171023/C135113_15087479551001053218.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C157526.pdf"
 			(at 186.69 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -28361,7 +30032,7 @@
 				)
 			)
 		)
-		(property "Description" "Reverse Stand-Off Voltage (Vrwm):85V Maximum Clamping Voltage:137V Peak Pulse Current (Ipp):4.4A Peak Pulse Power Dissipation (Ppp):600W Breakdown Voltage:94.4V Reverse Leakage Current (Ir):5uA Type:TVS"
+		(property "Description" "TVS unidirectional, Vrwm 58V, Vbr 64.4V min, Vc 93.6V @ 6.4A, 600W, SMB (flyback clamp, was SMBJ85A)"
 			(at 186.69 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -28372,7 +30043,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "SMBJ85A-13-F"
+		(property "Manufacturer Part" "SMBJ58A"
 			(at 186.69 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -28383,7 +30054,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "DIODES(美台)"
+		(property "Manufacturer" "Littelfuse"
 			(at 186.69 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -28394,7 +30065,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C135108"
+		(property "Supplier Part" "C157526"
 			(at 186.69 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -28416,7 +30087,7 @@
 				)
 			)
 		)
-		(property "LCSC Part Name" "SMBJ85A-13-F"
+		(property "LCSC Part Name" "SMBJ58A"
 			(at 186.69 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -29732,7 +31403,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:R0603"
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
 			(at 196.85 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -29743,7 +31414,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/PTFR0603B100RN9/373963.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C421954.pdf"
 			(at 196.85 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -29754,7 +31425,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thin Film Resistor Resistance:100Ω Tolerance:±0.1% Tolerance:±0.1% Power(Watts):100mW Voltage-Supply(Max):100V Temperature Coefficient:±10ppm/°C Temperature Coefficient:±10ppm/°C Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C"
+		(property "Description" "Type:Thick Film Resistor Resistance:100Ω Tolerance:±1% Power:750mW Voltage:200V 2010 (snubber, was 0603)"
 			(at 196.85 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -29765,7 +31436,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "PTFR0603B100RN9"
+		(property "Manufacturer Part" "201007F1000T4E"
 			(at 196.85 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -29776,7 +31447,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "RESI(开步睿思)"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 196.85 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -29787,7 +31458,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C394538"
+		(property "Supplier Part" "C421954"
 			(at 196.85 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -29809,7 +31480,7 @@
 				)
 			)
 		)
-		(property "LCSC Part Name" "薄膜电阻 100Ω ±0.1% 100mW"
+		(property "LCSC Part Name" "100Ω ±1% 750mW 2010"
 			(at 196.85 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -30915,7 +32586,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CBC_PCB:XAL6030-102MEC")
+		(lib_id "EasyEDA_Lib_2:FAUL0630-1R0MT")
 		(at 271.78 162.56 0)
 		(unit 1)
 		(body_style 1)
@@ -30926,16 +32597,6 @@
 		(dnp no)
 		(uuid "a9f4f34d-ba8f-432b-a87e-120e211d1f1a")
 		(property "Reference" "U609"
-			(at 271.78 157.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1uH"
 			(at 271.78 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30945,7 +32606,17 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:IND-SMD_L6.6-W6.4_XAL6060-103ME"
+		(property "Value" ""
+			(at 271.78 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib_2:IND-SMD_L7.0-W6.6"
 			(at 271.78 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -30956,7 +32627,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.coilcraft.com/getmedia/ea51f14b-7f32-4dc6-8dfe-d4b70549040f/xal60xx.pdf"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/FAUL0630-1R0MT/3597526.html"
 			(at 271.78 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -30967,7 +32638,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductance:1uH Tolerance:±20% Tolerance:±20% Current - Saturation(Isat):23A DC Resistance(DCR):5.62mΩ Ratings:AEC-Q200"
+		(property "Description" ""
 			(at 271.78 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -30978,7 +32649,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "XAL6030-102MEC"
+		(property "Manufacturer Part" "FAUL0630-1R0MT"
 			(at 271.78 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -30989,7 +32660,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Coilcraft(线艺)"
+		(property "Manufacturer" "cjiang(长江微电)"
 			(at 271.78 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -31000,7 +32671,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C2938919"
+		(property "Supplier Part" "C3040349"
 			(at 271.78 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -31022,7 +32693,7 @@
 				)
 			)
 		)
-		(property "LCSC Part Name" "1uH ±20% 23A"
+		(property "LCSC Part Name" "1uH ±20% 15A"
 			(at 271.78 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -31343,6 +33014,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 83.82 259.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "adfb32e9-606f-455d-b905-41c20fb8a83e")
+		(property "Reference" "#PWR0713"
+			(at 83.82 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "H_PWR-IN_AUX"
+			(at 83.82 255.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 83.82 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cbac1875-5b63-4c7b-a3a3-cec944473a5c")
+		)
+		(instances
+			(project "CBC_PCB"
+				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/cc7537cf-40ae-42d0-a857-c01ca15aab74"
+					(reference "#PWR0713")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 251.46 203.2 0)
 		(unit 1)
@@ -31416,6 +33164,83 @@
 			(project "CBC_PCB"
 				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/cc7537cf-40ae-42d0-a857-c01ca15aab74"
 					(reference "#FLG0623")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 83.82 246.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b1a34efc-450c-4b3c-9e60-9262cd95c009")
+		(property "Reference" "#PWR0711"
+			(at 83.82 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "H_PWR-IN_AUX"
+			(at 83.82 242.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 83.82 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2dd9cfc1-15cc-407f-aed3-0a0a3a068bbc")
+		)
+		(instances
+			(project "CBC_PCB"
+				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/cc7537cf-40ae-42d0-a857-c01ca15aab74"
+					(reference "#PWR0711")
 					(unit 1)
 				)
 			)
@@ -32371,7 +34196,7 @@
 				)
 			)
 		)
-		(property "Value" "H_PWR-IN"
+		(property "Value" "H_PWR-IN_5V_P1"
 			(at 18.288 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33073,6 +34898,50 @@
 				)
 			)
 		)
+		(property "Manufacturer Part" "MP9486GN-Z"
+			(at 48.26 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "MPS"
+			(at 48.26 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C6675210"
+			(at 48.26 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 48.26 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "0c4cd0fe-9980-41d7-9178-2cd9ed29b23f")
 		)
@@ -33284,7 +35153,7 @@
 				)
 			)
 		)
-		(property "Value" "H_PWR-IN"
+		(property "Value" "H_PWR-IN_5V_P2"
 			(at 182.88 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33491,6 +35360,83 @@
 			(project "CBC_PCB"
 				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/cc7537cf-40ae-42d0-a857-c01ca15aab74"
 					(reference "#FLG0617")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 116.84 271.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c5340b37-6d25-4d3e-a24d-1e54781c7360")
+		(property "Reference" "#PWR0716"
+			(at 116.84 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "H_PWR-IN_ISO"
+			(at 116.84 267.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 116.84 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "112f021d-31da-44bd-8165-603fd317b3e1")
+		)
+		(instances
+			(project "CBC_PCB"
+				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/cc7537cf-40ae-42d0-a857-c01ca15aab74"
+					(reference "#PWR0716")
 					(unit 1)
 				)
 			)
@@ -35574,7 +37520,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "LT3748EMS#PBF"
+		(property "Manufacturer Part" "LT3748HMS#PBF"
 			(at 138.43 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -35585,7 +37531,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "ADI(亚德诺)"
+		(property "Manufacturer" "ADI"
 			(at 138.43 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -35596,7 +37542,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C117158"
+		(property "Supplier Part" "C580126"
 			(at 138.43 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -35953,7 +37899,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "CL10C470JB8NNNC"
+		(property "Manufacturer Part" "GCM1885C2A470JA16D"
 			(at 177.8 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -35964,7 +37910,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
+		(property "Manufacturer" "muRata"
 			(at 177.8 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -35975,7 +37921,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C1671"
+		(property "Supplier Part" "C126580"
 			(at 177.8 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -36221,7 +38167,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "RC0402FR-070RL"
+		(property "Manufacturer Part" "0402WGF0000TCE"
 			(at 165.1 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -36232,7 +38178,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO(国巨)"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 165.1 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -36243,7 +38189,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C106231"
+		(property "Supplier Part" "C17168"
 			(at 165.1 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -36364,6 +38310,83 @@
 			(project "CBC_PCB"
 				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/cc7537cf-40ae-42d0-a857-c01ca15aab74"
 					(reference "#PWR0660")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 30.48 255.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e30c4dae-c71d-4f7d-bb78-a4d444d64c1e")
+		(property "Reference" "#PWR0709"
+			(at 30.48 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "H_PWR-IN"
+			(at 30.48 251.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 30.48 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f85c9ac2-568c-4706-8417-2610a1c5735e")
+		)
+		(instances
+			(project "CBC_PCB"
+				(path "/d195d1ee-585b-4211-912f-f5dd5687bc63/cc7537cf-40ae-42d0-a857-c01ca15aab74"
+					(reference "#PWR0709")
 					(unit 1)
 				)
 			)
@@ -37704,6 +39727,50 @@
 			)
 		)
 		(property "Description" ""
+			(at 48.26 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "MP9486GN-Z"
+			(at 48.26 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "MPS"
+			(at 48.26 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C6675210"
+			(at 48.26 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
 			(at 48.26 88.9 0)
 			(hide yes)
 			(show_name no)
