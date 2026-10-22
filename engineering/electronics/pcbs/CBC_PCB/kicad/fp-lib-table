@@ -8,6 +8,6 @@
 	(lib (name "EasyEDA_Lib_2") (type "EasyEDA / JLCEDA Pro") (uri "${KIPRJMOD}/EasyEDA_Lib_2/EasyEDA_Lib_2.elibz") (options "") (descr ""))
 	(lib (name "Samacsys") (type "KiCad") (uri "${KIPRJMOD}/libs/Samacsys.pretty") (options "") (descr "Vendored Samacsys footprints used by CBC"))
 	(lib (name "Snapeda") (type "KiCad") (uri "${KICAD_3RD_PARTY}/Snapeda.pretty") (options "") (descr ""))
-
-  (lib (name "lcsc_footprints")(type "KiCad")(uri "${KIPRJMOD}/libs/lcsc/footprints.pretty")(options "")(descr "LCSC imported footprints"))
+	(lib (name "lcsc_footprints") (type "KiCad") (uri "${KIPRJMOD}/libs/lcsc/footprints.pretty") (options "") (descr "LCSC imported footprints"))
+	(lib (name "CBC_Art") (type "KiCad") (uri "${KIPRJMOD}/CBC_Art.pretty") (options "") (descr ""))
 )

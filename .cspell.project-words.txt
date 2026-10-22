@@ -111,3 +111,17 @@ pinouts
 pyuavcan
 licence
 licences
+Eeschema
+LCSC
+ATTEN
+RUILON
+UVLO
+Littelfuse
+DCDCs
+SMBJ
+cjiang
+FAUL
+Isat
+Elec
+PESD
+zener

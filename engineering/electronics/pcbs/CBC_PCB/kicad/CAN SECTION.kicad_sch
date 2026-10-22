@@ -9891,7 +9891,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "RC0402FR-070RL"
+		(property "Manufacturer Part" "0402WGF0000TCE"
 			(at 265.43 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -9902,7 +9902,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO(国巨)"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 265.43 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -9913,7 +9913,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C106231"
+		(property "Supplier Part" "C17168"
 			(at 265.43 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -10532,6 +10532,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Manufacturer Part" "PESD0603-240"
+			(at 238.252 86.614 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Littelfuse"
+			(at 238.252 86.614 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C2929617"
+			(at 238.252 86.614 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 238.252 86.614 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -11363,6 +11407,50 @@
 				(justify left bottom)
 			)
 		)
+		(property "Manufacturer Part" "0805W8F0000T5E"
+			(at 172.212 54.864 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 172.212 54.864 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C17477"
+			(at 172.212 54.864 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 172.212 54.864 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f144ab60-c8bd-4737-95e1-e1c6dc0ebfd8")
 		)
@@ -12023,6 +12111,50 @@
 				(justify left top)
 			)
 		)
+		(property "Manufacturer Part" "PESD0603-240"
+			(at 235.712 44.704 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Littelfuse"
+			(at 235.712 44.704 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C2929617"
+			(at 235.712 44.704 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 235.712 44.704 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "374928c9-f16b-4617-83c8-625ba2d9098a")
 		)
@@ -12618,6 +12750,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Manufacturer Part" "CC0805KRX7R9BB104"
+			(at 206.502 40.894 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 206.502 40.894 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C49678"
+			(at 206.502 40.894 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 206.502 40.894 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14969,6 +15145,50 @@
 				(justify left top)
 			)
 		)
+		(property "Manufacturer Part" "TJA1049T/3J-HX"
+			(at 187.452 52.324 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ZHHXDZ"
+			(at 187.452 52.324 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C53326714"
+			(at 187.452 52.324 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 187.452 52.324 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "055d3e96-4658-4750-962b-f25b87dac9cc")
 		)
@@ -15140,6 +15360,50 @@
 				(justify left bottom)
 			)
 		)
+		(property "Manufacturer Part" "0805W8F1002T5E"
+			(at 179.832 54.864 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 179.832 54.864 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C17414"
+			(at 179.832 54.864 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 179.832 54.864 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "077087d5-3d33-4b5d-8295-d40980e2a0f9")
 		)
@@ -15291,6 +15555,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Manufacturer Part" "CC0805KRX7R9BB104"
+			(at 188.722 40.894 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 188.722 40.894 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C49678"
+			(at 188.722 40.894 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 188.722 40.894 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -18676,7 +18984,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/PESD1CAN-UX/164067.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19170883.pdf"
 			(at 236.22 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -18687,7 +18995,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarity:Bidirectional Reverse Stand-Off Voltage (Vrwm):24V Clamping Voltage:50V Peak Pulse Current (Ipp):3A@8/20us Peak Pulse Power Dissipation (Ppp):150W@8/20us Voltage - Breakdown:27.8V Reverse Leakage Current (Ir):1nA Number of Channels:2 Operating Te"
+		(property "Description" "CAN ESD 2-line, 24V Vrwm, 35V Vc, 220W 8/20us, SOT-323 (second source for Nexperia PESD1CAN-UX)"
 			(at 236.22 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -18698,7 +19006,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "PESD1CAN-UX"
+		(property "Manufacturer Part" "PESD1CAN-UX-ES"
 			(at 236.22 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -18709,7 +19017,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Nexperia(安世)"
+		(property "Manufacturer" "ElecSuper"
 			(at 236.22 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -18720,7 +19028,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C152727"
+		(property "Supplier Part" "C19170883"
 			(at 236.22 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -18742,7 +19050,7 @@
 				)
 			)
 		)
-		(property "LCSC Part Name" "双向ESD 24V截止 峰值脉冲电流：3A@8/20us"
+		(property "LCSC Part Name" "PESD1CAN-UX-ES"
 			(at 236.22 228.6 0)
 			(hide yes)
 			(show_name no)

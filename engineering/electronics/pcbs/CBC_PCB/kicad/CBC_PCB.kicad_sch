@@ -5,7 +5,7 @@
 	(uuid "d195d1ee-585b-4211-912f-f5dd5687bc63")
 	(paper "A4")
 	(lib_symbols)
-	(text "- 2x Internal 5V supply (DCDC step down\nconverter MP9486GN-Z, GND is not\nisolated from battery output)\n\n- 2x Internal 3.3V supply with AMS1117-3.3\nfrom 5V\n\n- External isolated 12V supply. Only used\nin external main PCB. Directly connected\nto 12 pin connector listed under peripherals "
+	(text "- 2x Internal 5V supply (DCDC step down\nconverter MP9486GN-Z, GND is not\nisolated from battery output).\nrev PT1.5: logic GND tied to H_PWR-IN-\nvia NT201, so all logic runs as soon as\nthe battery is on)\n\n- 2x Internal 3.3V supply with AMS1117-3.3\nfrom 5V\n\n- External isolated 12V supply. Only used\nin external main PCB. Directly connected\nto 12 pin connector listed under peripherals "
 		(exclude_from_sim no)
 		(at 86.36 50.8 0)
 		(effects
@@ -40,7 +40,7 @@
 		)
 		(uuid "2fe38463-b66a-4fb9-bb9b-7f2413a3319e")
 	)
-	(text "- Power input from the battery (H_PWR-IN,\nH_PWR-IN--PREFUSE, CANH_BAT, CANL_BAT)\n\n- Fuse layout with\n2x AMT0650009DB0000G screw terminal\n\n- Power output with\n2x AMT0650009DB0000G screw terminal\n\n- 2x 12V DCDC converter for creating\nthe mosfet gate voltage. 10 ohm resistor\nin series with input for inrush current\nlimitation.\n\n- Precharge circuit (active after\nbattery startup). Enables onboard\npower supply for switching logic.\nNot used anymore after main mosfets\nare activated (few seconds after battery\nis turned on). Can be switched off by\nthe ESP32.\n\n- Main mosfet switch. 7x TOLL-8 mosfet.\nControlled by \"SWITCHED_GATE_V\".\nSwitching H_PWR-IN- to GND.\n\n- Normally Open SSR. Switched by\nmofet control signal logic.\nApplies 12V to the main mosfet gates.\nActivation signal is latched in\n\"KILL SWITCH and mosfet control signal\" section.\n\n-\"KILL SWITCH and mosfet control signal\" section:\n	-ESP_ENABLE_SIGNAL can activate the main mosfets.\n	 The signal is latched and can not be deactivated\n	 by the ESP32. A reboot of the ESP32 does not\n	 effect the activation of the main mosfets.\n	-The mosfet signal goes though a normally closed\n	 SSR. The only way to deactivate the main mosfets\n	 is over the external applied 12V_TRIGGER_SIG.\n	 Its protected with a SCHMITT trigger circuit\n	 (only activates if the 12V signal is applied for\n	 ~1.5 seconds). The signal from the SCHMITT trigger\n	 can then open the normally closed SSR.\n	-A MAX810R is used to define the startup condition\n	 of the latching circuit.\n\n"
+	(text "- Power input from the battery (H_PWR-IN,\nH_PWR-IN--PREFUSE, CANH_BAT, CANL_BAT)\n\n- Fuse layout with\n2x AMT0650009DB0000G screw terminal\n\n- Power output with\n2x AMT0650009DB0000G screw terminal\n\n- 2x 12V DCDC converter for creating\nthe mosfet gate voltage. 10 ohm resistor\nin series with input for inrush current\nlimitation.\n\n- Precharge circuit, switched on by the\nESP32 (PRECHARGE_ESP_SIGNAL) after boot.\nESP32 checks PRECHARGE_SENSE (voltage\nacross the main switch) before it sets\nthe main mosfet latch, then switches\nprecharge off again.\n\n- Main mosfet switch. 7x TOLL-8 mosfet.\nControlled by \"SWITCHED_GATE_V\".\nSwitching H_PWR-IN- to H_PWR-OUT-\n(switched ESC minus).\n\n- Normally Open SSR. Switched by\nmofet control signal logic.\nApplies 12V to the main mosfet gates.\nActivation signal is latched in\n\"KILL SWITCH and mosfet control signal\" section.\n\n-\"KILL SWITCH and mosfet control signal\" section:\n	-ESP_ENABLE_SIGNAL can activate the main mosfets.\n	 The signal is latched and can not be deactivated\n	 by the ESP32. A reboot of the ESP32 does not\n	 effect the activation of the main mosfets.\n	-The mosfet signal goes though a normally closed\n	 SSR. The only way to deactivate the main mosfets\n	 is over the external applied 12V_TRIGGER_SIG.\n	 Its protected with a SCHMITT trigger circuit\n	 (only activates if the 12V signal is applied for\n	 ~1.5 seconds). The signal from the SCHMITT trigger\n	 can then open the normally closed SSR.\n	-A MAX810R is used to define the startup condition\n	 of the latching circuit.\n\n"
 		(exclude_from_sim no)
 		(at 25.4 49.53 0)
 		(effects
@@ -62,7 +62,7 @@
 		)
 		(uuid "68377965-756b-4496-bd3d-27a04acad9d1")
 	)
-	(text "- AT13-08PA-BM01 (8 Pin connector) used for\nconnecting the CBC_PCB to the drone main PCB.\n\n- 2x on board temperature sensor"
+	(text "- AT13-08PA-BM01 (8 Pin connector) used for\nconnecting the CBC_PCB to the drone main PCB.\n\n- 2x on board temperature sensor\n\n- Active buzzer BZ501 on IO38 (rev PT1.5)"
 		(exclude_from_sim no)
 		(at 231.14 50.8 0)
 		(effects

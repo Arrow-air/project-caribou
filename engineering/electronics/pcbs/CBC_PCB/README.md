@@ -271,15 +271,17 @@ CBC_PCB/
 ├── docs/                   ← board-specific notes, requirements, design docs
 │   ├── connector-pinout.md ← connector/harness pinout and wiring notes
 │   ├── power-architecture.md ← power tree and protection notes
+│   ├── pt1.5-changes.md    ← PT1.5 changes: precharge ground fix, sensing, buzzer, aux inrush
 │   └── schematic-review-followup.md ← schematic review action register
 ├── firmware/               ← board-specific firmware (ESP32-S3)
 ├── images/                 ← board renders, screenshots, diagrams, photos
 ├── kicad/                  ← KiCad 10 project files
-│   └── libs/               ← project-local KiCad libraries
-│       ├── 3dmodels/       ← project-local 3D models
-│       ├── CBC_PCB.pretty/ ← project-local footprint library
-│       └── CBC_PCB.kicad_sym ← project-local symbol library
-└── manufacturing/          ← Gerbers, BOM, assembly drawings, pick-and-place
+│   ├── libs/               ← project-local KiCad libraries
+│   │   ├── 3dmodels/       ← project-local 3D models
+│   │   ├── CBC_PCB.pretty/ ← project-local footprint library
+│   │   └── CBC_PCB.kicad_sym ← project-local symbol library
+│   └── production/         ← JLC fab outputs: Gerber zip, BOM, positions, netlist
+└── manufacturing/          ← board STEP (zipped, CBC_PCB.step.zip) and fab toolkit options
 ```
 
 ## Related

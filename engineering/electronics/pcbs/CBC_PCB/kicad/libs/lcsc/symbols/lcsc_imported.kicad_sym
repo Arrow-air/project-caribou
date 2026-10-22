@@ -651,7 +651,7 @@
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type background))
       )
-      (pin passive line
+      (pin unspecified line
         (at -12.7 5.08 0)
         (length 5.08)
         (name "A"
@@ -665,7 +665,7 @@
           )
         )
       )
-      (pin passive line
+      (pin unspecified line
         (at -12.7 -5.08 0)
         (length 5.08)
         (name "C"
@@ -679,7 +679,7 @@
           )
         )
       )
-      (pin passive line
+      (pin unspecified line
         (at 12.7 -5.08 180)
         (length 5.08)
         (name "VSS"
@@ -693,7 +693,7 @@
           )
         )
       )
-      (pin passive line
+      (pin unspecified line
         (at 12.7 -0.0 180)
         (length 5.08)
         (name "VO"
@@ -707,7 +707,7 @@
           )
         )
       )
-      (pin passive line
+      (pin unspecified line
         (at 12.7 5.08 180)
         (length 5.08)
         (name "VCC"
@@ -871,7 +871,7 @@
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type background))
       )
-      (pin passive line
+      (pin unspecified line
         (at -12.7 -0.0 0)
         (length 5.08)
         (name "NC"
@@ -1049,7 +1049,7 @@
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
-      (pin passive line
+      (pin unspecified line
         (at 5.08 7.62 270)
         (length 2.54000508001016)
         (name "C"
@@ -1063,7 +1063,7 @@
           )
         )
       )
-      (pin passive line
+      (pin unspecified line
         (at -5.08 2.54 0)
         (length 2.54)
         (name "B"
@@ -1077,7 +1077,7 @@
           )
         )
       )
-      (pin passive line
+      (pin unspecified line
         (at 5.08 -5.08 90)
         (length 2.54000508001016)
         (name "E"
@@ -1181,7 +1181,7 @@
       )
     )
     (symbol "FSV10150V_1_1"
-      (pin passive line
+      (pin unspecified line
         (at 5.08 2.54 180)
         (length 2.54)
         (name "A"
@@ -1195,7 +1195,7 @@
           )
         )
       )
-      (pin passive line
+      (pin unspecified line
         (at -5.08 -0.0 0)
         (length 2.54)
         (name "K"
@@ -1249,7 +1249,7 @@
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type background))
       )
-      (pin passive line
+      (pin unspecified line
         (at 5.08 -2.54 180)
         (length 2.54)
         (name "A"
@@ -1319,7 +1319,7 @@
       )
     )
     (symbol "RC0603FR-07300RL_1_1"
-      (pin passive line
+      (pin input line
         (at 5.08 -0.0 180)
         (length 2.54)
         (name "2"
@@ -1333,7 +1333,7 @@
           )
         )
       )
-      (pin passive line
+      (pin input line
         (at -5.08 -0.0 0)
         (length 2.54)
         (name "1"
@@ -1409,7 +1409,7 @@
       )
     )
     (symbol "RC0603FR-0720RL_1_1"
-      (pin passive line
+      (pin input line
         (at 5.08 -0.0 180)
         (length 2.54)
         (name "2"
@@ -1423,7 +1423,7 @@
           )
         )
       )
-      (pin passive line
+      (pin input line
         (at -5.08 -0.0 0)
         (length 2.54)
         (name "1"
@@ -1589,7 +1589,7 @@
       )
     )
     (symbol "100Ω_(1000)_±1%_1_1"
-      (pin passive line
+      (pin input line
         (at 5.08 -0.0 180)
         (length 2.54)
         (name "2"
@@ -1603,7 +1603,7 @@
           )
         )
       )
-      (pin passive line
+      (pin input line
         (at -5.08 -0.0 0)
         (length 2.54)
         (name "1"
