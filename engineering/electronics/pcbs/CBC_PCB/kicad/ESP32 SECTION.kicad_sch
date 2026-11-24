@@ -2959,7 +2959,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 12.7 270)
 					(length 2.54)
 					(name "EH"
@@ -2977,7 +2977,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -12.7 7.62 0)
 					(length 2.54)
 					(name "GND"
@@ -2995,7 +2995,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -12.7 5.08 0)
 					(length 2.54)
 					(name "VBUS"
@@ -3013,7 +3013,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -12.7 2.54 0)
 					(length 2.54)
 					(name "CC1"
@@ -3031,7 +3031,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -12.7 0 0)
 					(length 2.54)
 					(name "D+"
@@ -3049,7 +3049,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -12.7 -2.54 0)
 					(length 2.54)
 					(name "D-"
@@ -3067,7 +3067,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -12.7 -5.08 0)
 					(length 2.54)
 					(name "SBU1"
@@ -3085,7 +3085,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -12.7 -7.62 0)
 					(length 2.54)
 					(name "VBUS"
@@ -3103,7 +3103,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -12.7 -10.16 0)
 					(length 2.54)
 					(name "GND"
@@ -3121,7 +3121,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 12.7 -10.16 180)
 					(length 2.54)
 					(name "GND"
@@ -3139,7 +3139,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 12.7 -7.62 180)
 					(length 2.54)
 					(name "VBUS"
@@ -3157,7 +3157,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 12.7 -5.08 180)
 					(length 2.54)
 					(name "CC2"
@@ -3175,7 +3175,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 12.7 -2.54 180)
 					(length 2.54)
 					(name "D+"
@@ -3193,7 +3193,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 12.7 0 180)
 					(length 2.54)
 					(name "D-"
@@ -3211,7 +3211,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 12.7 2.54 180)
 					(length 2.54)
 					(name "SBU2"
@@ -3229,7 +3229,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 12.7 5.08 180)
 					(length 2.54)
 					(name "VBUS"
@@ -3247,7 +3247,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 12.7 7.62 180)
 					(length 2.54)
 					(name "GND"
@@ -4646,7 +4646,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -16.51 7.62 0)
 					(length 5.08)
 					(name "1"
@@ -4664,7 +4664,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -16.51 0 0)
 					(length 5.08)
 					(name "2"
@@ -4682,7 +4682,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -16.51 -7.62 0)
 					(length 5.08)
 					(name "3"
@@ -4700,7 +4700,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 16.51 -7.62 180)
 					(length 5.08)
 					(name "4"
@@ -4718,7 +4718,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 16.51 0 180)
 					(length 5.08)
 					(name "5"
@@ -4736,7 +4736,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 16.51 7.62 180)
 					(length 5.08)
 					(name "6"

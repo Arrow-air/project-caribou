@@ -2507,7 +2507,7 @@
 						(type background)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 2.54 0)
 					(length 2.54)
 					(name "B"
@@ -2525,7 +2525,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 -5.08 90)
 					(length 2.54)
 					(name "E"
@@ -2543,7 +2543,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 7.62 270)
 					(length 2.54)
 					(name "C"
